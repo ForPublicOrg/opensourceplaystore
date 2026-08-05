@@ -82,22 +82,70 @@ const FASTLANE_PATHS = [
 ];
 const IMG_RE = /\.(png|jpe?g|webp)$/i;
 
+/* Plenty of repos keep their real pictures in an assets folder and put git
+   symlinks in the fastlane tree. GitHub lists those as ordinary files, and
+   raw.githubusercontent serves a symlink's target *path as plain text* — so
+   baking that URL into a page gives a broken image (Obtainium, PodAura and
+   friends all do this). Anything far too small to be a picture is treated as
+   a suspect and checked properly. */
+const SYMLINK_MAX = 1024;
+
+/* A symlink blob is one line holding a relative path. Resolve it against the
+   file's own directory to get the URL of the picture it points at. */
+async function followSymlink(file) {
+  try {
+    const res = await fetch(file.download_url, { headers: { 'User-Agent': HEADERS['User-Agent'] } });
+    if (!res.ok) return null;
+    const target = (await res.text()).trim();
+    if (!target || /\s/.test(target) || !IMG_RE.test(target)) return null;
+    return new URL(target, file.download_url).toString();
+  } catch {
+    return null;
+  }
+}
+
+async function servesAnImage(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': HEADERS['User-Agent'] } });
+    return res.ok && (res.headers.get('content-type') || '').startsWith('image/');
+  } catch {
+    return false;
+  }
+}
+
+/* Returns a URL that really serves a picture, or null. Ordinary files are
+   trusted on their blob size alone, so the common case costs no requests. */
+async function pictureUrl(file) {
+  if (!file || !file.download_url) return null;
+  if (file.size > SYMLINK_MAX) return file.download_url;
+  const url = (await followSymlink(file)) || file.download_url;
+  return (await servesAnImage(url)) ? url : null;
+}
+
 async function discoverImages(owner, name) {
   for (const base of FASTLANE_PATHS) {
     const listing = await gh(`https://api.github.com/repos/${owner}/${name}/contents/${base}`);
     if (listing.notFound || !Array.isArray(listing)) continue;
     const out = {};
     const icon = listing.find((f) => f.type === 'file' && /^icon\.(png|webp)$/i.test(f.name));
-    if (icon && icon.download_url) out.icon = icon.download_url;
+    if (icon) {
+      const url = await pictureUrl(icon);
+      if (url) out.icon = url;
+    }
     const shotsDir = listing.find((f) => f.type === 'dir' && f.name === 'phoneScreenshots');
     if (shotsDir) {
       const shots = await gh(`https://api.github.com/repos/${owner}/${name}/contents/${shotsDir.path}`);
       if (Array.isArray(shots)) {
-        out.screenshots = shots
+        const candidates = shots
           .filter((f) => f.type === 'file' && IMG_RE.test(f.name) && f.download_url)
           .sort((a, b) => a.name.localeCompare(b.name, 'en', { numeric: true }))
-          .slice(0, 6)
-          .map((f) => f.download_url);
+          .slice(0, 6);
+        const urls = [];
+        for (const shot of candidates) {
+          const url = await pictureUrl(shot);
+          if (url) urls.push(url);
+        }
+        if (urls.length) out.screenshots = urls;
       }
     }
     if (out.icon || (out.screenshots && out.screenshots.length)) return out;
