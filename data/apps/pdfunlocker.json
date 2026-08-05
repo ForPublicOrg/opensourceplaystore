@@ -1,0 +1,11 @@
+{
+  "id": "pdfunlocker",
+  "name": "PDF Unlocker",
+  "tagline": "Remove PDF passwords privately, right on your phone",
+  "description": "PDF Unlocker removes the password from a PDF file so you can open it freely, all done directly on your device. Nothing gets uploaded to a server, so your document stays private the whole time.\n\nIt's a small, focused app for anyone who's lost track of a PDF password or just needs quicker access to their own files.",
+  "repo": "https://github.com/OpenAppex/pdfunlocker",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["pdf", "offline", "privacy", "unlock"],
+  "added": "2026-08-05"
+}

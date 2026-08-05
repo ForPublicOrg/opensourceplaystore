@@ -1,0 +1,12 @@
+{
+  "id": "moneytoo-player",
+  "name": "Player",
+  "tagline": "Watch your videos smoothly, without the bloat",
+  "description": "Player is a simple, no-fuss video player for your phone. It plays almost any video format smoothly, using the same solid technology found behind many big-name apps, but stays light and fast.\n\nNo ads, no clutter, no confusing menus. Just pick a video and watch it.",
+  "repo": "https://github.com/moneytoo/Player",
+  "category": "media",
+  "license": "Unlicense",
+  "website": "https://play.google.com/store/apps/details?id=com.brouken.player",
+  "tags": ["video", "video-player", "exoplayer", "media", "player"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "listen-moe-android-app",
+  "name": "LISTEN.moe",
+  "tagline": "A 24/7 anime and J-pop/K-pop radio station in your pocket",
+  "description": "This is the official Android app for LISTEN.moe, an internet radio station that streams anime music and J-pop/K-pop around the clock. Just open it and start listening, with support for Android Auto so you can play it in the car too.\n\nIt is built and maintained by the LISTEN.moe team as an open source project.",
+  "repo": "https://github.com/LISTEN-moe/android-app",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["anime", "jpop", "kpop", "music-player", "android-auto"],
+  "added": "2026-08-05"
+}

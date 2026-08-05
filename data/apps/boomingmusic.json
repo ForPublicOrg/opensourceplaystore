@@ -1,0 +1,12 @@
+{
+  "id": "boomingmusic",
+  "name": "Booming Music",
+  "tagline": "A fast, good-looking music player with lyrics built in",
+  "description": "Booming Music is a clean, fast music player for the songs stored on your phone. It follows Material design, shows synced lyrics while you listen, and works fully offline.\n\nIt is actively developed and packed with the small touches that make a music player pleasant to use every day.",
+  "repo": "https://github.com/mardous/BoomingMusic",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://boomingmusic.org/",
+  "tags": ["music-player", "lyrics", "offline", "material3", "foss"],
+  "added": "2026-08-05"
+}

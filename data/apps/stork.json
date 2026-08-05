@@ -1,0 +1,12 @@
+{
+  "id": "stork",
+  "name": "Stork",
+  "tagline": "A dependable app for XMPP and Jabber chat",
+  "description": "Stork is an Android app for XMPP, also known as Jabber, one of the oldest open messaging standards still actively used today. It supports OMEMO encryption, so your conversations stay private even though the network itself is open and decentralized.\n\nIf you already have a Jabber account, or want a straightforward way to try one, Stork is a solid choice.",
+  "repo": "https://github.com/tigase/stork",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://tigase.net/",
+  "tags": ["xmpp", "jabber", "omemo", "instant-messaging"],
+  "added": "2026-08-05"
+}

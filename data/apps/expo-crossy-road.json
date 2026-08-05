@@ -1,0 +1,12 @@
+{
+  "id": "expo-crossy-road",
+  "name": "Crossy Road Clone",
+  "tagline": "Hop across busy roads and rivers to survive",
+  "description": "This is a playable clone of the popular endless hopper game Crossy Road. Guide your character across endless lanes of traffic, rivers, and obstacles, hopping one step at a time without getting hit.\n\nIt's simple to control and easy to jump into, with the same addictive one-more-try feel as the original.",
+  "repo": "https://github.com/EvanBacon/Expo-Crossy-Road",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://crossyroad.expo.app",
+  "tags": ["arcade", "endless", "3d"],
+  "added": "2026-08-05"
+}

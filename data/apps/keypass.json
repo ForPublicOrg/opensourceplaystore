@@ -1,0 +1,12 @@
+{
+  "id": "keypass",
+  "name": "KeyPass",
+  "tagline": "Store and manage your passwords, fully offline",
+  "description": "KeyPass is an offline password manager that puts you in control of your own logins. Store, organize, and generate strong passwords without relying on any cloud service or company server.\n\nWith a clean, modern design and no hidden tracking, KeyPass is built for people who want a simple and trustworthy way to keep their accounts secure.",
+  "repo": "https://github.com/yogeshpaliyal/KeyPass",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://github.yogeshpaliyal.com/KeyPass/",
+  "tags": ["password-manager", "password-generator", "offline", "material-design"],
+  "added": "2026-08-05"
+}

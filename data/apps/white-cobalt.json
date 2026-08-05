@@ -1,0 +1,11 @@
+{
+  "id": "white-cobalt",
+  "name": "White Cobalt",
+  "tagline": "Save videos and media from the internet with one tap",
+  "description": "White Cobalt is a native Android app for saving videos and media from the internet, built on top of the open source cobalt tools. Paste a link from a site you're browsing, and it fetches the media for you to keep.\n\nIt's a lightweight, native alternative to using cobalt through a website, built specifically to feel at home on your phone.",
+  "repo": "https://github.com/liubquanti/White-Cobalt",
+  "category": "internet",
+  "license": "AGPL-3.0",
+  "tags": ["downloader", "media", "cobalt"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "safehaven-store",
+  "name": "SafeHaven Store",
+  "tagline": "An alternative app store focused on open-source, malware-free apps",
+  "description": "SafeHaven Store is an open-source alternative to the Google Play Store. It aims to offer verified, open-source apps with built-in malware protection, giving you another way to discover and install apps you can actually trust.\n\nIt's an early, community-built project working toward being a safer, more transparent place to get Android apps.",
+  "repo": "https://github.com/phsycologicalFudge/SafeHaven-Store",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://colourswift.com/safehaven",
+  "tags": ["app-store", "open-source", "security"],
+  "added": "2026-08-05"
+}

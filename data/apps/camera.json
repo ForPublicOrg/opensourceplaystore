@@ -1,0 +1,12 @@
+{
+  "id": "camera",
+  "name": "GrapheneOS Camera",
+  "tagline": "A simple, privacy-first camera that can scan QR codes too",
+  "description": "GrapheneOS Camera is a modern camera app built with privacy and security as the priority. It takes photos and videos like any camera app, and can also scan QR codes and barcodes right from the viewfinder.\n\nIt's part of the GrapheneOS project, built to be lightweight, fast, and trustworthy by design.",
+  "repo": "https://github.com/GrapheneOS/Camera",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://grapheneos.org/",
+  "tags": ["camera", "privacy", "security", "grapheneos"],
+  "added": "2026-08-05"
+}

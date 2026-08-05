@@ -1,0 +1,11 @@
+{
+  "id": "nextdnsmanager",
+  "name": "NextDNS Manager",
+  "tagline": "Control your NextDNS privacy settings from your phone",
+  "description": "NextDNS Manager makes it easy to manage your NextDNS account right from your Android phone. NextDNS is a service that blocks ads, trackers, and malicious sites at the DNS level, and this app gives you quick access to your settings, logs, and filtering options.\n\nInstead of digging through a website, you can flip settings, check what's been blocked, and fine-tune your protection on the go.",
+  "repo": "https://github.com/doubleangels/nextdnsmanager",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["dns", "privacy", "adblocker", "nextdns"],
+  "added": "2026-08-05"
+}

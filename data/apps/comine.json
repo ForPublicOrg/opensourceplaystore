@@ -1,0 +1,12 @@
+{
+  "id": "comine",
+  "name": "Comine",
+  "tagline": "Download videos, audio, files, and torrents in one app",
+  "description": "Comine is an all-in-one downloader for grabbing video, audio, files, torrents, and even whole photo galleries from across the internet. Paste a link and let it handle fetching and organizing the download for you.\n\nIt runs on Windows, Linux, macOS, and Android, so the same tool can follow you between your phone and your computer.",
+  "repo": "https://github.com/nichind/comine",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://comine.app",
+  "tags": ["downloader", "video", "torrent"],
+  "added": "2026-08-05"
+}

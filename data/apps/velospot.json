@@ -1,0 +1,12 @@
+{
+  "id": "velospot",
+  "name": "VeloSpot",
+  "tagline": "Find and navigate to bike parking spots nearby",
+  "description": "VeloSpot helps you find and navigate to bike parking spots across Germany, France, and Luxembourg, with more than 100,000 locations in its database. It works offline-first, so you can find a place to lock up your bike even without a solid data connection.\n\nIt's built on open data and open-source routing, giving cyclists a genuinely free alternative to searching around blindly for somewhere safe to park.",
+  "repo": "https://github.com/drzeeb/VeloSpot",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://velospot.app/",
+  "tags": ["bike", "brouter", "cycling", "maplibre", "navigation", "offline-maps", "openstreetmap", "osm"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "papyrusreader-client",
+  "name": "Papyrus Reader",
+  "tagline": "Organize your ebook collection across all your devices",
+  "description": "Papyrus Reader is a book management app that keeps your ebook collection organized and in sync across Android, Linux, and Windows. Add books, track what you've read, and keep your reading list tidy in one place.\n\nIt's built for readers with growing libraries who want a clear overview of everything they own and everything they still want to read.",
+  "repo": "https://github.com/PapyrusReader/client",
+  "category": "reading",
+  "license": "AGPL-3.0",
+  "tags": ["ebook", "library", "book-tracker", "epub"],
+  "added": "2026-08-05"
+}

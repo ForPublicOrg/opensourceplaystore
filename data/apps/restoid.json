@@ -1,0 +1,12 @@
+{
+  "id": "restoid",
+  "name": "Restoid",
+  "tagline": "Back up your apps and data using restic, with root access",
+  "description": "Restoid backs up your installed apps and their data using restic, a fast and reliable backup tool, so you can restore your phone's apps exactly as they were if something goes wrong or you switch devices.\n\nIt needs root access to do a full, proper backup, and it's built to be safe, efficient, and fully open source.",
+  "repo": "https://github.com/hddq/restoid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://hddq.github.io/restoid/fdroid/repo",
+  "tags": ["backup", "restic", "root"],
+  "added": "2026-08-05"
+}

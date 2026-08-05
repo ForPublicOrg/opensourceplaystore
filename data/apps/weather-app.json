@@ -1,0 +1,11 @@
+{
+  "id": "weather-app",
+  "name": "FMI Weather",
+  "tagline": "Finland's official weather forecast app",
+  "description": "FMI Weather is the official mobile weather app from the Finnish Meteorological Institute. It delivers accurate, authoritative weather forecasts for Finland straight from the country's national weather agency.\n\nBecause it comes from the official source, you're getting the same reliable forecast data that meteorologists in Finland use themselves.",
+  "repo": "https://github.com/fmidev/weather-app",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["weather", "finland", "forecast"],
+  "added": "2026-08-05"
+}

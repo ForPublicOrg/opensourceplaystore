@@ -1,0 +1,12 @@
+{
+  "id": "merginmaps-mobile",
+  "name": "Mergin Maps",
+  "tagline": "Collect and edit map data on your phone, even offline",
+  "description": "Mergin Maps lets you open QGIS mapping projects and collect or edit geographic data right from your phone, even when you have no internet connection at all. It's built for field work, like surveying land, mapping infrastructure, or gathering environmental data.\n\nYour edits sync back up once you're online, so teams can work together on the same maps without needing constant connectivity in the field.",
+  "repo": "https://github.com/MerginMaps/mobile",
+  "category": "maps",
+  "license": "GPL-2.0",
+  "website": "https://merginmaps.com",
+  "tags": ["field-survey", "gis", "maps", "merginmaps", "qgis", "survey"],
+  "added": "2026-08-05"
+}

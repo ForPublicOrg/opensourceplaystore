@@ -1,0 +1,11 @@
+{
+  "id": "fresh-reader",
+  "name": "Fresh Reader",
+  "tagline": "A simple Android client for your FreshRSS server",
+  "description": "Fresh Reader is a simple Android client for FreshRSS, the popular open source, self-hosted feed reader. If you run your own FreshRSS server, this app gives you a native way to read your subscriptions from your phone.\n\nIt's a small, experimental project, built by someone scratching their own itch for a proper FreshRSS app, straightforward and focused on just reading your feeds.",
+  "repo": "https://github.com/HassanAliKadhem/fresh_reader",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "freshrss", "self-hosted"],
+  "added": "2026-08-05"
+}

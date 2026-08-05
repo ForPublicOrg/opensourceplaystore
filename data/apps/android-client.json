@@ -1,0 +1,12 @@
+{
+  "id": "android-client",
+  "name": "NetBird",
+  "tagline": "Connect your devices into one private, secure network",
+  "description": "NetBird lets you connect your phone and other devices into a single private network, no matter where they are, using the WireGuard protocol under the hood. It's like having all your devices on the same secure home network, even when you're out and about.\n\nIt supports single sign-on and multi-factor login, plus simple access controls, so you can safely reach your home server, work computer, or other devices straight from your phone.",
+  "repo": "https://github.com/netbirdio/android-client",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://netbird.io",
+  "tags": ["vpn", "wireguard", "mesh", "privacy", "zero-trust"],
+  "added": "2026-08-05"
+}

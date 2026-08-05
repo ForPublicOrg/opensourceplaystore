@@ -1,0 +1,11 @@
+{
+  "id": "locatemydevice",
+  "name": "Locate My Device",
+  "tagline": "Find your lost phone using a simple text message",
+  "description": "Locate My Device mimics Google's Find My Device feature, but it works through plain SMS text messages instead of needing an internet connection or a Google account. If your phone goes missing, you send it a text, and it texts back its location.\n\nIt's a lightweight, open-source safety net for anyone who wants a simple way to track down a lost or stolen phone.",
+  "repo": "https://github.com/ferrum/locatemydevice",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["localization", "location", "sms"],
+  "added": "2026-08-05"
+}

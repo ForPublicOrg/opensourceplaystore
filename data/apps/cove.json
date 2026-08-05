@@ -1,0 +1,12 @@
+{
+  "id": "cove",
+  "name": "Cove",
+  "tagline": "Discover and stream movies and shows through open addons",
+  "description": "Cove is a media streaming app for Android, Android TV, and desktop that helps you discover, track, and watch movies and TV shows. It pulls in rich details from TMDB and plays content through Stremio- and Nuvio-compatible addons, using a built-in mpv player for smooth playback.\n\nIt is open source, so what it does with addons and your data stays visible rather than hidden behind a closed app.",
+  "repo": "https://github.com/coveninja/cove",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://cove.ninja",
+  "tags": ["streaming", "mpv", "stremio", "addons", "media-library", "androidtv"],
+  "added": "2026-08-05"
+}

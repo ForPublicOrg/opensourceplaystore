@@ -1,0 +1,12 @@
+{
+  "id": "matchimals-fun",
+  "name": "Matchimals",
+  "tagline": "Match cute animal pairs in this card game",
+  "description": "Matchimals is a turn-based animal matching puzzle card game. Flip cards, find pairs, and race to match up all the animals before your opponent does.\n\nIt's light, colorful, and easy to pick up for a quick game with friends or family.",
+  "repo": "https://github.com/chrisheninger/matchimals.fun",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://www.matchimals.com",
+  "tags": ["card-game", "puzzle", "board-game"],
+  "added": "2026-08-05"
+}

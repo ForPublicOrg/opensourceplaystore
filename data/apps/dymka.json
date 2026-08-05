@@ -1,0 +1,12 @@
+{
+  "id": "dymka",
+  "name": "Dymka",
+  "tagline": "Learn Ukrainian and get ready for your ZNO exam",
+  "description": "Dymka helps you practice the Ukrainian language with an eye toward ZNO, Ukraine's national school exam. It's built for students who need focused, structured practice rather than a general-purpose language app.\n\nThe app is free, open source, and made specifically with Ukrainian learners in mind.",
+  "repo": "https://github.com/nexy791/dymka",
+  "category": "education",
+  "license": "Apache-2.0",
+  "website": "https://dymka.me/",
+  "tags": ["ukrainian", "language-learning", "exam-prep"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "spell4wiki",
+  "name": "Spell4Wiki",
+  "tagline": "Record your voice to help build free, open dictionaries",
+  "description": "Spell4Wiki lets you record and upload audio pronunciations of Wiktionary words straight to Wikimedia Commons, right from your phone. It's a way to contribute to free, open dictionaries used by people all over the world, and it doubles as a multilingual wiki-dictionary you can browse.\n\nIt's a small, focused app with a genuinely good cause behind it: helping languages be better represented online, spoken aloud by real people.",
+  "repo": "https://github.com/manimaran96/Spell4Wiki",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://commons.wikimedia.org/wiki/Commons:Spell4Wiki",
+  "tags": ["wiktionary", "dictionary", "wikimedia", "audio"],
+  "added": "2026-08-05"
+}

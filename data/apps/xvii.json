@@ -1,0 +1,11 @@
+{
+  "id": "xvii",
+  "name": "XVII",
+  "tagline": "A clean, ad-free app for the VK social network",
+  "description": "XVII is an unofficial app for VK, the popular Russian social network, offering messaging, feeds, and more without the clutter or ads of the official app. It's built to be fast, lightweight, and easy on the eyes.\n\nIf you use VK to keep up with friends, XVII gives you a simpler way to do it.",
+  "repo": "https://github.com/TwoEightNine/XVII",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["vk", "messenger", "social-network"],
+  "added": "2026-08-05"
+}

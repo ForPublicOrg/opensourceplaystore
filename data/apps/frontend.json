@@ -1,0 +1,12 @@
+{
+  "id": "frontend",
+  "name": "Helium Student Planner",
+  "tagline": "Keep track of homework, grades, and your class schedule",
+  "description": "Helium Student Planner brings homework, a calendar, and a gradebook together in one place for students who want to stay organized. Log your assignments and grades, and it can calculate your grades for you so you always know where you stand in a class.\n\nIt's cross-platform, with the same planner available on Android, iOS, and the web.",
+  "repo": "https://github.com/HeliumEdu/frontend",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://www.heliumedu.com",
+  "tags": ["student-planner", "gradebook", "homework", "calendar"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remixed-dungeon",
+  "name": "Remixed Pixel Dungeon",
+  "tagline": "Explore a pixel-art dungeon full of monsters and loot",
+  "description": "Remixed Pixel Dungeon is a traditional roguelike dungeon crawler with charming pixel-art graphics and a clean, simple interface. Descend through procedurally generated levels, fight monsters, and collect gear while trying to survive as deep as you can.\n\nIt's a community fork of the classic Pixel Dungeon, built to add extra features and polish on top of the original formula.",
+  "repo": "https://github.com/NYRDS/remixed-dungeon",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://wiki.nyrds.net",
+  "tags": ["roguelike", "dungeon-crawler", "pixel-art"],
+  "added": "2026-08-05"
+}

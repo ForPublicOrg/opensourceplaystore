@@ -1,0 +1,12 @@
+{
+  "id": "fossifyorg-file-manager",
+  "name": "Fossify File Manager",
+  "tagline": "Browse and manage your files with no ads or tracking",
+  "description": "Fossify File Manager helps you browse, move, copy, rename, and organize the files and folders on your phone, all without ads or hidden trackers watching what you do.\n\nIt's part of the Fossify family of privacy-respecting apps, built to be simple, fast, and completely open source so you always know exactly what it's doing with your data.",
+  "repo": "https://github.com/FossifyOrg/File-Manager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org/apps/file-manager/",
+  "tags": ["file-manager", "foss", "open-source"],
+  "added": "2026-08-05"
+}

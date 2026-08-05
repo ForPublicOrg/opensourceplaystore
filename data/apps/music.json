@@ -1,0 +1,11 @@
+{
+  "id": "music",
+  "name": "Music",
+  "tagline": "A clean, minimal player for the music on your phone",
+  "description": "Music is a local music player with a clean, minimal look inspired by Nothing's design style. It plays the songs already saved on your phone, wrapped in a simple, distraction-free interface.\n\nNo accounts and no streaming fees, just your own music library presented beautifully.",
+  "repo": "https://github.com/MissingCore/Music",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": ["music-player"],
+  "added": "2026-08-05"
+}

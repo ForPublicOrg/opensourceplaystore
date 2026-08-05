@@ -1,0 +1,11 @@
+{
+  "id": "texslate",
+  "name": "TeXslate",
+  "tagline": "Write and compile LaTeX documents right on your tablet",
+  "description": "TeXslate is a native LaTeX and XeTeX editor built for Android, with a layout designed to work well on tablets. Write your document, then compile it straight to PDF without needing a computer.\n\nIt runs fully offline using its own built-in typesetting engine, so you can work on papers, notes, or reports wherever you are.",
+  "repo": "https://github.com/thobgg/TeXslate",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["latex", "editor", "pdf", "offline", "tablet"],
+  "added": "2026-08-05"
+}

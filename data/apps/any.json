@@ -1,0 +1,11 @@
+{
+  "id": "any",
+  "name": "Any",
+  "tagline": "One app to read RSS, Hacker News, and other feeds",
+  "description": "Any is a reader that pulls together content from more than just RSS feeds, think Hacker News, Dribbble, 9GAG, and more, so you can browse several different sources from one app instead of jumping between them.\n\nIt's built to be extendable using simple JavaScript-based sources, giving it more flexibility than a typical RSS-only reader while staying easy to use day to day.",
+  "repo": "https://github.com/dokar3/any",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["rss", "reader", "news"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "simple-sms-messenger",
+  "name": "Simple SMS Messenger",
+  "tagline": "Send text messages without ads or tracking",
+  "description": "Simple SMS Messenger is a clean, no-fuss app for sending and reading text messages. It handles both SMS and MMS, so you can send photos and group texts too, all without ads slowing you down or getting in your way.\n\nIt's part of a well-known family of simple, open-source apps built to do one job well and respect your privacy.",
+  "repo": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://www.simplemobiletools.com",
+  "tags": ["sms", "messenger", "opensource"],
+  "added": "2026-08-05"
+}

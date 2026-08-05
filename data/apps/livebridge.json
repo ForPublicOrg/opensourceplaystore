@@ -1,0 +1,12 @@
+{
+  "id": "livebridge",
+  "name": "LiveBridge",
+  "tagline": "Add a fun dynamic island to your Android home screen",
+  "description": "LiveBridge brings the dynamic island / pill style live activity look to your Android phone, showing quick glanceable info like timers, music, or calls right at the top of your screen.\n\nIt's a lightweight utility built for people who like a bit of extra polish and convenience on their home screen, and it's completely free and open source.",
+  "repo": "https://github.com/appsfolder/livebridge",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://appsfolder.github.io/livebridge/",
+  "tags": ["dynamic-island", "live-updates", "utility"],
+  "added": "2026-08-05"
+}

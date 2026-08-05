@@ -1,0 +1,11 @@
+{
+  "id": "shizucallrecorder",
+  "name": "Shizu Call Recorder",
+  "tagline": "Record phone calls on your phone without rooting it",
+  "description": "Shizu Call Recorder lets you record your phone calls even if your phone isn't rooted. It works by using Shizuku, a tool that safely gives apps extra permissions through ADB, so you get call recording without the risks of rooting.\n\nIt's built for people who need a simple, reliable way to keep a record of important calls, all handled locally on your device.",
+  "repo": "https://github.com/kitsumed/ShizuCallRecorder",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["call-recording", "shizuku", "privacy", "no-root", "adb"],
+  "added": "2026-08-05"
+}

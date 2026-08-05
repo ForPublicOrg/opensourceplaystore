@@ -1,0 +1,12 @@
+{
+  "id": "zero",
+  "name": "Zero",
+  "tagline": "Track your spending privately with no cloud or account",
+  "description": "Zero is a lightweight expense tracker that keeps everything on your device, no servers, no cloud, no account required. Log your spending, organize it into categories, and see insightful analytics about where your money goes.\n\nIt also supports tracking debts and choosing your own theme, all while keeping your financial data completely private.",
+  "repo": "https://github.com/lossless-protocols-org/zero",
+  "category": "productivity",
+  "license": "BSD-2-Clause",
+  "website": "https://lossless.dev/zero",
+  "tags": ["expense-tracker", "finance", "budget", "privacy"],
+  "added": "2026-08-05"
+}

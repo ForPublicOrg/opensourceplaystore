@@ -1,0 +1,12 @@
+{
+  "id": "spixi",
+  "name": "Spixi",
+  "tagline": "A private messenger with calls, files, and a crypto wallet",
+  "description": "Spixi is an all-in-one communication app built around strong, future-proof encryption designed to resist even quantum computers. Send messages, make calls, share files, and chat with friends, all without relying on a central company's servers.\n\nIt also includes a built-in crypto wallet and small add-on apps, and since you hold your own keys, no one else can read your conversations or act on your behalf.",
+  "repo": "https://github.com/ixian-platform/Spixi",
+  "category": "social",
+  "license": "MIT",
+  "website": "https://www.spixi.io",
+  "tags": ["messaging", "p2p", "privacy", "post-quantum-cryptography", "voice-chat"],
+  "added": "2026-08-05"
+}

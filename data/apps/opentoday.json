@@ -1,0 +1,11 @@
+{
+  "id": "opentoday",
+  "name": "OpenToday",
+  "tagline": "Plan your day and never forget a reminder again",
+  "description": "OpenToday helps you organize your day-to-day life with planners, reminders, and to-do lists all in one place. Set up notifications so you never miss what matters.\n\nIt's a free, open-source app for anyone who wants a straightforward way to stay on top of daily tasks and reminders.",
+  "repo": "https://github.com/FazziCLAY/OpenToday",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["planner", "reminders", "todo", "organization"],
+  "added": "2026-08-05"
+}

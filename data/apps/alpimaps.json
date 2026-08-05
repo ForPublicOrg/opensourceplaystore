@@ -1,0 +1,12 @@
+{
+  "id": "alpimaps",
+  "name": "AlpiMaps",
+  "tagline": "Offline maps for hikers and mountain explorers",
+  "description": "AlpiMaps is an offline map app built for getting outdoors, especially in the mountains. It shows detailed OpenStreetMap data including trails and slope information, so you can plan routes and find your way even without a signal.\n\nBecause everything works offline, it's a solid companion for hiking, climbing, or any trip that takes you off the beaten path and away from cell coverage.",
+  "repo": "https://github.com/Akylas/alpimaps",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://www.akylas.fr",
+  "tags": ["gps", "location", "map", "maps", "openstreetmap", "slope"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ricochlime",
+  "name": "Ricochlime",
+  "tagline": "Bounce shots to pop cute pixel slimes",
+  "description": "Ricochlime is a satisfying monster-shooter game. Aim your shots, bounce them around the screen, and pop waves of cute pixel-art slimes.\n\nIt's cross-platform, lightweight, and easy to pick up for a quick casual session.",
+  "repo": "https://github.com/adil192/ricochlime",
+  "category": "games",
+  "license": "AGPL-3.0",
+  "website": "https://ricochlime.adil.hanney.org",
+  "tags": ["arcade", "casual", "pixel-art", "shooter"],
+  "added": "2026-08-05"
+}

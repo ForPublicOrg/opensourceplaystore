@@ -1,0 +1,11 @@
+{
+  "id": "kbbi4",
+  "name": "KBBI",
+  "tagline": "The official Indonesian dictionary, right on your phone",
+  "description": "KBBI is the Android app for Kamus Besar Bahasa Indonesia, the official comprehensive dictionary of the Indonesian language. Search for a word and get its official definitions straight from the source that Indonesian schools and dictionaries rely on.\n\nIt's a simple, no-fuss way to check spelling and meaning without digging through a physical dictionary or a cluttered website.",
+  "repo": "https://github.com/yukuku/kbbi4",
+  "category": "education",
+  "license": "MIT",
+  "tags": ["dictionary", "indonesian"],
+  "added": "2026-08-05"
+}

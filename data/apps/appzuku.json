@@ -1,0 +1,11 @@
+{
+  "id": "appzuku",
+  "name": "Appzuku",
+  "tagline": "Stop background apps to speed up and save battery",
+  "description": "Appzuku helps your phone run faster and last longer by stopping apps that keep running in the background without you noticing. It uses Root or Shizuku permissions to do this properly, going further than the basic app-closing tools built into Android.\n\nIt's a simple, focused tool for anyone who wants a quick performance and battery boost.",
+  "repo": "https://github.com/northmendo/Appzuku",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["battery-saver", "app-killer", "performance", "root"],
+  "added": "2026-08-05"
+}

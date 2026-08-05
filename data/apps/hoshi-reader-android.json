@@ -1,0 +1,11 @@
+{
+  "id": "hoshi-reader-android",
+  "name": "Hoshi Reader",
+  "tagline": "Read Japanese books and look up any word instantly",
+  "description": "Hoshi Reader is an EPUB reader built for people learning Japanese by reading real books. Tap any word to look it up with Yomitan, and send words straight into Anki for mining new vocabulary as you go.\n\nIt also supports audiobook read-along, so you can listen and read at the same time, and it's tuned to work well on e-ink screens for comfortable long reading sessions.",
+  "repo": "https://github.com/HuangAntimony/Hoshi-Reader-Android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["japanese", "epub", "dictionary", "anki", "audiobook", "reader", "eink"],
+  "added": "2026-08-05"
+}

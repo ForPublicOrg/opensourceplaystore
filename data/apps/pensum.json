@@ -1,0 +1,11 @@
+{
+  "id": "pensum",
+  "name": "Pensum",
+  "tagline": "Monitor your phone's apps and free up resources fast",
+  "description": "Pensum is a system monitor for Android that shows you what's actually running on your device and lets you shut down processes that are slowing things down. It's especially handy if you use your phone or tablet in desktop mode.\n\nIt uses Shizuku for deeper system access, giving you more control over your device's performance than a typical task manager.",
+  "repo": "https://github.com/troikoss/Pensum",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["system-monitor", "task-manager", "desktop-mode"],
+  "added": "2026-08-05"
+}

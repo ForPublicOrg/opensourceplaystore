@@ -1,0 +1,12 @@
+{
+  "id": "soundcrowd",
+  "name": "SoundCrowd",
+  "tagline": "Play music from many services in one simple app",
+  "description": "SoundCrowd is a music player that pulls songs together from several places, including SoundCloud, YouTube, Spotify, Beatport, and Tidal, so you don't need a different app for each one. It can also listen to a song playing nearby and tell you what it is, much like Shazam.\n\nYou'll also see a visual waveform of your tracks, making it easy to see where you are in a song at a glance.",
+  "repo": "https://github.com/soundcrowd/soundcrowd",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://soundcrowd.github.io/",
+  "tags": ["music", "soundcloud", "spotify", "tidal", "shazam", "waveform"],
+  "added": "2026-08-05"
+}

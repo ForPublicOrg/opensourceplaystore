@@ -1,0 +1,12 @@
+{
+  "id": "flashcards-open-source-app",
+  "name": "Flashcards",
+  "tagline": "Study smarter with AI-assisted flashcards that stick",
+  "description": "Flashcards is built for people who study seriously every day, whether that's prepping for exams, learning vocabulary, or memorizing technical facts. It uses a modern spaced-repetition algorithm (FSRS) to schedule reviews at the right time, and can use AI to help improve or generate your study material.\n\nIt works across Android, iOS and the web, is local-first so your data stays with you, and can also be self-hosted if you want full control over where your study data lives.",
+  "repo": "https://github.com/kirill-markin/flashcards-open-source-app",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://flashcards-open-source-app.com/",
+  "tags": ["flashcards", "spaced-repetition", "ai", "self-hosted", "offline-first"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mashhad-metro",
+  "name": "Mashhad Metro",
+  "tagline": "Find your way around the Mashhad Metro system",
+  "description": "Mashhad Metro is a mobile app for navigating the metro system in Mashhad, Iran. It helps you plan trips, find stations, and figure out routes across the network, all built on OpenStreetMap data.\n\nIt's a focused, city-specific transit companion for anyone who rides the Mashhad Metro regularly or is just visiting.",
+  "repo": "https://github.com/shahriaarrr/mashhad-metro",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["iran", "metro", "metro-application", "openstreetmap"],
+  "added": "2026-08-05"
+}

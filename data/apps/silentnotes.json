@@ -1,0 +1,12 @@
+{
+  "id": "silentnotes",
+  "name": "SilentNotes",
+  "tagline": "Take notes without anyone reading them but you",
+  "description": "SilentNotes is a simple note-taking app built around one idea: your notes are yours alone. Write quick notes or checklists with a clean, easy-to-use editor, and sync them across your devices if you want, all protected with strong encryption along the way.\n\nIt works across Android and Windows, so your notes stay with you no matter which device you pick up.",
+  "repo": "https://github.com/martinstoeckli/SilentNotes",
+  "category": "productivity",
+  "license": "MPL-2.0",
+  "website": "https://www.martinstoeckli.ch/silentnotes",
+  "tags": ["notes", "privacy", "encryption", "sync"],
+  "added": "2026-08-05"
+}

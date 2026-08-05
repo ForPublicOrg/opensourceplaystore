@@ -1,0 +1,11 @@
+{
+  "id": "pastemangax",
+  "name": "Paste Manga X",
+  "tagline": "Read manga and comics from your phone, free and open",
+  "description": "Paste Manga X is a third-party manga reading app that lets you browse and read comics on your phone. It is built with a modern Compose and native mixed interface, so pages load quickly and browsing feels smooth.\n\nIt is a community-built alternative client, made by fans who wanted a faster and more open way to enjoy manga on Android.",
+  "repo": "https://github.com/crowforkotlin/pastemangax",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["manga", "comic", "anime", "reader"],
+  "added": "2026-08-05"
+}

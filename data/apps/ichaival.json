@@ -1,0 +1,11 @@
+{
+  "id": "ichaival",
+  "name": "Ichaival",
+  "tagline": "Browse your self-hosted manga library from your phone",
+  "description": "Ichaival is a companion app for LANraragi, a self-hosted server that organizes manga and doujinshi collections. Once your server is set up, Ichaival lets you browse, search, and read your whole collection right from your phone.\n\nIt's built for people who like keeping their manga library on their own hardware instead of relying on outside sites.",
+  "repo": "https://github.com/Utazukin/Ichaival",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["manga", "self-hosted", "reader", "lanraragi"],
+  "added": "2026-08-05"
+}

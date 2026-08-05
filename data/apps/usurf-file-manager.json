@@ -1,0 +1,12 @@
+{
+  "id": "usurf-file-manager",
+  "name": "USurf File Manager",
+  "tagline": "Manage and compress files, with built-in FTP support",
+  "description": "USurf File Manager is a file manager for Android that goes beyond basic browsing. It includes file compression tools (including 7-Zip support) and a built-in FTP server, so you can move files between your phone and other devices over the network.\n\nIt's a good pick if you regularly need to zip things up or transfer files without cables or cloud storage.",
+  "repo": "https://github.com/ermanergoz/USurf-file-manager",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://ermanergoz.github.io/usurf-file-manager.html",
+  "tags": ["file-manager", "ftp", "file-compression", "7zip"],
+  "added": "2026-08-05"
+}

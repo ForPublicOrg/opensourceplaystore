@@ -1,0 +1,12 @@
+{
+  "id": "wordshk-app",
+  "name": "words.hk",
+  "tagline": "Look up Cantonese words and their meanings",
+  "description": "words.hk is an open Cantonese dictionary that gives clear meanings and usage for Cantonese words, a language that's often underserved by mainstream dictionary apps. It's built for both native speakers and learners who want reliable, community-driven definitions.\n\nThe app is available on both Android and iOS, built with Flutter.",
+  "repo": "https://github.com/AlienKevin/wordshk_app",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://words.hk/",
+  "tags": ["cantonese", "dictionary", "language-learning"],
+  "added": "2026-08-05"
+}

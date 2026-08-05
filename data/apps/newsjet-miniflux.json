@@ -1,0 +1,11 @@
+{
+  "id": "newsjet-miniflux",
+  "name": "NewsJet for Miniflux",
+  "tagline": "A simple Android client for your Miniflux news reader",
+  "description": "NewsJet is a simple Android client for Miniflux, the open source, self-hosted feed reader. If you already run your own Miniflux server, NewsJet gives you a native app to read your feeds from your phone instead of using a browser.\n\nIt's early in development, built by someone who wanted a proper mobile client for their own Miniflux setup, a lightweight option worth keeping an eye on.",
+  "repo": "https://github.com/nikanorov/newsjet-miniflux",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["rss", "miniflux", "self-hosted"],
+  "added": "2026-08-05"
+}

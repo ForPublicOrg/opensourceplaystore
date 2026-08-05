@@ -1,0 +1,11 @@
+{
+  "id": "google-shortcuts-launcher",
+  "name": "Google Shortcuts Launcher",
+  "tagline": "Jump straight to your favorite Google app features",
+  "description": "Google Shortcuts Launcher puts quick shortcuts to popular Google app features, like Search, Lens, Assistant, and more, right in your app drawer so you can jump straight to what you need without hunting through menus.\n\nIt's a small, focused convenience app with a clean Material You design, built to save you a few taps every day.",
+  "repo": "https://github.com/WSTxda/Google-Shortcuts-Launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["shortcuts", "google", "material-you", "launcher"],
+  "added": "2026-08-05"
+}

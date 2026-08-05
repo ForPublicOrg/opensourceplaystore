@@ -1,0 +1,12 @@
+{
+  "id": "auditor",
+  "name": "Auditor",
+  "tagline": "Check that your Android phone hasn't been tampered with",
+  "description": "Auditor helps you verify that your Android device is genuine and hasn't been hacked or tampered with. It uses hardware-backed security checks built into your phone to confirm that the operating system hasn't been secretly modified.\n\nYou can pair it with a second device to check your phone via a QR code, or set up scheduled remote checks that alert you by email if something looks wrong. It's a strong extra layer of protection for anyone who wants real peace of mind about their phone's integrity.",
+  "repo": "https://github.com/GrapheneOS/Auditor",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://attestation.app/",
+  "tags": ["attestation", "security", "privacy", "integrity", "grapheneos"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "planetcon",
+  "name": "PlanetCon",
+  "tagline": "Conquer planets in this turn-based strategy game",
+  "description": "PlanetCon is a turn-based strategy game for Android. Take turns with your opponent, human or computer, capturing planets and building up your forces to outmaneuver them.\n\nIt's a simple, focused strategy game for anyone who enjoys planning a few moves ahead.",
+  "repo": "https://github.com/dftec-es/planetcon",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["strategy", "turn-based"],
+  "added": "2026-08-05"
+}

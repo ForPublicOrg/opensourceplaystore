@@ -1,0 +1,11 @@
+{
+  "id": "abacus",
+  "name": "Abacus",
+  "tagline": "Check and manage your budget from Firefly III on your phone",
+  "description": "Abacus is the mobile companion for Firefly III, the popular self-hosted personal finance manager. It lets you check balances, log transactions, and keep an eye on your budget straight from your phone or tablet.\n\nSince it connects to your own Firefly III server, your financial data stays wherever you choose to host it.",
+  "repo": "https://github.com/victorbalssa/abacus",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["finance", "budget", "firefly-iii", "expenses"],
+  "added": "2026-08-05"
+}

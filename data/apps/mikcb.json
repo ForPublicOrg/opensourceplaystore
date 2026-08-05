@@ -1,0 +1,12 @@
+{
+  "id": "mikcb",
+  "name": "Light Island Timetable",
+  "tagline": "See your class schedule and keep it synced across devices",
+  "description": "Light Island Timetable is a class schedule app for university students. It can import your timetable straight from your school's system, so you don't have to type in every class by hand, and it keeps everything synced through the cloud so your schedule follows you between devices.\n\nIt also plugs into Xiaomi HyperOS's Super Island feature for quick glanceable schedule info, which is a nice touch if you're on that ecosystem.",
+  "repo": "https://github.com/Mutx163/mikcb",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://mutx.ccwu.cc",
+  "tags": ["timetable", "course-schedule", "university", "hyperos", "cloud-sync"],
+  "added": "2026-08-05"
+}

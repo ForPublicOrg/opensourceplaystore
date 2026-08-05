@@ -1,0 +1,12 @@
+{
+  "id": "dictus-android",
+  "name": "Dictus",
+  "tagline": "Type by voice, completely offline and private",
+  "description": "Dictus is a keyboard for Android that turns your speech into text, entirely on your device. There's no cloud service involved and no data collection, your voice never leaves your phone.\n\nIt's a solid pick if you want fast, accurate voice typing without handing your audio over to a big tech company.",
+  "repo": "https://github.com/getdictus/dictus-android",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://getdictus.com",
+  "tags": ["dictation", "speech-to-text", "offline", "privacy", "voice-recognition"],
+  "added": "2026-08-05"
+}

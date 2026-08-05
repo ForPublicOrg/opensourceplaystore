@@ -1,0 +1,11 @@
+{
+  "id": "tt9",
+  "name": "TT9 Keyboard",
+  "tagline": "A classic T9 keypad keyboard like old Nokia phones",
+  "description": "TT9 brings back the T9 predictive text keypad from classic Nokia phones, letting you type by pressing number keys instead of a full keyboard. It's great if you miss the old-school typing feel, want a faster one-handed option, or just enjoy a bit of nostalgia.\n\nThe app is actively maintained and open source, with support for multiple languages and layouts.",
+  "repo": "https://github.com/sspanak/tt9",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["keyboard", "t9", "oldschool"],
+  "added": "2026-08-05"
+}

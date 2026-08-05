@@ -1,0 +1,12 @@
+{
+  "id": "deskdrop",
+  "name": "Deskdrop",
+  "tagline": "A smart keyboard powered by your own AI models",
+  "description": "Deskdrop is an Android keyboard that connects to AI models to help you write, whether that's a model running locally on your own device through tools like Ollama and Whisper, or a cloud service like Gemini or Groq.\n\nIt's aimed at people who want AI-assisted typing while staying in control of where their data goes and which models they use.",
+  "repo": "https://github.com/SvReenen/Deskdrop",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://svreenen.github.io/Deskdrop/",
+  "tags": ["keyboard", "ai-keyboard", "privacy", "self-hosted", "local-llm", "open-source"],
+  "added": "2026-08-05"
+}

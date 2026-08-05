@@ -1,0 +1,11 @@
+{
+  "id": "mensinator",
+  "name": "Mensinator",
+  "tagline": "Track your period without handing over your data",
+  "description": "Mensinator is a period tracking app built with privacy as the priority. Log your cycle, symptoms, and predictions without creating an account, connecting to the cloud, or sharing your health data with anyone.\n\nEverything stays stored locally on your phone, giving you the tracking tools you need without the data-collection strings that come with many mainstream period apps.",
+  "repo": "https://github.com/EmmaTellblom/Mensinator",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["privacy", "health", "period-tracker", "local-storage"],
+  "added": "2026-08-05"
+}

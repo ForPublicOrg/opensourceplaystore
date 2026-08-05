@@ -1,0 +1,12 @@
+{
+  "id": "little-file-explorer",
+  "name": "Little File Explorer",
+  "tagline": "A tiny, no-frills file manager for Android",
+  "description": "Little File Explorer is a mini file manager built to be as small and simple as possible, while still working on almost any Android device, even very old ones.\n\nIt's a great pick if you just want to browse, move, and manage files on your phone without a bloated app full of extra features you'll never use.",
+  "repo": "https://github.com/martinmimigames/little-file-explorer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://martinmimigames.github.io/projects/little-file-explorer/",
+  "tags": ["file-manager", "file-explorer", "minimal", "fdroid"],
+  "added": "2026-08-05"
+}

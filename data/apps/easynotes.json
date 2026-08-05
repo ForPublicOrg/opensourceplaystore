@@ -1,0 +1,11 @@
+{
+  "id": "easynotes",
+  "name": "Easy Notes",
+  "tagline": "Create and organize notes quickly and easily",
+  "description": "Easy Notes is a clean, modern app for writing down your thoughts and keeping them organized. Creating, editing, and sorting your notes only takes a moment, so you can capture ideas the second they come to you.\n\nBuilt with Google's modern Material design, it feels right at home on your Android phone and stays completely free and open source.",
+  "repo": "https://github.com/Kin69/EasyNotes",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "note-taking", "material-design", "foss", "free"],
+  "added": "2026-08-05"
+}

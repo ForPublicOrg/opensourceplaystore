@@ -1,0 +1,12 @@
+{
+  "id": "grapheneos-pdfviewer",
+  "name": "GrapheneOS PDF Viewer",
+  "tagline": "Open PDFs safely without giving them access to your files",
+  "description": "GrapheneOS PDF Viewer is a simple, no-frills app for reading PDF files. It's built on pdf.js, a well-established PDF rendering engine, but runs it inside a locked-down sandbox so the PDF itself can't reach outside its own little box.\n\nThe app doesn't ask for any permissions, and PDFs are streamed in through a secure content link rather than given direct access to your files or the internet, so opening an untrusted PDF stays safe.",
+  "repo": "https://github.com/GrapheneOS/PdfViewer",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://grapheneos.org/",
+  "tags": ["pdf", "pdf-viewer", "security", "grapheneos"],
+  "added": "2026-08-05"
+}

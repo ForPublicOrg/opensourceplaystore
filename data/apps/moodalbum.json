@@ -1,0 +1,11 @@
+{
+  "id": "moodalbum",
+  "name": "MoodAlbum",
+  "tagline": "A warm way to share how you're feeling with your family",
+  "description": "MoodAlbum is a gentle mood-tracking and journaling app built for sharing feelings across generations. Check in daily, record how you're feeling, and keep a soft, personal record over time.\n\nIt's designed with family in mind, making it easy for relatives to stay emotionally connected even from a distance.",
+  "repo": "https://github.com/Xcccy01/MoodAlbum",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["mood-tracker", "journaling", "wellness", "family"],
+  "added": "2026-08-05"
+}

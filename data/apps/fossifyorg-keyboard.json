@@ -1,0 +1,12 @@
+{
+  "id": "fossifyorg-keyboard",
+  "name": "Fossify Keyboard",
+  "tagline": "A simple, private keyboard with no ads or tracking",
+  "description": "Fossify Keyboard is an easy typing keyboard for Android that supports letters, numbers, and special characters without any ads or trackers. It's built to be fast, clean, and respectful of your privacy.\n\nIt's part of the Fossify family of open source apps, so it follows the same simple, no-nonsense design across everything you type.",
+  "repo": "https://github.com/FossifyOrg/Keyboard",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "tags": ["foss", "keyboard", "open-source", "kotlin"],
+  "added": "2026-08-05"
+}

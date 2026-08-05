@@ -1,0 +1,11 @@
+{
+  "id": "pdf-tools",
+  "name": "PDF Tools",
+  "tagline": "Merge, split, and edit PDFs, all on your own phone",
+  "description": "PDF Tools puts a full PDF toolkit in your pocket, letting you merge, split, compress, convert, and annotate PDF files. Everything happens right on your device, so your documents never have to leave your phone.\n\nIt's built with privacy in mind: there's no internet connection required and nothing is uploaded anywhere to get the job done.",
+  "repo": "https://github.com/Karna14314/Pdf_Tools",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["pdf", "editor", "offline", "privacy"],
+  "added": "2026-08-05"
+}

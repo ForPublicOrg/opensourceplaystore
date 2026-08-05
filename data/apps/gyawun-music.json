@@ -1,0 +1,12 @@
+{
+  "id": "gyawun-music",
+  "name": "Gyawun Music",
+  "tagline": "Stream millions of songs free, without ads",
+  "description": "Gyawun is a music streaming app packed with songs and artists from all over the world. Just search for what you want to hear and start listening right away, without any ads interrupting your groove.\n\nYou can download songs too, so your favorite tracks are ready to play even when you're offline.",
+  "repo": "https://github.com/sheikhhaziq/gyawun_music",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://gyawunmusic.vercel.app/",
+  "tags": ["music", "streaming", "downloader", "youtube-music"],
+  "added": "2026-08-05"
+}

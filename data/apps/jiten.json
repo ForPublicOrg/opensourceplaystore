@@ -1,0 +1,12 @@
+{
+  "id": "jiten",
+  "name": "Jiten",
+  "tagline": "Look up Japanese words, kanji, and their meanings",
+  "description": "Jiten is a Japanese dictionary built on the well-respected JMdict and KANJIDIC data sets. Search for a word or kanji and get clear meanings, readings, and example sentences, with translations available in English, German, and Dutch as well.\n\nIt covers useful extras like JLPT level tags and pitch accent, which make it handy for learners at any stage, not just beginners.",
+  "repo": "https://github.com/obfusk/jiten",
+  "category": "education",
+  "license": "AGPL-3.0",
+  "website": "https://jiten.dev",
+  "tags": ["japanese", "dictionary", "kanji", "vocabulary", "jlpt"],
+  "added": "2026-08-05"
+}

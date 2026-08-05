@@ -1,0 +1,11 @@
+{
+  "id": "surf",
+  "name": "Surf",
+  "tagline": "A web browser built around your privacy",
+  "description": "Surf is an Android browser built around one goal: as much privacy as possible. It bundles together privacy features you'd normally have to hunt down and enable one by one in other browsers.\n\nIt's a straightforward pick for anyone who wants solid privacy protection without having to become an expert in browser settings first.",
+  "repo": "https://github.com/eja/surf",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["browser", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fairscan",
+  "name": "FairScan",
+  "tagline": "Scan documents with your camera, simply and without the creepy extras",
+  "description": "FairScan turns your phone into a document scanner. Point your camera at a paper, receipt, or form, and it automatically detects the edges, cleans up the image, and saves it as a sharp PDF.\n\nIt's built to respect your privacy, with no accounts, no ads, and no tracking, just a fast, respectful way to digitize your paperwork.",
+  "repo": "https://github.com/pynicolas/FairScan",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://fairscan.org",
+  "tags": ["document-scanner", "pdf", "privacy", "image-processing"],
+  "added": "2026-08-05"
+}

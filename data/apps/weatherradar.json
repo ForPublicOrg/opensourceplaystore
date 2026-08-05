@@ -1,0 +1,11 @@
+{
+  "id": "weatherradar",
+  "name": "Weather Radar",
+  "tagline": "Live doppler radar images for tracking storms",
+  "description": "Weather Radar gives you customizable, real-time doppler radar imagery right on your phone, so you can watch storms and precipitation move across the map as they happen. It pulls data sourced from the National Weather Service.\n\nWhether you're keeping an eye on an approaching storm or just curious about the weather patterns overhead, this app puts the radar view front and center.",
+  "repo": "https://github.com/dh4/WeatherRadar",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["doppler-radar-images", "national-weather-service", "radar-imagery", "weather", "weather-radar"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mixmessage",
+  "name": "MixMessage",
+  "tagline": "Add secretly encrypted messages inside your normal chat apps",
+  "description": "MixMessage lets you hide secretly encrypted text inside ordinary-looking messages in apps like QQ or WeChat. It works using Android's accessibility service, so it can quietly encrypt and decrypt text without needing those chat apps to support encryption themselves.\n\nIt's a clever way to add a layer of privacy to conversations happening in apps that were never built with strong security in mind.",
+  "repo": "https://github.com/InvertGeek/MixMessage",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["encryption", "privacy", "security-tools", "wechat", "qq"],
+  "added": "2026-08-05"
+}

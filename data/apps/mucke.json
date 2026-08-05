@@ -1,0 +1,11 @@
+{
+  "id": "mucke",
+  "name": "Mucke",
+  "tagline": "A simple music player for the songs on your phone",
+  "description": "Mucke is a straightforward Android music player for playing the songs already stored on your device. It keeps things simple, with no ads and no unnecessary extras getting in the way of your music.\n\nIt is open source and listed on F-Droid.",
+  "repo": "https://github.com/moritz-weber/mucke",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music-player", "f-droid", "flutter"],
+  "added": "2026-08-05"
+}

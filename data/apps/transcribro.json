@@ -1,0 +1,11 @@
+{
+  "id": "transcribro",
+  "name": "Transcribro",
+  "tagline": "Type by voice, fully offline and private",
+  "description": "Transcribro is a speech recognition keyboard for Android that turns your voice into text without sending anything to the cloud. All the processing happens right on your own device.\n\nIt's built for anyone who wants the convenience of voice typing without giving up their privacy, with a clean, modern Material You design.",
+  "repo": "https://github.com/soupslurpr/Transcribro",
+  "category": "tools",
+  "license": "ISC",
+  "tags": ["keyboard", "speech-recognition", "speech-to-text", "material-you"],
+  "added": "2026-08-05"
+}

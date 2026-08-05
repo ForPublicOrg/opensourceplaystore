@@ -1,0 +1,12 @@
+{
+  "id": "anonymousmessenger",
+  "name": "Anonymous Messenger",
+  "tagline": "Chat privately over Tor with no phone number needed",
+  "description": "Anonymous Messenger lets you have private, end-to-end encrypted conversations without handing over a phone number or any other identifying details. It routes your messages through Tor and peer-to-peer connections, so no central company sits in the middle of your chats.\n\nIt's built for people who want to talk freely without leaving a trail back to their real identity.",
+  "repo": "https://github.com/AnonymousMessenger/AnonymousMessenger",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://anonymousmessenger.ly",
+  "tags": ["tor", "anonymity", "encryption", "privacy", "p2p"],
+  "added": "2026-08-05"
+}

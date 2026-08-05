@@ -1,0 +1,10 @@
+{
+  "id": "android-urlsanitizer",
+  "name": "URL Sanitizer",
+  "tagline": "Strips tracking junk out of links before you open them",
+  "description": "URL Sanitizer is a small, focused Android tool that cleans up links before you open them. Many links you get, especially from social media and shopping sites, carry hidden tracking parameters that follow you around and report back what you clicked.\n\nURL Sanitizer strips that tracking junk out, leaving you with a clean link and a little more privacy.",
+  "repo": "https://github.com/im030/android_URLSanitizer",
+  "category": "security",
+  "license": "GPL-3.0",
+  "added": "2026-08-05"
+}

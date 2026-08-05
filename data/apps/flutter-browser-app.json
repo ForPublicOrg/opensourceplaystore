@@ -1,0 +1,11 @@
+{
+  "id": "flutter-browser-app",
+  "name": "Flutter Browser",
+  "tagline": "A full-featured web browser for your phone or desktop",
+  "description": "Flutter Browser is a full-featured web browser for your phone, with support for tabs, bookmarks, and all the everyday browsing features you'd expect. It's built to feel like a proper alternative to the big-name mobile browsers.\n\nThe same codebase also powers desktop versions, so the app you use on your phone works the same way on your computer.",
+  "repo": "https://github.com/pichillilorenzo/flutter_browser_app",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["browser", "flutter", "cross-platform"],
+  "added": "2026-08-05"
+}

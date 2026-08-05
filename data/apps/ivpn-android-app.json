@@ -1,0 +1,12 @@
+{
+  "id": "ivpn-android-app",
+  "name": "IVPN",
+  "tagline": "A no-nonsense VPN app that keeps your internet traffic private",
+  "description": "IVPN is the official Android app for the IVPN virtual private network service. It encrypts your internet connection and routes it through IVPN's servers, hiding your IP address and keeping your browsing private, even on public Wi-Fi.\n\nIt's made by a privacy-focused VPN provider, giving you a straightforward way to protect your connection on the go.",
+  "repo": "https://github.com/ivpn/android-app",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://www.ivpn.net/apps-android",
+  "tags": ["vpn", "privacy", "security", "vpn-client"],
+  "added": "2026-08-05"
+}

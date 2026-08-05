@@ -1,0 +1,12 @@
+{
+  "id": "play",
+  "name": "UltraStar Play",
+  "tagline": "Sing along and score your karaoke performance",
+  "description": "UltraStar Play is a free singing and karaoke game. Pick a song, grab a microphone, and see how closely you can match the pitch as the lyrics scroll by — just like the karaoke games you remember, but open source.\n\nIt also includes a built-in song editor, so you can time lyrics and pitch lines for your own tracks, and it works across desktop and mobile.",
+  "repo": "https://github.com/UltraStar-Deluxe/Play",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://ultrastar-play.com",
+  "tags": ["karaoke", "singing", "music"],
+  "added": "2026-08-05"
+}

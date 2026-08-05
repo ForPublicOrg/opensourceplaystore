@@ -1,0 +1,12 @@
+{
+  "id": "bababasic",
+  "name": "BabaBasic",
+  "tagline": "Write and run classic BASIC programs on your phone",
+  "description": "BabaBasic brings back the QuickBASIC 4.5 experience, letting you write and run BASIC programs directly on your Android phone. If you learned to code with BASIC, or just want to try it out, this gives you a real place to experiment.\n\nIt's a fun, nostalgic way to write simple programs and see them run, all from your phone's screen.",
+  "repo": "https://github.com/ianatha/bababasic",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://play.google.com/store/apps/details?id=io.atha.quickbasic",
+  "tags": ["basic", "programming", "quickbasic"],
+  "added": "2026-08-05"
+}

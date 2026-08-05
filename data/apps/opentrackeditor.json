@@ -1,0 +1,12 @@
+{
+  "id": "opentrackeditor",
+  "name": "Open Track Editor",
+  "tagline": "Edit your GPS tracks and routes right on your phone",
+  "description": "Open Track Editor lets you edit GPS tracks directly on your Android phone, supporting common formats like GPX and KML. Trim off a wrong turn, clean up a messy recording, or tweak a route before sharing it, all without needing a computer.\n\nIt's a practical little tool for hikers, cyclists, and anyone else who records GPS tracks and wants to clean them up afterward.",
+  "repo": "https://github.com/OliverMineau/OpenTrackEditor",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://olivermineau.com/opentrackeditor",
+  "tags": ["gps", "gpx", "kml", "trackeditor"],
+  "added": "2026-08-05"
+}

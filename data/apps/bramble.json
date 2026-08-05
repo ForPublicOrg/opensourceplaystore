@@ -1,0 +1,12 @@
+{
+  "id": "bramble",
+  "name": "Bramble",
+  "tagline": "A password manager that syncs your logins directly between your devices",
+  "description": "Bramble is a local-first password manager that keeps your passwords and passkeys encrypted and stored on your own devices, syncing them directly between phone, browser, and desktop over a private peer-to-peer mesh instead of a central server.\n\nIt supports passkeys, YubiKeys, and 2FA codes alongside regular passwords, and is available on Android, iOS, and as browser extensions.",
+  "repo": "https://github.com/flythenimbus/bramble",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://bramble.sh",
+  "tags": ["password-manager", "passkeys", "yubikey", "security"],
+  "added": "2026-08-05"
+}

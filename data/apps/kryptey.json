@@ -1,0 +1,11 @@
+{
+  "id": "kryptey",
+  "name": "KryptEY",
+  "tagline": "Add secret, encrypted messages to any chat app you use",
+  "description": "KryptEY is a keyboard for your phone that scrambles your messages with strong encryption before you send them, no matter which chat app you're typing in. Switch to the KryptEY keyboard, type your message, and it gets protected using the same trusted method Signal uses behind the scenes.\n\nThis means you can keep using your favorite messaging apps while still getting real end-to-end privacy, even if that app doesn't offer encryption on its own.",
+  "repo": "https://github.com/amnesica/KryptEY",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["keyboard", "e2ee", "encryption", "privacy", "security", "signal-protocol"],
+  "added": "2026-08-05"
+}

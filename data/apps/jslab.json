@@ -1,0 +1,11 @@
+{
+  "id": "jslab",
+  "name": "JSlab",
+  "tagline": "A JavaScript playground on your phone, handy as a calculator too",
+  "description": "JSlab is an Android app that gives you a browser-based JavaScript playground right on your phone. Write and run JavaScript snippets on the spot, whether you're testing an idea or just need to do some quick math.\n\nIts creator even uses it as a handy calculator, since a JavaScript console is more than capable of crunching numbers, a fun, lightweight tool for anyone comfortable with a bit of code.",
+  "repo": "https://github.com/fps/JSlab",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["javascript", "playground", "developer-tools"],
+  "added": "2026-08-05"
+}

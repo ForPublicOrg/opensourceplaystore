@@ -1,0 +1,11 @@
+{
+  "id": "neo-launcher",
+  "name": "Neo Launcher",
+  "tagline": "A powerful, customizable launcher for your home screen",
+  "description": "Neo Launcher lets you take full control of your Android home screen. Change how your apps are organized, adjust gestures, and tweak the look and feel until your phone works the way you want it to.\n\nIt's an actively maintained, open source alternative to the stock launcher, built for people who want a lot more freedom to customize without ads or trackers.",
+  "repo": "https://github.com/NeoApplications/Neo-Launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher"],
+  "added": "2026-08-05"
+}

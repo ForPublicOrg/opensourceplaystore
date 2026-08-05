@@ -1,0 +1,11 @@
+{
+  "id": "buran",
+  "name": "Buran",
+  "tagline": "Browse the small, calm Gemini internet",
+  "description": "The Gemini protocol is a small, calm corner of the internet, simpler and lighter than the modern web, with no ads, trackers, or heavy pages. Buran is a browser for exploring it from your Android phone.\n\nIt's a lightweight way to read Gemini pages ('capsules') on the go, for anyone curious about a quieter alternative to regular web browsing.",
+  "repo": "https://github.com/Corewala/Buran",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["gemini", "browser"],
+  "added": "2026-08-05"
+}

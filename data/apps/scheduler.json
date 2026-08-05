@@ -1,0 +1,11 @@
+{
+  "id": "scheduler",
+  "name": "Scheduler",
+  "tagline": "See your to-do list right on your lock screen",
+  "description": "Scheduler is a small app with one clear job: showing your to-do list right on your lock screen. That way, you see what needs doing the moment you pick up your phone, without having to open another app.\n\nIt's simple, lightweight, and built with Google's Material You design so it fits in nicely with the rest of your phone.",
+  "repo": "https://github.com/dgudim/Scheduler",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "lockscreen", "calendar", "material-you"],
+  "added": "2026-08-05"
+}

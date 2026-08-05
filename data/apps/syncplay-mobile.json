@@ -1,0 +1,11 @@
+{
+  "id": "syncplay-mobile",
+  "name": "Synkplay",
+  "tagline": "Watch videos in perfect sync with friends far away",
+  "description": "Synkplay (formerly Syncplay Mobile) lets you and your friends watch the same video at the same time, even when you're all in different places. Play, pause, or skip, and everyone's video jumps to match automatically.\n\nIt works together with the desktop version of Syncplay, so you can host or join watch parties across phones and computers alike.",
+  "repo": "https://github.com/yuroyami/syncplay-mobile",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": ["syncplay", "sync", "synchronization", "video-player"],
+  "added": "2026-08-05"
+}

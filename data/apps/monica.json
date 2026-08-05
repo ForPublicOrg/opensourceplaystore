@@ -1,0 +1,11 @@
+{
+  "id": "monica",
+  "name": "Monica Pass",
+  "tagline": "Manage passwords and 2-step codes, all offline",
+  "description": "Monica Pass keeps your passwords and two-factor authentication codes safe in one place, right on your phone. Everything is stored locally first, so your sensitive information never has to leave your device unless you choose to back it up.\n\nIt's built with privacy in mind for people who want a straightforward, open-source way to manage their logins and generate the 6-digit codes many accounts need for extra security.",
+  "repo": "https://github.com/Monica-Pass/Monica",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["password-manager", "2fa", "totp", "privacy", "local-first"],
+  "added": "2026-08-05"
+}

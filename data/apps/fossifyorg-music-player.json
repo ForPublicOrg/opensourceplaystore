@@ -1,0 +1,12 @@
+{
+  "id": "fossifyorg-music-player",
+  "name": "Fossify Music Player",
+  "tagline": "A clean, ad-free music player for the songs on your phone",
+  "description": "Fossify Music Player is a simple, good-looking app for playing the music files already on your phone. It has a customizable home-screen widget and a stylish interface, with no ads and no hidden trackers.\n\nIt is part of the Fossify suite of apps, which is a fork of the popular Simple Mobile Tools apps, kept alive and open source.",
+  "repo": "https://github.com/FossifyOrg/Music-Player",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "tags": ["music-player", "foss", "open-source"],
+  "added": "2026-08-05"
+}

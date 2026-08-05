@@ -1,0 +1,12 @@
+{
+  "id": "xcsoar",
+  "name": "XCSoar",
+  "tagline": "A flight computer for glider and paraglider pilots",
+  "description": "XCSoar turns your Android phone into a glide computer for glider pilots, paraglider pilots, and other soaring aviators. It shows your position on detailed aviation maps, calculates the best glide path to reach a landing spot, and displays live weather, airspace, and terrain information while you fly.\n\nIt's been developed and refined by the gliding community for years and is used by pilots around the world as a free, open-source alternative to expensive commercial flight computers.",
+  "repo": "https://github.com/XCSoar/XCSoar",
+  "category": "maps",
+  "license": "GPL-2.0",
+  "website": "https://xcsoar.org",
+  "tags": ["aviation", "gliding", "gps-tracking", "map", "navigation", "paragliding"],
+  "added": "2026-08-05"
+}

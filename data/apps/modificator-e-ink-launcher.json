@@ -1,0 +1,11 @@
+{
+  "id": "modificator-e-ink-launcher",
+  "name": "E-Ink Launcher",
+  "tagline": "A home screen launcher made for e-ink and e-reader screens",
+  "description": "E-Ink Launcher is designed specifically for Android devices with electronic paper displays, like e-readers, giving you a simple, high-contrast home screen that works well with the slower refresh rates and unique look of e-ink screens.\n\nIf you use an Android-based e-reader or e-ink tablet, this launcher is built to fit that experience rather than being a regular phone launcher squeezed onto e-ink hardware.",
+  "repo": "https://github.com/Modificator/E-Ink-Launcher",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["e-ink", "launcher", "e-reader"],
+  "added": "2026-08-05"
+}

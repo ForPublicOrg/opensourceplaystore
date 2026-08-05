@@ -1,0 +1,11 @@
+{
+  "id": "reykunyutsyip",
+  "name": "Reykunyutsyip",
+  "tagline": "Look up words in Na'vi, the language from Avatar",
+  "description": "Reykunyutsyip is an unofficial Android client for the Reykunyu dictionary of Na'vi, the constructed language from the Avatar movies. If you're learning Na'vi or just curious about it, this gives you a clean, Material-designed way to search words on your phone instead of using a browser.\n\nIt's a small passion-project app, but a genuinely useful one for the Na'vi learning community.",
+  "repo": "https://github.com/KipJM/Reykunyutsyip",
+  "category": "education",
+  "license": "BSD-2-Clause",
+  "tags": ["navi", "dictionary", "language"],
+  "added": "2026-08-05"
+}

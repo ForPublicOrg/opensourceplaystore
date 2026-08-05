@@ -1,0 +1,11 @@
+{
+  "id": "destinationsol",
+  "name": "Destination Sol",
+  "tagline": "Fly around space fighting pirates and traders",
+  "description": "Destination Sol is a fun, freeform arcade space shooter. Pilot a ship through an open galaxy, battle pirates, trade with other factions, and upgrade your ship as you go.\n\nIt's the official continuation of the classic Destination Sol game — simple controls, chaotic space battles, and no missions forcing you down one path.",
+  "repo": "https://github.com/MovingBlocks/DestinationSol",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["space", "shooter", "arcade"],
+  "added": "2026-08-05"
+}

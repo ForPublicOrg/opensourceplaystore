@@ -1,0 +1,12 @@
+{
+  "id": "oppia-android",
+  "name": "Oppia",
+  "tagline": "Free, friendly lessons that work even without internet",
+  "description": "Oppia is a free learning platform built to make quality education accessible to everyone, no matter where they live or how good their internet connection is. Lessons are interactive rather than just video or text, so you actually work through problems instead of passively watching.\n\nIt works offline once lessons are downloaded, which matters a lot for learners with spotty connections. Oppia is run as a nonprofit project with a large open contributor community behind it.",
+  "repo": "https://github.com/oppia/oppia-android",
+  "category": "education",
+  "license": "Apache-2.0",
+  "website": "https://www.oppia.org",
+  "tags": ["education", "learning", "interactive", "nonprofit", "teaching", "tutor", "offline"],
+  "added": "2026-08-05"
+}

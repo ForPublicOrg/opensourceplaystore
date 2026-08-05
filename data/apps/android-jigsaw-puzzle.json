@@ -1,0 +1,11 @@
+{
+  "id": "android-jigsaw-puzzle",
+  "name": "Android Jigsaw Puzzle",
+  "tagline": "Draw a picture and turn it into a jigsaw puzzle",
+  "description": "Android Jigsaw Puzzle is a fun twist on the classic jigsaw puzzle. Draw anything you like right on your screen, then watch it get chopped up into puzzle pieces you can shuffle and solve.\n\nIt's a simple, playful app for anyone who enjoys doodling as much as puzzling.",
+  "repo": "https://github.com/jpaulynice/android-jigsaw-puzzle",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["puzzle", "jigsaw", "drawing"],
+  "added": "2026-08-05"
+}

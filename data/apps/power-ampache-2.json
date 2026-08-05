@@ -1,0 +1,12 @@
+{
+  "id": "power-ampache-2",
+  "name": "Power Ampache 2",
+  "tagline": "Stream your self-hosted music collection in style",
+  "description": "Power Ampache 2 is an Android music streaming app with a Material You look, for people who run their own music server. It connects to Ampache, Nextcloud Music, and other compatible backends, so you can listen to your own collection from anywhere.\n\nIt is open source and built for people who prefer hosting their own music rather than relying on a streaming subscription.",
+  "repo": "https://github.com/icefields/Power-Ampache-2",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://power.ampache.dev",
+  "tags": ["ampache", "nextcloud", "self-hosted", "music-player", "streaming"],
+  "added": "2026-08-05"
+}

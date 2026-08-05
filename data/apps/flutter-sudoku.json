@@ -1,0 +1,12 @@
+{
+  "id": "flutter-sudoku",
+  "name": "Flutter Sudoku",
+  "tagline": "Play classic Sudoku puzzles anywhere",
+  "description": "Flutter Sudoku is a fully-featured Sudoku game. Play as many puzzles as you like at your own pace, with a clean single-player interface that works the same whether you're on your phone or another device.\n\nIt's a straightforward, no-frills way to enjoy a classic logic puzzle.",
+  "repo": "https://github.com/VarunS2002/Flutter-Sudoku",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://sudoku-vs2002.web.app/",
+  "tags": ["sudoku", "puzzle", "logic"],
+  "added": "2026-08-05"
+}

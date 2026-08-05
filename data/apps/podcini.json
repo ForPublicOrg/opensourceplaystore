@@ -1,0 +1,11 @@
+{
+  "id": "podcini",
+  "name": "Podcini",
+  "tagline": "Listen to podcasts and YouTube videos, all in one app",
+  "description": "Podcini is a podcast app that goes beyond regular podcasts, letting you follow shows from YouTube and YouTube Music too. Subscribe to your favorite shows and Podcini keeps track of new episodes for you.\n\nIt can even read articles and show notes aloud, so you can keep listening even when you'd rather not read.",
+  "repo": "https://github.com/XilinJia/Podcini",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["podcast", "rss", "tts", "youtube"],
+  "added": "2026-08-05"
+}

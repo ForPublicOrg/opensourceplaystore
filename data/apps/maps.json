@@ -1,0 +1,11 @@
+{
+  "id": "maps",
+  "name": "Poland Aerial Maps",
+  "tagline": "Browse high-quality aerial photos of Poland",
+  "description": "This app gives you a simple way to browse high-quality aerial photography covering Poland. Instead of a standard road map, you get a detailed bird's-eye view of the landscape, useful for spotting terrain features, exploring an area before a trip, or just satisfying your curiosity about what a place looks like from above.\n\nIt's a focused, no-frills viewer built around one clear job: showing you great aerial imagery.",
+  "repo": "https://github.com/kalucky0/maps",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://maps.kalucky0.dev/",
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tails-adventure",
+  "name": "Tails Adventure",
+  "tagline": "A fan-made remake of the classic Sonic spin-off",
+  "description": "Tails Adventure is a full remake of the classic Game Gear title, rebuilt from the ground up for PC and Android. Explore the Battle Fortress island as Tails, use gadgets and bombs to solve platforming puzzles, and battle bosses along the way.\n\nIt's a fangame made with love by Sonic fans, faithfully recreating the original's look and feel.",
+  "repo": "https://github.com/mechakotik/tails-adventure",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["platformer", "fangame", "metroidvania"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "downlink",
+  "name": "Downlink",
+  "tagline": "Download and manage files with pause, resume, and queues",
+  "description": "Downlink is an open source download manager for grabbing files and videos from the internet, with support for pausing, resuming, and queueing up multiple downloads at once. It integrates with your browser so downloads can be sent straight to it.\n\nIt runs on Windows, Linux, and Android, so you can manage the same downloads whether you're at your desk or on your phone.",
+  "repo": "https://github.com/geonodecom/downlink",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["downloader", "download-manager"],
+  "added": "2026-08-05"
+}

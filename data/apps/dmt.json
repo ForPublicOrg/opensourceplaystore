@@ -1,0 +1,11 @@
+{
+  "id": "dmt",
+  "name": "Dear Music, Thanks",
+  "tagline": "A simple, retro-style music player for your phone",
+  "description": "Dear Music, Thanks (dmt) is a local music player with a text-based, retro computer terminal look and feel. If you like a simple, no-frills style over flashy modern designs, this player brings that old-school charm to your music.\n\nIt plays the songs you already have on your phone, wrapped in a distinctive, minimal interface unlike most other music apps.",
+  "repo": "https://github.com/imjyotiraditya/dmt",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music-player", "tui"],
+  "added": "2026-08-05"
+}

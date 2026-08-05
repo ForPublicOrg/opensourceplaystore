@@ -1,0 +1,11 @@
+{
+  "id": "xposedfakelocation",
+  "name": "Xposed Fake Location",
+  "tagline": "Set a fake GPS location for your whole phone or one app",
+  "description": "Xposed Fake Location lets you set a custom GPS location on your Android phone, either everywhere or just inside specific apps. Unlike the built-in mock location developer option, it works through the Xposed framework, so apps that try to detect fake GPS have a harder time noticing.\n\nIt's popular for testing location-based apps, protecting your privacy from apps that don't need to know exactly where you are, or exploring location-based games and services. You'll need a rooted phone with Xposed or LSPosed installed to use it.",
+  "repo": "https://github.com/noobexon1/XposedFakeLocation",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["fake-locations", "gps-spoofing", "location-spoofing", "lsposed", "rooted-android", "xposed"],
+  "added": "2026-08-05"
+}

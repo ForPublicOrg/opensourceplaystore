@@ -1,0 +1,11 @@
+{
+  "id": "overlay-translator",
+  "name": "Overlay Translator",
+  "tagline": "Translate on-screen text instantly, right over the page",
+  "description": "Overlay Translator reads text straight off your screen and shows the translation right on top of it, in real time. It's great for games, visual novels, and manga written in a language you don't know, and it works without root access.\n\nYou can choose between on-device or cloud text recognition, pick from several translation services or offline AI models, and even have the text read aloud to you.",
+  "repo": "https://github.com/ciddwd/overlay-translator",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["translation", "ocr", "screen", "manga", "tts", "no-root"],
+  "added": "2026-08-05"
+}

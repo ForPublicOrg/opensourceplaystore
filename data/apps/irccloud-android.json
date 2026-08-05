@@ -1,0 +1,11 @@
+{
+  "id": "irccloud-android",
+  "name": "IRCCloud",
+  "tagline": "Stay connected to IRC chats, even when your phone is off",
+  "description": "IRCCloud is the official Android app for the IRCCloud service, which keeps you connected to IRC chat rooms around the clock, even when you close the app or turn off your phone. Messages keep arriving in the background, so you never miss a conversation.\n\nIt's a handy way to follow open-source project channels and other IRC communities without needing to stay logged in all day.",
+  "repo": "https://github.com/irccloud/android",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": ["irc", "chat", "irccloud"],
+  "added": "2026-08-05"
+}

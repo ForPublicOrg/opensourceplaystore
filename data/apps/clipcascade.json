@@ -1,0 +1,12 @@
+{
+  "id": "clipcascade",
+  "name": "ClipCascade",
+  "tagline": "Sync your clipboard across all your devices instantly",
+  "description": "ClipCascade keeps your clipboard in sync across your phone, computer, and other devices. Copy something on one device and paste it on another, with no key presses or manual syncing needed.\n\nIt also handles files and images, not just text. Since it's self-hosted, you run your own small server and stay in full control of your data.",
+  "repo": "https://github.com/Sathvik-Rao/ClipCascade",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://clipcascade.sathvik.dev",
+  "tags": ["clipboard", "clipboard-sync", "self-hosted", "files", "sync"],
+  "added": "2026-08-05"
+}

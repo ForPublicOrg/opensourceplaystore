@@ -1,0 +1,11 @@
+{
+  "id": "kotatsu-next",
+  "name": "Kotatsu Next",
+  "tagline": "A light, fast manga reader that runs well on any phone",
+  "description": "Kotatsu Next is a full-featured manga reader built to stay light and fast, even on older or low-end phones. It pulls manga, manhua, and manhwa from many sources and lets you download chapters to read offline.\n\nIt also keeps track of what you've read and syncs your progress, so you can pick up right where you left off on any device.",
+  "repo": "https://github.com/Ero-gamer/Kotatsu-Next",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["manga", "manhwa", "manhua", "reader", "offline", "lightweight"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "runandread-android",
+  "name": "RunAndRead",
+  "tagline": "Listen to audiobooks and have text read aloud to you",
+  "description": "RunAndRead is a text-to-speech and audiobook player for your phone. It can read text out loud in a natural voice, or play your audiobooks, so you can keep enjoying stories and articles while your hands and eyes are busy elsewhere.\n\nIt's a simple way to turn reading into listening, whenever that's easier for you.",
+  "repo": "https://github.com/answersolutionsapps/runandread-android",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://answersolutions.net",
+  "tags": ["audiobook-player", "text-to-speech", "audio-player"],
+  "added": "2026-08-05"
+}

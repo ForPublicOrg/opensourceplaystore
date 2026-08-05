@@ -1,0 +1,11 @@
+{
+  "id": "whatsappnocontact",
+  "name": "WhatsApp No Contact",
+  "tagline": "Message anyone on WhatsApp without saving their number",
+  "description": "WhatsApp No Contact is a tiny, handy tool that lets you start a WhatsApp conversation with any phone number, without first saving that number as a contact. Just type in the number and jump straight into the chat.\n\nIt's perfect for one-off messages to businesses, delivery drivers, or new acquaintances when you don't want to clutter up your contact list.",
+  "repo": "https://github.com/theolm/WhatsAppNoContact",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["whatsapp", "chat"],
+  "added": "2026-08-05"
+}

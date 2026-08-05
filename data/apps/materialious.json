@@ -1,0 +1,12 @@
+{
+  "id": "materialious",
+  "name": "Materialious",
+  "tagline": "Watch YouTube-style videos with a clean, private app",
+  "description": "Materialious gives you a fresh, modern way to watch YouTube-style videos without being tracked. It connects to privacy-friendly video sources and switches to a backup automatically if one isn't working, so you rarely hit a dead end.\n\nIt runs on phones, tablets, and even Android TV, giving you a calm, ad-free way to watch your favorite channels.",
+  "repo": "https://github.com/Materialious/Materialious",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://materialio.us",
+  "tags": ["youtube", "invidious", "privacy", "material"],
+  "added": "2026-08-05"
+}

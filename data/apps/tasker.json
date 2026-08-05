@@ -1,0 +1,11 @@
+{
+  "id": "tasker",
+  "name": "Tasker",
+  "tagline": "A simple, open-source to-do list app",
+  "description": "Tasker is a simple, open-source to-do list app that helps you keep track of the things you need to get done. Add tasks, check them off, and stay on top of your day without any clutter.\n\nBuilt with Flutter, it's free to use and open for anyone to look at, improve, or learn from.",
+  "repo": "https://github.com/ErfanRht/Tasker",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["todo", "task-manager", "flutter"],
+  "added": "2026-08-05"
+}

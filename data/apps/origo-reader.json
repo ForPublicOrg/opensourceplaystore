@@ -1,0 +1,11 @@
+{
+  "id": "origo-reader",
+  "name": "Origo Reader",
+  "tagline": "An elegant ebook reader for EPUB, PDF, and text files",
+  "description": "Origo Reader is a clean, cross-platform ebook reader that handles EPUB, PDF, and plain text files with smart pagination that makes long books easy to read. It can also read your book aloud with built-in text-to-speech.\n\nIt syncs your library and reading progress over WebDAV, so your place in a book follows you between your phone and other devices.",
+  "repo": "https://github.com/KeloYuan/Origo-Reader",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["ebook", "epub", "pdf", "reader", "tts", "webdav"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "nitterium",
+  "name": "Nitterium",
+  "tagline": "Browse Twitter/X posts without an account or the tracking",
+  "description": "Nitterium lets you read Twitter/X content, and follow the profiles you care about, without needing an account or opening the official app. It works as a privacy-focused wrapper around Nitter, a lightweight alternative front-end for Twitter/X.\n\nThere are no ads and no tracking, just a simple way to keep up with posts.",
+  "repo": "https://github.com/kaleedtc/Nitterium",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["nitter", "twitter", "privacy", "no-tracking"],
+  "added": "2026-08-05"
+}

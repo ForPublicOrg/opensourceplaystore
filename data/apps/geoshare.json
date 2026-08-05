@@ -1,0 +1,12 @@
+{
+  "id": "geoshare",
+  "name": "GeoShare",
+  "tagline": "Open any map link in the map app you actually want",
+  "description": "GeoShare solves an annoying problem: someone sends you a Google Maps link, but you'd rather open it in OpenStreetMap or Apple Maps instead. GeoShare catches those shared map links and lets you open them in the map app of your choice, or just copy the raw coordinates.\n\nIt's a tiny, focused Android app that quietly fixes a small but common frustration.",
+  "repo": "https://github.com/jakubvalenta/geoshare",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://f-droid.org/packages/page.ooooo.geoshare/",
+  "tags": ["coordinates", "geo", "openstreetmap", "osm", "googlemaps", "applemaps"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "simple-music-player",
+  "name": "Simple Music Player",
+  "tagline": "Play your music with a clean, ad-free player",
+  "description": "Simple Music Player is a no-nonsense app for playing the songs you already have on your phone. It has a clean, stylish look and a handy widget for your home screen, so your music is always one tap away.\n\nThere are no ads and nothing trying to sell you anything, just a tidy way to enjoy your music library.",
+  "repo": "https://github.com/SimpleMobileTools/Simple-Music-Player",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://www.simplemobiletools.com",
+  "tags": ["music-player", "opensource"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "coppelia",
+  "name": "Coppelia",
+  "tagline": "A beautiful native way to enjoy your Jellyfin music",
+  "description": "Coppelia is a native app for browsing and playing music from your own Jellyfin server. It gives your self-hosted music library a polished, purpose-built home instead of squeezing it into a general media app.\n\nIt is open source and works across phones and tablets.",
+  "repo": "https://github.com/j6k4m8/coppelia",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://blog.jordan.matelsky.com/coppelia/",
+  "tags": ["jellyfin", "music-player", "flutter"],
+  "added": "2026-08-05"
+}

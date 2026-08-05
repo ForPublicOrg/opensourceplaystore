@@ -1,0 +1,12 @@
+{
+  "id": "vela",
+  "name": "Vela",
+  "tagline": "Turn-by-turn navigation without any Google services",
+  "description": "Vela is a maps and navigation app built for phones without Google Play Services. It uses MapLibre and OpenStreetMap data to give you turn-by-turn directions, and it works with Android Auto.\n\nIt's a good fit if you're using a de-Googled phone, like one running GrapheneOS, and still want reliable, private navigation.",
+  "repo": "https://github.com/PimpinPumpkin/Vela",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://pimpinpumpkin.github.io/Vela/",
+  "tags": ["maps", "navigation", "degoogled", "openstreetmap"],
+  "added": "2026-08-05"
+}

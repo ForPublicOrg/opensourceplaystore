@@ -1,0 +1,11 @@
+{
+  "id": "kontroller",
+  "name": "Kontroller",
+  "tagline": "Turn your phone into a wireless mouse and keyboard",
+  "description": "Kontroller lets you control your PC, Mac, TV, or tablet using your Android phone as a wireless mouse or keyboard over Bluetooth. It uses Android's built-in Bluetooth HID support, so there's no special software needed on the other device.\n\nHandy for controlling a media center from the couch or giving quick input to a computer without reaching for a separate mouse.",
+  "repo": "https://github.com/raghavk92/Kontroller",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["bluetooth", "remote-control", "mouse", "keyboard"],
+  "added": "2026-08-05"
+}

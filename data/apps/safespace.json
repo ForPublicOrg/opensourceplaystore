@@ -1,0 +1,11 @@
+{
+  "id": "safespace",
+  "name": "SafeSpace",
+  "tagline": "Keep your private files and notes locked away safely",
+  "description": "SafeSpace gives you a secure, private place on your phone to store sensitive files and information you don't want mixed in with the rest of your photos and documents. It's built with data protection in mind, so your valuable information stays under your control.\n\nIt's open source, so you can trust exactly how your data is handled.",
+  "repo": "https://github.com/aashishksahu/SafeSpace",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["secure-storage", "privacy", "data-protection"],
+  "added": "2026-08-05"
+}

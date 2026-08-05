@@ -1,0 +1,12 @@
+{
+  "id": "pgponyandroid",
+  "name": "PGPony",
+  "tagline": "Private OpenPGP encryption for your phone, with hardware key support",
+  "description": "PGPony brings OpenPGP encryption to Android, letting you encrypt and decrypt messages and files, and manage your PGP keys, right from your phone. It supports hardware security keys and integrates with password-store for managing secrets.\n\nIt's built with privacy first: open source, with no tracking.",
+  "repo": "https://github.com/norsehorse-dev/PGPonyAndroid",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://pgpony.app",
+  "tags": ["openpgp", "pgp", "encryption", "yubikey", "nfc"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "resumeplayer",
+  "name": "ResumePlayer",
+  "tagline": "Never lose your place in a long audio file again",
+  "description": "ResumePlayer is a simple audio player that remembers exactly where you stopped listening to each file. Close the app, come back tomorrow, and pick up right where you left off, no need to remember the time yourself.\n\nIt's perfect for long recordings, lectures, or any audio you listen to in pieces.",
+  "repo": "https://github.com/xquintana/ResumePlayer",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["audio-player"],
+  "added": "2026-08-05"
+}

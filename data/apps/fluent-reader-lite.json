@@ -1,0 +1,12 @@
+{
+  "id": "fluent-reader-lite",
+  "name": "Fluent Reader Lite",
+  "tagline": "Read your RSS feeds in one clean, simple app",
+  "description": "Fluent Reader Lite is a clean, no-fuss app for reading your RSS feeds. Add the blogs, news sites, and podcasts you follow, and it pulls in fresh articles so you can catch up in one place instead of checking a dozen different sites.\n\nIt's built to be simple and fast, with nothing extra getting in the way of your reading. The same app also runs on iOS, so your reading habit can follow you across devices.",
+  "repo": "https://github.com/yang991178/fluent-reader-lite",
+  "category": "internet",
+  "license": "BSD-3-Clause",
+  "website": "https://hyliu.me/fluent-reader-lite/",
+  "tags": ["rss", "reader", "flutter"],
+  "added": "2026-08-05"
+}

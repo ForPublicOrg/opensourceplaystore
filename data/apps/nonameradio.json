@@ -1,0 +1,11 @@
+{
+  "id": "nonameradio",
+  "name": "NoNameRadio",
+  "tagline": "Listen to internet radio stations smoothly and reliably",
+  "description": "NoNameRadio is a simple app for streaming internet radio stations on your phone. It's built to handle shaky network connections gracefully, so your music keeps playing even when your signal isn't perfect.\n\nControl playback right from your lock screen or notification shade, just like any other music app.",
+  "repo": "https://github.com/eosphor/NoNameRadio",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["radio", "streaming", "exoplayer"],
+  "added": "2026-08-05"
+}

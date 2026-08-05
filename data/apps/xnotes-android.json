@@ -1,0 +1,12 @@
+{
+  "id": "xnotes-android",
+  "name": "XNotes",
+  "tagline": "Write and sketch by hand on your phone with a stylus",
+  "description": "XNotes is built for handwriting and sketching with a stylus. Take notes the way you would on paper, draw diagrams, or mark up documents, all on your phone or tablet.\n\nIt also supports working with PDFs, so you can annotate documents directly, and it's available on F-Droid for anyone who prefers open, ad-free software.",
+  "repo": "https://github.com/shardulvs/xnotes-android",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://f-droid.org/en/packages/com.xnotes",
+  "tags": ["handwriting", "stylus", "notes", "sketching", "pdf"],
+  "added": "2026-08-05"
+}

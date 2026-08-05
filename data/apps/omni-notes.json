@@ -1,0 +1,12 @@
+{
+  "id": "omni-notes",
+  "name": "Omni Notes",
+  "tagline": "Write and organize notes without ads or tracking",
+  "description": "Omni Notes is a straightforward note-taking app for Android. Write quick notes, organize them into notebooks, and find them again fast, all without ads or hidden trackers.\n\nIt's a long-running open-source project built by and for people who just want a solid notes app that respects their privacy and doesn't get in the way.",
+  "repo": "https://github.com/federicoiosue/Omni-Notes",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://omninotes.app",
+  "tags": ["notes", "note-taking", "notebook", "free", "open-source"],
+  "added": "2026-08-05"
+}

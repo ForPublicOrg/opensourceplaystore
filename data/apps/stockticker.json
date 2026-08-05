@@ -1,0 +1,11 @@
+{
+  "id": "stockticker",
+  "name": "StockTicker",
+  "tagline": "Watch your stock portfolio right on your home screen",
+  "description": "StockTicker adds a resizable widget to your home screen that shows your financial portfolio at a glance, no need to open a separate app just to check your stocks. Add the tickers you care about and see them update right where you'll actually see them.\n\nIt's a simple, focused tool for anyone who wants a quick, glanceable view of their investments.",
+  "repo": "https://github.com/premnirmal/StockTicker",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["finance", "widget"],
+  "added": "2026-08-05"
+}

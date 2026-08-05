@@ -1,0 +1,11 @@
+{
+  "id": "sum-stacker",
+  "name": "Sum Stacker",
+  "tagline": "Stack number blocks until every pile sums right",
+  "description": "Sum Stacker is a minimalist number puzzle game. Drag positive and negative blocks onto three piles until all three piles add up to the same sum.\n\nIt comes with 100 hand-crafted levels and a star-rating system that rewards solving each puzzle in the fewest moves. Everything works fully offline.",
+  "repo": "https://github.com/abigayleh/sum-stacker",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["puzzle", "offline", "math"],
+  "added": "2026-08-05"
+}

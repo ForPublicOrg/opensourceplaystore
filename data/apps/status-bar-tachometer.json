@@ -1,0 +1,11 @@
+{
+  "id": "status-bar-tachometer",
+  "name": "Status Bar Tachometer",
+  "tagline": "See your current speed right in your notification bar",
+  "description": "Status Bar Tachometer keeps a running readout of how fast you're moving, shown quietly as a notification in your status bar. It uses your phone's GPS to calculate speed in real time, without needing a full navigation app open.\n\nIt's handy for cyclists, runners, or drivers who just want a quick glance at their speed without any extra clutter on screen.",
+  "repo": "https://github.com/Waboodoo/Status-Bar-Tachometer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["gps", "notification", "speed"],
+  "added": "2026-08-05"
+}

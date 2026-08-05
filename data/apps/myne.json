@@ -1,0 +1,12 @@
+{
+  "id": "myne",
+  "name": "Myne",
+  "tagline": "Download and read thousands of free classic ebooks",
+  "description": "Myne lets you search, download, and read free ebooks straight from Project Gutenberg's huge library of classic literature. Everything is built with a clean, modern design so browsing for your next book feels effortless.\n\nOnce a book is downloaded you can read it right in the app, no separate reader needed and no account required.",
+  "repo": "https://github.com/Pool-Of-Tears/Myne",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://pool-of-tears.github.io",
+  "tags": ["ebooks", "epub", "gutenberg", "books", "reader"],
+  "added": "2026-08-05"
+}

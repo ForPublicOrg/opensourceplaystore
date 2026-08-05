@@ -1,0 +1,12 @@
+{
+  "id": "butterfly",
+  "name": "Butterfly",
+  "tagline": "A powerful, minimal note-taking and drawing app",
+  "description": "Butterfly is a note-taking app that lets you write, draw, and sketch your ideas in one place. It keeps things simple and clean, while still giving you plenty of room to customize how you work.\n\nBecause it runs on Android, Windows, macOS, Linux, and the web, your notes can follow you between your phone and your computer.",
+  "repo": "https://github.com/LinwoodDev/Butterfly",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://butterfly.linwood.dev",
+  "tags": ["notes", "drawing", "note-taking", "cross-platform", "customizable", "writing"],
+  "added": "2026-08-05"
+}

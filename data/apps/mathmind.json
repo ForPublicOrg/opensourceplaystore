@@ -1,0 +1,11 @@
+{
+  "id": "mathmind",
+  "name": "MathMind",
+  "tagline": "Practice math with a fun, AI-powered quiz game",
+  "description": "MathMind turns math practice into a game, with an AI generating questions, achievements to unlock, and a leaderboard to chase. It works offline too, with a fallback question set for whenever you don't have a connection.\n\nIt supports both English and Bengali, so it's a nice pick for bilingual learners or classrooms.",
+  "repo": "https://github.com/AsadullahAlMunib/MathMind",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": ["math", "quiz", "gamification", "bilingual", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ilidownloader",
+  "name": "iliDownloader",
+  "tagline": "Save Instagram photos and videos without logging in",
+  "description": "iliDownloader is a simple Android app for saving Instagram photos, videos, stories, and highlights from public profiles. There's no need to log into your own Instagram account to use it.\n\nJust paste a link and save your favorite Instagram content to your phone with a single tap.",
+  "repo": "https://github.com/iliaxp/iliDownloader",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["instagram", "downloader"],
+  "added": "2026-08-05"
+}

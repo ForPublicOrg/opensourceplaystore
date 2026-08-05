@@ -1,0 +1,11 @@
+{
+  "id": "anytime-podcast-player",
+  "name": "Anytime Podcast Player",
+  "tagline": "A simple, easy way to listen to your favorite podcasts",
+  "description": "Anytime is a straightforward podcast player app. Search for shows, subscribe, and download episodes to listen to whenever you like, with none of the clutter that bigger podcast apps have piled on over the years.\n\nIt is built with Flutter and is fully open source.",
+  "repo": "https://github.com/amugofjava/anytime_podcast_player",
+  "category": "media",
+  "license": "BSD-3-Clause",
+  "tags": ["podcast", "podcast-player", "flutter"],
+  "added": "2026-08-05"
+}

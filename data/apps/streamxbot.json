@@ -1,0 +1,11 @@
+{
+  "id": "streamxbot",
+  "name": "StreamX",
+  "tagline": "Manage and stream your own music library, with a Telegram bot too",
+  "description": "StreamX is a self-hosted music platform that brings your personal music library and YouTube Music together in one place. Stream, download, and organize your music by album, artist, or playlist across Android and the web.\n\nIt also comes with a Telegram bot, so you can control playback and even run live jam sessions with friends straight from a chat.",
+  "repo": "https://github.com/SriKousik/StreamXBot",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["music-player", "self-hosted", "telegram", "streaming", "youtube-music"],
+  "added": "2026-08-05"
+}

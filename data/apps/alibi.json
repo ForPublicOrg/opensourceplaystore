@@ -1,0 +1,11 @@
+{
+  "id": "alibi",
+  "name": "Alibi",
+  "tagline": "Turn your phone into a dashcam that keeps your last 30 minutes safe",
+  "description": "Alibi turns your phone into a dashcam. It records continuously in the background and keeps the last 30 minutes on hand, so if something happens on the road, you already have the footage saved.\n\nIt's built with privacy in mind and uses a clean Material You design, so it fits right in with the rest of your phone.",
+  "repo": "https://github.com/Myzel394/Alibi",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["dashcam", "privacy", "recorder"],
+  "added": "2026-08-05"
+}

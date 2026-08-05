@@ -1,0 +1,11 @@
+{
+  "id": "flux",
+  "name": "Flux",
+  "tagline": "Organize notes, tasks, and journals in flexible workspaces",
+  "description": "Flux is a flexible organizer for people who don't fit into one rigid system. Create your own workspaces and spaces to hold notes, journals, tasks, and events, then arrange them however works best for you.\n\nRather than forcing you into someone else's idea of productivity, Flux adapts to the way you actually organize your life.",
+  "repo": "https://github.com/chindaronit/Flux",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "tasks", "journal", "workspace"],
+  "added": "2026-08-05"
+}

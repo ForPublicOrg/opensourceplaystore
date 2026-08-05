@@ -1,0 +1,11 @@
+{
+  "id": "bim",
+  "name": "Bim!",
+  "tagline": "Last player standing wins this arcade shootout",
+  "description": "Bim! is a fast, last-man-standing arcade game you play online against other people. Jump into a match, outmaneuver your opponents, and be the last one left standing.\n\nIt's built for quick, chaotic multiplayer sessions on Android.",
+  "repo": "https://github.com/j-jorge/bim",
+  "category": "games",
+  "license": "AGPL-3.0",
+  "tags": ["multiplayer", "arcade", "online"],
+  "added": "2026-08-05"
+}

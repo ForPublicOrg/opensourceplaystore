@@ -1,0 +1,11 @@
+{
+  "id": "procrastilearn",
+  "name": "ProcrastiLearn",
+  "tagline": "Turns your doomscrolling habit into vocabulary practice",
+  "description": "ProcrastiLearn puts a small speed bump in front of the apps that eat up your time. Pick apps to gate, like TikTok, and every time you try to open one, you get a full-screen flashcard to review first using spaced repetition, before you're let through.\n\nYou can import your own words from Anki, and it can optionally use AI to generate translations. Everything runs locally on your phone, with no ads and no analytics tracking you.",
+  "repo": "https://github.com/Vladyslav-Soldatenko/ProcrastiLearn",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": ["flashcards", "spaced-repetition", "anki", "focus", "language-learning"],
+  "added": "2026-08-05"
+}

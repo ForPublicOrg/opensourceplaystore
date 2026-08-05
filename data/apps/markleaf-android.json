@@ -1,0 +1,12 @@
+{
+  "id": "markleaf-android",
+  "name": "MarkLeaf",
+  "tagline": "Write markdown notes that stay on your phone",
+  "description": "MarkLeaf is a lightweight app for writing notes in Markdown, right on your Android phone. It keeps everything stored locally first, so your notes are there for you even without an internet connection.\n\nBuilt with privacy in mind, it doesn't need an account or the cloud to work, making it a simple, no-fuss choice for jotting down and organizing your thoughts.",
+  "repo": "https://github.com/jeiel85/markleaf-android",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "website": "https://jeiel85.github.io/markleaf-android/",
+  "tags": ["notes", "markdown", "local-first", "privacy-first", "offline-first"],
+  "added": "2026-08-05"
+}

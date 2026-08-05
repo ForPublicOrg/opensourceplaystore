@@ -1,0 +1,12 @@
+{
+  "id": "ledor",
+  "name": "Ledor",
+  "tagline": "Speed-read books and articles one word at a time",
+  "description": "Ledor is a speed reading app that flashes words to you one at a time in the same spot, a technique called RSVP, so your eyes don't have to move across the page. It works with EPUB books and web articles, and also offers a normal e-reader mode, scrolling mode, and text-to-speech if flashing words isn't your style.\n\nIt tracks your reading stats over time and can back up your library to your own Drive account.",
+  "repo": "https://github.com/daniel-pimenta-cc/ledor",
+  "category": "reading",
+  "license": "MIT",
+  "website": "https://ledor.app",
+  "tags": ["speed-reading", "epub", "rsvp", "articles", "tts"],
+  "added": "2026-08-05"
+}

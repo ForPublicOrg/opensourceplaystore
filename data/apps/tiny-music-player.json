@@ -1,0 +1,12 @@
+{
+  "id": "tiny-music-player",
+  "name": "Tiny Music Player",
+  "tagline": "A tiny music player that just works, even on old phones",
+  "description": "Tiny Music Player is a minimal, notification-based audio player that weighs in at under 20KB. It plays the music files on your device through a simple notification, with no bloated interface to load up first.\n\nIt is built to run on almost anything, from Android 1.0 up, and respects your privacy by not collecting any data.",
+  "repo": "https://github.com/martinmimigames/tiny-music-player",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://martinmimigames.github.io/projects/tiny-music-player/index.html",
+  "tags": ["music-player", "f-droid", "minimal", "privacy-preserving"],
+  "added": "2026-08-05"
+}

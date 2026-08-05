@@ -1,0 +1,12 @@
+{
+  "id": "chemsearch-android",
+  "name": "ChemSearch",
+  "tagline": "Look up chemical compounds and their safety information",
+  "description": "ChemSearch is a chemistry reference app for students and anyone curious about compounds. Search for a chemical and see its 2D and 3D structure along with GHS safety data, pulled from PubChem, and save records you want to come back to.\n\nIt's aimed squarely at making chemistry more approachable on a phone, with practical tools rather than just a wall of text.",
+  "repo": "https://github.com/FurtherSecrets24680/chemsearch-android",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://chemsearch.pages.dev",
+  "tags": ["chemistry", "stem", "pubchem", "science"],
+  "added": "2026-08-05"
+}

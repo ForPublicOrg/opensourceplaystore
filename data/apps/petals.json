@@ -1,0 +1,11 @@
+{
+  "id": "petals",
+  "name": "Petals",
+  "tagline": "Track your cannabis use, and cut back if you want to",
+  "description": "Petals helps you keep track of how much cannabis you're using over time. Whether your goal is to quit entirely, cut back gradually, or just get an honest picture of your habits, Petals gives you a simple log to see your patterns clearly.\n\nIt's an open-source, judgment-free tool built around harm and damage reduction rather than lecturing you about your choices.",
+  "repo": "https://github.com/LeoColman/Petals",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["cannabis", "damage-reduction", "privacy", "weed"],
+  "added": "2026-08-05"
+}

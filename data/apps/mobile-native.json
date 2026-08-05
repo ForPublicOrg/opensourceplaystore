@@ -1,0 +1,12 @@
+{
+  "id": "mobile-native",
+  "name": "Minds",
+  "tagline": "A social network that rewards openness, not ads",
+  "description": "Minds is a social network built as an open alternative to mainstream platforms, with a focus on free speech and rewarding people for contributing instead of harvesting their data for advertisers. Post updates, follow people, and join groups just like you would on any social app.\n\nBecause the whole project is open source, anyone can see exactly how it works instead of just trusting a company's word for it.",
+  "repo": "https://github.com/Minds/mobile-native",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://minds.com",
+  "tags": ["social-network", "social-media", "open-source"],
+  "added": "2026-08-05"
+}

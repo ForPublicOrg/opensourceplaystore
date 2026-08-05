@@ -1,0 +1,12 @@
+{
+  "id": "greenstash",
+  "name": "GreenStash",
+  "tagline": "Save money and reach your goals",
+  "description": "GreenStash helps you plan and reach your savings goals. Set a target for whatever you are saving toward, whether it's a trip, a gadget, or an emergency fund, and track your progress as you go.\n\nIt's designed to make saving money feel simple and encourage you to build a steady saving habit over time, all without any ads or hidden costs.",
+  "repo": "https://github.com/Pool-Of-Tears/GreenStash",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://pool-of-tears.github.io",
+  "tags": ["savings", "finance", "money-manager", "budgeting", "tracking"],
+  "added": "2026-08-05"
+}

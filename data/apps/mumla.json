@@ -1,0 +1,12 @@
+{
+  "id": "mumla",
+  "name": "Mumla",
+  "tagline": "Talk with your team using voice chat rooms",
+  "description": "Mumla is an app for Mumble, a voice chat system popular with gamers and online communities who want low-latency, high-quality group voice calls. Join a server, hop into a channel, and talk with your friends or teammates in real time.\n\nIt's a solid, no-nonsense way to bring Mumble voice chat to your Android phone.",
+  "repo": "https://github.com/quite/mumla",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://mumla-app.gitlab.io/",
+  "tags": ["mumble", "voip", "conference"],
+  "added": "2026-08-05"
+}

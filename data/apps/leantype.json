@@ -1,0 +1,12 @@
+{
+  "id": "leantype",
+  "name": "LeanType Keyboard",
+  "tagline": "A privacy-friendly keyboard with built-in AI writing help",
+  "description": "LeanType is a keyboard for Android that adds handy AI features like proofreading and translation on top of a solid, privacy-respecting typing experience. It's a fork of the well-regarded HeliBoard keyboard, so you get fast, reliable typing plus extra tools when you want them.\n\nYou can customize the look and feel to match your style, and everything is open source so you can see exactly how it works.",
+  "repo": "https://github.com/LeanBitLab/LeanType",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://leanbitlab.github.io/LeanBitLab/",
+  "tags": ["keyboard", "privacy", "ai-tools", "proofreading", "translation", "offline-ai"],
+  "added": "2026-08-05"
+}

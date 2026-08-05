@@ -1,0 +1,12 @@
+{
+  "id": "podium",
+  "name": "Podium",
+  "tagline": "A clean, modern app for following your favorite podcasts",
+  "description": "Podium is a podcast app with a clean, modern design that makes it easy to find and follow shows you love. Browse your feed, keep track of new episodes, and enjoy a tidy listening experience without clutter.\n\nIt's built for people who just want a simple, good-looking way to listen to podcasts.",
+  "repo": "https://github.com/aimok04/podium",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://podiumpodcasts.app",
+  "tags": ["podcast", "material-you", "rss"],
+  "added": "2026-08-05"
+}

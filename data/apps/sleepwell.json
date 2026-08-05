@@ -1,0 +1,11 @@
+{
+  "id": "sleepwell",
+  "name": "Sleepwell",
+  "tagline": "Find the best time to sleep and wake up",
+  "description": "Sleepwell helps you figure out the best times to go to sleep or wake up, based on natural sleep cycles. Just tell it when you need to wake up, and it works backward to suggest good times to fall asleep.\n\nIt's a small, focused tool for anyone trying to get better rest and wake up feeling less groggy.",
+  "repo": "https://github.com/alperengozum/Sleepwell",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["sleep", "sleep-cycle", "health", "calculator"],
+  "added": "2026-08-05"
+}

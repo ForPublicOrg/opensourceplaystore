@@ -1,0 +1,11 @@
+{
+  "id": "aura",
+  "name": "Aura",
+  "tagline": "Free wallpapers, ringtones, and sounds, no account needed",
+  "description": "Aura is an open source alternative to Zedge, letting you browse and set wallpapers, live wallpapers, ringtones, and sounds. It can also pull content in from YouTube and Reddit, powered by yt-dlp under the hood.\n\nThere are no accounts to sign up for and no ads to sit through, just a clean way to personalize your phone.",
+  "repo": "https://github.com/SysAdminDoc/Aura",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["wallpaper", "ringtone", "zedge-alternative", "dark-theme"],
+  "added": "2026-08-05"
+}

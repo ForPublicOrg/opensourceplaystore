@@ -1,0 +1,12 @@
+{
+  "id": "szkolny-android",
+  "name": "Szkolny",
+  "tagline": "Check your Polish school grades and timetable in one place",
+  "description": "Szkolny is an unofficial app that brings together the most popular Polish school gradebook systems, like Librus, Vulcan, Mobidziennik and iDziennik, into a single easy-to-use app. Instead of juggling several separate logins and apps, students and parents can check grades, schedules and announcements in one place.\n\nIt is community-built and free, and it has been actively maintained for years by developers who wanted a better experience than the official apps offer.",
+  "repo": "https://github.com/szkolny-eu/szkolny-android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://szkolny.eu",
+  "tags": ["school", "grades", "timetable", "poland", "librus", "vulcan"],
+  "added": "2026-08-05"
+}

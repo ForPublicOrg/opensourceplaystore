@@ -1,0 +1,11 @@
+{
+  "id": "anonaddy",
+  "name": "AnonAddy",
+  "tagline": "Manage your email aliases and protect your real address",
+  "description": "AnonAddy is a mobile app for managing your email aliases through AnonAddy.com, a service that lets you create throwaway or forwarding email addresses instead of handing out your real one. Use it when signing up for something new, and keep your actual inbox private.\n\nFrom the app you can create, view, and manage your aliases on the go, so protecting your email address doesn't mean sitting down at a computer first.",
+  "repo": "https://github.com/KhalidWar/anonaddy",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["email", "privacy", "aliases"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wifi-widget",
+  "name": "WiFi Widget",
+  "tagline": "Keep an eye on your WiFi connection from your home screen",
+  "description": "WiFi Widget adds a fully configurable home screen widget that shows you the details of your current WiFi connection at a glance, no need to dig through settings menus.\n\nIt's open source and built for anyone who wants quick, always-visible information about the network their phone is connected to.",
+  "repo": "https://github.com/w2sv/WiFi-Widget",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["widget", "wifi", "networking", "fdroid"],
+  "added": "2026-08-05"
+}

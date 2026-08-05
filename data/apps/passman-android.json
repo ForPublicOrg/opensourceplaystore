@@ -1,0 +1,12 @@
+{
+  "id": "passman-android",
+  "name": "Passman",
+  "tagline": "A password manager for your own Nextcloud server",
+  "description": "Passman is the Android app for the Passman password manager, which stores your passwords on your own Nextcloud server instead of a company's servers. It's a solid fit if you already self-host Nextcloud and want your passwords to live there too.\n\nWith Passman, you keep full control over where your password vault actually lives.",
+  "repo": "https://github.com/nextcloud/passman-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://passman.cc",
+  "tags": ["password-manager", "nextcloud", "passman"],
+  "added": "2026-08-05"
+}

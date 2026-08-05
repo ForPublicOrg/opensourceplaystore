@@ -1,0 +1,11 @@
+{
+  "id": "algo-phantoms-android",
+  "name": "Algo Phantoms",
+  "tagline": "Practice coding problems and learn data structures on your phone",
+  "description": "Algo Phantoms is a companion app for anyone learning data structures and algorithms. It includes a built-in code editor along with guided pathways and quizzes, so you can practice writing and testing code without needing a laptop nearby.\n\nIt's aimed at beginners who want a friendly, structured way to build up their problem-solving skills over time.",
+  "repo": "https://github.com/Algo-Phantoms/Algo-Phantoms-Android",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": ["algorithms", "data-structures", "quiz", "coding", "beginner-friendly"],
+  "added": "2026-08-05"
+}

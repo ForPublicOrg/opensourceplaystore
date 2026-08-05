@@ -1,0 +1,11 @@
+{
+  "id": "thud",
+  "name": "Thud",
+  "tagline": "Catch up on news without the noise",
+  "description": "Thud is a simple news reader built to keep things quiet. It pulls in your feeds and shows them without clutter, badges, or noisy notifications competing for your attention.\n\nIt can connect to your Feedly account, so if you already keep your subscriptions there, Thud gives you a calmer way to read them.",
+  "repo": "https://github.com/aerotoad/Thud",
+  "category": "internet",
+  "license": "AGPL-3.0",
+  "tags": ["news", "rss", "reader"],
+  "added": "2026-08-05"
+}

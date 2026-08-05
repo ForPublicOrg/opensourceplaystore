@@ -1,0 +1,12 @@
+{
+  "id": "pockaw",
+  "name": "Pockaw",
+  "tagline": "Track spending and budgets without the hassle",
+  "description": "Pockaw is a free budgeting app that helps you keep track of where your money goes. Log your expenses and income, set budget goals, and see simple charts of your spending trends, all without a complicated setup.\n\nIt's built to make everyday money tracking approachable, whether you're trying to save for something specific or just want a clearer picture of your spending habits.",
+  "repo": "https://github.com/layground/pockaw",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://pockaw.com",
+  "tags": ["budgeting", "finance", "expenses"],
+  "added": "2026-08-05"
+}

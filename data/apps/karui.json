@@ -1,0 +1,11 @@
+{
+  "id": "karui",
+  "name": "Karui",
+  "tagline": "A tiny, private to-do list app, just 64kb",
+  "description": "Karui is a lightweight to-do list app for people who just want to jot down tasks without any bloat. It's inspired by clean, minimal design systems and keeps your tasks stored locally on your device instead of some company's server.\n\nAt just 64kb, it's one of the smallest task apps around, but it doesn't skimp on looking good while staying out of your way.",
+  "repo": "https://github.com/ronynn/karui",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "privacy", "productivity", "local"],
+  "added": "2026-08-05"
+}

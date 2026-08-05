@@ -1,0 +1,11 @@
+{
+  "id": "profitocracy",
+  "name": "Profitocracy",
+  "tagline": "Budget your money with the 50-30-20 rule",
+  "description": "Profitocracy helps you take control of your money using the simple 50-30-20 budgeting rule: 50 percent for needs, 30 percent for wants, and 20 percent for savings. It works with multiple currencies, so it fits wherever you live or travel.\n\nIt's a clean, straightforward way to see where your money is going each month without needing a finance degree to understand it.",
+  "repo": "https://github.com/KrawMire/profitocracy",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["budgeting", "finance", "money-manager", "personal-finance"],
+  "added": "2026-08-05"
+}

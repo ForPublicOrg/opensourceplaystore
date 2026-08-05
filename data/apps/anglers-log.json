@@ -1,0 +1,12 @@
+{
+  "id": "anglers-log",
+  "name": "Anglers' Log",
+  "tagline": "Track and share your fishing catches",
+  "description": "Anglers' Log is built for anyone who loves fishing and wants to keep a record of it. Log your catches, track details about each trip, and look back on your fishing history over time.\n\nIt's open source and made for people who want to analyze and share their catches without relying on a closed, ad-filled app.",
+  "repo": "https://github.com/cohenadair/anglers-log",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://anglerslog.ca/",
+  "tags": ["fishing", "utility"],
+  "added": "2026-08-05"
+}

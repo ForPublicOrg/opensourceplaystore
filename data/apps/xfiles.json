@@ -1,0 +1,11 @@
+{
+  "id": "xfiles",
+  "name": "XFiles",
+  "tagline": "A powerful file explorer with archives, transfers, and more",
+  "description": "XFiles is a full-featured file explorer for Android, built for people who want more control over their files than a basic manager gives you. It can open and create compressed archives, connect to remote file servers, transfer files directly between devices, and check file checksums.\n\nMany of its advanced features need root access to work, so it's best suited for power users who already have a rooted device and want one solid app to manage everything.",
+  "repo": "https://github.com/pgp/XFiles",
+  "category": "tools",
+  "license": "LGPL-3.0",
+  "tags": ["file-explorer", "file-manager", "file-transfer", "file-server"],
+  "added": "2026-08-05"
+}

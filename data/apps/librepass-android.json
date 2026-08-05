@@ -1,0 +1,11 @@
+{
+  "id": "librepass-android",
+  "name": "LibrePass",
+  "tagline": "A simple, open-source password manager for your phone",
+  "description": "LibrePass is a native Android password manager that stores your logins securely and helps you generate strong new passwords when you need them.\n\nIt's built with modern Android tools, Kotlin and Jetpack Compose, and focuses on being a straightforward, open alternative to closed-source password managers.",
+  "repo": "https://github.com/LibrePass/LibrePass-Android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["password-manager", "password-generator", "encryption", "open-source"],
+  "added": "2026-08-05"
+}

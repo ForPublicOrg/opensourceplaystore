@@ -1,0 +1,12 @@
+{
+  "id": "memno",
+  "name": "Memno",
+  "tagline": "Save links and notes for later, all offline",
+  "description": "Memno is a bookmark manager and link saver for anything you want to read or check out later. Save a link and it automatically pulls in a preview, or add your own notes alongside it so you remember why you saved it in the first place.\n\nEvery saved item gets a short 6-digit code for quick retrieval, and everything works offline-first, so your saved links and notes are always there when you need them. You can also export or import everything as JSON, keeping your data in your own hands.",
+  "repo": "https://github.com/jydv402/memno",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://memno.pages.dev",
+  "tags": ["bookmarks", "link-saver", "offline-first", "notes", "read-later"],
+  "added": "2026-08-05"
+}

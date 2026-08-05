@@ -1,0 +1,11 @@
+{
+  "id": "inkita",
+  "name": "Inkita",
+  "tagline": "Read your self-hosted comics and books on the go",
+  "description": "Inkita is a lightweight companion app for Kavita, a self-hosted server for organizing comics, manga, and books. It gives you fast browsing, offline downloads, and reliable progress syncing, so you always pick up right where you left off.\n\nIt quietly caches covers, pages, and details in the background, making it easy to keep reading even without a strong connection.",
+  "repo": "https://github.com/dom-53/Inkita",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["kavita", "self-hosted", "epub", "reader", "offline"],
+  "added": "2026-08-05"
+}

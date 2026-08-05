@@ -1,0 +1,12 @@
+{
+  "id": "tankstellen",
+  "name": "Sparkilo",
+  "tagline": "Find the cheapest fuel and EV charging near you",
+  "description": "Sparkilo helps you find the cheapest fuel and EV charging nearby, using real-time official prices across 17 countries. It can plan routes with the best stops along the way, alert you when prices drop, and even keep a trip logbook of your fuel consumption and costs by connecting to your car's OBD2 port along with GPS.\n\nIt's open-source, free of ads, and doesn't require creating an account, so your driving and location data stays yours.",
+  "repo": "https://github.com/fdittgen-png/tankstellen",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://fdittgen-png.github.io/tankstellen/",
+  "tags": ["ev-charging", "fuel-prices", "fuel-price-comparison", "gas-prices", "obd2", "trip-logbook", "price-comparison", "eco-driving"],
+  "added": "2026-08-05"
+}

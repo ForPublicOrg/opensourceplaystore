@@ -1,0 +1,12 @@
+{
+  "id": "a-edev-flow",
+  "name": "Flow",
+  "tagline": "Watch YouTube and YouTube Music without the clutter",
+  "description": "Flow is a modern YouTube and YouTube Music client for Android, built with Jetpack Compose. It plays videos and music without needing the official apps, and gives you local recommendations based on what you actually listen to instead of a black-box algorithm.\n\nIt is open source, so you can see exactly how it works and what it does with your data.",
+  "repo": "https://github.com/A-EDev/Flow",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://flow.aedev.me",
+  "tags": ["youtube", "youtube-client", "music-player", "video-player", "innertube", "open-source"],
+  "added": "2026-08-05"
+}

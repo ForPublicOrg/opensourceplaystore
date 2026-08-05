@@ -1,0 +1,12 @@
+{
+  "id": "watomatic",
+  "name": "Watomatic",
+  "tagline": "Send automatic replies on WhatsApp and other chat apps",
+  "description": "Watomatic sends an automatic reply to people who message you on WhatsApp, Facebook Messenger, Telegram, Signal, and other chat apps, so nobody is left waiting when you're driving, sleeping, or just need a break.\n\nYou set the message once, turn it on, and Watomatic handles the rest, all without needing your messages to pass through any outside server.",
+  "repo": "https://github.com/adeekshith/watomatic",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://watomatic.app",
+  "tags": ["auto-reply", "automation", "whatsapp", "telegram", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "classipod",
+  "name": "Classipod",
+  "tagline": "Relive the classic iPod Classic on your phone",
+  "description": "Classipod is a local music player designed to capture the nostalgic feel of the iconic iPod Classic, right down to its look and navigation. If you miss scrolling through your music the old-fashioned way, this brings that experience back.\n\nIt plays the music files already on your device and is fully open source.",
+  "repo": "https://github.com/adeeteya/Classipod",
+  "category": "media",
+  "license": "BSD-4-Clause",
+  "website": "https://adeeteya.github.io/Classipod/",
+  "tags": ["music-player", "ipod-classic", "flutter"],
+  "added": "2026-08-05"
+}

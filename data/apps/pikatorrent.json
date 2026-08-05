@@ -1,0 +1,12 @@
+{
+  "id": "pikatorrent",
+  "name": "PikaTorrent",
+  "tagline": "Pick a torrent, then stream or download it right away",
+  "description": "PikaTorrent makes it easy to pick a torrent and start streaming or downloading it right away, right from your phone. No complicated settings to dig through first.\n\nIt works alongside your other devices too, so you can start a download on your phone and keep going on your computer, or the other way around.",
+  "repo": "https://github.com/G-Ray/pikatorrent",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://www.pikatorrent.com",
+  "tags": ["torrent", "bittorrent", "streaming"],
+  "added": "2026-08-05"
+}

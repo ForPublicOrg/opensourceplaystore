@@ -1,0 +1,11 @@
+{
+  "id": "lockscreennotes",
+  "name": "Lock Screen Notes",
+  "tagline": "Pin quick notes right on your lock screen",
+  "description": "Lock Screen Notes lets you pin quick notes straight to your lock screen using notifications, so you can see them the instant you glance at your phone. It's perfect for reminders you don't want to dig through another app to find.\n\nSimple and to the point, it's a handy little tool for anything you need to keep front and center.",
+  "repo": "https://github.com/NilsFo/LockScreenNotes",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["notes", "lockscreen", "notifications", "reminders"],
+  "added": "2026-08-05"
+}

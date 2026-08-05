@@ -1,0 +1,12 @@
+{
+  "id": "zemeroth",
+  "name": "Zemeroth",
+  "tagline": "A minimalist turn-based tactical battle game",
+  "description": "Zemeroth is a small, sharp tactical battle game. Take turns moving your fighters across a hexagonal grid, land solid hits, and outsmart your opponent's squad.\n\nIt's built to be simple and fast rather than flashy — just clean turn-based strategy you can pick up in minutes.",
+  "repo": "https://github.com/ozkriff/zemeroth",
+  "category": "games",
+  "license": "Apache-2.0",
+  "website": "https://ozkriff.itch.io/zemeroth",
+  "tags": ["strategy", "tactics", "turn-based", "hexagonal"],
+  "added": "2026-08-05"
+}

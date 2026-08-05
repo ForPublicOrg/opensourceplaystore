@@ -1,0 +1,12 @@
+{
+  "id": "manga-translator",
+  "name": "Manga Translator",
+  "tagline": "Automatically translate manga and comics as you read",
+  "description": "Manga Translator automatically translates manga, manhwa, manhua, and other comics into the language you choose. Instead of hunting for a fan translation, you can read almost any comic in a language you actually understand.\n\nIt's built for readers who want to enjoy stories from around the world without waiting for someone else to translate them first.",
+  "repo": "https://github.com/wiryaimd/manga-translator",
+  "category": "reading",
+  "license": "MIT",
+  "website": "https://mangatlx.com/",
+  "tags": ["manga", "translation", "comics", "webtoon"],
+  "added": "2026-08-05"
+}

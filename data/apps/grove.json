@@ -1,0 +1,12 @@
+{
+  "id": "grove",
+  "name": "Grove",
+  "tagline": "Visualize your growth and build streaks",
+  "description": "Grove is a minimalist habit tracker that helps you visualize your own growth over time. Keep a streak going for the habits that matter to you, whether that's a daily routine, a self-improvement goal, or staying on track with sobriety.\n\nIt keeps things simple and clean, so you can focus on building good habits instead of fighting with the app.",
+  "repo": "https://github.com/resurrectdev1/Grove",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://resurrectdev1.github.io/Grove/",
+  "tags": ["habit-tracker", "self-improvement", "streak", "minimalist"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "appverifier",
+  "name": "AppVerifier",
+  "tagline": "Check that the apps on your phone are the real, unmodified thing",
+  "description": "AppVerifier makes it easy to check that an app on your phone is the genuine article, not a modified or tampered copy pretending to be it. It's a small, focused security tool built around that one job.\n\nIt has a clean, modern Material You design, so checking an app takes just a couple of taps.",
+  "repo": "https://github.com/soupslurpr/AppVerifier",
+  "category": "security",
+  "license": "ISC",
+  "tags": ["security", "verification", "security-tools"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "habitized",
+  "name": "Habitized",
+  "tagline": "Build better habits with routines, streaks, and a timer",
+  "description": "Habitized is a habit tracker that helps you build routines and stick with them. Set up habits, track your streaks, and use the built-in pomodoro timer to stay focused while you work toward your goals.\n\nIt works fully offline and stays free of ads, so you can focus on building better habits without distraction.",
+  "repo": "https://github.com/codewithdipesh/Habitized",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://habitized-landing-page.vercel.app",
+  "tags": ["habit-tracker", "pomodoro", "self-improvement", "routines"],
+  "added": "2026-08-05"
+}

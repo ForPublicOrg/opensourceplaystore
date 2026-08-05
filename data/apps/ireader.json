@@ -1,0 +1,12 @@
+{
+  "id": "ireader",
+  "name": "IReader",
+  "tagline": "Read web novels and light novels from many sources",
+  "description": "IReader is a free novel reader that pulls in stories from many different websites, so you can find and read your favorite web novels and light novels all in one place. It works on both Android and desktop.\n\nYou can customize fonts, themes, and reading settings to make long reading sessions comfortable, and keep track of what you have read across all your sources.",
+  "repo": "https://github.com/IReaderorg/IReader",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://ireaderorg.netlify.app/",
+  "tags": ["novel", "webnovel", "light-novels", "reader"],
+  "added": "2026-08-05"
+}

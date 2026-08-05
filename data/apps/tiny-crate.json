@@ -1,0 +1,12 @@
+{
+  "id": "tiny-crate",
+  "name": "Tiny Crate",
+  "tagline": "Push and throw crates to solve puzzle levels",
+  "description": "Tiny Crate is a crate-chucking puzzle platformer. Push, throw, and stack crates to clear a path and reach the end of each hand-crafted level.\n\nIt's a small, focused puzzle game with pixel-art visuals, from the same developer as ROTA.",
+  "repo": "https://github.com/HarmonyHoney/tiny_crate",
+  "category": "games",
+  "license": "Unlicense",
+  "website": "https://harmonymonroe.com",
+  "tags": ["puzzle", "platformer", "pixel-art"],
+  "added": "2026-08-05"
+}

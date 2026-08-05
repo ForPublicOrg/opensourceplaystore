@@ -1,0 +1,12 @@
+{
+  "id": "colota",
+  "name": "Colota",
+  "tagline": "Track and save your own GPS location history",
+  "description": "Colota is a simple GPS location tracker for Android. It quietly records where you've been over time, similar to Google's Timeline feature, but the data stays under your control instead of going to a big tech company.\n\nUse it to build a personal travel log, keep a record of trips, or just see your movement history laid out over time.",
+  "repo": "https://github.com/dietrichmax/colota",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "website": "https://colota.app/",
+  "tags": ["google-timeline", "gps-tracker", "gps-tracking", "location", "location-tracker"],
+  "added": "2026-08-05"
+}

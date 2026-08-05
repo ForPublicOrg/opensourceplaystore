@@ -1,0 +1,11 @@
+{
+  "id": "wherefam-android",
+  "name": "WhereFam",
+  "tagline": "Share your location with friends and family, privately",
+  "description": "WhereFam lets you find and keep track of friends and family, wherever they are, without routing your location through a middleman company's servers. It's built as a peer-to-peer app, so your location data travels directly between the people you choose to share it with.\n\nIf you like the idea of apps like Life360 but want your family's location to stay private and secure, WhereFam offers an open-source alternative.",
+  "repo": "https://github.com/WhereFam/WhereFam-Android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["location-services", "maps", "p2p"],
+  "added": "2026-08-05"
+}

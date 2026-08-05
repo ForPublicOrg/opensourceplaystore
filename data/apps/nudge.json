@@ -1,0 +1,12 @@
+{
+  "id": "nudge",
+  "name": "Nudge",
+  "tagline": "Curb doom-scrolling with app limits and delayed opens",
+  "description": "Nudge helps you break out of mindless scrolling by adding a short delay before distracting apps open, giving you a moment to decide if you really want to open them. It also tracks reel and click counts and lets you set time budgets for individual apps.\n\nBuilt with ADHD and focus in mind, Nudge keeps everything private and on your device, no data collection required.",
+  "repo": "https://github.com/astraedus/nudge",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://raeduslabs.com/nudge",
+  "tags": ["focus", "digital-wellbeing", "app-blocker", "adhd", "screen-time"],
+  "added": "2026-08-05"
+}

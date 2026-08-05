@@ -1,0 +1,11 @@
+{
+  "id": "browsafe",
+  "name": "Browsafe",
+  "tagline": "Browse privately with a built-in VPN",
+  "description": "Browsafe is a web browser for Android with a VPN built right in, so you get a secured, private connection without installing a separate app. It also blocks the ads and pop-ups that make browsing annoying.\n\nBecause the VPN is baked into the browser itself, turning on a more private connection is just a tap away instead of a separate setup step.",
+  "repo": "https://github.com/Sm69mu/Browsafe",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["browser", "vpn", "privacy"],
+  "added": "2026-08-05"
+}

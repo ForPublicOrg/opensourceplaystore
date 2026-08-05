@@ -1,0 +1,11 @@
+{
+  "id": "mhabit",
+  "name": "mHabit",
+  "tagline": "Build better habits with smart, private tracking",
+  "description": "mHabit is a habit tracker that helps you build good habits and break bad ones. It gives every habit a smart score so you can see your progress at a glance, and all your data is stored locally on your device first.\n\nIf you want to back up or sync your habits, mHabit supports WebDAV, so you stay in control of your own data. It also runs on iOS, Windows, macOS, and Linux, not just Android.",
+  "repo": "https://github.com/FriesI23/mhabit",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["habit-tracker", "flutter", "offline-first", "privacy-focused", "webdav", "cross-platform"],
+  "added": "2026-08-05"
+}

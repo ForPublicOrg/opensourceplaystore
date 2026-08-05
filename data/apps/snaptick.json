@@ -1,0 +1,11 @@
+{
+  "id": "snaptick",
+  "name": "Snaptick",
+  "tagline": "Organize your day with tasks and a built-in pomodoro timer",
+  "description": "Snaptick helps you plan your day with simple, ad-free task management. Add your to-dos, check them off as you go, and stay organized without any clutter or ads getting in the way.\n\nIt also has a built-in pomodoro timer, so you can time-box your work and take regular breaks while you power through your task list.",
+  "repo": "https://github.com/vishal2376/snaptick",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "task-manager", "pomodoro"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "linked-camera",
+  "name": "Linked Camera",
+  "tagline": "A camera app that uploads your field photos to Nextcloud",
+  "description": "Linked Camera is a lightweight, privacy-aware camera app built for field data collection. It tags each photo with its location and automatically uploads it to your own Nextcloud server, with an offline queue so nothing gets lost if you lose signal out in the field.\n\nIt's designed for people who need to document places systematically, like surveyors or researchers, without handing their photos over to a big tech company.",
+  "repo": "https://github.com/UrbanVue/linked_camera",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://urbanvue.nl",
+  "tags": ["camera", "exif", "field-data-collection", "gps", "nextcloud", "public-space"],
+  "added": "2026-08-05"
+}

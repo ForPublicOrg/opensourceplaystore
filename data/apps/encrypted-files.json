@@ -1,0 +1,11 @@
+{
+  "id": "encrypted-files",
+  "name": "Encrypted Files",
+  "tagline": "Lock your private files behind your fingerprint",
+  "description": "Encrypted Files lets you protect any file or folder on your phone with strong AES-256 encryption. Unlocking them requires your fingerprint or face, so your private photos and documents stay safe even if someone else has your phone.\n\nIt's a simple, focused vault app: no accounts, no cloud, just your files kept safely under your own lock and key.",
+  "repo": "https://github.com/navarro165/encrypted-files",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["encryption", "file-encryption", "privacy", "vault"],
+  "added": "2026-08-05"
+}

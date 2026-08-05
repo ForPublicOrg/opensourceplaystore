@@ -1,0 +1,11 @@
+{
+  "id": "riffle",
+  "name": "Riffle",
+  "tagline": "Read and listen to books from your own home server",
+  "description": "Riffle lets you read and listen to your books on Android, pulling from several self-hosted sources like Audiobookshelf, Komga, and Project Gutenberg. It's built for people who keep their ebook and audiobook collections on their own server instead of a paid cloud service.\n\nIt supports EPUB, PDF, and CBZ files, plus audiobooks, along with annotations so you can mark up what you're reading.",
+  "repo": "https://github.com/pkmetski/riffle",
+  "category": "reading",
+  "license": "AGPL-3.0",
+  "tags": ["ebook", "audiobook", "self-hosted", "epub", "reader"],
+  "added": "2026-08-05"
+}

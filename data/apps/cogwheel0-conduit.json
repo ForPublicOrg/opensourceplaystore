@@ -1,0 +1,12 @@
+{
+  "id": "cogwheel0-conduit",
+  "name": "Conduit",
+  "tagline": "Chat with your own AI models, right from your phone",
+  "description": "Conduit lets you chat with AI models right from your phone. Connect it to your own Open WebUI server, or plug in Ollama, OpenRouter, or any OpenAI-compatible service to talk to the models you choose.\n\nEverything talks to servers you control, so your conversations can stay off the big AI companies' clouds if you want. It also supports self-hosted Hermes agents for more advanced setups.",
+  "repo": "https://github.com/cogwheel0/conduit",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://conduit.mobile",
+  "tags": ["ai", "chatbot", "llm", "ollama", "openai", "openrouter", "self-hosted", "privacy"],
+  "added": "2026-08-05"
+}

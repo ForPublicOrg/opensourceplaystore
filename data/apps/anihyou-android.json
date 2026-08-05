@@ -1,0 +1,12 @@
+{
+  "id": "anihyou-android",
+  "name": "AniHyou",
+  "tagline": "Track and discover anime and manga with AniList",
+  "description": "AniHyou is an unofficial app for AniList that helps you keep track of the anime you're watching and the manga you're reading. Search for new titles, follow ongoing releases, and update your progress as you go.\n\nIt is built with a clean Material 3 look and stays close to AniList's own features, giving you a fast, native way to manage your lists on Android.",
+  "repo": "https://github.com/axiel7/AniHyou-android",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://axiel7.github.io/anihyou/",
+  "tags": ["anilist", "anime", "manga", "tracker"],
+  "added": "2026-08-05"
+}

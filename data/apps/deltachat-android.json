@@ -1,0 +1,11 @@
+{
+  "id": "deltachat-android",
+  "name": "Delta Chat",
+  "tagline": "Chat with friends and family using just an email address",
+  "description": "Delta Chat is a messaging app that works over ordinary email, so there are no new accounts or mystery servers to trust. Just use your email address and start chatting with friends and family, with strong encryption built in.\n\nIt also comes with shared tools and small games you can use right inside a chat, making it more than just a place to send texts.",
+  "repo": "https://github.com/deltachat/deltachat-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["chat", "email", "messenger", "deltachat"],
+  "added": "2026-08-05"
+}

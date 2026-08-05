@@ -1,0 +1,11 @@
+{
+  "id": "photo-widget",
+  "name": "Material Photo Widget",
+  "tagline": "Show your favorite photos right on your home screen",
+  "description": "Material Photo Widget does one thing well: it puts your favorite photos on your Android home screen as a simple, good-looking widget. No ads, no account, and no hidden costs.\n\nIt's a free and open source alternative for anyone who wants to personalize their home screen with real photos instead of the usual icons and widgets nobody looks at.",
+  "repo": "https://github.com/fibelatti/photo-widget",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["widget", "material"],
+  "added": "2026-08-05"
+}

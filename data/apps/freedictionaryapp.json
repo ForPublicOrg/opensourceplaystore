@@ -1,0 +1,11 @@
+{
+  "id": "freedictionaryapp",
+  "name": "Free Dictionary",
+  "tagline": "Look up word meanings using free, open dictionary data",
+  "description": "Free Dictionary is a simple, clean app for looking up what words mean. It pulls definitions from the free Dictionary API and Wiktionary, so you get real, community-sourced explanations instead of ads and clutter.\n\nIt's built with a clean, modern design (Material You) and is fully open source, with no cost and no hidden tracking.",
+  "repo": "https://github.com/yamin8000/freeDictionaryApp",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["dictionary", "wiktionary", "foss", "free", "material-you"],
+  "added": "2026-08-05"
+}

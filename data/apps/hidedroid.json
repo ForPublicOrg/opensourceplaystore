@@ -1,0 +1,11 @@
+{
+  "id": "hidedroid",
+  "name": "HideDroid",
+  "tagline": "Hide personal details from the apps on your phone",
+  "description": "HideDroid lets you control how much of your personal data each app on your phone can actually see. You choose a privacy level per app, and HideDroid anonymizes the information that app collects, so nosy apps get less real information about you.\n\nIt's a way to keep using the apps you need while pushing back against how much they learn about you.",
+  "repo": "https://github.com/0xdad0/HideDroid",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["privacy", "anonymization", "data-protection"],
+  "added": "2026-08-05"
+}

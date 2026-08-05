@@ -1,0 +1,11 @@
+{
+  "id": "kartaview-android",
+  "name": "KartaView",
+  "tagline": "Capture street-level photos to help improve open maps",
+  "description": "KartaView is a camera app for collecting street-level imagery that helps build better, more accurate open maps. As you walk or drive, it captures photos along with your location, which then feed into the KartaView platform for mapmakers and OpenStreetMap contributors around the world.\n\nIt's a great way to give back to the open mapping community just by taking a trip you were already making.",
+  "repo": "https://github.com/kartaview/android",
+  "category": "maps",
+  "license": "MIT",
+  "tags": ["camera", "location", "mapping", "osm"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "lavatories",
+  "name": "Lavatories",
+  "tagline": "Find the nearest public toilet, wherever you are",
+  "description": "Lavatories does exactly what its name suggests: it helps you find a public toilet nearby, fast. It pulls its data from OpenStreetMap, so the results come from real, community-mapped locations rather than a closed database.\n\nIt's a small, no-nonsense open-source app for a very real everyday need, especially useful when you're out exploring an unfamiliar place.",
+  "repo": "https://github.com/woheller69/lavatories",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["foss", "openstreetmap", "toilet", "toilet-finder"],
+  "added": "2026-08-05"
+}

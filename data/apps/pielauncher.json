@@ -1,0 +1,11 @@
+{
+  "id": "pielauncher",
+  "name": "Pie Launcher",
+  "tagline": "Launch apps from a quick pie menu, not a grid",
+  "description": "Pie Launcher rethinks the Android home screen. Instead of scrolling through pages of icons, you get a dynamic pie menu that pops up wherever you tap, letting you reach your apps in one quick motion.\n\nIt's a lightweight, open source launcher for anyone who wants something faster and more fun than the usual grid of icons.",
+  "repo": "https://github.com/markusfisch/PieLauncher",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["launcher", "pie-menu"],
+  "added": "2026-08-05"
+}

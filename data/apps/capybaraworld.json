@@ -1,0 +1,11 @@
+{
+  "id": "capybaraworld",
+  "name": "Capybara World",
+  "tagline": "Join capybara heroes on a cozy adventure",
+  "description": "Capybara World is an adventure game starring a cast of capybara heroes. Explore its world and follow the story as your capybara characters make their way through the game.\n\nIt's a lighthearted, cozy-styled adventure game for Android.",
+  "repo": "https://github.com/revenkogrisha/CapybaraWorld",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["adventure", "cozy"],
+  "added": "2026-08-05"
+}

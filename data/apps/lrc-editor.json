@@ -1,0 +1,11 @@
+{
+  "id": "lrc-editor",
+  "name": "LRC Editor",
+  "tagline": "Create and edit synced lyrics files with ease",
+  "description": "LRC Editor helps you create and edit .lrc lyric files, the small text files that sync song lyrics to the music as it plays. Instead of hand-editing timestamps in a text file on a computer, you can do it right on your phone.\n\nIt's a handy, focused tool for music fans and lyric contributors who want their favorite songs to show synced lyrics.",
+  "repo": "https://github.com/Spikatrix/LRC-Editor",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["lrc", "lyrics", "utility"],
+  "added": "2026-08-05"
+}

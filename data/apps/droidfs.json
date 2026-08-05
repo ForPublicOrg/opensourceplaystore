@@ -1,0 +1,11 @@
+{
+  "id": "droidfs",
+  "name": "DroidFS",
+  "tagline": "Keep your files in an encrypted, locked vault",
+  "description": "DroidFS creates encrypted folders on your phone where you can safely store photos, videos, and other files. Anything you put inside stays scrambled and unreadable to anyone without your password, even if your phone is lost or someone else gets access to your files.\n\nIt supports well-tested encryption formats like gocryptfs and CryFS, and even lets you take photos or record videos directly into your encrypted vault, so sensitive files never sit unprotected on your device.",
+  "repo": "https://github.com/hardcore-sushi/DroidFS",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["encryption", "privacy", "vault", "gocryptfs", "cryfs", "filesystem"],
+  "added": "2026-08-05"
+}

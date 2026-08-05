@@ -1,0 +1,12 @@
+{
+  "id": "simple-file-manager",
+  "name": "Simple File Manager",
+  "tagline": "Manage your files with no ads and no tracking",
+  "description": "Simple File Manager is an easy, ad-free way to browse, move, copy, and organize the files on your phone. There's no tracking and no unnecessary permissions, just a clean file browser that respects your privacy.\n\nIt's part of the Simple Mobile Tools family of open source apps, built to be lightweight, fast, and easy for anyone to use.",
+  "repo": "https://github.com/SimpleMobileTools/Simple-File-Manager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.simplemobiletools.com",
+  "tags": ["file-manager", "freedom", "opensource", "kotlin"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tunnel-forge",
+  "name": "Tunnel Forge",
+  "tagline": "A VPN app using the classic L2TP/IPsec protocol",
+  "description": "Tunnel Forge is an open-source VPN client for Android built around the L2TP/IPsec protocol, a well-established standard supported by many VPN providers and workplaces.\n\nIt can protect your whole device or run in a lighter proxy-only mode, and lets you choose which individual apps route through the VPN.",
+  "repo": "https://github.com/evokelektrique/tunnel-forge",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["vpn", "l2tp", "ipsec", "vpn-client"],
+  "added": "2026-08-05"
+}

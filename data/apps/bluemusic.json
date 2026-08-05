@@ -1,0 +1,11 @@
+{
+  "id": "bluemusic",
+  "name": "BlueMusic",
+  "tagline": "Automatically adjust volume when Bluetooth connects",
+  "description": "BlueMusic automates what happens when you connect a specific Bluetooth device, like setting your volume to the right level every time you connect your car speaker or headphones.\n\nNo more manually adjusting the volume every single time. Just set it up once per device and let BlueMusic handle it from then on.",
+  "repo": "https://github.com/d4rken-org/bluemusic",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["bluetooth", "automation", "volume-control"],
+  "added": "2026-08-05"
+}

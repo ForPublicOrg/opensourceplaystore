@@ -1,0 +1,11 @@
+{
+  "id": "android-youtube-downloader",
+  "name": "Android YouTube Downloader",
+  "tagline": "Save videos from YouTube and other sites to watch later",
+  "description": "Android YouTube Downloader lets you save videos from YouTube and other popular sites like Facebook, Twitter, Twitch, and TikTok directly to your phone. Just paste a link and download the video to watch later, even without an internet connection.\n\nIt's a handy tool for anyone who wants to keep a copy of a video instead of relying on a stream that might disappear.",
+  "repo": "https://github.com/acmo0/Android-Youtube-Downloader",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["downloader", "youtube", "yt-dlp", "twitch", "twitter"],
+  "added": "2026-08-05"
+}

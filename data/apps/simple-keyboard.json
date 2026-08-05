@@ -1,0 +1,12 @@
+{
+  "id": "simple-keyboard",
+  "name": "Simple Keyboard",
+  "tagline": "A clean, no-frills keyboard with no ads or tracking",
+  "description": "Simple Keyboard is an easy, distraction-free keyboard for typing text, numbers, and special characters. It skips the ads, the data collection, and the clutter that many keyboard apps come with, giving you a fast and reliable typing experience.\n\nIt's part of the Simple Mobile Tools collection of privacy-respecting, open source Android apps.",
+  "repo": "https://github.com/SimpleMobileTools/Simple-Keyboard",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.simplemobiletools.com",
+  "tags": ["keyboard", "privacy", "customizable"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "quitter",
+  "name": "Quitter",
+  "tagline": "Track your progress quitting bad habits",
+  "description": "Quitter helps you give up bad habits and stay on track while you do it. Whether you are quitting smoking or working toward sobriety from something else, it keeps a running count of your progress so you can see how far you have come.\n\nIt's a small, focused app built to support you one day at a time, and it's completely free and open source.",
+  "repo": "https://github.com/brandonp2412/Quitter",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://brandonp2412.github.io/Quitter/",
+  "tags": ["habit-tracker", "addiction-recovery", "sobriety", "quit-smoking"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "glyphify",
+  "name": "Glyphify",
+  "tagline": "Turn your handwritten notes into typed text",
+  "description": "Glyphify uses AI to scan your handwritten notes and documents and turn them into editable digital text. It's built with students and educators in mind, so notes taken on paper or a whiteboard don't just sit as photos you can never search or edit.\n\nOnce converted, the text is ready to copy, search, or drop straight into your other notes.",
+  "repo": "https://github.com/atharva9167j/Glyphify",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://atharva9167j.github.io/Glyphify/",
+  "tags": ["ocr", "handwriting", "notes", "students"],
+  "added": "2026-08-05"
+}

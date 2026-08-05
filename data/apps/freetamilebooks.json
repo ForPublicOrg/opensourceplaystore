@@ -1,0 +1,11 @@
+{
+  "id": "freetamilebooks",
+  "name": "Free Tamil Ebooks",
+  "tagline": "Read free Tamil ebooks from a community library",
+  "description": "Free Tamil Ebooks is the official app for the FreeTamilEbooks project, a community effort that publishes Tamil-language books for free. Browse the catalog, download a book, and read it right on your phone.\n\nIt's a simple, focused app that makes a whole library of Tamil literature easy to reach for anyone with a phone.",
+  "repo": "https://github.com/khaleeljageer/FreeTamilEBooks",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["ebooks", "tamil", "reader", "books"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "nfile",
+  "name": "NFile",
+  "tagline": "A beautiful, easy-to-use file manager",
+  "description": "NFile is a file manager for Android built around a clean, attractive interface. It helps you browse, organize, and manage the files on your phone without a cluttered or confusing design.\n\nIf you want something that looks as good as it works, NFile is a solid open source choice for everyday file management.",
+  "repo": "https://github.com/Senzme/NFile",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["file-manager", "beautiful-ui"],
+  "added": "2026-08-05"
+}

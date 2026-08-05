@@ -1,0 +1,11 @@
+{
+  "id": "tindroid",
+  "name": "Tindroid",
+  "tagline": "A simple, open messaging app with video calls",
+  "description": "Tindroid is a messaging app for the Tinode chat platform, offering text chat, video calls, and group conversations. It's built to feel familiar if you've used apps like Telegram or WhatsApp before.\n\nSince it connects to the open Tinode platform rather than one company's private servers, you have more choice over where your conversations live.",
+  "repo": "https://github.com/tinode/tindroid",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": ["messaging", "instant-messaging", "video-call", "tinode"],
+  "added": "2026-08-05"
+}

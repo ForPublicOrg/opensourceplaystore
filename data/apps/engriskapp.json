@@ -1,0 +1,11 @@
+{
+  "id": "engriskapp",
+  "name": "Engrisk",
+  "tagline": "Learn English with lessons, flashcards, and progress tracking",
+  "description": "Engrisk is a structured English learning app with lessons you work through step by step, backed up by interactive flashcards for vocabulary practice. It keeps track of your progress so you can see how far you've come.\n\nIt's a straightforward, focused app for learners who want an organized path rather than a scattered mix of tools.",
+  "repo": "https://github.com/dexdev13/EngriskApp",
+  "category": "education",
+  "license": "MIT",
+  "tags": ["english", "language-learning", "flashcards"],
+  "added": "2026-08-05"
+}

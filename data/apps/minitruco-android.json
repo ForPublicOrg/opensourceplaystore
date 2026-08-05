@@ -1,0 +1,11 @@
+{
+  "id": "minitruco-android",
+  "name": "MiniTruco",
+  "tagline": "Play the popular Brazilian card game Truco",
+  "description": "MiniTruco brings the popular Brazilian card game Truco to your phone. Play against the computer or with friends, following the traditional rules and bluffing tactics that make Truco such a fun, fast-paced card game.\n\nIt's a labor of love from a Brazilian developer, built to keep the game playable for everyone, free and open source.",
+  "repo": "https://github.com/chesterbr/minitruco-android",
+  "category": "games",
+  "license": "BSD-3-Clause",
+  "tags": ["card-game", "truco", "multiplayer"],
+  "added": "2026-08-05"
+}

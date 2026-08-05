@@ -1,0 +1,11 @@
+{
+  "id": "tickmate",
+  "name": "Tickmate",
+  "tagline": "A simple one-tap habit tracking journal",
+  "description": "Tickmate is a wonderfully simple habit tracker. Each day, you just tap to mark whether you did the thing or not, building up a visual streak you can look back on over weeks and months.\n\nThere's no clutter and no extra steps, just a quick daily tick for whatever habit you're trying to build.",
+  "repo": "https://github.com/lordi/tickmate",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["habit-tracker", "journal", "minimalist"],
+  "added": "2026-08-05"
+}

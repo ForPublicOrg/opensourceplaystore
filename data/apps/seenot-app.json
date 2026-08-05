@@ -1,0 +1,12 @@
+{
+  "id": "seenot-app",
+  "name": "SeeNot",
+  "tagline": "Cut down screen time by watching what you actually do",
+  "description": "SeeNot helps you cut down on mindless phone use by paying attention to what's actually on your screen, not just which app is open. That means it can step in when you're doomscrolling inside an app you use for lots of different things, instead of only blocking entire apps.\n\nIt's built to help you stay focused and more intentional about how you spend time on your phone.",
+  "repo": "https://github.com/RoderickQiu/seenot-app",
+  "category": "productivity",
+  "license": "MPL-2.0",
+  "website": "https://seenot.site",
+  "tags": ["screen-time", "focus", "productivity"],
+  "added": "2026-08-05"
+}

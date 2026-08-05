@@ -1,0 +1,11 @@
+{
+  "id": "noveldokusha",
+  "name": "NovelDokusha",
+  "tagline": "Read web novels with translation and text-to-speech",
+  "description": "NovelDokusha is a web novel reader that gathers chapters from various novel sites so you can read them in one clean, comfortable app. It also supports EPUB files if you want to read books you already have.\n\nIt includes built-in translation and text-to-speech, so you can listen to a chapter while you're busy or translate one written in another language.",
+  "repo": "https://github.com/nanihadesuka/NovelDokusha",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["novel", "webnovel", "epub", "reader", "tts", "translator"],
+  "added": "2026-08-05"
+}

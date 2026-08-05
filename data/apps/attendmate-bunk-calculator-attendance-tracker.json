@@ -1,0 +1,12 @@
+{
+  "id": "attendmate-bunk-calculator-attendance-tracker",
+  "name": "AttendMate",
+  "tagline": "Track your classes and see how many you can safely skip",
+  "description": "AttendMate helps students keep their attendance percentage above the line their college requires. Log your classes, and it works out exactly how many more you can afford to miss, or how many you need to attend, to hit your target percentage.\n\nIt keeps a schedule of your classes, sends reminders, and stores everything on your device rather than a server.",
+  "repo": "https://github.com/YTFL/AttendMate-Bunk-Calculator-Attendance-Tracker",
+  "category": "education",
+  "license": "AGPL-3.0",
+  "website": "https://attend-mate-bunk-calculator-attenda.vercel.app",
+  "tags": ["attendance", "students", "college", "offline-first"],
+  "added": "2026-08-05"
+}

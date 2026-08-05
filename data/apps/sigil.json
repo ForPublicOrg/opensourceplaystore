@@ -1,0 +1,11 @@
+{
+  "id": "sigil",
+  "name": "Sigil",
+  "tagline": "Encrypt your text and files right from your phone",
+  "description": "Sigil brings a set of everyday cryptography tools to your phone in one clean, modern app. Encrypt and decrypt text messages, protect sensitive notes, and work with common cryptographic tasks, all through a simple Material 3 interface.\n\nIt's built for anyone who wants an easy way to keep private text private, without needing to understand the cryptography happening under the hood.",
+  "repo": "https://github.com/Animesh-Varma/Sigil",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["encryption", "cryptography", "privacy", "text-encryption"],
+  "added": "2026-08-05"
+}

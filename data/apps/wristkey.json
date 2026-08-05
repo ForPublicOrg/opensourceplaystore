@@ -1,0 +1,11 @@
+{
+  "id": "wristkey",
+  "name": "Wristkey",
+  "tagline": "Get your 2-step login codes right on your smartwatch",
+  "description": "Wristkey is a free, open-source 2FA app built for smartwatches running Wear OS. It generates the same kind of time-based codes as apps like Aegis or Google Authenticator, but keeps them a glance away on your wrist instead of buried in your phone.\n\nIt supports scanning QR codes to add accounts, so it can fit alongside other authenticator apps you may already use.",
+  "repo": "https://github.com/0x4f53/Wristkey",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["2fa", "authenticator", "smartwatch", "wear-os", "otps"],
+  "added": "2026-08-05"
+}

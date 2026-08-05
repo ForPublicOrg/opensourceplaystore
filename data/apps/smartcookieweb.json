@@ -1,0 +1,11 @@
+{
+  "id": "smartcookieweb",
+  "name": "SmartCookieWeb",
+  "tagline": "A secure, private web browser for Android",
+  "description": "SmartCookieWeb is a secure, open source web browser for Android, built for people who want to browse without being tracked. It skips the data collection you get with many mainstream browsers while still covering the everyday basics like tabs and bookmarks.\n\nBecause it's fully open source, anyone can check exactly what the app is doing behind the scenes.",
+  "repo": "https://github.com/CookieJarApps/SmartCookieWeb",
+  "category": "internet",
+  "license": "MPL-2.0",
+  "tags": ["browser", "privacy", "security"],
+  "added": "2026-08-05"
+}

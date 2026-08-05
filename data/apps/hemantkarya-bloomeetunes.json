@@ -1,0 +1,12 @@
+{
+  "id": "hemantkarya-bloomeetunes",
+  "name": "BloomeeTunes",
+  "tagline": "Stream music free, with no ads getting in the way",
+  "description": "BloomeeTunes is a music app that lets you listen to songs from several free sources without ads breaking up your listening. You can also download tracks to enjoy offline whenever you like.\n\nIt works on your phone and other devices, so your music follows you around, ad-free and fuss-free.",
+  "repo": "https://github.com/HemantKArya/BloomeeTunes",
+  "category": "media",
+  "license": "GPL-2.0",
+  "website": "https://bloomeex.org/bloomeetunes",
+  "tags": ["music", "music-player", "downloader", "offline-first", "entertainment"],
+  "added": "2026-08-05"
+}

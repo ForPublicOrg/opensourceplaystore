@@ -1,0 +1,11 @@
+{
+  "id": "tapactu",
+  "name": "Tapactu",
+  "tagline": "An RSS reader made for French news sites",
+  "description": "Tapactu is an open source RSS reader built specifically with French news websites in mind. Add your favorite French outlets and keep up with headlines in one simple feed.\n\nIt's a lightweight, no-frills way to follow French news without wading through a browser full of tabs.",
+  "repo": "https://github.com/ecnivtwelve/tapactu",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "news", "reader"],
+  "added": "2026-08-05"
+}

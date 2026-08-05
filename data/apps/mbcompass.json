@@ -1,0 +1,12 @@
+{
+  "id": "mbcompass",
+  "name": "MB Compass",
+  "tagline": "A clean compass app with no ads or tracking",
+  "description": "MBCompass is a modern compass and navigation app for Android that focuses purely on doing one job well: telling you which way is north. It uses your phone's sensors with smart sensor fusion so the needle stays accurate and steady, even indoors or near metal objects.\n\nThere are no ads, no in-app purchases, and no hidden trackers watching what you do. Just open it up and get your bearings.",
+  "repo": "https://github.com/CompassMB/MBCompass",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://compassmb.github.io",
+  "tags": ["compass", "compass-apps", "f-droid", "magnetometer", "navigation", "sensor-fusion"],
+  "added": "2026-08-05"
+}

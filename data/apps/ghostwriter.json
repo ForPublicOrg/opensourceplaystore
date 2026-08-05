@@ -1,0 +1,11 @@
+{
+  "id": "ghostwriter",
+  "name": "Ghostwriter",
+  "tagline": "Turn your RSS feeds into readable e-books with AI summaries",
+  "description": "Ghostwriter turns your RSS feeds into something more like a proper reading session. It converts your subscriptions into EPUB-style reading material, complete with AI-generated summaries and podcast-style digests, so you can catch up in a calmer, more book-like format.\n\nIt runs on a self-hosted backend that also handles syncing, so your reading position and summaries follow you across devices.",
+  "repo": "https://github.com/LucaKaufmann/Ghostwriter",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "epub", "self-hosted"],
+  "added": "2026-08-05"
+}

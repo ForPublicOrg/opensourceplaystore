@@ -1,0 +1,12 @@
+{
+  "id": "husky",
+  "name": "Husky",
+  "tagline": "A friendly app for the Pleroma social network",
+  "description": "Husky is a well-loved app for Pleroma, a lightweight, open alternative to mainstream social networks that's also compatible with Mastodon and Akkoma. Post updates, follow people, and scroll your feed just like you would on any social app.\n\nIt's built with Pleroma's features specifically in mind, making it a favorite among people already living on that corner of the Fediverse.",
+  "repo": "https://github.com/captainepoch/husky",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://husky.adol.pw",
+  "tags": ["pleroma", "mastodon", "akkoma"],
+  "added": "2026-08-05"
+}

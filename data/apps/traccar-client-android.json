@@ -1,0 +1,12 @@
+{
+  "id": "traccar-client-android",
+  "name": "Traccar Client",
+  "tagline": "Send your phone's GPS location to your own Traccar server",
+  "description": "Traccar Client turns your phone into a GPS tracker that reports its location to a Traccar server you control. It's useful for keeping tabs on family, fleet vehicles, or your own trips, all without relying on a big tech company to hold your location data.\n\nSet how often it checks in, choose which network to use, and let it run quietly in the background. Because it works with the open-source Traccar platform, you stay in charge of where your location data goes.",
+  "repo": "https://github.com/traccar/traccar-client-android",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "website": "https://www.traccar.org/client",
+  "tags": ["gps", "gps-tracking", "traccar-client"],
+  "added": "2026-08-05"
+}

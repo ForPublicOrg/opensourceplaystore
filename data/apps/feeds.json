@@ -1,0 +1,12 @@
+{
+  "id": "feeds",
+  "name": "Feeds",
+  "tagline": "Follow RSS feeds and listen to internet radio in one app",
+  "description": "Feeds is an Android app for following RSS and Atom feeds, with a few extra tricks: it can also play internet radio and IPTV streams, and add a home screen widget so your latest headlines are visible at a glance.\n\nIt's a lightweight, do-it-yourself style app for anyone who wants their feeds, radio, and playlists handled by one simple tool.",
+  "repo": "https://github.com/trvny/feeds",
+  "category": "internet",
+  "license": "MIT",
+  "website": "https://trvny.github.io/feeds/",
+  "tags": ["rss", "radio", "reader"],
+  "added": "2026-08-05"
+}

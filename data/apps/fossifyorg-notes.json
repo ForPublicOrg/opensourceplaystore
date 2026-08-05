@@ -1,0 +1,12 @@
+{
+  "id": "fossifyorg-notes",
+  "name": "Fossify Notes",
+  "tagline": "A simple text field for jotting down quick notes, no ads",
+  "description": "Fossify Notes is about as simple as a notes app gets: open it up and start typing. There are no ads, no accounts, and no clutter, just a clean space for jotting things down.\n\nIt's part of the Fossify family of privacy-friendly, open-source Android apps, built for people who want their tools to stay out of their way.",
+  "repo": "https://github.com/FossifyOrg/Notes",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "tags": ["notes", "minimal", "foss"],
+  "added": "2026-08-05"
+}

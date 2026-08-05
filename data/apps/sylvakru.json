@@ -1,0 +1,11 @@
+{
+  "id": "sylvakru",
+  "name": "Sylvakru",
+  "tagline": "Play your music from your phone or your own home server",
+  "description": "Sylvakru is a music player that works with both the songs stored on your phone and music libraries you run yourself on a home server. It connects to popular self-hosted music servers, so you can stream your own collection from anywhere.\n\nIt's built to feel the same whether you're playing a local song or one streamed from your own server.",
+  "repo": "https://github.com/AfalpHy/sylvakru",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["music-player", "self-hosted", "navidrome", "webdav"],
+  "added": "2026-08-05"
+}

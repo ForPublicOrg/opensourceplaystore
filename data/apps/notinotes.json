@@ -1,0 +1,11 @@
+{
+  "id": "notinotes",
+  "name": "NotiNotes",
+  "tagline": "Keep quick notes right in your notification panel",
+  "description": "NotiNotes puts your notes somewhere you'll actually see them: your notification panel. Jot something down and it stays pinned right there, ready whenever you pull down your notifications.\n\nIt's a small, focused app for the kind of quick reminders and scraps of information you don't want to lose track of.",
+  "repo": "https://github.com/Yanndroid/NotiNotes",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["notes", "notifications", "quick-notes"],
+  "added": "2026-08-05"
+}

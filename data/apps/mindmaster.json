@@ -1,0 +1,11 @@
+{
+  "id": "mindmaster",
+  "name": "MindMaster",
+  "tagline": "Block distracting apps and stay focused",
+  "description": "MindMaster helps you cut down on distractions by blocking the apps and websites that pull your attention away. You can set up custom profiles and schedules for different situations, like work hours or bedtime.\n\nIt also gives you insights into how you're actually spending time on your phone, plus control over notifications, so you can build better habits around your screen time.",
+  "repo": "https://github.com/ArmanKhanTech/MindMaster",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["app-blocker", "website-blocker", "screen-time", "focus", "productivity"],
+  "added": "2026-08-05"
+}

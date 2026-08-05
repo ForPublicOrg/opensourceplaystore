@@ -1,0 +1,11 @@
+{
+  "id": "continuum-explorer",
+  "name": "Continuum Explorer",
+  "tagline": "A file manager built for using your phone like a desktop",
+  "description": "Continuum Explorer is a file manager designed for Android devices used in desktop mode, like Samsung DeX, or with a mouse and keyboard attached, such as tablets. It gives you a fuller, desktop-style way to browse and manage your files instead of a cut-down phone layout.\n\nIf you regularly use your Android device as a mini desktop, this is built with that setup in mind.",
+  "repo": "https://github.com/troikoss/Continuum-Explorer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["file-manager", "desktop-mode", "productivity"],
+  "added": "2026-08-05"
+}

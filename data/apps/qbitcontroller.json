@@ -1,0 +1,11 @@
+{
+  "id": "qbitcontroller",
+  "name": "qBitController",
+  "tagline": "Control your qBittorrent downloads from your phone",
+  "description": "qBitController lets you control qBittorrent, the popular torrent app, straight from your phone. Start, pause, and manage your downloads on your home computer or server without having to sit down at it.\n\nIt connects to qBittorrent's remote access feature, so you can check progress, add new torrents, and clean up finished downloads from anywhere.",
+  "repo": "https://github.com/Bartuzen/qBitController",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["torrent", "qbittorrent", "remote-control"],
+  "added": "2026-08-05"
+}

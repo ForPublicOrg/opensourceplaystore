@@ -1,0 +1,11 @@
+{
+  "id": "nion",
+  "name": "Nion",
+  "tagline": "An AI companion that nags you to get things done",
+  "description": "Nion is a task manager with a twist: it's paired with an AI companion that actually nags you so you don't forget what you're supposed to be doing. Add your tasks and reminders, and let it keep you accountable with friendly nudges.\n\nIt also includes a calendar and a pomodoro-style timer, giving you a few different ways to stay organized and on track.",
+  "repo": "https://github.com/Echoer009/Nion",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["task-manager", "ai", "chatbot", "reminder", "pomodoro", "todo"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "messages",
+  "name": "Messages",
+  "tagline": "Send text messages using nothing but your email address",
+  "description": "Messages is a messaging app with a twist: instead of a phone number, it works using your email address. Send and receive messages with anyone, using the email accounts you already have.\n\nIt's cross-platform and even comes with an optional theme to match Nothing Phone devices, for anyone who wants their messaging app to fit right in.",
+  "repo": "https://github.com/ThriveEngineer/messages",
+  "category": "internet",
+  "license": "MIT",
+  "website": "https://messages-thrive.framer.website/",
+  "tags": ["messaging", "email"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "novela",
+  "name": "NoveLA",
+  "tagline": "Read web novels from 25+ sources, even offline",
+  "description": "NoveLA is a free novel reader that pulls chapters from more than 25 different novel sites, plus your own EPUB files, all in one app. It has a built-in translator, text-to-speech, and offline reading so you can keep going without a connection.\n\nIt's an actively developed alternative to other popular novel readers, aimed at readers who want more sources and fewer limits.",
+  "repo": "https://github.com/HnDK0/NoveLA",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://github.com/HnDK0/NoveLA/releases",
+  "tags": ["novel", "webnovel", "epub", "tts", "translator", "offline"],
+  "added": "2026-08-05"
+}

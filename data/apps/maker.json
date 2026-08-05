@@ -1,0 +1,11 @@
+{
+  "id": "maker",
+  "name": "Maker",
+  "tagline": "A simple, advanced to-do list for your phone",
+  "description": "Maker is a to-do list app that goes beyond a plain checklist, giving you more ways to organize and manage your tasks. It works on both Android and iOS, so your list follows you no matter what phone you use.\n\nIt's built to help you stay on top of everything you need to do, without getting in your way.",
+  "repo": "https://github.com/webstrongteam/maker",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["todo", "task-manager", "cross-platform", "mobile"],
+  "added": "2026-08-05"
+}

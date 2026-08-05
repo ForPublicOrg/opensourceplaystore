@@ -1,0 +1,12 @@
+{
+  "id": "habo",
+  "name": "Habo",
+  "tagline": "Build good habits with a private, simple tracker",
+  "description": "Habo helps you build better habits without giving up your privacy. Everything you track is end-to-end encrypted, so only you can see your data, even when it syncs between your phone and other devices.\n\nIt's simple and minimal by design, with support for self-hosting your own sync server if you want full control. Habo works on both Android and iOS.",
+  "repo": "https://github.com/xpavle00/Habo",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://habo.space",
+  "tags": ["habit-tracker", "e2e-encryption", "sync", "minimalistic", "simple"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "milktea",
+  "name": "Milktea",
+  "tagline": "Browse Misskey and Mastodon from one friendly app",
+  "description": "Milktea is an app for using Misskey and Mastodon, two open, community-run alternatives to X (formerly Twitter). Post updates, follow people, and browse your feed without depending on one big company controlling everything.\n\nIt's built with Misskey especially in mind, while also supporting Mastodon and similar Fediverse platforms.",
+  "repo": "https://github.com/pantasystem/Milktea",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["mastodon", "misskey", "fediverse"],
+  "added": "2026-08-05"
+}

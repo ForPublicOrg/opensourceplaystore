@@ -1,0 +1,12 @@
+{
+  "id": "orgzly-android",
+  "name": "Orgzly",
+  "tagline": "Organize your notes and to-do lists with a simple outliner",
+  "description": "Orgzly helps you keep your notes and to-do lists organized in one simple outliner. You can nest tasks, notes, and lists inside each other, so everything stays easy to find and easy to reorder.\n\nIt works great for anyone who likes a structured way of organizing thoughts, whether you are planning a day, a project, or just jotting down ideas on the go.",
+  "repo": "https://github.com/orgzly/orgzly-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://www.orgzly.com",
+  "tags": ["notes", "org-mode", "outliner", "productivity", "tasks", "todo"],
+  "added": "2026-08-05"
+}

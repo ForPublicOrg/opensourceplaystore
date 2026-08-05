@@ -1,0 +1,11 @@
+{
+  "id": "slidingpuzzle",
+  "name": "Sliding Puzzle",
+  "tagline": "Solve the classic sliding tile puzzle, or watch it solve",
+  "description": "Sliding Puzzle is a take on the classic sliding-tile puzzle. Shuffle the board and slide the tiles back into order yourself, or let the built-in solver show you how it's done using a search algorithm.\n\nIt's a small, focused puzzle game for fans of a classic brain teaser.",
+  "repo": "https://github.com/andremion/SlidingPuzzle",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["puzzle", "logic"],
+  "added": "2026-08-05"
+}

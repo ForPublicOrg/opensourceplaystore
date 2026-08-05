@@ -1,0 +1,12 @@
+{
+  "id": "pronext",
+  "name": "ProNext",
+  "tagline": "A friendlier way to check your French school grades and schedule",
+  "description": "ProNext is a reimagined client for Pronote, the school management platform used widely across French secondary schools, and it also supports Turboself for cafeteria accounts. It gives students and parents a cleaner, faster alternative for checking grades, homework, and timetables.\n\nIt's aimed at anyone who finds the official Pronote apps clunky and wants something simpler.",
+  "repo": "https://github.com/Swaero5/pronext",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://swaero5.github.io/pronext/",
+  "tags": ["pronote", "school", "france", "timetable"],
+  "added": "2026-08-05"
+}

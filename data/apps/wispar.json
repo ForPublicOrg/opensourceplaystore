@@ -1,0 +1,12 @@
+{
+  "id": "wispar",
+  "name": "Wispar",
+  "tagline": "Stay on top of new research papers in your field",
+  "description": "Wispar keeps you up to date with academic journals and newly published research articles. Follow the journals you care about and get a simple feed of the latest papers as they come out.\n\nIt connects to open research services like OpenAlex, Unpaywall, and Crossref to help you find free versions of articles, and it can even work alongside your Zotero library.",
+  "repo": "https://github.com/Scriptbash/Wispar",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://wispar.app/",
+  "tags": ["research", "academia", "articles", "science"],
+  "added": "2026-08-05"
+}

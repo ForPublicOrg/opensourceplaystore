@@ -1,0 +1,12 @@
+{
+  "id": "beancount-io",
+  "name": "Beancount.io",
+  "tagline": "Track your money with simple, honest plain-text bookkeeping",
+  "description": "Beancount.io brings double-entry bookkeeping to your phone without the spreadsheet headache. It's built around plain-text accounting, a simple, transparent way to track where your money goes that keeps your records readable and yours.\n\nThe polished mobile app makes it easy to log transactions and review your books on the go, whether you're a longtime plain-text accounting fan or just want a clearer picture of your finances.",
+  "repo": "https://github.com/bex-co/beancount-io",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://beancount.io/",
+  "tags": ["finance", "bookkeeping", "accounting", "ledger"],
+  "added": "2026-08-05"
+}

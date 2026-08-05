@@ -1,0 +1,11 @@
+{
+  "id": "notifilter",
+  "name": "NotiFilter",
+  "tagline": "Silence annoying notifications automatically",
+  "description": "NotiFilter helps you cut down on notification noise by automatically silencing the ones you don't want. Instead of manually muting apps one by one, you can set up rules that filter out annoying notifications as they come in.\n\nIt's a lightweight tool for anyone who wants a calmer, less distracting phone.",
+  "repo": "https://github.com/BURG3R5/NotiFilter",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["automation", "do-not-disturb", "notifications"],
+  "added": "2026-08-05"
+}

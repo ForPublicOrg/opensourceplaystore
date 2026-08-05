@@ -1,0 +1,11 @@
+{
+  "id": "mytv-android",
+  "name": "MyTV",
+  "tagline": "Watch live TV and IPTV channels on your phone or TV",
+  "description": "MyTV is a live TV and IPTV player for Android and Android TV, built with a modern Material 3 look. It plays M3U playlists and Xtream or stalker-portal sources, and switches between Media3, IJKplayer, and VLC playback engines depending on what a channel needs.\n\nIt is built for TV boxes and living-room screens as much as phones, so it works well with a remote control if you have one.",
+  "repo": "https://github.com/mytv-android/mytv-android",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["iptv", "android-tv", "m3u", "material-design", "television", "tvbox", "video-player", "xtream"],
+  "added": "2026-08-05"
+}

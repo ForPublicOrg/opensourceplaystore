@@ -1,0 +1,12 @@
+{
+  "id": "fossifyorg-launcher",
+  "name": "Fossify Launcher",
+  "tagline": "A simple, ad-free launcher for your phone",
+  "description": "Fossify Launcher is a practical, no-frills launcher that makes it easy to get to your favorite apps. It's part of the Fossify family of open source Android apps, all built to be simple, ad-free, and privacy-respecting.\n\nIf you like a clean home screen without trackers or clutter, this is a solid, actively maintained choice.",
+  "repo": "https://github.com/FossifyOrg/Launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "tags": ["launcher", "foss", "open-source"],
+  "added": "2026-08-05"
+}

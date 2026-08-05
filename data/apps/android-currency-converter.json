@@ -1,0 +1,11 @@
+{
+  "id": "android-currency-converter",
+  "name": "Currency Converter",
+  "tagline": "Convert between currencies using live exchange rates",
+  "description": "Currency Converter does one job and does it well: converting between currencies using real-time exchange rates. Add the currencies you care about and get quick, accurate conversions whenever you need them.\n\nIt's a simple, focused utility for travelers, shoppers, or anyone who regularly deals with more than one currency.",
+  "repo": "https://github.com/nicoqueijo/Android-Currency-Converter",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["currency", "converter", "finance", "exchange-rates"],
+  "added": "2026-08-05"
+}

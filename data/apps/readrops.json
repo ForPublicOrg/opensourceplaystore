@@ -1,0 +1,11 @@
+{
+  "id": "readrops",
+  "name": "Readrops",
+  "tagline": "Follow news and blogs from many services in one app",
+  "description": "Readrops is an RSS reader that can pull your feeds from several different services at once, so you're not locked into just one syncing backend. Add your favorite sites and blogs and read them all in a single, tidy timeline.\n\nIt's built natively for Android, aiming to be a solid all-in-one home for anyone who still loves following the web through RSS.",
+  "repo": "https://github.com/readrops/Readrops",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "reader"],
+  "added": "2026-08-05"
+}

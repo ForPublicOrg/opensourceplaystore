@@ -1,0 +1,11 @@
+{
+  "id": "plasma",
+  "name": "Plasma",
+  "tagline": "A simple, native app for the Nostr social network",
+  "description": "Plasma is a straightforward Android app for Nostr, an open social network protocol that isn't controlled by any single company. Post notes, follow people, and browse your feed, all backed by a network that anyone can plug into.\n\nBuilt natively for Android, it's designed to feel fast and familiar rather than like a repackaged website.",
+  "repo": "https://github.com/plasma-social/plasma",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["nostr", "social-network"],
+  "added": "2026-08-05"
+}

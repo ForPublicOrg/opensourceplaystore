@@ -1,0 +1,11 @@
+{
+  "id": "freedium-mobile",
+  "name": "Freedium Mobile",
+  "tagline": "Read Medium articles without hitting the paywall",
+  "description": "Freedium Mobile lets you open and read Medium articles that would normally be blocked behind Medium's paywall. Just paste or share a link and read the full article right in the app.\n\nIt's a simple, focused reading app for anyone who follows writers on Medium but doesn't have a paid membership.",
+  "repo": "https://github.com/AmanSikarwar/freedium_mobile",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["medium", "articles", "reader"],
+  "added": "2026-08-05"
+}

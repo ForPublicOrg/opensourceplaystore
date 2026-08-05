@@ -1,0 +1,12 @@
+{
+  "id": "vflow",
+  "name": "vFlow",
+  "tagline": "Automate repetitive tasks on your phone with visual workflows",
+  "description": "vFlow is a powerful automation tool for Android. Using a simple drag-and-drop editor, you can chain together action blocks to build your own workflows that handle repetitive, everyday tasks on your screen automatically.\n\nIt's highly flexible, letting you combine many different action modules into custom automations, similar to a visual scripting tool but built specifically for your phone.",
+  "repo": "https://github.com/ChaoMixian/vFlow",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "website": "https://chaomixian.github.io/vFlow-Docs/",
+  "tags": ["automation", "workflow", "shortcuts-app"],
+  "added": "2026-08-05"
+}

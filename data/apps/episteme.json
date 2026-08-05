@@ -1,0 +1,11 @@
+{
+  "id": "episteme",
+  "name": "Episteme",
+  "tagline": "Read your PDFs and ebooks on any of your devices",
+  "description": "Episteme is a document and ebook reader that works across Android, Linux, and Windows. It opens EPUB and PDF files so you can keep reading the same book no matter which device you pick up.\n\nIt is fully open source and free, built for people who just want a clean, dependable reading app without ads or hidden costs.",
+  "repo": "https://github.com/Aryan-Raj3112/episteme",
+  "category": "reading",
+  "license": "AGPL-3.0",
+  "tags": ["ebook", "epub", "pdf", "reader", "foss"],
+  "added": "2026-08-05"
+}

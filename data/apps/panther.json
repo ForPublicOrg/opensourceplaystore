@@ -1,0 +1,11 @@
+{
+  "id": "panther",
+  "name": "Panther",
+  "tagline": "A browser that blocks ads, trackers, and shows what sites are doing",
+  "description": "Panther is a privacy-focused Android browser with an ad blocker and tracker blocker built in, so you see less clutter and get followed around the web less. For anyone curious about what a site is actually doing, it also includes a console and traffic logs you can dig into.\n\nIt even supports scripting, letting more technical users tweak or automate how pages behave, while staying just as usable as a normal browser for everyday browsing.",
+  "repo": "https://github.com/StringManolo/Panther",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["browser", "privacy", "adblock"],
+  "added": "2026-08-05"
+}

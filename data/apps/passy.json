@@ -1,0 +1,12 @@
+{
+  "id": "passy",
+  "name": "Passy",
+  "tagline": "An offline password manager that still syncs across your devices",
+  "description": "Passy is a password manager that works fully offline, storing your passwords locally on your device rather than in the cloud. When you want your data on another device, it can sync directly between them.\n\nIt's built with Flutter and available across Android, Linux, and Windows, plus browser extensions, so your passwords can follow you without handing them to a third-party server.",
+  "repo": "https://github.com/GlitterWare/Passy",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://glitterware.github.io/Passy/",
+  "tags": ["password-manager", "password-generator", "cross-platform", "passwords"],
+  "added": "2026-08-05"
+}

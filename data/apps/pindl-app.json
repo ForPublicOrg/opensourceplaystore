@@ -1,0 +1,11 @@
+{
+  "id": "pindl-app",
+  "name": "Pindl",
+  "tagline": "Download Pinterest pins and whole boards at once",
+  "description": "Pindl is an Android app for downloading images from Pinterest. Save a single pin, or grab everything from a public profile in bulk, without leaving the app.\n\nIt's built with Flutter and made for anyone who wants an easy way to keep a local copy of the Pinterest images they've saved.",
+  "repo": "https://github.com/motebaya/pindl-app",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["pinterest", "downloader"],
+  "added": "2026-08-05"
+}

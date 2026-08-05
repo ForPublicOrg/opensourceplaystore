@@ -1,0 +1,11 @@
+{
+  "id": "remotepointer-android",
+  "name": "RemotePointer",
+  "tagline": "Turn your phone into a wireless mouse and keyboard",
+  "description": "RemotePointer lets you control your computer's mouse and keyboard right from your Android phone. Connect to your desktop and use your phone as a handy wireless pointer and typing tool, no extra hardware required.\n\nIt also includes a built-in QR and barcode scanner, making it a useful little multi-tool alongside its main remote control feature.",
+  "repo": "https://github.com/schorschii/RemotePointer-Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["remote", "mouse", "keyboard", "scanner"],
+  "added": "2026-08-05"
+}

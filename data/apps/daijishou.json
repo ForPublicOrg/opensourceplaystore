@@ -1,0 +1,11 @@
+{
+  "id": "daijishou",
+  "name": "Daijishou",
+  "tagline": "Organize and launch all your retro games in one place",
+  "description": "Daijishou is a retro game launcher for Android. It brings all your classic game emulators together into one clean, easy-to-browse library, so you don't have to jump between different apps to find what you want to play.\n\nIt automatically scans your games, pulls in box art and details, and lets you organize everything by console. It's fully open source and free to use.",
+  "repo": "https://github.com/TapiocaFox/Daijishou",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["daijishou", "emulator-frontend", "emulator-launcher", "launcher"],
+  "added": "2026-08-05"
+}

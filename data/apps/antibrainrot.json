@@ -1,0 +1,11 @@
+{
+  "id": "antibrainrot",
+  "name": "AntiBrainRot",
+  "tagline": "A calm detective puzzle game with zero ads",
+  "description": "AntiBrainRot is a mission-driven detective puzzle game built to help you reclaim your focus. Work through logical deduction puzzles at your own pace, in an app designed to be the opposite of endless, ad-filled scrolling.\n\nIt's ad-free with a clean, modern interface, aimed at anyone who wants a calmer kind of mobile game.",
+  "repo": "https://github.com/FurkanHaydari/AntiBrainRot",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["puzzle", "detective", "ad-free", "logic"],
+  "added": "2026-08-05"
+}

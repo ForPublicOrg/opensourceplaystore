@@ -1,0 +1,11 @@
+{
+  "id": "justlive-android",
+  "name": "JustLive",
+  "tagline": "Watch live streams from many platforms in one app",
+  "description": "JustLive brings together live streaming content from many popular platforms into a single app, so you don't have to jump between different apps to find something to watch.\n\nIt's a simple way to browse and watch live streams from one place on your phone.",
+  "repo": "https://github.com/guyijie1211/JustLive-Android",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["live", "livestream", "streaming"],
+  "added": "2026-08-05"
+}

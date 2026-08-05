@@ -1,0 +1,12 @@
+{
+  "id": "braincup",
+  "name": "Braincup",
+  "tagline": "Train your memory, focus, and math skills",
+  "description": "Braincup is a collection of quick brain-training exercises for memory, focus, and mental math. Play short challenges designed to keep your mind sharp, with simple, distraction-free gameplay.\n\nIt's built to fit into small pockets of time, so you can train your brain wherever you are.",
+  "repo": "https://github.com/SimonSchubert/Braincup",
+  "category": "games",
+  "license": "Apache-2.0",
+  "website": "https://braincup.app/",
+  "tags": ["brain-training", "memory", "math"],
+  "added": "2026-08-05"
+}

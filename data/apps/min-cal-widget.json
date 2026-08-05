@@ -1,0 +1,11 @@
+{
+  "id": "min-cal-widget",
+  "name": "Minimal Calendar Widget",
+  "tagline": "A clean, no-frills calendar widget for your home screen",
+  "description": "Minimal Calendar Widget adds a simple, clean calendar to your home screen so you can see your month at a glance without opening a full calendar app.\n\nIt's built to be lightweight and unobtrusive, with a choice of themes so it can match the rest of your home screen.",
+  "repo": "https://github.com/mvmike/min-cal-widget",
+  "category": "productivity",
+  "license": "BSD-3-Clause",
+  "tags": ["calendar", "widget", "home-screen"],
+  "added": "2026-08-05"
+}

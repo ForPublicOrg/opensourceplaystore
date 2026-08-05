@@ -1,0 +1,11 @@
+{
+  "id": "changedetection",
+  "name": "Change Detection",
+  "tagline": "Get notified the moment a website you follow changes",
+  "description": "Change Detection quietly watches websites you care about and lets you know when something on the page changes. It runs in the background on your phone, so you never have to keep checking a page by hand.\n\nIt is handy for tracking things like price drops, restock alerts, or updates to a page you follow, all without needing any account or subscription.",
+  "repo": "https://github.com/bernaferrari/ChangeDetection",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["website", "monitoring", "tracker", "notifications"],
+  "added": "2026-08-05"
+}

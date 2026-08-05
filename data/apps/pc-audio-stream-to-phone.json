@@ -1,0 +1,11 @@
+{
+  "id": "pc-audio-stream-to-phone",
+  "name": "PC Audio Stream To Phone",
+  "tagline": "Turn your phone into a wireless speaker for your PC",
+  "description": "PC Audio Stream To Phone streams whatever is playing on your Windows computer straight to your Android phone over WiFi, in real time with low latency. It is a simple way to turn a spare phone into an extra wireless speaker.\n\nIt is open source and built for people who want a lightweight alternative to commercial wireless speaker apps.",
+  "repo": "https://github.com/anton1615/PC-Audio-Stream-to-Phone",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["audio-streaming", "wireless-speaker", "low-latency", "wifi"],
+  "added": "2026-08-05"
+}

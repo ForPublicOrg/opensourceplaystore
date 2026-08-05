@@ -1,0 +1,12 @@
+{
+  "id": "tokn",
+  "name": "Tokn",
+  "tagline": "A tiny, no-fuss 2FA app for your accounts",
+  "description": "Tokn is a small, focused two-factor authentication app that does one thing well: generate the 6-digit codes that keep your accounts safe. No extra features, no clutter, just a clean and reliable authenticator.\n\nIt works fully offline and keeps your 2FA secrets on your device, giving you a simple, open-source alternative to bulkier authenticator apps.",
+  "repo": "https://github.com/tokn-authenticator/tokn",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://usetokn.app",
+  "tags": ["2fa", "totp", "authenticator", "privacy", "offline"],
+  "added": "2026-08-05"
+}

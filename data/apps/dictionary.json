@@ -1,0 +1,12 @@
+{
+  "id": "dictionary",
+  "name": "Myanmar Dictionary",
+  "tagline": "Look up Myanmar words and their meanings",
+  "description": "Myanmar Dictionary is a comprehensive online dictionary app for the Myanmar (Burmese) language. Search for a word and get clear definitions, making it a handy reference for students, writers, and anyone learning or working with Myanmar.\n\nIt's built to be simple and quick to use, without ads or clutter getting in the way.",
+  "repo": "https://github.com/laisiangtho/dictionary",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://myordbok.com",
+  "tags": ["myanmar", "dictionary", "thesaurus"],
+  "added": "2026-08-05"
+}

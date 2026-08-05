@@ -1,0 +1,11 @@
+{
+  "id": "unlucky",
+  "name": "Unlucky",
+  "tagline": "A retro-style 2D RPG adventure",
+  "description": "Unlucky is a 2D role-playing game for Android. Explore a retro-styled world, battle enemies, and level up your character as you work through the story.\n\nIt's a classic-feeling RPG with the kind of turn-based combat and exploration that longtime RPG fans will recognize.",
+  "repo": "https://github.com/mingli1/Unlucky",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["rpg", "adventure"],
+  "added": "2026-08-05"
+}

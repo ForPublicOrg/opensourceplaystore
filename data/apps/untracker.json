@@ -1,0 +1,11 @@
+{
+  "id": "untracker",
+  "name": "Untracker",
+  "tagline": "Strip tracking junk out of links before you share them",
+  "description": "Untracker cleans up links before you share them with friends or post them online. Many links you copy from apps and websites carry hidden tracking codes that let companies follow what you click and share, and Untracker strips that junk out automatically.\n\nJust share a link like normal, and Untracker quietly removes the tracking parameters, leaving you with a clean link that still goes exactly where it should.",
+  "repo": "https://github.com/zhanghai/Untracker",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["privacy", "tracking", "links", "kotlin"],
+  "added": "2026-08-05"
+}

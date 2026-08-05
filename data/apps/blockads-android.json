@@ -1,0 +1,12 @@
+{
+  "id": "blockads-android",
+  "name": "BlockAds",
+  "tagline": "Block ads and trackers system-wide, no root needed",
+  "description": "BlockAds stops ads and trackers across your whole phone, not just in one browser. It works like a filter that quietly checks the internet traffic leaving your device and blocks anything unwanted, using WireGuard and DNS filtering under the hood.\n\nYou don't need to root your phone to use it, and it doesn't collect any of your data. It's fast, private, and works with every app on your device.",
+  "repo": "https://github.com/pass-with-high-score/blockads-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://blockads.pwhs.app",
+  "tags": ["adblocker", "dns", "firewall", "no-root", "privacy", "vpn", "wireguard"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "nlweer",
+  "name": "NLWeer",
+  "tagline": "Free, private weather forecasts for the Netherlands",
+  "description": "NLWeer is a free, open-source weather app focused on the Netherlands, built with privacy in mind. It gives you Dutch weather forecasts without tracking your data or bombarding you with ads.\n\nIf you want a straightforward, no-nonsense weather app that respects your privacy, NLWeer keeps things simple.",
+  "repo": "https://github.com/CNugteren/NLWeer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["weather"],
+  "added": "2026-08-05"
+}

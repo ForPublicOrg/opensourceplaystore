@@ -1,0 +1,12 @@
+{
+  "id": "oksigenia-sos",
+  "name": "Oksigenia SOS",
+  "tagline": "Send your GPS location by text when you're in trouble outdoors",
+  "description": "Oksigenia SOS is an emergency assistant built for hikers and outdoor adventurers. With one action, it sends an automatic SMS with your exact GPS coordinates to your emergency contacts, so people can find you even if you don't have a data connection.\n\nIt's designed privacy-first and local-first, meaning it works offline and doesn't depend on some third-party cloud service to get help to you.",
+  "repo": "https://github.com/OksigeniaSL/oksigenia-sos",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://oksigenia.com",
+  "tags": ["emergency", "f-droid", "foss", "gps", "hiking", "offline", "privacy", "safety", "sos"],
+  "added": "2026-08-05"
+}

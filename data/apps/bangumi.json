@@ -1,0 +1,11 @@
+{
+  "id": "bangumi",
+  "name": "Bangumi",
+  "tagline": "Track and discover anime, manga, and games",
+  "description": "Bangumi is an unofficial Android app for bangumi.tv, a community site where fans track and rate anime, manga, comics, music, and games. Log what you're watching or reading, rate and review titles, and browse rankings from a large, active community.\n\nIt's a full native app built just for the site, so browsing feels quick and smooth on your phone.",
+  "repo": "https://github.com/xiaoyvyv/bangumi",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["anime", "manga", "comic", "tracking"],
+  "added": "2026-08-05"
+}

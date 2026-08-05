@@ -1,0 +1,12 @@
+{
+  "id": "rota",
+  "name": "ROTA",
+  "tagline": "Bend gravity to solve puzzle platformer levels",
+  "description": "ROTA is a puzzle platformer where the trick isn't jumping — it's bending gravity itself. Rotate the world to redirect gravity and guide your character safely through each level.\n\nIt's a clever, focused puzzle game with a distinct visual style, playable on both desktop and Android.",
+  "repo": "https://github.com/HarmonyHoney/ROTA",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://harmonymonroe.com",
+  "tags": ["puzzle", "platformer"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "drivestream",
+  "name": "DriveStream",
+  "tagline": "Watch videos straight from your Google Drive",
+  "description": "DriveStream lets you watch video files stored in your Google Drive without downloading them first. Just pick a video from your Drive and it starts playing right away.\n\nIt's a simple way to watch your own video collection when it's stored in the cloud instead of on your phone.",
+  "repo": "https://github.com/itszechs/DriveStream",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["google-drive", "streaming", "video-player"],
+  "added": "2026-08-05"
+}

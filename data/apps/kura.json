@@ -1,0 +1,11 @@
+{
+  "id": "kura",
+  "name": "Kura",
+  "tagline": "Browse and save content from Kemono on your phone",
+  "description": "Kura is a native Android app for browsing and saving content from Kemono, a platform for viewing creators' posted content. It gives you a proper mobile app instead of squeezing the website into a browser tab.\n\nYou can view images and save what you find for offline viewing later, all from an app built specifically for Android.",
+  "repo": "https://github.com/AntarcDev/Kura",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["downloader", "viewer"],
+  "added": "2026-08-05"
+}

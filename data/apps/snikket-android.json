@@ -1,0 +1,12 @@
+{
+  "id": "snikket-android",
+  "name": "Snikket",
+  "tagline": "A simple, private messaging app for you and your friends",
+  "description": "Snikket is a messaging app designed to make private, secure chat easy for everyone, not just tech experts. It's part of the Snikket project, which offers both the app and a simple way to run your own server, so you and your friends can own your conversations.\n\nBuilt on the open XMPP standard, it's a straightforward alternative to big commercial messaging apps for individuals, families, or small communities.",
+  "repo": "https://github.com/snikket-im/snikket-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://snikket.org/app/",
+  "tags": ["xmpp", "snikket", "messaging"],
+  "added": "2026-08-05"
+}

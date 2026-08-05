@@ -1,0 +1,11 @@
+{
+  "id": "cleansweep",
+  "name": "CleanSweep",
+  "tagline": "Swipe through your photos to clean up storage fast",
+  "description": "CleanSweep helps you take back storage space by making it fast to sort through your photos and videos. Swipe through your media one item at a time to decide what stays and what goes, similar to how you'd swipe through a dating app.\n\nIt also looks for duplicate and similar photos automatically, so you can spot near-identical shots and clear out the clutter without hunting for them yourself.",
+  "repo": "https://github.com/loopotto/CleanSweep",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["cleaner", "duplicate-finder", "gallery", "photo-organizer", "media-management"],
+  "added": "2026-08-05"
+}

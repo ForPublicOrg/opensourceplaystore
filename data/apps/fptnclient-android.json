@@ -1,0 +1,12 @@
+{
+  "id": "fptnclient-android",
+  "name": "FPTN",
+  "tagline": "A VPN app built to get around internet censorship",
+  "description": "FPTN is the official Android client for the FPTN VPN service, built to help people get online freely in places where internet access is censored or restricted.\n\nIt gives you a straightforward way to connect and browse without being blocked, all from an open-source Android app.",
+  "repo": "https://github.com/fptn-project/FptnClient-Android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://storage.googleapis.com/fptn.org/index.html",
+  "tags": ["vpn", "fptn"],
+  "added": "2026-08-05"
+}

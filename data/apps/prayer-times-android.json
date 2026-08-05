@@ -1,0 +1,11 @@
+{
+  "id": "prayer-times-android",
+  "name": "Prayer Times",
+  "tagline": "Daily prayer times, hadith, and reminders for Muslims",
+  "description": "Prayer Times gives Muslims an easy way to check accurate daily prayer times for their location, along with helpful extras like hadith texts and reminder notifications so you never miss a prayer.\n\nIt's a genuinely useful everyday tool, with a home screen widget for at-a-glance timing.",
+  "repo": "https://github.com/metinkale38/prayer-times-android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["prayer-times", "muslim", "hadith", "widget"],
+  "added": "2026-08-05"
+}

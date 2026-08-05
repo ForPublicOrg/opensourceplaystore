@@ -1,0 +1,11 @@
+{
+  "id": "nevertoomanybooks",
+  "name": "Never Too Many Books",
+  "tagline": "Catalog your book shelf right from your phone",
+  "description": "Never Too Many Books helps you build a catalog of your physical book, comic, and collectible library. Scan a barcode or search by title to add books quickly, and keep notes on where each one lives on your shelf.\n\nIt's built for real bookworms and collectors who want an easy way to remember what they own and never buy a duplicate again.",
+  "repo": "https://github.com/tfonteyn/NeverTooManyBooks",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["books", "catalog", "collection", "bookshelf"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kryptos",
+  "name": "Kryptos",
+  "tagline": "Encrypt your messages right inside any chat app",
+  "description": "Kryptos lets you encrypt messages without ever leaving the messaging app you're already using. It works as a keyboard: type your message, it encrypts it, and the other person's screen decrypts it back, so there's no separate app to jump into.\n\nIt uses the Signal Protocol for strong end-to-end encryption and works completely offline. Kryptos is available for both Android and iOS.",
+  "repo": "https://github.com/swisslite/Kryptos",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "website": "https://datakeeper.pages.dev/kryptos",
+  "tags": ["encryption", "e2ee", "signal-protocol", "keyboard", "privacy", "messaging"],
+  "added": "2026-08-05"
+}

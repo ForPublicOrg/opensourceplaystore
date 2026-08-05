@@ -1,0 +1,11 @@
+{
+  "id": "wristassist",
+  "name": "WristAssist",
+  "tagline": "Chat with ChatGPT and create AI art from your smartwatch",
+  "description": "WristAssist brings ChatGPT and DALL-E image generation to your Wear OS smartwatch, so you can ask questions, get quick answers, and even generate AI images without pulling out your phone.\n\nIt's a handy way to use AI assistants on the go, right from your wrist.",
+  "repo": "https://github.com/DevEmperor/WristAssist",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["chatgpt", "dall-e", "openai", "wearos", "ai"],
+  "added": "2026-08-05"
+}

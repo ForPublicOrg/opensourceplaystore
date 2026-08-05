@@ -1,0 +1,11 @@
+{
+  "id": "roadtripradar",
+  "name": "Road Trip Radar",
+  "tagline": "Weather radar that looks ahead on your road trip",
+  "description": "Road Trip Radar shows you weather radar for the road ahead, the same way an airline pilot checks conditions along a flight path, but built for driving instead of flying. As you travel, it keeps an eye on what weather is coming up on your route.\n\nIt's a clever twist on the usual weather radar app, made specifically with long drives in mind.",
+  "repo": "https://github.com/digiexchris/RoadTripRadar",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["navigation", "weather"],
+  "added": "2026-08-05"
+}

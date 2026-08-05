@@ -1,0 +1,12 @@
+{
+  "id": "vervedo",
+  "name": "VerveDo",
+  "tagline": "A clean, minimal to-do list with the latest Material look",
+  "description": "VerveDo is a concise, clean to-do app for keeping track of what you need to get done. It follows Google's latest Material 3 Expressive design, so it looks and feels right at home on a modern Android phone.\n\nNo clutter, no distractions, just a simple task list built with Jetpack Compose.",
+  "repo": "https://github.com/Super12138/VerveDo",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://super12138.pages.dev/apps/vervedo/intro",
+  "tags": ["todo", "task-manager", "material-design"],
+  "added": "2026-08-05"
+}

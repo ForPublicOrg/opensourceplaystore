@@ -1,0 +1,11 @@
+{
+  "id": "moread",
+  "name": "MoRead",
+  "tagline": "A local novel reader with an AI reading companion",
+  "description": "MoRead is a native Android novel reader for books stored on your phone, with its own text layout engine for smooth, book-like pages. It supports continuous listening mode so you can have chapters read aloud back to back.\n\nWhat sets it apart is an optional AI reading companion you can chat with about the story using your own API key, along with features to help avoid spoilers while you read.",
+  "repo": "https://github.com/ovo066/MoRead",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["novel", "ebook", "epub", "reader", "tts", "ai"],
+  "added": "2026-08-05"
+}

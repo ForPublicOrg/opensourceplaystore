@@ -1,0 +1,12 @@
+{
+  "id": "mlauncher",
+  "name": "mLauncher",
+  "tagline": "A minimal launcher that keeps your phone distraction-free",
+  "description": "mLauncher strips your home screen down to the essentials. Instead of icons and widgets everywhere, you get a simple, text-based list of your apps, which helps cut down on visual noise and mindless scrolling.\n\nIt's free, open source, and built for people who want a calmer, more minimal phone.",
+  "repo": "https://github.com/CodeWorksCreativeHub/mLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://mlauncher.5646316.xyz/",
+  "tags": ["launcher", "minimal", "minimalist", "fdroid"],
+  "added": "2026-08-05"
+}

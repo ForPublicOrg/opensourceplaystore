@@ -1,0 +1,12 @@
+{
+  "id": "nym",
+  "name": "NYM",
+  "tagline": "Temporary, private group chats built on Nostr",
+  "description": "NYM is a chat app built on Nostr, an open protocol that doesn't need a central server or your real identity to use. Conversations are meant to be temporary rather than a permanent record, which suits quick, casual, and pseudonymous chatting.\n\nIt also bridges with Bitchat, so you can reach people using that app too.",
+  "repo": "https://github.com/Spl0itable/NYM",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://nymchat.app",
+  "tags": ["nostr", "bitchat", "messenger", "chat"],
+  "added": "2026-08-05"
+}

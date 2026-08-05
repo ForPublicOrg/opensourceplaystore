@@ -1,0 +1,11 @@
+{
+  "id": "ripdpi",
+  "name": "RIPDPI",
+  "tagline": "Get around internet blocks and see what's stopping each connection",
+  "description": "RIPDPI helps you get a faster, less restricted internet connection on Android. It works to bypass deep packet inspection, the technique some networks and countries use to detect and block certain kinds of traffic, right on your device, and connects to a VPN relay server that you control.\n\nIt also includes diagnostic tools that show you exactly what's blocking a given connection, so you're not just guessing.",
+  "repo": "https://github.com/po4yka/RIPDPI",
+  "category": "security",
+  "license": "BSD-3-Clause",
+  "tags": ["anti-censorship", "censorship-circumvention", "dpi", "vpn", "network-diagnostics"],
+  "added": "2026-08-05"
+}

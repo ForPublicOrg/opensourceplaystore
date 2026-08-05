@@ -1,0 +1,12 @@
+{
+  "id": "etesync-android",
+  "name": "EteSync",
+  "tagline": "Sync contacts, calendars, and tasks with end-to-end encryption",
+  "description": "EteSync keeps your contacts, calendars, and to-do lists synced across your devices while making sure nobody but you can read them, not even EteSync's own servers. Everything is encrypted on your device before it's ever sent anywhere, so your personal schedule and contact list stay truly private.\n\nIt's a drop-in replacement for services like Google Calendar or Contacts sync, built for people who want the convenience of syncing without handing their data to a company.",
+  "repo": "https://github.com/etesync/android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://www.etesync.com",
+  "tags": ["encryption", "privacy", "sync", "calendar", "contacts"],
+  "added": "2026-08-05"
+}

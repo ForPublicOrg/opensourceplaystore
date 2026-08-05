@@ -1,0 +1,11 @@
+{
+  "id": "openlinkwith",
+  "name": "Open Link With",
+  "tagline": "Choose which app opens your links, every time",
+  "description": "Open Link With solves a small but annoying problem: your phone always opens links in the same app, even when you'd rather use a different one. This app adds a quick menu so you can send any webpage straight to the browser or app you actually want.\n\nIt works from any app that shares a link, giving you a simple 'open with' choice instead of being stuck with one default.",
+  "repo": "https://github.com/tasomaniac/OpenLinkWith",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["browser", "utility", "links"],
+  "added": "2026-08-05"
+}

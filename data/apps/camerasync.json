@@ -1,0 +1,11 @@
+{
+  "id": "camerasync",
+  "name": "CameraSync",
+  "tagline": "Sync your GPS location and time straight to your camera",
+  "description": "CameraSync connects to Ricoh or Sony cameras over Bluetooth and syncs your phone's GPS location and current date and time directly to the camera. That means every photo you take gets geotagged and correctly timestamped automatically, without any manual fuss.\n\nIt's a small, focused tool for photographers who want accurate location data baked into their shots.",
+  "repo": "https://github.com/rock3r/CameraSync",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["bluetooth", "camera", "gps", "photos", "ricoh", "sony", "sony-alpha-cameras"],
+  "added": "2026-08-05"
+}

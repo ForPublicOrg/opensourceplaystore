@@ -1,0 +1,11 @@
+{
+  "id": "wolf-gallery",
+  "name": "Wolf Gallery",
+  "tagline": "A private, offline photo vault that never phones home",
+  "description": "Wolf Gallery is an encrypted photo and video vault that works completely offline, so your private pictures never touch the internet. Everything you store in it is encrypted, keeping your personal photos and videos hidden from prying eyes, apps, and cloud services.\n\nIt's a lightweight, open-source option for anyone who wants a simple, trustworthy place to keep sensitive photos away from their regular gallery.",
+  "repo": "https://github.com/Wolf-Project777/wolf-gallery",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["encryption", "privacy", "vault", "photos", "offline"],
+  "added": "2026-08-05"
+}

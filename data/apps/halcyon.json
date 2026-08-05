@@ -1,0 +1,11 @@
+{
+  "id": "halcyon",
+  "name": "Halcyon",
+  "tagline": "A music player with floating word-by-word lyrics",
+  "description": "Halcyon is an Android music player styled after MIUI and HyperOS, playing music stored locally or from remote and online sources. It shows lyrics word by word as they are sung, and can float them over other apps while you do something else with your phone.\n\nIt uses FFmpeg for decoding, so it handles a wide range of audio formats.",
+  "repo": "https://github.com/Kifranei/Halcyon",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["music-player", "lyrics", "miuix"],
+  "added": "2026-08-05"
+}

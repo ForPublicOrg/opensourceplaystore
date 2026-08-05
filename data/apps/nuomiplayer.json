@@ -1,0 +1,11 @@
+{
+  "id": "nuomiplayer",
+  "name": "Nuomi Player",
+  "tagline": "Play your music, with support for Android Auto",
+  "description": "Nuomi Player is a music player app that also works with Android Auto, so you can control your tunes safely from your car's display. It's designed for people who want a straightforward music player that follows them from phone to car.\n\nJust load up your music and enjoy it wherever you're headed.",
+  "repo": "https://github.com/charlottejas/NuomiPlayer",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["music-player", "android-auto", "car-app"],
+  "added": "2026-08-05"
+}

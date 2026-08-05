@@ -1,0 +1,11 @@
+{
+  "id": "retrowars",
+  "name": "Retrowars",
+  "tagline": "Battle friends in classic-style retro minigames",
+  "description": "Retrowars lets you play retro-style games against friends and family. Pick from a mix of classic-inspired minigames and compete head-to-head over the network, all in a single open-source multiplayer app.\n\nNo ads, no tracking — just simple retro fun with the people you play against.",
+  "repo": "https://github.com/retrowars/retrowars",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["multiplayer", "retro", "arcade"],
+  "added": "2026-08-05"
+}

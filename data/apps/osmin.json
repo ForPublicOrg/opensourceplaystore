@@ -1,0 +1,11 @@
+{
+  "id": "osmin",
+  "name": "Osmin",
+  "tagline": "GPS navigation for roads and trails, powered by OpenStreetMap",
+  "description": "Osmin is a GPS navigator for Android that works both on paved roads and off-road trails. It's built on OpenStreetMap data, giving you turn-by-turn style guidance whether you're driving through town or hiking a backcountry path.\n\nIt's a lightweight, open-source option for anyone who wants map navigation without relying on Google Maps.",
+  "repo": "https://github.com/janbar/osmin",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["gps", "libosmscout", "map", "navigation", "off-road", "offline-maps", "openstreetmap"],
+  "added": "2026-08-05"
+}

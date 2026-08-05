@@ -1,0 +1,11 @@
+{
+  "id": "small-talk",
+  "name": "Small Talk",
+  "tagline": "A minimal messenger built on the Matrix network",
+  "description": "Small Talk is a lightweight messaging app built on Matrix, the open network for secure, decentralized chat. It focuses on doing the basics well, letting you send end-to-end encrypted messages without a cluttered interface full of features you don't need.\n\nIf you want a straightforward way to chat on Matrix without the complexity of larger apps, Small Talk keeps things simple.",
+  "repo": "https://github.com/ouchadam/small-talk",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": ["matrix", "messenger", "e2e"],
+  "added": "2026-08-05"
+}

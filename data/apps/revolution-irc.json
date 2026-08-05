@@ -1,0 +1,11 @@
+{
+  "id": "revolution-irc",
+  "name": "Revolution IRC",
+  "tagline": "Chat on IRC with a clean, modern app",
+  "description": "Revolution IRC is a modern app for joining IRC chat rooms, the old-school text chat networks still used by many open-source and tech communities. It gives IRC, which normally feels stuck in the past, a fresh and easy-to-use design on your phone.\n\nWhether you're keeping up with a favorite open-source project or just want to hang out in a chat room, Revolution IRC makes it simple.",
+  "repo": "https://github.com/MCMrARM/revolution-irc",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["irc", "chat"],
+  "added": "2026-08-05"
+}

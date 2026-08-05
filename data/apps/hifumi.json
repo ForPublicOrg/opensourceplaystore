@@ -1,0 +1,12 @@
+{
+  "id": "hifumi",
+  "name": "Hifumi",
+  "tagline": "Flashcards made just for the Minna no Nihongo textbooks",
+  "description": "Hifumi is a flashcard companion built specifically for people studying with the Minna no Nihongo Shokyu I and II textbooks, a very popular set of Japanese language courses. Instead of generic vocabulary lists, the cards line up directly with what you're learning chapter by chapter.\n\nIt's a small, focused tool that fits neatly alongside your textbook study routine.",
+  "repo": "https://github.com/vitto4/hifumi",
+  "category": "education",
+  "license": "MPL-2.0",
+  "website": "https://vitto4.github.io/hifumi/",
+  "tags": ["japanese", "flashcards", "language-learning"],
+  "added": "2026-08-05"
+}

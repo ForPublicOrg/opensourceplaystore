@@ -1,0 +1,11 @@
+{
+  "id": "iyps",
+  "name": "IYPS",
+  "tagline": "Check how strong your passwords really are",
+  "description": "IYPS, short for \"Is Your Password Safe\", tests how strong your passwords actually are. It estimates how long it would take someone to crack a password and gives clear, practical suggestions for making it stronger.\n\nEverything is calculated right on your device, so you can check your passwords without ever sending them anywhere. It's a quick, honest reality check for anyone who wants better password habits.",
+  "repo": "https://github.com/StellarSand/IYPS",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["password", "security", "privacy", "fdroid"],
+  "added": "2026-08-05"
+}

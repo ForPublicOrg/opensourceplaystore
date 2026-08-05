@@ -1,0 +1,12 @@
+{
+  "id": "mediabox",
+  "name": "MediaBox",
+  "tagline": "Browse videos, comics, and manga through simple add-ons",
+  "description": "MediaBox is an all-in-one media browser for Android. Instead of building everything in, it uses small plugins to fetch videos, comics, and manga, so you can pick and choose what sources you want to browse.\n\nIt gives you one clean app for enjoying different kinds of media instead of juggling several separate apps.",
+  "repo": "https://github.com/RyensX/MediaBox",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://ryensx.github.io/MediaBoxPluginRepository",
+  "tags": ["manga", "comic", "anime", "video", "plugins"],
+  "added": "2026-08-05"
+}

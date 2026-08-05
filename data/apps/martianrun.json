@@ -1,0 +1,11 @@
+{
+  "id": "martianrun",
+  "name": "Martian Run",
+  "tagline": "Run, jump, and dodge across Mars in this runner",
+  "description": "Martian Run is an open-source endless running game. Sprint across a Mars landscape, dodge obstacles, and see how far you can get before you slip up.\n\nIt's simple, arcade-style fun in the spirit of classic mobile runners.",
+  "repo": "https://github.com/wmora/martianrun",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["runner", "arcade"],
+  "added": "2026-08-05"
+}

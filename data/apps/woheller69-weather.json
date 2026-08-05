@@ -1,0 +1,11 @@
+{
+  "id": "woheller69-weather",
+  "name": "Privacy Weather",
+  "tagline": "A weather app with a built-in rain radar and no tracking",
+  "description": "Privacy Weather gives you forecasts and a built-in rain radar without collecting your data along the way. It's designed to work like any other weather app you're used to, showing current conditions and what's coming, minus the trackers and ad networks that usually come bundled in.\n\nIf you just want to know whether to bring an umbrella without your weather app phoning home, this is built for exactly that.",
+  "repo": "https://github.com/woheller69/weather",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["weather"],
+  "added": "2026-08-05"
+}

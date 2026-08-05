@@ -1,0 +1,12 @@
+{
+  "id": "indic-keyboard",
+  "name": "Indic Keyboard",
+  "tagline": "Type in 23 Indian languages with a private keyboard",
+  "description": "Indic Keyboard is a versatile typing keyboard built for Indian languages. It supports 23 languages and 60 different layouts, so you can type comfortably in the script and language you actually use.\n\nIt's privacy aware and doesn't send your typing anywhere, making it a solid choice if you want a capable multilingual keyboard without the tracking that comes with many mainstream options.",
+  "repo": "https://github.com/smc/Indic-Keyboard",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://indic.app",
+  "tags": ["indic-languages", "keyboard"],
+  "added": "2026-08-05"
+}

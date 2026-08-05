@@ -1,0 +1,12 @@
+{
+  "id": "documents",
+  "name": "Documents",
+  "tagline": "View your files without anyone watching over you",
+  "description": "Documents is a simple, clean app for opening files like PDFs, Word documents, spreadsheets, and plain text, all without tracking you or showing ads. It's part of the Fossify family of privacy-friendly apps.\n\nIt keeps things straightforward: open a file, read it, and get on with your day.",
+  "repo": "https://github.com/FossifyOrg/Documents",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org/apps/documents/",
+  "tags": ["pdf", "docx", "csv", "documents", "privacy"],
+  "added": "2026-08-05"
+}

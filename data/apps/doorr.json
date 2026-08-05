@@ -1,0 +1,11 @@
+{
+  "id": "doorr",
+  "name": "Doorr",
+  "tagline": "Search your self-hosted torrent indexers from your phone",
+  "description": "Doorr is a search app for people who run their own Prowlarr or Jackett server to index torrents. Instead of opening a browser and logging into your server's web page, Doorr gives you a proper mobile app to search across your indexers.\n\nIt's built for the self-hosting crowd, a quick, native way to find what you're looking for from your self-hosted torrent search setup.",
+  "repo": "https://github.com/Lifailon/doorr",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["torrent", "self-hosted", "search"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rssaid",
+  "name": "RSSAid",
+  "tagline": "A friendly helper app for your RSSHub feeds",
+  "description": "RSSAid is a companion app for RSSHub, a free tool that turns almost any website into an RSS feed you can subscribe to. If you use RSSHub to follow sites that don't normally offer RSS, RSSAid gives you a simple mobile app to manage and read those feeds.\n\nIt's lightweight, works on both Android and iOS, and is built for people who already rely on RSSHub to keep up with the web.",
+  "repo": "https://github.com/LeetaoGoooo/RSSAid",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["rss", "rsshub", "reader"],
+  "added": "2026-08-05"
+}

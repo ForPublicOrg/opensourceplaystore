@@ -1,0 +1,12 @@
+{
+  "id": "tempus",
+  "name": "Tempus",
+  "tagline": "Stream your own music collection from your Subsonic server",
+  "description": "Tempus is a lightweight, native Android app for listening to music stored on your own Subsonic server. Point it at your server and browse your whole collection, with support for offline listening when you do not have a connection.\n\nIt uses Material You styling so it fits in with the rest of your phone, and it is fully open source.",
+  "repo": "https://github.com/eddyizm/tempus",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://eddyizm.github.io/tempus/",
+  "tags": ["subsonic", "subsonic-client", "music-player", "offline", "self-hosted", "material3"],
+  "added": "2026-08-05"
+}

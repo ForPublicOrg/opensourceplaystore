@@ -1,0 +1,11 @@
+{
+  "id": "noise",
+  "name": "Noise",
+  "tagline": "Chat with nearby people even without internet or signal",
+  "description": "Noise is a chat app built for when the usual networks fail. It uses Bluetooth to pass messages directly between nearby phones, hopping from device to device, so you can still get a message through during an emergency, a big event, or anywhere signal is spotty.\n\nIt won't replace your everyday messenger, but it's a clever backup for the moments when regular networks let you down.",
+  "repo": "https://github.com/aarmea/noise",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["bluetooth", "mesh-network", "chat", "delay-tolerant-network"],
+  "added": "2026-08-05"
+}

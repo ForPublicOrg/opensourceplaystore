@@ -1,0 +1,12 @@
+{
+  "id": "parson",
+  "name": "Parson",
+  "tagline": "Point it at a music folder and start listening",
+  "description": "Parson is a local-first, self-hosted music app. Choose a folder full of your own music files and it takes care of the rest, with support for lossless audio for people who care about sound quality.\n\nIt works across Android, Linux, Windows, and the web, so your library follows you between devices without needing a streaming subscription.",
+  "repo": "https://github.com/ParsonLabs/parson",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://parson.dev",
+  "tags": ["music-player", "local-first", "self-hosted", "lossless", "open-source"],
+  "added": "2026-08-05"
+}

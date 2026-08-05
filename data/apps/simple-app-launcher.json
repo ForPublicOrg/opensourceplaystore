@@ -1,0 +1,12 @@
+{
+  "id": "simple-app-launcher",
+  "name": "Simple App Launcher",
+  "tagline": "Keep your favorite apps one tap away",
+  "description": "Simple App Launcher gives you a clean, simple place to hold and organize your favorite apps for quick access. Instead of digging through your app drawer, you can manage a handful of go-to apps in one easy-to-reach spot.\n\nLike other apps from Simple Mobile Tools, it's ad-free, lightweight, and built with your privacy in mind.",
+  "repo": "https://github.com/SimpleMobileTools/Simple-App-Launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.simplemobiletools.com",
+  "tags": ["launcher", "freedom", "open-source", "kotlin"],
+  "added": "2026-08-05"
+}

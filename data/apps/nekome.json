@@ -1,0 +1,11 @@
+{
+  "id": "nekome",
+  "name": "Nekome",
+  "tagline": "Keep track of every anime and manga you follow",
+  "description": "Nekome helps you manage your anime and manga lists in one simple app. Mark what you're watching or reading, track your progress, and see what's coming up next without switching between different sites.\n\nIt is built for fans who want a fast, no-nonsense way to stay organized, powered by the Kitsu tracking service.",
+  "repo": "https://github.com/Chesire/Nekome",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["anime", "manga", "tracker", "kitsu"],
+  "added": "2026-08-05"
+}

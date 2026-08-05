@@ -1,0 +1,11 @@
+{
+  "id": "databag",
+  "name": "Databag",
+  "tagline": "A fast, private messenger you can host yourself",
+  "description": "Databag is a fast and lightweight messenger you can run on your own server instead of trusting a big company with your messages. It supports video calls and works across Android, iOS, and the web, so you can stay in touch with people no matter what device they use.\n\nBecause you control the server, your conversations stay under your own roof instead of someone else's cloud.",
+  "repo": "https://github.com/balzack/databag",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": ["messenger", "decentralized", "federated", "end-to-end-encryption", "self-hosted", "video-chat"],
+  "added": "2026-08-05"
+}

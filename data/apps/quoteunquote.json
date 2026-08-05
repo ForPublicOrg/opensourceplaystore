@@ -1,0 +1,11 @@
+{
+  "id": "quoteunquote",
+  "name": "QuoteUnquote",
+  "tagline": "A home screen widget with quotes and affirmations",
+  "description": "QuoteUnquote is a simple home screen widget that shows you quotations and affirmations, a small daily dose of inspiration right where you check your phone.\n\nIt's lightweight and open source, and available on both F-Droid and Google Play.",
+  "repo": "https://github.com/jameshnsears/QuoteUnquote",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["widget", "quotations", "affirmations", "fdroid"],
+  "added": "2026-08-05"
+}

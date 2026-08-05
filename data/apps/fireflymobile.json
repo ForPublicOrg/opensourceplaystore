@@ -1,0 +1,11 @@
+{
+  "id": "fireflymobile",
+  "name": "Firefly Mobile",
+  "tagline": "A mobile companion for your Firefly III finances",
+  "description": "Firefly Mobile is the Android companion app for Firefly III, the free personal finance manager you can run on your own server. It lets you check your accounts, log expenses, and keep an eye on your budget straight from your phone.\n\nBecause it connects to your own Firefly III server, your financial data stays under your control instead of living in someone else's cloud.",
+  "repo": "https://github.com/emansih/FireflyMobile",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["finance", "budgeting", "firefly-iii", "money-manager"],
+  "added": "2026-08-05"
+}

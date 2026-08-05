@@ -1,0 +1,11 @@
+{
+  "id": "apocalypse",
+  "name": "Apocalypse",
+  "tagline": "Preview and save media from social apps, plus generate images",
+  "description": "Apocalypse is an Android app for previewing and downloading media from popular social platforms, so you can save posts, photos, and videos you come across while scrolling. Paste a link and grab a copy to keep.\n\nIt also includes some experimental image-generation tools to play with, alongside its main job as a social media downloader.",
+  "repo": "https://github.com/SriKousik/Apocalypse",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["downloader", "social-media"],
+  "added": "2026-08-05"
+}

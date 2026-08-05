@@ -1,0 +1,11 @@
+{
+  "id": "world-scribe",
+  "name": "World Scribe",
+  "tagline": "Keep track of characters, places, and lore for your stories",
+  "description": "World Scribe is a writing companion for anyone building a fictional world, whether for a novel, a tabletop game, or just for fun. Keep track of characters, places, histories, and all the details that make your world feel real.\n\nIt's a focused tool for writers and worldbuilders who need somewhere to organize their ideas without losing track of the details.",
+  "repo": "https://github.com/MarquisLP/World-Scribe",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["writing", "worldbuilding", "notes"],
+  "added": "2026-08-05"
+}

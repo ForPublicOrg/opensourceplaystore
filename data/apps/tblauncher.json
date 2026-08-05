@@ -1,0 +1,11 @@
+{
+  "id": "tblauncher",
+  "name": "TBLauncher",
+  "tagline": "A fast, search-first home screen launcher",
+  "description": "TBLauncher replaces your phone's home screen with a fast, search-driven launcher. Instead of hunting through app drawers and folders, you just start typing and it finds the app, contact, or setting you're looking for.\n\nIt's based on the well-known KISS launcher and keeps the same simple, no-frills philosophy: a clean home screen that gets out of your way.",
+  "repo": "https://github.com/TBog/TBLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher"],
+  "added": "2026-08-05"
+}

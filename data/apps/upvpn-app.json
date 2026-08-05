@@ -1,0 +1,12 @@
+{
+  "id": "upvpn-app",
+  "name": "UpVPN",
+  "tagline": "A serverless VPN app for private, on-demand browsing",
+  "description": "UpVPN is a VPN app with an unusual approach: instead of routing through fixed servers, it spins up serverless cloud infrastructure on demand to protect your connection. It's available for Android alongside macOS, Linux, Windows, iOS, tvOS, and more.\n\nYou can also connect any WireGuard-compatible app to the UpVPN service through its Web Device feature, making it flexible for different setups.",
+  "repo": "https://github.com/upvpn/upvpn-app",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://UpVPN.app",
+  "tags": ["vpn", "serverless-vpn", "wireguard", "wireguard-vpn"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "calculator-hide-files",
+  "name": "Calculator Hide Files",
+  "tagline": "A working calculator that secretly hides your files",
+  "description": "Calculator Hide Files looks and works like an ordinary calculator, but it's secretly a vault for your private photos, videos, audio, and notes. Enter the right code and it unlocks your hidden files instead of just doing math.\n\nEverything you hide is protected with AES encryption, so even if someone finds the app, your files stay unreadable without the right access.",
+  "repo": "https://github.com/Binondi/Calculator-Hide-Files",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["encryption", "privacy", "vault", "hide-files"],
+  "added": "2026-08-05"
+}

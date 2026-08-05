@@ -1,0 +1,11 @@
+{
+  "id": "vbrowser-android",
+  "name": "VBrowser",
+  "tagline": "Find and save videos playing on any website",
+  "description": "VBrowser is a web browser built to find and save the videos that play inside web pages as you browse. Instead of hunting for a separate download link, it sniffs out video streams on the site you're viewing so you can save them to your phone.\n\nIt keeps a local cache of what you've found, making it handy for grabbing clips and videos from across the web while you browse normally.",
+  "repo": "https://github.com/xm0625/VBrowser-Android",
+  "category": "internet",
+  "license": "GPL-2.0",
+  "tags": ["browser", "video", "downloader"],
+  "added": "2026-08-05"
+}

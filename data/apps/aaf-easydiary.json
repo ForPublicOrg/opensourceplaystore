@@ -1,0 +1,11 @@
+{
+  "id": "aaf-easydiary",
+  "name": "EasyDiary",
+  "tagline": "Keep a daily diary with a clean calendar view",
+  "description": "EasyDiary is a diary app built to make daily journaling simple and pleasant. Write down your day, browse past entries on a calendar, and keep your memories organized in one place.\n\nIt follows Material design and is built to feel smooth and easy to use, so keeping a diary becomes a habit rather than a chore.",
+  "repo": "https://github.com/hanjoongcho/aaf-easydiary",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["diary", "journal", "calendar"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "quizflow",
+  "name": "QuizFlow",
+  "tagline": "Build word lists and study them as fun flashcard games",
+  "description": "QuizFlow lets you create your own word lists and study them with interactive flashcards and study modes, similar to Quizlet but free and open source. It's a good fit for memorizing vocabulary, exam terms, or anything else you need to drill into memory.\n\nEverything runs on your device, and since it's open source there's no subscription or paywall blocking the features you need.",
+  "repo": "https://github.com/douxxtech/QuizFlow",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["flashcards", "vocabulary", "learning-app", "vocabulary-learning"],
+  "added": "2026-08-05"
+}

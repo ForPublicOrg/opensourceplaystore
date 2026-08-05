@@ -1,0 +1,11 @@
+{
+  "id": "2048",
+  "name": "2048",
+  "tagline": "Slide and merge tiles to reach 2048",
+  "description": "This is the classic sliding-tile puzzle game 2048, ported to Android. Swipe to slide numbered tiles across the board — when two tiles with the same number touch, they merge into one.\n\nKeep merging to reach higher numbers and beat your own high score. Simple to learn, hard to put down.",
+  "repo": "https://github.com/tpcstld/2048",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["puzzle", "tile", "classic"],
+  "added": "2026-08-05"
+}

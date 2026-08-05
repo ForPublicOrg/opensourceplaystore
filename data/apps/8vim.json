@@ -1,0 +1,12 @@
+{
+  "id": "8vim",
+  "name": "8VIM",
+  "tagline": "Type with swipes instead of tapping tiny keys",
+  "description": "8VIM turns typing into a set of simple swipe gestures, inspired by the 8pen concept and Vim's keyboard-driven editing. Instead of hunting for small keys, you glide your finger in different directions to write letters, numbers, and symbols.\n\nIt takes a bit of practice, but once it clicks, many people find it faster and more comfortable than a normal on-screen keyboard, especially for one-handed typing.",
+  "repo": "https://github.com/8VIM/8VIM",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://8vim.github.io/",
+  "tags": ["keyboard", "gesture-typing", "input-method", "vim"],
+  "added": "2026-08-05"
+}

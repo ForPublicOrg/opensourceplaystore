@@ -1,0 +1,11 @@
+{
+  "id": "easylauncher",
+  "name": "EasyLauncher",
+  "tagline": "A minimal home screen launcher with no clutter",
+  "description": "EasyLauncher strips your home screen down to the essentials, giving you a clean, text-focused layout without ads, unnecessary animations, or bloat. It's built for people who want their phone to feel calm and fast rather than busy.\n\nIt's completely free, open source, and easy to install through F-Droid or Obtainium.",
+  "repo": "https://github.com/CodeWorksCreativeHub/EasyLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimalist", "ad-free"],
+  "added": "2026-08-05"
+}

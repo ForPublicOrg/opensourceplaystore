@@ -1,0 +1,12 @@
+{
+  "id": "txori",
+  "name": "Txori",
+  "tagline": "Stay focused with simple timed sessions",
+  "description": "Txori is a focus session app designed to help you stay present with whatever you're doing. Start a session when you need to concentrate, and let it help you stay intentional with your time instead of getting pulled in different directions.\n\nIt's built to be minimal and privacy-first, with no unnecessary extras getting in the way of your focus.",
+  "repo": "https://github.com/rama-io/txori",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://rama-io.github.io",
+  "tags": ["focus", "productivity", "minimalist", "privacy-first"],
+  "added": "2026-08-05"
+}

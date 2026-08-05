@@ -1,0 +1,12 @@
+{
+  "id": "nyantv",
+  "name": "NyanTV",
+  "tagline": "Keep track of the anime and shows you're watching on TV",
+  "description": "NyanTV is an Android TV app for keeping track of what you are watching. It syncs with AniList and MyAnimeList for anime, and with Simkl for regular shows and movies, so your watch progress stays up to date no matter what you are into.\n\nIt is built with Jetpack Compose and made for the big screen.",
+  "repo": "https://github.com/NyanTV/NyanTV",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://nyantv.vercel.app",
+  "tags": ["anime", "anilist", "tracker", "android-tv", "google-tv"],
+  "added": "2026-08-05"
+}

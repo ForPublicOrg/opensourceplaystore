@@ -1,0 +1,11 @@
+{
+  "id": "page-11",
+  "name": "Page 11",
+  "tagline": "Play classic newspaper puzzle games for free",
+  "description": "Page 11 brings the newspaper puzzle games you grew up with to Android — crosswords, word searches, spelling challenges, and word-guessing games all in one free app.\n\nIt works offline, has no ads, and doesn't track you. Just the classic daily puzzles, forever free.",
+  "repo": "https://github.com/not-by-martians/Page-11",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["puzzle", "crossword", "word-game", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

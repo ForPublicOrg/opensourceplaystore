@@ -1,0 +1,12 @@
+{
+  "id": "sukko",
+  "name": "Sukko",
+  "tagline": "Design your own custom home screen widgets",
+  "description": "Sukko is an open source app for building your own custom widgets, similar to popular tools like KWGT. You design the look and layout, and Sukko turns it into a working widget on your home screen.\n\nIt's a great option if you like a personalized home screen and want more control than the default widgets Android gives you.",
+  "repo": "https://github.com/sadellie/sukko",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://sadellie.github.io/sukko/",
+  "tags": ["widget", "kwgt", "kustom"],
+  "added": "2026-08-05"
+}

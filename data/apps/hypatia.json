@@ -1,0 +1,11 @@
+{
+  "id": "hypatia",
+  "name": "Hypatia",
+  "tagline": "Scan your phone for malware in real time",
+  "description": "Hypatia keeps an eye on your Android phone for malware, scanning apps and files as they arrive so threats get caught early instead of after the damage is done. It's a fork of the well-regarded DivestOS malware scanner, continuing that project's work of offering everyday people a free and open way to protect their phones.\n\nIt runs quietly in the background, giving you an extra layer of defense without needing a paid antivirus subscription.",
+  "repo": "https://github.com/MaintainTeam/Hypatia",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["antivirus", "malware", "security", "privacy"],
+  "added": "2026-08-05"
+}

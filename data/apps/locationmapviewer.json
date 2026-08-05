@@ -1,0 +1,11 @@
+{
+  "id": "locationmapviewer",
+  "name": "Location Map Viewer",
+  "tagline": "View your GPX, KML, and KMZ tracks on a map",
+  "description": "Location Map Viewer is a simple Android app for opening and viewing location files, GPX, KML, and KMZ, right on a map. Instead of needing a full desktop GIS program, you can just tap a file and see your hiking track, saved waypoints, or trip route laid out visually.\n\nIt's a handy little tool for anyone who works with location data from other apps or devices and just wants a quick way to look at it.",
+  "repo": "https://github.com/k3b/LocationMapViewer",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["geo-uri", "geodata", "gpx", "kml", "kmz", "map-viewer", "openstreetmap", "osm"],
+  "added": "2026-08-05"
+}

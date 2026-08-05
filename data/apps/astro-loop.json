@@ -1,0 +1,12 @@
+{
+  "id": "astro-loop",
+  "name": "Astro Loop",
+  "tagline": "A roguelike space shooter with no ads or tracking",
+  "description": "Astro Loop is an open-source roguelike shooter for Android. Fight your way through waves of enemies with simple, easy-to-learn controls.\n\nIt's built with privacy in mind — no ads, no tracking, and it doesn't even need internet access to play. Free forever, and always will be.",
+  "repo": "https://github.com/PubDeer/astro-loop",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://www.pubdeer.com",
+  "tags": ["roguelike", "shooter", "privacy", "no-ads"],
+  "added": "2026-08-05"
+}

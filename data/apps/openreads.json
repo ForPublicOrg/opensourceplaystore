@@ -1,0 +1,11 @@
+{
+  "id": "openreads",
+  "name": "OpenReads",
+  "tagline": "Track the books you read, fully private and offline",
+  "description": "OpenReads helps you keep track of every book you read, want to read, or are currently reading. Log your progress, rate books, and build your own personal library, all without any ads or accounts.\n\nBuilt with your privacy in mind, OpenReads keeps your reading data on your device and doesn't track you. It pulls book details from OpenLibrary so you can find and add books easily.",
+  "repo": "https://github.com/mateusz-bak/openreads",
+  "category": "reading",
+  "license": "GPL-2.0",
+  "tags": ["books", "reading", "privacy", "openlibrary", "tracker"],
+  "added": "2026-08-05"
+}

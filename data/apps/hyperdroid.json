@@ -1,0 +1,12 @@
+{
+  "id": "hyperdroid",
+  "name": "HyperDroid",
+  "tagline": "Bring a Windows-style desktop feel to your Android phone",
+  "description": "HyperDroid reshapes your Android device with a native desktop-style experience, complete with a taskbar and window-like navigation inspired by modern desktop operating systems. It's for anyone who wants their phone to feel a bit more like a PC.\n\nIt's a free, open source project you can install directly on your device.",
+  "repo": "https://github.com/windows-ui/HyperDroid",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://play.google.com/store/apps/details?id=com.binary.hyperdroid",
+  "tags": ["launcher", "native", "windows-11"],
+  "added": "2026-08-05"
+}

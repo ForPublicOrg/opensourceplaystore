@@ -1,0 +1,11 @@
+{
+  "id": "timed-silence",
+  "name": "Timed Silence",
+  "tagline": "Automatically mute your phone based on your calendar",
+  "description": "Timed Silence quietly mutes your phone during the times you tell it to, like meetings, classes, or your calendar events, so you don't have to remember to silence it yourself every time.\n\nIt's a small, no-nonsense convenience app that just handles one annoying task for you in the background.",
+  "repo": "https://github.com/newhinton/Timed-Silence",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["automation", "calendar", "volume"],
+  "added": "2026-08-05"
+}
