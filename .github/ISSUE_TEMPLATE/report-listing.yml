@@ -1,0 +1,31 @@
+name: Report an app listing
+description: Tell us about a listing that is broken, misleading, or harmful.
+title: "Report listing: "
+labels: []
+body:
+  - type: input
+    id: app
+    attributes:
+      label: Which app?
+      description: The app's name or its page link (e.g. https://opensourceplaystore.com/app/example/)
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What's wrong?
+      options:
+        - It might be malware or unsafe
+        - It pretends to be another app
+        - The download is broken
+        - The information is wrong or outdated
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Tell us more
+      description: Anything that helps us check quickly.
+    validations:
+      required: true

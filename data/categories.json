@@ -1,0 +1,12 @@
+[
+  { "id": "games", "name": "Games", "emoji": "🎮", "blurb": "Play something fun", "hue": 265 },
+  { "id": "media", "name": "Music & Video", "emoji": "🎬", "blurb": "Watch and listen", "hue": 340 },
+  { "id": "social", "name": "Chat & Social", "emoji": "💬", "blurb": "Talk with people", "hue": 210 },
+  { "id": "tools", "name": "Tools", "emoji": "🛠️", "blurb": "Handy helpers", "hue": 25 },
+  { "id": "security", "name": "Privacy & Security", "emoji": "🔐", "blurb": "Stay safe", "hue": 145 },
+  { "id": "internet", "name": "Internet", "emoji": "🌐", "blurb": "Browse and mail", "hue": 195 },
+  { "id": "education", "name": "Learning", "emoji": "📚", "blurb": "Get smarter", "hue": 45 },
+  { "id": "productivity", "name": "Productivity", "emoji": "✅", "blurb": "Get things done", "hue": 90 },
+  { "id": "maps", "name": "Maps & Travel", "emoji": "🗺️", "blurb": "Find your way", "hue": 165 },
+  { "id": "reading", "name": "Books & Reading", "emoji": "📖", "blurb": "Read anything", "hue": 310 }
+]

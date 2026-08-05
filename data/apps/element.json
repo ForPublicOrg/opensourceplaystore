@@ -1,0 +1,11 @@
+{
+  "id": "element",
+  "name": "Element",
+  "tagline": "Secure group chat for friends and communities",
+  "description": "Element is a chat app built on Matrix, an open network nobody owns. Make rooms for your friends, clubs, or projects, share files and photos, and hop on voice or video calls.\n\nEnd-to-end encryption keeps private rooms private, and you can even run your own server.",
+  "repo": "https://github.com/element-hq/element-android",
+  "category": "social",
+  "license": "Apache-2.0",
+  "website": "https://element.io",
+  "added": "2026-08-05"
+}

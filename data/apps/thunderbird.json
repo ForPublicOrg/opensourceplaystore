@@ -1,0 +1,11 @@
+{
+  "id": "thunderbird",
+  "name": "Thunderbird",
+  "tagline": "Email made easy, from the Mozilla family",
+  "description": "Thunderbird for Android (built on the beloved K-9 Mail) puts all your email accounts in one clean app. Unified inbox, powerful filters, and no ads reading over your shoulder.\n\nMade by the same non-profit community behind Thunderbird on the desktop.",
+  "repo": "https://github.com/thunderbird/thunderbird-android",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "website": "https://www.thunderbird.net",
+  "added": "2026-08-05"
+}

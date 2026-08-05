@@ -1,0 +1,11 @@
+{
+  "id": "koreader",
+  "name": "KOReader",
+  "tagline": "Read ebooks comfortably, in any format",
+  "description": "KOReader is a reading app made by book lovers. It opens EPUB, PDF, comics, and more, with deep control over fonts, margins, and night mode so reading feels great on any screen.\n\nAlso runs on e-ink readers like Kobo and Kindle — your settings travel with you.",
+  "repo": "https://github.com/koreader/koreader",
+  "category": "reading",
+  "license": "AGPL-3.0",
+  "website": "https://koreader.rocks",
+  "added": "2026-08-05"
+}

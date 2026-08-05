@@ -1,0 +1,11 @@
+{
+  "id": "fossify-gallery",
+  "name": "Fossify Gallery",
+  "tagline": "Your photos, private and organized",
+  "description": "A clean, fast photo and video gallery with no ads and no internet permission at all — your photos physically cannot leave your phone. Organize albums, hide private folders, and edit photos.\n\nPart of the Fossify family of simple, private apps.",
+  "repo": "https://github.com/FossifyOrg/Gallery",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "added": "2026-08-05"
+}

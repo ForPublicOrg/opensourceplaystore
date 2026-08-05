@@ -1,0 +1,375 @@
+{
+ "fetchedAt": "2026-08-05T10:05:42.978Z",
+ "apps": {
+  "aegis": {
+   "stars": 12845,
+   "owner": "beemdevelopment",
+   "pushedAt": "2026-07-16T10:50:56Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:43.912Z",
+   "releaseTag": "v3.4.2",
+   "releaseDate": "2026-02-24T20:02:52Z",
+   "apk": {
+    "name": "aegis-v3.4.2.apk",
+    "url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.2/aegis-v3.4.2.apk",
+    "size": 6613609
+   },
+   "icon": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot1.png",
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot2.png",
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot3.png",
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot4.png",
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot5.png",
+    "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot6.png"
+   ]
+  },
+  "ankidroid": {
+   "stars": 11491,
+   "owner": "ankidroid",
+   "pushedAt": "2026-08-03T10:07:44Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:46.453Z",
+   "releaseTag": "v2.24.0",
+   "releaseDate": "2026-05-02T23:56:16Z",
+   "apk": {
+    "name": "AnkiDroid-2.24.0-full-universal.apk",
+    "url": "https://github.com/ankidroid/Anki-Android/releases/download/v2.24.0/AnkiDroid-2.24.0-full-universal.apk",
+    "size": 106758360
+   },
+   "apkCount": 13,
+   "icon": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+    "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+    "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+    "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+   ]
+  },
+  "antennapod": {
+   "stars": 8052,
+   "owner": "AntennaPod",
+   "pushedAt": "2026-08-02T12:42:40Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:48.147Z",
+   "releaseTag": "3.11.4",
+   "releaseDate": "2026-05-14T13:01:21Z",
+   "apk": {
+    "name": "de.danoeh.antennapod_3110495.apk",
+    "url": "https://f-droid.org/repo/de.danoeh.antennapod_3110495.apk",
+    "source": "fdroid",
+    "versionName": "3.11.4"
+   }
+  },
+  "bitwarden": {
+   "stars": 9171,
+   "owner": "bitwarden",
+   "pushedAt": "2026-08-04T21:14:38Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:50.889Z",
+   "releaseTag": "v2026.7.0-bwpm",
+   "releaseDate": "2026-07-24T21:03:13Z",
+   "apk": {
+    "name": "com.x8bit.bitwarden-fdroid.apk",
+    "url": "https://github.com/bitwarden/android/releases/download/v2026.7.0-bwpm/com.x8bit.bitwarden-fdroid.apk",
+    "size": 87269298
+   },
+   "apkCount": 2
+  },
+  "element": {
+   "stars": 3714,
+   "owner": "element-hq",
+   "pushedAt": "2026-07-21T09:56:47Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "AGPL-3.0",
+   "syncedAt": "2026-08-05T10:05:52.964Z",
+   "releaseTag": "v1.6.62",
+   "releaseDate": "2026-07-21T14:10:31Z",
+   "apk": {
+    "name": "vector-gplay-arm64-v8a-release-signed.apk",
+    "url": "https://github.com/element-hq/element-android/releases/download/v1.6.62/vector-gplay-arm64-v8a-release-signed.apk",
+    "size": 73975127
+   },
+   "apkCount": 4,
+   "icon": "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+    "https://raw.githubusercontent.com/element-hq/element-android/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+   ]
+  },
+  "fossify-gallery": {
+   "stars": 3556,
+   "owner": "FossifyOrg",
+   "pushedAt": "2026-08-02T06:49:32Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:54.573Z",
+   "releaseTag": "1.13.1",
+   "releaseDate": "2026-02-17T02:37:20Z",
+   "apk": {
+    "name": "gallery-28-foss-release.apk",
+    "url": "https://github.com/FossifyOrg/Gallery/releases/download/1.13.1/gallery-28-foss-release.apk",
+    "size": 38606538
+   },
+   "icon": "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+    "https://raw.githubusercontent.com/FossifyOrg/Gallery/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png"
+   ]
+  },
+  "joplin": {
+   "stars": 55837,
+   "owner": "laurent22",
+   "pushedAt": "2026-08-04T22:09:59Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": null,
+   "syncedAt": "2026-08-05T10:05:56.804Z",
+   "releaseTag": "v3.6.15",
+   "releaseDate": "2026-06-20T11:04:11Z",
+   "apk": {
+    "name": "net.cozic.joplin_2097808.apk",
+    "url": "https://f-droid.org/repo/net.cozic.joplin_2097808.apk",
+    "source": "fdroid",
+    "versionName": "3.6.20"
+   },
+   "icon": "https://raw.githubusercontent.com/laurent22/joplin/dev/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/laurent22/joplin/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+    "https://raw.githubusercontent.com/laurent22/joplin/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png"
+   ]
+  },
+  "kiwix": {
+   "stars": 1423,
+   "owner": "kiwix",
+   "pushedAt": "2026-08-05T10:03:07Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:05:59.145Z",
+   "releaseTag": "v3.14.1",
+   "releaseDate": "2026-05-14T10:40:06Z",
+   "apk": {
+    "name": "v3.14.1-universal-standalone.apk",
+    "url": "https://github.com/kiwix/kiwix-android/releases/download/v3.14.1/v3.14.1-universal-standalone.apk",
+    "size": 236167297
+   },
+   "apkCount": 5,
+   "icon": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+    "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
+   ]
+  },
+  "koreader": {
+   "stars": 28499,
+   "owner": "koreader",
+   "pushedAt": "2026-08-05T09:55:28Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": "AGPL-3.0",
+   "syncedAt": "2026-08-05T10:06:00.884Z",
+   "releaseTag": "v2026.07.1",
+   "releaseDate": "2026-08-01T11:10:30Z",
+   "apk": {
+    "name": "koreader-android-arm64-v2026.07.1.apk",
+    "url": "https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-android-arm64-v2026.07.1.apk",
+    "size": 30084751
+   },
+   "apkCount": 3,
+   "icon": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/phoneScreenshots/1.png",
+    "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/phoneScreenshots/2.png",
+    "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/phoneScreenshots/3.png",
+    "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/phoneScreenshots/4.png"
+   ]
+  },
+  "mindustry": {
+   "stars": 28492,
+   "owner": "Anuken",
+   "pushedAt": "2026-08-05T07:21:34Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:06:03.166Z",
+   "releaseTag": "v159.7",
+   "releaseDate": "2026-07-19T21:41:43Z",
+   "apk": {
+    "name": "io.anuke.mindustry_1107.apk",
+    "url": "https://f-droid.org/repo/io.anuke.mindustry_1107.apk",
+    "source": "fdroid",
+    "versionName": "8-fdroid-159.7"
+   }
+  },
+  "newpipe": {
+   "stars": 39230,
+   "owner": "TeamNewPipe",
+   "pushedAt": "2026-08-04T14:03:55Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:06:05.923Z",
+   "releaseTag": "v0.29.0",
+   "releaseDate": "2026-07-22T08:38:27Z",
+   "apk": {
+    "name": "NewPipe_v0.29.0.apk",
+    "url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.0/NewPipe_v0.29.0.apk",
+    "size": 11507122
+   },
+   "icon": "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/00.png",
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+    "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png"
+   ]
+  },
+  "organic-maps": {
+   "stars": 14974,
+   "owner": "organicmaps",
+   "pushedAt": "2026-08-05T06:37:44Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": null,
+   "syncedAt": "2026-08-05T10:06:10.853Z",
+   "releaseTag": "2026.07.23-6-android",
+   "releaseDate": "2026-07-23T17:37:04Z",
+   "apk": {
+    "name": "OrganicMaps-26072306-web-release.apk",
+    "url": "https://github.com/organicmaps/organicmaps/releases/download/2026.07.23-6-android/OrganicMaps-26072306-web-release.apk",
+    "size": 64138013
+   }
+  },
+  "osmand": {
+   "stars": 5882,
+   "owner": "osmandapp",
+   "pushedAt": "2026-08-05T07:44:35Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": null,
+   "syncedAt": "2026-08-05T10:06:12.790Z",
+   "releaseTag": "2.0.0",
+   "releaseDate": "2019-10-15T09:45:30Z",
+   "apk": {
+    "name": "net.osmand.plus_531003.apk",
+    "url": "https://f-droid.org/repo/net.osmand.plus_531003.apk",
+    "source": "fdroid",
+    "versionName": "5.3.10"
+   }
+  },
+  "shattered-pixel-dungeon": {
+   "stars": 6380,
+   "owner": "00-Evan",
+   "pushedAt": "2026-03-23T15:22:47Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-3.0",
+   "syncedAt": "2026-08-05T10:06:15.315Z",
+   "releaseTag": "v3.3.8",
+   "releaseDate": "2026-03-23T15:22:47Z",
+   "apk": {
+    "name": "ShatteredPD-v3.3.8-Android.apk",
+    "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v3.3.8/ShatteredPD-v3.3.8-Android.apk",
+    "size": 29926228
+   },
+   "apkCount": 2
+  },
+  "signal": {
+   "stars": 29149,
+   "owner": "signalapp",
+   "pushedAt": "2026-08-04T23:34:13Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "AGPL-3.0",
+   "syncedAt": "2026-08-05T10:06:17.544Z",
+   "releaseTag": "v8.20.5",
+   "releaseDate": "2026-07-30T21:47:41Z",
+   "apk": {
+    "name": "Signal-Android-github-prod-universal-release-8.20.5.apk",
+    "url": "https://github.com/signalapp/Signal-Android/releases/download/v8.20.5/Signal-Android-github-prod-universal-release-8.20.5.apk",
+    "size": 118393496
+   }
+  },
+  "termux": {
+   "stars": 58683,
+   "owner": "termux",
+   "pushedAt": "2026-07-14T20:47:14Z",
+   "archived": false,
+   "hasDiscussions": true,
+   "license": null,
+   "syncedAt": "2026-08-05T10:06:19.685Z",
+   "releaseTag": "v0.118.3",
+   "releaseDate": "2025-05-22T22:47:26Z",
+   "apk": {
+    "name": "termux-app_v0.118.3+github-debug_universal.apk",
+    "url": "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_universal.apk",
+    "size": 117775723
+   },
+   "apkCount": 5,
+   "icon": "https://raw.githubusercontent.com/termux/termux-app/master/fastlane/metadata/android/en-US/images/icon.png",
+   "screenshots": [
+    "https://raw.githubusercontent.com/termux/termux-app/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+    "https://raw.githubusercontent.com/termux/termux-app/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+    "https://raw.githubusercontent.com/termux/termux-app/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+    "https://raw.githubusercontent.com/termux/termux-app/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
+   ]
+  },
+  "thunderbird": {
+   "stars": 13797,
+   "owner": "thunderbird",
+   "pushedAt": "2026-08-05T00:26:20Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "Apache-2.0",
+   "syncedAt": "2026-08-05T10:06:21.304Z",
+   "releaseTag": "K9MAIL_21_1",
+   "releaseDate": "2026-08-03T19:14:10Z",
+   "apk": {
+    "name": "k9mail-21.1.apk",
+    "url": "https://github.com/thunderbird/thunderbird-android/releases/download/K9MAIL_21_1/k9mail-21.1.apk",
+    "size": 10682166
+   }
+  },
+  "vlc": {
+   "stars": 3917,
+   "owner": "videolan",
+   "pushedAt": "2026-07-27T13:29:42Z",
+   "archived": false,
+   "hasDiscussions": false,
+   "license": "GPL-2.0",
+   "syncedAt": "2026-08-05T10:06:23.471Z",
+   "apk": {
+    "name": "org.videolan.vlc_13070108.apk",
+    "url": "https://f-droid.org/repo/org.videolan.vlc_13070108.apk",
+    "source": "fdroid",
+    "versionName": "3.7.1"
+   },
+   "releaseTag": "3.7.1"
+  }
+ }
+}

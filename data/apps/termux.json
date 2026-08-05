@@ -1,0 +1,11 @@
+{
+  "id": "termux",
+  "name": "Termux",
+  "tagline": "A real Linux terminal in your pocket",
+  "description": "Termux turns your phone into a tiny computer lab. It gives you a real command line where you can install hundreds of Linux programs, write code in Python or C, run servers, and learn how computers really work.\n\nNo root needed — it just works.",
+  "repo": "https://github.com/termux/termux-app",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://termux.dev",
+  "added": "2026-08-05"
+}

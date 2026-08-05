@@ -1,0 +1,13 @@
+{
+  "id": "joplin",
+  "name": "Joplin",
+  "tagline": "Notes and to-do lists that sync everywhere",
+  "description": "Joplin is a powerful notebook: write notes in Markdown, clip web pages, attach photos and files, and organize everything with notebooks and tags. Sync between your phone and computer, with optional end-to-end encryption.\n\nYour notes belong to you, not a company.",
+  "repo": "https://github.com/laurent22/joplin",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://joplinapp.org",
+  "fdroid": "net.cozic.joplin",
+  "download": "https://github.com/laurent22/joplin-android/releases/latest",
+  "added": "2026-08-05"
+}

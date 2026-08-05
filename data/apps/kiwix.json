@@ -1,0 +1,11 @@
+{
+  "id": "kiwix",
+  "name": "Kiwix",
+  "tagline": "Wikipedia in your pocket, no internet needed",
+  "description": "Kiwix lets you download all of Wikipedia (and many other libraries) to your phone and read it anywhere — on a plane, in the mountains, or where internet is expensive.\n\nPerfect for homework, curiosity, and places with no connection.",
+  "repo": "https://github.com/kiwix/kiwix-android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://kiwix.org",
+  "added": "2026-08-05"
+}

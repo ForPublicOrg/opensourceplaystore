@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensourceplaystore.com/schema/app.schema.json",
+  "title": "Open Source Play Store app manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "tagline", "description", "repo", "category", "license"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 50,
+      "description": "URL slug for the app page. Lowercase letters, numbers and dashes only. Must match the filename (id.json)."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "The app's display name."
+    },
+    "tagline": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "description": "One short, friendly sentence saying what the app does."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 4000,
+      "description": "Longer plain-text description. Blank lines separate paragraphs."
+    },
+    "repo": {
+      "type": "string",
+      "pattern": "^https://(github\\.com|gitlab\\.com|codeberg\\.org|bitbucket\\.org)/[^/\\s]+/(?!.*\\.git$)[^/\\s]+$",
+      "description": "URL of the public source repository, e.g. https://github.com/owner/name (no trailing slash or .git)."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["games", "media", "social", "tools", "security", "internet", "education", "productivity", "maps", "reading"],
+      "description": "One category from the fixed taxonomy in data/categories.json."
+    },
+    "license": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 40,
+      "description": "SPDX license identifier, e.g. GPL-3.0, Apache-2.0, MIT."
+    },
+    "icon": {
+      "type": "string",
+      "pattern": "^https://",
+      "maxLength": 300,
+      "description": "Optional https URL of a square app icon. If omitted, the repo owner's avatar is used."
+    },
+    "screenshots": {
+      "type": "array",
+      "maxItems": 8,
+      "items": { "type": "string", "pattern": "^https://", "maxLength": 300 },
+      "description": "Optional https URLs of screenshots (phone portrait preferred)."
+    },
+    "website": {
+      "type": "string",
+      "pattern": "^https://",
+      "maxLength": 300,
+      "description": "Optional https URL of the app's homepage."
+    },
+    "fdroid": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.]+$",
+      "maxLength": 100,
+      "description": "Optional F-Droid package id (e.g. org.videolan.vlc). Used to offer a direct APK download when the GitHub release has none."
+    },
+    "download": {
+      "type": "string",
+      "pattern": "^https://",
+      "maxLength": 300,
+      "description": "Optional https URL of an official download page or direct APK. Used when the latest GitHub release has no .apk asset."
+    },
+    "added": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Date the listing was added, YYYY-MM-DD. Filled automatically when publishing."
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 10,
+      "items": { "type": "string", "minLength": 1, "maxLength": 30 },
+      "description": "Optional extra search words, e.g. [\"youtube\", \"video\"]."
+    },
+    "antiFeatures": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["ads", "tracking", "nonfree-network", "nonfree-assets"] },
+      "description": "Optional honest self-disclosure of things privacy-minded users want to know about."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Open Source Play Store",
+  "short_name": "OSPS",
+  "description": "Free, open-source Android apps. No account needed.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8f6",
+  "theme_color": "#15803d",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

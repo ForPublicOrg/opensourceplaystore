@@ -1,0 +1,13 @@
+{
+  "name": "opensourceplaystore",
+  "private": true,
+  "description": "Static, login-free store for open-source Android apps — opensourceplaystore.com",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "build": "node scripts/sync.js && node build.js",
+    "validate": "node scripts/validate.js",
+    "serve": "node scripts/serve.js"
+  }
+}

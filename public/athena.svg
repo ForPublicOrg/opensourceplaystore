@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Sophia, the Athena owl. Vendored unmodified from https://tryathena.dev/icon.svg
+       (their trademark) - re-fetch rather than hand-edit if it needs updating. -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .body  { fill: #6fa1cc; }
+      .deep  { fill: #4a82ad; }
+      .disc  { fill: #29384f; }
+      .eye   { fill: #ecf1f6; }
+      .cheek { fill: #d192a8; }
+    }
+  </style>
+
+  <path class="body" fill="#5c8fb8" d="M 14 14 Q 12 5 17 3 Q 20 8 20 13 Z" />
+  <path class="body" fill="#5c8fb8" d="M 50 14 Q 52 5 47 3 Q 44 8 44 13 Z" />
+
+  <ellipse class="body" fill="#5c8fb8" cx="32" cy="34" rx="22" ry="24" />
+
+  <path class="deep" fill="#3d7099" d="M 15 31 Q 5 35 7 47 Q 11 49 14 44 Q 15 38 15 31 Z" />
+  <path class="deep" fill="#3d7099" d="M 49 31 Q 59 35 57 47 Q 53 49 50 44 Q 49 38 49 31 Z" />
+
+  <ellipse class="disc" fill="#dceaf5" cx="32" cy="44" rx="14" ry="13" />
+
+  <circle class="disc" fill="#dceaf5" cx="22" cy="26" r="11" />
+  <circle class="disc" fill="#dceaf5" cx="42" cy="26" r="11" />
+
+  <ellipse class="cheek" fill="#efb7cb" cx="12" cy="33" rx="2.6" ry="1.9" opacity="0.6" />
+  <ellipse class="cheek" fill="#efb7cb" cx="52" cy="33" rx="2.6" ry="1.9" opacity="0.6" />
+
+  <circle class="eye" fill="#0f1a36" cx="22" cy="27" r="6" />
+  <circle class="eye" fill="#0f1a36" cx="42" cy="27" r="6" />
+  <circle fill="#ffffff" cx="24" cy="25" r="2" />
+  <circle fill="#ffffff" cx="44" cy="25" r="2" />
+
+  <path fill="#e18a3c" d="M 30 32 L 34 32 L 32 36 Z" />
+</svg>

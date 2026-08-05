@@ -1,0 +1,11 @@
+{
+  "id": "shattered-pixel-dungeon",
+  "name": "Shattered Pixel Dungeon",
+  "tagline": "A classic dungeon crawler adventure",
+  "description": "Explore a magical dungeon full of monsters, traps, and treasure! Every game is different, and every run teaches you something new. Choose a hero, collect strange potions and scrolls, and try to reach the bottom.\n\nEasy to start, hard to master — and completely free.",
+  "repo": "https://github.com/00-Evan/shattered-pixel-dungeon",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://shatteredpixel.com",
+  "added": "2026-08-05"
+}

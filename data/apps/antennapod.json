@@ -1,0 +1,13 @@
+{
+  "id": "antennapod",
+  "name": "AntennaPod",
+  "tagline": "Listen to podcasts, free forever",
+  "description": "AntennaPod is a friendly podcast player. Search for any show, subscribe with one tap, download episodes for offline listening, and speed up or slow down playback.\n\nNo account, no ads, no tracking — just podcasts, made by a community of volunteers.",
+  "repo": "https://github.com/AntennaPod/AntennaPod",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://antennapod.org",
+  "fdroid": "de.danoeh.antennapod",
+  "download": "https://antennapod.org/download",
+  "added": "2026-08-05"
+}

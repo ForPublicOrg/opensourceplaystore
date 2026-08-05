@@ -1,0 +1,13 @@
+{
+  "id": "vlc",
+  "name": "VLC",
+  "tagline": "Play any video or music file, period",
+  "description": "The famous traffic-cone player, on Android. VLC plays basically every video and audio format ever invented, streams from the network, and organizes your whole media library.\n\nNo ads, no tracking, maintained by the VideoLAN non-profit for over 20 years.",
+  "repo": "https://github.com/videolan/vlc-android",
+  "category": "media",
+  "license": "GPL-2.0",
+  "website": "https://www.videolan.org/vlc/download-android.html",
+  "fdroid": "org.videolan.vlc",
+  "download": "https://www.videolan.org/vlc/download-android.html",
+  "added": "2026-08-05"
+}

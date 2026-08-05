@@ -1,0 +1,11 @@
+{
+  "id": "organic-maps",
+  "name": "Organic Maps",
+  "tagline": "Offline maps that respect your privacy",
+  "description": "Organic Maps gives you detailed maps of the whole world that work with no internet at all. Great for hiking, biking, and traveling — with turn-by-turn directions and no ads or tracking.\n\nMaps come from OpenStreetMap, drawn by millions of volunteers.",
+  "repo": "https://github.com/organicmaps/organicmaps",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "website": "https://organicmaps.app",
+  "added": "2026-08-05"
+}

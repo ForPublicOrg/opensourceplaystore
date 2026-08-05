@@ -1,0 +1,10 @@
+{
+  "id": "ankidroid",
+  "name": "AnkiDroid",
+  "tagline": "Remember anything with smart flashcards",
+  "description": "AnkiDroid helps you memorize things — languages, science facts, capitals, anything — using flashcards that come back right when you are about to forget them.\n\nDownload shared decks made by others or create your own. Loved by students all over the world.",
+  "repo": "https://github.com/ankidroid/Anki-Android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "added": "2026-08-05"
+}

@@ -1,0 +1,8 @@
+{
+  "siteName": "Open Source Play Store",
+  "domain": "opensourceplaystore.com",
+  "baseUrl": "https://opensourceplaystore.com",
+  "registryRepo": "ForPublicOrg/opensourceplaystore",
+  "registryBranch": "main",
+  "tagline": "Free apps made by people, for people"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aegis",
+  "name": "Aegis Authenticator",
+  "tagline": "Protect your accounts with 2-step codes",
+  "description": "Aegis generates the 6-digit codes (2FA) that keep your accounts safe even if someone learns your password. It works fully offline, locks with your fingerprint, and can back up all your codes so you never lose them.\n\nSimple, beautiful, and open source.",
+  "repo": "https://github.com/beemdevelopment/Aegis",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://getaegis.app",
+  "added": "2026-08-05"
+}

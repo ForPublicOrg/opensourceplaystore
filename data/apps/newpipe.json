@@ -1,0 +1,11 @@
+{
+  "id": "newpipe",
+  "name": "NewPipe",
+  "tagline": "Watch videos without ads or tracking",
+  "description": "NewPipe lets you watch YouTube videos in a light, fast app with no ads. You can download videos, play them in the background, and subscribe to channels — all without a Google account.\n\nIt is made by volunteers and respects your privacy: nothing about you is sent anywhere.",
+  "repo": "https://github.com/TeamNewPipe/NewPipe",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://newpipe.net",
+  "added": "2026-08-05"
+}

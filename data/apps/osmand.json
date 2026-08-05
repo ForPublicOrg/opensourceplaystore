@@ -1,0 +1,13 @@
+{
+  "id": "osmand",
+  "name": "OsmAnd",
+  "tagline": "Super-detailed offline maps for adventurers",
+  "description": "OsmAnd is the power tool of offline maps: hiking trails, bike paths, ski slopes, sea marks, and tiny village streets — all downloadable to your phone. Record GPS tracks, navigate by voice, and edit the map yourself.\n\nBuilt on OpenStreetMap data.",
+  "repo": "https://github.com/osmandapp/OsmAnd",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://osmand.net",
+  "fdroid": "net.osmand.plus",
+  "download": "https://osmand.net/download",
+  "added": "2026-08-05"
+}

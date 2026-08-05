@@ -1,0 +1,12 @@
+{
+  "id": "mindustry",
+  "name": "Mindustry",
+  "tagline": "Build factories and defend your base",
+  "description": "Mindustry is a tower-defense and factory-building game. Mine resources, build conveyor belts and machines, craft turrets, and hold off waves of enemies. Play solo campaigns or battle friends online.\n\nOne of the most popular open-source games ever made.",
+  "repo": "https://github.com/Anuken/Mindustry",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://mindustrygame.github.io",
+  "fdroid": "io.anuke.mindustry",
+  "added": "2026-08-05"
+}

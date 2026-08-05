@@ -1,0 +1,11 @@
+{
+  "id": "bitwarden",
+  "name": "Bitwarden",
+  "tagline": "Keep all your passwords safe in one place",
+  "description": "Bitwarden remembers your passwords for you, locked in a safe only you can open. It can invent super-strong passwords and type them in for you when you log in to apps and websites.\n\nYour passwords sync to all your devices, and the code is open for anyone to inspect.",
+  "repo": "https://github.com/bitwarden/android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://bitwarden.com",
+  "added": "2026-08-05"
+}
