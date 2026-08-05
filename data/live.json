@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-05T11:22:58.301Z",
+ "fetchedAt": "2026-08-05T14:32:59.743Z",
  "apps": {
   "2048": {
    "stars": 445,
@@ -8,7 +8,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:22:59.139Z",
+   "syncedAt": "2026-08-05T14:33:00.346Z",
    "releaseTag": "1.3.3",
    "releaseDate": "2020-04-01T06:36:24Z",
    "apk": {
@@ -18,13 +18,13 @@
    }
   },
   "aegis": {
-   "stars": 12846,
+   "stars": 12847,
    "owner": "beemdevelopment",
    "pushedAt": "2026-07-16T10:50:56Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:10.174Z",
+   "syncedAt": "2026-08-05T14:33:05.495Z",
    "releaseTag": "v3.4.2",
    "releaseDate": "2026-02-24T20:02:52Z",
    "apk": {
@@ -43,13 +43,13 @@
    ]
   },
   "ankidroid": {
-   "stars": 11492,
+   "stars": 11493,
    "owner": "ankidroid",
    "pushedAt": "2026-08-03T10:07:44Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:32.621Z",
+   "syncedAt": "2026-08-05T14:33:15.976Z",
    "releaseTag": "v2.24.0",
    "releaseDate": "2026-05-02T23:56:16Z",
    "apk": {
@@ -67,13 +67,13 @@
    ]
   },
   "antennapod": {
-   "stars": 8052,
+   "stars": 8054,
    "owner": "AntennaPod",
    "pushedAt": "2026-08-02T12:42:40Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:37.481Z",
+   "syncedAt": "2026-08-05T14:33:18.013Z",
    "releaseTag": "3.11.4",
    "releaseDate": "2026-05-14T13:01:21Z",
    "apk": {
@@ -86,11 +86,11 @@
   "bitwarden": {
    "stars": 9171,
    "owner": "bitwarden",
-   "pushedAt": "2026-08-05T11:05:42Z",
+   "pushedAt": "2026-08-05T11:59:04Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:10.156Z",
+   "syncedAt": "2026-08-05T14:33:33.128Z",
    "releaseTag": "v2026.7.0-bwpm",
    "releaseDate": "2026-07-24T21:03:13Z",
    "apk": {
@@ -107,7 +107,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:25:27.490Z",
+   "syncedAt": "2026-08-05T14:34:04.659Z",
    "releaseTag": "v1.6.62",
    "releaseDate": "2026-07-21T14:10:31Z",
    "apk": {
@@ -127,13 +127,13 @@
    ]
   },
   "fossify-gallery": {
-   "stars": 3556,
+   "stars": 3558,
    "owner": "FossifyOrg",
    "pushedAt": "2026-08-02T06:49:32Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:55.545Z",
+   "syncedAt": "2026-08-05T14:34:16.948Z",
    "releaseTag": "1.13.1",
    "releaseDate": "2026-02-17T02:37:20Z",
    "apk": {
@@ -158,7 +158,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": null,
-   "syncedAt": "2026-08-05T11:27:07.675Z",
+   "syncedAt": "2026-08-05T14:34:48.328Z",
    "releaseTag": "v3.6.15",
    "releaseDate": "2026-06-20T11:04:11Z",
    "apk": {
@@ -174,13 +174,13 @@
    ]
   },
   "kiwix": {
-   "stars": 1423,
+   "stars": 1424,
    "owner": "kiwix",
-   "pushedAt": "2026-08-05T10:03:07Z",
+   "pushedAt": "2026-08-05T13:22:23Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:22.129Z",
+   "syncedAt": "2026-08-05T14:34:55.145Z",
    "releaseTag": "v3.14.1",
    "releaseDate": "2026-05-14T10:40:06Z",
    "apk": {
@@ -200,13 +200,13 @@
    ]
   },
   "koreader": {
-   "stars": 28515,
+   "stars": 28554,
    "owner": "koreader",
-   "pushedAt": "2026-08-05T11:26:06Z",
+   "pushedAt": "2026-08-05T13:21:55Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:27:25.868Z",
+   "syncedAt": "2026-08-05T14:34:57.227Z",
    "releaseTag": "v2026.07.1",
    "releaseDate": "2026-08-01T11:10:30Z",
    "apk": {
@@ -224,13 +224,13 @@
    ]
   },
   "mindustry": {
-   "stars": 28492,
+   "stars": 28496,
    "owner": "Anuken",
    "pushedAt": "2026-08-05T07:21:34Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:32.856Z",
+   "syncedAt": "2026-08-05T14:35:29.930Z",
    "releaseTag": "v159.7",
    "releaseDate": "2026-07-19T21:41:43Z",
    "apk": {
@@ -241,13 +241,13 @@
    }
   },
   "newpipe": {
-   "stars": 39231,
+   "stars": 39232,
    "owner": "TeamNewPipe",
    "pushedAt": "2026-08-04T14:03:55Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:09.122Z",
+   "syncedAt": "2026-08-05T14:35:45.880Z",
    "releaseTag": "v0.29.0",
    "releaseDate": "2026-07-22T08:38:27Z",
    "apk": {
@@ -266,13 +266,13 @@
    ]
   },
   "organic-maps": {
-   "stars": 14974,
+   "stars": 14975,
    "owner": "organicmaps",
-   "pushedAt": "2026-08-05T06:37:44Z",
+   "pushedAt": "2026-08-05T14:02:54Z",
    "archived": false,
    "hasDiscussions": true,
    "license": null,
-   "syncedAt": "2026-08-05T11:29:56.867Z",
+   "syncedAt": "2026-08-05T14:36:06.045Z",
    "releaseTag": "2026.07.23-6-android",
    "releaseDate": "2026-07-23T17:37:04Z",
    "apk": {
@@ -284,11 +284,11 @@
   "osmand": {
    "stars": 5882,
    "owner": "osmandapp",
-   "pushedAt": "2026-08-05T07:44:35Z",
+   "pushedAt": "2026-08-05T14:31:27Z",
    "archived": false,
    "hasDiscussions": true,
    "license": null,
-   "syncedAt": "2026-08-05T11:30:04.177Z",
+   "syncedAt": "2026-08-05T14:36:08.983Z",
    "releaseTag": "2.0.0",
    "releaseDate": "2019-10-15T09:45:30Z",
    "apk": {
@@ -305,7 +305,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:48.924Z",
+   "syncedAt": "2026-08-05T14:36:55.083Z",
    "releaseTag": "v3.3.8",
    "releaseDate": "2026-03-23T15:22:47Z",
    "apk": {
@@ -316,13 +316,13 @@
    "apkCount": 2
   },
   "signal": {
-   "stars": 29150,
+   "stars": 29152,
    "owner": "signalapp",
    "pushedAt": "2026-08-04T23:34:13Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:31:53.936Z",
+   "syncedAt": "2026-08-05T14:36:58.190Z",
    "releaseTag": "v8.20.5",
    "releaseDate": "2026-07-30T21:47:41Z",
    "apk": {
@@ -332,13 +332,13 @@
    }
   },
   "termux": {
-   "stars": 58688,
+   "stars": 58700,
    "owner": "termux",
    "pushedAt": "2026-07-14T20:47:14Z",
    "archived": false,
    "hasDiscussions": true,
    "license": null,
-   "syncedAt": "2026-08-05T11:32:53.975Z",
+   "syncedAt": "2026-08-05T14:37:27.260Z",
    "releaseTag": "v0.118.3",
    "releaseDate": "2025-05-22T22:47:26Z",
    "apk": {
@@ -356,13 +356,13 @@
    ]
   },
   "thunderbird": {
-   "stars": 13797,
+   "stars": 13798,
    "owner": "thunderbird",
-   "pushedAt": "2026-08-05T10:45:20Z",
+   "pushedAt": "2026-08-05T12:37:09Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:58.420Z",
+   "syncedAt": "2026-08-05T14:37:29.689Z",
    "releaseTag": "K9MAIL_21_1",
    "releaseDate": "2026-08-03T19:14:10Z",
    "apk": {
@@ -378,7 +378,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:33:38.707Z",
+   "syncedAt": "2026-08-05T14:37:49.164Z",
    "apk": {
     "name": "org.videolan.vlc_13070108.apk",
     "url": "https://f-droid.org/repo/org.videolan.vlc_13070108.apk",
@@ -394,7 +394,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:23:01.452Z",
+   "syncedAt": "2026-08-05T14:33:01.428Z",
    "releaseTag": "v0.17.5",
    "releaseDate": "2024-06-28T03:59:56Z",
    "apk": {
@@ -413,13 +413,13 @@
    ]
   },
   "a-edev-flow": {
-   "stars": 1790,
+   "stars": 1792,
    "owner": "A-EDev",
    "pushedAt": "2026-08-05T11:03:48Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:03.894Z",
+   "syncedAt": "2026-08-05T14:33:02.671Z",
    "releaseTag": "v2.2.0",
    "releaseDate": "2026-07-18T22:54:36Z",
    "apk": {
@@ -445,7 +445,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:05.644Z",
+   "syncedAt": "2026-08-05T14:33:03.359Z",
    "releaseTag": "v1.4.78",
    "releaseDate": "2019-05-13T22:34:07Z",
    "apk": {
@@ -470,7 +470,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:08.177Z",
+   "syncedAt": "2026-08-05T14:33:04.665Z",
    "releaseTag": "0.25.1",
    "releaseDate": "2026-02-09T03:27:16Z"
   },
@@ -481,7 +481,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:23:12.583Z"
+   "syncedAt": "2026-08-05T14:33:06.365Z"
   },
   "alibi": {
    "stars": 1660,
@@ -490,7 +490,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:14.730Z",
+   "syncedAt": "2026-08-05T14:33:07.678Z",
    "releaseTag": "v0.5.3",
    "releaseDate": "2024-09-07T20:19:53Z",
    "apk": {
@@ -516,7 +516,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:16.441Z",
+   "syncedAt": "2026-08-05T14:33:08.417Z",
    "releaseTag": "android/github/3.0.8/284",
    "releaseDate": "2026-06-03T14:07:31Z",
    "apk": {
@@ -538,11 +538,11 @@
   "android-client": {
    "stars": 191,
    "owner": "netbirdio",
-   "pushedAt": "2026-08-05T09:16:13Z",
+   "pushedAt": "2026-08-05T14:03:45Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:18.026Z",
+   "syncedAt": "2026-08-05T14:33:09.327Z",
    "releaseTag": "v0.5.0",
    "releaseDate": "2026-05-15T11:06:01Z",
    "apk": {
@@ -558,7 +558,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:23:21.005Z",
+   "syncedAt": "2026-08-05T14:33:10.145Z",
    "releaseTag": "v1.3",
    "releaseDate": "2024-07-13T21:19:17Z"
   },
@@ -569,7 +569,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:23:22.878Z"
+   "syncedAt": "2026-08-05T14:33:10.975Z"
   },
   "android-urlsanitizer": {
    "stars": 86,
@@ -578,7 +578,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:24.860Z",
+   "syncedAt": "2026-08-05T14:33:12.174Z",
    "releaseTag": "3.0.4",
    "releaseDate": "2025-07-03T07:40:53Z",
    "apk": {
@@ -599,7 +599,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:26.639Z",
+   "syncedAt": "2026-08-05T14:33:12.975Z",
    "releaseTag": "v1.3",
    "releaseDate": "2022-02-20T09:46:26Z",
    "apk": {
@@ -615,18 +615,18 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:28.679Z",
+   "syncedAt": "2026-08-05T14:33:14.241Z",
    "releaseTag": "v2.7.17",
    "releaseDate": "2026-07-30T00:58:12Z"
   },
   "anihyou-android": {
    "stars": 580,
    "owner": "axiel7",
-   "pushedAt": "2026-08-04T16:03:03Z",
+   "pushedAt": "2026-08-05T14:06:45Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:30.616Z",
+   "syncedAt": "2026-08-05T14:33:15.163Z",
    "releaseTag": "1.5.2",
    "releaseDate": "2026-03-10T19:25:05Z",
    "apk": {
@@ -651,7 +651,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:34.169Z",
+   "syncedAt": "2026-08-05T14:33:16.557Z",
    "releaseTag": "3.1.0+61",
    "releaseDate": "2024-06-20T22:49:56Z",
    "icon": "https://raw.githubusercontent.com/KhalidWar/anonaddy/master/fastlane/metadata/android/en-US/images/icon.png",
@@ -671,7 +671,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:35.770Z",
+   "syncedAt": "2026-08-05T14:33:17.251Z",
    "releaseTag": "0.9.5",
    "releaseDate": "2023-11-01T18:39:58Z",
    "apk": {
@@ -697,7 +697,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:40.140Z"
+   "syncedAt": "2026-08-05T14:33:19.278Z"
   },
   "any": {
    "stars": 32,
@@ -706,7 +706,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:23:42.195Z",
+   "syncedAt": "2026-08-05T14:33:20.441Z",
    "releaseTag": "v0.6.9",
    "releaseDate": "2024-07-03T04:52:06Z",
    "apk": {
@@ -723,7 +723,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "BSD-3-Clause",
-   "syncedAt": "2026-08-05T11:23:44.078Z",
+   "syncedAt": "2026-08-05T14:33:21.264Z",
    "releaseTag": "release/v1.4.1",
    "releaseDate": "2026-01-21T12:00:47Z",
    "apk": {
@@ -747,7 +747,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:46.405Z",
+   "syncedAt": "2026-08-05T14:33:22.368Z",
    "releaseTag": "1.0.0",
    "releaseDate": "2025-10-14T11:45:15Z",
    "apk": {
@@ -763,7 +763,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "ISC",
-   "syncedAt": "2026-08-05T11:23:48.281Z",
+   "syncedAt": "2026-08-05T14:33:23.112Z",
    "releaseTag": "13",
    "releaseDate": "2025-04-23T02:06:39Z",
    "apk": {
@@ -779,7 +779,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:50.281Z",
+   "syncedAt": "2026-08-05T14:33:23.848Z",
    "releaseTag": "Release-1.3.16",
    "releaseDate": "2026-03-29T08:22:59Z",
    "apk": {
@@ -789,13 +789,13 @@
    }
   },
   "astro-loop": {
-   "stars": 24,
+   "stars": 26,
    "owner": "PubDeer",
    "pushedAt": "2026-08-03T16:44:28Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:23:52.112Z",
+   "syncedAt": "2026-08-05T14:33:24.718Z",
    "releaseTag": "1.1",
    "releaseDate": "2026-08-03T16:48:55Z",
    "apk": {
@@ -817,7 +817,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:23:53.731Z",
+   "syncedAt": "2026-08-05T14:33:25.476Z",
    "releaseTag": "v2.0.0",
    "releaseDate": "2026-07-23T07:33:49Z",
    "apk": {
@@ -833,7 +833,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:55.923Z",
+   "syncedAt": "2026-08-05T14:33:26.294Z",
    "releaseTag": "92",
    "releaseDate": "2026-05-30T05:58:58Z",
    "apk": {
@@ -849,7 +849,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:57.783Z",
+   "syncedAt": "2026-08-05T14:33:27.167Z",
    "releaseTag": "v6.38.1",
    "releaseDate": "2026-07-29T13:07:42Z",
    "apk": {
@@ -865,7 +865,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:23:59.774Z"
+   "syncedAt": "2026-08-05T14:33:27.980Z"
   },
   "bangumi": {
    "stars": 1061,
@@ -874,7 +874,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:01.727Z",
+   "syncedAt": "2026-08-05T14:33:29.247Z",
    "releaseTag": "v1.0.4",
    "releaseDate": "2024-03-14T10:58:12Z",
    "apk": {
@@ -891,7 +891,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:24:04.013Z"
+   "syncedAt": "2026-08-05T14:33:30.061Z"
   },
   "beat-feet": {
    "stars": 84,
@@ -900,7 +900,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:05.961Z",
+   "syncedAt": "2026-08-05T14:33:31.216Z",
    "releaseTag": "v0.16.2",
    "releaseDate": "2024-07-23T21:44:19Z",
    "apk": {
@@ -925,7 +925,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:24:07.671Z",
+   "syncedAt": "2026-08-05T14:33:32.088Z",
    "releaseTag": "v16",
    "releaseDate": "2026-04-21T06:07:05Z",
    "apk": {
@@ -950,7 +950,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:12.133Z",
+   "syncedAt": "2026-08-05T14:33:33.867Z",
    "releaseTag": "v6.5.2",
    "releaseDate": "2026-07-04T00:09:44Z",
    "apk": {
@@ -976,7 +976,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:14.717Z",
+   "syncedAt": "2026-08-05T14:33:34.540Z",
    "releaseTag": "v3.4.3-rc0",
    "releaseDate": "2026-07-09T13:12:42Z",
    "apk": {
@@ -1001,7 +1001,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:16.299Z",
+   "syncedAt": "2026-08-05T14:33:35.245Z",
    "releaseTag": "v1.3.0",
    "releaseDate": "2026-05-03T14:04:38Z",
    "apk": {
@@ -1027,7 +1027,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:18.584Z",
+   "syncedAt": "2026-08-05T14:33:36.142Z",
    "releaseTag": "v2.32.0",
    "releaseDate": "2026-07-29T21:14:46Z",
    "apk": {
@@ -1052,7 +1052,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:20.266Z",
+   "syncedAt": "2026-08-05T14:33:36.807Z",
    "releaseTag": "1.11.1-firefox",
    "releaseDate": "2026-08-05T02:12:07Z",
    "icon": "https://raw.githubusercontent.com/flythenimbus/bramble/main/fastlane/metadata/android/en-US/images/icon.png"
@@ -1064,7 +1064,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:24:21.509Z"
+   "syncedAt": "2026-08-05T14:33:37.380Z"
   },
   "buran": {
    "stars": 134,
@@ -1073,7 +1073,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:23.456Z",
+   "syncedAt": "2026-08-05T14:33:38.469Z",
    "releaseTag": "v1.12",
    "releaseDate": "2022-11-10T04:23:51Z",
    "apk": {
@@ -1083,13 +1083,13 @@
    }
   },
   "butterfly": {
-   "stars": 1947,
+   "stars": 1948,
    "owner": "LinwoodDev",
    "pushedAt": "2026-08-03T23:05:08Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:24:25.418Z",
+   "syncedAt": "2026-08-05T14:33:39.247Z",
    "releaseTag": "v2.5.4",
    "releaseDate": "2026-07-20T12:35:23Z",
    "apk": {
@@ -1109,13 +1109,13 @@
    ]
   },
   "calculator-hide-files": {
-   "stars": 175,
+   "stars": 176,
    "owner": "Binondi",
    "pushedAt": "2026-05-09T09:41:22Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:27.716Z",
+   "syncedAt": "2026-08-05T14:33:40.198Z",
    "releaseTag": "v2.0.2",
    "releaseDate": "2026-05-09T09:41:22Z",
    "apk": {
@@ -1134,13 +1134,13 @@
    ]
   },
   "camera": {
-   "stars": 1343,
+   "stars": 1344,
    "owner": "GrapheneOS",
    "pushedAt": "2026-08-04T15:36:01Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:24:29.411Z",
+   "syncedAt": "2026-08-05T14:33:40.950Z",
    "releaseTag": "93",
    "releaseDate": "2026-08-01T22:01:24Z",
    "apk": {
@@ -1156,7 +1156,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:31.294Z",
+   "syncedAt": "2026-08-05T14:33:41.669Z",
    "releaseTag": "v1.0.0",
    "releaseDate": "2026-01-09T19:46:10Z",
    "apk": {
@@ -1172,7 +1172,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:33.161Z",
+   "syncedAt": "2026-08-05T14:33:42.482Z",
    "releaseTag": "v.1.1.0",
    "releaseDate": "2024-02-29T10:34:48Z"
   },
@@ -1183,7 +1183,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:35.130Z"
+   "syncedAt": "2026-08-05T14:33:43.202Z"
   },
   "chemsearch-android": {
    "stars": 17,
@@ -1192,7 +1192,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:24:37.084Z",
+   "syncedAt": "2026-08-05T14:33:44.210Z",
    "releaseTag": "1.13.8",
    "releaseDate": "2026-07-11T08:27:28Z",
    "apk": {
@@ -1216,7 +1216,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "BSD-4-Clause",
-   "syncedAt": "2026-08-05T11:24:38.729Z",
+   "syncedAt": "2026-08-05T14:33:44.960Z",
    "releaseTag": "1.12.0",
    "releaseDate": "2025-10-26T00:53:49Z",
    "apk": {
@@ -1241,7 +1241,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:40.314Z",
+   "syncedAt": "2026-08-05T14:33:45.667Z",
    "releaseTag": "v1.0.0",
    "releaseDate": "2026-02-02T00:06:33Z",
    "apk": {
@@ -1257,7 +1257,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:42.284Z",
+   "syncedAt": "2026-08-05T14:33:46.408Z",
    "releaseTag": "3.2.0",
    "releaseDate": "2026-05-04T00:40:39Z",
    "apk": {
@@ -1267,13 +1267,13 @@
    }
   },
   "cogwheel0-conduit": {
-   "stars": 1894,
+   "stars": 1895,
    "owner": "cogwheel0",
    "pushedAt": "2026-08-05T11:03:36Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:44.240Z",
+   "syncedAt": "2026-08-05T14:33:47.122Z",
    "releaseTag": "v4.0.2",
    "releaseDate": "2026-08-01T09:06:40Z",
    "apk": {
@@ -1290,7 +1290,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:24:46.070Z",
+   "syncedAt": "2026-08-05T14:33:47.809Z",
    "releaseTag": "v1.12.1",
    "releaseDate": "2026-07-13T17:56:24Z",
    "apk": {
@@ -1316,7 +1316,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:47.643Z",
+   "syncedAt": "2026-08-05T14:33:48.496Z",
    "releaseTag": "v1.0.7",
    "releaseDate": "2025-12-31T00:51:31Z",
    "apk": {
@@ -1333,7 +1333,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:49.611Z",
+   "syncedAt": "2026-08-05T14:33:49.327Z",
    "releaseTag": "v0.4.1-beta",
    "releaseDate": "2026-04-24T16:19:43Z",
    "apk": {
@@ -1345,11 +1345,11 @@
   "coppelia": {
    "stars": 59,
    "owner": "j6k4m8",
-   "pushedAt": "2026-08-03T00:40:10Z",
+   "pushedAt": "2026-08-05T13:58:08Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:51.567Z",
+   "syncedAt": "2026-08-05T14:33:50.038Z",
    "releaseTag": "v0.1.1",
    "releaseDate": "2026-07-29T01:47:37Z",
    "apk": {
@@ -1375,7 +1375,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:24:53.209Z",
+   "syncedAt": "2026-08-05T14:33:50.864Z",
    "releaseTag": "v0.31.3",
    "releaseDate": "2026-08-02T22:49:24Z",
    "apk": {
@@ -1391,7 +1391,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:24:55.187Z",
+   "syncedAt": "2026-08-05T14:33:51.660Z",
    "releaseTag": "v1.5.0",
    "releaseDate": "2026-01-15T22:26:35Z",
    "apk": {
@@ -1407,18 +1407,18 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:24:57.224Z",
+   "syncedAt": "2026-08-05T14:33:52.420Z",
    "releaseTag": "v1.1.1021",
    "releaseDate": "2024-06-20T20:35:26Z"
   },
   "deltachat-android": {
    "stars": 1789,
    "owner": "deltachat",
-   "pushedAt": "2026-08-04T18:14:11Z",
+   "pushedAt": "2026-08-05T13:09:09Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:24:59.088Z",
+   "syncedAt": "2026-08-05T14:33:53.258Z",
    "releaseTag": "v2.57.0",
    "releaseDate": "2026-07-27T11:24:34Z",
    "apk": {
@@ -1442,7 +1442,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:00.638Z",
+   "syncedAt": "2026-08-05T14:33:53.839Z",
    "releaseTag": "v1.3.1",
    "releaseDate": "2026-04-21T23:33:42Z",
    "apk": {
@@ -1467,7 +1467,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:25:02.229Z",
+   "syncedAt": "2026-08-05T14:33:54.567Z",
    "releaseTag": "v2.1.0",
    "releaseDate": "2023-03-31T22:44:45Z",
    "apk": {
@@ -1483,7 +1483,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:04.349Z",
+   "syncedAt": "2026-08-05T14:33:55.410Z",
    "releaseTag": "v1.0.0-alpha.18",
    "releaseDate": "2021-06-05T20:09:19Z"
   },
@@ -1494,7 +1494,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:06.357Z",
+   "syncedAt": "2026-08-05T14:33:56.373Z",
    "releaseTag": "v1.1.0",
    "releaseDate": "2026-04-02T06:33:56Z",
    "apk": {
@@ -1510,7 +1510,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:08.482Z",
+   "syncedAt": "2026-08-05T14:33:57.101Z",
    "releaseTag": "v1.4.0",
    "releaseDate": "2026-08-01T23:46:50Z",
    "apk": {
@@ -1521,13 +1521,13 @@
    "apkCount": 5
   },
   "documents": {
-   "stars": 78,
+   "stars": 79,
    "owner": "FossifyOrg",
    "pushedAt": "2026-08-03T11:06:36Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:10.377Z",
+   "syncedAt": "2026-08-05T14:33:57.927Z",
    "releaseTag": "1.0.1",
    "releaseDate": "2026-08-01T14:05:30Z",
    "apk": {
@@ -1552,7 +1552,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:12.075Z",
+   "syncedAt": "2026-08-05T14:33:58.597Z",
    "releaseTag": "1.0.0",
    "releaseDate": "2026-04-30T00:09:36Z",
    "apk": {
@@ -1568,7 +1568,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:15.230Z",
+   "syncedAt": "2026-08-05T14:33:59.392Z",
    "releaseTag": "v0.0.8",
    "releaseDate": "2026-07-30T23:06:10Z",
    "apk": {
@@ -1584,7 +1584,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:25:17.638Z",
+   "syncedAt": "2026-08-05T14:34:00.248Z",
    "releaseTag": "1.4.0",
    "releaseDate": "2023-06-25T10:55:09Z",
    "apk": {
@@ -1601,7 +1601,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:25:19.790Z",
+   "syncedAt": "2026-08-05T14:34:01.143Z",
    "releaseTag": "v2.2.0",
    "releaseDate": "2024-07-25T15:56:37Z",
    "apk": {
@@ -1627,7 +1627,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:25:21.375Z"
+   "syncedAt": "2026-08-05T14:34:01.825Z"
   },
   "easylauncher": {
    "stars": 336,
@@ -1636,7 +1636,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:23.476Z",
+   "syncedAt": "2026-08-05T14:34:02.983Z",
    "releaseTag": "0.3.3",
    "releaseDate": "2025-07-15T11:33:50Z",
    "apk": {
@@ -1662,7 +1662,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:25.155Z",
+   "syncedAt": "2026-08-05T14:34:03.715Z",
    "releaseTag": "1.7.1",
    "releaseDate": "2026-01-24T15:53:52Z",
    "apk": {
@@ -1687,7 +1687,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:29.116Z",
+   "syncedAt": "2026-08-05T14:34:05.310Z",
    "releaseTag": "v1.0.2025.07.29.0638",
    "releaseDate": "2025-07-29T06:38:33Z",
    "apk": {
@@ -1703,16 +1703,16 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:31.266Z"
+   "syncedAt": "2026-08-05T14:34:06.135Z"
   },
   "episteme": {
-   "stars": 1115,
+   "stars": 1116,
    "owner": "Aryan-Raj3112",
    "pushedAt": "2026-07-22T05:53:48Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:25:33.249Z",
+   "syncedAt": "2026-08-05T14:34:07.246Z",
    "releaseTag": "v1.0.52-oss",
    "releaseDate": "2026-07-12T18:08:50Z",
    "apk": {
@@ -1736,7 +1736,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:34.739Z",
+   "syncedAt": "2026-08-05T14:34:07.871Z",
    "releaseTag": "v2.6.0",
    "releaseDate": "2025-10-18T23:46:42Z",
    "apk": {
@@ -1759,7 +1759,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:36.591Z"
+   "syncedAt": "2026-08-05T14:34:08.553Z"
   },
   "fairscan": {
    "stars": 777,
@@ -1768,7 +1768,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:38.531Z",
+   "syncedAt": "2026-08-05T14:34:09.676Z",
    "releaseTag": "v2.2.0",
    "releaseDate": "2026-07-19T16:08:00Z",
    "apk": {
@@ -1792,7 +1792,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:40.811Z",
+   "syncedAt": "2026-08-05T14:34:10.742Z",
    "releaseTag": "kanarek-v1.0.2",
    "releaseDate": "2026-07-30T09:39:58Z",
    "apk": {
@@ -1809,18 +1809,18 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:42.747Z",
+   "syncedAt": "2026-08-05T14:34:11.498Z",
    "releaseTag": "v5.0.7",
    "releaseDate": "2022-03-17T22:02:47Z"
   },
   "flashcards-open-source-app": {
    "stars": 44,
    "owner": "kirill-markin",
-   "pushedAt": "2026-08-04T18:12:38Z",
+   "pushedAt": "2026-08-05T14:33:51Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:25:44.766Z",
+   "syncedAt": "2026-08-05T14:34:12.458Z",
    "releaseTag": "v1.17.0",
    "releaseDate": "2026-08-01T06:46:39Z"
   },
@@ -1831,7 +1831,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "BSD-3-Clause",
-   "syncedAt": "2026-08-05T11:25:46.791Z",
+   "syncedAt": "2026-08-05T14:34:13.280Z",
    "releaseTag": "v1.0.7+17",
    "releaseDate": "2026-03-21T03:53:45Z",
    "apk": {
@@ -1847,7 +1847,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:25:49.030Z",
+   "syncedAt": "2026-08-05T14:34:14.096Z",
    "releaseTag": "v3.1.0+9",
    "releaseDate": "2024-10-08T22:35:57Z",
    "apk": {
@@ -1864,7 +1864,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:51.251Z",
+   "syncedAt": "2026-08-05T14:34:15.007Z",
    "releaseTag": "2.4.1",
    "releaseDate": "2021-06-17T16:01:58Z"
   },
@@ -1875,7 +1875,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:53.277Z",
+   "syncedAt": "2026-08-05T14:34:15.950Z",
    "releaseTag": "v3.2.0",
    "releaseDate": "2026-08-01T17:12:19Z",
    "apk": {
@@ -1894,13 +1894,13 @@
    ]
   },
   "fossifyorg-file-manager": {
-   "stars": 1677,
+   "stars": 1678,
    "owner": "FossifyOrg",
    "pushedAt": "2026-08-02T08:02:36Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:57.245Z",
+   "syncedAt": "2026-08-05T14:34:17.727Z",
    "releaseTag": "1.6.1",
    "releaseDate": "2026-02-17T02:35:26Z",
    "apk": {
@@ -1925,7 +1925,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:25:58.933Z",
+   "syncedAt": "2026-08-05T14:34:18.398Z",
    "releaseTag": "1.9.1",
    "releaseDate": "2026-02-02T06:05:10Z",
    "apk": {
@@ -1949,7 +1949,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:01.595Z",
+   "syncedAt": "2026-08-05T14:34:19.100Z",
    "releaseTag": "1.10.0",
    "releaseDate": "2026-02-17T02:37:58Z",
    "apk": {
@@ -1972,7 +1972,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:03.214Z",
+   "syncedAt": "2026-08-05T14:34:19.767Z",
    "releaseTag": "1.8.1",
    "releaseDate": "2026-02-17T02:37:34Z",
    "apk": {
@@ -1996,7 +1996,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:05.151Z",
+   "syncedAt": "2026-08-05T14:34:20.451Z",
    "releaseTag": "1.7.0",
    "releaseDate": "2026-01-30T20:53:50Z",
    "apk": {
@@ -2021,7 +2021,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:06.973Z",
+   "syncedAt": "2026-08-05T14:34:21.224Z",
    "releaseTag": "1.3.18.0",
    "releaseDate": "2026-08-01T00:04:59Z",
    "apk": {
@@ -2038,7 +2038,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:08.939Z",
+   "syncedAt": "2026-08-05T14:34:22.097Z",
    "releaseTag": "1.8.3",
    "releaseDate": "2026-07-16T18:01:55Z",
    "apk": {
@@ -2063,7 +2063,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:10.549Z",
+   "syncedAt": "2026-08-05T14:34:22.746Z",
    "releaseTag": "v0.11.0",
    "releaseDate": "2026-06-09T12:31:04Z",
    "apk": {
@@ -2080,7 +2080,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:12.576Z"
+   "syncedAt": "2026-08-05T14:34:23.634Z"
   },
   "fresh-reader": {
    "stars": 3,
@@ -2089,7 +2089,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:14.517Z",
+   "syncedAt": "2026-08-05T14:34:24.748Z",
    "releaseTag": "v1.3.3",
    "releaseDate": "2026-08-05T09:23:20Z",
    "apk": {
@@ -2105,7 +2105,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:16.565Z"
+   "syncedAt": "2026-08-05T14:34:25.535Z"
   },
   "geoshare": {
    "stars": 317,
@@ -2114,7 +2114,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:18.696Z",
+   "syncedAt": "2026-08-05T14:34:26.699Z",
    "releaseTag": "v6.5.0",
    "releaseDate": "2026-07-30T15:05:49Z",
    "apk": {
@@ -2138,7 +2138,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:20.227Z",
+   "syncedAt": "2026-08-05T14:34:27.464Z",
    "releaseTag": "ghostwriter-v1.1.0",
    "releaseDate": "2026-06-07T10:02:09Z"
   },
@@ -2149,7 +2149,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:22.081Z",
+   "syncedAt": "2026-08-05T14:34:28.279Z",
    "releaseTag": "v1.0.2",
    "releaseDate": "2025-07-29T10:32:17Z",
    "apk": {
@@ -2165,7 +2165,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:23.951Z",
+   "syncedAt": "2026-08-05T14:34:29.016Z",
    "releaseTag": "5.9",
    "releaseDate": "2026-05-01T15:50:41Z",
    "apk": {
@@ -2181,7 +2181,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:25.810Z",
+   "syncedAt": "2026-08-05T14:34:29.758Z",
    "releaseTag": "33",
    "releaseDate": "2026-07-30T22:59:39Z",
    "apk": {
@@ -2197,7 +2197,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:27.689Z",
+   "syncedAt": "2026-08-05T14:34:30.522Z",
    "releaseTag": "v4.4.0",
    "releaseDate": "2026-05-24T09:07:54Z",
    "apk": {
@@ -2222,7 +2222,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:29.226Z",
+   "syncedAt": "2026-08-05T14:34:31.239Z",
    "releaseTag": "v0.7.6",
    "releaseDate": "2026-07-23T21:23:40Z",
    "apk": {
@@ -2248,7 +2248,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:30.953Z",
+   "syncedAt": "2026-08-05T14:34:31.929Z",
    "releaseTag": "v2.0.18",
    "releaseDate": "2026-03-22T09:47:04Z",
    "apk": {
@@ -2274,7 +2274,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:32.564Z",
+   "syncedAt": "2026-08-05T14:34:32.591Z",
    "releaseTag": "v1.2.0",
    "releaseDate": "2026-01-01T20:43:40Z",
    "apk": {
@@ -2284,13 +2284,13 @@
    }
   },
   "habo": {
-   "stars": 1394,
+   "stars": 1395,
    "owner": "xpavle00",
    "pushedAt": "2026-06-15T20:55:35Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:34.478Z",
+   "syncedAt": "2026-08-05T14:34:33.306Z",
    "releaseTag": "v4.0.0",
    "releaseDate": "2026-05-06T11:09:46Z",
    "apk": {
@@ -2316,7 +2316,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:26:36.020Z",
+   "syncedAt": "2026-08-05T14:34:33.991Z",
    "releaseTag": "1.2.4",
    "releaseDate": "2026-07-29T10:33:09Z",
    "apk": {
@@ -2326,13 +2326,13 @@
    }
   },
   "hemantkarya-bloomeetunes": {
-   "stars": 2172,
+   "stars": 2173,
    "owner": "HemantKArya",
    "pushedAt": "2026-07-30T09:22:34Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:26:37.931Z",
+   "syncedAt": "2026-08-05T14:34:35.009Z",
    "releaseTag": "v3.0.4+202",
    "releaseDate": "2026-05-29T06:20:23Z",
    "apk": {
@@ -2357,7 +2357,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:26:39.512Z",
+   "syncedAt": "2026-08-05T14:34:35.733Z",
    "releaseTag": "1.3",
    "releaseDate": "2024-03-10T20:29:03Z",
    "apk": {
@@ -2374,7 +2374,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MPL-2.0",
-   "syncedAt": "2026-08-05T11:26:41.476Z",
+   "syncedAt": "2026-08-05T14:34:36.680Z",
    "releaseTag": "v1.2.1",
    "releaseDate": "2026-03-28T14:43:05Z",
    "apk": {
@@ -2391,7 +2391,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:43.406Z",
+   "syncedAt": "2026-08-05T14:34:37.397Z",
    "releaseTag": "v1.3.2",
    "releaseDate": "2026-08-04T08:20:09Z",
    "apk": {
@@ -2408,7 +2408,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:45.376Z",
+   "syncedAt": "2026-08-05T14:34:38.227Z",
    "releaseTag": "1.6.1",
    "releaseDate": "2024-12-08T08:41:43Z",
    "apk": {
@@ -2432,7 +2432,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:26:47.157Z",
+   "syncedAt": "2026-08-05T14:34:38.985Z",
    "releaseTag": "v3.18",
    "releaseDate": "2026-02-20T17:47:33Z",
    "apk": {
@@ -2454,7 +2454,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:26:48.801Z"
+   "syncedAt": "2026-08-05T14:34:39.702Z"
   },
   "ichaival": {
    "stars": 215,
@@ -2463,7 +2463,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:50.875Z",
+   "syncedAt": "2026-08-05T14:34:40.788Z",
    "releaseTag": "v1.10.0",
    "releaseDate": "2026-06-11T21:40:17Z",
    "apk": {
@@ -2488,7 +2488,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:26:52.895Z",
+   "syncedAt": "2026-08-05T14:34:41.482Z",
    "releaseTag": "android",
    "releaseDate": "2025-09-19T13:06:40Z",
    "apk": {
@@ -2504,7 +2504,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:26:54.795Z",
+   "syncedAt": "2026-08-05T14:34:42.397Z",
    "releaseTag": "v3.4",
    "releaseDate": "2021-08-09T02:34:49Z",
    "apk": {
@@ -2521,7 +2521,15 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:26:57.003Z"
+   "syncedAt": "2026-08-05T14:34:43.349Z",
+   "prerelease": true,
+   "releaseTag": "v0.3.1-beta",
+   "releaseDate": "2025-12-30T14:13:25Z",
+   "apk": {
+    "name": "inkita-universal-v0.3.1-beta.apk",
+    "url": "https://github.com/dom-53/Inkita/releases/download/v0.3.1-beta/inkita-universal-v0.3.1-beta.apk",
+    "size": 75810158
+   }
   },
   "irccloud-android": {
    "stars": 309,
@@ -2530,7 +2538,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:26:59.219Z",
+   "syncedAt": "2026-08-05T14:34:44.420Z",
    "releaseTag": "RELEASE_4.36",
    "releaseDate": "2025-12-03T14:06:11Z"
   },
@@ -2541,7 +2549,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:27:01.102Z",
+   "syncedAt": "2026-08-05T14:34:45.141Z",
    "releaseTag": "v2.0.23",
    "releaseDate": "2026-07-21T10:15:45Z",
    "apk": {
@@ -2561,13 +2569,13 @@
    ]
   },
   "ivpn-android-app": {
-   "stars": 484,
+   "stars": 485,
    "owner": "ivpn",
    "pushedAt": "2026-06-24T09:04:31Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:02.719Z",
+   "syncedAt": "2026-08-05T14:34:45.997Z",
    "releaseTag": "v2.13.1",
    "releaseDate": "2026-06-24T10:23:30Z",
    "apk": {
@@ -2591,7 +2599,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:04.361Z",
+   "syncedAt": "2026-08-05T14:34:46.717Z",
    "releaseTag": "v1.6.1",
    "releaseDate": "2026-08-01T10:46:04Z",
    "apk": {
@@ -2616,7 +2624,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:27:06.041Z",
+   "syncedAt": "2026-08-05T14:34:47.476Z",
    "releaseTag": "v1.1.0",
    "releaseDate": "2021-07-08T11:15:24Z",
    "apk": {
@@ -2641,7 +2649,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:09.908Z",
+   "syncedAt": "2026-08-05T14:34:49.473Z",
    "releaseTag": "v0.2",
    "releaseDate": "2026-06-04T10:33:41Z",
    "icon": "https://raw.githubusercontent.com/fps/JSlab/master/metadata/en-US/images/icon.png",
@@ -2656,7 +2664,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:12.311Z",
+   "syncedAt": "2026-08-05T14:34:50.613Z",
    "releaseTag": "0.3.4",
    "releaseDate": "2023-10-15T11:39:56Z",
    "apk": {
@@ -2672,7 +2680,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:14.361Z",
+   "syncedAt": "2026-08-05T14:34:51.384Z",
    "releaseTag": "5.1",
    "releaseDate": "2022-03-24T10:01:22Z",
    "apk": {
@@ -2688,7 +2696,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:16.764Z",
+   "syncedAt": "2026-08-05T14:34:52.376Z",
    "releaseTag": "1.6",
    "releaseDate": "2026-07-06T23:45:11Z",
    "apk": {
@@ -2713,7 +2721,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:18.461Z"
+   "syncedAt": "2026-08-05T14:34:53.199Z"
   },
   "keypass": {
    "stars": 780,
@@ -2722,7 +2730,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:20.509Z",
+   "syncedAt": "2026-08-05T14:34:54.388Z",
    "releaseTag": "v1.4.42",
    "releaseDate": "2025-09-03T04:17:54Z",
    "apk": {
@@ -2747,7 +2755,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:27:23.778Z"
+   "syncedAt": "2026-08-05T14:34:56.067Z"
   },
   "kotatsu-next": {
    "stars": 19,
@@ -2756,7 +2764,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:28.276Z",
+   "syncedAt": "2026-08-05T14:34:58.212Z",
    "releaseTag": "9.8.0",
    "releaseDate": "2026-07-14T00:33:33Z",
    "apk": {
@@ -2781,7 +2789,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:30.733Z",
+   "syncedAt": "2026-08-05T14:34:59.179Z",
    "releaseTag": "v0.1.5",
    "releaseDate": "2023-05-24T11:57:05Z",
    "apk": {
@@ -2800,13 +2808,13 @@
    ]
   },
   "kryptos": {
-   "stars": 14,
+   "stars": 15,
    "owner": "swisslite",
    "pushedAt": "2026-08-03T23:28:32Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:27:32.355Z",
+   "syncedAt": "2026-08-05T14:34:59.834Z",
    "releaseTag": "v2.3",
    "releaseDate": "2026-08-03T18:34:56Z",
    "apk": {
@@ -2830,7 +2838,15 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:34.054Z"
+   "syncedAt": "2026-08-05T14:35:00.554Z",
+   "prerelease": true,
+   "releaseTag": "v0.9-alpha",
+   "releaseDate": "2026-02-27T02:54:43Z",
+   "apk": {
+    "name": "kura-0.9_pre-release.apk",
+    "url": "https://github.com/AntarcDev/Kura/releases/download/v0.9-alpha/kura-0.9_pre-release.apk",
+    "size": 23030959
+   }
   },
   "lavatories": {
    "stars": 112,
@@ -2839,7 +2855,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:35.922Z",
+   "syncedAt": "2026-08-05T14:35:01.787Z",
    "releaseTag": "V2.7",
    "releaseDate": "2025-09-24T09:32:31Z",
    "icon": "https://raw.githubusercontent.com/woheller69/lavatories/master/fastlane/metadata/android/en-US/images/icon.png",
@@ -2855,7 +2871,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:37.546Z",
+   "syncedAt": "2026-08-05T14:35:02.527Z",
    "releaseTag": "v4.0.7",
    "releaseDate": "2026-08-04T20:55:40Z",
    "apk": {
@@ -2881,7 +2897,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:39.166Z",
+   "syncedAt": "2026-08-05T14:35:03.157Z",
    "releaseTag": "v0.3.0",
    "releaseDate": "2026-07-25T23:09:58Z",
    "apk": {
@@ -2897,7 +2913,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:41.311Z",
+   "syncedAt": "2026-08-05T14:35:04.199Z",
    "releaseTag": "v1.3.1",
    "releaseDate": "2024-10-19T21:11:58Z",
    "apk": {
@@ -2921,7 +2937,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:42.874Z",
+   "syncedAt": "2026-08-05T14:35:04.890Z",
    "releaseTag": "v1.3",
    "releaseDate": "2026-03-18T10:48:31Z",
    "apk": {
@@ -2944,7 +2960,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:44.510Z",
+   "syncedAt": "2026-08-05T14:35:05.740Z",
    "releaseTag": "v6.4.0",
    "releaseDate": "2025-11-09T20:32:55Z",
    "apk": {
@@ -2961,7 +2977,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:46.557Z",
+   "syncedAt": "2026-08-05T14:35:06.766Z",
    "releaseTag": "v4.18",
    "releaseDate": "2025-04-17T12:49:04Z",
    "apk": {
@@ -2980,13 +2996,13 @@
    ]
   },
   "livebridge": {
-   "stars": 969,
+   "stars": 970,
    "owner": "appsfolder",
    "pushedAt": "2026-07-22T04:00:37Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:48.078Z",
+   "syncedAt": "2026-08-05T14:35:07.529Z",
    "releaseTag": "v2.1.4",
    "releaseDate": "2026-05-07T18:52:32Z",
    "apk": {
@@ -3003,7 +3019,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:49.878Z",
+   "syncedAt": "2026-08-05T14:35:08.346Z",
    "releaseTag": "v1.0.4",
    "releaseDate": "2022-10-29T20:13:16Z",
    "apk": {
@@ -3023,7 +3039,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:51.483Z",
+   "syncedAt": "2026-08-05T14:35:09.075Z",
    "releaseTag": "v0.3.8.210702",
    "releaseDate": "2021-06-30T21:46:17Z",
    "screenshots": [
@@ -3037,7 +3053,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:27:53.090Z",
+   "syncedAt": "2026-08-05T14:35:09.990Z",
    "releaseTag": "1.0.11",
    "releaseDate": "2023-01-04T16:35:43Z",
    "apk": {
@@ -3053,7 +3069,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:27:55.072Z",
+   "syncedAt": "2026-08-05T14:35:10.948Z",
    "releaseTag": "v3.2.7",
    "releaseDate": "2026-02-04T05:33:18Z",
    "apk": {
@@ -3077,7 +3093,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:56.660Z"
+   "syncedAt": "2026-08-05T14:35:11.719Z"
   },
   "manga-translator": {
    "stars": 80,
@@ -3086,7 +3102,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:27:58.691Z"
+   "syncedAt": "2026-08-05T14:35:12.939Z"
   },
   "maps": {
    "stars": 6,
@@ -3095,7 +3111,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:00.702Z",
+   "syncedAt": "2026-08-05T14:35:14.114Z",
    "releaseTag": "v1.1.0",
    "releaseDate": "2021-08-30T10:22:05Z",
    "apk": {
@@ -3111,7 +3127,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:02.633Z",
+   "syncedAt": "2026-08-05T14:35:15.032Z",
    "releaseTag": "v2.32.2",
    "releaseDate": "2026-08-05T05:31:34Z",
    "apk": {
@@ -3134,7 +3150,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:04.369Z"
+   "syncedAt": "2026-08-05T14:35:15.812Z"
   },
   "mashhad-metro": {
    "stars": 18,
@@ -3143,7 +3159,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:06.345Z",
+   "syncedAt": "2026-08-05T14:35:17.088Z",
    "releaseTag": "V0.5.0",
    "releaseDate": "2025-12-29T11:05:20Z",
    "apk": {
@@ -3167,7 +3183,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:07.962Z"
+   "syncedAt": "2026-08-05T14:35:17.918Z"
   },
   "materialious": {
    "stars": 1102,
@@ -3176,7 +3192,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:28:09.988Z",
+   "syncedAt": "2026-08-05T14:35:19.150Z",
    "releaseTag": "1.17.7",
    "releaseDate": "2026-08-02T12:55:14Z",
    "apk": {
@@ -3200,7 +3216,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:11.659Z",
+   "syncedAt": "2026-08-05T14:35:20.412Z",
    "releaseTag": "v1.3.0",
    "releaseDate": "2026-05-24T01:05:19Z",
    "apk": {
@@ -3210,13 +3226,13 @@
    }
   },
   "mbcompass": {
-   "stars": 573,
+   "stars": 574,
    "owner": "CompassMB",
    "pushedAt": "2026-07-30T12:59:37Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:13.630Z",
+   "syncedAt": "2026-08-05T14:35:21.300Z",
    "releaseTag": "v1.1.17",
    "releaseDate": "2026-07-19T12:28:53Z",
    "apk": {
@@ -3241,7 +3257,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:15.280Z",
+   "syncedAt": "2026-08-05T14:35:21.918Z",
    "releaseTag": "62",
    "releaseDate": "2024-06-16T01:57:56Z",
    "apk": {
@@ -3257,7 +3273,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:17.207Z",
+   "syncedAt": "2026-08-05T14:35:22.843Z",
    "releaseTag": "1.3.8+17",
    "releaseDate": "2026-07-26T01:54:48Z",
    "apk": {
@@ -3275,7 +3291,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:18.467Z",
+   "syncedAt": "2026-08-05T14:35:23.311Z",
    "releaseTag": "v2.1",
    "releaseDate": "2026-07-28T08:10:49Z",
    "apk": {
@@ -3300,7 +3316,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:28:20.077Z",
+   "syncedAt": "2026-08-05T14:35:24.265Z",
    "releaseTag": "2026.3.2",
    "releaseDate": "2026-07-29T11:57:35Z",
    "apk": {
@@ -3317,7 +3333,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:22.023Z",
+   "syncedAt": "2026-08-05T14:35:25.191Z",
    "releaseTag": "v1.0.0-windows",
    "releaseDate": "2024-12-11T17:59:04Z"
   },
@@ -3328,7 +3344,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:23.727Z",
+   "syncedAt": "2026-08-05T14:35:26.067Z",
    "releaseTag": "v1.26.5+178",
    "releaseDate": "2026-08-02T02:01:54Z",
    "apk": {
@@ -3354,7 +3370,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:25.438Z",
+   "syncedAt": "2026-08-05T14:35:26.760Z",
    "releaseTag": "v2.0.5",
    "releaseDate": "2026-07-19T04:52:00Z",
    "apk": {
@@ -3370,7 +3386,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:27.484Z",
+   "syncedAt": "2026-08-05T14:35:27.521Z",
    "releaseTag": "v2.168.5",
    "releaseDate": "2026-07-26T16:27:52Z",
    "apk": {
@@ -3386,7 +3402,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "BSD-3-Clause",
-   "syncedAt": "2026-08-05T11:28:29.469Z",
+   "syncedAt": "2026-08-05T14:35:28.431Z",
    "releaseTag": "v2.19.0",
    "releaseDate": "2026-02-03T15:40:39Z",
    "apk": {
@@ -3408,7 +3424,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:30.965Z",
+   "syncedAt": "2026-08-05T14:35:29.114Z",
    "releaseTag": "v1.10",
    "releaseDate": "2024-06-27T12:57:13Z",
    "apk": {
@@ -3424,7 +3440,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "BSD-3-Clause",
-   "syncedAt": "2026-08-05T11:28:35.544Z"
+   "syncedAt": "2026-08-05T14:35:31.199Z"
   },
   "mixmessage": {
    "stars": 97,
@@ -3433,7 +3449,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:37.533Z",
+   "syncedAt": "2026-08-05T14:35:32.350Z",
    "releaseTag": "2.0.1",
    "releaseDate": "2025-11-03T08:57:30Z",
    "apk": {
@@ -3449,7 +3465,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:39.863Z",
+   "syncedAt": "2026-08-05T14:35:33.094Z",
    "releaseTag": "1.12.0.0",
    "releaseDate": "2026-06-11T19:43:42Z",
    "apk": {
@@ -3474,7 +3490,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:28:41.544Z"
+   "syncedAt": "2026-08-05T14:35:33.923Z"
   },
   "modificator-e-ink-launcher": {
    "stars": 242,
@@ -3483,7 +3499,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:43.460Z",
+   "syncedAt": "2026-08-05T14:35:34.909Z",
    "releaseTag": "v0.1.8.3",
    "releaseDate": "2020-04-25T07:55:33Z",
    "apk": {
@@ -3500,7 +3516,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Unlicense",
-   "syncedAt": "2026-08-05T11:28:45.476Z",
+   "syncedAt": "2026-08-05T14:35:35.840Z",
    "releaseTag": "v0.212",
    "releaseDate": "2026-05-12T21:02:22Z",
    "apk": {
@@ -3518,13 +3534,13 @@
    ]
   },
   "monica": {
-   "stars": 887,
+   "stars": 888,
    "owner": "Monica-Pass",
    "pushedAt": "2026-08-04T18:07:19Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:47.083Z",
+   "syncedAt": "2026-08-05T14:35:36.532Z",
    "releaseTag": "V1.0.298",
    "releaseDate": "2026-08-01T04:46:20Z",
    "apk": {
@@ -3541,16 +3557,16 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:28:49.065Z"
+   "syncedAt": "2026-08-05T14:35:37.365Z"
   },
   "moread": {
-   "stars": 9,
+   "stars": 11,
    "owner": "ovo066",
    "pushedAt": "2026-08-03T10:50:00Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:51.027Z",
+   "syncedAt": "2026-08-05T14:35:38.398Z",
    "releaseTag": "v0.9.2",
    "releaseDate": "2026-08-02T11:29:17Z",
    "apk": {
@@ -3566,7 +3582,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:52.922Z",
+   "syncedAt": "2026-08-05T14:35:39.137Z",
    "releaseTag": "v1.5.1",
    "releaseDate": "2023-09-10T17:41:49Z",
    "apk": {
@@ -3590,7 +3606,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:28:55.780Z",
+   "syncedAt": "2026-08-05T14:35:40.062Z",
    "icon": "https://raw.githubusercontent.com/quite/mumla/master/fastlane/metadata/android/en-US/images/icon.png",
    "screenshots": [
     "https://raw.githubusercontent.com/quite/mumla/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
@@ -3608,7 +3624,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:28:57.371Z",
+   "syncedAt": "2026-08-05T14:35:41.035Z",
    "releaseTag": "v3.4.2",
    "releaseDate": "2026-08-01T03:00:27Z",
    "apk": {
@@ -3625,7 +3641,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:28:59.325Z",
+   "syncedAt": "2026-08-05T14:35:41.785Z",
    "releaseTag": "v5.0.0",
    "releaseDate": "2026-05-24T07:57:34Z",
    "apk": {
@@ -3650,7 +3666,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:00.858Z",
+   "syncedAt": "2026-08-05T14:35:42.510Z",
    "releaseTag": "V2.1.0.212",
    "releaseDate": "2026-04-18T12:30:24Z",
    "apk": {
@@ -3667,7 +3683,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:29:02.883Z",
+   "syncedAt": "2026-08-05T14:35:43.336Z",
    "releaseTag": "2.2.3",
    "releaseDate": "2024-08-15T08:24:17Z",
    "icon": "https://raw.githubusercontent.com/Chesire/Nekome/master/fastlane/metadata/android/en-US/images/icon.png",
@@ -3687,7 +3703,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:04.634Z",
+   "syncedAt": "2026-08-05T14:35:44.024Z",
    "releaseTag": "0.9.3",
    "releaseDate": "2023-12-18T21:59:01Z",
    "apk": {
@@ -3712,7 +3728,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:06.521Z",
+   "syncedAt": "2026-08-05T14:35:44.949Z",
    "releaseTag": "v8.0.0",
    "releaseDate": "2026-07-25T10:15:03Z",
    "apk": {
@@ -3737,7 +3753,15 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:29:11.009Z"
+   "syncedAt": "2026-08-05T14:35:46.528Z",
+   "prerelease": true,
+   "releaseTag": "0.1",
+   "releaseDate": "2024-01-08T14:03:48Z",
+   "apk": {
+    "name": "0.1r1.apk",
+    "url": "https://github.com/nikanorov/newsjet-miniflux/releases/download/0.1/0.1r1.apk",
+    "size": 3146882
+   }
   },
   "nextdnsmanager": {
    "stars": 657,
@@ -3746,7 +3770,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:13.096Z",
+   "syncedAt": "2026-08-05T14:35:47.817Z",
    "releaseTag": "v5.5.25",
    "releaseDate": "2026-06-30T21:54:40Z",
    "apk": {
@@ -3766,13 +3790,13 @@
    ]
   },
   "nfile": {
-   "stars": 341,
+   "stars": 342,
    "owner": "Senzme",
    "pushedAt": "2026-07-14T12:31:06Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:14.780Z",
+   "syncedAt": "2026-08-05T14:35:48.555Z",
    "releaseTag": "v1.0.43",
    "releaseDate": "2026-07-04T09:25:07Z",
    "apk": {
@@ -3796,7 +3820,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:16.540Z",
+   "syncedAt": "2026-08-05T14:35:49.377Z",
    "releaseTag": "v0.8.4",
    "releaseDate": "2026-07-27T16:32:10Z",
    "apk": {
@@ -3813,7 +3837,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:18.377Z",
+   "syncedAt": "2026-08-05T14:35:50.105Z",
    "releaseTag": "v1.5.2",
    "releaseDate": "2026-06-14T17:34:36Z",
    "apk": {
@@ -3838,7 +3862,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:19.910Z",
+   "syncedAt": "2026-08-05T14:35:50.772Z",
    "releaseTag": "v1.11.2",
    "releaseDate": "2026-04-25T18:02:42Z",
    "apk": {
@@ -3863,7 +3887,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:22.305Z"
+   "syncedAt": "2026-08-05T14:35:51.707Z"
   },
   "nonameradio": {
    "stars": 20,
@@ -3872,7 +3896,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:24.248Z",
+   "syncedAt": "2026-08-05T14:35:52.772Z",
    "releaseTag": "v0.87.1",
    "releaseDate": "2025-10-24T21:24:28Z",
    "apk": {
@@ -3888,7 +3912,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:26.237Z",
+   "syncedAt": "2026-08-05T14:35:53.509Z",
    "releaseTag": "v4.14.0",
    "releaseDate": "2026-07-18T06:57:58Z",
    "apk": {
@@ -3909,7 +3933,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:28.467Z",
+   "syncedAt": "2026-08-05T14:35:54.487Z",
    "releaseTag": "v1.7.3",
    "releaseDate": "2023-12-22T19:54:52Z",
    "apk": {
@@ -3919,13 +3943,13 @@
    }
   },
   "novela": {
-   "stars": 57,
+   "stars": 58,
    "owner": "HnDK0",
    "pushedAt": "2026-08-05T10:29:29Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:30.542Z",
+   "syncedAt": "2026-08-05T14:35:55.322Z",
    "releaseTag": "v1.4.0",
    "releaseDate": "2026-07-17T19:42:30Z",
    "apk": {
@@ -3941,7 +3965,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:32.394Z",
+   "syncedAt": "2026-08-05T14:35:56.116Z",
    "releaseTag": "v2.2.0",
    "releaseDate": "2024-08-06T21:21:09Z",
    "apk": {
@@ -3958,7 +3982,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:35.269Z",
+   "syncedAt": "2026-08-05T14:35:56.933Z",
    "releaseTag": "v1.10.0",
    "releaseDate": "2026-07-27T11:06:23Z",
    "apk": {
@@ -3983,7 +4007,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:29:36.878Z",
+   "syncedAt": "2026-08-05T14:35:57.657Z",
    "releaseTag": "v2.0",
    "releaseDate": "2026-05-31T11:41:59Z",
    "apk": {
@@ -3999,7 +4023,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:29:38.993Z",
+   "syncedAt": "2026-08-05T14:35:58.509Z",
    "releaseTag": "v1.0.2",
    "releaseDate": "2026-06-27T02:20:37Z",
    "apk": {
@@ -4016,7 +4040,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:29:41.011Z",
+   "syncedAt": "2026-08-05T14:35:59.440Z",
    "releaseTag": "v3.73.519",
    "releaseDate": "2026-07-11T05:17:29Z"
   },
@@ -4027,7 +4051,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:42.950Z",
+   "syncedAt": "2026-08-05T14:36:00.438Z",
    "releaseTag": "v4.2.5",
    "releaseDate": "2026-06-21T17:12:32Z",
    "apk": {
@@ -4053,7 +4077,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:45.678Z",
+   "syncedAt": "2026-08-05T14:36:01.474Z",
    "releaseTag": "6.3.1",
    "releaseDate": "2023-12-16T22:45:41Z",
    "apk": {
@@ -4076,7 +4100,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:29:47.436Z",
+   "syncedAt": "2026-08-05T14:36:02.075Z",
    "releaseTag": "2.10",
    "releaseDate": "2022-01-01T03:33:21Z"
   },
@@ -4087,7 +4111,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:29:49.558Z",
+   "syncedAt": "2026-08-05T14:36:03.013Z",
    "releaseTag": "v2.11.0",
    "releaseDate": "2025-09-09T21:55:54Z",
    "apk": {
@@ -4112,7 +4136,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:51.045Z",
+   "syncedAt": "2026-08-05T14:36:03.681Z",
    "releaseTag": "v160",
    "releaseDate": "2023-11-05T15:44:01Z",
    "apk": {
@@ -4136,7 +4160,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:52.531Z"
+   "syncedAt": "2026-08-05T14:36:04.308Z"
   },
   "oppia-android": {
    "stars": 404,
@@ -4145,7 +4169,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:29:54.797Z",
+   "syncedAt": "2026-08-05T14:36:05.339Z",
    "releaseTag": "v0.17",
    "releaseDate": "2025-12-31T02:48:31Z"
   },
@@ -4156,7 +4180,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:29:58.847Z",
+   "syncedAt": "2026-08-05T14:36:06.867Z",
    "releaseTag": "v1.8.11",
    "releaseDate": "2026-01-29T18:22:04Z",
    "apk": {
@@ -4181,7 +4205,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:01.165Z"
+   "syncedAt": "2026-08-05T14:36:07.777Z"
   },
   "osmin": {
    "stars": 160,
@@ -4190,7 +4214,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:07.018Z",
+   "syncedAt": "2026-08-05T14:36:10.633Z",
    "releaseTag": "1.15.2",
    "releaseDate": "2026-07-29T14:55:12Z",
    "apk": {
@@ -4207,13 +4231,13 @@
    ]
   },
   "overlay-translator": {
-   "stars": 492,
+   "stars": 493,
    "owner": "ciddwd",
    "pushedAt": "2026-08-02T16:28:20Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:09.154Z",
+   "syncedAt": "2026-08-05T14:36:11.301Z",
    "releaseTag": "v0.4.3",
    "releaseDate": "2026-07-31T10:22:23Z",
    "apk": {
@@ -4229,7 +4253,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:11.119Z"
+   "syncedAt": "2026-08-05T14:36:12.095Z"
   },
   "panther": {
    "stars": 9,
@@ -4238,7 +4262,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:13.089Z",
+   "syncedAt": "2026-08-05T14:36:13.292Z",
    "releaseTag": "V1.0.11",
    "releaseDate": "2025-11-19T04:17:20Z",
    "apk": {
@@ -4254,7 +4278,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:30:15.171Z"
+   "syncedAt": "2026-08-05T14:36:14.317Z"
   },
   "parson": {
    "stars": 129,
@@ -4263,7 +4287,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:17.142Z",
+   "syncedAt": "2026-08-05T14:36:15.479Z",
    "releaseTag": "v1.0.0",
    "releaseDate": "2026-07-30T20:06:16Z"
   },
@@ -4274,7 +4298,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:19.181Z",
+   "syncedAt": "2026-08-05T14:36:16.356Z",
    "releaseTag": "v1.6.0",
    "releaseDate": "2025-06-15T11:09:38Z",
    "apk": {
@@ -4300,7 +4324,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:20.912Z",
+   "syncedAt": "2026-08-05T14:36:17.014Z",
    "releaseTag": "v1.10.1",
    "releaseDate": "2026-03-24T00:21:01Z",
    "icon": "https://raw.githubusercontent.com/GlitterWare/Passy/main/fastlane/metadata/android/en-US/images/icon.png",
@@ -4320,7 +4344,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:22.570Z",
+   "syncedAt": "2026-08-05T14:36:17.638Z",
    "releaseTag": "2.1.1-fix-6",
    "releaseDate": "2025-06-18T13:51:01Z",
    "apk": {
@@ -4337,7 +4361,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:24.492Z",
+   "syncedAt": "2026-08-05T14:36:18.518Z",
    "releaseTag": "v1.2.2",
    "releaseDate": "2026-01-29T17:26:01Z",
    "apk": {
@@ -4353,7 +4377,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:26.319Z",
+   "syncedAt": "2026-08-05T14:36:19.312Z",
    "releaseTag": "v1.3.213",
    "releaseDate": "2026-08-04T15:46:22Z",
    "apk": {
@@ -4379,7 +4403,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:28.043Z",
+   "syncedAt": "2026-08-05T14:36:20.014Z",
    "releaseTag": "v1.0",
    "releaseDate": "2026-06-22T09:28:37Z",
    "apk": {
@@ -4403,7 +4427,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:29.541Z",
+   "syncedAt": "2026-08-05T14:36:20.745Z",
    "releaseTag": "v0.1.0-beta",
    "releaseDate": "2026-03-25T21:03:36Z",
    "apk": {
@@ -4419,7 +4443,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:30:31.441Z",
+   "syncedAt": "2026-08-05T14:36:21.511Z",
    "releaseTag": "3.43.2",
    "releaseDate": "2026-08-04T22:25:43Z",
    "apk": {
@@ -4444,7 +4468,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:32.999Z",
+   "syncedAt": "2026-08-05T14:36:22.117Z",
    "releaseTag": "v4.1.1",
    "releaseDate": "2026-08-03T23:14:59Z",
    "apk": {
@@ -4462,13 +4486,13 @@
    ]
   },
   "photo-widget": {
-   "stars": 320,
+   "stars": 321,
    "owner": "fibelatti",
    "pushedAt": "2026-08-04T18:58:59Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:34.625Z",
+   "syncedAt": "2026-08-05T14:36:22.859Z",
    "releaseTag": "v1.45.0",
    "releaseDate": "2026-08-04T19:05:16Z",
    "apk": {
@@ -4492,7 +4516,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:36.095Z",
+   "syncedAt": "2026-08-05T14:36:23.576Z",
    "releaseTag": "1.28.0",
    "releaseDate": "2026-07-15T10:44:55Z",
    "apk": {
@@ -4513,7 +4537,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:37.570Z",
+   "syncedAt": "2026-08-05T14:36:24.329Z",
    "releaseTag": "v0.15.0",
    "releaseDate": "2026-01-11T16:57:19Z",
    "apk": {
@@ -4536,7 +4560,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:40.859Z",
+   "syncedAt": "2026-08-05T14:36:25.355Z",
    "releaseTag": "v2.1.0-b6",
    "releaseDate": "2026-02-13T19:09:16Z",
    "apk": {
@@ -4553,7 +4577,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:43.019Z",
+   "syncedAt": "2026-08-05T14:36:26.187Z",
    "releaseTag": "v1.1",
    "releaseDate": "2024-10-30T15:06:40Z",
    "apk": {
@@ -4570,7 +4594,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:44.926Z",
+   "syncedAt": "2026-08-05T14:36:26.992Z",
    "releaseTag": "v0.0.29",
    "releaseDate": "2023-08-29T00:09:51Z",
    "apk": {
@@ -4586,7 +4610,10 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:30:46.731Z"
+   "syncedAt": "2026-08-05T14:36:27.857Z",
+   "prerelease": true,
+   "releaseTag": "v1.5.1-beta6",
+   "releaseDate": "2025-05-30T13:20:00Z"
   },
   "pockaw": {
    "stars": 103,
@@ -4595,7 +4622,16 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:48.810Z"
+   "syncedAt": "2026-08-05T14:36:29.006Z",
+   "prerelease": true,
+   "releaseTag": "v0.0.8+35",
+   "releaseDate": "2025-11-30T06:13:03Z",
+   "apk": {
+    "name": "pockaw-arm64-v8a-release.apk",
+    "url": "https://github.com/layground/pockaw/releases/download/v0.0.8%2B35/pockaw-arm64-v8a-release.apk",
+    "size": 31906903
+   },
+   "apkCount": 3
   },
   "podcini": {
    "stars": 237,
@@ -4604,7 +4640,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:50.812Z",
+   "syncedAt": "2026-08-05T14:36:30.220Z",
    "releaseTag": "7.3.5",
    "releaseDate": "2025-01-13T12:06:09Z",
    "apk": {
@@ -4630,7 +4666,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:52.334Z",
+   "syncedAt": "2026-08-05T14:36:30.944Z",
    "releaseTag": "v1.0.0-alpha08",
    "releaseDate": "2026-04-10T22:43:52Z",
    "apk": {
@@ -4655,7 +4691,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:53.879Z",
+   "syncedAt": "2026-08-05T14:36:31.681Z",
    "releaseTag": "v1.01-88",
    "releaseDate": "2026-05-15T19:34:14Z",
    "apk": {
@@ -4680,7 +4716,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:56.379Z"
+   "syncedAt": "2026-08-05T14:36:32.672Z"
   },
   "procrastilearn": {
    "stars": 6,
@@ -4689,7 +4725,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:30:58.427Z",
+   "syncedAt": "2026-08-05T14:36:33.716Z",
    "releaseTag": "v1.3.0",
    "releaseDate": "2026-07-19T21:32:32Z",
    "apk": {
@@ -4713,7 +4749,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:30:59.942Z",
+   "syncedAt": "2026-08-05T14:36:34.406Z",
    "releaseTag": "v1.14.2",
    "releaseDate": "2025-09-03T10:28:45Z",
    "apk": {
@@ -4729,7 +4765,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:01.919Z",
+   "syncedAt": "2026-08-05T14:36:35.254Z",
    "releaseTag": "1.3",
    "releaseDate": "2026-05-26T21:49:28Z",
    "apk": {
@@ -4745,7 +4781,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:03.769Z",
+   "syncedAt": "2026-08-05T14:36:36.136Z",
    "releaseTag": "v2.2.1",
    "releaseDate": "2026-07-28T21:20:24Z",
    "apk": {
@@ -4768,7 +4804,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:05.368Z",
+   "syncedAt": "2026-08-05T14:36:36.773Z",
    "releaseTag": "1.1.38",
    "releaseDate": "2026-07-31T05:33:34Z",
    "apk": {
@@ -4794,7 +4830,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:07.247Z",
+   "syncedAt": "2026-08-05T14:36:37.455Z",
    "releaseTag": "v1.4.0",
    "releaseDate": "2025-03-06T20:40:24Z",
    "apk": {
@@ -4810,7 +4846,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:31:09.307Z",
+   "syncedAt": "2026-08-05T14:36:38.351Z",
    "releaseTag": "4.58.0-fdroid",
    "releaseDate": "2026-08-02T13:37:39Z",
    "apk": {
@@ -4835,7 +4871,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:11.170Z",
+   "syncedAt": "2026-08-05T14:36:39.101Z",
    "releaseTag": "v2.1.1",
    "releaseDate": "2025-07-07T16:02:01Z",
    "apk": {
@@ -4860,7 +4896,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:12.893Z",
+   "syncedAt": "2026-08-05T14:36:39.878Z",
    "releaseTag": "32.4.beta.1.1",
    "releaseDate": "2026-07-14T22:32:50Z",
    "apk": {
@@ -4870,13 +4906,13 @@
    }
   },
   "remotepointer-android": {
-   "stars": 71,
+   "stars": 72,
    "owner": "schorschii",
    "pushedAt": "2026-06-07T21:27:38Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:14.771Z",
+   "syncedAt": "2026-08-05T14:36:40.752Z",
    "releaseTag": "v3.2",
    "releaseDate": "2026-05-28T15:38:39Z",
    "apk": {
@@ -4901,7 +4937,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:16.379Z",
+   "syncedAt": "2026-08-05T14:36:41.466Z",
    "releaseTag": "v0.6.6",
    "releaseDate": "2026-08-04T12:28:46Z",
    "apk": {
@@ -4927,7 +4963,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:18.163Z",
+   "syncedAt": "2026-08-05T14:36:42.291Z",
    "releaseTag": "v2.0.0",
    "releaseDate": "2026-05-09T11:20:00Z",
    "apk": {
@@ -4943,7 +4979,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:20.077Z",
+   "syncedAt": "2026-08-05T14:36:43.057Z",
    "releaseTag": "0.32.5",
    "releaseDate": "2024-08-16T23:07:29Z",
    "icon": "https://raw.githubusercontent.com/retrowars/retrowars/master/fastlane/metadata/android/en-US/images/icon.png",
@@ -4963,7 +4999,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:21.871Z",
+   "syncedAt": "2026-08-05T14:36:43.724Z",
    "releaseTag": "0.5.5",
    "releaseDate": "2023-04-21T19:13:47Z"
   },
@@ -4974,7 +5010,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "BSD-2-Clause",
-   "syncedAt": "2026-08-05T11:31:24.344Z",
+   "syncedAt": "2026-08-05T14:36:44.465Z",
    "releaseTag": "1.3.5",
    "releaseDate": "2024-09-02T16:09:24Z",
    "apk": {
@@ -4990,7 +5026,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:31:26.214Z",
+   "syncedAt": "2026-08-05T14:36:45.215Z",
    "releaseTag": "v1.14.0",
    "releaseDate": "2026-08-04T14:27:28Z",
    "apk": {
@@ -5015,7 +5051,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:31:28.550Z",
+   "syncedAt": "2026-08-05T14:36:46.094Z",
    "releaseTag": "v2.36.0",
    "releaseDate": "2026-08-03T15:48:36Z",
    "apk": {
@@ -5031,7 +5067,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "BSD-3-Clause",
-   "syncedAt": "2026-08-05T11:31:30.402Z",
+   "syncedAt": "2026-08-05T14:36:46.942Z",
    "releaseTag": "v0.1.4",
    "releaseDate": "2026-08-03T18:07:18Z",
    "apk": {
@@ -5048,7 +5084,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:32.317Z",
+   "syncedAt": "2026-08-05T14:36:47.806Z",
    "releaseTag": "v1.15.0",
    "releaseDate": "2026-05-14T14:51:55Z",
    "apk": {
@@ -5068,7 +5104,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:34.923Z",
+   "syncedAt": "2026-08-05T14:36:48.625Z",
    "releaseTag": "2026.03.12",
    "releaseDate": "2026-03-12T06:11:35Z",
    "apk": {
@@ -5084,7 +5120,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:37.560Z",
+   "syncedAt": "2026-08-05T14:36:49.437Z",
    "releaseTag": "v3.0.9",
    "releaseDate": "2026-04-02T03:43:57Z",
    "apk": {
@@ -5107,7 +5143,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:39.265Z"
+   "syncedAt": "2026-08-05T14:36:50.353Z"
   },
   "safehaven-store": {
    "stars": 169,
@@ -5116,7 +5152,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:31:41.867Z",
+   "syncedAt": "2026-08-05T14:36:51.838Z",
    "releaseTag": "v2.0.8",
    "releaseDate": "2026-08-04T12:49:56Z",
    "apk": {
@@ -5139,7 +5175,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:43.640Z",
+   "syncedAt": "2026-08-05T14:36:52.606Z",
    "releaseTag": "2.3.6",
    "releaseDate": "2026-05-16T08:58:50Z",
    "apk": {
@@ -5164,7 +5200,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:45.340Z",
+   "syncedAt": "2026-08-05T14:36:53.430Z",
    "releaseTag": "v0.6.6",
    "releaseDate": "2024-01-06T20:09:12Z",
    "apk": {
@@ -5190,7 +5226,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MPL-2.0",
-   "syncedAt": "2026-08-05T11:31:46.813Z",
+   "syncedAt": "2026-08-05T14:36:54.191Z",
    "releaseTag": "v1.2.0",
    "releaseDate": "2026-07-07T14:54:04Z",
    "apk": {
@@ -5200,13 +5236,13 @@
    }
   },
   "shizucallrecorder": {
-   "stars": 1138,
+   "stars": 1142,
    "owner": "kitsumed",
    "pushedAt": "2026-08-04T22:02:06Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:50.786Z",
+   "syncedAt": "2026-08-05T14:36:56.298Z",
    "releaseTag": "v1.3.2",
    "releaseDate": "2026-08-03T18:31:39Z",
    "apk": {
@@ -5228,7 +5264,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:52.319Z",
+   "syncedAt": "2026-08-05T14:36:57.004Z",
    "releaseTag": "v0.4.5",
    "releaseDate": "2026-01-30T20:15:18Z",
    "apk": {
@@ -5253,7 +5289,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MPL-2.0",
-   "syncedAt": "2026-08-05T11:31:56.441Z",
+   "syncedAt": "2026-08-05T14:36:59.093Z",
    "releaseTag": "v8.8.3",
    "releaseDate": "2026-06-30T10:06:44Z",
    "apk": {
@@ -5278,7 +5314,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:31:58.607Z",
+   "syncedAt": "2026-08-05T14:36:59.992Z",
    "releaseTag": "5.11.4",
    "releaseDate": "2023-09-05T09:53:01Z",
    "apk": {
@@ -5301,7 +5337,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:00.105Z",
+   "syncedAt": "2026-08-05T14:37:00.720Z",
    "releaseTag": "6.16.1",
    "releaseDate": "2023-09-19T15:27:16Z",
    "apk": {
@@ -5326,7 +5362,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:01.695Z",
+   "syncedAt": "2026-08-05T14:37:01.556Z",
    "releaseTag": "5.4.9",
    "releaseDate": "2023-10-15T08:57:29Z",
    "apk": {
@@ -5349,7 +5385,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:03.562Z",
+   "syncedAt": "2026-08-05T14:37:02.340Z",
    "releaseTag": "5.18.3",
    "releaseDate": "2023-10-17T07:15:47Z",
    "apk": {
@@ -5372,7 +5408,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:05.661Z",
+   "syncedAt": "2026-08-05T14:37:03.273Z",
    "releaseTag": "5.19.3",
    "releaseDate": "2023-10-05T10:55:30Z",
    "apk": {
@@ -5395,7 +5431,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:07.234Z",
+   "syncedAt": "2026-08-05T14:37:04.071Z",
    "releaseTag": "v0.5.0",
    "releaseDate": "2025-12-29T16:53:16Z"
   },
@@ -5406,7 +5442,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:09.147Z"
+   "syncedAt": "2026-08-05T14:37:04.966Z"
   },
   "small-talk": {
    "stars": 139,
@@ -5415,7 +5451,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:11.179Z",
+   "syncedAt": "2026-08-05T14:37:06.204Z",
    "releaseTag": "23/01/01.1",
    "releaseDate": "2023-01-08T12:56:04Z",
    "apk": {
@@ -5432,7 +5468,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MPL-2.0",
-   "syncedAt": "2026-08-05T11:32:13.080Z",
+   "syncedAt": "2026-08-05T14:37:07.117Z",
    "releaseTag": "v16.3",
    "releaseDate": "2022-02-16T11:45:45Z",
    "apk": {
@@ -5449,7 +5485,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:14.481Z",
+   "syncedAt": "2026-08-05T14:37:07.918Z",
    "releaseTag": "v4.2",
    "releaseDate": "2026-07-26T09:50:37Z",
    "apk": {
@@ -5473,7 +5509,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:16.107Z",
+   "syncedAt": "2026-08-05T14:37:08.824Z",
    "icon": "https://raw.githubusercontent.com/snikket-im/snikket-android/master/fastlane/metadata/android/en-US/images/icon.png",
    "screenshots": [
     "https://raw.githubusercontent.com/snikket-im/snikket-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
@@ -5489,7 +5525,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:17.874Z",
+   "syncedAt": "2026-08-05T14:37:09.971Z",
    "releaseTag": "v4.3.3",
    "releaseDate": "2026-06-01T21:44:02Z",
    "apk": {
@@ -5510,7 +5546,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:19.387Z",
+   "syncedAt": "2026-08-05T14:37:10.797Z",
    "releaseTag": "v4.0_22",
    "releaseDate": "2026-05-30T09:03:06Z",
    "apk": {
@@ -5535,7 +5571,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:32:21.002Z",
+   "syncedAt": "2026-08-05T14:37:11.516Z",
    "releaseTag": "v0.9.22",
    "releaseDate": "2026-06-16T22:00:53Z",
    "apk": {
@@ -5551,7 +5587,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:32:23.603Z",
+   "syncedAt": "2026-08-05T14:37:12.457Z",
    "releaseTag": "v3.15.1",
    "releaseDate": "2026-02-16T17:58:02Z",
    "apk": {
@@ -5567,7 +5603,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:25.408Z",
+   "syncedAt": "2026-08-05T14:37:13.295Z",
    "releaseTag": "4.1.002",
    "releaseDate": "2026-08-05T07:11:41Z",
    "apk": {
@@ -5583,7 +5619,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:32:27.324Z",
+   "syncedAt": "2026-08-05T14:37:14.353Z",
    "releaseTag": "3.0.27",
    "releaseDate": "2020-05-20T11:01:52Z",
    "apk": {
@@ -5600,7 +5636,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:32:29.434Z",
+   "syncedAt": "2026-08-05T14:37:15.319Z",
    "releaseTag": "1.0",
    "releaseDate": "2026-04-04T09:52:42Z",
    "apk": {
@@ -5616,7 +5652,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:31.282Z",
+   "syncedAt": "2026-08-05T14:37:16.298Z",
    "releaseTag": "4",
    "releaseDate": "2026-05-17T19:39:18Z",
    "apk": {
@@ -5632,7 +5668,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:32:33.269Z"
+   "syncedAt": "2026-08-05T14:37:17.355Z"
   },
   "surf": {
    "stars": 8,
@@ -5641,7 +5677,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:35.501Z",
+   "syncedAt": "2026-08-05T14:37:18.481Z",
    "releaseTag": "v5.8.2",
    "releaseDate": "2026-08-02T09:00:17Z",
    "apk": {
@@ -5657,7 +5693,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:37.378Z",
+   "syncedAt": "2026-08-05T14:37:19.408Z",
    "releaseTag": "v3.5.0",
    "releaseDate": "2026-07-24T14:36:30Z",
    "apk": {
@@ -5674,7 +5710,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:32:39.213Z",
+   "syncedAt": "2026-08-05T14:37:20.455Z",
    "releaseTag": "v0.23.0",
    "releaseDate": "2026-06-13T03:04:40Z",
    "apk": {
@@ -5692,7 +5728,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:40.438Z",
+   "syncedAt": "2026-08-05T14:37:21.046Z",
    "releaseTag": "v4.15.1",
    "releaseDate": "2025-11-25T23:00:14Z",
    "apk": {
@@ -5708,7 +5744,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:42.415Z",
+   "syncedAt": "2026-08-05T14:37:22.142Z",
    "releaseTag": "v0.3.2-1",
    "releaseDate": "2026-04-22T14:22:14Z",
    "apk": {
@@ -5724,7 +5760,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:32:44.696Z",
+   "syncedAt": "2026-08-05T14:37:22.961Z",
    "releaseTag": "v6.0.4+2026631065",
    "releaseDate": "2026-07-09T19:50:05Z",
    "apk": {
@@ -5750,7 +5786,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:46.329Z"
+   "syncedAt": "2026-08-05T14:37:23.739Z"
   },
   "tasker": {
    "stars": 261,
@@ -5759,7 +5795,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:32:48.606Z",
+   "syncedAt": "2026-08-05T14:37:24.934Z",
    "releaseTag": "1.0.1",
    "releaseDate": "2021-09-08T18:28:28Z",
    "apk": {
@@ -5775,7 +5811,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:50.585Z",
+   "syncedAt": "2026-08-05T14:37:25.760Z",
    "releaseTag": "v7.5",
    "releaseDate": "2024-05-08T20:24:39Z",
    "apk": {
@@ -5792,13 +5828,13 @@
    ]
   },
   "tempus": {
-   "stars": 1176,
+   "stars": 1177,
    "owner": "eddyizm",
    "pushedAt": "2026-08-04T19:20:06Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:52.270Z",
+   "syncedAt": "2026-08-05T14:37:26.454Z",
    "releaseTag": "v4.23.2",
    "releaseDate": "2026-08-04T14:47:35Z",
    "apk": {
@@ -5820,11 +5856,11 @@
   "texslate": {
    "stars": 20,
    "owner": "thobgg",
-   "pushedAt": "2026-08-05T07:40:58Z",
+   "pushedAt": "2026-08-05T12:47:03Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:32:55.473Z",
+   "syncedAt": "2026-08-05T14:37:28.138Z",
    "releaseTag": "v1.0-alpha19",
    "releaseDate": "2026-08-02T16:13:15Z",
    "apk": {
@@ -5842,7 +5878,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:32:56.813Z",
+   "syncedAt": "2026-08-05T14:37:28.936Z",
    "releaseTag": "1.3.1",
    "releaseDate": "2024-05-02T20:13:00Z",
    "apk": {
@@ -5865,7 +5901,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:00.210Z"
+   "syncedAt": "2026-08-05T14:37:30.517Z"
   },
   "timed-silence": {
    "stars": 79,
@@ -5874,7 +5910,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:02.555Z",
+   "syncedAt": "2026-08-05T14:37:31.723Z",
    "releaseTag": "v3.1.3",
    "releaseDate": "2024-10-19T10:54:33Z",
    "apk": {
@@ -5898,7 +5934,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:33:04.090Z",
+   "syncedAt": "2026-08-05T14:37:32.595Z",
    "releaseTag": "v0.25.5",
    "releaseDate": "2026-07-12T11:32:55Z"
   },
@@ -5909,7 +5945,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Unlicense",
-   "syncedAt": "2026-08-05T11:33:06.118Z",
+   "syncedAt": "2026-08-05T14:37:33.374Z",
    "releaseTag": "2026.03.12",
    "releaseDate": "2026-03-12T22:11:52Z",
    "apk": {
@@ -5925,7 +5961,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:07.931Z",
+   "syncedAt": "2026-08-05T14:37:34.399Z",
    "releaseTag": "v1.3",
    "releaseDate": "2023-02-04T17:20:10Z",
    "apk": {
@@ -5942,7 +5978,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:10.288Z",
+   "syncedAt": "2026-08-05T14:37:34.907Z",
    "releaseTag": "v1.8.2",
    "releaseDate": "2026-08-01T08:49:28Z",
    "apk": {
@@ -5967,7 +6003,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:33:11.896Z",
+   "syncedAt": "2026-08-05T14:37:35.670Z",
    "releaseTag": "v7.9",
    "releaseDate": "2025-04-17T14:23:24Z",
    "apk": {
@@ -5983,7 +6019,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "ISC",
-   "syncedAt": "2026-08-05T11:33:13.958Z",
+   "syncedAt": "2026-08-05T14:37:36.502Z",
    "releaseTag": "7",
    "releaseDate": "2025-08-07T02:27:49Z",
    "apk": {
@@ -5999,7 +6035,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:15.732Z",
+   "syncedAt": "2026-08-05T14:37:37.458Z",
    "releaseTag": "v1.0.2",
    "releaseDate": "2026-06-06T06:16:32Z",
    "apk": {
@@ -6025,7 +6061,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:33:17.420Z",
+   "syncedAt": "2026-08-05T14:37:38.135Z",
    "releaseTag": "v63.0",
    "releaseDate": "2026-07-15T16:48:08Z",
    "apk": {
@@ -6037,13 +6073,13 @@
    "icon": "https://raw.githubusercontent.com/sspanak/tt9/master/fastlane/metadata/android/en-US/images/icon.png"
   },
   "tunnel-forge": {
-   "stars": 59,
+   "stars": 60,
    "owner": "evokelektrique",
    "pushedAt": "2026-07-14T15:27:20Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:18.674Z",
+   "syncedAt": "2026-08-05T14:37:38.704Z",
    "releaseTag": "v0.7.4",
    "releaseDate": "2026-07-11T11:07:58Z",
    "apk": {
@@ -6069,7 +6105,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:20.239Z",
+   "syncedAt": "2026-08-05T14:37:39.575Z",
    "releaseTag": "2026.15",
    "releaseDate": "2026-08-01T12:13:29Z",
    "apk": {
@@ -6091,7 +6127,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:33:22.001Z",
+   "syncedAt": "2026-08-05T14:37:40.318Z",
    "releaseTag": "v1.0",
    "releaseDate": "2018-07-03T00:25:48Z"
   },
@@ -6102,7 +6138,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:33:24.055Z",
+   "syncedAt": "2026-08-05T14:37:41.218Z",
    "releaseTag": "v1.0.8",
    "releaseDate": "2025-07-04T04:52:06Z",
    "apk": {
@@ -6125,7 +6161,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:25.933Z",
+   "syncedAt": "2026-08-05T14:37:42.110Z",
    "releaseTag": "apple-1.3.1-14",
    "releaseDate": "2026-08-04T18:31:32Z",
    "icon": "https://raw.githubusercontent.com/upvpn/upvpn-app/main/metadata/en-US/images/icon.png",
@@ -6145,7 +6181,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:33:28.122Z",
+   "syncedAt": "2026-08-05T14:37:43.067Z",
    "releaseTag": "v2.1.0",
    "releaseDate": "2026-03-15T02:56:56Z",
    "apk": {
@@ -6161,16 +6197,25 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:33:29.904Z"
+   "syncedAt": "2026-08-05T14:37:44.083Z",
+   "prerelease": true,
+   "releaseTag": "v1.6",
+   "releaseDate": "2019-04-19T09:18:36Z",
+   "apk": {
+    "name": "app-arm64.apk",
+    "url": "https://github.com/xm0625/VBrowser-Android/releases/download/v1.6/app-arm64.apk",
+    "size": 32262798
+   },
+   "apkCount": 4
   },
   "vela": {
-   "stars": 178,
+   "stars": 181,
    "owner": "PimpinPumpkin",
    "pushedAt": "2026-08-05T01:36:53Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:31.701Z",
+   "syncedAt": "2026-08-05T14:37:45.240Z",
    "releaseTag": "obf-runtime",
    "releaseDate": "2026-07-24T04:08:02Z"
   },
@@ -6181,7 +6226,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:33:33.598Z",
+   "syncedAt": "2026-08-05T14:37:46.373Z",
    "releaseTag": "v1.0.27",
    "releaseDate": "2026-08-03T23:03:42Z",
    "apk": {
@@ -6205,7 +6250,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:35.122Z",
+   "syncedAt": "2026-08-05T14:37:47.173Z",
    "releaseTag": "3.3.5",
    "releaseDate": "2026-05-02T05:47:51Z",
    "apk": {
@@ -6230,7 +6275,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:33:36.813Z",
+   "syncedAt": "2026-08-05T14:37:48.115Z",
    "releaseTag": "v1.5.2",
    "releaseDate": "2026-05-23T18:53:23Z",
    "apk": {
@@ -6247,7 +6292,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:41.365Z",
+   "syncedAt": "2026-08-05T14:37:50.898Z",
    "releaseTag": "v1.29",
    "releaseDate": "2024-09-25T12:47:18Z",
    "apk": {
@@ -6268,11 +6313,19 @@
   "weather-app": {
    "stars": 11,
    "owner": "fmidev",
-   "pushedAt": "2026-08-05T10:37:16Z",
+   "pushedAt": "2026-08-05T12:55:04Z",
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:33:43.048Z"
+   "syncedAt": "2026-08-05T14:37:51.572Z",
+   "prerelease": true,
+   "releaseTag": "latest",
+   "releaseDate": "2025-02-11T11:54:04Z",
+   "apk": {
+    "name": "app-latest.apk",
+    "url": "https://github.com/fmidev/weather-app/releases/download/latest/app-latest.apk",
+    "size": 156586689
+   }
   },
   "weatherradar": {
    "stars": 54,
@@ -6281,7 +6334,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:45.061Z",
+   "syncedAt": "2026-08-05T14:37:52.760Z",
    "releaseTag": "2.1",
    "releaseDate": "2026-05-06T15:21:50Z",
    "apk": {
@@ -6306,7 +6359,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:33:46.639Z",
+   "syncedAt": "2026-08-05T14:37:53.440Z",
    "releaseTag": "v0.21.0",
    "releaseDate": "2025-10-13T16:49:57Z",
    "apk": {
@@ -6328,7 +6381,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:48.452Z"
+   "syncedAt": "2026-08-05T14:37:54.398Z"
   },
   "white-cobalt": {
    "stars": 22,
@@ -6337,7 +6390,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-08-05T11:33:50.561Z",
+   "syncedAt": "2026-08-05T14:37:55.472Z",
    "releaseTag": "v0.8.9",
    "releaseDate": "2026-07-28T06:49:55Z",
    "apk": {
@@ -6353,7 +6406,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:52.716Z",
+   "syncedAt": "2026-08-05T14:37:56.210Z",
    "releaseTag": "1.8.1",
    "releaseDate": "2026-03-31T12:58:34Z",
    "apk": {
@@ -6369,7 +6422,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:54.607Z",
+   "syncedAt": "2026-08-05T14:37:57.090Z",
    "releaseTag": "v0.10.5+41",
    "releaseDate": "2026-06-07T17:49:14Z",
    "apk": {
@@ -6394,7 +6447,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:56.926Z",
+   "syncedAt": "2026-08-05T14:37:58.186Z",
    "releaseTag": "V6.7",
    "releaseDate": "2025-07-01T07:34:00Z",
    "icon": "https://raw.githubusercontent.com/woheller69/weather/main/fastlane/metadata/android/en-US/images/icon.png",
@@ -6414,7 +6467,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:33:59.592Z",
+   "syncedAt": "2026-08-05T14:37:58.886Z",
    "releaseTag": "v1.3.9",
    "releaseDate": "2026-08-02T19:57:59Z",
    "apk": {
@@ -6439,7 +6492,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:34:01.169Z",
+   "syncedAt": "2026-08-05T14:37:59.671Z",
    "releaseTag": "v3.2.1",
    "releaseDate": "2024-03-16T16:38:35Z",
    "icon": "https://raw.githubusercontent.com/AlienKevin/wordshk_app/main/fastlane/metadata/android/en-US/images/icon.png",
@@ -6458,7 +6511,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:34:02.793Z",
+   "syncedAt": "2026-08-05T14:38:00.386Z",
    "releaseTag": "1.9.0",
    "releaseDate": "2024-08-17T17:00:07Z",
    "apk": {
@@ -6474,7 +6527,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:34:04.917Z",
+   "syncedAt": "2026-08-05T14:38:01.209Z",
    "releaseTag": "v3.2.5",
    "releaseDate": "2024-12-25T10:16:59Z"
   },
@@ -6485,7 +6538,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:34:06.772Z",
+   "syncedAt": "2026-08-05T14:38:02.137Z",
    "releaseTag": "v3.1",
    "releaseDate": "2024-03-03T13:43:43Z",
    "apk": {
@@ -6501,7 +6554,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-2.0",
-   "syncedAt": "2026-08-05T11:34:08.747Z",
+   "syncedAt": "2026-08-05T14:38:02.945Z",
    "releaseTag": "v7.44",
    "releaseDate": "2026-03-22T11:12:31Z",
    "apk": {
@@ -6525,7 +6578,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "LGPL-3.0",
-   "syncedAt": "2026-08-05T11:34:10.536Z",
+   "syncedAt": "2026-08-05T14:38:03.753Z",
    "releaseTag": "1.7.5_175201231",
    "releaseDate": "2020-12-31T13:48:42Z"
   },
@@ -6536,7 +6589,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:34:12.665Z",
+   "syncedAt": "2026-08-05T14:38:04.833Z",
    "releaseTag": "v0.8.10",
    "releaseDate": "2026-08-02T11:15:41Z",
    "apk": {
@@ -6558,7 +6611,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-08-05T11:34:14.235Z",
+   "syncedAt": "2026-08-05T14:38:05.557Z",
    "releaseTag": "v0.1.4",
    "releaseDate": "2026-08-02T07:56:22Z",
    "apk": {
@@ -6574,7 +6627,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "GPL-3.0",
-   "syncedAt": "2026-08-05T11:34:16.209Z",
+   "syncedAt": "2026-08-05T14:38:06.391Z",
    "releaseTag": "v6.1.9",
    "releaseDate": "2022-09-18T10:02:25Z",
    "apk": {
@@ -6599,7 +6652,10 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "Apache-2.0",
-   "syncedAt": "2026-08-05T11:34:17.952Z"
+   "syncedAt": "2026-08-05T14:38:07.162Z",
+   "prerelease": true,
+   "releaseTag": "v0.6.0",
+   "releaseDate": "2019-09-21T13:48:57Z"
   },
   "zero": {
    "stars": 127,
@@ -6608,7 +6664,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "BSD-2-Clause",
-   "syncedAt": "2026-08-05T11:34:20.018Z",
+   "syncedAt": "2026-08-05T14:38:08.644Z",
    "releaseTag": "v2.4.2",
    "releaseDate": "2026-07-05T03:36:19Z"
   }
