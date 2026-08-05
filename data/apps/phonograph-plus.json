@@ -1,0 +1,11 @@
+{
+  "id": "phonograph-plus",
+  "name": "Phonograph Plus",
+  "tagline": "A classic music player, kept alive and improved",
+  "description": "Phonograph Plus continues the much-loved Phonograph player with new features, fixes and no tracking, while keeping the design people liked.\n\nIt plays local files, edits tags, and works entirely offline.",
+  "repo": "https://github.com/chr56/Phonograph_Plus",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "tags", "material", "player"],
+  "added": "2026-08-05"
+}

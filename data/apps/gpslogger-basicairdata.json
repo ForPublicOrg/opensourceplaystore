@@ -1,0 +1,11 @@
+{
+  "id": "gpslogger-basicairdata",
+  "name": "GPS Logger",
+  "tagline": "Record your walks, rides and flights",
+  "description": "GPS Logger keeps a track of where you go and exports it as standard map files you can open anywhere.\n\nIt shows live speed, altitude and accuracy, works offline, and does not upload anything.",
+  "repo": "https://github.com/BasicAirData/GPSLogger",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["gps", "tracking", "gpx", "offline", "outdoors"],
+  "added": "2026-08-05"
+}

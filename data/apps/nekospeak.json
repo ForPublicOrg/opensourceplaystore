@@ -1,0 +1,11 @@
+{
+  "id": "nekospeak",
+  "name": "NekoSpeak",
+  "tagline": "Natural-sounding voices that work with no internet",
+  "description": "NekoSpeak is a text-to-speech engine that runs entirely on your phone, using modern neural voices that sound far more human than the old built-in ones.\n\nInstall it, pick a voice, and any app that reads text aloud can use it — offline, free and without tracking.",
+  "repo": "https://github.com/siva-sub/NekoSpeak",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["tts", "offline", "voice", "accessibility", "privacy"],
+  "added": "2026-08-05"
+}

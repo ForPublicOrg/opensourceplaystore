@@ -1,0 +1,11 @@
+{
+  "id": "openclaw-android",
+  "name": "OpenClaw for Android",
+  "tagline": "Run the OpenClaw agent on your phone in one command",
+  "description": "This app gets the OpenClaw AI agent running on Android without Linux tricks or complicated setup, so your phone can host the assistant itself.\n\nIt is aimed at people who like to tinker and want their agent close at hand.",
+  "repo": "https://github.com/AidanPark/openclaw-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "agent", "openclaw", "self-hosted", "developer"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "unexpected-keyboard",
+  "name": "Unexpected Keyboard",
+  "tagline": "A tiny keyboard with hidden extra keys",
+  "description": "Unexpected Keyboard puts four extra characters on every key: swipe a corner instead of tapping and you get symbols, arrows and control keys without switching layouts.\n\nIt is very small, needs no permissions, and is a favourite with people who use a terminal on their phone.",
+  "repo": "https://github.com/Julow/Unexpected-Keyboard",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["keyboard", "lightweight", "terminal", "privacy", "offline"],
+  "added": "2026-08-05"
+}

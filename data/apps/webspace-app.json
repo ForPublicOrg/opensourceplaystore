@@ -1,0 +1,11 @@
+{
+  "id": "webspace-app",
+  "name": "Webspace",
+  "tagline": "Your favourite web apps in one place",
+  "description": "Webspace keeps the websites you use like apps in a single tidy app, each with its own session and settings.\n\nIt saves installing half a dozen wrappers for services that are really just websites.",
+  "repo": "https://github.com/theoden8/webspace_app",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["web", "browser", "apps", "sessions", "lightweight"],
+  "added": "2026-08-05"
+}

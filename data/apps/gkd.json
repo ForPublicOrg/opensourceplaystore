@@ -1,0 +1,11 @@
+{
+  "id": "gkd",
+  "name": "GKD",
+  "tagline": "Skips the ads that pop up inside other apps",
+  "description": "GKD watches for the full-screen adverts, update nags and pop-ups other apps show on opening, and taps them away before you see them, using rules the community keeps up to date.\n\nIt needs no root and you can write your own rules for anything it misses.",
+  "repo": "https://github.com/gkd-kit/gkd",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["adblock", "automation", "accessibility", "no-root", "rules"],
+  "added": "2026-08-05"
+}

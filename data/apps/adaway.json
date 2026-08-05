@@ -1,0 +1,11 @@
+{
+  "id": "adaway",
+  "name": "AdAway",
+  "tagline": "Blocks ads across your whole phone",
+  "description": "AdAway stops adverts and trackers before they load, in every app rather than just the browser, using lists of known ad servers.\n\nIt works with root, or without it using a local connection, and it is free forever.",
+  "repo": "https://github.com/AdAway/AdAway",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["adblock", "privacy", "hosts", "tracking", "root"],
+  "added": "2026-08-05"
+}

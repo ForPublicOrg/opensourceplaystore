@@ -1,0 +1,11 @@
+{
+  "id": "boundo",
+  "name": "Boundo",
+  "tagline": "Everything about the apps on your phone",
+  "description": "Boundo shows details of installed apps — versions, Android requirements, sizes — and helps you manage app files and updates.\n\nIt is tidy, free and useful when you care about what your phone is running.",
+  "repo": "https://github.com/cliuff/boundo",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["apps", "manager", "info", "apk", "material-you"],
+  "added": "2026-08-05"
+}

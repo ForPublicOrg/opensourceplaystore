@@ -1,0 +1,11 @@
+{
+  "id": "outertune",
+  "name": "OuterTune",
+  "tagline": "Plays your own music files and YouTube Music",
+  "description": "OuterTune handles both sides of a music library: the files already on your phone and everything on YouTube Music, in one player.\n\nIt has playlists, offline downloads, a sleep timer and Material You colours, with no ads anywhere.",
+  "repo": "https://github.com/OuterTune/OuterTune",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "local", "youtube-music", "offline", "material-you"],
+  "added": "2026-08-05"
+}

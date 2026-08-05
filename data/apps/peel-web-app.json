@@ -1,0 +1,11 @@
+{
+  "id": "peel-web-app",
+  "name": "Peel",
+  "tagline": "Turn any website into an app icon",
+  "description": "Peel wraps a website in its own little app with its own icon, so a site you use daily behaves like a proper app.\n\nIt is small, free and does not inject anything into the pages.",
+  "repo": "https://github.com/mazzz1y/peel",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["web", "pwa", "shortcut", "browser", "simple"],
+  "added": "2026-08-05"
+}

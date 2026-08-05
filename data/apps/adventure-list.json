@@ -1,0 +1,11 @@
+{
+  "id": "adventure-list",
+  "name": "Adventure List",
+  "tagline": "A to-do list that syncs to all your devices",
+  "description": "Adventure List keeps tasks in sync between your phone and computer through your existing account, with a clean interface on both.\n\nIt is free and open source, with no premium tier.",
+  "repo": "https://github.com/Merrit/adventure_list",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "tasks", "sync", "cross-platform", "free"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "notifixer",
+  "name": "NotiFixer",
+  "tagline": "Stop important notifications being swiped away",
+  "description": "NotiFixer makes chosen notifications persistent so a reminder you need can't be dismissed by accident.\n\nIt uses Shizuku, needs no root, and keeps everything local.",
+  "repo": "https://github.com/dkajan19/NotiFixer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["notifications", "shizuku", "reminders", "no-root", "utility"],
+  "added": "2026-08-05"
+}

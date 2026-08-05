@@ -1,0 +1,11 @@
+{
+  "id": "nfc-reader",
+  "name": "NFC Reader",
+  "tagline": "See what's stored on an NFC tag",
+  "description": "A simple app that reads NFC tags and cards and shows what they contain, in plain terms.\n\nUseful for checking a tag you've written, or just for curiosity about the cards in your wallet.",
+  "repo": "https://github.com/mueller-ma/NFCReader",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["nfc", "tags", "reader", "simple", "offline"],
+  "added": "2026-08-05"
+}

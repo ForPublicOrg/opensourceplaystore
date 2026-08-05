@@ -1,0 +1,11 @@
+{
+  "id": "timety",
+  "name": "Timety",
+  "tagline": "Tasks, focus timer and habits in one",
+  "description": "Timety brings a to-do list, a focus timer and habit tracking together, offline-first and without an account.\n\nIt is small and quick, and everything stays on the device.",
+  "repo": "https://github.com/Benji377/Timety",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["tasks", "habits", "focus", "offline", "timer"],
+  "added": "2026-08-05"
+}

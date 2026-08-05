@@ -1,0 +1,11 @@
+{
+  "id": "kvaesitso",
+  "name": "Kvaesitso",
+  "tagline": "A launcher where searching finds everything",
+  "description": "Kvaesitso replaces your home screen with one that searches apps, contacts, files, calendar events, unit conversions and the web from a single box.\n\nIt looks lovely, follows your wallpaper colours, and does not phone home.",
+  "repo": "https://github.com/MM2-0/Kvaesitso",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "search", "material-you", "privacy", "home-screen"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "servllama",
+  "name": "Servllama",
+  "tagline": "One tap turns your phone into an AI server",
+  "description": "Servllama runs a language model on your phone and shares it with your other devices, with no terminal or extra tools to install first.\n\nPick a model, press start, and point your laptop or another app at the address it shows you.",
+  "repo": "https://github.com/ArkaneFans/servllama",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["ai", "llm", "server", "offline", "self-hosted"],
+  "added": "2026-08-05"
+}

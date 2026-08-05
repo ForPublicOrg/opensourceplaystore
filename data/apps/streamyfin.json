@@ -1,0 +1,11 @@
+{
+  "id": "streamyfin",
+  "name": "Streamyfin",
+  "tagline": "A modern app for your Jellyfin films and shows",
+  "description": "Streamyfin plays everything on your Jellyfin server with downloads for offline watching, Chromecast support and a clean modern design.\n\nIt talks only to your own server.",
+  "repo": "https://github.com/streamyfin/streamyfin",
+  "category": "media",
+  "license": "MPL-2.0",
+  "tags": ["jellyfin", "video", "self-hosted", "offline", "chromecast"],
+  "added": "2026-08-05"
+}

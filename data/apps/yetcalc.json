@@ -1,0 +1,11 @@
+{
+  "id": "yetcalc",
+  "name": "yetCalc",
+  "tagline": "A scientific calculator that shows its working",
+  "description": "yetCalc handles scientific and programming calculations with a readable expression view and history, in a clean modern design.\n\nIt is free, offline and has no adverts.",
+  "repo": "https://github.com/Yet-Zio/yetCalc",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "tags": ["calculator", "scientific", "maths", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

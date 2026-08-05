@@ -1,0 +1,11 @@
+{
+  "id": "open-notes-minimal",
+  "name": "Open Notes",
+  "tagline": "A minimal note taking app",
+  "description": "Open Notes keeps it to the essentials: write a note, find it later, and nothing in between.\n\nIt is offline, free and open source.",
+  "repo": "https://github.com/Fandroid745/Open-notes",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "minimal", "offline", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

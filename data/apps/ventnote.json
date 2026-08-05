@@ -1,0 +1,11 @@
+{
+  "id": "ventnote",
+  "name": "VentNote",
+  "tagline": "Taking notes like a breeze",
+  "description": "VentNote is a small native notes app with a calm interface, search and no account of any kind.\n\nYour notes stay in the phone's own storage.",
+  "repo": "https://github.com/HellBus1/VentNote",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["notes", "offline", "simple", "material-you", "privacy"],
+  "added": "2026-08-05"
+}

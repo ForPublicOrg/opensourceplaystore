@@ -1,0 +1,11 @@
+{
+  "id": "deepdenoiser",
+  "name": "DeepDenoiser",
+  "tagline": "Cleans background noise out of a recording",
+  "description": "DeepDenoiser removes hiss, traffic and room noise from audio recordings using a model that runs on your phone, so speech comes out clear.\n\nNothing is uploaded, which matters for interviews and voice notes.",
+  "repo": "https://github.com/sayampy/deepdenoiser",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["audio", "noise", "offline", "ai", "recording"],
+  "added": "2026-08-05"
+}

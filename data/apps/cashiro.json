@@ -1,0 +1,11 @@
+{
+  "id": "cashiro",
+  "name": "Cashiro",
+  "tagline": "Builds your budget from bank messages",
+  "description": "Cashiro reads transaction texts and statements to assemble a picture of your spending, with categories, budgets and charts.\n\nThe reading happens on your phone, so your bank messages are not uploaded.",
+  "repo": "https://github.com/ritesh-kanwar/Cashiro",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["money", "budget", "sms", "charts", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "chocola-music",
+  "name": "Chocola",
+  "tagline": "A cute and capable offline music player",
+  "description": "Chocola plays the music files on your phone with a friendly design, playlists, tag editing and folder browsing.\n\nEverything is local — no sign-in, no ads, and nothing needs an internet connection.",
+  "repo": "https://github.com/sosauce/Chocola",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "player", "local", "material-you"],
+  "added": "2026-08-05"
+}

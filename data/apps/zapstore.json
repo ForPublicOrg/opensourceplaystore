@@ -1,0 +1,11 @@
+{
+  "id": "zapstore",
+  "name": "Zapstore",
+  "tagline": "An app store where developers sign their own apps",
+  "description": "Zapstore distributes Android apps signed by their developers over an open network, so there is no company in the middle deciding what exists.\n\nIt is a young, interesting take on what an app store could be.",
+  "repo": "https://github.com/zapstore/zapstore",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["appstore", "nostr", "signing", "open", "installer"],
+  "added": "2026-08-05"
+}

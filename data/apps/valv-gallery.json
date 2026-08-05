@@ -1,0 +1,11 @@
+{
+  "id": "valv-gallery",
+  "name": "Valv",
+  "tagline": "An encrypted gallery for photos and videos",
+  "description": "Valv stores pictures and videos in encrypted folders that only open with your password, with a proper gallery view once you're inside.\n\nEverything happens on the device, and the encryption is documented for anyone who wants to check it.",
+  "repo": "https://github.com/Arctosoft/Valv-Android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["gallery", "encryption", "vault", "photos", "privacy"],
+  "added": "2026-08-05"
+}

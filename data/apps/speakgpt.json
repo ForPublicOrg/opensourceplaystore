@@ -1,0 +1,11 @@
+{
+  "id": "speakgpt",
+  "name": "SpeakGPT",
+  "tagline": "A voice assistant powered by the AI of your choice",
+  "description": "SpeakGPT lets you talk to an AI assistant out loud and hear it answer back. It can also make images, read text from screenshots, and be set as your phone's default assistant.\n\nYou bring your own key, so there is no subscription and no middleman.",
+  "repo": "https://github.com/AndraxDev/speak-gpt",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "voice", "assistant", "chat", "images"],
+  "added": "2026-08-05"
+}

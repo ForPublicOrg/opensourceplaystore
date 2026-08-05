@@ -1,0 +1,11 @@
+{
+  "id": "emaki",
+  "name": "Emaki",
+  "tagline": "One light reader for novels, manga, PDFs and epubs",
+  "description": "Emaki opens most of the things you might want to read on a phone — light novels, manga, manhwa, PDF and EPUB files — in one small app.\n\nIt can also make short offline summaries of what you've read, and it keeps your library on the device.",
+  "repo": "https://github.com/Aatricks/Emaki",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["reader", "manga", "epub", "pdf", "novels", "offline"],
+  "added": "2026-08-05"
+}

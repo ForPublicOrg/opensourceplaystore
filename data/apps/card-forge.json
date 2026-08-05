@@ -1,0 +1,11 @@
+{
+  "id": "card-forge",
+  "name": "Forge",
+  "tagline": "Play a huge trading card game against the computer",
+  "description": "Forge is a deep card game engine you can play solo against a surprisingly clever computer opponent, or with friends. It knows tens of thousands of cards and all the fiddly rules that go with them.\n\nThere are quests, drafts, puzzles and full campaigns, plus a deck editor for building your own decks. It is made by volunteers and completely free.",
+  "repo": "https://github.com/Card-Forge/forge",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["cards", "strategy", "offline", "deckbuilding", "single-player"],
+  "added": "2026-08-05"
+}

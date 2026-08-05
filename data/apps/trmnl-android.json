@@ -1,0 +1,11 @@
+{
+  "id": "trmnl-android",
+  "name": "TRMNL for Android",
+  "tagline": "Turn a spare tablet into a calm dashboard",
+  "description": "This displays TRMNL dashboard screens on an Android device, so an old tablet becomes a quiet wall display for your calendar, weather or metrics.\n\nIt is the official open-source utility.",
+  "repo": "https://github.com/usetrmnl/trmnl-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["dashboard", "display", "reuse", "e-ink", "home"],
+  "added": "2026-08-05"
+}

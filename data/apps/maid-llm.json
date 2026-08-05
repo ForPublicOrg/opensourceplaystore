@@ -1,0 +1,11 @@
+{
+  "id": "maid-llm",
+  "name": "Maid",
+  "tagline": "Chat with AI models running right on your phone",
+  "description": "Maid runs open AI models directly on your device using llama.cpp, so you can have a conversation with no account, no internet and no data leaving the phone.\n\nIf you'd rather use a big online model instead, it can talk to those too — you just paste in your own key. Character cards let you give the assistant a personality.",
+  "repo": "https://github.com/Mobile-Artificial-Intelligence/maid",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "llm", "offline", "llamacpp", "chat"],
+  "added": "2026-08-05"
+}

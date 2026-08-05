@@ -1,0 +1,11 @@
+{
+  "id": "notally",
+  "name": "Notally",
+  "tagline": "A beautiful, minimal notes app",
+  "description": "Notally keeps notes and checklists in a clean interface with labels, pinning and search — and nothing else to get in the way.\n\nIt has no account, no ads and no permissions to speak of, and can back up to a file you keep.",
+  "repo": "https://github.com/OmGodse/Notally",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "checklist", "minimal", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

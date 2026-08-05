@@ -1,0 +1,11 @@
+{
+  "id": "ente-photos",
+  "name": "Ente",
+  "tagline": "Photo backup where only you can see the photos",
+  "description": "Ente backs up your photos and videos with end-to-end encryption, meaning the service itself cannot look at them. Albums, sharing and search all still work.\n\nThe apps are open source and there is a free tier; paid plans fund the servers.",
+  "repo": "https://github.com/ente/ente",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["photos", "backup", "encryption", "cloud", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bing-wallpaper",
+  "name": "Bing Wallpaper",
+  "tagline": "A new photo on your home screen every day",
+  "description": "This sets Bing's daily photograph as your wallpaper automatically, with a history you can browse and save from.\n\nIt is small, free and lets you choose when it updates.",
+  "repo": "https://github.com/liaoheng/BingWallpaper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "daily", "photos", "auto", "simple"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "medito",
+  "name": "Medito",
+  "tagline": "Meditation and sleep sessions, free forever",
+  "description": "Medito offers guided meditations, sleep stories and breathing exercises made by a non-profit, with no subscription, no ads and no account.\n\nEverything is genuinely free — the whole point of the project.",
+  "repo": "https://github.com/meditohq/medito-app",
+  "category": "education",
+  "license": "AGPL-3.0",
+  "tags": ["meditation", "sleep", "wellbeing", "free", "no-ads"],
+  "added": "2026-08-05"
+}

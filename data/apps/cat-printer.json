@@ -1,0 +1,11 @@
+{
+  "id": "cat-printer",
+  "name": "Cat Printer",
+  "tagline": "Print to those tiny Bluetooth thermal printers",
+  "description": "Cat Printer drives the cheap little thermal printers sold everywhere, letting you print text, pictures and notes without the manufacturer's app.\n\nIt is friendly, open, and works offline.",
+  "repo": "https://github.com/NaitLee/Cat-Printer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["printer", "bluetooth", "thermal", "offline", "fun"],
+  "added": "2026-08-05"
+}

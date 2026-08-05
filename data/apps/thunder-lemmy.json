@@ -1,0 +1,11 @@
+{
+  "id": "thunder-lemmy",
+  "name": "Thunder",
+  "tagline": "A cross-platform app for Lemmy and PieFed",
+  "description": "Thunder browses the open discussion networks with gestures, themes and a comfortable reading layout on phones and tablets.\n\nIt supports multiple accounts and has no advertising.",
+  "repo": "https://github.com/thunder-app/thunder",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": ["lemmy", "fediverse", "communities", "gestures", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rtranslator",
+  "name": "RTranslator",
+  "tagline": "Talk to someone in another language, live",
+  "description": "RTranslator listens while two people talk and translates for both of them in real time. Put in one earbud each, and you can hold a normal conversation even when you don't share a language.\n\nThe translation runs on your phone instead of a company's servers, so it works without internet and nothing you say is sent away. It can also translate text you type or speech from a single speaker.",
+  "repo": "https://github.com/niedev/RTranslator",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["translation", "offline", "conversation", "ai", "privacy"],
+  "added": "2026-08-05"
+}

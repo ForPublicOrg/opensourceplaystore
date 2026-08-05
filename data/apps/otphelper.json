@@ -1,0 +1,11 @@
+{
+  "id": "otphelper",
+  "name": "OTP Helper",
+  "tagline": "Copies verification codes out of notifications",
+  "description": "OTP Helper spots the one-time codes that arrive by text or in notifications and copies them straight to your clipboard, so you stop retyping six digits.\n\nIt reads notifications on the device only and never sends them anywhere.",
+  "repo": "https://github.com/jd1378/otphelper",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["otp", "sms", "clipboard", "notifications", "privacy"],
+  "added": "2026-08-05"
+}

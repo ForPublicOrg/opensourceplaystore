@@ -1,0 +1,11 @@
+{
+  "id": "cashew",
+  "name": "Cashew",
+  "tagline": "A friendly budget and spending tracker",
+  "description": "Cashew helps you set budgets, log what you spend and see where the money went, with colourful charts and gentle reminders.\n\nIt works offline, can sync through your own storage, and does not connect to your bank.",
+  "repo": "https://github.com/jameskokoska/Cashew",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["budget", "money", "expenses", "charts", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cardinal-maps",
+  "name": "Cardinal Maps",
+  "tagline": "Maps and directions that work offline",
+  "description": "Cardinal is a free maps app built on open data, with search, routing and offline use, and no advertising or location harvesting.\n\nIt is young but already pleasant to get around with.",
+  "repo": "https://github.com/ellenhp/cardinal",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["maps", "offline", "navigation", "openstreetmap", "privacy"],
+  "added": "2026-08-05"
+}

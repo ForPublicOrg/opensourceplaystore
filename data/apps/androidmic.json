@@ -1,0 +1,11 @@
+{
+  "id": "androidmic",
+  "name": "AndroidMic",
+  "tagline": "Use your phone as a microphone for your PC",
+  "description": "AndroidMic sends the sound from your phone's microphone to your computer over Wi-Fi, Bluetooth or a cable — useful for calls, recording or streaming.\n\nIt needs a small helper program on the computer, and both parts are free.",
+  "repo": "https://github.com/teamclouday/AndroidMic",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["microphone", "audio", "pc", "wifi", "streaming"],
+  "added": "2026-08-05"
+}

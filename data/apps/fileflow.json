@@ -1,0 +1,11 @@
+{
+  "id": "fileflow",
+  "name": "FileFlow",
+  "tagline": "Files put themselves in the right folder",
+  "description": "FileFlow watches your downloads and other busy folders and files things away by rules you set, so storage stops turning into a junk drawer.\n\nIt runs quietly in the background and touches nothing online.",
+  "repo": "https://github.com/BURG3R5/FileFlow",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["files", "automation", "organiser", "storage", "offline"],
+  "added": "2026-08-05"
+}

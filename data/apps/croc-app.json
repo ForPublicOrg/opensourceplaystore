@@ -1,0 +1,11 @@
+{
+  "id": "croc-app",
+  "name": "Croc",
+  "tagline": "Send a file to any device with a code phrase",
+  "description": "Croc copies files between any two devices using a short code word, encrypted end to end, with no account and no cloud storage in the middle.\n\nThis is the Android app for the well-known croc tool.",
+  "repo": "https://github.com/Dking08/croc-app",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["file-transfer", "encryption", "p2p", "cross-platform", "simple"],
+  "added": "2026-08-05"
+}

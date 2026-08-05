@@ -1,0 +1,11 @@
+{
+  "id": "nearby-sharing",
+  "name": "NearDrop",
+  "tagline": "Use Windows Nearby Sharing from Android",
+  "description": "This app lets your phone send and receive files with Windows computers using the sharing feature built into Windows 10 and 11.\n\nEverything goes directly between the devices — nothing through the internet.",
+  "repo": "https://github.com/nearby-sharing/android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["file-transfer", "windows", "sharing", "local", "bluetooth"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sudokul",
+  "name": "SuDokuL",
+  "tagline": "Sudoku that runs on almost anything",
+  "description": "A no-frills sudoku game written to run on phones and old hardware alike, with generated puzzles at several difficulties.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/Mode8fx/SuDokuL",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["sudoku", "puzzle", "offline", "lightweight", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "feudaltactics",
+  "name": "FeudalTactics",
+  "tagline": "A small, sharp strategy game about kingdoms",
+  "description": "FeudalTactics is a turn-based game where you claim land, pay your soldiers and squeeze out your neighbours on a hex map that changes every game.\n\nIt is quick to learn, hard to master, and completely free with no ads.",
+  "repo": "https://github.com/Sesu8642/FeudalTactics",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["strategy", "turn-based", "offline", "hex", "no-ads"],
+  "added": "2026-08-05"
+}

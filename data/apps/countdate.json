@@ -1,0 +1,11 @@
+{
+  "id": "countdate",
+  "name": "Date Countdown",
+  "tagline": "How many days until the thing you're waiting for",
+  "description": "Date Countdown counts the days to holidays, birthdays and deadlines, with widgets so the number is on your home screen.\n\nIt runs offline and needs no account.",
+  "repo": "https://github.com/sk5s/countdateapp",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["countdown", "dates", "widget", "offline", "simple"],
+  "added": "2026-08-05"
+}

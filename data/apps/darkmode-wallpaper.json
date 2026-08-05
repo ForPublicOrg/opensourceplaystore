@@ -1,0 +1,11 @@
+{
+  "id": "darkmode-wallpaper",
+  "name": "Dark Mode Wallpaper",
+  "tagline": "A wallpaper that changes with your theme",
+  "description": "This live wallpaper shows one image in light mode and another — or a dimmed version — in dark mode, so your screen matches your theme.\n\nIt is tiny and uses almost no battery.",
+  "repo": "https://github.com/cvzi/darkmodewallpaper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "dark-mode", "theme", "lightweight", "simple"],
+  "added": "2026-08-05"
+}

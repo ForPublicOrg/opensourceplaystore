@@ -1,0 +1,11 @@
+{
+  "id": "passvault-jksalcedo",
+  "name": "PassVault",
+  "tagline": "A small, offline password manager",
+  "description": "PassVault keeps your logins encrypted on the phone with no cloud, no account and no internet permission.\n\nIt is deliberately lightweight for people who want somewhere simple and safe to keep passwords.",
+  "repo": "https://github.com/jksalcedo/PassVault",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["passwords", "offline", "encryption", "lightweight", "privacy"],
+  "added": "2026-08-05"
+}

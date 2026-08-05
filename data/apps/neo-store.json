@@ -1,0 +1,11 @@
+{
+  "id": "neo-store",
+  "name": "Neo Store",
+  "tagline": "F-Droid with a modern look and extra powers",
+  "description": "Neo Store is an F-Droid client with a fresh interface and a pile of useful extras: better search, install history, richer filters and background updates.\n\nIt is a comfortable home for people who get most of their apps from open-source repositories.",
+  "repo": "https://github.com/NeoApplications/Neo-Store",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["fdroid", "appstore", "updates", "open-source", "material-you"],
+  "added": "2026-08-05"
+}

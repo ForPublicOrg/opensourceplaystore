@@ -1,0 +1,11 @@
+{
+  "id": "openbot",
+  "name": "OpenBot",
+  "tagline": "Turn your old phone into a robot's brain",
+  "description": "OpenBot uses a smartphone as the camera and computer for a cheap wheeled robot you build yourself, with lessons in driving, following and self-driving.\n\nIt is a superb school or hobby project, and the plans are free.",
+  "repo": "https://github.com/ob-f/OpenBot",
+  "category": "education",
+  "license": "MIT",
+  "tags": ["robotics", "learning", "diy", "camera", "stem"],
+  "added": "2026-08-05"
+}

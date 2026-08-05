@@ -1,0 +1,11 @@
+{
+  "id": "ltv-launcher",
+  "name": "LtvLauncher",
+  "tagline": "A clean home screen for Android TV",
+  "description": "LtvLauncher replaces the ad-filled TV home screen with a minimal one: your apps, a clock, and a data usage widget, and nothing trying to sell you a film.\n\nIt is free and open source.",
+  "repo": "https://github.com/LeanBitLab/LtvLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["android-tv", "launcher", "minimal", "no-ads", "home-screen"],
+  "added": "2026-08-05"
+}

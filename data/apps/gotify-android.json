@@ -1,0 +1,11 @@
+{
+  "id": "gotify-android",
+  "name": "Gotify",
+  "tagline": "Push notifications from your own server",
+  "description": "Gotify delivers notifications from your own scripts and servers to your phone, without going through a big push service.\n\nIt is ideal for home servers, backups and monitoring — anything that should tell you when it finishes or breaks.",
+  "repo": "https://github.com/gotify/android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["notifications", "self-hosted", "server", "push", "monitoring"],
+  "added": "2026-08-05"
+}

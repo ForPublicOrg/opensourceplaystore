@@ -1,0 +1,11 @@
+{
+  "id": "chibe",
+  "name": "Chibe",
+  "tagline": "Reminds you what time it is, gently",
+  "description": "Chibe announces or shows the time at intervals you choose, which is oddly helpful when you lose track of an afternoon.\n\nIt is tiny, offline and free.",
+  "repo": "https://github.com/raatmarien/chibe",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["time", "reminder", "focus", "minimal", "offline"],
+  "added": "2026-08-05"
+}

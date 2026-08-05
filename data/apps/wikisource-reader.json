@@ -1,0 +1,11 @@
+{
+  "id": "wikisource-reader",
+  "name": "Wikisource Reader",
+  "tagline": "Read free books from Wikisource",
+  "description": "This app browses Wikisource, the library of public-domain and freely licensed texts, and makes them comfortable to read on a phone.\n\nIt is made with the Wikimedia community and carries no ads.",
+  "repo": "https://github.com/cis-india/Wikisource-Reader",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["books", "wikisource", "public-domain", "reader", "free"],
+  "added": "2026-08-05"
+}

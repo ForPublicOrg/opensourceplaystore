@@ -1,0 +1,11 @@
+{
+  "id": "odyssey-music",
+  "name": "Odyssey",
+  "tagline": "A fast player for big local music libraries",
+  "description": "Odyssey is built for people with thousands of files: it stays quick, browses by album artist properly, and can control a music server on your computer.\n\nNo ads, no accounts, no streaming.",
+  "repo": "https://github.com/gateship-one/odyssey",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "library", "mpd", "player"],
+  "added": "2026-08-05"
+}

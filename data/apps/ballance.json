@@ -1,0 +1,11 @@
+{
+  "id": "ballance",
+  "name": "Ballance",
+  "tagline": "Roll a ball through the classic puzzle levels",
+  "description": "Ballance is a remake of the well-loved ball-rolling puzzle game, rebuilt so it can run on a phone with the original levels and physics.\n\nIt is free, offline, and a proper nostalgia trip.",
+  "repo": "https://github.com/imengyu/Ballance",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["puzzle", "physics", "remake", "offline", "classic"],
+  "added": "2026-08-05"
+}

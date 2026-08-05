@@ -1,0 +1,11 @@
+{
+  "id": "opencode-mobile",
+  "name": "OpenCode Mobile",
+  "tagline": "Run coding sessions from your phone",
+  "description": "OpenCode Mobile is a phone client for the OpenCode coding assistant, so you can start, follow and steer a coding session away from your desk.\n\nIt connects to your own setup — no third-party service sits in the middle.",
+  "repo": "https://github.com/dzianisv/opencode-mobile",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["developer", "ai", "coding", "agent", "remote"],
+  "added": "2026-08-05"
+}

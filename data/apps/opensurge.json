@@ -1,0 +1,11 @@
+{
+  "id": "opensurge",
+  "name": "Open Surge",
+  "tagline": "A colourful platformer you can also build levels for",
+  "description": "Open Surge is a fast side-scrolling platform game inspired by the 16-bit classics, with its own characters and a level editor so you can make your own.\n\nIt is completely free, works offline and runs well on modest phones.",
+  "repo": "https://github.com/alemart/opensurge",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["platformer", "retro", "level-editor", "offline", "free"],
+  "added": "2026-08-05"
+}

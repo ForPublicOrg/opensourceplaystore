@@ -1,0 +1,11 @@
+{
+  "id": "flashdim",
+  "name": "FlashDim",
+  "tagline": "A torch you can actually turn down",
+  "description": "FlashDim controls the brightness of your phone's flashlight instead of only switching it on full, which is far kinder at 3am.\n\nIt is tiny, has a quick settings tile, and asks for almost no permissions.",
+  "repo": "https://github.com/cyb3rko/flashdim",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["flashlight", "torch", "brightness", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

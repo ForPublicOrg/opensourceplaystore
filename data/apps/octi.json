@@ -1,0 +1,11 @@
+{
+  "id": "octi",
+  "name": "Octi",
+  "tagline": "Look after several Android devices at once",
+  "description": "Octi shows the storage, apps and clutter across all your Android devices, and helps you clean up junk files and leftovers from uninstalled apps.\n\nDevices talk to each other directly, not through a service.",
+  "repo": "https://github.com/d4rken-org/octi",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["cleaner", "storage", "devices", "manager", "privacy"],
+  "added": "2026-08-05"
+}

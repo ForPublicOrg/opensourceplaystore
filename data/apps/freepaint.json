@@ -1,0 +1,11 @@
+{
+  "id": "freepaint",
+  "name": "FreePaint",
+  "tagline": "Draw with shapes that stay sharp at any size",
+  "description": "FreePaint is a vector drawing app: your lines are shapes rather than pixels, so you can zoom in forever and the artwork stays crisp.\n\nIt is free, offline and exports standard files.",
+  "repo": "https://github.com/pastthepixels/FreePaint",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["drawing", "vector", "art", "svg", "offline"],
+  "added": "2026-08-05"
+}

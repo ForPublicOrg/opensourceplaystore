@@ -1,0 +1,11 @@
+{
+  "id": "film-sims",
+  "name": "Film Sims",
+  "tagline": "Give your photos the look of classic film",
+  "description": "Film Sims applies the colour styles found in well-known camera brands to your own pictures, so an ordinary phone photo gets a warmer, filmier look.\n\nAll processing happens on the device.",
+  "repo": "https://github.com/tqmane/film_sims",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["photo", "filters", "film", "editing", "offline"],
+  "added": "2026-08-05"
+}

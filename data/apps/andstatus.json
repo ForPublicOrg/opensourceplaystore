@@ -1,0 +1,11 @@
+{
+  "id": "andstatus",
+  "name": "AndStatus",
+  "tagline": "Follow several social networks in one timeline",
+  "description": "AndStatus connects to Mastodon, Pump.io and other open networks at once and shows them in a single timeline that works offline.\n\nIt queues your posts when you have no signal and sends them when you do.",
+  "repo": "https://github.com/andstatus/andstatus",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": ["mastodon", "fediverse", "social", "offline", "multi-account"],
+  "added": "2026-08-05"
+}

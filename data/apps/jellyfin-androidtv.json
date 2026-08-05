@@ -1,0 +1,11 @@
+{
+  "id": "jellyfin-androidtv",
+  "name": "Jellyfin for Android TV",
+  "tagline": "Your own media server on the big screen",
+  "description": "The official Jellyfin app for Android TV and set-top boxes, with a proper remote-friendly interface for your films, shows and music.\n\nIt connects to the server you run at home.",
+  "repo": "https://github.com/jellyfin/jellyfin-androidtv",
+  "category": "media",
+  "license": "GPL-2.0",
+  "tags": ["jellyfin", "android-tv", "self-hosted", "video", "remote"],
+  "added": "2026-08-05"
+}

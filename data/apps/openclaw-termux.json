@@ -1,0 +1,11 @@
+{
+  "id": "openclaw-termux",
+  "name": "OpenClaw Termux",
+  "tagline": "An AI gateway with its own terminal and dashboard",
+  "description": "This app runs the OpenClaw gateway on your phone and wraps it in a friendly shell: a built-in terminal, a web dashboard and a one-tap start button.\n\nEverything runs locally, so it is a self-contained way to keep an agent on your device.",
+  "repo": "https://github.com/mithun50/openclaw-termux",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "agent", "terminal", "self-hosted", "gateway"],
+  "added": "2026-08-05"
+}

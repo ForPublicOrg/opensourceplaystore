@@ -1,0 +1,11 @@
+{
+  "id": "git-coach",
+  "name": "Git Coach",
+  "tagline": "Learn git commands without breaking anything",
+  "description": "Git Coach explains git commands with examples and short exercises, so you can learn version control on the bus rather than on a real project.\n\nIt is free, offline and has no adverts.",
+  "repo": "https://github.com/vishal2376/git-coach",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["git", "learning", "developer", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "meshtastic-android",
+  "name": "Meshtastic",
+  "tagline": "Text your friends with no phone signal at all",
+  "description": "Meshtastic pairs your phone with small radio devices so a group can send text messages and share positions over long distances with no network, no SIM and no fees.\n\nIt is popular with hikers, sailors and anyone who goes where the signal doesn't.",
+  "repo": "https://github.com/meshtastic/Meshtastic-Android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["mesh", "radio", "offline", "messaging", "outdoors"],
+  "added": "2026-08-05"
+}

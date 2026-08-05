@@ -1,0 +1,11 @@
+{
+  "id": "speakthat",
+  "name": "SpeakThat",
+  "tagline": "Reads your notifications out loud",
+  "description": "SpeakThat announces incoming notifications so you can keep your hands and eyes on something else, with rules for which apps may interrupt.\n\nIt uses your phone's own voice and works offline.",
+  "repo": "https://github.com/mitchib1440/SpeakThat",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["notifications", "tts", "accessibility", "driving", "offline"],
+  "added": "2026-08-05"
+}

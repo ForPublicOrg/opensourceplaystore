@@ -1,0 +1,11 @@
+{
+  "id": "screenshot-tile",
+  "name": "Screenshot Tile",
+  "tagline": "Take a screenshot from the quick settings",
+  "description": "Screenshot Tile adds a button to your quick settings that takes a screenshot — including delayed ones and full scrolling captures on some phones — without any button gymnastics.\n\nIt needs no root and does not upload anything.",
+  "repo": "https://github.com/cvzi/ScreenshotTile",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["screenshot", "tile", "quick-settings", "no-root", "simple"],
+  "added": "2026-08-05"
+}

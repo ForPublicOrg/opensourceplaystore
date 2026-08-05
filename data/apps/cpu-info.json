@@ -1,0 +1,11 @@
+{
+  "id": "cpu-info",
+  "name": "CPU Info",
+  "tagline": "See exactly what's inside your phone",
+  "description": "CPU Info shows your processor, memory, screen, battery, sensors and installed apps in clear detail, with live readings as things change.\n\nIt is handy when buying second-hand, diagnosing heat, or just being curious.",
+  "repo": "https://github.com/kamgurgul/cpu-info",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["hardware", "system", "sensors", "battery", "info"],
+  "added": "2026-08-05"
+}

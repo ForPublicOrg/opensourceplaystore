@@ -1,0 +1,11 @@
+{
+  "id": "sunilpaul-weather",
+  "name": "Weather",
+  "tagline": "A privacy-minded weather app",
+  "description": "A simple, accurate weather app that does not track your location history or wrap the forecast in adverts.\n\nIt is free and open source, with widgets and clear daily views.",
+  "repo": "https://github.com/sunilpaulmathew/Weather",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["weather", "privacy", "forecast", "no-ads", "simple"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "arcticons",
+  "name": "Arcticons",
+  "tagline": "A calm line-drawing icon pack for your phone",
+  "description": "Arcticons replaces your app icons with clean single-colour line drawings, giving the whole home screen a quiet, consistent look.\n\nIt covers thousands of apps, is completely free, and works with most launchers.",
+  "repo": "https://github.com/Arcticons-Team/Arcticons",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["icons", "theme", "home-screen", "minimal", "free"],
+  "added": "2026-08-05"
+}

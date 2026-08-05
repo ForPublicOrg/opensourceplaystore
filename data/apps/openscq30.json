@@ -1,0 +1,11 @@
+{
+  "id": "openscq30",
+  "name": "OpenSCQ30",
+  "tagline": "Control Soundcore headphones without their app",
+  "description": "OpenSCQ30 adjusts the equaliser, noise cancelling and button behaviour of Soundcore headphones, replacing the manufacturer's account-hungry app.\n\nIt is open source and runs on phones and computers.",
+  "repo": "https://github.com/Oppzippy/OpenSCQ30",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["headphones", "bluetooth", "equalizer", "privacy", "control"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cleverkeys",
+  "name": "CleverKeys",
+  "tagline": "A keyboard for power users, with no internet",
+  "description": "CleverKeys adds a searchable clipboard history, macros and deep customisation to a keyboard that never sends a keystroke anywhere.\n\nIt is built for people who type a lot and trust little.",
+  "repo": "https://github.com/tribixbite/CleverKeys",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["keyboard", "clipboard", "privacy", "offline", "power-user"],
+  "added": "2026-08-05"
+}

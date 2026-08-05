@@ -1,0 +1,11 @@
+{
+  "id": "medtimer",
+  "name": "MedTimer",
+  "tagline": "Reminds you to take your medicine",
+  "description": "MedTimer keeps a schedule of your medication, reminds you when each one is due and records what you actually took, which is a great help at appointments.\n\nIt works offline, has no ads, and exports its log if your doctor wants it.",
+  "repo": "https://github.com/Futsch1/medTimer",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["medicine", "reminders", "health", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

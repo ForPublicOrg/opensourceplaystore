@@ -1,0 +1,11 @@
+{
+  "id": "daily-diary",
+  "name": "Daily Diary",
+  "tagline": "One entry a day, nothing else",
+  "description": "Daily Diary opens straight into today's page and reminds you to write it — a diary designed around the one habit that makes diaries work.\n\nEntries stay on your phone.",
+  "repo": "https://github.com/Voklen/Daily-Diary",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["diary", "journal", "habit", "offline", "minimal"],
+  "added": "2026-08-05"
+}

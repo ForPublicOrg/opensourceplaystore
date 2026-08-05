@@ -1,0 +1,11 @@
+{
+  "id": "swiftslate",
+  "name": "SwiftSlate",
+  "tagline": "Rewrite, fix or translate text in any app",
+  "description": "SwiftSlate adds an AI helper to text you have selected anywhere on your phone. Highlight a sentence and you can shorten it, fix the grammar, change the tone or translate it, without copying it into another app.\n\nYou choose which AI service does the work and supply your own key.",
+  "repo": "https://github.com/Musheer360/SwiftSlate",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["text", "ai", "rewrite", "translate", "accessibility"],
+  "added": "2026-08-05"
+}

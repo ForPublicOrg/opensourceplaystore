@@ -1,0 +1,11 @@
+{
+  "id": "restic-android",
+  "name": "Restic for Android",
+  "tagline": "Encrypted backups using restic, from your phone",
+  "description": "This app runs restic, the well-regarded backup tool, on Android so you can back your phone up to your own storage with proper encryption and deduplication.\n\nIt is unofficial, free and aimed at people who already trust restic.",
+  "repo": "https://github.com/lhns/restic-android",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": ["backup", "restic", "encryption", "self-hosted", "sync"],
+  "added": "2026-08-05"
+}

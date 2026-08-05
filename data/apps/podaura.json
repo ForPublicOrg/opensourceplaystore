@@ -1,0 +1,11 @@
+{
+  "id": "podaura",
+  "name": "PodAura",
+  "tagline": "Podcasts, feeds and downloads in one app",
+  "description": "PodAura subscribes to podcast feeds, downloads episodes and plays them, with a Material You design and no account required.\n\nIt also handles ordinary RSS and media links.",
+  "repo": "https://github.com/SkyD666/PodAura",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["podcast", "rss", "download", "offline", "material-you"],
+  "added": "2026-08-05"
+}

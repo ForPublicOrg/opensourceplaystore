@@ -1,0 +1,11 @@
+{
+  "id": "simpmusic",
+  "name": "SimpMusic",
+  "tagline": "Stream music with lyrics, and no adverts",
+  "description": "SimpMusic streams from YouTube Music with synced lyrics, a sleep timer, offline downloads and support for listening together with friends.\n\nIt is free, has no account of its own, and runs on phones, tablets and Android TV.",
+  "repo": "https://github.com/maxrave-dev/SimpMusic",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "streaming", "lyrics", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bibi-keyboard",
+  "name": "BiBi Keyboard",
+  "tagline": "A keyboard you talk to, with AI clean-up",
+  "description": "BiBi Keyboard replaces typing with speaking: hold the button, say what you mean, and it writes it out. An AI can then tidy the wording, fix punctuation or translate it before you send.\n\nIt works in any app that has a text box, and you choose which speech and AI services it uses.",
+  "repo": "https://github.com/BryceWG/BiBi-Keyboard",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["keyboard", "voice", "speech", "ai", "input"],
+  "added": "2026-08-05"
+}

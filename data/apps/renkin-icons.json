@@ -1,0 +1,11 @@
+{
+  "id": "renkin-icons",
+  "name": "Renkin",
+  "tagline": "Mix several icon packs into one",
+  "description": "Renkin combines the icons you like from different packs into a single pack made just for the apps you actually have.\n\nIt is free and works with the usual launchers.",
+  "repo": "https://github.com/renkindevbugs/Renkin",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["icons", "theme", "customisation", "home-screen", "merge"],
+  "added": "2026-08-05"
+}

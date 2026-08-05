@@ -1,0 +1,11 @@
+{
+  "id": "puzzle-suite",
+  "name": "Puzzle",
+  "tagline": "Over 270 tiny puzzle games in one app",
+  "description": "Puzzle collects hundreds of small, clean logic and number games into a single app with a minimalist look and no adverts.\n\nEverything works offline, and there is always another one to try when you're waiting for a bus.",
+  "repo": "https://github.com/sidhant947/Puzzle",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["puzzle", "logic", "minimal", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

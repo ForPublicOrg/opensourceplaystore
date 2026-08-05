@@ -1,0 +1,11 @@
+{
+  "id": "calibre-web-companion",
+  "name": "Calibre Web Companion",
+  "tagline": "Your home ebook library, on your phone",
+  "description": "This app connects to Calibre-Web, the browser front end for a Calibre ebook library, so you can browse and download your own books on the move.\n\nIt talks only to your server and works with the reader app of your choice.",
+  "repo": "https://github.com/doen1el/calibre-web-companion",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["ebooks", "calibre", "self-hosted", "library", "download"],
+  "added": "2026-08-05"
+}

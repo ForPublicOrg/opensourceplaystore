@@ -1,0 +1,11 @@
+{
+  "id": "uncrack",
+  "name": "UnCrack",
+  "tagline": "Keep your passwords safe and to hand",
+  "description": "UnCrack manages passwords on your phone with encryption, a generator for strong ones and a simple modern design.\n\nIt is offline, free and open source.",
+  "repo": "https://github.com/uncrack-manager/android",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["passwords", "encryption", "generator", "offline", "material-you"],
+  "added": "2026-08-05"
+}

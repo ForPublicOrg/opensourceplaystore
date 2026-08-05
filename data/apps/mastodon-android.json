@@ -1,0 +1,11 @@
+{
+  "id": "mastodon-android",
+  "name": "Mastodon",
+  "tagline": "The official app for the open social network",
+  "description": "Mastodon is a social network made of many independent servers, so no single company owns the feed. This is the official Android app.\n\nIt has no adverts, no algorithm deciding what you see, and no tracking.",
+  "repo": "https://github.com/mastodon/mastodon-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["mastodon", "fediverse", "social", "no-ads", "open"],
+  "added": "2026-08-05"
+}

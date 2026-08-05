@@ -1,0 +1,11 @@
+{
+  "id": "simple-qr",
+  "name": "Simple QR",
+  "tagline": "Scan and make QR codes, privately",
+  "description": "Simple QR reads codes with your camera and creates your own, keeping a history you can search — all without internet permission for the scanning itself.\n\nIt is light, ad-free and easy for anyone to use.",
+  "repo": "https://github.com/tomfong/simple-qr",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["qr", "barcode", "scanner", "privacy", "no-ads"],
+  "added": "2026-08-05"
+}

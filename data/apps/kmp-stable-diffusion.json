@@ -1,0 +1,11 @@
+{
+  "id": "kmp-stable-diffusion",
+  "name": "MineStableDiffusion",
+  "tagline": "Make AI art on your phone, offline",
+  "description": "This app generates pictures from a written description using Stable Diffusion running on the device itself — no server, no account, no per-image charge.\n\nIt is built with Kotlin Multiplatform, so the same app runs on other systems too.",
+  "repo": "https://github.com/Onion99/KMP-MineStableDiffusion",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "images", "stable-diffusion", "offline", "art"],
+  "added": "2026-08-05"
+}

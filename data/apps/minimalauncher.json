@@ -1,0 +1,11 @@
+{
+  "id": "minimalauncher",
+  "name": "Minimalauncher",
+  "tagline": "A calm text home screen with notes and habits",
+  "description": "Minimalauncher shows a plain list of apps plus small extras — notes, events, habits — so the home screen is useful rather than shiny.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/0-manbir/minimalauncher",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["launcher", "minimal", "notes", "habits", "focus"],
+  "added": "2026-08-05"
+}

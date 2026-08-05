@@ -1,0 +1,11 @@
+{
+  "id": "deutsia-radio",
+  "name": "Deutsia Radio",
+  "tagline": "Internet radio that keeps working",
+  "description": "Deutsia plays radio stations from several networks, chosen so a blocked or dead stream doesn't end the listening.\n\nIt is privacy-focused, free and has no adverts.",
+  "repo": "https://github.com/deutsia/deutsia-radio",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["radio", "streaming", "privacy", "no-ads", "player"],
+  "added": "2026-08-05"
+}

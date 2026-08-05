@@ -1,0 +1,11 @@
+{
+  "id": "photoncamera",
+  "name": "PhotonCamera",
+  "tagline": "Better phone photos with computer-made processing",
+  "description": "PhotonCamera takes several shots at once and blends them into a single, cleaner picture — the same trick that makes flagship phone cameras look good. Low light, detail and colour usually come out noticeably better than the stock camera.\n\nIt is still an early project and works best on Snapdragon phones, but the results can be striking.",
+  "repo": "https://github.com/eszdman/PhotonCamera",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "photo", "hdr", "night-mode", "processing"],
+  "added": "2026-08-05"
+}

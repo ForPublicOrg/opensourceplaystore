@@ -1,0 +1,11 @@
+{
+  "id": "firebird-emu",
+  "name": "Firebird",
+  "tagline": "Run a TI-Nspire calculator on your phone",
+  "description": "Firebird emulates the TI-Nspire graphing calculator, which is handy for students who left theirs at home and for anyone curious about how they work.\n\nYou supply the calculator's own system files.",
+  "repo": "https://github.com/nspire-emus/firebird",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "emulator", "maths", "students", "offline"],
+  "added": "2026-08-05"
+}

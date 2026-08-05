@@ -1,0 +1,11 @@
+{
+  "id": "adaptive-theme",
+  "name": "Adaptive Theme",
+  "tagline": "Dark mode that follows the light in the room",
+  "description": "Adaptive Theme switches your phone between light and dark using the ambient light sensor, rather than a fixed time of day.\n\nIt is a small idea that makes a real difference in the evening.",
+  "repo": "https://github.com/xLexip/Adaptive-Theme",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["dark-mode", "sensor", "automation", "theme", "simple"],
+  "added": "2026-08-05"
+}

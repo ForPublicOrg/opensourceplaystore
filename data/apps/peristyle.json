@@ -1,0 +1,11 @@
+{
+  "id": "peristyle",
+  "name": "Peristyle",
+  "tagline": "A wallpaper manager that looks like glass",
+  "description": "Peristyle organises your wallpaper collection with tags, folders and automatic changes, wrapped in a striking frosted-glass design.\n\nIt works with your own images rather than a catalogue you have to sign into.",
+  "repo": "https://github.com/Hamza417/Peristyle",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["wallpaper", "customisation", "gallery", "auto", "offline"],
+  "added": "2026-08-05"
+}

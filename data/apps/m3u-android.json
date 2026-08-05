@@ -1,0 +1,11 @@
+{
+  "id": "m3u-android",
+  "name": "M3U",
+  "tagline": "Watch your own IPTV playlists, ad-free",
+  "description": "M3U plays live TV playlists you supply, with a clean interface on phones and TVs and no advertising bolted on.\n\nYou bring your own playlist; the app just plays it well.",
+  "repo": "https://github.com/oxyroid/M3UAndroid",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["iptv", "live-tv", "player", "android-tv", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "apkgit",
+  "name": "ApkGit",
+  "tagline": "Update your GitHub-installed apps",
+  "description": "ApkGit tracks apps you installed from GitHub releases and tells you when a new version appears, with a clean Material 3 interface.\n\nIt keeps a list you control and needs no account.",
+  "repo": "https://github.com/Andrey4ik21pro1/apkgit",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["updates", "github", "apk", "installer", "material-you"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "picquery",
+  "name": "PicQuery",
+  "tagline": "Find a photo by describing what's in it",
+  "description": "PicQuery searches your own photo library the way you'd describe a picture to a friend — \"dog on a beach\", \"blue car at night\" — and finds the matching shots.\n\nAll the understanding happens on the phone with an on-device model, so your gallery is never uploaded. The first scan takes a while, then searching is instant.",
+  "repo": "https://github.com/greyovo/PicQuery",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["photos", "search", "gallery", "offline", "clip"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "human-benchmark",
+  "name": "Human Benchmark",
+  "tagline": "Test your reaction time and memory",
+  "description": "A set of quick tests for reaction speed, memory, typing and aim, with scores you can compare against yourself over time.\n\nIt works offline and has no adverts.",
+  "repo": "https://github.com/PrintN/Human-Benchmark",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["tests", "reaction", "memory", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

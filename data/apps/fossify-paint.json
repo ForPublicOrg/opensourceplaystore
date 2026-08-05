@@ -1,0 +1,11 @@
+{
+  "id": "fossify-paint",
+  "name": "Fossify Paint",
+  "tagline": "A blank canvas you can draw on",
+  "description": "Fossify Paint gives you a canvas, some colours and brush sizes, and lets you draw — on a blank page or on top of a photo.\n\nIt is small, free of ads, and perfect for a quick doodle or a scribbled diagram.",
+  "repo": "https://github.com/FossifyOrg/Paint",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["drawing", "paint", "canvas", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

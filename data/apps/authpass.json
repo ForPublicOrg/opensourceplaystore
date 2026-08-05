@@ -1,0 +1,11 @@
+{
+  "id": "authpass",
+  "name": "AuthPass",
+  "tagline": "A password manager for every device you own",
+  "description": "AuthPass keeps your logins in a standard KeePass file and runs on phones, tablets and computers, so the same vault works everywhere.\n\nIt is open source, has no subscription, and you decide where the file is stored.",
+  "repo": "https://github.com/authpass/authpass",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["passwords", "keepass", "cross-platform", "encryption", "offline"],
+  "added": "2026-08-05"
+}

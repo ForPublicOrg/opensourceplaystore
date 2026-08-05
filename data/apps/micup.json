@@ -1,0 +1,11 @@
+{
+  "id": "micup",
+  "name": "MicUp",
+  "tagline": "Clean up your microphone sound as you record",
+  "description": "MicUp processes microphone audio live — noise reduction, gain, filters — so recordings and calls come out clearer.\n\nIt runs entirely on the device with low delay.",
+  "repo": "https://github.com/papergray/MicUp",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["audio", "microphone", "recording", "noise", "offline"],
+  "added": "2026-08-05"
+}

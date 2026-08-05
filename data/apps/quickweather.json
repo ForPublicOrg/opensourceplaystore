@@ -1,0 +1,11 @@
+{
+  "id": "quickweather",
+  "name": "QuickWeather",
+  "tagline": "The forecast, with nothing else attached",
+  "description": "QuickWeather gives you current conditions and the forecast for anywhere in the world, with radar and severe weather alerts, and no adverts.\n\nIt is light, simple, and does not track where you go.",
+  "repo": "https://github.com/TylerWilliamson/QuickWeather",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["weather", "forecast", "radar", "privacy", "no-ads"],
+  "added": "2026-08-05"
+}

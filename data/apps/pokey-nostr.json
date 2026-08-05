@@ -1,0 +1,11 @@
+{
+  "id": "pokey-nostr",
+  "name": "Pokey",
+  "tagline": "Notifications for Nostr, on your terms",
+  "description": "Pokey watches the Nostr network for mentions and replies and tells you about them, without a push service reading your messages.\n\nIt is small and pairs with whichever Nostr app you use.",
+  "repo": "https://github.com/KoalaSat/pokey",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["nostr", "notifications", "privacy", "decentralised", "lightweight"],
+  "added": "2026-08-05"
+}

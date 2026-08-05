@@ -1,0 +1,11 @@
+{
+  "id": "athena-firewall",
+  "name": "Athena",
+  "tagline": "A firewall and ad blocker with a modern face",
+  "description": "Athena decides which apps may use the internet and blocks ads and trackers on the way, working with or without root.\n\nIt has a bright Material You design and shows clearly what it stopped.",
+  "repo": "https://github.com/Kin69/Athena",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["firewall", "adblock", "privacy", "material-you", "no-root"],
+  "added": "2026-08-05"
+}

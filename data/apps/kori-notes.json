@@ -1,0 +1,11 @@
+{
+  "id": "kori-notes",
+  "name": "Kori",
+  "tagline": "A markdown notepad with an AI helper",
+  "description": "Kori writes and previews markdown notes across phones and desktops, and can call on a language model to summarise, rewrite or continue what you've written.\n\nYour notes stay yours; the AI is optional.",
+  "repo": "https://github.com/YangDai2003/Kori",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["notes", "markdown", "ai", "multiplatform", "editor"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sweyer",
+  "name": "Sweyer",
+  "tagline": "A simple, smooth player for your music files",
+  "description": "Sweyer plays local music with a clean design, quick search and the animations you'd expect from a modern app.\n\nIt does not stream, sign you in or show adverts.",
+  "repo": "https://github.com/nt4f04uNd/sweyer",
+  "category": "media",
+  "license": "BSD-3-Clause",
+  "tags": ["music", "offline", "player", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

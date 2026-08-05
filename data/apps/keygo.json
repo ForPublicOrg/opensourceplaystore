@@ -1,0 +1,11 @@
+{
+  "id": "keygo",
+  "name": "KeyGo",
+  "tagline": "A password manager you can read the code of",
+  "description": "KeyGo stores your logins encrypted on the device, with a clean interface and no account, aiming to be simple enough that anyone can check how it works.\n\nIt is free and open source.",
+  "repo": "https://github.com/OffRange/KeyGo",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["passwords", "encryption", "offline", "privacy", "simple"],
+  "added": "2026-08-05"
+}

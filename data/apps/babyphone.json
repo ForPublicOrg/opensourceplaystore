@@ -1,0 +1,11 @@
+{
+  "id": "babyphone",
+  "name": "Baby Phone",
+  "tagline": "A pretend phone for little ones",
+  "description": "Baby Phone lets small children 'call' friendly animals and practise chatting, without touching anything real on your device.\n\nIt is free, offline, and has no ads or purchases.",
+  "repo": "https://github.com/babydots/babyphone",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["kids", "toddler", "pretend-play", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

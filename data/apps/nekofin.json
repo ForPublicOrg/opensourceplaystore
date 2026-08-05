@@ -1,0 +1,11 @@
+{
+  "id": "nekofin",
+  "name": "Nekofin",
+  "tagline": "A Jellyfin and Emby player with comment overlays",
+  "description": "Nekofin plays from Jellyfin and Emby servers with a modern interface and support for scrolling comment overlays on videos.\n\nIt runs across platforms and connects only to your server.",
+  "repo": "https://github.com/lonzzi/nekofin",
+  "category": "media",
+  "license": "MPL-2.0",
+  "tags": ["jellyfin", "emby", "video", "self-hosted", "player"],
+  "added": "2026-08-05"
+}

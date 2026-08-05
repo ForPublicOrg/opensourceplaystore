@@ -1,0 +1,11 @@
+{
+  "id": "droid-ify",
+  "name": "Droid-ify",
+  "tagline": "A fast, clutter-free way to browse F-Droid",
+  "description": "Droid-ify is a modern client for F-Droid, the long-running store of free and open-source Android apps. It is quick, looks good, and makes updates painless.\n\nYou can add extra repositories, filter by what an app is allowed to do, and install without any account.",
+  "repo": "https://github.com/Droid-ify/client",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["fdroid", "appstore", "updates", "open-source", "material-you"],
+  "added": "2026-08-05"
+}

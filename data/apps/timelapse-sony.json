@@ -1,0 +1,11 @@
+{
+  "id": "timelapse-sony",
+  "name": "Timelapse for Sony",
+  "tagline": "Control a Sony camera over Wi-Fi for timelapses",
+  "description": "This app triggers a Sony camera at set intervals over its Wi-Fi connection, which is how you get a timelapse without buying a remote.\n\nIt is free and works with a wide range of models.",
+  "repo": "https://github.com/ThibaudM/timelapse-sony",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "timelapse", "sony", "remote", "photography"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "paperize",
+  "name": "Paperize",
+  "tagline": "Changes your wallpaper on a schedule, offline",
+  "description": "Paperize rotates through wallpapers from folders on your phone, with schedules, effects and separate home and lock screens.\n\nIt is fully offline — no wallpaper service and no account.",
+  "repo": "https://github.com/Anthonyy232/Paperize",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "offline", "schedule", "customisation", "material-you"],
+  "added": "2026-08-05"
+}

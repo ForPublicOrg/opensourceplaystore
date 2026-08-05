@@ -1,0 +1,11 @@
+{
+  "id": "nouto",
+  "name": "Nouto",
+  "tagline": "Notes with proper formatting",
+  "description": "Nouto takes notes with rich text — headings, lists, bold, colours — in a modern app that keeps everything on your phone.\n\nIt is free, open source and ad-free.",
+  "repo": "https://github.com/HotarunIchijou/Nouto",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["notes", "rich-text", "offline", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "hammer-editor",
+  "name": "Hammer",
+  "tagline": "A writing tool for building long stories",
+  "description": "Hammer helps novelists keep scenes, notes and timelines in order while they write, and syncs between your devices through a small server you can run yourself.\n\nIt is free, open source, and works offline.",
+  "repo": "https://github.com/Darkrock-Studios/hammer-editor",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["writing", "novel", "notes", "sync", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ranobe",
+  "name": "Ranobe",
+  "tagline": "A light novel reader you can extend",
+  "description": "Ranobe reads light novels from sources you add, keeps your library on the device and lets you customise the reading screen.\n\nIt is small, free and open to community extensions.",
+  "repo": "https://github.com/ranobe-org/ranobe",
+  "category": "reading",
+  "license": "Unlicense",
+  "tags": ["novels", "reader", "library", "offline", "extensible"],
+  "added": "2026-08-05"
+}

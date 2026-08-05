@@ -1,0 +1,11 @@
+{
+  "id": "primal-nostr",
+  "name": "Primal",
+  "tagline": "A friendly way into the Nostr network",
+  "description": "Primal makes Nostr approachable with a clean feed, quick sign-up and built-in wallet features, while keeping your identity in your own hands.\n\nIt is open source and free to use.",
+  "repo": "https://github.com/PrimalHQ/primal-android-app",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["nostr", "social", "decentralised", "wallet", "open"],
+  "added": "2026-08-05"
+}

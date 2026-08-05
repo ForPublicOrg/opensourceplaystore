@@ -1,0 +1,11 @@
+{
+  "id": "minus-expenses",
+  "name": "Minus",
+  "tagline": "Keep track of subscriptions and recurring bills",
+  "description": "Minus records the payments that come round every month and reminds you before they land, so nothing renews by surprise.\n\nIt works offline and keeps your finances on the phone.",
+  "repo": "https://github.com/isaacsa51/Minus",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["money", "subscriptions", "reminders", "budget", "offline"],
+  "added": "2026-08-05"
+}

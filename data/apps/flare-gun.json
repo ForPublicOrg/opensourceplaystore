@@ -1,0 +1,11 @@
+{
+  "id": "flare-gun",
+  "name": "Flare Gun",
+  "tagline": "Call for help when the network is down",
+  "description": "Flare Gun sends and picks up distress signals directly between nearby phones, so a group can find each other in a disaster with no working network.\n\nIt is built for emergencies and works entirely offline.",
+  "repo": "https://github.com/igatha/flare-gun",
+  "category": "maps",
+  "license": "MIT",
+  "tags": ["emergency", "sos", "offline", "bluetooth", "safety"],
+  "added": "2026-08-05"
+}

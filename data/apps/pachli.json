@@ -1,0 +1,11 @@
+{
+  "id": "pachli",
+  "name": "Pachli",
+  "tagline": "A polished Mastodon app with thoughtful extras",
+  "description": "Pachli reads Mastodon and other compatible servers, with strong accessibility, careful handling of content warnings, and features power users ask for.\n\nIt is free and open source, funded by its users.",
+  "repo": "https://github.com/pachli/pachli-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["mastodon", "fediverse", "accessibility", "social", "no-ads"],
+  "added": "2026-08-05"
+}

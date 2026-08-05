@@ -1,0 +1,11 @@
+{
+  "id": "openclaw-assistant",
+  "name": "OpenClaw Assistant",
+  "tagline": "Wake your AI agent with your voice",
+  "description": "OpenClaw Assistant hooks a voice agent into Android's assistant slot, so a wake word or the usual gesture starts it instead of the built-in helper.\n\nIt is small, focused, and made to feel like a normal part of the phone.",
+  "repo": "https://github.com/yuga-hashimoto/openclaw-assistant",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["voice", "assistant", "ai", "agent", "wake-word"],
+  "added": "2026-08-05"
+}

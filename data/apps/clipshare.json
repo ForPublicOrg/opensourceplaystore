@@ -1,0 +1,11 @@
+{
+  "id": "clipshare",
+  "name": "ClipShare",
+  "tagline": "One clipboard and file drop across your devices",
+  "description": "ClipShare syncs clipboard history between your phone and computers on the same network, and lets you push files across too.\n\nIt keeps everything local and works on the major systems.",
+  "repo": "https://github.com/aa2013/ClipShare",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["clipboard", "sync", "files", "local", "cross-platform"],
+  "added": "2026-08-05"
+}

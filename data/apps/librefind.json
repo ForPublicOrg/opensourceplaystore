@@ -1,0 +1,11 @@
+{
+  "id": "librefind",
+  "name": "LibreFind",
+  "tagline": "Find open-source replacements for the apps you use",
+  "description": "LibreFind suggests free and open alternatives to the proprietary apps on your phone, with a short explanation of what each one does differently.\n\nIt is a friendly starting point if you want to leave the big apps behind.",
+  "repo": "https://github.com/jksalcedo/librefind",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["foss", "alternatives", "privacy", "discovery", "apps"],
+  "added": "2026-08-05"
+}

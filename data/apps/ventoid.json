@@ -1,0 +1,11 @@
+{
+  "id": "ventoid",
+  "name": "Ventoid",
+  "tagline": "Make a bootable USB stick from your phone",
+  "description": "Ventoid writes system images to a USB drive through an OTG cable, so you can prepare a bootable installer without a computer.\n\nIt is free, ad-free and surprisingly handy in a pinch.",
+  "repo": "https://github.com/GPLaider/Ventoid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["usb", "boot", "otg", "linux", "utility"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "monster-music",
+  "name": "MonsterMusic",
+  "tagline": "A local music player with proper sound controls",
+  "description": "MonsterMusic plays the music on your device with an equaliser, playback speed, folder browsing and lyrics support.\n\nIt keeps everything offline and does not need an account.",
+  "repo": "https://github.com/ZTFtrue/MonsterMusic",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["music", "offline", "equalizer", "lyrics", "player"],
+  "added": "2026-08-05"
+}

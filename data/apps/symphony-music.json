@@ -1,0 +1,11 @@
+{
+  "id": "symphony-music",
+  "name": "Symphony",
+  "tagline": "A light, elegant music player for local files",
+  "description": "Symphony plays the songs stored on your phone with a clean interface, gapless playback, folder browsing and support for lots of file types.\n\nIt is small and quick, with no ads, no account and no internet needed.",
+  "repo": "https://github.com/zyrouge/symphony",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": ["music", "player", "offline", "lightweight", "local"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "smartscan",
+  "name": "SmartScan",
+  "tagline": "Search your photos and videos by what's in them",
+  "description": "SmartScan looks through your gallery on the device and lets you search it by objects, scenes and text, and find duplicates worth deleting.\n\nNothing is uploaded — the understanding happens on your phone.",
+  "repo": "https://github.com/smartscanapp/smartscan-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["photos", "search", "ai", "offline", "duplicates"],
+  "added": "2026-08-05"
+}

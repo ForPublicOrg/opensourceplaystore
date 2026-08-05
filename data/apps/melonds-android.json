@@ -1,0 +1,11 @@
+{
+  "id": "melonds-android",
+  "name": "melonDS",
+  "tagline": "A fast, accurate DS emulator for Android",
+  "description": "melonDS plays Nintendo DS games with good accuracy and speed, including the dual screens, touch controls and local multiplayer.\n\nYou supply your own game files; the emulator is free and open source.",
+  "repo": "https://github.com/rafaelvcaetano/melonDS-android",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["emulator", "nintendo", "ds", "retro", "controller"],
+  "added": "2026-08-05"
+}

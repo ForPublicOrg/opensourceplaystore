@@ -1,0 +1,11 @@
+{
+  "id": "dooz",
+  "name": "Dooz",
+  "tagline": "Tic-tac-toe, done nicely",
+  "description": "Dooz is the pen-and-paper game you already know, with a clean Material You look, adjustable board sizes and a computer opponent.\n\nIt is tiny, offline and free.",
+  "repo": "https://github.com/yamin8000/Dooz",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["game", "tictactoe", "offline", "material-you", "simple"],
+  "added": "2026-08-05"
+}

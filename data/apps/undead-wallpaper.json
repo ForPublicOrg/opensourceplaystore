@@ -1,0 +1,11 @@
+{
+  "id": "undead-wallpaper",
+  "name": "Undead Wallpaper",
+  "tagline": "Turn any video into a live wallpaper",
+  "description": "Pick a video from your phone and Undead Wallpaper loops it smoothly behind your icons, with controls for sound, speed and battery use.\n\nIt is completely free with no ads and no watermark.",
+  "repo": "https://github.com/maocide/UndeadWallpaper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "video", "live", "customisation", "no-ads"],
+  "added": "2026-08-05"
+}

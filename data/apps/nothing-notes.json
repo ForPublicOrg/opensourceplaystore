@@ -1,0 +1,11 @@
+{
+  "id": "nothing-notes",
+  "name": "Nothing Notes",
+  "tagline": "A notes app in the Nothing phone style",
+  "description": "A minimal notes app themed after the dot-matrix look of Nothing phones, with a clean writing screen and local storage.\n\nIt is free and open source.",
+  "repo": "https://github.com/ThriveEngineer/nothing.notes",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["notes", "minimal", "theme", "offline", "design"],
+  "added": "2026-08-05"
+}

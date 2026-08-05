@@ -1,0 +1,11 @@
+{
+  "id": "delta-hotspot",
+  "name": "Delta",
+  "tagline": "Unlock the hidden hotspot settings",
+  "description": "Delta exposes advanced hotspot options on Pixel-style phones — band, channel, hidden network, client limits — that the normal settings screen leaves out.\n\nSmall, focused and free.",
+  "repo": "https://github.com/supershadoe/delta",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "tags": ["hotspot", "wifi", "settings", "pixel", "utility"],
+  "added": "2026-08-05"
+}

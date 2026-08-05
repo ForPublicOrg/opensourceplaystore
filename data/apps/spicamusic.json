@@ -1,0 +1,11 @@
+{
+  "id": "spicamusic",
+  "name": "SPICa Music",
+  "tagline": "A modern Compose music player for local files",
+  "description": "SPICa Music is a neat local player built with the newest Android tools, with a smooth interface, playlists and an equaliser.\n\nEverything is offline, and it stays light on battery.",
+  "repo": "https://github.com/yangSpica27/SPICaMusic_Android",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["music", "offline", "compose", "player", "equalizer"],
+  "added": "2026-08-05"
+}

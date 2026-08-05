@@ -1,0 +1,11 @@
+{
+  "id": "newsblur",
+  "name": "NewsBlur",
+  "tagline": "A news reader that learns what you like",
+  "description": "NewsBlur reads your feeds and quietly learns which stories you skip, so the ones you care about rise to the top. You can also see what other readers thought.\n\nThe app and the whole service are open source, and you can run the server yourself.",
+  "repo": "https://github.com/samuelclay/NewsBlur",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["rss", "news", "reader", "self-hosted", "social"],
+  "added": "2026-08-05"
+}

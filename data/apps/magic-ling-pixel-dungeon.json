@@ -1,0 +1,11 @@
+{
+  "id": "magic-ling-pixel-dungeon",
+  "name": "Magic Ling Pixel Dungeon",
+  "tagline": "A big, strange twist on Pixel Dungeon",
+  "description": "Built on Shattered Pixel Dungeon, this version adds heaps of new characters, items and mechanics for players who have already worn out the original.\n\nIt is free, offline and endlessly replayable.",
+  "repo": "https://github.com/LingASDJ/Magic_Ling_Pixel_Dungeon",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["roguelike", "dungeon", "offline", "pixel-art", "free"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fossify-contacts",
+  "name": "Fossify Contacts",
+  "tagline": "Manage your contacts without ads or tracking",
+  "description": "Fossify Contacts handles the people in your phone — groups, favourites, quick dialling — with a simple design and no advertising.\n\nIt works with the accounts already on your device and keeps everything local otherwise.",
+  "repo": "https://github.com/FossifyOrg/Contacts",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["contacts", "phone", "groups", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

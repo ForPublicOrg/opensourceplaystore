@@ -1,0 +1,11 @@
+{
+  "id": "reins",
+  "name": "Reins",
+  "tagline": "A calm, simple front end for Ollama chats",
+  "description": "Reins connects to an Ollama server and makes it easy to try things: change the system prompt per chat, tweak settings, and compare how different models reply.\n\nIt runs on phones, tablets and computers, and stores your conversations only where you are.",
+  "repo": "https://github.com/ibrahimcetin/reins",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ollama", "ai", "llm", "chat", "self-hosted"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "foto-editor",
+  "name": "Foto Editor",
+  "tagline": "Crop, filter and touch up a photo",
+  "description": "Foto Editor does the common photo edits — crop, rotate, filters, adjustments — quickly and without an account or subscription.\n\nEverything happens on the device.",
+  "repo": "https://github.com/wasim15185/Foto-Editor",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["photo", "editor", "filters", "crop", "offline"],
+  "added": "2026-08-05"
+}

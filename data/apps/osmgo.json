@@ -1,0 +1,11 @@
+{
+  "id": "osmgo",
+  "name": "OsmGo",
+  "tagline": "Add places to the open map as you walk past",
+  "description": "OsmGo makes it easy to drop a shop, bin or bench onto OpenStreetMap from your phone, with a friendly map view of what's already there.\n\nEdits work offline and upload when you have signal.",
+  "repo": "https://github.com/DoFabien/OsmGo",
+  "category": "maps",
+  "license": "MIT",
+  "tags": ["openstreetmap", "mapping", "offline", "community", "editor"],
+  "added": "2026-08-05"
+}

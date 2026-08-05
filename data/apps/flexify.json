@@ -1,0 +1,11 @@
+{
+  "id": "flexify",
+  "name": "Flexify",
+  "tagline": "Track your gym sets and watch them go up",
+  "description": "Flexify records your workouts — sets, reps and weight — and draws the graphs that make progress obvious over months.\n\nIt is offline, ad-free, and quick enough to use between sets without annoying you.",
+  "repo": "https://github.com/brandonp2412/Flexify",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["gym", "workout", "fitness", "tracker", "offline"],
+  "added": "2026-08-05"
+}

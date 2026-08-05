@@ -1,0 +1,11 @@
+{
+  "id": "suwayomi-tsumiru",
+  "name": "Suwayomi Tsumiru",
+  "tagline": "A native reader for your Suwayomi library",
+  "description": "Tsumiru reads manga and manhwa from a Suwayomi server you run yourself, with a fast native reader and offline downloads.\n\nYour library stays on your own machine.",
+  "repo": "https://github.com/Suwayomi/Suwayomi-Tsumiru",
+  "category": "reading",
+  "license": "MPL-2.0",
+  "tags": ["manga", "self-hosted", "reader", "offline", "library"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "taiga-chat",
+  "name": "Taiga",
+  "tagline": "Bring your own AI provider to a simple chat app",
+  "description": "Taiga is a mobile AI chat app that doesn't tie you to one company: add any provider you like, set your own model options, and keep your conversations on the phone.\n\nIt keeps the screen uncluttered and gets out of the way.",
+  "repo": "https://github.com/Ayuilos/Taiga",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["ai", "chat", "llm", "byok", "privacy"],
+  "added": "2026-08-05"
+}

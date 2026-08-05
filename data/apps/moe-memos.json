@@ -1,0 +1,11 @@
+{
+  "id": "moe-memos",
+  "name": "Moe Memos",
+  "tagline": "Jot down thoughts into your own notes server",
+  "description": "Moe Memos is a phone app for Memos, a small self-hosted service for quick notes, so your fleeting ideas live on a machine you control.\n\nIt supports tags, images and markdown, and works offline until it can sync.",
+  "repo": "https://github.com/mudkipme/MoeMemosAndroid",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "memos", "self-hosted", "markdown", "sync"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "trail-sense",
+  "name": "Trail Sense",
+  "tagline": "Turns your phone's sensors into survival tools",
+  "description": "Trail Sense uses the compass, barometer and other sensors already in your phone for hiking and emergencies: navigation, weather prediction, a torch with signalling, tide tables and more.\n\nIt works entirely offline and asks for no account — exactly what you want in the woods.",
+  "repo": "https://github.com/kylecorry31/Trail-Sense",
+  "category": "maps",
+  "license": "MIT",
+  "tags": ["hiking", "survival", "compass", "weather", "offline"],
+  "added": "2026-08-05"
+}

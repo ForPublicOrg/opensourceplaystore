@@ -1,0 +1,11 @@
+{
+  "id": "hidroly",
+  "name": "Hidroly",
+  "tagline": "A gentle reminder to drink some water",
+  "description": "Hidroly tracks how much water you drink and nudges you when it has been a while, with a simple goal you can adjust.\n\nIt is minimal, offline and free.",
+  "repo": "https://github.com/om1cael/Hidroly",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["health", "water", "reminder", "minimal", "offline"],
+  "added": "2026-08-05"
+}

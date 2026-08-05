@@ -1,0 +1,11 @@
+{
+  "id": "tasks-org",
+  "name": "Tasks",
+  "tagline": "A powerful to-do list that syncs where you want",
+  "description": "Tasks is the long-running successor to Astrid: lists, reminders, repeating tasks, locations and tags, with syncing through CalDAV, Google Tasks or your own server.\n\nIt has widgets, works offline, and is free with no adverts.",
+  "repo": "https://github.com/tasks/tasks",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "tasks", "reminders", "caldav", "widgets"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "gauguin",
+  "name": "Gauguin",
+  "tagline": "A number puzzle for people who finished Sudoku",
+  "description": "Gauguin gives you a grid where each block must reach a target using arithmetic — like Sudoku with sums, and just as addictive.\n\nGrids are generated fresh every time, it works offline, and there are no adverts.",
+  "repo": "https://github.com/meikpiep/gauguin",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["puzzle", "numbers", "sudoku", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

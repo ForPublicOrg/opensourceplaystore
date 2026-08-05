@@ -1,0 +1,11 @@
+{
+  "id": "flux-habits",
+  "name": "Flux Habits",
+  "tagline": "Build routines that actually stick",
+  "description": "Flux tracks the habits you want to keep — workouts, reading, anything daily — with simple streaks and reminders and no account.\n\nIt is free, open source and works offline.",
+  "repo": "https://github.com/wisamidris77/flux",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["habits", "routines", "tracker", "offline", "reminders"],
+  "added": "2026-08-05"
+}

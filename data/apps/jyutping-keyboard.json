@@ -1,0 +1,11 @@
+{
+  "id": "jyutping-keyboard",
+  "name": "Jyutping Keyboard",
+  "tagline": "A Cantonese keyboard that works offline",
+  "description": "This keyboard types Cantonese using Jyutping romanisation, with a proper dictionary on the device and no data sent anywhere.\n\nIt is free and released into the public domain.",
+  "repo": "https://github.com/yuetyam/jyutping-android",
+  "category": "tools",
+  "license": "CC0-1.0",
+  "tags": ["keyboard", "cantonese", "input", "offline", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "voyage-nostr",
+  "name": "Voyage",
+  "tagline": "A light client for the Nostr network",
+  "description": "Voyage keeps Nostr simple and small: follow people, read posts, and hold your own key, without a heavy app.\n\nIt works well on modest phones and is free.",
+  "repo": "https://github.com/dluvian/voyage",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["nostr", "social", "lightweight", "decentralised", "privacy"],
+  "added": "2026-08-05"
+}

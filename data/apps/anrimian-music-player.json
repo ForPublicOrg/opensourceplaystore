@@ -1,0 +1,11 @@
+{
+  "id": "anrimian-music-player",
+  "name": "Music Player",
+  "tagline": "A dependable player for your own songs",
+  "description": "This player browses your music by folders or tags, handles playlists properly, and can optionally sync your library with cloud storage you own.\n\nIt is quiet, quick and free of advertising.",
+  "repo": "https://github.com/Anrimian/music-player",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "folders", "playlists", "sync"],
+  "added": "2026-08-05"
+}

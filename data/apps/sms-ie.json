@@ -1,0 +1,11 @@
+{
+  "id": "sms-ie",
+  "name": "SMS Import / Export",
+  "tagline": "Back up your text messages to a file",
+  "description": "This exports your SMS, MMS and call log into open files you can keep, read and import again on a new phone.\n\nIt is small, has no ads, and never sends your messages anywhere.",
+  "repo": "https://github.com/tmo1/sms-ie",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["sms", "backup", "export", "privacy", "migration"],
+  "added": "2026-08-05"
+}

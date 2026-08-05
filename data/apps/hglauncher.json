@@ -1,0 +1,11 @@
+{
+  "id": "hglauncher",
+  "name": "HgLauncher",
+  "tagline": "A quiet launcher for a slow day",
+  "description": "HgLauncher shows a simple list of apps with a search box and gestures, and gets out of the way — no widgets, no feed, no news.\n\nIt is light, old-phone friendly and has been maintained for years.",
+  "repo": "https://github.com/F4uzan/HgLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "lightweight", "search", "gestures"],
+  "added": "2026-08-05"
+}

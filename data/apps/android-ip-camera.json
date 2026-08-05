@@ -1,0 +1,11 @@
+{
+  "id": "android-ip-camera",
+  "name": "Android IP Camera",
+  "tagline": "Turn an old phone into a security camera",
+  "description": "This app streams video from a spare phone over your network so you can watch it from a browser or a home security system.\n\nEverything stays on your own network, with no subscription and no cloud.",
+  "repo": "https://github.com/DigitallyRefined/android-ip-camera",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["camera", "streaming", "security", "self-hosted", "reuse"],
+  "added": "2026-08-05"
+}

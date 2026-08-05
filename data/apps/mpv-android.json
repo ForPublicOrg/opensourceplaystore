@@ -1,0 +1,11 @@
+{
+  "id": "mpv-android",
+  "name": "mpv-android",
+  "tagline": "A powerful video player that plays anything",
+  "description": "mpv-android is built on the well-known mpv player, so it copes with unusual formats, odd subtitles and huge files that make other players give up.\n\nIt is light, has gesture controls, and lets advanced users tweak just about everything.",
+  "repo": "https://github.com/mpv-android/mpv-android",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["video", "player", "subtitles", "mpv", "offline"],
+  "added": "2026-08-05"
+}

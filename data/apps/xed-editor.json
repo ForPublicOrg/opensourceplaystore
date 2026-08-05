@@ -1,0 +1,11 @@
+{
+  "id": "xed-editor",
+  "name": "Xed Editor",
+  "tagline": "An advanced text editor with a terminal built in",
+  "description": "Xed Editor edits code and plain text with syntax colouring, project folders, git support and a real terminal, so you can actually build things from your phone.\n\nIt is free, open source and gets regular updates.",
+  "repo": "https://github.com/Xed-Editor/Xed-Editor",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["editor", "code", "terminal", "developer", "git"],
+  "added": "2026-08-05"
+}

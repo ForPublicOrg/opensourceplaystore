@@ -1,0 +1,11 @@
+{
+  "id": "trudido",
+  "name": "Trudido",
+  "tagline": "Simple tasks and notes that stay private",
+  "description": "Trudido keeps a to-do list and secure notes together in one clean app, with encryption for the notes and no tracking anywhere.\n\nIt is quick, tidy and works offline.",
+  "repo": "https://github.com/dominikmuellr/trudido",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["tasks", "notes", "privacy", "encryption", "offline"],
+  "added": "2026-08-05"
+}

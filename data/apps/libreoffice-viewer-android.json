@@ -1,0 +1,11 @@
+{
+  "id": "libreoffice-viewer-android",
+  "name": "LibreOffice for Android",
+  "tagline": "Open documents, spreadsheets and slides",
+  "description": "A build of LibreOffice for Android that opens ODF, Word, Excel, PowerPoint, Visio and PDF files without an account or a subscription.\n\nEverything is handled on the device.",
+  "repo": "https://github.com/gurecn/LibreOffice-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["documents", "office", "spreadsheet", "pdf", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "calculatorm3",
+  "name": "CalculatorM3",
+  "tagline": "A clean calculator that can also explain the answer",
+  "description": "CalculatorM3 is a simple, good-looking calculator with no ads and no tracking. It follows your phone's colours and does the everyday sums quickly.\n\nIf you turn it on, an optional helper can work through a written maths problem and show the steps — useful for homework.",
+  "repo": "https://github.com/gergelyvagujhelyi/CalculatorM3",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "maths", "material-you", "privacy", "homework"],
+  "added": "2026-08-05"
+}

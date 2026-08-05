@@ -1,0 +1,11 @@
+{
+  "id": "unciv",
+  "name": "Unciv",
+  "tagline": "Build an empire in a tiny, free strategy game",
+  "description": "Unciv is a faithful, lightweight remake of the classic turn-based empire game: found cities, research technology, fight or trade your way through the ages.\n\nIt runs on almost any phone, works offline, and is entirely free with no purchases.",
+  "repo": "https://github.com/yairm210/Unciv",
+  "category": "games",
+  "license": "MPL-2.0",
+  "tags": ["strategy", "turn-based", "offline", "empire", "no-ads"],
+  "added": "2026-08-05"
+}

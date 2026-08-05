@@ -1,0 +1,11 @@
+{
+  "id": "minimo-launcher",
+  "name": "Minimo",
+  "tagline": "A decluttered home screen with your favourites",
+  "description": "Minimo shows only the handful of apps you actually use, with everything else tucked behind a search, to make picking up your phone less of a rabbit hole.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/VaibhavLakhera/minimo-launcher",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["launcher", "minimal", "focus", "wellbeing", "no-ads"],
+  "added": "2026-08-05"
+}

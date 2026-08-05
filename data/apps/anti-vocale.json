@@ -1,0 +1,11 @@
+{
+  "id": "anti-vocale",
+  "name": "Anti-vocale",
+  "tagline": "Turns voice messages into text you can just read",
+  "description": "Some people send voice notes; some people would rather read them. Anti-vocale transcribes a voice message on your own phone and gives you the text in a few seconds.\n\nNothing is uploaded, so even long personal messages stay private.",
+  "repo": "https://github.com/RisorseArtificiali/anti-vocale",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["transcription", "voice", "offline", "privacy", "messages"],
+  "added": "2026-08-05"
+}

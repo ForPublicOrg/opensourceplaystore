@@ -1,0 +1,11 @@
+{
+  "id": "vectras-vm",
+  "name": "Vectras VM",
+  "tagline": "Run another operating system in a window",
+  "description": "Vectras VM runs virtual machines on your phone using QEMU, so you can boot small Linux or older systems for fun or for testing.\n\nIt is slow but genuinely impressive, and completely free.",
+  "repo": "https://github.com/xoureldeen/Vectras-VM-Android",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": ["virtual-machine", "qemu", "linux", "emulation", "developer"],
+  "added": "2026-08-05"
+}

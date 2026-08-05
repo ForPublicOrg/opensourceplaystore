@@ -1,0 +1,11 @@
+{
+  "id": "darq-reborn",
+  "name": "DarQ Reborn",
+  "tagline": "Force dark mode on apps that lack it",
+  "description": "DarQ applies Android's dark theme conversion to the apps you choose, so a stubbornly white app stops blinding you at night.\n\nIt works through Shizuku or root and lets you pick app by app.",
+  "repo": "https://github.com/Arora-Sir/DarQ-Reborn",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["dark-mode", "theme", "shizuku", "per-app", "night"],
+  "added": "2026-08-05"
+}

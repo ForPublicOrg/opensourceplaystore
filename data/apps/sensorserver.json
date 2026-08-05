@@ -1,0 +1,11 @@
+{
+  "id": "sensorserver",
+  "name": "SensorServer",
+  "tagline": "Stream your phone's sensors to a computer",
+  "description": "SensorServer sends readings from the accelerometer, gyroscope, GPS and other sensors over your network, so a laptop or project can use them live.\n\nIt is a favourite for robotics and science experiments.",
+  "repo": "https://github.com/UmerCodez/SensorServer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["sensors", "streaming", "developer", "websocket", "science"],
+  "added": "2026-08-05"
+}

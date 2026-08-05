@@ -1,0 +1,11 @@
+{
+  "id": "simple-time-tracker",
+  "name": "Simple Time Tracker",
+  "tagline": "See where your hours actually go",
+  "description": "Tap an activity to start timing it and tap again to stop; over a week you get clear charts of how you spent your time.\n\nIt has widgets, works offline, and there is no account or subscription.",
+  "repo": "https://github.com/Razeeman/Android-SimpleTimeTracker",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["time-tracking", "statistics", "widgets", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

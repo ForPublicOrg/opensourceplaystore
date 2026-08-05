@@ -1,0 +1,11 @@
+{
+  "id": "accrescent",
+  "name": "Accrescent",
+  "tagline": "A small app store built around safety",
+  "description": "Accrescent is a newer app store that focuses on security: apps are signed by their developers, updates are verified, and the store itself asks for very little.\n\nIt is deliberately small and careful rather than trying to list everything.",
+  "repo": "https://github.com/accrescent/accrescent",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["appstore", "security", "privacy", "updates", "installer"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "droidpad",
+  "name": "DroidPad",
+  "tagline": "Build your own remote control for anything",
+  "description": "DroidPad lets you design a panel of buttons, sliders and joysticks on your phone and connect it to a robot, computer or device over Bluetooth or Wi-Fi.\n\nIt is a lovely tool for hobby electronics projects.",
+  "repo": "https://github.com/UmerCodez/DroidPad",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["remote", "bluetooth", "diy", "electronics", "controller"],
+  "added": "2026-08-05"
+}

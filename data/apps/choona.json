@@ -1,0 +1,11 @@
+{
+  "id": "choona",
+  "name": "Choona",
+  "tagline": "Tune your guitar, in any tuning",
+  "description": "Choona listens to each string and tells you which way to turn, with a big library of alternate tunings and a version for watches.\n\nIt works offline and has no adverts.",
+  "repo": "https://github.com/rohankhayech/Choona",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["guitar", "tuner", "music", "offline", "wear-os"],
+  "added": "2026-08-05"
+}

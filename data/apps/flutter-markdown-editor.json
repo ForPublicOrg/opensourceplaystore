@@ -1,0 +1,11 @@
+{
+  "id": "flutter-markdown-editor",
+  "name": "Markdown Editor",
+  "tagline": "Write markdown with a live preview",
+  "description": "A simple editor for markdown files that shows the formatted result as you type, and opens the files already on your phone.\n\nIt is free, offline and does exactly one job.",
+  "repo": "https://github.com/adeeteya/FlutterMarkdownEditor",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["markdown", "editor", "notes", "preview", "offline"],
+  "added": "2026-08-05"
+}

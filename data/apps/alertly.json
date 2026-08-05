@@ -1,0 +1,11 @@
+{
+  "id": "alertly",
+  "name": "Alertly",
+  "tagline": "Highlights the notifications that matter",
+  "description": "Alertly filters the flood of notifications so the ones you actually care about stand out instead of scrolling past.\n\nIt reads notifications only on the device.",
+  "repo": "https://github.com/lightningcpu/Alertly",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["notifications", "filter", "focus", "privacy", "offline"],
+  "added": "2026-08-05"
+}

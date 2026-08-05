@@ -1,0 +1,11 @@
+{
+  "id": "rikkahub",
+  "name": "RikkaHub",
+  "tagline": "One chat app for many different AI assistants",
+  "description": "RikkaHub lets you chat with AI models from lots of providers in one place. You bring your own key from whichever service you already pay for, and the app keeps your chats, prompts and settings tidy on your phone.\n\nIt supports pictures, web search, saved assistant personalities and a clean modern look, so switching between models feels like using one app rather than five.",
+  "repo": "https://github.com/rikkahub/rikkahub",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["ai", "chat", "llm", "assistant", "byok"],
+  "added": "2026-08-05"
+}

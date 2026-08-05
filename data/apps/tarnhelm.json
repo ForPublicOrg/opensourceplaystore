@@ -1,0 +1,11 @@
+{
+  "id": "tarnhelm",
+  "name": "Tarnhelm",
+  "tagline": "Cleans up links before you share them",
+  "description": "Tarnhelm strips tracking codes from links you share and expands shortened ones so you can see where they actually go.\n\nIt slots into the share menu and works offline.",
+  "repo": "https://github.com/lz233/Tarnhelm",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["privacy", "links", "tracking", "sharing", "clean"],
+  "added": "2026-08-05"
+}

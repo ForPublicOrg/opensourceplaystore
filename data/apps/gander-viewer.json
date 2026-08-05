@@ -1,0 +1,11 @@
+{
+  "id": "gander-viewer",
+  "name": "Gander",
+  "tagline": "Opens any file, asks for no permissions",
+  "description": "Gander views PDFs, documents, spreadsheets and more without an internet connection and without a single permission request.\n\nIt is deliberately simple: you tap a file, you see the file.",
+  "repo": "https://github.com/mokshablr/gander",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["viewer", "pdf", "documents", "offline", "privacy"],
+  "added": "2026-08-05"
+}

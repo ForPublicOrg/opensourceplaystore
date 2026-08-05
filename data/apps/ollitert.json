@@ -1,0 +1,11 @@
+{
+  "id": "ollitert",
+  "name": "OlliteRT",
+  "tagline": "Turn your phone into a private AI server",
+  "description": "OlliteRT runs AI models on your phone and offers them over the same interface the big services use, so any app or computer on your network can use them.\n\nEverything stays local: no keys, no accounts, no bills.",
+  "repo": "https://github.com/NightMean/OlliteRT",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "llm", "server", "offline", "self-hosted"],
+  "added": "2026-08-05"
+}

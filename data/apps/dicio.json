@@ -1,0 +1,11 @@
+{
+  "id": "dicio",
+  "name": "Dicio",
+  "tagline": "A voice assistant that doesn't spy on you",
+  "description": "Dicio answers spoken questions and runs simple commands — timers, weather, calls, searches, opening apps — without an account and without sending your voice to a big company.\n\nIt can do its speech recognition on the phone itself, understands several languages, and lets you pick which skills are switched on.",
+  "repo": "https://github.com/DicioTeam/dicio-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["voice", "assistant", "offline", "privacy", "speech"],
+  "added": "2026-08-05"
+}

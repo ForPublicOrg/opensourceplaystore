@@ -1,0 +1,11 @@
+{
+  "id": "amarok-hider",
+  "name": "Amarok Hider",
+  "tagline": "Hide private files and apps with one tap",
+  "description": "Amarok Hider tucks chosen files, photos and apps out of sight behind a single button, and brings them back just as quickly.\n\nIt is useful when you hand your phone to someone, and it works without root.",
+  "repo": "https://github.com/deltazefiro/Amarok-Hider",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["privacy", "hide", "files", "apps", "no-root"],
+  "added": "2026-08-05"
+}

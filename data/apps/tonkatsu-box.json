@@ -1,0 +1,11 @@
+{
+  "id": "tonkatsu-box",
+  "name": "Tonkatsu Box",
+  "tagline": "Catalogue your games, films and shows",
+  "description": "Tonkatsu Box keeps a searchable list of the retro games, films and series you own or want, with covers and details filled in for you.\n\nIt is free, offline and pleasant to browse.",
+  "repo": "https://github.com/hacan359/tonkatsu_box",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["collection", "games", "films", "catalogue", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zenith-wellbeing",
+  "name": "Zenith",
+  "tagline": "See where your screen time really goes",
+  "description": "Zenith shows how long you spend in each app and helps you set limits, with an expressive Material 3 design and no data leaving the phone.\n\nIt is a friendlier take on digital wellbeing than the built-in tools.",
+  "repo": "https://github.com/1372Slash/Zenith",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["wellbeing", "screen-time", "focus", "material-you", "privacy"],
+  "added": "2026-08-05"
+}

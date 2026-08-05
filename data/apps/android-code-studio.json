@@ -1,0 +1,11 @@
+{
+  "id": "android-code-studio",
+  "name": "Android Code Studio",
+  "tagline": "Build Android apps on an Android phone",
+  "description": "Android Code Studio is an environment for writing, building and installing full Android apps without a computer.\n\nIt is ambitious, free and open source, and a fascinating way to learn.",
+  "repo": "https://github.com/AndroidCSOfficial/android-code-studio",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ide", "developer", "android", "learning", "build"],
+  "added": "2026-08-05"
+}

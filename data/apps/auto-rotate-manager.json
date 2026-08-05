@@ -1,0 +1,11 @@
+{
+  "id": "auto-rotate-manager",
+  "name": "AutoRotate",
+  "tagline": "Different rotation rules for different screens",
+  "description": "AutoRotate lets you decide when the screen turns — per app, or per inner and outer display on a folding phone.\n\nIt is small, free and open source.",
+  "repo": "https://github.com/eiyooooo/AutoRotate",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["rotation", "display", "folding", "automation", "utility"],
+  "added": "2026-08-05"
+}

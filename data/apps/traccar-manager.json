@@ -1,0 +1,11 @@
+{
+  "id": "traccar-manager",
+  "name": "Traccar Manager",
+  "tagline": "Watch your tracked vehicles from your phone",
+  "description": "Traccar Manager connects to a Traccar server — the open vehicle tracking system — and shows your devices live on a map with their history.\n\nIt is the official app and talks only to your server.",
+  "repo": "https://github.com/traccar/traccar-manager",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "tags": ["tracking", "gps", "fleet", "self-hosted", "map"],
+  "added": "2026-08-05"
+}

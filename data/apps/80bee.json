@@ -1,0 +1,11 @@
+{
+  "id": "80bee",
+  "name": "80bee",
+  "tagline": "ADB tools running on the phone itself",
+  "description": "80bee brings ADB commands to the device, so you can change hidden settings, grant permissions and inspect apps without plugging into a computer.\n\nIt uses wireless debugging and needs no root.",
+  "repo": "https://github.com/Endda/80bee-app",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["adb", "developer", "no-root", "settings", "power-user"],
+  "added": "2026-08-05"
+}

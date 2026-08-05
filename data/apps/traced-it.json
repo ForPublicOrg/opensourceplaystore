@@ -1,0 +1,11 @@
+{
+  "id": "traced-it",
+  "name": "traced.it",
+  "tagline": "Jot quick notes with times and amounts",
+  "description": "traced.it records short entries with a timestamp and a number attached — feeds, doses, expenses, anything you count through the day — and shows them back as a history.\n\nIt is offline and private by design.",
+  "repo": "https://github.com/traced-it/traced-it-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "tracking", "log", "offline", "privacy"],
+  "added": "2026-08-05"
+}

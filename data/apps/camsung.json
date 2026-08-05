@@ -1,0 +1,11 @@
+{
+  "id": "camsung",
+  "name": "Camsung",
+  "tagline": "Silence the camera shutter on Samsung phones",
+  "description": "Some regions force the camera to make a noise. Camsung turns it off on Samsung devices, which is a relief in a quiet room.\n\nIt is tiny and does nothing else.",
+  "repo": "https://github.com/ericswpark/camsung",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "shutter", "samsung", "sound", "utility"],
+  "added": "2026-08-05"
+}

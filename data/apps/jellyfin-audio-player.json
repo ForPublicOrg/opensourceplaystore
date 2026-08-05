@@ -1,0 +1,11 @@
+{
+  "id": "jellyfin-audio-player",
+  "name": "Jellyfin Audio Player",
+  "tagline": "A lovely music app for your Jellyfin server",
+  "description": "If you keep your music collection on a Jellyfin server at home, this app gives it a proper phone player: browsing, playlists, offline downloads and a nice now-playing screen.\n\nIt talks only to your own server, so nothing goes through a streaming company.",
+  "repo": "https://github.com/leinelissen/jellyfin-audio-player",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["jellyfin", "music", "self-hosted", "streaming", "offline"],
+  "added": "2026-08-05"
+}

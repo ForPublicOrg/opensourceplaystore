@@ -1,0 +1,11 @@
+{
+  "id": "sav-pdf-viewer",
+  "name": "Sav PDF Viewer",
+  "tagline": "The simplest way to read a PDF",
+  "description": "Sav PDF Viewer opens PDF files quickly, remembers your page, and asks for no permissions beyond the file you gave it.\n\nNo ads, no cloud, no account — just the document.",
+  "repo": "https://github.com/Sav22999/sav-pdf-viewer-pro",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["pdf", "viewer", "privacy", "lightweight", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "podroid",
+  "name": "Podroid",
+  "tagline": "Run Linux containers and desktops on your phone",
+  "description": "Podroid boots a small Linux system on Android without root, so you can run containers and even a graphical desktop on a phone or tablet.\n\nIt is a serious tool for developers and tinkerers.",
+  "repo": "https://github.com/ExTV/Podroid",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": ["linux", "containers", "developer", "no-root", "desktop"],
+  "added": "2026-08-05"
+}

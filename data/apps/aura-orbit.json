@@ -1,0 +1,11 @@
+{
+  "id": "aura-orbit",
+  "name": "AuraOrbit",
+  "tagline": "Your apps orbiting in a 3D sphere",
+  "description": "AuraOrbit arranges app shortcuts on a spinning three-dimensional sphere you can flick through — impractical, delightful, and surprisingly usable.\n\nIt works as a widget or a full app.",
+  "repo": "https://github.com/JaiminPatel345/AuraOrbit",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "widget", "3d", "fun", "customisation"],
+  "added": "2026-08-05"
+}

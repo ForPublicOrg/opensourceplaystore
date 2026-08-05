@@ -1,0 +1,11 @@
+{
+  "id": "connectbot",
+  "name": "ConnectBot",
+  "tagline": "The original SSH client for Android",
+  "description": "ConnectBot has been letting people log into servers from their phone since 2009: SSH, keys, port forwarding and a solid terminal.\n\nIt is small, dependable and still actively maintained.",
+  "repo": "https://github.com/connectbot/connectbot",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ssh", "terminal", "server", "keys", "developer"],
+  "added": "2026-08-05"
+}

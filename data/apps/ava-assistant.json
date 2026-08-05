@@ -1,0 +1,11 @@
+{
+  "id": "ava-assistant",
+  "name": "Ava",
+  "tagline": "Turn an old tablet into a smart home panel",
+  "description": "Ava makes a spare Android device into a Home Assistant satellite — a wall panel with voice, sensors and Bluetooth presence detection.\n\nIt is a good second life for a device in a drawer.",
+  "repo": "https://github.com/knoop7/Ava",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["smart-home", "home-assistant", "voice", "panel", "reuse"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "canta",
+  "name": "Canta",
+  "tagline": "Remove preinstalled apps without root",
+  "description": "Canta uninstalls the software your phone came with — even the ones with no uninstall button — using Shizuku, and tells you which are safe to remove.\n\nIf you regret it, you can put them back.",
+  "repo": "https://github.com/samolego/Canta",
+  "category": "tools",
+  "license": "LGPL-3.0",
+  "tags": ["debloat", "uninstall", "shizuku", "no-root", "privacy"],
+  "added": "2026-08-05"
+}

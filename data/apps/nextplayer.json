@@ -1,0 +1,11 @@
+{
+  "id": "nextplayer",
+  "name": "Next Player",
+  "tagline": "A modern video player for the files on your phone",
+  "description": "Next Player plays videos stored on your device with subtitle support, gesture controls for volume and brightness, and a clean Material You look.\n\nIt remembers where you stopped in each video and handles almost any format you throw at it.",
+  "repo": "https://github.com/anilbeesetti/nextplayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["video", "player", "subtitles", "offline", "material-you"],
+  "added": "2026-08-05"
+}

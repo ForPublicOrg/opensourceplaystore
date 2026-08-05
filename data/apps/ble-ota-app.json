@@ -1,0 +1,11 @@
+{
+  "id": "ble-ota-app",
+  "name": "BLE OTA",
+  "tagline": "Update your gadget's firmware over Bluetooth",
+  "description": "This uploads new firmware to microcontroller projects over Bluetooth Low Energy, which saves plugging a cable into something already glued shut.\n\nIt is aimed at makers and works with common ESP boards.",
+  "repo": "https://github.com/vovagorodok/ble_ota_app",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["bluetooth", "firmware", "maker", "esp32", "electronics"],
+  "added": "2026-08-05"
+}

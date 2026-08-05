@@ -1,0 +1,11 @@
+{
+  "id": "audiofy",
+  "name": "Audiofy",
+  "tagline": "A light media player for music and video",
+  "description": "Audiofy plays both audio and video from your device with a simple modern interface, an equaliser, and support for a wide range of formats.\n\nIt is quick to open and does not ask you to sign in to anything.",
+  "repo": "https://github.com/googol-apps/Audiofy",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["media", "music", "video", "player", "offline"],
+  "added": "2026-08-05"
+}

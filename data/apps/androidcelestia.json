@@ -1,0 +1,11 @@
+{
+  "id": "androidcelestia",
+  "name": "Celestia",
+  "tagline": "Fly around the real universe",
+  "description": "Celestia is a space simulator with real astronomical data: travel to planets, moons and stars, see them to scale, and jump to any date.\n\nIt is free, works offline, and is used in classrooms everywhere.",
+  "repo": "https://github.com/celestiamobile/AndroidCelestia",
+  "category": "education",
+  "license": "GPL-2.0",
+  "tags": ["astronomy", "space", "simulator", "learning", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "decentpaste",
+  "name": "DecentPaste",
+  "tagline": "One clipboard shared across your devices",
+  "description": "Copy something on your phone and paste it on your computer: DecentPaste keeps a shared clipboard between devices you own, without a cloud service.\n\nIt is open source and works across the major systems.",
+  "repo": "https://github.com/decentpaste/decentpaste",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["clipboard", "sync", "devices", "privacy", "cross-platform"],
+  "added": "2026-08-05"
+}

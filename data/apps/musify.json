@@ -1,0 +1,11 @@
+{
+  "id": "musify",
+  "name": "Musify",
+  "tagline": "Stream and download music, ad-free",
+  "description": "Musify lets you search for songs, build playlists and download tracks for offline listening, with lyrics and a simple, colourful interface.\n\nIt has no ads and no account, and works on phones and tablets.",
+  "repo": "https://github.com/gokadzev/Musify",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "streaming", "offline", "lyrics", "no-ads"],
+  "added": "2026-08-05"
+}

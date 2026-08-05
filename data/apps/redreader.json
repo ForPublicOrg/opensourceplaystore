@@ -1,0 +1,11 @@
+{
+  "id": "redreader",
+  "name": "RedReader",
+  "tagline": "A light, accessible Reddit reader",
+  "description": "RedReader browses Reddit with no ads, low data use and excellent accessibility support, which is why people have stuck with it for over a decade.\n\nIt caches posts for offline reading and works well on slow connections.",
+  "repo": "https://github.com/QuantumBadger/RedReader",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["reddit", "reader", "accessibility", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

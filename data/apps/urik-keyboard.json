@@ -1,0 +1,11 @@
+{
+  "id": "urik-keyboard",
+  "name": "Urik",
+  "tagline": "A private keyboard with swipe typing",
+  "description": "Urik offers gesture typing, custom layouts and a password generator, without any of it leaving the phone.\n\nIt is a good option if you like swiping but not being profiled.",
+  "repo": "https://github.com/urikdev/Urik",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["keyboard", "swipe", "privacy", "offline", "layouts"],
+  "added": "2026-08-05"
+}

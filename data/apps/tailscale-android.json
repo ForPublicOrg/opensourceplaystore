@@ -1,0 +1,11 @@
+{
+  "id": "tailscale-android",
+  "name": "Tailscale",
+  "tagline": "Reach your own computers from anywhere, safely",
+  "description": "Tailscale builds a private network between the devices you own, so your phone can reach your home server or work machine as if they were on the same Wi-Fi.\n\nThe Android app is the official one, and the connection is encrypted end to end.",
+  "repo": "https://github.com/tailscale/tailscale-android",
+  "category": "internet",
+  "license": "BSD-3-Clause",
+  "tags": ["vpn", "wireguard", "network", "remote", "self-hosted"],
+  "added": "2026-08-05"
+}

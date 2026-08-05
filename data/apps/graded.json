@@ -1,0 +1,11 @@
+{
+  "id": "graded",
+  "name": "Graded",
+  "tagline": "Work out what your grades add up to",
+  "description": "Graded keeps track of your marks through a term and calculates the averages, so you always know where you stand before results day.\n\nIt handles different weightings and school systems, and keeps everything on your phone.",
+  "repo": "https://github.com/NightDreamGames/Graded",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["grades", "school", "students", "offline", "calculator"],
+  "added": "2026-08-05"
+}

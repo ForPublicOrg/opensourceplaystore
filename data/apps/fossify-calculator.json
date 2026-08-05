@@ -1,0 +1,11 @@
+{
+  "id": "fossify-calculator",
+  "name": "Fossify Calculator",
+  "tagline": "A calculator that just adds up",
+  "description": "Fossify Calculator handles everyday sums with big buttons, a readable history and no advertising anywhere.\n\nIt is tiny, opens instantly and asks for no permissions at all.",
+  "repo": "https://github.com/FossifyOrg/Calculator",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "simple", "offline", "no-ads", "material-you"],
+  "added": "2026-08-05"
+}

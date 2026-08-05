@@ -1,0 +1,11 @@
+{
+  "id": "clippy-wstxda",
+  "name": "Clippy",
+  "tagline": "Copy links without the tracking rubbish",
+  "description": "Clippy sits in the share menu, removes shorteners and tracking parameters from a link and copies the clean version to your clipboard.\n\nIt is tiny, quick and free.",
+  "repo": "https://github.com/WSTxda/Clippy",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["links", "privacy", "clipboard", "sharing", "tracking"],
+  "added": "2026-08-05"
+}

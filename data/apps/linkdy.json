@@ -1,0 +1,11 @@
+{
+  "id": "linkdy",
+  "name": "Linkdy",
+  "tagline": "A phone app for your linkding bookmarks",
+  "description": "Linkdy connects to linkding, a small self-hosted bookmark service, and gives it a proper mobile app with search, tags and sharing.\n\nYour links stay on your own server.",
+  "repo": "https://github.com/JGeek00/linkdy",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["bookmarks", "linkding", "self-hosted", "tags", "sharing"],
+  "added": "2026-08-05"
+}

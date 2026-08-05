@@ -1,0 +1,11 @@
+{
+  "id": "microg-gmscore",
+  "name": "microG Services",
+  "tagline": "Run apps that need Google, without Google",
+  "description": "microG is a free replacement for Google's app services, so apps that expect them can still work on a phone with no Google software installed.\n\nIt gives you push notifications and location without the tracking, and is the backbone of many de-Googled phones.",
+  "repo": "https://github.com/microg/GmsCore",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["degoogled", "privacy", "services", "push", "location"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "virtual-gamepad",
+  "name": "Virtual GamePad",
+  "tagline": "Use your phone as a game controller for your PC",
+  "description": "Virtual GamePad turns your phone's screen into a gamepad that your computer sees as a real controller, over your own network.\n\nIt is free, open source and needs no extra hardware.",
+  "repo": "https://github.com/kitswas/VirtualGamePad-Mobile",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["controller", "gamepad", "pc", "network", "free"],
+  "added": "2026-08-05"
+}

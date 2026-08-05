@@ -1,0 +1,11 @@
+{
+  "id": "conduit-terminal",
+  "name": "Conduit",
+  "tagline": "A proper terminal workspace with SSH and file transfer",
+  "description": "Conduit gives you SSH sessions that survive a dropped connection, file transfers, hardware keyboard support and a layout built for real work on a phone or tablet.\n\nIt connects only to the servers you configure.",
+  "repo": "https://github.com/gwitko/Conduit",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ssh", "terminal", "sftp", "developer", "mosh"],
+  "added": "2026-08-05"
+}

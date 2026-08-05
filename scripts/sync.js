@@ -22,6 +22,11 @@ const ROOT = path.join(__dirname, '..');
 const APPS_DIR = path.join(ROOT, 'data', 'apps');
 const LIVE_FILE = path.join(ROOT, 'data', 'live.json');
 
+/* How many apps are fetched at once. Authenticated runs have 5,000 req/h to
+   spend; anonymous ones only 60, so they go one at a time and simply cover
+   fewer apps before the previous snapshot takes over. */
+const CONCURRENCY = process.env.GITHUB_TOKEN ? 6 : 1;
+
 const HEADERS = {
   'User-Agent': 'opensourceplaystore-sync',
   Accept: 'application/vnd.github+json',
@@ -111,6 +116,7 @@ async function syncApp(app) {
   const entry = {
     stars: repo.stargazers_count,
     owner: repo.owner ? repo.owner.login : owner,
+    createdAt: repo.created_at,
     pushedAt: repo.pushed_at,
     archived: !!repo.archived,
     hasDiscussions: !!repo.has_discussions,
@@ -174,23 +180,32 @@ async function main() {
   let ok = 0;
   let failed = 0;
 
-  for (const file of files) {
-    const app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
-    try {
-      out.apps[app.id] = await syncApp(app);
-      ok++;
-      const e = out.apps[app.id];
-      const extras = [
-        e.apk ? `apk:${e.apk.source === 'fdroid' ? 'f-droid' : 'github'}` : 'no apk',
-        e.icon ? 'icon' : null,
-        e.screenshots ? `${e.screenshots.length} shots` : null,
-      ].filter(Boolean).join('  ');
-      console.log(`✓ ${app.id}  ⭐${e.stars ?? '-'}  ${extras}`);
-    } catch (e) {
-      failed++;
-      console.error(`✗ ${app.id}: ${e.message} (keeping previous data)`);
+  /* Each app costs 3–5 API calls, so a catalog of several hundred takes far
+     too long one at a time. A small worker pool keeps the whole run to a few
+     minutes while staying well inside GitHub's concurrency comfort zone. */
+  const queue = [...files];
+  async function worker() {
+    for (;;) {
+      const file = queue.shift();
+      if (!file) return;
+      const app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
+      try {
+        const entry = await syncApp(app);
+        out.apps[app.id] = entry;
+        ok++;
+        const extras = [
+          entry.apk ? `apk:${entry.apk.source === 'fdroid' ? 'f-droid' : 'github'}` : 'no apk',
+          entry.icon ? 'icon' : null,
+          entry.screenshots ? `${entry.screenshots.length} shots` : null,
+        ].filter(Boolean).join('  ');
+        console.log(`✓ ${app.id}  ⭐${entry.stars ?? '-'}  ${extras}`);
+      } catch (e) {
+        failed++;
+        console.error(`✗ ${app.id}: ${e.message} (keeping previous data)`);
+      }
     }
   }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 
   // Drop entries for apps that no longer exist in the catalog.
   for (const id of Object.keys(out.apps)) {

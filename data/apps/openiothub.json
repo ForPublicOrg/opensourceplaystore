@@ -1,0 +1,11 @@
+{
+  "id": "openiothub",
+  "name": "OpenIoTHub",
+  "tagline": "Reach devices at home from anywhere",
+  "description": "OpenIoTHub connects you to services on your home network — a NAS, a camera, a server — even when they sit behind a router with no public address.\n\nIt is open source and you can host the relay yourself.",
+  "repo": "https://github.com/OpenIoTHub/OpenIoTHub",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["remote", "network", "nat", "self-hosted", "iot"],
+  "added": "2026-08-05"
+}

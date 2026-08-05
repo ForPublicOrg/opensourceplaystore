@@ -1,0 +1,11 @@
+{
+  "id": "afinity",
+  "name": "AFinity",
+  "tagline": "A native Jellyfin app for films and shows",
+  "description": "AFinity is a modern Android client for Jellyfin, the home media server, with a fast native interface, downloads for offline watching and support for TV.\n\nYour library stays on your own server; the app is just a nice way to watch it.",
+  "repo": "https://github.com/MakD/AFinity",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["jellyfin", "video", "self-hosted", "streaming", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "alpha-gps",
+  "name": "Alpha GPS",
+  "tagline": "Add location data to your camera photos",
+  "description": "Alpha GPS sends your phone's position to a Sony camera over Bluetooth so photos come out geotagged without carrying extra hardware.\n\nIt is small, free and open source.",
+  "repo": "https://github.com/Saschl/alpha-gps",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "gps", "geotag", "sony", "photography"],
+  "added": "2026-08-05"
+}

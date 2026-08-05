@@ -1,0 +1,11 @@
+{
+  "id": "haven-work-profile",
+  "name": "Haven",
+  "tagline": "Keep work and personal apps properly apart",
+  "description": "Haven sets up an isolated work profile so a second set of apps runs in its own sandbox with its own data, and can be paused when you clock off.\n\nIt is a modernised take on a very useful Android feature.",
+  "repo": "https://github.com/Kenneth-Cho-InfoSec/Haven",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["work-profile", "privacy", "isolation", "security", "apps"],
+  "added": "2026-08-05"
+}

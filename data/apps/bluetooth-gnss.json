@@ -1,0 +1,11 @@
+{
+  "id": "bluetooth-gnss",
+  "name": "Bluetooth GNSS",
+  "tagline": "Use a proper GPS receiver with your phone",
+  "description": "Bluetooth GNSS feeds position data from an external GPS receiver into Android, so mapping and survey apps get much better accuracy than the built-in chip.\n\nIt supports common receivers and standard formats.",
+  "repo": "https://github.com/ykasidit/bluetooth_gnss",
+  "category": "maps",
+  "license": "GPL-2.0",
+  "tags": ["gps", "bluetooth", "accuracy", "survey", "mapping"],
+  "added": "2026-08-05"
+}

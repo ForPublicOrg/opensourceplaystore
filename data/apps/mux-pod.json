@@ -1,0 +1,11 @@
+{
+  "id": "mux-pod",
+  "name": "mux-pod",
+  "tagline": "Your terminal sessions, comfortable on a phone",
+  "description": "mux-pod connects over SSH to the tmux sessions running on your server and gives them a touch-friendly layout, so switching windows doesn't need a keyboard.\n\nSessions keep running when you close the app, exactly as tmux should.",
+  "repo": "https://github.com/moezakura/mux-pod",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ssh", "tmux", "terminal", "developer", "remote"],
+  "added": "2026-08-05"
+}

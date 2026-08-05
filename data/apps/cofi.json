@@ -1,0 +1,11 @@
+{
+  "id": "cofi",
+  "name": "Cofi",
+  "tagline": "A brew timer for better coffee",
+  "description": "Cofi walks you through a coffee recipe step by step with timings and water amounts, so pour-over actually comes out the same twice.\n\nIt comes with the well-known recipes and lets you save your own.",
+  "repo": "https://github.com/rozPierog/Cofi",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["coffee", "timer", "recipes", "material-you", "offline"],
+  "added": "2026-08-05"
+}

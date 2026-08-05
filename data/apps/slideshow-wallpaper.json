@@ -1,0 +1,11 @@
+{
+  "id": "slideshow-wallpaper",
+  "name": "Slideshow Wallpaper",
+  "tagline": "Your own photos, rotating behind your icons",
+  "description": "A live wallpaper that cycles through pictures you choose, at whatever interval you like, with no cropping surprises.\n\nIt is light on battery and completely offline.",
+  "repo": "https://github.com/Doubi88/SlideshowWallpaper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "slideshow", "photos", "offline", "simple"],
+  "added": "2026-08-05"
+}

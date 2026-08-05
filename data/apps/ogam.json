@@ -1,0 +1,11 @@
+{
+  "id": "ogam",
+  "name": "OGAM",
+  "tagline": "Offline AI that chats, sees, speaks and draws",
+  "description": "OGAM packs a lot of AI into one app that works with no internet at all. You can chat with a model, ask about a photo, talk out loud, listen to answers and even make pictures — all running on the phone itself.\n\nModels are downloaded once and then stay on your device, so nothing you type or say leaves it. Handy on a plane, in the mountains, or any time you'd rather not send your words to a server.",
+  "repo": "https://github.com/off-grid-ai/OGAM",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "offline", "llm", "voice", "images", "privacy"],
+  "added": "2026-08-05"
+}

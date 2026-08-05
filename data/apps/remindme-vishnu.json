@@ -1,0 +1,11 @@
+{
+  "id": "remindme-vishnu",
+  "name": "RemindMe",
+  "tagline": "An actual alarm for a future date",
+  "description": "RemindMe sets a proper alarm for a day months away — the kind that wakes the phone up — rather than a notification you'll swipe past.\n\nGood for renewals, birthdays and appointments.",
+  "repo": "https://github.com/VishnuSanal/RemindMe",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["reminders", "alarm", "calendar", "offline", "simple"],
+  "added": "2026-08-05"
+}

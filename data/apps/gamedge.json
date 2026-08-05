@@ -1,0 +1,11 @@
+{
+  "id": "gamedge",
+  "name": "Gamedge",
+  "tagline": "Browse video games and gaming news",
+  "description": "Gamedge lets you look up any game, see its details, screenshots and reviews, and keep up with gaming news — a neat, modern reference app.\n\nIt is free, open source and free of advertising.",
+  "repo": "https://github.com/mars885/gamedge",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["games", "database", "news", "reference", "material"],
+  "added": "2026-08-05"
+}

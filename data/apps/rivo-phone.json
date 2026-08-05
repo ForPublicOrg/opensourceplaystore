@@ -1,0 +1,11 @@
+{
+  "id": "rivo-phone",
+  "name": "Rivo",
+  "tagline": "A modern dialer and contacts app",
+  "description": "Rivo replaces the phone and contacts apps with a single one built in the newest Material style, with quick search, favourites and call history.\n\nIt is free, ad-free and open source.",
+  "repo": "https://github.com/user-grinch/RivoPhoneApp",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["dialer", "contacts", "calls", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

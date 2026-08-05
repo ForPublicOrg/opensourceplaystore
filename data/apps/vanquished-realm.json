@@ -1,0 +1,11 @@
+{
+  "id": "vanquished-realm",
+  "name": "Vanquished Realm",
+  "tagline": "A small adventure made with Godot",
+  "description": "A short game built in the open Godot engine, free to play and free to look inside if you're curious how it was made.\n\nIt works offline with no adverts.",
+  "repo": "https://github.com/dallatIkes/Vanquished-Realm",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["adventure", "godot", "offline", "indie", "free"],
+  "added": "2026-08-05"
+}

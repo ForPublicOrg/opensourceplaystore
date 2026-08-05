@@ -1,0 +1,11 @@
+{
+  "id": "metaradar",
+  "name": "MetaRadar",
+  "tagline": "See which Bluetooth devices keep following you",
+  "description": "MetaRadar logs the Bluetooth devices around you and flags the ones that appear again and again — useful for spotting a tracker in your bag.\n\nEverything is recorded on the device and nothing is uploaded.",
+  "repo": "https://github.com/BLE-Research-Group/MetaRadar",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["bluetooth", "privacy", "tracking", "detection", "offline"],
+  "added": "2026-08-05"
+}

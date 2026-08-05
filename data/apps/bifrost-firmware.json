@@ -1,0 +1,11 @@
+{
+  "id": "bifrost-firmware",
+  "name": "Bifrost",
+  "tagline": "Download official Samsung firmware",
+  "description": "Bifrost fetches official firmware files for Samsung devices straight from the source, on the phone or on a computer.\n\nUseful for repairs, region changes and getting back to stock.",
+  "repo": "https://github.com/zacharee/Bifrost",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["firmware", "samsung", "download", "repair", "cross-platform"],
+  "added": "2026-08-05"
+}

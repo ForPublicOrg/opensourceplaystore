@@ -1,0 +1,11 @@
+{
+  "id": "chess-endgame-training",
+  "name": "Chess Endgame Training",
+  "tagline": "Practise the chess endings you keep losing",
+  "description": "This app drills a big organised set of endgame positions, from basic checkmates to tricky pawn races, and tells you where you went wrong.\n\nIt works offline and is completely free.",
+  "repo": "https://github.com/supertorpe/chessendgametraining",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["chess", "training", "puzzles", "offline", "learning"],
+  "added": "2026-08-05"
+}

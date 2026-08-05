@@ -1,0 +1,11 @@
+{
+  "id": "streetcomplete",
+  "name": "StreetComplete",
+  "tagline": "Improve the world map by answering easy questions",
+  "description": "StreetComplete shows simple questions about places near you — is this shop still open, does this path have steps — and your answers go straight into OpenStreetMap.\n\nNo mapping knowledge needed; it feels more like a game than a chore.",
+  "repo": "https://github.com/streetcomplete/StreetComplete",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["openstreetmap", "mapping", "community", "walking", "offline"],
+  "added": "2026-08-05"
+}

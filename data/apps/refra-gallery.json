@@ -1,0 +1,11 @@
+{
+  "id": "refra-gallery",
+  "name": "ReFra",
+  "tagline": "A smooth modern gallery for your pictures",
+  "description": "ReFra browses photos and videos in a fast, good-looking interface with albums, favourites and simple editing.\n\nIt is offline, ad-free and follows your phone's colours.",
+  "repo": "https://github.com/IacobIonut01/ReFra",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["gallery", "photos", "material-you", "offline", "editor"],
+  "added": "2026-08-05"
+}

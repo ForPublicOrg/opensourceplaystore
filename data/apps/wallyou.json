@@ -1,0 +1,11 @@
+{
+  "id": "wallyou",
+  "name": "Wall You",
+  "tagline": "A privacy-friendly wallpaper browser",
+  "description": "Wall You finds wallpapers from open sources and sets them for you, with automatic changing and no tracking or accounts.\n\nIt has a clean Material 3 design and saves what you like.",
+  "repo": "https://github.com/you-apps/WallYou",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "privacy", "material-you", "auto", "browse"],
+  "added": "2026-08-05"
+}

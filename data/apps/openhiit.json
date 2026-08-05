@@ -1,0 +1,11 @@
+{
+  "id": "openhiit",
+  "name": "OpenHIIT",
+  "tagline": "Build your own interval workouts",
+  "description": "OpenHIIT runs interval and Tabata timers you design yourself, with clear on-screen cues and sounds so you don't have to look at the phone mid-burpee.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/a-mabe/OpenHIIT",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["workout", "interval", "timer", "fitness", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wallstreet-wallpapers",
+  "name": "WallStreet",
+  "tagline": "A stylish wallpaper browser",
+  "description": "WallStreet browses and sets wallpapers in a clean Compose interface, with favourites and quick applying.\n\nIt is free, open source and free of adverts.",
+  "repo": "https://github.com/StarkDroid/WallStreet",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["wallpaper", "browse", "material-you", "no-ads", "customisation"],
+  "added": "2026-08-05"
+}

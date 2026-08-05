@@ -1,0 +1,11 @@
+{
+  "id": "ciyue",
+  "name": "Ciyue",
+  "tagline": "An offline dictionary that reads your own files",
+  "description": "Ciyue opens dictionary files in the common MDict format, so you can look words up with no internet and with whichever dictionaries you choose.\n\nIt can also pop up definitions while you read in other apps.",
+  "repo": "https://github.com/mumu-lhl/Ciyue",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["dictionary", "offline", "mdict", "languages", "reading"],
+  "added": "2026-08-05"
+}

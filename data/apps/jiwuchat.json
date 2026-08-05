@@ -1,0 +1,11 @@
+{
+  "id": "jiwuchat",
+  "name": "JiwuChat",
+  "tagline": "A light chat app with AI helpers built in",
+  "description": "JiwuChat is a messaging app that works on phones and computers, with group chats, voice and video calls, and file sharing.\n\nIt also has AI assistants sitting alongside your normal conversations, so you can ask a question or get something rewritten without leaving the chat.",
+  "repo": "https://github.com/KiWi233333/JiwuChat",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": ["chat", "messaging", "ai", "cross-platform", "calls"],
+  "added": "2026-08-05"
+}

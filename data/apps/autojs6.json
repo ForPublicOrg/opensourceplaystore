@@ -1,0 +1,11 @@
+{
+  "id": "autojs6",
+  "name": "AutoJs6",
+  "tagline": "Write little scripts that use your phone for you",
+  "description": "AutoJs6 lets you write JavaScript that taps, swipes and reads the screen, so repetitive jobs can be automated without root.\n\nIt has a built-in editor and a large community of shared scripts.",
+  "repo": "https://github.com/SuperMonster003/AutoJs6",
+  "category": "tools",
+  "license": "MPL-2.0",
+  "tags": ["automation", "scripting", "javascript", "accessibility", "no-root"],
+  "added": "2026-08-05"
+}

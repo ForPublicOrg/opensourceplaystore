@@ -1,0 +1,11 @@
+{
+  "id": "novadial",
+  "name": "NovaDial",
+  "tagline": "A fast dialer with dual-SIM support",
+  "description": "NovaDial replaces the phone app with a quicker one: instant call history search, AMOLED themes and proper dual-SIM handling.\n\nIt is private, free and open source.",
+  "repo": "https://github.com/dhilipmpms/NovaDial",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["dialer", "calls", "dual-sim", "privacy", "amoled"],
+  "added": "2026-08-05"
+}

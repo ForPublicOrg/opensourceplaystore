@@ -1,0 +1,11 @@
+{
+  "id": "purelink",
+  "name": "PureLink",
+  "tagline": "Strip trackers out of links, and more",
+  "description": "PureLink cleans tracking rubbish from shared links and adds a set of small privacy and developer tools alongside it.\n\nEverything runs on the device with no internet needed.",
+  "repo": "https://github.com/ahmedthebest31/PureLink-Android",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["privacy", "links", "tracking", "tools", "offline"],
+  "added": "2026-08-05"
+}

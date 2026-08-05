@@ -1,0 +1,11 @@
+{
+  "id": "krude",
+  "name": "Krude",
+  "tagline": "Launch apps and actions by typing a few letters",
+  "description": "Krude is a small launcher built around a search box that finds apps, contacts and shortcuts instantly, with custom workflows you define.\n\nIt is quick, tidy and stays out of your way.",
+  "repo": "https://github.com/KusStar/krude",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["launcher", "search", "shortcuts", "minimal", "fast"],
+  "added": "2026-08-05"
+}

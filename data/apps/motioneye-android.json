@@ -1,0 +1,11 @@
+{
+  "id": "motioneye-android",
+  "name": "motionEye",
+  "tagline": "Watch your home cameras from your phone",
+  "description": "This is a phone client for motionEye, the open camera surveillance software you run yourself, with live views and recordings.\n\nIt talks only to your own server.",
+  "repo": "https://github.com/JairajJangle/motioneye-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "surveillance", "self-hosted", "security", "home"],
+  "added": "2026-08-05"
+}

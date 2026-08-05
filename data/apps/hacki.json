@@ -1,0 +1,11 @@
+{
+  "id": "hacki",
+  "name": "Hacki",
+  "tagline": "A tidy Hacker News reader",
+  "description": "Hacki reads Hacker News with threaded comments, saved stories, search and offline caching, in a design that is much easier on the eyes than the website.\n\nIt can post and reply too, and it has no ads.",
+  "repo": "https://github.com/Livinglist/Hacki",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["hackernews", "reader", "comments", "offline", "news"],
+  "added": "2026-08-05"
+}

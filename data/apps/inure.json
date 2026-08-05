@@ -1,0 +1,11 @@
+{
+  "id": "inure",
+  "name": "Inure",
+  "tagline": "A beautiful app manager for tinkerers",
+  "description": "Inure shows everything about the apps on your phone — permissions, activities, sizes, trackers — and can disable, uninstall or edit them if you have root or Shizuku set up.\n\nIt looks genuinely lovely for a tool this technical.",
+  "repo": "https://github.com/Hamza417/Inure",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["apps", "manager", "root", "shizuku", "analysis"],
+  "added": "2026-08-05"
+}

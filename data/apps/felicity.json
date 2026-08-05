@@ -1,0 +1,11 @@
+{
+  "id": "felicity",
+  "name": "Felicity",
+  "tagline": "An offline music player for people who care about sound",
+  "description": "Felicity plays your local music with real audio processing — a ten-band equaliser, effects and a visualiser — for listeners who notice the difference.\n\nIt is offline, ad-free, and unusually pretty.",
+  "repo": "https://github.com/Hamza417/Felicity",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": ["music", "offline", "equalizer", "audiophile", "player"],
+  "added": "2026-08-05"
+}

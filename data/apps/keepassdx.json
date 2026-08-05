@@ -1,0 +1,11 @@
+{
+  "id": "keepassdx",
+  "name": "KeePassDX",
+  "tagline": "Keep your passwords in a file only you can open",
+  "description": "KeePassDX stores passwords in an encrypted KeePass file on your own device — no company, no subscription, no cloud unless you choose one.\n\nIt fills in passwords for you, unlocks with a fingerprint, and works with the desktop KeePass apps.",
+  "repo": "https://github.com/Kunzisoft/KeePassDX",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["passwords", "keepass", "encryption", "offline", "autofill"],
+  "added": "2026-08-05"
+}

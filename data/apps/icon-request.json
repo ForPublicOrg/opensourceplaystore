@@ -1,0 +1,11 @@
+{
+  "id": "icon-request",
+  "name": "IconRequest",
+  "tagline": "Help icon packs cover your apps",
+  "description": "IconRequest lists the apps on your phone that an icon pack hasn't themed yet and packages a request for the pack's maker.\n\nIt is a small tool that makes home screens look complete.",
+  "repo": "https://github.com/Kaiserdragon2/IconRequest",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["icons", "theme", "customisation", "home-screen", "utility"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "gopeed",
+  "name": "Gopeed",
+  "tagline": "A fast download manager for everything",
+  "description": "Gopeed downloads files quickly by splitting them into parts, and handles ordinary links, torrents, magnets and more in one place.\n\nThe same app runs on phones and computers, and you can queue, pause and resume anything.",
+  "repo": "https://github.com/GopeedLab/gopeed",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["download", "torrent", "manager", "fast", "cross-platform"],
+  "added": "2026-08-05"
+}

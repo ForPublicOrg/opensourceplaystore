@@ -1,0 +1,11 @@
+{
+  "id": "healthy-battery-charging",
+  "name": "Healthy Battery Charging",
+  "tagline": "Reminds you to unplug before 100%",
+  "description": "Batteries last longer when they stay between roughly 40 and 80 percent. This app watches the level and nudges you at the right moments.\n\nIt is simple, free, and needs no root.",
+  "repo": "https://github.com/vbresan/HealthyBatteryCharging",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["battery", "charging", "health", "reminder", "no-root"],
+  "added": "2026-08-05"
+}

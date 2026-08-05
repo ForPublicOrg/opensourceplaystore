@@ -1,0 +1,11 @@
+{
+  "id": "dialog-music-player",
+  "name": "Dialog Music Player",
+  "tagline": "Plays one audio file, in a tiny pop-up",
+  "description": "Tap an audio file and this appears as a small dialog to play it, then gets out of the way — no library scan, no full app to open.\n\nPerfect for voice notes, ringtones and one-off files.",
+  "repo": "https://github.com/VishnuSanal/DialogMusicPlayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["audio", "player", "minimal", "quick", "offline"],
+  "added": "2026-08-05"
+}

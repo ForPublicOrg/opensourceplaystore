@@ -1,0 +1,11 @@
+{
+  "id": "pdfinspector",
+  "name": "PDF Inspector",
+  "tagline": "Look inside a PDF, element by element",
+  "description": "PDF Inspector opens a document and shows the objects it is made of, letting you examine and tweak them — a developer tool in the shape of a viewer.\n\nEverything happens on the device.",
+  "repo": "https://github.com/shardulvs/pdfinspector-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["pdf", "developer", "inspect", "editor", "offline"],
+  "added": "2026-08-05"
+}

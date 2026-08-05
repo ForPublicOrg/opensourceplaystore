@@ -1,0 +1,11 @@
+{
+  "id": "compass-kr0oked",
+  "name": "Compass",
+  "tagline": "A simple, beautiful compass",
+  "description": "A compass that shows which way you're facing and nothing else — no ads, no account, no permissions beyond what a compass needs.\n\nIt looks good, works offline, and is exactly as complicated as it should be.",
+  "repo": "https://github.com/Kr0oked/Compass",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["compass", "simple", "offline", "no-ads", "navigation"],
+  "added": "2026-08-05"
+}

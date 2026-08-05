@@ -1,0 +1,11 @@
+{
+  "id": "shelly-terminal",
+  "name": "Shelly",
+  "tagline": "A terminal you can talk to in plain words",
+  "description": "Shelly is a terminal app for Android where you can either type commands yourself or describe what you want and let an assistant work out the command.\n\nIt was written on a phone by someone learning as they went, which is a nice reminder of what these tools make possible.",
+  "repo": "https://github.com/RYOITABASHI/Shelly",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["terminal", "ai", "developer", "shell", "assistant"],
+  "added": "2026-08-05"
+}

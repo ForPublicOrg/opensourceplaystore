@@ -1,0 +1,11 @@
+{
+  "id": "opendroid",
+  "name": "OpenDroid",
+  "tagline": "An AI assistant that plans and does jobs on your phone",
+  "description": "OpenDroid takes a request in plain words, works out the steps and carries them out on your device — opening apps, filling things in, fetching information.\n\nIt can use a model running locally on the phone or an online one with your own key, and it shows you what it is about to do before it does it.",
+  "repo": "https://github.com/yashab-cyber/opendroid",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "agent", "assistant", "automation", "llm"],
+  "added": "2026-08-05"
+}

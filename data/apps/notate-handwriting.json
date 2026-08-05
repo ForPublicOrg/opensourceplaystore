@@ -1,0 +1,11 @@
+{
+  "id": "notate-handwriting",
+  "name": "Notate",
+  "tagline": "Handwritten notes made for e-ink tablets",
+  "description": "Notate is built for writing with a stylus on Onyx-style e-ink devices, with low-lag ink, PDF markup and pages that export cleanly.\n\nIt is free and open source.",
+  "repo": "https://github.com/alexdremov/notate",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["handwriting", "notes", "e-ink", "stylus", "pdf"],
+  "added": "2026-08-05"
+}

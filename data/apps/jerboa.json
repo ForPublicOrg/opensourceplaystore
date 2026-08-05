@@ -1,0 +1,11 @@
+{
+  "id": "jerboa",
+  "name": "Jerboa",
+  "tagline": "A native app for the Lemmy communities",
+  "description": "Jerboa is the official Android app for Lemmy, an open network of discussion communities that no single company owns.\n\nIt handles multiple accounts, comments, voting and images, and is made by the Lemmy team itself.",
+  "repo": "https://github.com/LemmyNet/jerboa",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": ["lemmy", "fediverse", "forum", "communities", "open"],
+  "added": "2026-08-05"
+}

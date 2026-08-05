@@ -1,0 +1,11 @@
+{
+  "id": "perfectgymcoach",
+  "name": "PerfectGymCoach",
+  "tagline": "Plan your workouts and follow them at the gym",
+  "description": "PerfectGymCoach builds workout programmes, guides you set by set and records what you lifted, with charts of progress over time.\n\nIt is offline, free and has no subscription.",
+  "repo": "https://github.com/alessioGalatolo/PerfectGymCoach",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["gym", "workout", "fitness", "offline", "material-you"],
+  "added": "2026-08-05"
+}

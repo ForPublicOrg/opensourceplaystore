@@ -1,0 +1,11 @@
+{
+  "id": "libretorrent",
+  "name": "LibreTorrent",
+  "tagline": "A full torrent client with no ads",
+  "description": "LibreTorrent downloads and seeds torrents with everything you'd expect: magnet links, sequential downloading, scheduling, and Wi-Fi-only mode.\n\nIt is free and open source, with no adverts and no paid tier.",
+  "repo": "https://github.com/proninyaroslav/libretorrent",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["torrent", "download", "magnet", "no-ads", "scheduling"],
+  "added": "2026-08-05"
+}

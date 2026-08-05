@@ -1,0 +1,11 @@
+{
+  "id": "roubao",
+  "name": "Roubao",
+  "tagline": "Automates repetitive phone tasks by watching the screen",
+  "description": "Roubao uses a model that can see the screen to carry out repetitive jobs on your phone — the sort of thing you'd otherwise tap through fifty times.\n\nYou describe the task, it works out where to tap, and you can watch and stop it at any point.",
+  "repo": "https://github.com/Turbo1123/roubao",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["automation", "ai", "vision", "agent", "tasks"],
+  "added": "2026-08-05"
+}

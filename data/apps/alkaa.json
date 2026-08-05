@@ -1,0 +1,11 @@
+{
+  "id": "alkaa",
+  "name": "Alkaa",
+  "tagline": "A tidy task list with categories",
+  "description": "Alkaa keeps your to-dos organised by category with due dates and a clean modern design, on phones and desktops alike.\n\nIt is free, offline and has no adverts.",
+  "repo": "https://github.com/igorescodro/alkaa",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["todo", "tasks", "categories", "offline", "multiplatform"],
+  "added": "2026-08-05"
+}

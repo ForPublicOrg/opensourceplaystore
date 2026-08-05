@@ -1,0 +1,11 @@
+{
+  "id": "shoppinglist-abrynos",
+  "name": "ShoppingList",
+  "tagline": "A shopping list with nothing extra bolted on",
+  "description": "A plain shopping list app: add things, tick them off, and that's it. No account, no ads, no cloud, no upsell.\n\nIt is tiny, quick to open and gets updated regularly by its maker.",
+  "repo": "https://github.com/Abrynos/ShoppingList",
+  "category": "productivity",
+  "license": "GPL-2.0",
+  "tags": ["shopping", "list", "simple", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

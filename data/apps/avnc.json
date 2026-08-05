@@ -1,0 +1,11 @@
+{
+  "id": "avnc",
+  "name": "AVNC",
+  "tagline": "Control another computer's screen from your phone",
+  "description": "AVNC is a VNC client that lets you see and use a computer's desktop from your phone, with proper gestures, hardware keyboard support and encryption.\n\nIt connects straight to your machine — no middleman service.",
+  "repo": "https://github.com/gujjwal00/avnc",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["vnc", "remote", "desktop", "network", "self-hosted"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "plugbrain",
+  "name": "PlugBrain",
+  "tagline": "Solve a puzzle before opening a distracting app",
+  "description": "PlugBrain locks the apps you name behind a small maths or logic puzzle, adding just enough friction to break the automatic scroll.\n\nIt is free, offline and surprisingly effective.",
+  "repo": "https://github.com/msbelaid/PlugBrain",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["focus", "wellbeing", "puzzle", "screen-time", "habits"],
+  "added": "2026-08-05"
+}

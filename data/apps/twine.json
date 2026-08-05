@@ -1,0 +1,11 @@
+{
+  "id": "twine",
+  "name": "Twine",
+  "tagline": "A beautiful RSS reader for phones and tablets",
+  "description": "Twine collects your feeds and presents them as a browsable timeline with big images and a clean reading view.\n\nIt is built to run on several platforms from the same code and keeps your subscriptions on the device.",
+  "repo": "https://github.com/msasikanth/twine",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "news", "reader", "material-you", "offline"],
+  "added": "2026-08-05"
+}

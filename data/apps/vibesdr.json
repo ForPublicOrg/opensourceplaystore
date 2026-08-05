@@ -1,0 +1,11 @@
+{
+  "id": "vibesdr",
+  "name": "VibeSDR",
+  "tagline": "Listen to radio waves with a USB receiver",
+  "description": "VibeSDR is a mobile software-defined radio receiver: plug in a cheap USB dongle and tune around the airwaves from your phone.\n\nIt is free and open source, and works on phones and watches.",
+  "repo": "https://github.com/Stuey3D/VibeSDR",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["radio", "sdr", "usb", "hobby", "listening"],
+  "added": "2026-08-05"
+}

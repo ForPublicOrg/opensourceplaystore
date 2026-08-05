@@ -1,0 +1,11 @@
+{
+  "id": "smolchat",
+  "name": "SmolChat",
+  "tagline": "Run small AI models offline, right on your phone",
+  "description": "SmolChat lets you download a compact AI model and chat with it with no internet connection at all. Everything runs on the device, so your messages stay on the device.\n\nYou can keep several models, give each chat its own instructions, and see how fast the phone is answering. A neat way to see what a phone can do on its own.",
+  "repo": "https://github.com/shubham0204/SmolChat-Android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "llm", "offline", "gguf", "privacy"],
+  "added": "2026-08-05"
+}

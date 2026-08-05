@@ -1,0 +1,11 @@
+{
+  "id": "fossify-camera",
+  "name": "Fossify Camera",
+  "tagline": "A quick camera with no ads and no fuss",
+  "description": "Fossify Camera takes photos and video with a flash, a timer and adjustable aspect ratios, and opens fast when you need a shot right now.\n\nIt asks only for the permissions a camera needs and sends nothing anywhere.",
+  "repo": "https://github.com/FossifyOrg/Camera",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "photo", "video", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

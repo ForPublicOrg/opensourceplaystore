@@ -1,0 +1,11 @@
+{
+  "id": "libchecker",
+  "name": "LibChecker",
+  "tagline": "See what's actually inside your apps",
+  "description": "LibChecker lists the building blocks each installed app uses — which frameworks, trackers and native libraries it ships — so you can see what a program is made of.\n\nIt is a favourite of curious users and people trying to spot bloated or nosy apps.",
+  "repo": "https://github.com/LibChecker/LibChecker",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["apps", "analysis", "libraries", "privacy", "developer"],
+  "added": "2026-08-05"
+}

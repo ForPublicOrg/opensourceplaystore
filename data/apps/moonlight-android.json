@@ -1,0 +1,11 @@
+{
+  "id": "moonlight-android",
+  "name": "Moonlight",
+  "tagline": "Play your PC games on your phone",
+  "description": "Moonlight streams games running on your gaming PC to your phone or tablet over your home network, with controller support and very low delay.\n\nIt is the open-source client for the well-known game streaming protocol, and it is free.",
+  "repo": "https://github.com/moonlight-stream/moonlight-android",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["streaming", "pc-games", "controller", "remote", "local-network"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wireless-adb-switch",
+  "name": "Wireless ADB Switch",
+  "tagline": "Turn wireless debugging on and off quickly",
+  "description": "A one-tap switch for Android's wireless debugging setting, with a quick settings tile so you don't have to dig through developer options.\n\nSmall, focused and free.",
+  "repo": "https://github.com/Smooth-E/wireless-adb-switch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["adb", "developer", "tile", "debugging", "simple"],
+  "added": "2026-08-05"
+}

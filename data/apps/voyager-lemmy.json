@@ -1,0 +1,11 @@
+{
+  "id": "voyager-lemmy",
+  "name": "Voyager",
+  "tagline": "A polished app for Lemmy and PieFed",
+  "description": "Voyager gives the open discussion networks a smooth, familiar feel, with gestures, swipe actions and a design people compare favourably to the big apps.\n\nIt supports several accounts and works on phones, tablets and the web.",
+  "repo": "https://github.com/aeharding/voyager",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": ["lemmy", "fediverse", "communities", "forum", "gestures"],
+  "added": "2026-08-05"
+}

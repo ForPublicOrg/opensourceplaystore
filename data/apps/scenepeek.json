@@ -1,0 +1,11 @@
+{
+  "id": "scenepeek",
+  "name": "ScenePeek",
+  "tagline": "Find films and request them on your server",
+  "description": "ScenePeek browses film and TV details and connects to Jellyseerr or Overseerr so you can request something for your own media server in a tap.\n\nIt is free and open source.",
+  "repo": "https://github.com/Divinelink/scenepeek-android",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["films", "tv", "jellyseerr", "self-hosted", "discovery"],
+  "added": "2026-08-05"
+}

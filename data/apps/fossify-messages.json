@@ -1,0 +1,11 @@
+{
+  "id": "fossify-messages",
+  "name": "Fossify Messages",
+  "tagline": "A clean SMS app with no ads",
+  "description": "Fossify Messages sends and receives text and picture messages in a simple app that does not want your data or your attention.\n\nIt handles group chats, search, and blocking numbers, and works on older phones too.",
+  "repo": "https://github.com/FossifyOrg/Messages",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["sms", "messages", "texting", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

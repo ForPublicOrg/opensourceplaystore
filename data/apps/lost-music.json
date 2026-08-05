@@ -1,0 +1,11 @@
+{
+  "id": "lost-music",
+  "name": "Lost",
+  "tagline": "A clean music player for the songs on your phone",
+  "description": "Lost plays the music files you already have, with a simple modern look, playlists, and no account or subscription anywhere in sight.\n\nIt is small, fast and quietly pleasant to use.",
+  "repo": "https://github.com/Sandlie101G12B/Lost",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "player", "offline", "local", "material-you"],
+  "added": "2026-08-05"
+}

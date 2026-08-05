@@ -1,0 +1,11 @@
+{
+  "id": "local-llms-on-android",
+  "name": "Local LLMs",
+  "tagline": "Chat with an AI model with no internet at all",
+  "description": "This app downloads a small language model onto your phone and lets you chat with it offline, privately and free of any subscription.\n\nIt supports several popular open models and shows how fast your phone runs them.",
+  "repo": "https://github.com/dineshsoudagar/local-llms-on-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "llm", "offline", "privacy", "chat"],
+  "added": "2026-08-05"
+}

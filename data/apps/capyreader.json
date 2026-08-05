@@ -1,0 +1,11 @@
+{
+  "id": "capyreader",
+  "name": "Capy Reader",
+  "tagline": "A small, quick reader for your feeds",
+  "description": "Capy Reader syncs with feed services like FreshRSS and Miniflux and gives you a fast, uncluttered place to read what you subscribe to.\n\nIt caches articles for offline reading and gets out of the way.",
+  "repo": "https://github.com/jocmp/capyreader",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "reader", "freshrss", "miniflux", "offline"],
+  "added": "2026-08-05"
+}

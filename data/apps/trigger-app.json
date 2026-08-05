@@ -1,0 +1,11 @@
+{
+  "id": "trigger-app",
+  "name": "Trigger",
+  "tagline": "Open your door or gate from your phone",
+  "description": "Trigger sends a signal to whatever controls your door, gate or bell — over HTTPS, SSH, Bluetooth or MQTT — with buttons you set up yourself.\n\nIt is used with home-made and commercial door openers alike.",
+  "repo": "https://github.com/mwarning/trigger",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["door", "smart-home", "mqtt", "bluetooth", "diy"],
+  "added": "2026-08-05"
+}

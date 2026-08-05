@@ -1,0 +1,11 @@
+{
+  "id": "pincredible",
+  "name": "PINcredible",
+  "tagline": "Store PINs safely without writing them down",
+  "description": "PINcredible hides your PIN codes inside a grid of numbers that only makes sense with your pattern, and encrypts the whole thing.\n\nEven if someone opens the app, the numbers on screen are not your PIN.",
+  "repo": "https://github.com/cyb3rko/pincredible",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["pin", "security", "encryption", "offline", "privacy"],
+  "added": "2026-08-05"
+}

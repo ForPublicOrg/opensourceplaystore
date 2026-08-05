@@ -1,0 +1,11 @@
+{
+  "id": "wallpaper-export",
+  "name": "Wallpaper Export",
+  "tagline": "Get your current wallpaper back as a file",
+  "description": "Android will happily set a wallpaper but not give it back. This exports the wallpaper you're using, including the built-in ones, as an image file.\n\nSmall, single-purpose and free.",
+  "repo": "https://github.com/cvzi/WallpaperExport",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["wallpaper", "export", "simple", "utility", "offline"],
+  "added": "2026-08-05"
+}

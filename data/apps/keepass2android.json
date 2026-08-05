@@ -1,0 +1,11 @@
+{
+  "id": "keepass2android",
+  "name": "Keepass2Android",
+  "tagline": "A KeePass password manager with cloud sync",
+  "description": "Keepass2Android opens the same encrypted password files as desktop KeePass and can sync them through whichever storage service you already use.\n\nIt fills passwords into apps and websites and locks itself when you look away.",
+  "repo": "https://github.com/PhilippC/keepass2android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["passwords", "keepass", "sync", "autofill", "encryption"],
+  "added": "2026-08-05"
+}

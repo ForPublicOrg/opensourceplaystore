@@ -1,0 +1,11 @@
+{
+  "id": "applock-aload0",
+  "name": "AppLock",
+  "tagline": "Put a lock on the apps you'd rather keep private",
+  "description": "AppLock asks for a PIN or fingerprint before opening the apps you choose, so handing over your phone doesn't hand over everything.\n\nIt is open source, offline, and free of ads.",
+  "repo": "https://github.com/aload0/AppLock",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["lock", "privacy", "apps", "fingerprint", "offline"],
+  "added": "2026-08-05"
+}

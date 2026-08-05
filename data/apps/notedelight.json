@@ -1,0 +1,11 @@
+{
+  "id": "notedelight",
+  "name": "Note Delight",
+  "tagline": "Notes locked behind your own password",
+  "description": "Note Delight encrypts your notes with a password you set, and runs the same way on phones and desktops.\n\nA good choice for anything you would not want read if your phone were lost.",
+  "repo": "https://github.com/softartdev/NoteDelight",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "encryption", "privacy", "multiplatform", "offline"],
+  "added": "2026-08-05"
+}

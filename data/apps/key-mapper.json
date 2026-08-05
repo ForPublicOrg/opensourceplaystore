@@ -1,0 +1,11 @@
+{
+  "id": "key-mapper",
+  "name": "Key Mapper",
+  "tagline": "Make your phone's buttons do what you want",
+  "description": "Key Mapper lets you change what the volume keys, headset buttons, game controllers and other hardware buttons do — open an app, control music, take a screenshot.\n\nIt is especially handy on phones with an extra button nobody uses.",
+  "repo": "https://github.com/keymapperorg/KeyMapper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["buttons", "remap", "shortcuts", "accessibility", "controller"],
+  "added": "2026-08-05"
+}

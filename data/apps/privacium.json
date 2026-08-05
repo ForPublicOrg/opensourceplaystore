@@ -1,0 +1,11 @@
+{
+  "id": "privacium",
+  "name": "Privacium",
+  "tagline": "Discover tools that respect your privacy",
+  "description": "Privacium is a browsable list of privacy-friendly apps and services, with plain explanations of why each one is recommended.\n\nIt is simple, free and does not track you while it tells you about tracking.",
+  "repo": "https://github.com/kaleedtc/Privacium",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["privacy", "discovery", "alternatives", "reference", "foss"],
+  "added": "2026-08-05"
+}

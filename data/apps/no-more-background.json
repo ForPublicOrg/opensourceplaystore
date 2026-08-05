@@ -1,0 +1,11 @@
+{
+  "id": "no-more-background",
+  "name": "No More Background",
+  "tagline": "Stops apps running when you're not using them",
+  "description": "A small tool that restricts chosen apps from waking up in the background, which quietens notifications and saves battery.\n\nSet it once and forget about it.",
+  "repo": "https://github.com/adil192/no_more_background",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["battery", "background", "apps", "privacy", "simple"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "stack-exchange-app",
+  "name": "Stack",
+  "tagline": "Browse Stack Overflow without the clutter",
+  "description": "Stack reads Stack Overflow and the other Stack Exchange sites in a clean mobile app, with syntax-coloured code and offline reading of saved questions.\n\nIt has no ads and does not need an account to read.",
+  "repo": "https://github.com/tylerbwong/stack",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["stackoverflow", "developer", "reference", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

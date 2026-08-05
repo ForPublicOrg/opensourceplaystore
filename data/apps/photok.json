@@ -1,0 +1,11 @@
+{
+  "id": "photok",
+  "name": "Photok",
+  "tagline": "A locked, encrypted album for private photos",
+  "description": "Photok keeps chosen photos and videos in an encrypted vault protected by a password, hidden from the normal gallery.\n\nNothing is uploaded, and the files are properly encrypted rather than just moved somewhere obscure.",
+  "repo": "https://github.com/leonlatsch/Photok",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["photos", "vault", "encryption", "privacy", "offline"],
+  "added": "2026-08-05"
+}

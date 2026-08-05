@@ -1,0 +1,11 @@
+{
+  "id": "termuxhub",
+  "name": "TermuxHub",
+  "tagline": "Find and install tools for Termux",
+  "description": "TermuxHub is a browsable catalogue of scripts and tools for Termux, the Linux environment for Android, with one-tap installation.\n\nIt saves a lot of copying commands out of forum posts.",
+  "repo": "https://github.com/maazm7d/TermuxHub",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["termux", "linux", "tools", "installer", "developer"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tv-maniac",
+  "name": "TV Maniac",
+  "tagline": "Track your shows and find new ones",
+  "description": "TV Maniac follows the series you watch, tells you when new episodes land and suggests things you might like, in a clean modern interface.\n\nIt runs on phones and desktops from the same code and has no adverts.",
+  "repo": "https://github.com/thomaskioko/tv-maniac",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["tv", "shows", "tracker", "recommendations", "multiplatform"],
+  "added": "2026-08-05"
+}

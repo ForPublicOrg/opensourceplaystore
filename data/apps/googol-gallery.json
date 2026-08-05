@@ -1,0 +1,11 @@
+{
+  "id": "googol-gallery",
+  "name": "Gallery",
+  "tagline": "A light, fast gallery for your pictures",
+  "description": "A modern photo and video gallery built to stay quick even with a big library, with albums, a viewer and simple editing.\n\nIt is offline, ad-free and asks for nothing beyond access to your pictures.",
+  "repo": "https://github.com/googol-apps/Gallery",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["gallery", "photos", "video", "fast", "offline"],
+  "added": "2026-08-05"
+}

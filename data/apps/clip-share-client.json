@@ -1,0 +1,11 @@
+{
+  "id": "clip-share-client",
+  "name": "Clip Share",
+  "tagline": "Copy on one device, paste on another",
+  "description": "Clip Share sends your clipboard, files and screenshots between your phone and a computer running its small server, over your own network.\n\nIt is fast, encrypted and needs no account.",
+  "repo": "https://github.com/thevindu-w/clip_share_client",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["clipboard", "files", "local", "sync", "encryption"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "olauncher",
+  "name": "Olauncher",
+  "tagline": "A plain launcher that helps you use your phone less",
+  "description": "Olauncher shows a short list of app names instead of a wall of icons, which makes picking up your phone a decision rather than a habit.\n\nIt adds daily wallpapers and gestures, and asks for almost no permissions.",
+  "repo": "https://github.com/tanujnotes/Olauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "focus", "wellbeing", "no-ads"],
+  "added": "2026-08-05"
+}

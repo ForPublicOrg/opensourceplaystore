@@ -1,0 +1,11 @@
+{
+  "id": "yomihon",
+  "name": "Yomihon",
+  "tagline": "A manga reader that can read the text for you",
+  "description": "Yomihon is a manga reader with a built-in text recogniser, so you can tap a speech bubble in an untranslated chapter and get the words out of it.\n\nIt keeps your library and reading progress on the device, supports many sources, and reads comfortably on phones and tablets.",
+  "repo": "https://github.com/yomihon/yomihon",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["manga", "reader", "ocr", "japanese", "library"],
+  "added": "2026-08-05"
+}

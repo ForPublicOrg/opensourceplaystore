@@ -1,0 +1,11 @@
+{
+  "id": "squeezeclient",
+  "name": "Squeeze Client",
+  "tagline": "Control a Logitech Media Server from your phone",
+  "description": "Squeeze Client is a modern remote for Lyrion and Logitech Media Server setups, browsing your library and steering every player in the house.\n\nIt is free, native and open source.",
+  "repo": "https://github.com/maniac103/squeezeclient",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "lms", "self-hosted", "remote", "multiroom"],
+  "added": "2026-08-05"
+}

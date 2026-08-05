@@ -1,0 +1,11 @@
+{
+  "id": "chimahon",
+  "name": "Chimahon",
+  "tagline": "A manga reader built for learning Japanese",
+  "description": "Chimahon is a manga and light-novel reader with a Japanese dictionary built in: tap a word while you read and the meaning appears, so you can learn as you go.\n\nIt handles manga with a text layer, EPUB novels and anime subtitles, and keeps everything on your device.",
+  "repo": "https://github.com/sohilsayed/chimahon",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["manga", "japanese", "dictionary", "reader", "learning"],
+  "added": "2026-08-05"
+}

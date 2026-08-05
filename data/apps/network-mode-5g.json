@@ -1,0 +1,11 @@
+{
+  "id": "network-mode-5g",
+  "name": "5G Switcher",
+  "tagline": "Force your phone onto the network you want",
+  "description": "This switches your preferred network mode, including 5G-only, from a simple screen instead of a hidden menu.\n\nUseful when a weak 5G signal keeps dropping you to nothing.",
+  "repo": "https://github.com/OpenAppsLabs/5G",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["network", "5g", "settings", "battery", "simple"],
+  "added": "2026-08-05"
+}

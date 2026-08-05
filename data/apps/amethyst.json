@@ -1,0 +1,11 @@
+{
+  "id": "amethyst",
+  "name": "Amethyst",
+  "tagline": "A social app on the open Nostr network",
+  "description": "Amethyst is a client for Nostr, a social protocol where your identity is a key you hold rather than an account a company can close.\n\nIt handles posts, images, private messages and tipping, with no central server.",
+  "repo": "https://github.com/vitorpamplona/amethyst",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["nostr", "social", "decentralised", "keys", "open"],
+  "added": "2026-08-05"
+}

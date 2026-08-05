@@ -1,0 +1,11 @@
+{
+  "id": "amaze-file-utilities",
+  "name": "Amaze File Utilities",
+  "tagline": "Find junk, duplicates and space hogs",
+  "description": "From the makers of Amaze File Manager, this cleans up storage by finding duplicate photos, big old files and clutter, and includes handy viewers.\n\nIt is an open alternative to the phone-maker cleaner apps.",
+  "repo": "https://github.com/TeamAmaze/AmazeFileUtilities",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["storage", "cleaner", "duplicates", "files", "offline"],
+  "added": "2026-08-05"
+}

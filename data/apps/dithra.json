@@ -1,0 +1,11 @@
+{
+  "id": "dithra",
+  "name": "Dithra",
+  "tagline": "Give photos a retro dithered look",
+  "description": "Dithra converts pictures into the dotted, limited-colour style of old computers and e-ink screens, with several classic algorithms to choose from.\n\nIt is offline, free and rather addictive.",
+  "repo": "https://github.com/IlasDev/Dithra",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["photo", "dither", "retro", "art", "offline"],
+  "added": "2026-08-05"
+}

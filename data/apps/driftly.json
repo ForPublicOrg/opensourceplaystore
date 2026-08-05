@@ -1,0 +1,11 @@
+{
+  "id": "driftly",
+  "name": "Driftly",
+  "tagline": "Keep an eye on your class attendance",
+  "description": "Driftly tracks which lectures you've been to and tells you how many you can afford to miss before it becomes a problem.\n\nIt is simple, offline and made for students.",
+  "repo": "https://github.com/DP-Hridayan/Driftly",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["students", "attendance", "tracker", "offline", "material-you"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "metadator",
+  "name": "Metadator",
+  "tagline": "Fix the titles and covers on your music files",
+  "description": "Metadator edits the hidden tags in music files — artist, album, artwork, track numbers — so a messy collection finally sorts itself properly.\n\nIt doubles as a player, and everything happens on your phone.",
+  "repo": "https://github.com/BobbyESP/Metadator",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": ["music", "tags", "metadata", "editor", "offline"],
+  "added": "2026-08-05"
+}

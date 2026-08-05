@@ -1,0 +1,11 @@
+{
+  "id": "cc-pocket",
+  "name": "CC Pocket",
+  "tagline": "Check on your coding agent from your phone",
+  "description": "CC Pocket connects to a coding assistant running on your computer so you can follow what it is doing, read its output and approve or reject its next step while you're somewhere else.\n\nSessions resume where you left them, which makes long jobs much less annoying to babysit.",
+  "repo": "https://github.com/heypandax/cc-pocket",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["developer", "ai", "agent", "remote", "coding"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "suwayomi-jui",
+  "name": "Suwayomi JUI",
+  "tagline": "Read manga from your own Suwayomi server",
+  "description": "Suwayomi JUI is a client for the self-hosted Suwayomi manga server, so your library and downloads live on a machine you control.\n\nThe same app runs on phones and desktops.",
+  "repo": "https://github.com/Suwayomi/Suwayomi-JUI",
+  "category": "reading",
+  "license": "MPL-2.0",
+  "tags": ["manga", "self-hosted", "reader", "library", "multiplatform"],
+  "added": "2026-08-05"
+}

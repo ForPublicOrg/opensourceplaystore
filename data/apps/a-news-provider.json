@@ -1,0 +1,11 @@
+{
+  "id": "a-news-provider",
+  "name": "A News Provider",
+  "tagline": "A plain, simple RSS reader",
+  "description": "A small feed reader that fetches your subscriptions and shows them without accounts, ads or clever algorithms.\n\nIt works offline and stays out of the way.",
+  "repo": "https://github.com/rh-id/a-news-provider",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["rss", "news", "reader", "offline", "simple"],
+  "added": "2026-08-05"
+}

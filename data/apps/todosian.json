@@ -1,0 +1,11 @@
+{
+  "id": "todosian",
+  "name": "Todosian",
+  "tagline": "A to-do app that writes into your Obsidian vault",
+  "description": "Todosian keeps tasks as plain text inside your Obsidian notes, so your phone list and your vault are the same thing.\n\nIt is local-first and needs no sync service of its own.",
+  "repo": "https://github.com/isotjs/todosian-app",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["todo", "obsidian", "markdown", "local-first", "tasks"],
+  "added": "2026-08-05"
+}

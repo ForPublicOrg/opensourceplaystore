@@ -1,0 +1,11 @@
+{
+  "id": "linkora",
+  "name": "Linkora",
+  "tagline": "Keep your links in order, on your own terms",
+  "description": "Linkora saves links into folders and collections you can search, with everything stored locally and an optional sync to a server you run.\n\nIt works on phones and desktops and imports the bookmarks you already have.",
+  "repo": "https://github.com/LinkoraApp/Linkora",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["bookmarks", "links", "local-first", "sync", "self-hosted"],
+  "added": "2026-08-05"
+}

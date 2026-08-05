@@ -1,0 +1,11 @@
+{
+  "id": "boxbox",
+  "name": "BoxBox",
+  "tagline": "Race results and news for Formula 1 fans",
+  "description": "BoxBox shows the calendar, live standings, results and news for Formula 1 and Formula E, with notifications before each session.\n\nIt is unofficial, free and ad-free.",
+  "repo": "https://github.com/BrightDV/BoxBox",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["formula1", "motorsport", "results", "news", "no-ads"],
+  "added": "2026-08-05"
+}

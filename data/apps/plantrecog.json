@@ -1,0 +1,11 @@
+{
+  "id": "plantrecog",
+  "name": "PlantRecog",
+  "tagline": "Point your camera at a plant to learn its name",
+  "description": "PlantRecog identifies plants from a photo and tells you what it thinks they are, with a little information about each one.\n\nIt is free, has no ads and no sign-up, and the models behind it are open for anyone to look at or improve.",
+  "repo": "https://github.com/sarthakpranesh/PlantRecog",
+  "category": "education",
+  "license": "MIT",
+  "tags": ["plants", "nature", "camera", "identify", "learning"],
+  "added": "2026-08-05"
+}

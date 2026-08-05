@@ -1,0 +1,11 @@
+{
+  "id": "sensorspot",
+  "name": "SensorSpot",
+  "tagline": "Send your phone's sensors to a home server",
+  "description": "SensorSpot streams readings from the sensors you choose to an MQTT broker, which is exactly what home automation systems want.\n\nIt is small, configurable and free.",
+  "repo": "https://github.com/UmerCodez/SensorSpot",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["sensors", "mqtt", "smart-home", "automation", "self-hosted"],
+  "added": "2026-08-05"
+}

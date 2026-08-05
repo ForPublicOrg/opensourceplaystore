@@ -1,0 +1,11 @@
+{
+  "id": "mrt-buddy",
+  "name": "MRT Buddy",
+  "tagline": "Check your Dhaka metro card balance",
+  "description": "Tap your MRT or Rapid Pass card to your phone and MRT Buddy shows the balance and recent trips, with no login and no internet.\n\nIt was built by a local developer to fix a genuinely annoying problem.",
+  "repo": "https://github.com/aniruddha-adhikary/mrt-buddy",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["nfc", "transit", "dhaka", "balance", "offline"],
+  "added": "2026-08-05"
+}

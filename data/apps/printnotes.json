@@ -1,0 +1,11 @@
+{
+  "id": "printnotes",
+  "name": "PrintNotes",
+  "tagline": "Markdown notes stored as plain files",
+  "description": "PrintNotes keeps your notes as ordinary markdown files in a folder you choose, so nothing is locked inside an app database.\n\nIt runs on phones and computers and syncs with whatever you already use.",
+  "repo": "https://github.com/RoBoT095/printnotes",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "markdown", "files", "offline", "cross-platform"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "android-easter-eggs",
+  "name": "Android Easter Eggs",
+  "tagline": "Every hidden Android mini-game in one place",
+  "description": "Android has hidden a little game or animation in every version for years. This app collects them all so you can play them without changing phones.\n\nIt is a charming bit of history, and completely free.",
+  "repo": "https://github.com/hushenghao/AndroidEasterEggs",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["easter-eggs", "history", "fun", "offline", "collection"],
+  "added": "2026-08-05"
+}

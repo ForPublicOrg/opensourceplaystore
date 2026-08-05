@@ -1,0 +1,11 @@
+{
+  "id": "blokada",
+  "name": "Blokada",
+  "tagline": "A friendly ad and tracker blocker",
+  "description": "Blokada blocks ads and trackers for every app on the phone using a local filter, with an interface simple enough that you can set it up in a minute.\n\nThe blocker itself is free and open source; a paid VPN is optional and separate.",
+  "repo": "https://github.com/blokadaorg/blokada",
+  "category": "security",
+  "license": "MPL-2.0",
+  "tags": ["adblock", "privacy", "trackers", "dns", "no-root"],
+  "added": "2026-08-05"
+}

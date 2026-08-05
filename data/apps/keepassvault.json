@@ -1,0 +1,11 @@
+{
+  "id": "keepassvault",
+  "name": "KeePassVault",
+  "tagline": "Another solid KeePass client for Android",
+  "description": "KeePassVault opens standard KeePass password files, fills in logins, and syncs through the storage you already use.\n\nIt is open source, has no subscription, and keeps your vault a file you own.",
+  "repo": "https://github.com/aivanovski/keepassvault",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["passwords", "keepass", "autofill", "encryption", "offline"],
+  "added": "2026-08-05"
+}

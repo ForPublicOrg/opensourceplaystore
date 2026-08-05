@@ -1,0 +1,11 @@
+{
+  "id": "jellycine",
+  "name": "JellyCine",
+  "tagline": "A modern client for Jellyfin and Emby",
+  "description": "JellyCine gives your home media server a polished, cinema-style interface on phones and TVs, and works with both Jellyfin and Emby.\n\nIt is free and open source with no adverts.",
+  "repo": "https://github.com/sureshfizzy/JellyCine",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["jellyfin", "emby", "video", "self-hosted", "android-tv"],
+  "added": "2026-08-05"
+}

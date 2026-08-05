@@ -1,0 +1,11 @@
+{
+  "id": "obtainium",
+  "name": "Obtainium",
+  "tagline": "Get app updates straight from the makers",
+  "description": "Obtainium watches the places apps are actually published — GitHub, GitLab, F-Droid, a developer's own site — and tells you when a new version is out, then installs it.\n\nIt means you can keep open-source apps up to date without going through any store at all.",
+  "repo": "https://github.com/ImranR98/Obtainium",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["updates", "apps", "github", "installer", "fdroid"],
+  "added": "2026-08-05"
+}

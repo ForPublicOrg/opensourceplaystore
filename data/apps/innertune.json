@@ -1,0 +1,11 @@
+{
+  "id": "innertune",
+  "name": "InnerTune",
+  "tagline": "A tidy Material You player for YouTube Music",
+  "description": "InnerTune is a light, good-looking music app that plays anything on YouTube Music, with playlists, a lyrics view and downloads for offline listening.\n\nThere are no ads and no subscription, and the colours follow your wallpaper.",
+  "repo": "https://github.com/z-huang/InnerTune",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "youtube-music", "material-you", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "package-installer-pi",
+  "name": "PI",
+  "tagline": "A tiny installer for app files",
+  "description": "PI is a small, focused installer for APK files and split bundles, with a clean dialog and support for installing without repeated prompts.\n\nNothing else — that is the point.",
+  "repo": "https://github.com/SanmerApps/PI",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["installer", "apk", "minimal", "shizuku", "apps"],
+  "added": "2026-08-05"
+}

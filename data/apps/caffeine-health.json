@@ -1,0 +1,11 @@
+{
+  "id": "caffeine-health",
+  "name": "Caffeine Health",
+  "tagline": "See how much caffeine is still in you",
+  "description": "Log your coffees and this works out how much caffeine is left in your body through the day, so you can see why sleep is not coming.\n\nIt is private by design and has a bright Material 3 look.",
+  "repo": "https://github.com/ohuc/CaffeineHealth",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["health", "caffeine", "sleep", "tracker", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "duck-detector",
+  "name": "Duck Detector",
+  "tagline": "Checks whether your phone has been tampered with",
+  "description": "Duck Detector inspects your phone for signs of root, hooks, an unlocked bootloader or a virtual environment, and explains what it found.\n\nIt is a useful check on a second-hand phone or after installing something you weren't sure about.",
+  "repo": "https://github.com/eltavine/Duck-Detector-Refactoring",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["security", "root", "integrity", "check", "privacy"],
+  "added": "2026-08-05"
+}

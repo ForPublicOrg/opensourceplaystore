@@ -1,0 +1,11 @@
+{
+  "id": "shizutools",
+  "name": "ShizuTools",
+  "tagline": "A toolbox of system tweaks, no root needed",
+  "description": "ShizuTools bundles a set of system controls that normally need root — display, audio, permissions and more — and runs them through Shizuku instead.\n\nIt is a lot of power for a small app.",
+  "repo": "https://github.com/legendsayantan/ShizuTools",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["shizuku", "system", "tweaks", "no-root", "power-user"],
+  "added": "2026-08-05"
+}

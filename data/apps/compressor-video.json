@@ -1,0 +1,11 @@
+{
+  "id": "compressor-video",
+  "name": "Compressor",
+  "tagline": "Shrink a video so you can actually send it",
+  "description": "Compressor makes big videos small enough to share, quickly and without ads, using your phone's own hardware to do the work.\n\nIt is native, tiny and does not upload your video anywhere.",
+  "repo": "https://github.com/JoshAtticus/Compressor",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["video", "compress", "sharing", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

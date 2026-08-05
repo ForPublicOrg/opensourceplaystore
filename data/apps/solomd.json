@@ -1,0 +1,11 @@
+{
+  "id": "solomd",
+  "name": "SoloMD",
+  "tagline": "A small markdown editor that AI tools can plug into",
+  "description": "SoloMD is a fast, local-first editor for markdown notes — the plain-text format used for readmes, docs and to-do lists. It is only a few megabytes and keeps your files on your own device.\n\nIt also ships a bridge that lets AI coding tools read and edit those notes for you, which turns your phone into a place where notes and assistants meet.",
+  "repo": "https://github.com/zhitongblog/solomd",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["markdown", "editor", "notes", "local-first", "mcp"],
+  "added": "2026-08-05"
+}

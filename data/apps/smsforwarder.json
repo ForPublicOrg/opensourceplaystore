@@ -1,0 +1,11 @@
+{
+  "id": "smsforwarder",
+  "name": "SmsForwarder",
+  "tagline": "Send your texts and alerts on to somewhere else",
+  "description": "SmsForwarder watches the messages, missed calls and app notifications on one phone and forwards them, by rules you write, to email, a chat group, a webhook or another phone.\n\nIt is a lifesaver for a spare phone or a work SIM you don't carry, and it can be set up to only pass on what matters.",
+  "repo": "https://github.com/pppscn/SmsForwarder",
+  "category": "tools",
+  "license": "BSD-2-Clause",
+  "tags": ["sms", "forwarding", "notifications", "automation", "webhook"],
+  "added": "2026-08-05"
+}

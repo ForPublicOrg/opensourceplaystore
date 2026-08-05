@@ -1,0 +1,11 @@
+{
+  "id": "passandroid",
+  "name": "PassAndroid",
+  "tagline": "Keep your boarding passes and tickets in one app",
+  "description": "PassAndroid opens the pass files airlines, trains and events send you, and keeps them ready with their barcodes when you need to scan.\n\nIt works offline and does not send your travel plans anywhere.",
+  "repo": "https://github.com/ligi/PassAndroid",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["tickets", "boarding-pass", "barcode", "travel", "offline"],
+  "added": "2026-08-05"
+}

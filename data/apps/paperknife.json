@@ -1,0 +1,11 @@
+{
+  "id": "paperknife",
+  "name": "PaperKnife",
+  "tagline": "Merge, split and squash PDFs on your phone",
+  "description": "PaperKnife does the everyday PDF chores — combining files, pulling pages out, rotating, compressing — entirely on the device.\n\nNothing is uploaded to a website, which matters when the PDF is a contract or a medical letter.",
+  "repo": "https://github.com/potatameister/PaperKnife",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["pdf", "merge", "split", "offline", "privacy"],
+  "added": "2026-08-05"
+}

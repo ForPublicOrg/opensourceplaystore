@@ -1,0 +1,11 @@
+{
+  "id": "navic",
+  "name": "Navic",
+  "tagline": "A modern app for your Navidrome music server",
+  "description": "Navic connects to Navidrome — a music server you run yourself — and gives you a polished player with offline downloads, playlists and scrobbling.\n\nIt runs on phones and tablets and keeps your listening between you and your own server.",
+  "repo": "https://github.com/ssalggnikool/Navic",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["navidrome", "music", "self-hosted", "subsonic", "offline"],
+  "added": "2026-08-05"
+}

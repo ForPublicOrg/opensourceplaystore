@@ -1,0 +1,11 @@
+{
+  "id": "fossify-calendar",
+  "name": "Fossify Calendar",
+  "tagline": "A simple calendar with widgets and no ads",
+  "description": "Fossify Calendar keeps your events, birthdays and reminders in one clean place, with widgets for your home screen and no account required.\n\nIt can sync with the calendars already on your phone and never shows an advert.",
+  "repo": "https://github.com/FossifyOrg/Calendar",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["calendar", "events", "widgets", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "coffee-awake",
+  "name": "Coffee",
+  "tagline": "Keeps your screen awake while you need it",
+  "description": "Coffee stops the screen turning off with a single tile — for recipes, sheet music, instructions or anything you keep glancing at.\n\nIt puts your normal timeout back afterwards.",
+  "repo": "https://github.com/OpenAppsLabs/Coffee",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["screen", "awake", "tile", "simple", "utility"],
+  "added": "2026-08-05"
+}

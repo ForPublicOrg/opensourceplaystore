@@ -1,0 +1,11 @@
+{
+  "id": "clear-clipboard",
+  "name": "ClearClipboard",
+  "tagline": "Wipe your clipboard with one tap",
+  "description": "Passwords and codes linger in the clipboard long after you paste them. This clears it instantly from a tile or shortcut.\n\nIt is tiny and does nothing else.",
+  "repo": "https://github.com/amnesica/ClearClipboard",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["clipboard", "privacy", "tile", "simple", "security"],
+  "added": "2026-08-05"
+}

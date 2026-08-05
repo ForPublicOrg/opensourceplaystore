@@ -1,0 +1,11 @@
+{
+  "id": "oss-document-scanner",
+  "name": "OSS Document Scanner",
+  "tagline": "Scan documents and read the text on them",
+  "description": "This scanner finds the page, straightens it, cleans up the colours and can pull the text out so the PDF is searchable.\n\nEverything happens on the device, and it exports wherever you like.",
+  "repo": "https://github.com/ossappscollective/OSS-DocumentScanner",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["scanner", "documents", "pdf", "ocr", "offline"],
+  "added": "2026-08-05"
+}

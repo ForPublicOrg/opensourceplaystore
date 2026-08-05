@@ -1,0 +1,11 @@
+{
+  "id": "lichess-mobile",
+  "name": "Lichess",
+  "tagline": "Play chess online, completely free",
+  "description": "Lichess is a chess site with no adverts, no subscriptions and no paid features — this is its official app for playing, watching and studying.\n\nYou can play offline against the computer, solve puzzles, and analyse your games.",
+  "repo": "https://github.com/lichess-org/mobile",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["chess", "online", "puzzles", "free", "no-ads"],
+  "added": "2026-08-05"
+}

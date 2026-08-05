@@ -1,0 +1,11 @@
+{
+  "id": "expense-tracker-notifications",
+  "name": "Expense Tracker",
+  "tagline": "Logs your spending straight from bank notifications",
+  "description": "This tracker reads the payment alerts your bank already sends to your phone and turns them into a spending list, so you don't have to type anything in.\n\nThe reading happens on the device, your statements are not uploaded, and you can correct or categorise anything it gets wrong.",
+  "repo": "https://github.com/atick-faisal/Expense-Tracker-Android",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["money", "expenses", "budget", "notifications", "tracker"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "file-navigator",
+  "name": "File Navigator",
+  "tagline": "Files sort themselves as they arrive",
+  "description": "File Navigator notices new downloads, screenshots and received files and offers to move them where they belong, so your storage stays tidy without effort.\n\nIt works quietly in the background and never uploads anything.",
+  "repo": "https://github.com/w2sv/FileNavigator",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["files", "automation", "organiser", "storage", "offline"],
+  "added": "2026-08-05"
+}

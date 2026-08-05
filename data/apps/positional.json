@@ -1,0 +1,11 @@
+{
+  "id": "positional",
+  "name": "Positional",
+  "tagline": "Compass, clock, level and location in one",
+  "description": "Positional gathers the little location tools you occasionally need — compass, spirit level, GPS details, sun and moon times, a clock — into one colourful app.\n\nIt works offline and looks far nicer than the usual utility app.",
+  "repo": "https://github.com/Hamza417/Positional",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["compass", "gps", "level", "clock", "offline"],
+  "added": "2026-08-05"
+}

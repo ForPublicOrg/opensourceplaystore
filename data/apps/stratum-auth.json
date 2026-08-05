@@ -1,0 +1,11 @@
+{
+  "id": "stratum-auth",
+  "name": "Stratum",
+  "tagline": "Your two-factor codes, backed up properly",
+  "description": "Stratum generates the six-digit codes that protect your accounts, with encrypted backups you control and a watch app so codes are on your wrist.\n\nIt imports from other authenticator apps and works entirely offline.",
+  "repo": "https://github.com/stratumauth/app",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["2fa", "authenticator", "totp", "backup", "wear-os"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mercurius-diary",
+  "name": "Mercurius",
+  "tagline": "A simple diary that stays on your phone",
+  "description": "Mercurius keeps a daily diary with a calm, minimal design, available in several languages and stored locally.\n\nThere is no account and no cloud unless you export it yourself.",
+  "repo": "https://github.com/Cierra-Runis/mercurius",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["diary", "journal", "offline", "minimal", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "logcat-reader",
+  "name": "LogcatReader",
+  "tagline": "Read your phone's system log",
+  "description": "LogcatReader shows the running log of what Android and your apps are doing, with filters and saving — handy when reporting a bug in an app like these.\n\nIt needs no root on most phones after a one-off setup.",
+  "repo": "https://github.com/darshanparajuli/LogcatReader",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["logs", "developer", "debug", "system", "no-root"],
+  "added": "2026-08-05"
+}

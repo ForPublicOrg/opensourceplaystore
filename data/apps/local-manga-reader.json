@@ -1,0 +1,11 @@
+{
+  "id": "local-manga-reader",
+  "name": "MangaReader",
+  "tagline": "Read the comic files already on your phone",
+  "description": "A clean, fast reader for manga stored locally, with folder browsing, reading modes and progress saved per book.\n\nNo sources, no accounts — just your own files.",
+  "repo": "https://github.com/dongpingwang/MangaReader",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["manga", "local", "reader", "offline", "material"],
+  "added": "2026-08-05"
+}

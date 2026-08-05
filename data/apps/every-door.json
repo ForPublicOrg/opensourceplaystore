@@ -1,0 +1,11 @@
+{
+  "id": "every-door",
+  "name": "Every Door",
+  "tagline": "Add shops and places to the open world map",
+  "description": "Every Door is built for adding real-world details — shops, benches, post boxes — to OpenStreetMap while you walk past them.\n\nIt is quick, works offline and uploads when you get signal, and it is how a lot of the map's detail gets there.",
+  "repo": "https://github.com/Zverik/every_door",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["openstreetmap", "mapping", "offline", "survey", "community"],
+  "added": "2026-08-05"
+}

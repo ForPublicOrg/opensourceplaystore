@@ -1,0 +1,11 @@
+{
+  "id": "catima",
+  "name": "Catima",
+  "tagline": "All your loyalty cards without the apps",
+  "description": "Catima stores the barcodes from shop loyalty cards and tickets so you can leave a dozen store apps uninstalled and still get your points.\n\nIt works offline, has no ads, and can back everything up to a file.",
+  "repo": "https://github.com/CatimaLoyalty/Android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["loyalty", "cards", "barcode", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

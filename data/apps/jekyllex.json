@@ -1,0 +1,11 @@
+{
+  "id": "jekyllex",
+  "name": "JekyllEx",
+  "tagline": "Write and publish blog posts from your phone",
+  "description": "JekyllEx manages a Jekyll blog on Android: edit posts in markdown, preview them and push the changes, without needing a laptop.\n\nIt is a neat trick for anyone who blogs from a static site.",
+  "repo": "https://github.com/jekyllex/jekyllex-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["blog", "jekyll", "markdown", "git", "developer"],
+  "added": "2026-08-05"
+}

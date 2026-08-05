@@ -1,0 +1,11 @@
+{
+  "id": "tripeaks-gdx",
+  "name": "TriPeaks",
+  "tagline": "A calm game of solitaire",
+  "description": "A clean version of tri peaks solitaire with no adverts, no timers pushing you and no purchases.\n\nIt works offline and is easy on the eyes.",
+  "repo": "https://github.com/mimoguz/tripeaks-gdx",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["solitaire", "cards", "offline", "no-ads", "relaxing"],
+  "added": "2026-08-05"
+}

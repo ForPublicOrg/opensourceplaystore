@@ -1,0 +1,11 @@
+{
+  "id": "blackyhawky-clock",
+  "name": "Clock",
+  "tagline": "A privacy-first alarm clock and timer",
+  "description": "A customisable clock app based on the plain Android one, with alarms, a stopwatch, timers and a bedtime mode — and no tracking or ads.\n\nIt is light and works entirely offline.",
+  "repo": "https://github.com/BlackyHawky/Clock",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["clock", "alarm", "timer", "privacy", "offline"],
+  "added": "2026-08-05"
+}

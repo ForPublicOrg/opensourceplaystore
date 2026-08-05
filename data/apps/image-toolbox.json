@@ -1,0 +1,11 @@
+{
+  "id": "image-toolbox",
+  "name": "Image Toolbox",
+  "tagline": "One app for every photo edit you can think of",
+  "description": "Image Toolbox does almost anything you might want to do to a picture: crop, resize, rotate, add filters, draw on it, erase the background, stitch photos together, make a collage, or turn a batch of images into a PDF.\n\nEverything happens on your phone, so your photos are never uploaded anywhere. It handles unusual file types too, and it can shrink big images so they are easier to send.",
+  "repo": "https://github.com/T8RIN/ImageToolbox",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["photo", "image", "editor", "resize", "convert", "pdf", "offline"],
+  "added": "2026-08-05"
+}

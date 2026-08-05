@@ -1,0 +1,11 @@
+{
+  "id": "droidspaces",
+  "name": "Droidspaces",
+  "tagline": "Run full Linux systems alongside Android",
+  "description": "Droidspaces is a light container runtime that lets you install and use complete Linux distributions on your phone.\n\nIt is aimed at people who want a real shell and real packages on the move.",
+  "repo": "https://github.com/ravindu644/Droidspaces-OSS",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["linux", "containers", "developer", "terminal", "lxc"],
+  "added": "2026-08-05"
+}

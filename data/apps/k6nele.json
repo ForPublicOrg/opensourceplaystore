@@ -1,0 +1,11 @@
+{
+  "id": "k6nele",
+  "name": "Kõnele",
+  "tagline": "Speak instead of typing, in any app",
+  "description": "Kõnele is a speech-to-text keyboard and voice input service. Tap the microphone in any app and what you say is written out for you.\n\nIt can use a recogniser running on your own server, which makes it a good choice for languages the big services ignore, and it has been quietly maintained for well over a decade.",
+  "repo": "https://github.com/Kaljurand/K6nele",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["speech", "voice", "keyboard", "input", "accessibility"],
+  "added": "2026-08-05"
+}

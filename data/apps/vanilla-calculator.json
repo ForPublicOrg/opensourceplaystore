@@ -1,0 +1,11 @@
+{
+  "id": "vanilla-calculator",
+  "name": "Vanilla",
+  "tagline": "A cute, elegant calculator",
+  "description": "Vanilla handles everyday sums with a soft, friendly design and a scrollable history, and nothing else to distract you.\n\nNo ads, no permissions, no internet.",
+  "repo": "https://github.com/sosauce/Vanilla",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "simple", "material-you", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

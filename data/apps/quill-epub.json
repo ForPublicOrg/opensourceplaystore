@@ -1,0 +1,11 @@
+{
+  "id": "quill-epub",
+  "name": "Quill",
+  "tagline": "An ebook reader that can answer questions about the book",
+  "description": "Quill reads EPUB files with a clean, modern layout, remembers where you stopped, and lets you highlight and take notes.\n\nIt can also look things up inside the book itself using an on-device model, so you can ask who a character is without spoilers from the internet.",
+  "repo": "https://github.com/MohammadAliUstad/Quill",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["epub", "ebook", "reader", "offline", "ai"],
+  "added": "2026-08-05"
+}

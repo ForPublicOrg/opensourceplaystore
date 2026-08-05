@@ -1,0 +1,11 @@
+{
+  "id": "samiz",
+  "name": "Samiz",
+  "tagline": "Pass messages phone to phone when the net is down",
+  "description": "Samiz spreads Nostr notes over Bluetooth between nearby phones, so a group can keep communicating during an outage or a blackout.\n\nIt is experimental, open, and a genuinely interesting idea.",
+  "repo": "https://github.com/KoalaSat/samiz",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["mesh", "bluetooth", "nostr", "offline", "resilience"],
+  "added": "2026-08-05"
+}

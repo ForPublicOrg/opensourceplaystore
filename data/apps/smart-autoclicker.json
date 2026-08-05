@@ -1,0 +1,11 @@
+{
+  "id": "smart-autoclicker",
+  "name": "Smart AutoClicker",
+  "tagline": "Taps for you when it sees something on screen",
+  "description": "Smart AutoClicker watches for a picture or a colour you choose and taps when it appears, which makes repetitive tapping in apps and games unnecessary.\n\nIt needs no root, records your conditions visually, and everything runs on the phone.",
+  "repo": "https://github.com/Nain57/Smart-AutoClicker",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["automation", "clicker", "tasks", "accessibility", "no-root"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "android-ocr",
+  "name": "Android OCR",
+  "tagline": "Pull the words out of a photo or screenshot",
+  "description": "Point this at a page, a sign or a screenshot and it reads the text so you can copy, search or share it. Recognition happens on your phone using Tesseract, with language packs you download once.\n\nIt is small, has no ads, and asks for almost no permissions.",
+  "repo": "https://github.com/SubhamTyagi/android-ocr",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ocr", "text", "scan", "offline", "tesseract"],
+  "added": "2026-08-05"
+}

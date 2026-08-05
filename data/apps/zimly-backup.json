@@ -1,0 +1,11 @@
+{
+  "id": "zimly-backup",
+  "name": "Zimly",
+  "tagline": "Sync your photos to storage you control",
+  "description": "Zimly copies photos and files from your phone to S3-compatible storage — including a server in your own home — on a schedule you set.\n\nIt is simple, open source and does not involve a subscription service.",
+  "repo": "https://github.com/zimly/zimly-backup",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["backup", "sync", "s3", "self-hosted", "photos"],
+  "added": "2026-08-05"
+}

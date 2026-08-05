@@ -1,0 +1,11 @@
+{
+  "id": "music-recognizer",
+  "name": "Audile",
+  "tagline": "Finds out what song is playing around you",
+  "description": "Hold up your phone and Audile identifies the music playing nearby, then remembers it in a searchable history with links to your favourite music services.\n\nIt is open source, has no ads, and works with several recognition services.",
+  "repo": "https://github.com/aleksey-saenko/MusicRecognizer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "recognition", "shazam", "songs", "offline-history"],
+  "added": "2026-08-05"
+}

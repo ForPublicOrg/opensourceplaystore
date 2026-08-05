@@ -1,0 +1,11 @@
+{
+  "id": "http-fs-file-server",
+  "name": "HTTP File Server",
+  "tagline": "Turn your phone into a small file server",
+  "description": "This runs an HTTP and WebDAV server on your phone so other devices on the Wi-Fi can browse and copy files with just a browser.\n\nHandy for sharing photos with a laptop that has no cable.",
+  "repo": "https://github.com/Tiarait/HTTP-FS-file-server",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["file-transfer", "webdav", "server", "wifi", "local"],
+  "added": "2026-08-05"
+}

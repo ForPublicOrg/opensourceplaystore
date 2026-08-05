@@ -1,0 +1,11 @@
+{
+  "id": "beautyxt",
+  "name": "BeauTyXT",
+  "tagline": "A private, minimal editor for plain text",
+  "description": "BeauTyXT edits plain text and Markdown files with a clean, modern design and almost no permissions — it can only touch the files you open.\n\nA good choice when you want to write something without an app trying to sync, share or analyse it.",
+  "repo": "https://github.com/soupslurpr/BeauTyXT",
+  "category": "productivity",
+  "license": "ISC",
+  "tags": ["text", "markdown", "editor", "privacy", "minimal"],
+  "added": "2026-08-05"
+}

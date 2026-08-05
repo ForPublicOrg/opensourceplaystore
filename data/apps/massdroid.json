@@ -1,0 +1,11 @@
+{
+  "id": "massdroid",
+  "name": "Massdroid",
+  "tagline": "A native app for your Music Assistant server",
+  "description": "Massdroid controls Music Assistant — the open music hub for home setups — letting you browse everything and send it to any speaker in the house.\n\nIt is native, quick, and talks only to your own server.",
+  "repo": "https://github.com/sfortis/massdroid_native",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["music", "self-hosted", "smart-home", "streaming", "native"],
+  "added": "2026-08-05"
+}

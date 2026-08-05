@@ -1,0 +1,11 @@
+{
+  "id": "grocery-genius",
+  "name": "Grocery Genius",
+  "tagline": "A shopping list that already knows the items",
+  "description": "Grocery Genius comes with a catalogue of common groceries with pictures, so building a list is a few taps rather than a lot of typing.\n\nIt works offline, shares lists, and has no ads.",
+  "repo": "https://github.com/DanielRendox/GroceryGenius",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["shopping", "list", "offline", "material-you", "sharing"],
+  "added": "2026-08-05"
+}

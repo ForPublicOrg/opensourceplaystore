@@ -1,0 +1,11 @@
+{
+  "id": "web-aide",
+  "name": "Web AIDE",
+  "tagline": "Build a website on your phone",
+  "description": "Web AIDE is an editor for HTML, CSS and JavaScript with a live preview, so you can build and test a page entirely on Android.\n\nIt is free and good for learning web basics.",
+  "repo": "https://github.com/XedoxDev/Web-AIDE",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["web", "editor", "html", "learning", "developer"],
+  "added": "2026-08-05"
+}

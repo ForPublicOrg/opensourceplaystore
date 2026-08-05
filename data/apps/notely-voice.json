@@ -1,0 +1,11 @@
+{
+  "id": "notely-voice",
+  "name": "Notely Voice",
+  "tagline": "Speak a note and get it written down, privately",
+  "description": "Notely Voice turns what you say into written notes using speech recognition that runs on the phone itself. It understands a lot of languages and needs no account.\n\nBecause nothing is uploaded, it is a safe place for meeting notes, ideas in the car, or anything else you'd rather not hand to a cloud service.",
+  "repo": "https://github.com/Notely-Voice/NotelyVoice",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "voice", "transcription", "offline", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "phocid",
+  "name": "Phocid",
+  "tagline": "A modern offline player with a familiar feel",
+  "description": "Phocid plays the music on your device with a design that will feel immediately familiar, plus proper library browsing, playlists and a good equaliser.\n\nIt is offline by design — no accounts, no streaming, no tracking.",
+  "repo": "https://github.com/TJYSunset/Phocid",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "player", "local", "material-you"],
+  "added": "2026-08-05"
+}

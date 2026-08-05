@@ -1,0 +1,11 @@
+{
+  "id": "whatsapp-cleaner",
+  "name": "WhatsApp Cleaner",
+  "tagline": "Clear out the gigabytes WhatsApp hides",
+  "description": "Messaging apps quietly keep every photo and video anyone ever sent you. This finds them, shows how much space they take, and lets you delete safely.\n\nIt only touches the media folders and works offline.",
+  "repo": "https://github.com/VishnuSanal/WhatsAppCleaner",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["storage", "cleaner", "whatsapp", "media", "offline"],
+  "added": "2026-08-05"
+}

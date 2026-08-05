@@ -1,0 +1,11 @@
+{
+  "id": "network-switch",
+  "name": "NetworkSwitch",
+  "tagline": "Switch between 4G and 5G in one tap",
+  "description": "NetworkSwitch adds a shortcut for changing your preferred network type, which is buried several menus deep in Android.\n\nHandy when 5G is draining your battery or a weak signal keeps flapping.",
+  "repo": "https://github.com/aunchagaonkar/NetworkSwitch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["network", "5g", "battery", "shortcut", "simple"],
+  "added": "2026-08-05"
+}

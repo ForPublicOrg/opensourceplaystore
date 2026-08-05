@@ -1,0 +1,11 @@
+{
+  "id": "android-mcp-server",
+  "name": "Android Remote Control MCP",
+  "tagline": "Let an AI tool drive your phone, with your permission",
+  "description": "This app turns your phone into something an AI assistant on your computer can control — tapping, typing, taking screenshots and moving files — using the Model Context Protocol.\n\nIt is aimed at people automating tests or chores across devices, and it is careful about how much data it sends back.",
+  "repo": "https://github.com/danielealbano/android-remote-control-mcp",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["mcp", "automation", "remote", "ai", "developer"],
+  "added": "2026-08-05"
+}

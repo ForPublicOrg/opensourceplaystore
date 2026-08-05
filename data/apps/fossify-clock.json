@@ -1,0 +1,11 @@
+{
+  "id": "fossify-clock",
+  "name": "Fossify Clock",
+  "tagline": "Alarm, stopwatch and timer in one tidy app",
+  "description": "Fossify Clock combines a clock with widgets, alarms, a stopwatch and a timer, all in a design that stays out of the way.\n\nNo ads, no account, and it works completely offline.",
+  "repo": "https://github.com/FossifyOrg/Clock",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["clock", "alarm", "timer", "stopwatch", "no-ads"],
+  "added": "2026-08-05"
+}

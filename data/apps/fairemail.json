@@ -1,0 +1,11 @@
+{
+  "id": "fairemail",
+  "name": "FairEmail",
+  "tagline": "An email app built around privacy",
+  "description": "FairEmail works with any email account and blocks tracking pixels, remote images and other quiet ways senders watch you.\n\nIt supports encryption, several accounts, and a huge number of settings for people who care about the details.",
+  "repo": "https://github.com/M66B/FairEmail",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["email", "privacy", "imap", "encryption", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "qrserv",
+  "name": "QrServ",
+  "tagline": "Share a file by showing a QR code",
+  "description": "QrServ puts a file on a tiny web server on your phone and shows a QR code — the other device scans it and downloads, with no app or account needed.\n\nEverything stays on your local network.",
+  "repo": "https://github.com/uintdev/qrserv",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["file-transfer", "qr", "wifi", "local", "simple"],
+  "added": "2026-08-05"
+}

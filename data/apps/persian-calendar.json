@@ -1,0 +1,11 @@
+{
+  "id": "persian-calendar",
+  "name": "Persian Calendar",
+  "tagline": "The Persian calendar, with holidays and prayer times",
+  "description": "This app shows the Persian, Islamic and Gregorian calendars together, with holidays, a compass for prayer direction and daily times.\n\nIt is free, offline and carefully made over many years.",
+  "repo": "https://github.com/persian-calendar/persian-calendar",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["calendar", "persian", "holidays", "prayer", "offline"],
+  "added": "2026-08-05"
+}

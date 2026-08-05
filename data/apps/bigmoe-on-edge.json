@@ -1,0 +1,11 @@
+{
+  "id": "bigmoe-on-edge",
+  "name": "BigMoeOnEdge",
+  "tagline": "Run AI models far bigger than your phone's memory",
+  "description": "BigMoeOnEdge uses a clever trick to run very large AI models on an ordinary phone by keeping only the parts it needs in memory at a time — no quality shortcuts and no special hardware.\n\nIt is a project for the curious: slow but genuinely impressive, and everything stays on the device.",
+  "repo": "https://github.com/Helldez/BigMoeOnEdge",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "llm", "offline", "llamacpp", "experiment"],
+  "added": "2026-08-05"
+}

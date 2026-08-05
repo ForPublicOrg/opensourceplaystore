@@ -1,0 +1,11 @@
+{
+  "id": "freekiosk",
+  "name": "FreeKiosk",
+  "tagline": "Lock a tablet to one page or app",
+  "description": "FreeKiosk turns a spare tablet into a dedicated display for a dashboard, menu or sign, and stops anyone wandering off into other apps.\n\nIt is free and open source, with no per-device licence.",
+  "repo": "https://github.com/RushB-fr/freekiosk",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["kiosk", "tablet", "dashboard", "signage", "lockdown"],
+  "added": "2026-08-05"
+}

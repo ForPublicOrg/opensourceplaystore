@@ -1,0 +1,11 @@
+{
+  "id": "ir-blaster",
+  "name": "IR Blaster",
+  "tagline": "Make your phone a remote for old gear",
+  "description": "If your phone has an infrared blaster, this app turns it into a remote control for televisions, air conditioners and anything else, using codes you enter or import.\n\nIt supports the popular code formats, so most devices are covered.",
+  "repo": "https://github.com/iodn/android-ir-blaster",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["remote", "infrared", "tv", "custom", "offline"],
+  "added": "2026-08-05"
+}

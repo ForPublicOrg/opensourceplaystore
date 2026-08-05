@@ -1,0 +1,11 @@
+{
+  "id": "sefirah",
+  "name": "Sefirah",
+  "tagline": "Link your phone and your PC",
+  "description": "Sefirah mirrors notifications, shares the clipboard and sends files between your Android phone and your computer over your own network.\n\nIt is an open alternative to the built-in phone-link tools, with no cloud account.",
+  "repo": "https://github.com/shrimqy/Sefirah-Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["pc", "sync", "notifications", "clipboard", "files"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "xime-keyboard",
+  "name": "Xime",
+  "tagline": "A Chinese keyboard with on-device prediction",
+  "description": "Xime is a Rime-based input method supporting Pinyin, Wubi and custom schemes, with prediction from a small model that runs on the phone.\n\nNothing you type is sent anywhere.",
+  "repo": "https://github.com/ximeiorg/Xime",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["keyboard", "chinese", "rime", "offline", "privacy"],
+  "added": "2026-08-05"
+}

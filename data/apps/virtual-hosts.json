@@ -1,0 +1,11 @@
+{
+  "id": "virtual-hosts",
+  "name": "Virtual Hosts",
+  "tagline": "Redirect addresses without editing system files",
+  "description": "Virtual Hosts applies a hosts file on your phone using a local connection, so you can block or redirect addresses without root.\n\nIt supports wildcard rules and is a favourite of tinkerers.",
+  "repo": "https://github.com/x-falcon/Virtual-Hosts",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["hosts", "dns", "no-root", "network", "adblock"],
+  "added": "2026-08-05"
+}

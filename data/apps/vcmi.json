@@ -1,0 +1,11 @@
+{
+  "id": "vcmi",
+  "name": "VCMI",
+  "tagline": "Play Heroes of Might and Magic III on your phone",
+  "description": "VCMI is an open re-creation of the engine behind Heroes of Might and Magic III, with bug fixes and improvements the original never got.\n\nYou need the original game files to play; the app itself is free and open source.",
+  "repo": "https://github.com/vcmi/vcmi",
+  "category": "games",
+  "license": "GPL-2.0",
+  "tags": ["strategy", "heroes", "engine", "turn-based", "classic"],
+  "added": "2026-08-05"
+}

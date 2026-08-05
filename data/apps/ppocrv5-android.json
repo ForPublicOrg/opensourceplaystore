@@ -1,0 +1,11 @@
+{
+  "id": "ppocrv5-android",
+  "name": "PPOCRv5 Android",
+  "tagline": "Reads text from the camera as you point it",
+  "description": "This app recognises text live through the camera using a modern on-device model — no photos need to be taken and nothing is uploaded.\n\nIt handles printed and handwritten text in several languages and is fast enough to feel instant.",
+  "repo": "https://github.com/iFleey/PPOCRv5-Android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ocr", "camera", "offline", "text", "scan"],
+  "added": "2026-08-05"
+}

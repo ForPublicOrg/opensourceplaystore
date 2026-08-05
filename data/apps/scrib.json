@@ -1,0 +1,11 @@
+{
+  "id": "scrib",
+  "name": "Scrib",
+  "tagline": "Record a thought and get it typed up, offline",
+  "description": "Scrib records what you say and writes it down on the device — your audio never leaves the phone. Good for interviews, lectures and long voice notes you'd rather not re-listen to.\n\nIt is small, has no account, and exports plain text you can take anywhere.",
+  "repo": "https://github.com/23rd/Scrib",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["transcription", "voice", "notes", "offline", "privacy"],
+  "added": "2026-08-05"
+}

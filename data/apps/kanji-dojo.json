@@ -1,0 +1,11 @@
+{
+  "id": "kanji-dojo",
+  "name": "Kanji Dojo",
+  "tagline": "Practise writing Japanese characters",
+  "description": "Kanji Dojo drills reading and writing Japanese characters with stroke-by-stroke practice and spaced repetition, so what you learn actually sticks.\n\nIt works offline, has no ads, and lets you follow the usual textbook orders.",
+  "repo": "https://github.com/syt0r/Kanji-Dojo",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["japanese", "kanji", "learning", "flashcards", "offline"],
+  "added": "2026-08-05"
+}

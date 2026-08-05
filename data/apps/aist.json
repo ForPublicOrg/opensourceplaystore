@@ -1,0 +1,11 @@
+{
+  "id": "aist",
+  "name": "Aist",
+  "tagline": "Ask an AI to work your phone for you",
+  "description": "Aist connects a language model to Android's accessibility tools so it can open apps and tap through tasks when you describe what you want done.\n\nIt is an early, experimental idea, but a fascinating one to watch work.",
+  "repo": "https://github.com/sunshine0523/Aist",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "automation", "assistant", "accessibility", "agent"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ten-bit-clock-widget",
+  "name": "10-bit Clock Widget",
+  "tagline": "Tells the time in coloured dots",
+  "description": "This widget shows the time as ten binary dots — you learn to read it in about a day, and it looks like nothing else on your home screen.\n\nIt is tiny, free and open source.",
+  "repo": "https://github.com/ashutoshgngwr/10-bitClockWidget",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["clock", "widget", "binary", "minimal", "fun"],
+  "added": "2026-08-05"
+}

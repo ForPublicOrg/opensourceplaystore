@@ -1,0 +1,11 @@
+{
+  "id": "volume-manager",
+  "name": "Volume Manager",
+  "tagline": "Set a different volume for each app",
+  "description": "Volume Manager remembers a volume level per app, so podcasts don't blast you after a quiet game.\n\nIt needs no root on most phones and stays out of the way once configured.",
+  "repo": "https://github.com/yume-chan/VolumeManager",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": ["volume", "audio", "per-app", "shizuku", "utility"],
+  "added": "2026-08-05"
+}

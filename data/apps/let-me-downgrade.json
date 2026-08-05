@@ -1,0 +1,11 @@
+{
+  "id": "let-me-downgrade",
+  "name": "Let Me Downgrade",
+  "tagline": "Go back to an older version of an app",
+  "description": "Android normally refuses to install an older version over a newer one. Let Me Downgrade removes that restriction so you can roll back an update that broke something.\n\nIt requires root and is aimed at experienced users.",
+  "repo": "https://github.com/DavidBerdik/Let-Me-Downgrade",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["apps", "downgrade", "root", "power-user", "install"],
+  "added": "2026-08-05"
+}

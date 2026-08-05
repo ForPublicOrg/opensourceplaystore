@@ -1,0 +1,11 @@
+{
+  "id": "fossify-voice-recorder",
+  "name": "Fossify Voice Recorder",
+  "tagline": "Record sound with one tap, nothing else",
+  "description": "Fossify Voice Recorder captures lectures, ideas and conversations to a file on your phone, with a widget for starting instantly.\n\nNo ads, no internet permission, and your recordings never leave the device.",
+  "repo": "https://github.com/FossifyOrg/Voice-Recorder",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["recorder", "audio", "voice", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "super-productivity",
+  "name": "Super Productivity",
+  "tagline": "A to-do list that also tracks your time",
+  "description": "Super Productivity keeps your tasks, a timer for each one, and a record of where your day actually went — useful if you bill hours or just wonder where they go.\n\nIt syncs through your own storage, works offline and can pull tasks from issue trackers.",
+  "repo": "https://github.com/super-productivity/super-productivity",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["todo", "time-tracking", "pomodoro", "offline", "sync"],
+  "added": "2026-08-05"
+}

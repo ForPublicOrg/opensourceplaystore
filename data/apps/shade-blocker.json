@@ -1,0 +1,11 @@
+{
+  "id": "shade-blocker",
+  "name": "Shade",
+  "tagline": "Blurs out unwanted images before you see them",
+  "description": "Shade watches for explicit pictures on your screen in any app and covers them up, using a model that runs entirely on the phone — nothing is sent anywhere for checking.\n\nIt is meant as a personal filter you set up for yourself, and you can turn it off at any time.",
+  "repo": "https://github.com/mhss1/Shade",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["filter", "safety", "offline", "privacy", "wellbeing"],
+  "added": "2026-08-05"
+}

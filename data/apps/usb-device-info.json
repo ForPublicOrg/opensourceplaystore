@@ -1,0 +1,11 @@
+{
+  "id": "usb-device-info",
+  "name": "USB Device Info",
+  "tagline": "See exactly what you just plugged in",
+  "description": "This shows the full details of any USB device attached to your phone — descriptors, endpoints, HID reports — which is invaluable when building or debugging hardware.\n\nIt works offline and needs no root.",
+  "repo": "https://github.com/iodn/android-usb-device-info",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["usb", "hardware", "developer", "hid", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "thumb-key",
+  "name": "Thumb-Key",
+  "tagline": "A keyboard designed for one thumb",
+  "description": "Thumb-Key uses a small grid of big keys you swipe rather than a crowded row of tiny letters, so typing with one hand becomes accurate instead of annoying.\n\nIt learns nothing about you, asks for no permissions and works offline.",
+  "repo": "https://github.com/dessalines/thumb-key",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["keyboard", "one-handed", "privacy", "offline", "accessibility"],
+  "added": "2026-08-05"
+}

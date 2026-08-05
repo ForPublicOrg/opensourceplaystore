@@ -1,0 +1,11 @@
+{
+  "id": "teyin",
+  "name": "Teyin",
+  "tagline": "A tiny, private file manager",
+  "description": "Teyin browses your files quickly with a minimal interface and no permissions beyond storage — no ads, no cloud accounts bolted on.\n\nIt is built for speed and simplicity.",
+  "repo": "https://github.com/rama-io/teyin",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["files", "manager", "minimal", "privacy", "fast"],
+  "added": "2026-08-05"
+}

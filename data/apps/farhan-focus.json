@@ -1,0 +1,11 @@
+{
+  "id": "farhan-focus",
+  "name": "Farhan",
+  "tagline": "Helps you break the phone habit",
+  "description": "Farhan gets between you and the apps you open without thinking, with delays, reminders and limits you set for yourself.\n\nIt is free, offline and does not judge.",
+  "repo": "https://github.com/tahaak67/Farhan",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["focus", "wellbeing", "habits", "screen-time", "offline"],
+  "added": "2026-08-05"
+}

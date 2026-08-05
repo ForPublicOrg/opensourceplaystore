@@ -1,0 +1,11 @@
+{
+  "id": "nfc-quick-settings",
+  "name": "NFC Quick Settings",
+  "tagline": "An NFC switch where you can reach it",
+  "description": "Adds a quick settings tile for turning NFC on and off, which Android inexplicably hides several menus deep.\n\nIt is tiny and asks for nothing else.",
+  "repo": "https://github.com/pcolby/nfc-quick-settings",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["nfc", "tile", "settings", "simple", "utility"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "libretube",
+  "name": "LibreTube",
+  "tagline": "Watch YouTube without ads or a Google account",
+  "description": "LibreTube plays YouTube videos through a different door, so there are no ads, no tracking and no sign-in. You can subscribe to channels, make playlists and download videos to watch later.\n\nBackground play and picture-in-picture work too, which the official app charges for.",
+  "repo": "https://github.com/libre-tube/LibreTube",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["youtube", "video", "no-ads", "privacy", "download"],
+  "added": "2026-08-05"
+}

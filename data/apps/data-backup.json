@@ -1,0 +1,11 @@
+{
+  "id": "data-backup",
+  "name": "DataBackup",
+  "tagline": "Back up apps and their data properly",
+  "description": "DataBackup saves your apps together with their data so a restore actually brings back your progress and settings, not just the app.\n\nIt supports cloud destinations you choose and needs root for the full experience.",
+  "repo": "https://github.com/XayahSuSuSu/Android-DataBackup",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["backup", "restore", "root", "apps", "migration"],
+  "added": "2026-08-05"
+}

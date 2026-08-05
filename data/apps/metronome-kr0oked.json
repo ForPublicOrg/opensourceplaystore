@@ -1,0 +1,11 @@
+{
+  "id": "metronome-kr0oked",
+  "name": "Metronome",
+  "tagline": "A clean metronome for practising music",
+  "description": "Set the tempo, pick a time signature and play — this metronome keeps time with a clear sound and a simple screen, with no ads or upsells.\n\nGood for anyone learning an instrument who just needs a steady beat.",
+  "repo": "https://github.com/Kr0oked/Metronome",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["metronome", "music", "practice", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

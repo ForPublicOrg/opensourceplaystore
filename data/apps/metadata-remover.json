@@ -1,0 +1,11 @@
+{
+  "id": "metadata-remover",
+  "name": "Metadata Remover",
+  "tagline": "Strip hidden details out of your photos",
+  "description": "Photos quietly carry the place and time they were taken and the phone that took them. Metadata Remover deletes that before you share.\n\nIt is small, simple, and does its work entirely on the device.",
+  "repo": "https://github.com/Crazy-Marvin/MetadataRemover",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["privacy", "photos", "metadata", "exif", "sharing"],
+  "added": "2026-08-05"
+}

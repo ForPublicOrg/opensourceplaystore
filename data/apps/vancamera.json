@@ -1,0 +1,11 @@
+{
+  "id": "vancamera",
+  "name": "VanCamera",
+  "tagline": "Use your phone as a webcam for Windows",
+  "description": "VanCamera turns your Android camera into a webcam your computer can use, with no configuration and no cloud service in between.\n\nIt is open source and free.",
+  "repo": "https://github.com/danielbolivar/vancamera",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["webcam", "camera", "windows", "streaming", "usb"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "saber",
+  "name": "Saber",
+  "tagline": "Handwritten notes that sync across your devices",
+  "description": "Saber is made for writing by hand with a stylus: pressure-sensitive ink, PDF markup, a whiteboard mode, and pages that sync to your own storage.\n\nIt runs on phones, tablets and computers so your notebook is always the same one.",
+  "repo": "https://github.com/saber-notes/saber",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "handwriting", "stylus", "pdf", "sync"],
+  "added": "2026-08-05"
+}

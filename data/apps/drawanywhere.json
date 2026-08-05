@@ -1,0 +1,11 @@
+{
+  "id": "drawanywhere",
+  "name": "DrawAnywhere",
+  "tagline": "Scribble on top of whatever is on screen",
+  "description": "DrawAnywhere floats a drawing layer over any app, so you can circle something, sketch an idea or annotate a page before screenshotting it.\n\nIt is small and works with any app.",
+  "repo": "https://github.com/DrawAnywhere/DrawAnywhere",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["drawing", "overlay", "annotate", "screenshot", "simple"],
+  "added": "2026-08-05"
+}

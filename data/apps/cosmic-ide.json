@@ -1,0 +1,11 @@
+{
+  "id": "cosmic-ide",
+  "name": "Cosmic IDE",
+  "tagline": "Write and run real Java and Kotlin on your phone",
+  "description": "Cosmic IDE is a full development environment for Android that compiles and runs Java and Kotlin projects on the device itself.\n\nIt is a remarkable thing to have in your pocket if you are learning to program.",
+  "repo": "https://github.com/Cosmic-Ide/Cosmic-IDE",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ide", "java", "kotlin", "developer", "learning"],
+  "added": "2026-08-05"
+}

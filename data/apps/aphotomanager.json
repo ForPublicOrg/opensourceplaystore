@@ -1,0 +1,11 @@
+{
+  "id": "aphotomanager",
+  "name": "A Photo Manager",
+  "tagline": "Sort photos by place, date and tags",
+  "description": "A Photo Manager organises the pictures on your phone with a photo map, tagging and powerful filters, and it can add or strip location data.\n\nEverything is local and it works on very old phones too.",
+  "repo": "https://github.com/k3b/APhotoManager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["photos", "gallery", "geotag", "tags", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mpvex",
+  "name": "mpvEx",
+  "tagline": "A beautiful video player built on mpv",
+  "description": "mpvEx wraps the powerful mpv playback engine in a modern Material You interface, so difficult files play properly and the app still looks good.\n\nIt handles subtitles, gestures and playback speed with ease.",
+  "repo": "https://github.com/marlboro-advance/mpvEx",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["video", "mpv", "player", "subtitles", "material-you"],
+  "added": "2026-08-05"
+}

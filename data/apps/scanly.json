@@ -1,0 +1,11 @@
+{
+  "id": "scanly",
+  "name": "Scanly",
+  "tagline": "A quick, private document scanner",
+  "description": "Scanly turns your camera into a scanner: it finds the edges of a page, straightens it, and saves a clean PDF or image. It can also read the text on the page so the file is searchable.\n\nBarcodes and product codes work too, and none of it needs an internet connection or an account.",
+  "repo": "https://github.com/Azyrn/Scanly",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["scanner", "documents", "pdf", "ocr", "offline"],
+  "added": "2026-08-05"
+}

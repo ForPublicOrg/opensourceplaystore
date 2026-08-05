@@ -1,0 +1,11 @@
+{
+  "id": "kelivo",
+  "name": "Kelivo",
+  "tagline": "A tidy chat app for the AI model of your choice",
+  "description": "Kelivo is a chat client for large language models that runs on your phone as well as your computer. You add your own keys for the services you use, and it keeps every conversation in one searchable place.\n\nIt handles pictures and files, remembers custom instructions per assistant, and syncs its look and feel across devices.",
+  "repo": "https://github.com/Chevey339/kelivo",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["ai", "chat", "llm", "assistant", "cross-platform"],
+  "added": "2026-08-05"
+}

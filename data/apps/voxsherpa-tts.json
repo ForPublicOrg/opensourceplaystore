@@ -1,0 +1,11 @@
+{
+  "id": "voxsherpa-tts",
+  "name": "VoxSherpa TTS",
+  "tagline": "Offline neural voices for your whole phone",
+  "description": "VoxSherpa installs as a system text-to-speech engine with modern neural voices that run on the device, so reading aloud works with no internet.\n\nIt supports many languages and is free of charge.",
+  "repo": "https://github.com/CodeBySonu95/VoxSherpa-TTS",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["tts", "offline", "voice", "accessibility", "neural"],
+  "added": "2026-08-05"
+}

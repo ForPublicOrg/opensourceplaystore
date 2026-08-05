@@ -1,0 +1,11 @@
+{
+  "id": "pixel-art-weather",
+  "name": "Pixel Art Weather",
+  "tagline": "A weather app that looks like a retro video game",
+  "description": "Pixel Art Weather shows the forecast in charming hand-drawn pixel art, with a different scene for each kind of weather.\n\nIt also works out how the temperature will actually feel using a small model that runs on your phone.",
+  "repo": "https://github.com/ArtemZarubin/PixelArtWeatherML",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["weather", "pixel-art", "forecast", "offline", "fun"],
+  "added": "2026-08-05"
+}

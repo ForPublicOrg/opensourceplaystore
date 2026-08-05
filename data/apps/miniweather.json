@@ -1,0 +1,11 @@
+{
+  "id": "miniweather",
+  "name": "MiniWeather",
+  "tagline": "A tiny weather widget, nothing more",
+  "description": "MiniWeather puts the current conditions on your home screen in a small, clean widget without a full app attached.\n\nIt is light, ad-free and open source.",
+  "repo": "https://github.com/jark006/MiniWeather",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["weather", "widget", "minimal", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

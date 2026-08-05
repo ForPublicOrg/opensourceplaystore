@@ -1,0 +1,11 @@
+{
+  "id": "bitbanana",
+  "name": "BitBanana",
+  "tagline": "Manage a Lightning node from your phone",
+  "description": "BitBanana connects to your own Lightning node so you can see channels, send and receive payments, and keep an eye on things while away from your computer.\n\nIt talks only to the node you configure.",
+  "repo": "https://github.com/michaelWuensch/BitBanana",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["lightning", "bitcoin", "node", "self-hosted", "wallet"],
+  "added": "2026-08-05"
+}

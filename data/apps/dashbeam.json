@@ -1,0 +1,11 @@
+{
+  "id": "dashbeam",
+  "name": "Dashbeam",
+  "tagline": "Send big files anywhere without a cloud in between",
+  "description": "Dashbeam moves files and folders straight from one device to another, whatever their size, without storing a copy on someone else's server.\n\nIt works across the room or across the world, and there is nothing to sign up for.",
+  "repo": "https://github.com/tonyantony300/dashbeam",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["file-transfer", "p2p", "privacy", "no-cloud", "sharing"],
+  "added": "2026-08-05"
+}

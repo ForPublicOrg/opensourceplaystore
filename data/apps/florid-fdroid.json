@@ -1,0 +1,11 @@
+{
+  "id": "florid-fdroid",
+  "name": "Florid",
+  "tagline": "A fresh, simple F-Droid client",
+  "description": "Florid browses the F-Droid repositories with a clean modern design, quick search and painless updates.\n\nIt is small, free and does not need an account.",
+  "repo": "https://github.com/Nandanrmenon/florid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["fdroid", "appstore", "updates", "material-you", "open-source"],
+  "added": "2026-08-05"
+}

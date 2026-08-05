@@ -1,0 +1,11 @@
+{
+  "id": "stasis",
+  "name": "Stasis",
+  "tagline": "Backup and recovery built around privacy",
+  "description": "Stasis backs up your phone to storage you control, encrypting everything before it leaves the device, and can restore it on another one.\n\nIt works across platforms and is designed to be auditable.",
+  "repo": "https://github.com/sndnv/stasis",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["backup", "encryption", "recovery", "self-hosted", "privacy"],
+  "added": "2026-08-05"
+}

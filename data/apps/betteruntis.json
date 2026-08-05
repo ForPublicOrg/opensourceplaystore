@@ -1,0 +1,11 @@
+{
+  "id": "betteruntis",
+  "name": "BetterUntis",
+  "tagline": "A nicer app for your school timetable",
+  "description": "BetterUntis reads the Untis timetable system many schools use and shows your lessons, changes and free periods in a much clearer app than the official one.\n\nIt caches your timetable so it still works when the school Wi-Fi doesn't.",
+  "repo": "https://github.com/SapuSeven/BetterUntis",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["school", "timetable", "untis", "students", "offline"],
+  "added": "2026-08-05"
+}

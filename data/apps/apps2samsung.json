@@ -1,0 +1,11 @@
+{
+  "id": "apps2samsung",
+  "name": "Apps2Samsung",
+  "tagline": "Install apps on a Samsung TV from your phone",
+  "description": "Apps2Samsung sideloads apps onto Samsung TVs, projectors and smart monitors in one tap, without a developer setup on a computer.\n\nIt is free and open source.",
+  "repo": "https://github.com/Apps2Samsung/Apps2Samsung",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["tv", "tizen", "installer", "samsung", "sideload"],
+  "added": "2026-08-05"
+}

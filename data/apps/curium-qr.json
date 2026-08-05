@@ -1,0 +1,11 @@
+{
+  "id": "curium-qr",
+  "name": "Curium",
+  "tagline": "Make and scan QR codes that actually look good",
+  "description": "Curium scans QR codes and creates your own with colours, logos and shapes, all offline and with no adverts.\n\nEverything is generated on the phone, so nothing you encode leaves it.",
+  "repo": "https://github.com/nylxar/curium",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["qr", "barcode", "scanner", "generator", "no-ads"],
+  "added": "2026-08-05"
+}

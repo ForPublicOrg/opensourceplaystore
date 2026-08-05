@@ -1,0 +1,11 @@
+{
+  "id": "usagi-manga",
+  "name": "Usagi",
+  "tagline": "A free manga reader with a modern feel",
+  "description": "Usagi reads manga from many sources, keeps your library and progress on the device, and downloads chapters for reading offline.\n\nIt has a clean Material You design and no adverts.",
+  "repo": "https://github.com/UsagiApp/Usagi",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["manga", "reader", "offline", "library", "material-you"],
+  "added": "2026-08-05"
+}

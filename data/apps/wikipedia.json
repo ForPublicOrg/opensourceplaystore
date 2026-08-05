@@ -1,0 +1,11 @@
+{
+  "id": "wikipedia",
+  "name": "Wikipedia",
+  "tagline": "The official app for the free encyclopedia",
+  "description": "The official Wikipedia app gives you every article in hundreds of languages, with saved pages for offline reading, a daily feed and dark mode.\n\nIt is made by the Wikimedia Foundation, carries no adverts, and never has.",
+  "repo": "https://github.com/wikimedia/apps-android-wikipedia",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": ["wikipedia", "encyclopedia", "reference", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "i2pd-android",
+  "name": "i2pd",
+  "tagline": "Join the I2P private network from your phone",
+  "description": "i2pd connects your phone to I2P, a network built so that what you do cannot easily be traced back to you, and lets other apps use it.\n\nIt is a light, efficient version of the I2P software written in C++.",
+  "repo": "https://github.com/PurpleI2P/i2pd-android",
+  "category": "security",
+  "license": "BSD-3-Clause",
+  "tags": ["i2p", "privacy", "anonymity", "network", "encryption"],
+  "added": "2026-08-05"
+}

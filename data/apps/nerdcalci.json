@@ -1,0 +1,11 @@
+{
+  "id": "nerdcalci",
+  "name": "NerdCalci",
+  "tagline": "A calculator for people who use variables",
+  "description": "NerdCalci does maths the way a notebook does: define variables, write expressions, and see everything update — all offline.\n\nIt has syntax colouring and history, and is aimed at engineers and students.",
+  "repo": "https://github.com/vishaltelangre/NerdCalci",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "maths", "variables", "offline", "power-user"],
+  "added": "2026-08-05"
+}

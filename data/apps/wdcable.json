@@ -1,0 +1,11 @@
+{
+  "id": "wdcable",
+  "name": "WDCable",
+  "tagline": "Send files phone-to-phone with no network",
+  "description": "WDCable uses Wi-Fi Direct to connect two phones straight to each other for messages and file transfers, even with no router or mobile data.\n\nIt is simple, quick and completely offline.",
+  "repo": "https://github.com/jingcjie/WDCable_flutter",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["file-transfer", "wifi-direct", "offline", "p2p", "sharing"],
+  "added": "2026-08-05"
+}

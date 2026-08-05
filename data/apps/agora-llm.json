@@ -1,0 +1,11 @@
+{
+  "id": "agora-llm",
+  "name": "Agora",
+  "tagline": "Chat with any AI service using your own key",
+  "description": "Agora is an AI chat app for people who'd rather pay per use than subscribe. Add keys for the services you like and switch between them mid-conversation.\n\nIt can also carry out multi-step jobs and talk to devices on your network, and it keeps chats on your phone.",
+  "repo": "https://github.com/newo-ether/Agora",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "chat", "llm", "byok", "agent"],
+  "added": "2026-08-05"
+}

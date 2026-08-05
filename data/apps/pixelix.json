@@ -1,0 +1,11 @@
+{
+  "id": "pixelix",
+  "name": "Pixelix",
+  "tagline": "A photo app for the open Pixelfed network",
+  "description": "Pixelix connects to Pixelfed, a photo-sharing network built on open standards where no company owns your feed.\n\nIt shows a proper mobile timeline, posting, comments and messages.",
+  "repo": "https://github.com/ghostbyte-dev/pixelix",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["pixelfed", "fediverse", "photos", "social", "open"],
+  "added": "2026-08-05"
+}

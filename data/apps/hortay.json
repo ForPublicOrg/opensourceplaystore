@@ -1,0 +1,11 @@
+{
+  "id": "hortay",
+  "name": "Hortay",
+  "tagline": "Read Telegram channels like a news feed",
+  "description": "Hortay presents the channels you follow on Telegram as a clean scrolling feed rather than a chat list, which suits reading far better.\n\nIt uses your own Telegram account and is built with the official library.",
+  "repo": "https://github.com/LyoSU/hortay-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["telegram", "channels", "reader", "feed", "material-you"],
+  "added": "2026-08-05"
+}

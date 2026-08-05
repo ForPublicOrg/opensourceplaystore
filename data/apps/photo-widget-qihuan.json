@@ -1,0 +1,11 @@
+{
+  "id": "photo-widget-qihuan",
+  "name": "Photo Widget",
+  "tagline": "Put your favourite photos on the home screen",
+  "description": "This widget shows pictures you pick, with cropping, rounded corners and a tap action of your choosing.\n\nIt works offline and keeps your photos on the phone.",
+  "repo": "https://github.com/qihuan92/PhotoWidget",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["widget", "photos", "home-screen", "customisation", "offline"],
+  "added": "2026-08-05"
+}

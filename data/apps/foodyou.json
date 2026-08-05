@@ -1,0 +1,11 @@
+{
+  "id": "foodyou",
+  "name": "Food You",
+  "tagline": "A private food diary and nutrition tracker",
+  "description": "Food You lets you record what you eat and see the calories and nutrients, using open food databases and your own recipes.\n\nThere is no account, no ads and no data collection — the diary stays on your phone.",
+  "repo": "https://github.com/maksimowiczm/FoodYou",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["food", "calories", "nutrition", "diary", "privacy"],
+  "added": "2026-08-05"
+}

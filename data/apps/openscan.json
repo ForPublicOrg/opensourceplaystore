@@ -1,0 +1,11 @@
+{
+  "id": "openscan",
+  "name": "OpenScan",
+  "tagline": "A document scanner that keeps your papers private",
+  "description": "OpenScan turns your camera into a scanner with edge detection, straightening and filters that make text crisp, then saves a PDF on your phone.\n\nNothing is uploaded, there are no ads, and it does not ask for an account.",
+  "repo": "https://github.com/ethereal-developers/OpenScan",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "tags": ["scanner", "documents", "pdf", "privacy", "offline"],
+  "added": "2026-08-05"
+}

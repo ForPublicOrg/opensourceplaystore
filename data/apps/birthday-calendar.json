@@ -1,0 +1,11 @@
+{
+  "id": "birthday-calendar",
+  "name": "Birthday Adapter",
+  "tagline": "Puts your contacts' birthdays in your calendar",
+  "description": "This quietly adds every birthday from your contacts into your normal calendar, so reminders appear where you already look.\n\nIt works offline and does not need an account.",
+  "repo": "https://github.com/SufficientlySecure/birthday-calendar",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["birthdays", "calendar", "contacts", "reminders", "offline"],
+  "added": "2026-08-05"
+}

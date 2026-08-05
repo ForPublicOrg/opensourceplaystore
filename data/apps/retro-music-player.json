@@ -1,0 +1,11 @@
+{
+  "id": "retro-music-player",
+  "name": "Retro Music Player",
+  "tagline": "A beautiful player for the music on your phone",
+  "description": "Retro Music Player plays your own music files with a choice of gorgeous now-playing screens, a proper equaliser, folder browsing and lyrics.\n\nIt has been a favourite for years, has no ads, and works entirely offline.",
+  "repo": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "player", "offline", "equalizer", "material-you"],
+  "added": "2026-08-05"
+}

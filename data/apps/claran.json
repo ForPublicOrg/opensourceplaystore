@@ -1,0 +1,11 @@
+{
+  "id": "claran",
+  "name": "ClaraN",
+  "tagline": "A private AI workspace that runs at home",
+  "description": "ClaraN brings chat, tools and image generation together in one app that talks to models running on your own computer instead of a company's servers.\n\nYou can build small assistants of your own, and nothing leaves your network.",
+  "repo": "https://github.com/vanvuongngo/ClaraN",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "ollama", "privacy", "self-hosted", "assistant"],
+  "added": "2026-08-05"
+}

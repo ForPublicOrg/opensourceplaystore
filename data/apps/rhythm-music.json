@@ -1,0 +1,11 @@
+{
+  "id": "rhythm-music",
+  "name": "Rhythm",
+  "tagline": "A privacy-first music player with a lovely look",
+  "description": "Rhythm plays the music on your phone with a bright modern design, lyrics, playlists and no data collection at all.\n\nIt is free, open source and gets frequent updates.",
+  "repo": "https://github.com/cromaguy/Rhythm",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "privacy", "lyrics", "material-you"],
+  "added": "2026-08-05"
+}

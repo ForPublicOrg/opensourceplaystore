@@ -1,0 +1,11 @@
+{
+  "id": "treehouses-remote",
+  "name": "Treehouses Remote",
+  "tagline": "Set up a Raspberry Pi over Bluetooth",
+  "description": "Treehouses Remote configures a Raspberry Pi from your phone over Bluetooth — network, services, containers — with no screen or keyboard attached to the Pi.\n\nIt is used in classrooms and community networks.",
+  "repo": "https://github.com/treehouses/remote",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["raspberry-pi", "bluetooth", "server", "education", "remote"],
+  "added": "2026-08-05"
+}

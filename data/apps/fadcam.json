@@ -1,0 +1,11 @@
+{
+  "id": "fadcam",
+  "name": "FadCam",
+  "tagline": "Record video quietly in the background",
+  "description": "FadCam records video, audio or your screen while the phone looks like it is doing something else — useful as a dash cam, for long recordings, or when you need your hands free.\n\nIt is ad-free, keeps recordings on the device, and includes a simple watermark and storage manager.",
+  "repo": "https://github.com/anonfaded/FadCam",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["camera", "recorder", "video", "background", "no-ads"],
+  "added": "2026-08-05"
+}

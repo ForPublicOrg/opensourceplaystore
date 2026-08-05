@@ -1,0 +1,11 @@
+{
+  "id": "game-hub-launcher",
+  "name": "Game Hub",
+  "tagline": "A home screen just for your games",
+  "description": "Game Hub gathers all the games on your phone into one bright launcher, so they stop cluttering the main app list.\n\nIt is small, free and uses the newest Material design.",
+  "repo": "https://github.com/FeDeveloper95/Game-Hub",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "games", "material-you", "organiser", "free"],
+  "added": "2026-08-05"
+}

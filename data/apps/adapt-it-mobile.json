@@ -1,0 +1,11 @@
+{
+  "id": "adapt-it-mobile",
+  "name": "Adapt It Mobile",
+  "tagline": "Help translate between languages that are close cousins",
+  "description": "Adapt It Mobile helps people carry a text from one language into a closely related one, remembering the choices you make so later chapters go faster.\n\nIt is used by community translators working on languages the big services have never touched.",
+  "repo": "https://github.com/adapt-it/adapt-it-mobile",
+  "category": "education",
+  "license": "MIT",
+  "tags": ["translation", "languages", "offline", "community", "linguistics"],
+  "added": "2026-08-05"
+}

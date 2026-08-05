@@ -1,0 +1,11 @@
+{
+  "id": "glucodatahandler",
+  "name": "GlucoDataHandler",
+  "tagline": "Blood sugar readings on your phone and watch",
+  "description": "GlucoDataHandler takes glucose readings from a range of monitoring sources and shows them clearly on your phone, watch face and widgets, with alarms.\n\nIt is a community project used daily by people managing diabetes.",
+  "repo": "https://github.com/pachi81/GlucoDataHandler",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["health", "diabetes", "glucose", "wear-os", "widgets"],
+  "added": "2026-08-05"
+}

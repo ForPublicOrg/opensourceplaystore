@@ -1,0 +1,11 @@
+{
+  "id": "opennutritracker",
+  "name": "OpenNutriTracker",
+  "tagline": "Count calories without handing over your data",
+  "description": "OpenNutriTracker tracks meals and exercise against a daily calorie goal, using the open food database so you can look up almost anything.\n\nIt is free, simple, and keeps your food diary on the device.",
+  "repo": "https://github.com/simonoppowa/OpenNutriTracker",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["calories", "food", "health", "diary", "privacy"],
+  "added": "2026-08-05"
+}

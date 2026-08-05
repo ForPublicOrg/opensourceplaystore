@@ -1,0 +1,11 @@
+{
+  "id": "libresudoku",
+  "name": "LibreSudoku",
+  "tagline": "Sudoku with modern looks and no adverts",
+  "description": "LibreSudoku generates puzzles at several difficulties, with notes, hints and statistics, in a clean Material You design.\n\nIt works offline and never shows an advert.",
+  "repo": "https://github.com/kaajjo/LibreSudoku",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["sudoku", "puzzle", "offline", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

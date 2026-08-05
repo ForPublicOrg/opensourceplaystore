@@ -1,0 +1,11 @@
+{
+  "id": "extreme-infinitv",
+  "name": "Extreme InfiniTV",
+  "tagline": "A tidy player for your own TV playlists",
+  "description": "Extreme InfiniTV plays M3U playlists and Xtream Codes services with a remote-friendly interface, an electronic programme guide and favourites.\n\nIt is free and open source, and you supply the playlist.",
+  "repo": "https://github.com/infinitel8p/Extreme-InfiniTV",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["iptv", "live-tv", "android-tv", "player", "epg"],
+  "added": "2026-08-05"
+}

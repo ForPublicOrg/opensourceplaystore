@@ -1,0 +1,11 @@
+{
+  "id": "switchai",
+  "name": "SwitchAI",
+  "tagline": "Pick which AI answers when you hold the power button",
+  "description": "SwitchAI lets you choose your own digital assistant instead of the one your phone came with. Set it as the default assistant and your favourite AI app opens with the usual gesture or button.\n\nIt supports many assistants, remembers your choice, and has a simple widget so you can start a chat from the home screen.",
+  "repo": "https://github.com/WSTxda/SwitchAI",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["assistant", "ai", "shortcut", "launcher"],
+  "added": "2026-08-05"
+}

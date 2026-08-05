@@ -1,0 +1,11 @@
+{
+  "id": "flicky",
+  "name": "Flicky",
+  "tagline": "An F-Droid client that works on TVs too",
+  "description": "Flicky browses and installs open-source apps, with a layout that works with a remote control on Android TV as well as on a phone.\n\nIt is free, light and ad-free.",
+  "repo": "https://github.com/mlm-games/flicky",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["fdroid", "appstore", "android-tv", "updates", "open-source"],
+  "added": "2026-08-05"
+}

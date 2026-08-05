@@ -1,0 +1,11 @@
+{
+  "id": "hid-barcode-scanner",
+  "name": "HID Barcode Scanner",
+  "tagline": "Scan a barcode straight into your computer",
+  "description": "This app scans barcodes with your camera and types them into a computer as if it were a Bluetooth keyboard — no scanner hardware needed.\n\nGreat for stocktaking or entering long codes.",
+  "repo": "https://github.com/Fabi019/hid-barcode-scanner",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["barcode", "bluetooth", "keyboard", "scanner", "inventory"],
+  "added": "2026-08-05"
+}

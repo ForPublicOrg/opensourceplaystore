@@ -1,0 +1,11 @@
+{
+  "id": "otakuworld",
+  "name": "OtakuWorld",
+  "tagline": "Three readers and watchers sharing one design",
+  "description": "OtakuWorld is a set of apps — anime watcher, manga reader and novel reader — that look and work the same way, so switching between them is easy.\n\nEverything is free and open source.",
+  "repo": "https://github.com/jakepurple13/OtakuWorld",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["manga", "anime", "novels", "reader", "material-you"],
+  "added": "2026-08-05"
+}

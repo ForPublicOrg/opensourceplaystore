@@ -1,0 +1,11 @@
+{
+  "id": "ludi",
+  "name": "Ludi",
+  "tagline": "Gaming news and new games to discover",
+  "description": "Ludi collects news from gaming sites and lets you browse a big games database to find something new, all in a tidy Material You app.\n\nNo account, no ads, no tracking.",
+  "repo": "https://github.com/mr3y-the-programmer/Ludi",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["games", "news", "discovery", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

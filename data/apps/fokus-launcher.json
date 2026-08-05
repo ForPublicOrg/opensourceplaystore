@@ -1,0 +1,11 @@
+{
+  "id": "fokus-launcher",
+  "name": "FokusLauncher",
+  "tagline": "A text-only home screen for a calmer phone",
+  "description": "FokusLauncher shows a short list of apps as plain words, with no icons, badges or widgets competing for your attention.\n\nIt is tiny, free and asks for almost no permissions.",
+  "repo": "https://github.com/luantak/FokusLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "focus", "text", "wellbeing"],
+  "added": "2026-08-05"
+}

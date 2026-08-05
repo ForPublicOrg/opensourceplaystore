@@ -1,0 +1,11 @@
+{
+  "id": "weathermaster",
+  "name": "WeatherMaster",
+  "tagline": "A good-looking forecast from the source you pick",
+  "description": "WeatherMaster shows current conditions, hourly and daily forecasts, radar and alerts, and lets you choose which weather service the data comes from.\n\nIt has widgets, no ads, and does not sell your location.",
+  "repo": "https://github.com/PranshulGG/WeatherMaster",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["weather", "forecast", "widgets", "material-you", "privacy"],
+  "added": "2026-08-05"
+}

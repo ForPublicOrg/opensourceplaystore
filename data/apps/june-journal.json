@@ -1,0 +1,11 @@
+{
+  "id": "june-journal",
+  "name": "June",
+  "tagline": "A private journal with room for photos and audio",
+  "description": "June is a journal that takes text, pictures and voice notes, keeps them on your device, and makes it easy to look back at a day.\n\nIt is open source, ad-free and made for expressive writing rather than streak-chasing.",
+  "repo": "https://github.com/DenserMeerkat/June",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["journal", "diary", "privacy", "offline", "media"],
+  "added": "2026-08-05"
+}

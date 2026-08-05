@@ -1,0 +1,11 @@
+{
+  "id": "cloudgallery",
+  "name": "CloudGallery",
+  "tagline": "Back up your photos to storage you choose",
+  "description": "CloudGallery copies your pictures and videos to a cloud account you already have, on your terms, and browses them in a clean gallery.\n\nThere is no separate subscription and no lock-in.",
+  "repo": "https://github.com/AKS-Labs/CloudGallery",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["photos", "backup", "gallery", "cloud", "sync"],
+  "added": "2026-08-05"
+}

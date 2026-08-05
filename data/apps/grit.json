@@ -1,0 +1,11 @@
+{
+  "id": "grit",
+  "name": "Grit",
+  "tagline": "A simple to-do list and habit tracker",
+  "description": "Grit keeps your tasks and your daily habits in one small app, with Material You colours and no account of any kind.\n\nEverything stays on your phone, and there is an optional backup you control.",
+  "repo": "https://github.com/shub39/Grit",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "habits", "material-you", "offline", "simple"],
+  "added": "2026-08-05"
+}

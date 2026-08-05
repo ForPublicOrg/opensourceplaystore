@@ -1,0 +1,11 @@
+{
+  "id": "nextcloud-notes",
+  "name": "Nextcloud Notes",
+  "tagline": "Notes that live on your own Nextcloud",
+  "description": "This is the official Notes app for Nextcloud: write in markdown on your phone and everything syncs to the server you run or rent.\n\nIt works offline, supports categories and favourites, and has a widget.",
+  "repo": "https://github.com/nextcloud/notes-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "nextcloud", "markdown", "sync", "self-hosted"],
+  "added": "2026-08-05"
+}

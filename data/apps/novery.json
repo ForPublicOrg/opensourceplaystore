@@ -1,0 +1,11 @@
+{
+  "id": "novery",
+  "name": "Novery",
+  "tagline": "Read novels online or offline, and have them read aloud",
+  "description": "Novery is a modern novel reader that can pull books from many sources, save them for offline reading, and read them to you with a text-to-speech voice.\n\nThe reading screen is adjustable — fonts, spacing, themes — and your progress is kept on the phone.",
+  "repo": "https://github.com/1Finn2me/Novery",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["novels", "reader", "tts", "offline", "books"],
+  "added": "2026-08-05"
+}

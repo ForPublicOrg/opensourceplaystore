@@ -1,0 +1,11 @@
+{
+  "id": "movieflix-diary",
+  "name": "MovieFlix",
+  "tagline": "A diary for everything you watch",
+  "description": "MovieFlix lets you log films, rate them and keep a watchlist, so you can remember what you thought of something two years later.\n\nIt is free, open source and ad-free.",
+  "repo": "https://github.com/shalenMathew/MovieFlix_App",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["films", "diary", "watchlist", "ratings", "no-ads"],
+  "added": "2026-08-05"
+}

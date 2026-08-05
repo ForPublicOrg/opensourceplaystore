@@ -1,0 +1,11 @@
+{
+  "id": "tele-tv",
+  "name": "Tele",
+  "tagline": "Telegram on your television",
+  "description": "Tele is a Telegram client designed for Android TV, so you can read chats and watch shared videos with a remote control.\n\nIt is free and open source.",
+  "repo": "https://github.com/saieshshirodkar/Tele",
+  "category": "social",
+  "license": "MIT",
+  "tags": ["telegram", "android-tv", "chat", "remote", "video"],
+  "added": "2026-08-05"
+}

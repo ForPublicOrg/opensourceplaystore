@@ -1,0 +1,11 @@
+{
+  "id": "plexus",
+  "name": "Plexus",
+  "tagline": "Check if an app works without Google services",
+  "description": "Plexus collects reports on how well apps run on de-Googled phones, so you can check before you switch whether the ones you rely on will work.\n\nIt is made by the privacy community and anyone can contribute a report.",
+  "repo": "https://github.com/techlore/Plexus-app",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["degoogled", "compatibility", "privacy", "community", "reference"],
+  "added": "2026-08-05"
+}

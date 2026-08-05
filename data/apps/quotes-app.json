@@ -1,0 +1,11 @@
+{
+  "id": "quotes-app",
+  "name": "Quotes",
+  "tagline": "A quiet daily quote, and nothing else",
+  "description": "A minimalist app that shows a quote, lets you save the ones you like and share them as pictures.\n\nNo account, no ads, no notifications begging for attention.",
+  "repo": "https://github.com/shalenMathew/Quotes-app",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["quotes", "minimal", "daily", "share", "no-ads"],
+  "added": "2026-08-05"
+}

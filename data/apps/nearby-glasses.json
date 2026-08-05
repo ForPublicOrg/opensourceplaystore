@@ -1,0 +1,11 @@
+{
+  "id": "nearby-glasses",
+  "name": "Nearby Glasses",
+  "tagline": "Warns you when camera glasses are around",
+  "description": "This app watches for the wireless fingerprints of smart glasses nearby and tells you when it thinks a camera is on someone's face.\n\nIt is an experiment in a genuinely new privacy problem, and it is open for anyone to check.",
+  "repo": "https://github.com/yjeanrenaud/yj_nearbyglasses",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": ["privacy", "bluetooth", "detection", "glasses", "experiment"],
+  "added": "2026-08-05"
+}

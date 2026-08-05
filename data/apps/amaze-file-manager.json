@@ -1,0 +1,11 @@
+{
+  "id": "amaze-file-manager",
+  "name": "Amaze File Manager",
+  "tagline": "A long-loved file manager with lots of tools",
+  "description": "Amaze has been around for years and does far more than list folders: it handles archives, cloud accounts, network shares, app management and root access.\n\nIt is open source, ad-free, and light enough for older phones.",
+  "repo": "https://github.com/TeamAmaze/AmazeFileManager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["files", "manager", "archive", "cloud", "root"],
+  "added": "2026-08-05"
+}

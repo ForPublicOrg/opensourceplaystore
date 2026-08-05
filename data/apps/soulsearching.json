@@ -1,0 +1,11 @@
+{
+  "id": "soulsearching",
+  "name": "SoulSearching",
+  "tagline": "A customisable player for phones and desktops",
+  "description": "SoulSearching plays your own music collection and lets you rearrange nearly every part of the interface to suit how you browse.\n\nThe same app runs on desktop, so your library feels the same everywhere.",
+  "repo": "https://github.com/enteraname74/SoulSearching",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "offline", "customisable", "multiplatform", "player"],
+  "added": "2026-08-05"
+}

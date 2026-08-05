@@ -1,0 +1,11 @@
+{
+  "id": "stable-diffusion-kmp",
+  "name": "Stable Diffusion KMP",
+  "tagline": "Make pictures from words on your phone",
+  "description": "This app turns a written description into an image using Stable Diffusion. It can talk to a server you run at home, to an online image service, or generate on the device itself.\n\nYou get all the usual controls — size, steps, negative prompts, image-to-image — plus a gallery of everything you've made, saved locally.",
+  "repo": "https://github.com/ShiftHackZ/Stable-Diffusion-KMP",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["ai", "images", "stable-diffusion", "art", "generator"],
+  "added": "2026-08-05"
+}

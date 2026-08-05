@@ -1,0 +1,11 @@
+{
+  "id": "wg-tunnel",
+  "name": "WG Tunnel",
+  "tagline": "A smarter WireGuard client for your phone",
+  "description": "WG Tunnel runs WireGuard connections and adds the things the official app lacks: automatic tunnelling on untrusted Wi-Fi, kill switch, split tunnelling and shortcuts.\n\nIt is free, open source, and works with any WireGuard provider or your own server.",
+  "repo": "https://github.com/wgtunnel/android",
+  "category": "internet",
+  "license": "MIT",
+  "tags": ["vpn", "wireguard", "privacy", "automation", "self-hosted"],
+  "added": "2026-08-05"
+}

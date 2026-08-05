@@ -1,0 +1,11 @@
+{
+  "id": "food-expiration-dates",
+  "name": "Food Expiration Dates",
+  "tagline": "Stop finding surprises in the back of the fridge",
+  "description": "Log what you buy and when it goes off, and this reminds you before it does — including a barcode scanner so adding things is quick.\n\nIt is free, offline and helps waste a lot less food.",
+  "repo": "https://github.com/lorenzovngl/FoodExpirationDates",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["food", "reminders", "barcode", "waste", "offline"],
+  "added": "2026-08-05"
+}

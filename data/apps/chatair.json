@@ -1,0 +1,11 @@
+{
+  "id": "chatair",
+  "name": "ChatAir",
+  "tagline": "A light, native chat app for the big AI services",
+  "description": "ChatAir is a small, fast app for talking to the well-known AI assistants using your own key. It starts quickly, works offline for reading old chats, and keeps everything on the phone.\n\nYou can send pictures, save prompts you use often, and switch between services without changing apps.",
+  "repo": "https://github.com/flyun/chatAir",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "chat", "llm", "lightweight", "byok"],
+  "added": "2026-08-05"
+}

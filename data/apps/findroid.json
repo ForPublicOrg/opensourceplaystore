@@ -1,0 +1,11 @@
+{
+  "id": "findroid",
+  "name": "Findroid",
+  "tagline": "A native Jellyfin client that feels like Android",
+  "description": "Findroid is a third-party Jellyfin app built with native Android tools, so it is fast, looks right and handles downloads and subtitles properly.\n\nYour library stays on your own server.",
+  "repo": "https://github.com/jarnedemeulemeester/findroid",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["jellyfin", "video", "self-hosted", "native", "offline"],
+  "added": "2026-08-05"
+}

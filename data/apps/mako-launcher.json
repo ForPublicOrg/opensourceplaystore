@@ -1,0 +1,11 @@
+{
+  "id": "mako-launcher",
+  "name": "Mako",
+  "tagline": "A minimal, private launcher built for speed",
+  "description": "Mako is a stripped-back home screen designed to open instantly and stay out of your way, with no ads, no tracking and no clutter.\n\nGestures, a fast app search and a simple list are all it offers — on purpose.",
+  "repo": "https://github.com/rama-io/mako",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "privacy", "fast", "focus"],
+  "added": "2026-08-05"
+}

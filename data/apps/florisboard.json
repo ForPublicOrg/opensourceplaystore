@@ -1,0 +1,11 @@
+{
+  "id": "florisboard",
+  "name": "FlorisBoard",
+  "tagline": "A keyboard that keeps what you type private",
+  "description": "FlorisBoard is a full-featured keyboard — gesture typing, suggestions, themes, emoji — built so that nothing you type is sent anywhere.\n\nIt supports many layouts and languages and is still improving quickly.",
+  "repo": "https://github.com/florisboard/florisboard",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["keyboard", "privacy", "gesture", "themes", "offline"],
+  "added": "2026-08-05"
+}

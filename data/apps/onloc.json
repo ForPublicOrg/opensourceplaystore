@@ -1,0 +1,11 @@
+{
+  "id": "onloc",
+  "name": "Onloc",
+  "tagline": "Track your own devices on your own server",
+  "description": "Onloc sends your phone's location to an Onloc server you run, so family tracking or a location history is something you own rather than rent.\n\nIt is battery-friendly and open source.",
+  "repo": "https://github.com/onloc-app/onloc-android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["location", "self-hosted", "tracking", "privacy", "family"],
+  "added": "2026-08-05"
+}

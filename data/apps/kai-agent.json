@@ -1,0 +1,11 @@
+{
+  "id": "kai-agent",
+  "name": "Kai",
+  "tagline": "A pocket coding helper that can run commands for you",
+  "description": "Kai is a chat assistant aimed at people who write code. It can read files, run commands and work through a task in steps, all from your phone.\n\nYou connect it to the AI service you already use. It's a handy way to poke at a project, fix a small bug or check on a server while you're away from your desk.",
+  "repo": "https://github.com/SimonSchubert/Kai",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ai", "agent", "coding", "terminal", "assistant"],
+  "added": "2026-08-05"
+}

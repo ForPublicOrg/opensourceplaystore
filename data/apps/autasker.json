@@ -1,0 +1,11 @@
+{
+  "id": "autasker",
+  "name": "Autasker",
+  "tagline": "A straightforward task list for every device",
+  "description": "Autasker keeps your to-dos in a simple, robust app that runs on Android, Windows and Linux from the same code.\n\nIt is free, open source and offline.",
+  "repo": "https://github.com/vadimerenkov/Autasker",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["todo", "tasks", "cross-platform", "offline", "simple"],
+  "added": "2026-08-05"
+}

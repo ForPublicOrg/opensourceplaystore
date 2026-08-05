@@ -1,0 +1,11 @@
+{
+  "id": "whisper-to-input",
+  "name": "Whisper to Input",
+  "tagline": "A keyboard that types what you say, using Whisper",
+  "description": "Whisper to Input is a small keyboard whose only job is dictation. It sends your speech to a Whisper recogniser — one you run yourself if you like — and types out the result wherever you are.\n\nAccuracy is very good in many languages, and there is no subscription attached.",
+  "repo": "https://github.com/j3soon/whisper-to-input",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["whisper", "speech", "keyboard", "dictation", "self-hosted"],
+  "added": "2026-08-05"
+}

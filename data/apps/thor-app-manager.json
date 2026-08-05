@@ -1,0 +1,11 @@
+{
+  "id": "thor-app-manager",
+  "name": "Thor",
+  "tagline": "Install and manage app files, including split APKs",
+  "description": "Thor installs app files of every shape — single APKs, split bundles, archives — and helps you manage what is already installed.\n\nIt is a clean modern replacement for the sketchy installer apps.",
+  "repo": "https://github.com/trinadhthatakula/Thor",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["installer", "apk", "apps", "manager", "shizuku"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "komi-store",
+  "name": "Komi Store",
+  "tagline": "Browse and install apps released on GitHub",
+  "description": "Komi Store turns the releases developers publish on GitHub, Codeberg and Forgejo into a browsable app store, so you can find and install open-source apps in a few taps.\n\nIt keeps track of what you installed and lets you know when there is an update.",
+  "repo": "https://github.com/kurikomi-labs/komi-store",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["appstore", "github", "updates", "installer", "open-source"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "note-calendar",
+  "name": "Note Calendar",
+  "tagline": "A calendar you can write on",
+  "description": "Note Calendar is a simple month view where each day holds a note, which suits diaries, shift patterns and habit logs better than an events app.\n\nIt is small, offline and free.",
+  "repo": "https://github.com/Sztorm/NoteCalendar",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["calendar", "notes", "diary", "offline", "simple"],
+  "added": "2026-08-05"
+}

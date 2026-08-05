@@ -1,0 +1,11 @@
+{
+  "id": "mifare-classic-tool",
+  "name": "MIFARE Classic Tool",
+  "tagline": "Read and study the NFC cards in your pocket",
+  "description": "This app reads, writes and analyses MIFARE Classic cards using your phone's NFC chip — handy for learning how travel and access cards work.\n\nIt is a long-standing tool used in workshops and security classes.",
+  "repo": "https://github.com/ikarus23/MifareClassicTool",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["nfc", "rfid", "cards", "learning", "security"],
+  "added": "2026-08-05"
+}

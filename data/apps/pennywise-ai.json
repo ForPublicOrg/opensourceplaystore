@@ -1,0 +1,11 @@
+{
+  "id": "pennywise-ai",
+  "name": "PennyWise",
+  "tagline": "Turns bank text messages into a spending report",
+  "description": "PennyWise reads the transaction texts your bank sends and builds a picture of your spending, with categories and monthly summaries, entirely on the phone.\n\nYour messages are never uploaded — the reading happens on the device.",
+  "repo": "https://github.com/sarim2000/pennywiseai-tracker",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["money", "sms", "budget", "offline", "ai"],
+  "added": "2026-08-05"
+}

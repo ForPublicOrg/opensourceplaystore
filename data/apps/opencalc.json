@@ -1,0 +1,11 @@
+{
+  "id": "opencalc",
+  "name": "OpenCalc",
+  "tagline": "A simple, beautiful calculator",
+  "description": "OpenCalc does everyday sums and a bit of scientific work in a clean interface that follows your phone's theme, with a history you can scroll back through.\n\nNo ads, no permissions, no surprises.",
+  "repo": "https://github.com/clementwzk/OpenCalc",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "simple", "material-you", "no-ads", "offline"],
+  "added": "2026-08-05"
+}

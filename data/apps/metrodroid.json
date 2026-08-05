@@ -1,0 +1,11 @@
+{
+  "id": "metrodroid",
+  "name": "Metrodroid",
+  "tagline": "Read your travel card with your phone",
+  "description": "Hold a public transport card to your phone and Metrodroid shows the balance and recent journeys, for dozens of card systems around the world.\n\nEverything is read on the device and nothing is sent anywhere.",
+  "repo": "https://github.com/metrodroid/metrodroid",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "tags": ["nfc", "transit", "cards", "travel", "offline"],
+  "added": "2026-08-05"
+}

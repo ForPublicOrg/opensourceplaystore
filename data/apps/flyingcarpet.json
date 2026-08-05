@@ -1,0 +1,11 @@
+{
+  "id": "flyingcarpet",
+  "name": "Flying Carpet",
+  "tagline": "Send a file between two devices, no internet needed",
+  "description": "Flying Carpet copies files directly between two devices over a private wireless link — phone to laptop, Android to iPhone, whatever you have.\n\nThere is no account, no cloud and no size limit, and it runs on every major system.",
+  "repo": "https://github.com/spieglt/FlyingCarpet",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["file-transfer", "wifi", "offline", "cross-platform", "airdrop"],
+  "added": "2026-08-05"
+}

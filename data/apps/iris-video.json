@@ -1,0 +1,11 @@
+{
+  "id": "iris-video",
+  "name": "Iris",
+  "tagline": "A lightweight video player for phones and TV",
+  "description": "Iris plays local videos and network shares with a simple interface that works with a remote as well as a touchscreen.\n\nIt is small, quick and free of adverts.",
+  "repo": "https://github.com/nini22P/iris",
+  "category": "media",
+  "license": "MPL-2.0",
+  "tags": ["video", "player", "lightweight", "android-tv", "network"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "foss-root-checker",
+  "name": "FOSS Root Checker",
+  "tagline": "Check whether a phone is rooted",
+  "description": "A small, honest root checker with a modern design and no ads — useful when buying a second-hand phone or debugging an app that refuses to run.\n\nIt asks for no permissions and reports what it finds plainly.",
+  "repo": "https://github.com/Chill-Astro/FOSS-Root-Checker",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["root", "check", "security", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

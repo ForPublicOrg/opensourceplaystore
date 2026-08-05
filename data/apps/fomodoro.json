@@ -1,0 +1,11 @@
+{
+  "id": "fomodoro",
+  "name": "Fomodoro",
+  "tagline": "A distraction-free work timer",
+  "description": "Fomodoro runs focus sessions and breaks with a calm interface, gentle sounds and a record of what you got through.\n\nNo account, no ads, no upsell.",
+  "repo": "https://github.com/Arijit-05/Fomodoro",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["pomodoro", "focus", "timer", "minimal", "no-ads"],
+  "added": "2026-08-05"
+}

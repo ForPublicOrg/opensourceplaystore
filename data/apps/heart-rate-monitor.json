@@ -1,0 +1,11 @@
+{
+  "id": "heart-rate-monitor",
+  "name": "Heart Rate Monitor",
+  "tagline": "Show your heart rate from a Bluetooth strap",
+  "description": "This app reads a Bluetooth heart rate strap and shows the number live, with a floating window so you can see it while doing something else.\n\nIt runs on phones and computers and stores nothing online.",
+  "repo": "https://github.com/XiaochangXu/HeartRateMonitor-composeui",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["heart-rate", "bluetooth", "fitness", "overlay", "offline"],
+  "added": "2026-08-05"
+}

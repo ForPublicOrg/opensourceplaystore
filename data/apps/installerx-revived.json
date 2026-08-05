@@ -1,0 +1,11 @@
+{
+  "id": "installerx-revived",
+  "name": "InstallerX",
+  "tagline": "A better dialog for installing app files",
+  "description": "InstallerX replaces Android's plain install screen with one that shows what you're installing, handles split bundles, and can install without asking every time.\n\nIt is quick, clear and open source.",
+  "repo": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["installer", "apk", "apps", "shizuku", "material-you"],
+  "added": "2026-08-05"
+}

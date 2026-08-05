@@ -1,0 +1,11 @@
+{
+  "id": "chakt",
+  "name": "ChaKt",
+  "tagline": "A tiny, tidy chat app for Google's Gemini models",
+  "description": "ChaKt is a small chat app built to be simple: type, send, read. It uses Google's Gemini models with your own key and runs on phones, desktops and the web from the same code.\n\nA good example of how little an AI chat app really needs to be.",
+  "repo": "https://github.com/PatilShreyas/ChaKt-KMP",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "chat", "gemini", "lightweight", "multiplatform"],
+  "added": "2026-08-05"
+}

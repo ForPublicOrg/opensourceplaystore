@@ -1,0 +1,11 @@
+{
+  "id": "httponfire",
+  "name": "HTTPOnFire",
+  "tagline": "Turn your phone into a little web server",
+  "description": "HTTPOnFire exposes your phone's features — files, sensors, camera, notifications — through a web page and an API on your own network.\n\nIt is a playground for automation and home projects.",
+  "repo": "https://github.com/zahidaz/HTTPOnFire",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["server", "api", "remote", "automation", "local"],
+  "added": "2026-08-05"
+}

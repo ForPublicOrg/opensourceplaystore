@@ -1,0 +1,11 @@
+{
+  "id": "dnstoggle",
+  "name": "DNSToggle",
+  "tagline": "Switch private DNS on and off from a tile",
+  "description": "Private DNS is buried in settings; this puts it in your quick settings so you can flip it when a network misbehaves.\n\nTiny, free and open source.",
+  "repo": "https://github.com/ELowry/DNSToggle",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["dns", "tile", "network", "privacy", "simple"],
+  "added": "2026-08-05"
+}

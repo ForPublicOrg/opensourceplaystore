@@ -1,0 +1,11 @@
+{
+  "id": "safenotes",
+  "name": "Safe Notes",
+  "tagline": "Encrypted notes with a PIN and no internet",
+  "description": "Safe Notes keeps private notes encrypted on your phone behind a PIN, and has no internet permission at all — so nothing can leave.\n\nIt is small, simple and free.",
+  "repo": "https://github.com/keshav-space/safenotes",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["notes", "encryption", "privacy", "offline", "pin"],
+  "added": "2026-08-05"
+}

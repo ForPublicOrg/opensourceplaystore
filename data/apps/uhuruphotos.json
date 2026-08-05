@@ -1,0 +1,11 @@
+{
+  "id": "uhuruphotos",
+  "name": "UhuruPhotos",
+  "tagline": "A gallery with search, memories and backup",
+  "description": "UhuruPhotos browses your photos with search by what's in them, a map view, memories from past years, and optional backup to a self-hosted server.\n\nIt is free and open source, with no cloud subscription.",
+  "repo": "https://github.com/savvasdalkitsis/uhuruphotos-android",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": ["photos", "gallery", "search", "backup", "self-hosted"],
+  "added": "2026-08-05"
+}

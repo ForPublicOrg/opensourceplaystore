@@ -1,0 +1,11 @@
+{
+  "id": "shots-studio",
+  "name": "Shots Studio",
+  "tagline": "Makes sense of your screenshot pile",
+  "description": "Shots Studio looks through the screenshots cluttering your gallery, reads what is in them and sorts them into collections you can actually search — receipts, recipes, links, whatever you save.\n\nYou can ask it to find a screenshot by describing it, add reminders, and clean out the ones you no longer need.",
+  "repo": "https://github.com/AnsahMohammad/shots-studio",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["screenshots", "gallery", "search", "ai", "organiser"],
+  "added": "2026-08-05"
+}

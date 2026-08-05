@@ -1,0 +1,11 @@
+{
+  "id": "owntracks",
+  "name": "OwnTracks",
+  "tagline": "Share your location with your own server only",
+  "description": "OwnTracks records where you are and sends it to a server you control, so family sharing or a personal travel log doesn't mean handing your movements to a company.\n\nIt is efficient with battery and works with Home Assistant.",
+  "repo": "https://github.com/owntracks/android",
+  "category": "maps",
+  "license": "EPL-1.0",
+  "tags": ["location", "self-hosted", "mqtt", "privacy", "tracking"],
+  "added": "2026-08-05"
+}

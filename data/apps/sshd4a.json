@@ -1,0 +1,11 @@
+{
+  "id": "sshd4a",
+  "name": "SSHD for Android",
+  "tagline": "Log into your phone from your computer",
+  "description": "This runs an SSH server on the phone itself, so you can get a shell, copy files with scp or sync a folder with rsync from your desktop.\n\nUseful for backups, scripting and moving files without a cable.",
+  "repo": "https://github.com/tfonteyn/Sshd4a",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ssh", "server", "rsync", "files", "developer"],
+  "added": "2026-08-05"
+}

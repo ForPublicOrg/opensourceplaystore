@@ -1,0 +1,11 @@
+{
+  "id": "essentials-nerds",
+  "name": "Essentials",
+  "tagline": "A box of small tools for Android tinkerers",
+  "description": "Essentials gathers a set of handy utilities and tweaks for people who like to poke at their phone, in one clean app.\n\nIt is free and open source, and the maker adds tools regularly.",
+  "repo": "https://github.com/sameerasw/essentials",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["tools", "utilities", "tweaks", "material-you", "power-user"],
+  "added": "2026-08-05"
+}

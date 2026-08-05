@@ -1,0 +1,11 @@
+{
+  "id": "focus-launcher",
+  "name": "Focus Launcher",
+  "tagline": "A quiet home screen for fewer distractions",
+  "description": "Focus Launcher keeps your home screen to a handful of chosen apps in plain text, with everything else a search away.\n\nIt is small, modern and free, and it makes a busy phone feel calmer.",
+  "repo": "https://github.com/mslalith/focus_launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "focus", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

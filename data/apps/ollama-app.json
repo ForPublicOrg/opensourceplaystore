@@ -1,0 +1,11 @@
+{
+  "id": "ollama-app",
+  "name": "Ollama App",
+  "tagline": "A friendly phone remote for your Ollama server",
+  "description": "Ollama App connects to an Ollama server — usually one running on your own computer at home — and gives you a clean chat screen for it on your phone.\n\nYou pick which model to talk to, send pictures along with your questions, and keep the whole conversation history on the device. Nothing goes through anyone else's service.",
+  "repo": "https://github.com/JHubi1/ollama-app",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["ollama", "ai", "llm", "chat", "self-hosted"],
+  "added": "2026-08-05"
+}

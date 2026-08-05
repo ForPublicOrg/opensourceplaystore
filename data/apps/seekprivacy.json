@@ -1,0 +1,11 @@
+{
+  "id": "seekprivacy",
+  "name": "SeekPrivacy",
+  "tagline": "Layers of protection for people at risk",
+  "description": "SeekPrivacy isolates sensitive apps and data behind extra defences, aimed at activists and anyone with a genuine reason to worry about their phone.\n\nIt is open source so its claims can be checked.",
+  "repo": "https://github.com/duckniii/SeekPrivacy",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["privacy", "security", "isolation", "activists", "offline"],
+  "added": "2026-08-05"
+}

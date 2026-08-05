@@ -1,0 +1,11 @@
+{
+  "id": "protonvpn",
+  "name": "Proton VPN",
+  "tagline": "A VPN from a company that publishes its code",
+  "description": "Proton VPN hides your browsing from your network and your internet provider, with a free tier that has no ads and no data cap.\n\nThe app is the official one and its code is open for anyone to inspect.",
+  "repo": "https://github.com/ProtonVPN/android-app",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["vpn", "privacy", "proton", "encryption", "free"],
+  "added": "2026-08-05"
+}

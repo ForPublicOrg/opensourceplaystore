@@ -1,0 +1,11 @@
+{
+  "id": "auxio",
+  "name": "Auxio",
+  "tagline": "A fast, no-nonsense player for your own music",
+  "description": "Auxio does one thing very well: play the music files on your device, quickly and reliably, with none of the streaming clutter other players pile on.\n\nIt reads your folders and tags properly, remembers where you were, and stays out of the way.",
+  "repo": "https://github.com/OxygenCobalt/Auxio",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "player", "offline", "local", "simple"],
+  "added": "2026-08-05"
+}

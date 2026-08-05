@@ -1,0 +1,11 @@
+{
+  "id": "loop-habit-tracker",
+  "name": "Loop Habit Tracker",
+  "tagline": "Build habits and see your streaks grow",
+  "description": "Loop helps you keep up daily habits by tracking each one and showing clear graphs of how you're doing over weeks and months.\n\nIt is completely offline, has no ads, and works on phones and watches.",
+  "repo": "https://github.com/iSoron/uhabits",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["habits", "streaks", "tracker", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

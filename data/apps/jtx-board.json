@@ -1,0 +1,11 @@
+{
+  "id": "jtx-board",
+  "name": "jtx Board",
+  "tagline": "Journals, notes and tasks that sync properly",
+  "description": "jtx Board keeps meeting notes, journals and to-dos in one place and syncs them using the open calendar standards, so they land in your own calendar server.\n\nIt handles attachments, subtasks, categories and reminders.",
+  "repo": "https://github.com/TechbeeAT/jtxBoard",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "tasks", "journal", "caldav", "sync"],
+  "added": "2026-08-05"
+}

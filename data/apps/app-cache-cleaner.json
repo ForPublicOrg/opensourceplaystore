@@ -1,0 +1,11 @@
+{
+  "id": "app-cache-cleaner",
+  "name": "Cache Cleaner",
+  "tagline": "Clear app caches without a shady cleaner app",
+  "description": "This app clears the cached files apps leave behind, using Android's own accessibility tools instead of the invasive permissions the ad-filled cleaners demand.\n\nIt is open source, tiny, and shows exactly what it did.",
+  "repo": "https://github.com/bmx666/android-appcachecleaner",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["cleaner", "cache", "storage", "no-ads", "privacy"],
+  "added": "2026-08-05"
+}

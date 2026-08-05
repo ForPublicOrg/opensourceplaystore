@@ -1,0 +1,11 @@
+{
+  "id": "metrolist",
+  "name": "Metrolist",
+  "tagline": "A music app for YouTube Music, without the ads",
+  "description": "Metrolist plays everything on YouTube Music with a clean, modern look, background play, and no adverts interrupting an album.\n\nYou can cache songs for offline listening, sync your library if you sign in, and it follows your phone's colours.",
+  "repo": "https://github.com/MetrolistGroup/Metrolist",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "youtube-music", "streaming", "no-ads", "offline"],
+  "added": "2026-08-05"
+}

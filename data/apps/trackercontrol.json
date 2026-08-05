@@ -1,0 +1,11 @@
+{
+  "id": "trackercontrol",
+  "name": "TrackerControl",
+  "tagline": "See who your apps are talking to, and stop them",
+  "description": "TrackerControl shows, app by app, which tracking companies your phone is contacting — and lets you block them.\n\nIt is built on research into how mobile tracking works, and everything happens on the device.",
+  "repo": "https://github.com/TrackerControl/tracker-control-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["privacy", "trackers", "adblock", "firewall", "no-root"],
+  "added": "2026-08-05"
+}

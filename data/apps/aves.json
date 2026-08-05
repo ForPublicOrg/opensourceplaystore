@@ -1,0 +1,11 @@
+{
+  "id": "aves",
+  "name": "Aves",
+  "tagline": "A gallery that understands your files deeply",
+  "description": "Aves shows your photos and videos with maps, tags, ratings and a remarkable amount of detail about each file, including formats other galleries refuse to open.\n\nIt works offline and has no adverts.",
+  "repo": "https://github.com/deckerst/aves",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "tags": ["gallery", "photos", "metadata", "map", "offline"],
+  "added": "2026-08-05"
+}

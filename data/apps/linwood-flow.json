@@ -1,0 +1,11 @@
+{
+  "id": "linwood-flow",
+  "name": "Flow",
+  "tagline": "Events, groups and time in one planner",
+  "description": "Flow manages events, notes and groups with a flexible structure that suits both personal planning and small teams.\n\nIt runs on phones and computers and can sync with your own server.",
+  "repo": "https://github.com/LinwoodDev/Flow",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["calendar", "events", "planner", "sync", "cross-platform"],
+  "added": "2026-08-05"
+}

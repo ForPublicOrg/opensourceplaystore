@@ -1,0 +1,11 @@
+{
+  "id": "bubble-notice",
+  "name": "Bubble Notice",
+  "tagline": "A floating bubble for things you must not forget",
+  "description": "Bubble Notice keeps a small draggable note on top of everything else, so a phone number, a code or a task stays visible while you use other apps.\n\nIt needs no root or special access.",
+  "repo": "https://github.com/GraceThings/bubble-notice-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["notes", "overlay", "reminders", "no-root", "simple"],
+  "added": "2026-08-05"
+}

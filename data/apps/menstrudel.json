@@ -1,0 +1,11 @@
+{
+  "id": "menstrudel",
+  "name": "Menstrudel",
+  "tagline": "Period tracking that stays on your phone",
+  "description": "Menstrudel tracks cycles and predicts the next one, with no account, no ads and no data ever leaving the device.\n\nGiven how sensitive this information is, that matters more than any feature list.",
+  "repo": "https://github.com/J-shw/Menstrudel",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["health", "period", "privacy", "offline", "tracker"],
+  "added": "2026-08-05"
+}

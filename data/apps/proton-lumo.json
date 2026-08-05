@@ -1,0 +1,11 @@
+{
+  "id": "proton-lumo",
+  "name": "Proton Lumo",
+  "tagline": "A private AI assistant from the makers of Proton Mail",
+  "description": "Lumo is Proton's AI assistant, built around the idea that your chats are yours: conversations are encrypted, not used to train models, and not logged for advertising.\n\nThe Android app gives you the assistant on your phone with the same account you use for Proton's other services.",
+  "repo": "https://github.com/ProtonLumo/android-lumo",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "assistant", "privacy", "proton", "chat"],
+  "added": "2026-08-05"
+}

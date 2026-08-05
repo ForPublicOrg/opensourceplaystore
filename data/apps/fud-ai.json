@@ -1,0 +1,11 @@
+{
+  "id": "fud-ai",
+  "name": "Fud AI",
+  "tagline": "Snap your meal and it counts the calories",
+  "description": "Fud AI keeps a food diary the lazy way: take a picture of your plate and it works out roughly what you ate and what that means for your day's calories and protein.\n\nIt is free, has no ads, and keeps your food log on your phone rather than in a subscription service.",
+  "repo": "https://github.com/apoorvdarshan/fud-ai",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["food", "calories", "health", "tracker", "ai"],
+  "added": "2026-08-05"
+}

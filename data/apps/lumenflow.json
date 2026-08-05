@@ -1,0 +1,11 @@
+{
+  "id": "lumenflow",
+  "name": "LumenFlow",
+  "tagline": "Chat with ten AI services from one app",
+  "description": "LumenFlow gathers many AI providers behind a single chat screen and saves your conversations in a local database you own.\n\nIt runs on phones and desktops, and you decide which services it may talk to.",
+  "repo": "https://github.com/HuanMeng-official/LumenFlow",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "chat", "llm", "cross-platform", "byok"],
+  "added": "2026-08-05"
+}

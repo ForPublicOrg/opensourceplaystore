@@ -1,0 +1,11 @@
+{
+  "id": "proton-photos",
+  "name": "Proton Photos",
+  "tagline": "Encrypted photo backup, unofficially on Android",
+  "description": "An open client for Proton Drive's photo backup, so your pictures go to encrypted storage where the provider cannot look at them.\n\nIt is community-made and free; you use your own Proton account.",
+  "repo": "https://github.com/gitakoos/proton-photos",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["photos", "backup", "encryption", "proton", "privacy"],
+  "added": "2026-08-05"
+}

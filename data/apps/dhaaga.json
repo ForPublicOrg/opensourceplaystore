@@ -1,0 +1,11 @@
+{
+  "id": "dhaaga",
+  "name": "Dhaaga",
+  "tagline": "One app for all the open social networks",
+  "description": "Dhaaga connects to Mastodon, Lemmy, Misskey and their relatives at once, so you can follow everything from a single, well-designed timeline.\n\nIt is open source and does not profile you.",
+  "repo": "https://github.com/suvam0451/dhaaga",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": ["fediverse", "mastodon", "lemmy", "misskey", "social"],
+  "added": "2026-08-05"
+}

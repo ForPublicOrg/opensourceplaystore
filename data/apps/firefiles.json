@@ -1,0 +1,11 @@
+{
+  "id": "firefiles",
+  "name": "FireFiles",
+  "tagline": "A file manager for phones, TVs and boxes",
+  "description": "FireFiles browses storage on anything running Android, including televisions and set-top boxes where most file managers are unusable.\n\nIt handles archives, network shares and app files.",
+  "repo": "https://github.com/gigabytedevelopers/FireFiles",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["files", "manager", "android-tv", "network", "storage"],
+  "added": "2026-08-05"
+}

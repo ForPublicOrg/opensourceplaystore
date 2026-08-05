@@ -1,0 +1,11 @@
+{
+  "id": "feeder",
+  "name": "Feeder",
+  "tagline": "Read news feeds without an account",
+  "description": "Feeder collects articles from the sites you follow using RSS, keeps them for offline reading, and never asks you to sign in.\n\nIt is light, works well on old phones, and syncs nothing anywhere unless you ask it to.",
+  "repo": "https://github.com/spacecowboy/Feeder",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "news", "reader", "offline", "no-account"],
+  "added": "2026-08-05"
+}

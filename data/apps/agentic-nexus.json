@@ -1,0 +1,11 @@
+{
+  "id": "agentic-nexus",
+  "name": "Agentic Nexus",
+  "tagline": "An AI helper that works your phone for you",
+  "description": "Agentic Nexus can control apps on your phone through accessibility services, run shell commands and connect to remote machines, all driven by a plain-language request.\n\nIt is aimed at tinkerers who want to automate the boring parts of their day.",
+  "repo": "https://github.com/niki914/agentic-nexus",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ai", "agent", "automation", "shell", "accessibility"],
+  "added": "2026-08-05"
+}

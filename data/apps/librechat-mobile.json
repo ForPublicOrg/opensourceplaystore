@@ -1,0 +1,11 @@
+{
+  "id": "librechat-mobile",
+  "name": "LibreChat Mobile",
+  "tagline": "A proper phone app for your LibreChat server",
+  "description": "If you run LibreChat — the self-hosted chat front end for AI models — this app gives you a native mobile client instead of a browser tab.\n\nIt handles conversations, model switching and attachments, and talks only to the server you point it at.",
+  "repo": "https://github.com/garfiec/Librechat-Mobile",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["librechat", "ai", "chat", "self-hosted", "llm"],
+  "added": "2026-08-05"
+}

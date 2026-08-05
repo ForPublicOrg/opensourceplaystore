@@ -1,0 +1,11 @@
+{
+  "id": "streak-habits",
+  "name": "Streak",
+  "tagline": "A private habit tracker with no accounts",
+  "description": "Streak tracks daily habits and shows how long you've kept each one going, in a small ad-free app that stores everything on your phone.\n\nIt is deliberately minimal — mark it done and move on.",
+  "repo": "https://github.com/InlitX/streak",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["habits", "streaks", "minimal", "privacy", "offline"],
+  "added": "2026-08-05"
+}

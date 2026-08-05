@@ -1,0 +1,11 @@
+{
+  "id": "j2me-loader",
+  "name": "J2ME Loader",
+  "tagline": "Play the mobile games from before smartphones",
+  "description": "J2ME Loader runs the little Java games that came on phones in the 2000s, with proper controls, screen scaling and save support.\n\nIt is a lovely bit of preservation, and the games are tiny.",
+  "repo": "https://github.com/nikita36078/J2ME-Loader",
+  "category": "games",
+  "license": "Apache-2.0",
+  "tags": ["emulator", "retro", "java", "classic", "offline"],
+  "added": "2026-08-05"
+}

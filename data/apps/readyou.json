@@ -1,0 +1,11 @@
+{
+  "id": "readyou",
+  "name": "ReadYou",
+  "tagline": "A lovely Material You reader for news feeds",
+  "description": "ReadYou brings your RSS subscriptions into a calm, colourful interface that borrows the best ideas from the readers people miss.\n\nIt can sync with popular feed services or work entirely on its own.",
+  "repo": "https://github.com/ReadYouApp/ReadYou",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "news", "reader", "material-you", "sync"],
+  "added": "2026-08-05"
+}

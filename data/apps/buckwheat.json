@@ -1,0 +1,11 @@
+{
+  "id": "buckwheat",
+  "name": "Buckwheat",
+  "tagline": "Tells you how much you can spend today",
+  "description": "Buckwheat takes a budget and a number of days and works out what you can spend each day, then keeps score as you go.\n\nIt is a refreshingly simple idea, wrapped in a bright Material You design.",
+  "repo": "https://github.com/danilkinkin/buckwheat",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["budget", "money", "spending", "material-you", "offline"],
+  "added": "2026-08-05"
+}

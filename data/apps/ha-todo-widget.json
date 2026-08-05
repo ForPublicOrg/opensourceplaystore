@@ -1,0 +1,11 @@
+{
+  "id": "ha-todo-widget",
+  "name": "Hado",
+  "tagline": "Your Home Assistant to-do list on the home screen",
+  "description": "Hado shows and ticks off Home Assistant to-do lists from a widget, without opening the full app.\n\nIt talks straight to your own server and keeps nothing elsewhere.",
+  "repo": "https://github.com/IT-BAER/hado",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["home-assistant", "widget", "todo", "self-hosted", "privacy"],
+  "added": "2026-08-05"
+}

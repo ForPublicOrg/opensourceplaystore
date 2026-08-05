@@ -1,0 +1,11 @@
+{
+  "id": "rays-sticker-manager",
+  "name": "Rays",
+  "tagline": "Keep your memes and stickers findable",
+  "description": "Rays stores the stickers and reaction pictures you collect with tags and search, so the right one is a second away instead of a scroll away.\n\nEverything is kept on your phone.",
+  "repo": "https://github.com/SkyD666/Rays-Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["stickers", "memes", "search", "tags", "offline"],
+  "added": "2026-08-05"
+}

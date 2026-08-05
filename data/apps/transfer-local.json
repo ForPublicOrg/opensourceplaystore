@@ -1,0 +1,11 @@
+{
+  "id": "transfer-local",
+  "name": "Transfer",
+  "tagline": "Share files over Wi-Fi through a web page",
+  "description": "Transfer runs a tiny web server on your phone so any device on the same Wi-Fi can upload or download files from a browser — no app needed on the other end.\n\nNothing goes over the internet.",
+  "repo": "https://github.com/matan-h/Transfer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["file-transfer", "wifi", "web-server", "local", "simple"],
+  "added": "2026-08-05"
+}

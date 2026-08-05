@@ -1,0 +1,11 @@
+{
+  "id": "monogram",
+  "name": "Monogram",
+  "tagline": "A native Telegram client for Android",
+  "description": "Monogram is a from-scratch Telegram app built on Telegram's own library, aiming for a fast, clean experience without the extra features you never use.\n\nYour chats are the same ones you already have — this is just a different way to read them.",
+  "repo": "https://github.com/monogram-android/monogram",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["telegram", "chat", "messaging", "native", "lightweight"],
+  "added": "2026-08-05"
+}

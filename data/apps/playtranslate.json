@@ -1,0 +1,11 @@
+{
+  "id": "playtranslate",
+  "name": "PlayTranslate",
+  "tagline": "Translate whatever is on your screen, as it changes",
+  "description": "PlayTranslate reads the text on your screen and shows a translation on top of it, updating as things move. It was built for games and for people learning a language, where waiting to copy and paste ruins the moment.\n\nIt works over any app, you choose the languages, and the overlay can be nudged out of the way when you need to see what's underneath.",
+  "repo": "https://github.com/dominostars/playtranslate",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["translation", "screen", "overlay", "games", "language"],
+  "added": "2026-08-05"
+}

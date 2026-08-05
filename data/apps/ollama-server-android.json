@@ -1,0 +1,11 @@
+{
+  "id": "ollama-server-android",
+  "name": "OllamaServer",
+  "tagline": "Run an Ollama AI server on your phone in one tap",
+  "description": "OllamaServer starts a full Ollama service on your Android phone without any of the usual terminal setup. Download a model, hit start, and other apps or your computer can talk to it.\n\nIt turns a spare phone into a small, private AI server that costs nothing to run.",
+  "repo": "https://github.com/sunshine0523/OllamaServer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ollama", "server", "ai", "llm", "self-hosted"],
+  "added": "2026-08-05"
+}

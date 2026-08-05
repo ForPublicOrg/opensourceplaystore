@@ -1,0 +1,11 @@
+{
+  "id": "marktext-android",
+  "name": "MarkText",
+  "tagline": "A quiet place to write markdown",
+  "description": "MarkText is a focused markdown editor for phones with a clean writing view and files kept on your own device.\n\nNo account, no ads, no syncing you didn't ask for.",
+  "repo": "https://github.com/Renakoni/marktext-android",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["markdown", "editor", "writing", "offline", "minimal"],
+  "added": "2026-08-05"
+}

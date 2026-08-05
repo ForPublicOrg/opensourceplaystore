@@ -1,0 +1,11 @@
+{
+  "id": "operit",
+  "name": "Operit AI",
+  "tagline": "An AI helper that can actually use your phone",
+  "description": "Operit AI is a chat assistant that can also do things for you on your phone — open apps, tap around, run little scripts and work through a task step by step instead of only answering questions.\n\nYou plug in your own AI service key, and everything else lives on your device. It comes with a toolbox of built-in skills and lets you add more.",
+  "repo": "https://github.com/AAswordman/Operit",
+  "category": "tools",
+  "license": "LGPL-3.0",
+  "tags": ["ai", "agent", "assistant", "automation", "llm"],
+  "added": "2026-08-05"
+}

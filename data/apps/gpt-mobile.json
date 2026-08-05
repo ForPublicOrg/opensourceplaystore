@@ -1,0 +1,11 @@
+{
+  "id": "gpt-mobile",
+  "name": "GPT Mobile",
+  "tagline": "Ask several AI models the same question at once",
+  "description": "GPT Mobile sends your question to more than one AI at the same time and shows the answers side by side, so you can see which one you like best.\n\nYou use your own keys, chats are stored only on your phone, and the app follows your system colours. There is no account and no subscription.",
+  "repo": "https://github.com/Taewan-P/gpt_mobile",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "chat", "llm", "byok", "material-you"],
+  "added": "2026-08-05"
+}

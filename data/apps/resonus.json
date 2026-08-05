@@ -1,0 +1,11 @@
+{
+  "id": "resonus",
+  "name": "Resonus",
+  "tagline": "Plays your self-hosted music and local files",
+  "description": "Resonus is a clean music player that handles both the songs on your phone and a music server you run at home.\n\nNo adverts, no account, no streaming company.",
+  "repo": "https://github.com/juananzzz/resonus",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["music", "self-hosted", "offline", "player", "subsonic"],
+  "added": "2026-08-05"
+}

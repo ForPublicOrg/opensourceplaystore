@@ -1,0 +1,11 @@
+{
+  "id": "open-android-backup",
+  "name": "Open Android Backup",
+  "tagline": "Back up your phone to your own computer",
+  "description": "This tool copies your apps and data to a computer over a cable, encrypted, with no root and no vendor software involved.\n\nIt is the sensible way to move to a new phone without trusting a cloud.",
+  "repo": "https://github.com/mrrfv/open-android-backup",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["backup", "restore", "encryption", "no-root", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "btcmap",
+  "name": "BTC Map",
+  "tagline": "Find shops that accept bitcoin near you",
+  "description": "BTC Map shows places that take bitcoin on an open map, built from community contributions to OpenStreetMap.\n\nIt works without an account and you can add missing places yourself.",
+  "repo": "https://github.com/teambtcmap/btcmap-android",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "tags": ["map", "bitcoin", "openstreetmap", "community", "offline"],
+  "added": "2026-08-05"
+}

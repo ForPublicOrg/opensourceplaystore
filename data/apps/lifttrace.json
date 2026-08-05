@@ -1,0 +1,11 @@
+{
+  "id": "lifttrace",
+  "name": "LiftTrace",
+  "tagline": "A weightlifting log you host yourself",
+  "description": "LiftTrace records your lifts and syncs them to a small server you run, so your training history is never locked in someone's app.\n\nThere is no telemetry and no account with anyone else.",
+  "repo": "https://github.com/TraceApps/lifttrace",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["gym", "weightlifting", "self-hosted", "tracker", "privacy"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "one-second-diary",
+  "name": "One Second Diary",
+  "tagline": "One second of video a day, stitched into a film",
+  "description": "Record a second of your day, every day, and this puts them together into a movie of your year.\n\nEverything stays on the phone, there is no account, and it is free.",
+  "repo": "https://github.com/KyleKun/one_second_diary",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["video", "diary", "memories", "offline", "minimal"],
+  "added": "2026-08-05"
+}

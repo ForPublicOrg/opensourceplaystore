@@ -1,0 +1,11 @@
+{
+  "id": "visual-code-space",
+  "name": "Visual Code Space",
+  "tagline": "A real code editor that fits in your pocket",
+  "description": "Visual Code Space is a modern code editor for Android with syntax colouring for many languages, a file browser, git support and a built-in terminal.\n\nIt is fast enough for quick fixes on the bus and complete enough to keep a small project moving when you're away from a computer.",
+  "repo": "https://github.com/Visual-Code-Space/Visual-Code-Space",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["code", "editor", "developer", "terminal", "git"],
+  "added": "2026-08-05"
+}

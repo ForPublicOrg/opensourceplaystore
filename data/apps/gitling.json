@@ -1,0 +1,11 @@
+{
+  "id": "gitling",
+  "name": "Gitling",
+  "tagline": "A git client that fits on a phone screen",
+  "description": "Gitling clones repositories, shows diffs and commits changes from your phone, in a modern Material design.\n\nIt is handy for small fixes and for reading code away from a computer.",
+  "repo": "https://github.com/maneeshacooray/Gitling",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["git", "developer", "code", "material-you", "offline"],
+  "added": "2026-08-05"
+}

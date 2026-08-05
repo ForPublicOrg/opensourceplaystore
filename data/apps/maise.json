@@ -1,0 +1,11 @@
+{
+  "id": "maise",
+  "name": "Maise",
+  "tagline": "An open speech engine for your phone",
+  "description": "Maise provides speech services to other apps on the device — turning speech into text and text into speech — using open models rather than a cloud account.\n\nIt is built by the makers of Maid and slots into Android's standard voice settings.",
+  "repo": "https://github.com/Mobile-Artificial-Intelligence/maise",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["speech", "tts", "offline", "voice", "engine"],
+  "added": "2026-08-05"
+}

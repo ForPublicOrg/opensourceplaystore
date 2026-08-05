@@ -1,0 +1,11 @@
+{
+  "id": "ultra-launcher",
+  "name": "Ultra",
+  "tagline": "A launcher that is smaller than a photo",
+  "description": "Ultra is an extremely minimal home screen — about 22 kilobytes — with just your chosen apps and nothing else at all.\n\nIf you want a phone that stops suggesting things, this is the shortest route.",
+  "repo": "https://github.com/tanujnotes/Ultra",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "minimal", "tiny", "focus", "no-ads"],
+  "added": "2026-08-05"
+}

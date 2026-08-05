@@ -1,0 +1,11 @@
+{
+  "id": "youamp",
+  "name": "Youamp",
+  "tagline": "A Material You player for Subsonic servers",
+  "description": "Youamp streams from Subsonic-compatible music servers — Navidrome, Airsonic and friends — with a clean modern design and offline caching.\n\nIt connects only to the server you name.",
+  "repo": "https://github.com/siper/Youamp",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["subsonic", "navidrome", "music", "self-hosted", "material-you"],
+  "added": "2026-08-05"
+}

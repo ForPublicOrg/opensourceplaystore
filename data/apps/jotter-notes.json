@@ -1,0 +1,11 @@
+{
+  "id": "jotter-notes",
+  "name": "Jotter",
+  "tagline": "A notes app that stays out of your way",
+  "description": "Jotter keeps notes and lists in a simple, modern interface with folders, search and a widget, and no account to create.\n\nEverything stays on your phone unless you export it.",
+  "repo": "https://github.com/OpenAppsLabs/Jotter",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "offline", "material-you", "simple", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "oss-weather",
+  "name": "OSS Weather",
+  "tagline": "A clean forecast app for phones and watches",
+  "description": "OSS Weather shows current conditions and forecasts from several open data sources, with widgets and a companion watch face.\n\nIt is free, open source and does not track your location.",
+  "repo": "https://github.com/ossappscollective/oss-weather",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["weather", "forecast", "widgets", "privacy", "wear-os"],
+  "added": "2026-08-05"
+}

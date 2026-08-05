@@ -1,0 +1,11 @@
+{
+  "id": "rain-weather",
+  "name": "Rain",
+  "tagline": "A pretty weather app with widgets",
+  "description": "Rain shows the weather where you are and anywhere you save, with a clean design, home screen widgets and notifications for changes.\n\nIt is free, open source, and available in many languages.",
+  "repo": "https://github.com/darkmoonight/Rain",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["weather", "forecast", "widgets", "material-you", "free"],
+  "added": "2026-08-05"
+}

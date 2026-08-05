@@ -1,0 +1,11 @@
+{
+  "id": "motionscroll",
+  "name": "MotionScroll",
+  "tagline": "Scroll a page without touching the screen",
+  "description": "MotionScroll uses the front camera to watch small head or hand movements and scrolls for you — handy when you're cooking, eating, or cannot easily use your hands.\n\nEverything is processed on the phone and the camera feed is never saved or sent anywhere.",
+  "repo": "https://github.com/ayxse/MotionScroll",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["accessibility", "hands-free", "camera", "scroll", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pianoli",
+  "name": "PianOli",
+  "tagline": "A piano for babies that can't dial anyone",
+  "description": "PianOli turns the screen into colourful piano keys a toddler can bash safely — it blocks the buttons that would escape the app.\n\nNo ads, no internet, no in-app anything.",
+  "repo": "https://github.com/nicolasbrailo/PianOli",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["kids", "piano", "toddler", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

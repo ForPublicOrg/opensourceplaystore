@@ -1,0 +1,11 @@
+{
+  "id": "linecodepro",
+  "name": "LineCodePro",
+  "tagline": "A pocket workbench for writing code with AI help",
+  "description": "LineCodePro puts an editor, a terminal and an AI helper in one app, so you can make a real change to a project from your phone.\n\nIt supports many languages, keeps projects on the device, and connects to whichever AI service you already use.",
+  "repo": "https://github.com/LangLang03/LineCodePro",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["code", "editor", "ai", "developer", "terminal"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "hearopilot",
+  "name": "HearoPilot",
+  "tagline": "Takes notes in your meetings, all on the phone",
+  "description": "HearoPilot listens to a meeting, writes down what was said and pulls out the decisions and to-dos afterwards — with the whole process running on your device.\n\nBecause nothing is uploaded, you can use it for conversations that would never be allowed near a cloud service.",
+  "repo": "https://github.com/Helldez/HearoPilot-App",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["meetings", "transcription", "notes", "offline", "ai"],
+  "added": "2026-08-05"
+}

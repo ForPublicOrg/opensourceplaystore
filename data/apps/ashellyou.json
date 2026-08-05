@@ -1,0 +1,11 @@
+{
+  "id": "ashellyou",
+  "name": "aShell You",
+  "tagline": "Run ADB commands on the phone itself",
+  "description": "aShell You gives you a shell for ADB commands directly on your device, with saved command bookmarks and a friendly Material You design.\n\nIt is a neat way to tweak settings that have no menu.",
+  "repo": "https://github.com/DP-Hridayan/aShellYou",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["adb", "shell", "developer", "shizuku", "material-you"],
+  "added": "2026-08-05"
+}

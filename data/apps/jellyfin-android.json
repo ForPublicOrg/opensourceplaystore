@@ -1,0 +1,11 @@
+{
+  "id": "jellyfin-android",
+  "name": "Jellyfin",
+  "tagline": "The official app for your own media server",
+  "description": "Jellyfin is a free media server for your films, shows and music, and this is its official Android app.\n\nEverything is yours: no subscription, no accounts with a streaming company, no content disappearing overnight.",
+  "repo": "https://github.com/jellyfin/jellyfin-android",
+  "category": "media",
+  "license": "GPL-2.0",
+  "tags": ["jellyfin", "media", "self-hosted", "video", "music"],
+  "added": "2026-08-05"
+}

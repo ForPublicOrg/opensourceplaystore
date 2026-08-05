@@ -1,0 +1,11 @@
+{
+  "id": "omniprompt",
+  "name": "OmniPrompt",
+  "tagline": "One box that launches, searches and does",
+  "description": "OmniPrompt is a command palette for your phone: start typing and it finds apps, contacts, settings and quick actions in one list.\n\nIt is fast, free and keeps everything on the device.",
+  "repo": "https://github.com/mrndstvndv/OmniPrompt",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["launcher", "search", "shortcuts", "productivity", "fast"],
+  "added": "2026-08-05"
+}

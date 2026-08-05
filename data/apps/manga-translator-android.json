@@ -1,0 +1,11 @@
+{
+  "id": "manga-translator-android",
+  "name": "Manga Translator",
+  "tagline": "Translate manga pages the moment you open them",
+  "description": "This app spots the speech bubbles on a manga page, reads the text and puts a translation back in its place, so you can read series that were never translated.\n\nIt uses an AI model of your choosing for the translation and can work on your own image files or on what's on screen.",
+  "repo": "https://github.com/jedzqer/manga-translator-android",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["manga", "translation", "ocr", "ai", "reader"],
+  "added": "2026-08-05"
+}

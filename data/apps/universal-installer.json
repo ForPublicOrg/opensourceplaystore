@@ -1,0 +1,11 @@
+{
+  "id": "universal-installer",
+  "name": "Universal Installer",
+  "tagline": "Installs any kind of app package",
+  "description": "Universal Installer handles plain APKs, split bundles and archive formats, and can install silently once you allow it.\n\nIt shows what an app wants before you commit, which the system dialog does not.",
+  "repo": "https://github.com/pass-with-high-score/universal-installer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["installer", "apk", "split-apk", "apps", "shizuku"],
+  "added": "2026-08-05"
+}

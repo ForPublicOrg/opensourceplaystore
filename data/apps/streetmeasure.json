@@ -1,0 +1,11 @@
+{
+  "id": "streetmeasure",
+  "name": "StreetMeasure",
+  "tagline": "Measure distances with your camera",
+  "description": "StreetMeasure uses augmented reality to measure the width of a path or the length of anything you can point at, for mapping or everyday use.\n\nIt is a companion to StreetComplete and just as free.",
+  "repo": "https://github.com/streetcomplete/StreetMeasure",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "tags": ["measure", "ar", "camera", "mapping", "tools"],
+  "added": "2026-08-05"
+}

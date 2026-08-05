@@ -1,0 +1,11 @@
+{
+  "id": "mini-games-kmp",
+  "name": "Mini Games",
+  "tagline": "A handful of small games in one app",
+  "description": "Mini Games collects simple games — memory, sliding puzzles, solitaire and more — into a single app that runs on phones and desktops.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/avan1235/mini-games",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["games", "puzzle", "offline", "collection", "no-ads"],
+  "added": "2026-08-05"
+}

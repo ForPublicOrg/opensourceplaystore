@@ -1,0 +1,11 @@
+{
+  "id": "tomato-timer",
+  "name": "Tomato",
+  "tagline": "A minimal pomodoro timer with real statistics",
+  "description": "Tomato runs the classic work-then-break timer and keeps a record of your sessions so you can see how much focused time you actually managed.\n\nIt is built with Material 3, works on phones and desktops, and has no ads.",
+  "repo": "https://github.com/nsh07/Tomato",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["pomodoro", "focus", "timer", "statistics", "material-you"],
+  "added": "2026-08-05"
+}

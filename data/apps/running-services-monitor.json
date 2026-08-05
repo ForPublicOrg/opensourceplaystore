@@ -1,0 +1,11 @@
+{
+  "id": "running-services-monitor",
+  "name": "Running Services Monitor",
+  "tagline": "See what is quietly running on your phone",
+  "description": "This app lists the background services running right now and which app each belongs to, in a clean readable interface.\n\nA good way to work out what is eating your battery.",
+  "repo": "https://github.com/biplobsd/running_services_monitor",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["system", "battery", "services", "monitor", "privacy"],
+  "added": "2026-08-05"
+}

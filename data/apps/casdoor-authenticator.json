@@ -1,0 +1,11 @@
+{
+  "id": "casdoor-authenticator",
+  "name": "Casdoor Authenticator",
+  "tagline": "Two-factor codes, open source and cross-platform",
+  "description": "This authenticator generates the six-digit login codes for your accounts, with sync options and versions for every major system.\n\nIt is free, open source and works offline.",
+  "repo": "https://github.com/casdoor/casdoor-authenticator",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["2fa", "totp", "authenticator", "sync", "offline"],
+  "added": "2026-08-05"
+}

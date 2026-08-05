@@ -1,0 +1,11 @@
+{
+  "id": "blood-pressure-monitor",
+  "name": "Blood Pressure Monitor",
+  "tagline": "A simple diary for blood pressure readings",
+  "description": "Record your readings, see the trend over weeks, and export a file your doctor can actually read.\n\nIt works offline, has no ads, and can take readings from some Bluetooth monitors.",
+  "repo": "https://github.com/derdilla/blood-pressure-monitor-fl",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["health", "blood-pressure", "diary", "export", "offline"],
+  "added": "2026-08-05"
+}

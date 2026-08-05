@@ -1,0 +1,11 @@
+{
+  "id": "invizible-pro",
+  "name": "InviZible Pro",
+  "tagline": "Tor, DNSCrypt and I2P in a single app",
+  "description": "InviZible Pro bundles three well-known privacy tools so you can hide your browsing, encrypt your DNS lookups and reach hidden services without setting each one up yourself.\n\nIt works with or without root and includes ad blocking.",
+  "repo": "https://github.com/Gedsh/InviZible",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["tor", "dns", "i2p", "privacy", "adblock"],
+  "added": "2026-08-05"
+}

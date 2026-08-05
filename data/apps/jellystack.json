@@ -1,0 +1,11 @@
+{
+  "id": "jellystack",
+  "name": "JellyStack",
+  "tagline": "Jellyfin and requests in one native app",
+  "description": "JellyStack combines watching your Jellyfin library with requesting new things through Seerr, built with Kotlin Multiplatform.\n\nIt talks only to the servers you configure.",
+  "repo": "https://github.com/Darkatek7/jellystack",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["jellyfin", "seerr", "self-hosted", "video", "native"],
+  "added": "2026-08-05"
+}

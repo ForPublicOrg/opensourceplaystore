@@ -1,0 +1,11 @@
+{
+  "id": "geekttrss",
+  "name": "Geekttrss",
+  "tagline": "A Tiny Tiny RSS reader that works offline",
+  "description": "Geekttrss syncs with your own Tiny Tiny RSS server and caches articles so you can read on the underground and have your progress sync back later.\n\nIt is free and ad-free.",
+  "repo": "https://github.com/fbarthelery/geekttrss",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": ["rss", "ttrss", "self-hosted", "offline", "reader"],
+  "added": "2026-08-05"
+}

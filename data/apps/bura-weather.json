@@ -1,0 +1,11 @@
+{
+  "id": "bura-weather",
+  "name": "Bura",
+  "tagline": "Weather explained with thoughtful graphs",
+  "description": "Bura shows the forecast as clear charts — temperature, rain, wind, UV — so you can see the shape of the day at a glance instead of reading numbers.\n\nIt is free, ad-free, and uses an open weather service.",
+  "repo": "https://github.com/davidtakac/bura",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["weather", "forecast", "charts", "material-you", "no-ads"],
+  "added": "2026-08-05"
+}

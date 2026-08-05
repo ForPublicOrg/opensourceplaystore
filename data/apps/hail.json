@@ -1,0 +1,11 @@
+{
+  "id": "hail",
+  "name": "Hail",
+  "tagline": "Freeze apps you don't want running",
+  "description": "Hail can disable, hide, suspend or uninstall apps — including ones the phone maker preinstalled — without needing root on most devices.\n\nIt is a simple way to quieten a phone full of software you never asked for.",
+  "repo": "https://github.com/aistra0528/Hail",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["apps", "freeze", "debloat", "shizuku", "privacy"],
+  "added": "2026-08-05"
+}

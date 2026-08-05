@@ -1,0 +1,11 @@
+{
+  "id": "dragon-store",
+  "name": "Dragon Store",
+  "tagline": "A friendly front door to free and open apps",
+  "description": "Dragon Store presents open-source Android apps in a clean, browsable catalogue with straightforward installs.\n\nIt is free, small and has no account or tracking.",
+  "repo": "https://github.com/jpdoshi/dragon-store",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["appstore", "open-source", "installer", "browse", "free"],
+  "added": "2026-08-05"
+}

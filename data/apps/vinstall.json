@@ -1,0 +1,11 @@
+{
+  "id": "vinstall",
+  "name": "VInstall",
+  "tagline": "Installs every kind of Android package",
+  "description": "VInstall handles APK, XAPK, APKS and APKM files, unpacking split bundles so they install properly instead of failing halfway.\n\nIt is free, open source and shows what it's doing.",
+  "repo": "https://github.com/vinstall/VInstall",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["installer", "apk", "xapk", "split-apk", "apps"],
+  "added": "2026-08-05"
+}

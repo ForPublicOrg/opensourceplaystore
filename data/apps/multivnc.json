@@ -1,0 +1,11 @@
+{
+  "id": "multivnc",
+  "name": "MultiVNC",
+  "tagline": "A VNC viewer with SSH tunnelling built in",
+  "description": "MultiVNC lets you see and control a computer's desktop from your phone, including through an SSH tunnel for safety.\n\nIt supports several servers at once and has been maintained for over a decade.",
+  "repo": "https://github.com/bk138/multivnc",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["vnc", "remote", "ssh", "desktop", "network"],
+  "added": "2026-08-05"
+}

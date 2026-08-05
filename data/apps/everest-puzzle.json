@@ -1,0 +1,11 @@
+{
+  "id": "everest-puzzle",
+  "name": "Everest",
+  "tagline": "A mathematical puzzle game that gets hard",
+  "description": "Everest gives you number puzzles that start gently and climb steadily, with no hints for sale and no adverts.\n\nIt works offline and is genuinely tricky.",
+  "repo": "https://github.com/mwageringel/everest",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["puzzle", "maths", "offline", "no-ads", "logic"],
+  "added": "2026-08-05"
+}

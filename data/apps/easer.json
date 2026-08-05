@@ -1,0 +1,11 @@
+{
+  "id": "easer",
+  "name": "Easer",
+  "tagline": "Make your phone react to what's happening",
+  "description": "Easer runs actions when conditions you set come true: turn on Wi-Fi at home, silence the phone at night, launch music in the car.\n\nEverything is defined by you, runs on the device, and needs no account.",
+  "repo": "https://github.com/renyuneyun/Easer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["automation", "triggers", "profiles", "offline", "privacy"],
+  "added": "2026-08-05"
+}

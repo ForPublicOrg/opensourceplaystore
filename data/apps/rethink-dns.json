@@ -1,0 +1,11 @@
+{
+  "id": "rethink-dns",
+  "name": "Rethink DNS + Firewall",
+  "tagline": "A firewall, DNS filter and tunnel in one",
+  "description": "Rethink lets you see every connection your phone makes and decide which apps may go online, with encrypted DNS, ad blocking and WireGuard support built in.\n\nIt runs without root and shows a clear log of what is happening.",
+  "repo": "https://github.com/celzero/rethink-app",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["firewall", "dns", "privacy", "adblock", "wireguard"],
+  "added": "2026-08-05"
+}

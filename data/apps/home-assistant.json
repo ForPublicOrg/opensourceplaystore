@@ -1,0 +1,11 @@
+{
+  "id": "home-assistant",
+  "name": "Home Assistant",
+  "tagline": "Control your smart home from your phone",
+  "description": "This is the official companion app for Home Assistant, the smart-home system you run yourself instead of trusting to a cloud service.\n\nIt gives you dashboards, notifications, sensors from your phone, and works over your own network.",
+  "repo": "https://github.com/home-assistant/android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["smart-home", "automation", "self-hosted", "iot", "dashboard"],
+  "added": "2026-08-05"
+}

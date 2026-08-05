@@ -1,0 +1,11 @@
+{
+  "id": "coreply",
+  "name": "Coreply",
+  "tagline": "Finishes your sentences while you're typing",
+  "description": "Coreply reads the chat you're in and suggests how to finish the message you're writing. Tap the suggestion to accept it, ignore it and keep typing if you don't like it.\n\nIt works with your own AI key, or with a model running on your own machine if you'd rather keep everything in the house.",
+  "repo": "https://github.com/coreply/coreply",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["keyboard", "ai", "typing", "chat", "autocomplete"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rebootnya",
+  "name": "RebootNya",
+  "tagline": "Restart into recovery or bootloader in one tap",
+  "description": "RebootNya offers the reboot options Android hides — recovery, bootloader, safe mode — with root or Shizuku, in a small tidy app.\n\nUseful for anyone who flashes things regularly.",
+  "repo": "https://github.com/daisukiKaffuChino/RebootNya",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["reboot", "recovery", "root", "shizuku", "utility"],
+  "added": "2026-08-05"
+}

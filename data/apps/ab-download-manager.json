@@ -1,0 +1,11 @@
+{
+  "id": "ab-download-manager",
+  "name": "AB Download Manager",
+  "tagline": "Speeds up and organises your downloads",
+  "description": "AB Download Manager grabs files in several pieces at once so they arrive faster, and keeps everything in a tidy list you can pause and resume.\n\nIt works with browser extensions and runs on phones and computers alike.",
+  "repo": "https://github.com/amir1376/ab-download-manager",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["download", "manager", "fast", "queue", "cross-platform"],
+  "added": "2026-08-05"
+}

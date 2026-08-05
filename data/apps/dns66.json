@@ -1,0 +1,11 @@
+{
+  "id": "dns66",
+  "name": "DNS66",
+  "tagline": "A light ad blocker that needs no root",
+  "description": "DNS66 filters out ad and tracker addresses using a local connection on the phone, so no root and no extra hardware are needed.\n\nIt is small, simple, and lets you choose which block lists to use.",
+  "repo": "https://github.com/julian-klode/dns66",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["adblock", "dns", "privacy", "no-root", "lightweight"],
+  "added": "2026-08-05"
+}

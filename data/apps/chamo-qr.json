@@ -1,0 +1,11 @@
+{
+  "id": "chamo-qr",
+  "name": "Chamo QR",
+  "tagline": "Scan and make QR codes, simply",
+  "description": "Chamo QR reads codes with the camera and creates new ones for text, links and Wi-Fi, keeping a history you can search.\n\nIt is small, free and ad-free.",
+  "repo": "https://github.com/jydv402/chamo_qr",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["qr", "scanner", "generator", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

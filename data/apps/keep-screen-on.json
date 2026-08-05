@@ -1,0 +1,11 @@
+{
+  "id": "keep-screen-on",
+  "name": "Keep Screen On",
+  "tagline": "A tile that stops your screen turning off",
+  "description": "Adds a quick settings tile that keeps the display awake while you read a recipe or follow instructions, then puts the timeout back afterwards.\n\nIt is tiny and needs no special permissions.",
+  "repo": "https://github.com/elastic-rock/KeepScreenOn",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["screen", "timeout", "tile", "simple", "utility"],
+  "added": "2026-08-05"
+}

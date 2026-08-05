@@ -1,0 +1,11 @@
+{
+  "id": "moviedb-showcase",
+  "name": "ShowCase",
+  "tagline": "Keep track of the films and shows you watch",
+  "description": "ShowCase lets you search films and series, mark what you've watched, rate them and plan what's next, with reminders for new episodes.\n\nIt is completely free and open source, with no ads.",
+  "repo": "https://github.com/WirelessAlien/MovieDB",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["films", "tv", "tracker", "watchlist", "no-ads"],
+  "added": "2026-08-05"
+}

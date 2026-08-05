@@ -1,0 +1,11 @@
+{
+  "id": "motion-ease-tune",
+  "name": "MotionEaseTune",
+  "tagline": "A sound that helps with car sickness",
+  "description": "MotionEaseTune plays a specific low tone that research suggests can reduce motion sickness while travelling.\n\nIt is a single-purpose app: press play, feel a bit better.",
+  "repo": "https://github.com/BHznJNs/MotionEaseTune",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["health", "travel", "sound", "simple", "offline"],
+  "added": "2026-08-05"
+}

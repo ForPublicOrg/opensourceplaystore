@@ -1,0 +1,11 @@
+{
+  "id": "nova-gamestream",
+  "name": "Nova",
+  "tagline": "Stream PC games, built for handhelds",
+  "description": "Nova streams games from your gaming computer with a layout designed for Android handhelds and controllers rather than touchscreens.\n\nIt runs over your own network and is free.",
+  "repo": "https://github.com/papi-ux/nova",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["streaming", "pc-games", "handheld", "controller", "local-network"],
+  "added": "2026-08-05"
+}

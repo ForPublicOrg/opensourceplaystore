@@ -1,0 +1,11 @@
+{
+  "id": "nextcloud-news",
+  "name": "Nextcloud News",
+  "tagline": "Read your feeds from your own Nextcloud",
+  "description": "This app syncs with the News add-on for Nextcloud, so your subscriptions and read state live on your own server instead of someone else's.\n\nArticles are cached for offline reading on the train.",
+  "repo": "https://github.com/nextcloud/news-android",
+  "category": "internet",
+  "license": "AGPL-3.0",
+  "tags": ["rss", "nextcloud", "news", "self-hosted", "offline"],
+  "added": "2026-08-05"
+}

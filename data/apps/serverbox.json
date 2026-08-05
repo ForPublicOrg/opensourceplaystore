@@ -1,0 +1,11 @@
+{
+  "id": "serverbox",
+  "name": "ServerBox",
+  "tagline": "Check on your servers from your phone",
+  "description": "ServerBox shows the health of the machines you look after — processor, memory, disk, containers — and gives you an SSH terminal when something needs fixing.\n\nIt connects straight to your servers with no service in between.",
+  "repo": "https://github.com/lollipopkit/flutter_server_box",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["server", "ssh", "monitoring", "docker", "self-hosted"],
+  "added": "2026-08-05"
+}

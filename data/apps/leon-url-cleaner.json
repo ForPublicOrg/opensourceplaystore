@@ -1,0 +1,11 @@
+{
+  "id": "leon-url-cleaner",
+  "name": "Leon",
+  "tagline": "Cleans the tracking rubbish out of links",
+  "description": "Share a link to Leon and it strips out the tracking parameters that tell companies who sent you, then passes the tidy link on to whoever you were sharing with.\n\nIt is tiny, works offline, and can also expand shortened links.",
+  "repo": "https://github.com/leon-cleaning-services/leon",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["privacy", "links", "tracking", "sharing", "clean"],
+  "added": "2026-08-05"
+}

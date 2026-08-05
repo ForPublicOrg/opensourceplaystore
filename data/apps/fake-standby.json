@@ -1,0 +1,11 @@
+{
+  "id": "fake-standby",
+  "name": "FakeStandby",
+  "tagline": "Turn the screen off while apps keep running",
+  "description": "FakeStandby blacks out the display without stopping what is running, so navigation, recording or a download continues while the battery lasts longer.\n\nA simple trick, neatly done.",
+  "repo": "https://github.com/JonasBernard/FakeStandby",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["screen", "battery", "utility", "simple", "offline"],
+  "added": "2026-08-05"
+}

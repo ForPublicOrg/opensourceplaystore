@@ -1,0 +1,11 @@
+{
+  "id": "tui-console-launcher",
+  "name": "T-UI Launcher",
+  "tagline": "Run your phone like a computer terminal",
+  "description": "T-UI replaces the home screen with a command line: type a few letters to open an app, check the weather, or run a small script.\n\nIt is fast, oddly satisfying, and beloved by people who like keyboards more than icons.",
+  "repo": "https://github.com/fandreuz/TUI-ConsoleLauncher",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["launcher", "terminal", "command-line", "minimal", "keyboard"],
+  "added": "2026-08-05"
+}

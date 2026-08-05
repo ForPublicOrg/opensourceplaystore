@@ -1,0 +1,11 @@
+{
+  "id": "librecamera",
+  "name": "Libre Camera",
+  "tagline": "A simple camera with nothing hidden inside",
+  "description": "Libre Camera takes photos and video with the basics done well and no tracking, no ads and no account.\n\nIt is small, quick and a good default camera for a privacy-minded phone.",
+  "repo": "https://github.com/iakdis/librecamera",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["camera", "privacy", "simple", "offline", "no-ads"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "killmyapps",
+  "name": "KillMyApps",
+  "tagline": "Stop background apps that won't behave",
+  "description": "KillMyApps ends the background processes hogging memory and battery, in one list with one tap each.\n\nIt is small, ad-free and does not pretend to be a magic booster.",
+  "repo": "https://github.com/dedeadend/KillMyApps",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["battery", "memory", "background", "apps", "simple"],
+  "added": "2026-08-05"
+}

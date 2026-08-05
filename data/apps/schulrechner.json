@@ -1,0 +1,11 @@
+{
+  "id": "schulrechner",
+  "name": "Schulrechner",
+  "tagline": "The school calculator, on your phone",
+  "description": "Schulrechner behaves like the scientific calculator schools use, so students practise with the same buttons and behaviour they'll see in an exam.\n\nIt is free, offline and ad-free.",
+  "repo": "https://github.com/CardiJey/schulrechner",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["calculator", "school", "maths", "students", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "screentrans",
+  "name": "ScreenTrans",
+  "tagline": "Read the words on your screen in your own language",
+  "description": "ScreenTrans grabs the text on screen, reads it and shows a translation on top, using whichever AI service you point it at.\n\nUseful for games, apps and websites that were never translated, and it works over anything.",
+  "repo": "https://github.com/longipinnatus/ScreenTrans",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["translation", "ocr", "screen", "overlay", "ai"],
+  "added": "2026-08-05"
+}

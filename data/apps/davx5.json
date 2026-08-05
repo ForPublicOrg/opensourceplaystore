@@ -1,0 +1,11 @@
+{
+  "id": "davx5",
+  "name": "DAVx⁵",
+  "tagline": "Sync contacts and calendars with your own server",
+  "description": "DAVx⁵ connects your phone's calendar and contacts to a server you choose — Nextcloud, a mail provider, or your own — using open standards instead of a Google account.\n\nIt is the tool most people reach for when they leave the big cloud services.",
+  "repo": "https://github.com/bitfireAT/davx5-ose",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["sync", "calendar", "contacts", "caldav", "nextcloud"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "concentric-watch-face",
+  "name": "Concentric Watch Face",
+  "tagline": "The Pixel Watch face, for any Wear OS watch",
+  "description": "A faithful open rebuild of the concentric-rings watch face, made with the standard watch face format so it runs anywhere.\n\nIt is free and has no companion app demanding an account.",
+  "repo": "https://github.com/lukakilic/concentric-watch-face",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["wear-os", "watch-face", "design", "free", "customisation"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mtransit",
+  "name": "MonTransit",
+  "tagline": "Bus and train times for your city",
+  "description": "MonTransit gathers schedules and live times for public transport across many Canadian cities in one app, with favourites and nearby stops.\n\nIt is free, open source and works offline for schedules.",
+  "repo": "https://github.com/mtransitapps/mtransit-for-android",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "tags": ["transit", "bus", "schedules", "offline", "free"],
+  "added": "2026-08-05"
+}

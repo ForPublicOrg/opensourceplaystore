@@ -1,0 +1,11 @@
+{
+  "id": "repostore",
+  "name": "RepoStore",
+  "tagline": "Install apps straight from a GitHub project",
+  "description": "RepoStore lets you search GitHub for apps, read the release notes and install the APK without leaving the app.\n\nIt is a simple way to follow small projects that never reach a store.",
+  "repo": "https://github.com/samyak2403/RepoStore",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["github", "appstore", "installer", "releases", "updates"],
+  "added": "2026-08-05"
+}

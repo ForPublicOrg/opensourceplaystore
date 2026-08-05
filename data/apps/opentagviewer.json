@@ -1,0 +1,11 @@
+{
+  "id": "opentagviewer",
+  "name": "OpenTagViewer",
+  "tagline": "See your AirTags on an Android phone",
+  "description": "OpenTagViewer shows where your Apple tracking tags are from an Android phone, which Apple's own software will not do.\n\nIt uses your own Apple account and keeps the location history on your device.",
+  "repo": "https://github.com/parawanderer/OpenTagViewer",
+  "category": "maps",
+  "license": "MIT",
+  "tags": ["airtag", "tracking", "find", "map", "privacy"],
+  "added": "2026-08-05"
+}

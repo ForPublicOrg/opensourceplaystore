@@ -1,0 +1,11 @@
+{
+  "id": "simple-notes-sync",
+  "name": "Simple Notes Sync",
+  "tagline": "Offline notes that sync over your Wi-Fi",
+  "description": "This notes app keeps everything on the device and quietly syncs with your computer over your home network using WebDAV — no cloud account at all.\n\nIt is minimal by design and easy to trust.",
+  "repo": "https://github.com/inventory69/simple-notes-sync",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["notes", "sync", "webdav", "offline", "privacy"],
+  "added": "2026-08-05"
+}

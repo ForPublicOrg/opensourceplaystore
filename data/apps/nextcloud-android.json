@@ -1,0 +1,11 @@
+{
+  "id": "nextcloud-android",
+  "name": "Nextcloud",
+  "tagline": "Your own cloud for files, photos and more",
+  "description": "The official Nextcloud app connects to a server you run or rent, syncing files, backing up photos automatically and sharing links — all without a big cloud company.\n\nIt is the heart of a lot of people's escape from Google Drive.",
+  "repo": "https://github.com/nextcloud/android",
+  "category": "productivity",
+  "license": "GPL-2.0",
+  "tags": ["files", "sync", "nextcloud", "self-hosted", "backup"],
+  "added": "2026-08-05"
+}

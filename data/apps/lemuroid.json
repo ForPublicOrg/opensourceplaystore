@@ -1,0 +1,11 @@
+{
+  "id": "lemuroid",
+  "name": "Lemuroid",
+  "tagline": "One app for playing old console games",
+  "description": "Lemuroid plays games from a long list of classic consoles with almost no setup: open a game file and it works out the rest.\n\nIt supports controllers, save states and cloud backup of saves, and you bring your own game files.",
+  "repo": "https://github.com/Swordfish90/Lemuroid",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": ["emulator", "retro", "consoles", "controller", "offline"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "acode",
+  "name": "Acode",
+  "tagline": "A powerful code and text editor for Android",
+  "description": "Acode is a proper editor for writing code on a phone or tablet, with syntax colouring for dozens of languages, a file browser, FTP support and plugins.\n\nIt is fast, works offline, and is popular with people learning to build websites.",
+  "repo": "https://github.com/Acode-Foundation/Acode",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["code", "editor", "developer", "web", "ftp"],
+  "added": "2026-08-05"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rfm-radio",
+  "name": "RFM Radio",
+  "tagline": "Real FM radio, with no internet needed",
+  "description": "If your phone has an FM chip, this plays actual radio through your headphones without using any data at all.\n\nIt records, remembers stations, and works when the network is down.",
+  "repo": "https://github.com/vladislav805/RFM-Radio",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["radio", "fm", "offline", "no-data", "recording"],
+  "added": "2026-08-05"
+}
