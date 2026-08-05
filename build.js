@@ -251,15 +251,23 @@ const NAV_ITEMS = [
 ];
 
 /* Compact search in the header for pages that have no search box of their own.
-   Plain GET to /apps/?q=… — /apps/ applies the query client-side. */
+   /js/search.js fills the listbox as you type; Enter without a highlighted row
+   falls back to the plain GET to /apps/?q=…, which applies the query there. */
 const NAV_SEARCH = `<form class="nav-search" action="/apps/" role="search">
-        <input type="search" name="q" placeholder="Search apps…" aria-label="Search apps" autocomplete="off">
+        <input type="search" name="q" placeholder="Search apps…" aria-label="Search apps" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="nav-search-results">
+        <div class="nav-results" id="nav-search-results" role="listbox" aria-label="Search results" hidden></div>
       </form>`;
 
 function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false }) {
   const fullTitle = urlPath === '/' ? `${config.siteName} — ${config.tagline}` : `${title} · ${config.siteName}`;
   const canonical = config.baseUrl + urlPath;
   const current = (item) => (active && item.key === active ? ' aria-current="page"' : '');
+  /* The header search needs the same script the hero box uses. Pages that
+     already ship it (home, /apps/) render their own box instead. */
+  const pageScripts = navSearch && scripts.indexOf('/js/search.js') === -1
+    ? ['/js/search.js'].concat(scripts)
+    : scripts;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -316,7 +324,7 @@ ${content}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 ${THEME_TOGGLE}
 ${BANNER_JS}
-${scripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}${analytics ? '\n' + ANALYTICS : ''}
+${pageScripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}${analytics ? '\n' + ANALYTICS : ''}
 </body>
 </html>
 `;

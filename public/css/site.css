@@ -277,7 +277,7 @@ p { margin: 0.5em 0 1em; }
 .theme-btn:hover { background: var(--accent-soft); }
 
 /* Compact search in the header (desktop; phones use the Search tab). */
-.nav-search { display: flex; }
+.nav-search { display: flex; position: relative; }
 .nav-search input {
   width: 170px;
   min-height: 44px;
@@ -294,6 +294,58 @@ p { margin: 0.5em 0 1em; }
 /* No outline suppression — the global :focus-visible ring must survive. */
 .nav-search input:focus { border-color: var(--accent); width: 230px; }
 @media (max-width: 900px) { .nav-search { display: none; } }
+
+/* Live matches, dropped under the header input as you type. It floats over
+   page content, so it takes the opaque surface rather than the glass one. */
+.nav-results {
+  background: var(--surface-strong);
+  -webkit-backdrop-filter: saturate(1.7) blur(18px);
+  backdrop-filter: saturate(1.7) blur(18px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-lift), var(--edge);
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: min(400px, calc(100vw - 40px));
+  max-height: min(66vh, 460px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-radius: 20px;
+  padding: 6px;
+  z-index: 30;
+}
+.nav-result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 14px;
+  color: var(--text);
+  text-decoration: none;
+}
+.nav-result img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--accent-soft);
+}
+.nav-result-text { min-width: 0; margin-right: auto; }
+/* Names and taglines are arbitrary length — one line each, then ellipsis. */
+.nav-result-name,
+.nav-result-tag {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-result-name { font-weight: 700; }
+.nav-result-tag { font-size: 0.82rem; color: var(--muted); }
+.nav-result-stars { flex-shrink: 0; font-size: 0.8rem; color: var(--muted); }
+.nav-result:hover,
+.nav-result[data-active] { background: var(--accent-soft); }
+.nav-result-all { justify-content: center; font-weight: 700; }
+.nav-note { margin: 0; padding: 14px 10px; text-align: center; color: var(--muted); }
 
 /* Bottom tab bar on phones */
 .tab-bar { display: none; }
