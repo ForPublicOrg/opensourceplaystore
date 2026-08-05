@@ -57,13 +57,25 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 
 | Page | Path | Notes |
 |---|---|---|
-| Home / browse | `/` | hero, always-visible search, category chips, then four sections: 🔥 Popular (screenshot banner strip, by stars), 🚀 Trending (stars damped by days since last release), 🆕 Recently added, ✨ All apps grid (pre-rendered; JS only filters; strips hide while searching) |
-| Category | `/category/<id>/` | pre-rendered filtered grid, empty state links to Publish |
-| App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license pill), big Download button, Share button (native share sheet on phones, copy-link toast on desktop), screenshots, description, the 5 repo links (Source / Problems / Questions / Versions / License), owner line, report + edit links |
-| Publish | `/publish/` | paste repo URL → autofill → category chips → checklist → GitHub handoff |
-| Help | `/help/` | install-an-APK guide (4 steps, reframed "unknown sources" warning) + FAQ |
+| Home | `/` | hero + search, category chips, 🔥 Popular (screenshot strip), 🚀 Trending, 💎 Hidden gems (20–1500 stars, active in last 6 months), ⭐ Top apps preview (12) → "Browse all" |
+| All apps | `/apps/` | the full catalog: search box, sort tabs (⭐ Top / 🆕 New / 🔄 Updated / 🔤 A–Z), 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
+| Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
+| In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
+| App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license, 🧪/💤 pills), Download + Share, screenshots (tap → full size), description, the 5 repo links, 🧭 More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
+| Publish | `/publish/` | paste repo URL → autofill → category chips → "still in testing?" checkbox → checklist → GitHub handoff |
+| Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what 🧪 In testing means) |
 | About | `/about/` | how the site works, for skeptical parents and developers |
 | 404 | `/404.html` | friendly, links back to browse |
+
+Every page also carries a dismissible ⚠️ **keepandroidopen.org** banner (localStorage
+dismiss, applied pre-paint) and — on pages without their own search box — a compact
+header search that submits to `/apps/?q=…`. Phones get a 🔍 Search tab instead.
+
+**Search** is index-based: `build.js` emits `search-index.json` (~90 KB, name/tagline/
+tags/owner/category/stars/icon per app), fetched once on first focus/keystroke.
+Results are ranked (name-prefix > name > tags/owner/category > tagline > all-words)
+and rendered client-side, capped at 60, with `?q=` deep links. Without JS the search
+box is hidden and the paginated catalog does everything.
 
 ## UX system
 

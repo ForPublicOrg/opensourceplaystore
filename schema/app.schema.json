@@ -91,6 +91,11 @@
       "type": "array",
       "items": { "type": "string", "enum": ["ads", "tracking", "nonfree-network", "nonfree-assets"] },
       "description": "Optional honest self-disclosure of things privacy-minded users want to know about."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["testing"],
+      "description": "Optional. Set to \"testing\" while the app is an early version so listings show an 'In testing' badge. Remove it once the app is stable. (Prerelease-style release tags are badged automatically.)"
     }
   }
 }

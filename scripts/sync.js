@@ -120,8 +120,16 @@ async function syncApp(app) {
     syncedAt: new Date().toISOString(),
   };
 
-  const release = await gh(`https://api.github.com/repos/${owner}/${name}/releases/latest`);
+  /* /releases/latest never returns prereleases — if an app only has
+     prereleases (common while in testing), fall back to the release list
+     so early apps still get a real APK link and a prerelease flag. */
+  let release = await gh(`https://api.github.com/repos/${owner}/${name}/releases/latest`);
+  if (release.notFound) {
+    const list = await gh(`https://api.github.com/repos/${owner}/${name}/releases?per_page=5`);
+    release = (Array.isArray(list) && list.find((r) => !r.draft)) || { notFound: true };
+  }
   if (!release.notFound && release.tag_name) {
+    if (release.prerelease) entry.prerelease = true;
     entry.releaseTag = release.tag_name;
     entry.releaseDate = release.published_at;
     const apks = (release.assets || [])

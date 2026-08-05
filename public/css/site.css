@@ -161,7 +161,7 @@ p { margin: 0.5em 0 1em; }
 .glass,
 .site-header, .tab-bar, .card, .feature-card, .chip, .search-box,
 .download-box, .form-card, .callout, details.faq, .links-list a,
-.theme-btn, .btn-secondary, .pill {
+.theme-btn, .btn-secondary, .pill, .sort-tabs, .page-link {
   background: var(--surface);
   -webkit-backdrop-filter: saturate(1.7) blur(18px);
   backdrop-filter: saturate(1.7) blur(18px);
@@ -174,9 +174,43 @@ p { margin: 0.5em 0 1em; }
   .glass,
   .site-header, .tab-bar, .card, .feature-card, .chip, .search-box,
   .download-box, .form-card, .callout, details.faq, .links-list a,
-  .theme-btn, .btn-secondary, .pill {
+  .theme-btn, .btn-secondary, .pill, .sort-tabs, .page-link {
     background: var(--surface-strong);
   }
+}
+
+/* ---------- Site-wide alert banner ---------- */
+
+.site-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--warn-bg);
+  color: var(--warn-text);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-align: center;
+}
+.site-banner p { margin: 0; padding: 6px 0; }
+.site-banner a { color: inherit; font-weight: 800; }
+.banner-close {
+  flex-shrink: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 1rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.banner-close:hover { background: rgba(0, 0, 0, 0.1); }
+[data-banner="off"] .site-banner { display: none; }
+@media (max-width: 720px) {
+  .site-banner { font-size: 0.82rem; text-align: left; }
+  .site-banner p { padding: 4px 0; }
 }
 
 /* ---------- Header / nav ---------- */
@@ -241,6 +275,25 @@ p { margin: 0.5em 0 1em; }
   cursor: pointer;
 }
 .theme-btn:hover { background: var(--accent-soft); }
+
+/* Compact search in the header (desktop; phones use the Search tab). */
+.nav-search { display: flex; }
+.nav-search input {
+  width: 170px;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid var(--glass-border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 16px;
+  padding: 8px 16px;
+  transition: width 0.15s ease, border-color 0.15s ease;
+}
+.nav-search input::placeholder { color: var(--muted); }
+/* No outline suppression — the global :focus-visible ring must survive. */
+.nav-search input:focus { border-color: var(--accent); width: 230px; }
+@media (max-width: 900px) { .nav-search { display: none; } }
 
 /* Bottom tab bar on phones */
 .tab-bar { display: none; }
@@ -335,6 +388,112 @@ p { margin: 0.5em 0 1em; }
   margin: 30px 0 4px;
 }
 
+/* Section heading + "See all" link on one line. */
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 26px 0 4px;
+}
+.section-head .section-title { margin: 0; min-width: 0; }
+.see-all {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.see-all:hover { background: var(--accent-soft); }
+
+.hero-compact { padding-top: 26px; }
+
+.browse-all { text-align: center; margin: -14px 0 30px; }
+
+/* ---------- Catalog toolbar: sort tabs + count ---------- */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+  margin: 16px 0 0;
+}
+.catalog-count { color: var(--muted); font-size: 0.9rem; margin: 0; }
+
+.sort-tabs {
+  display: inline-flex;
+  gap: 4px;
+  padding: 5px;
+  border-radius: 999px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.sort-tabs::-webkit-scrollbar { display: none; }
+.sort-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  min-height: 44px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+/* Narrow phones: text-only tabs so all four fit without hidden overflow. */
+@media (max-width: 480px) {
+  .sort-tab { padding: 10px 12px; }
+  .sort-tab > span[aria-hidden="true"] { display: none; }
+}
+.sort-tab:hover { background: var(--accent-soft); color: var(--text); }
+/* Near-black on the green gradient clears WCAG AA (~7:1) in both themes;
+   white would sit at ~3.3:1 on these small labels. */
+.sort-tab[aria-current] {
+  background: var(--accent-grad);
+  color: #04220f;
+  box-shadow: 0 2px 10px rgba(22, 163, 74, 0.3);
+}
+
+/* ---------- Pagination ---------- */
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 36px;
+}
+.page-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 999px;
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+.page-link:hover { border-color: var(--accent); }
+.page-link[aria-current="page"] {
+  background: var(--accent-grad);
+  color: #04220f;
+  border-color: transparent;
+}
+.page-step { padding: 0 18px; }
+.page-gap { color: var(--muted); }
+
 /* ---------- Category chips ---------- */
 
 .chips {
@@ -376,22 +535,43 @@ p { margin: 0.5em 0 1em; }
 
 /* ---------- Popular strip ---------- */
 
-/* Fade the trailing edge of horizontal strips so the partially-visible
-   card at the right reads as "scroll for more" instead of a hard clip
-   through the middle of its text (the same fix applies at any width, so
-   it fixes the cutoff on desktop too, not just narrow phone screens).
-   The left edge only fades once search.js confirms the strip has
-   actually been scrolled (.can-scroll-left) — fading it unconditionally
-   would dim the very first card before anyone has scrolled at all. */
+/* Fade the trailing edge of horizontal scrollers so the partially-visible
+   card at the right reads as "scroll for more" instead of a hard clip.
+   The default (no-JS) state fades the right edge only; strips.js tracks
+   scrolling and adds .can-scroll-left (content hidden to the left — fade
+   the left edge too) and .at-end (nothing further right — stop fading). */
 .feature-strip,
-.card-strip {
+.card-strip,
+.screenshots {
   -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
   mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
 }
+@media (max-width: 720px) {
+  .chips {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
+    mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
+  }
+}
 .feature-strip.can-scroll-left,
-.card-strip.can-scroll-left {
+.card-strip.can-scroll-left,
+.screenshots.can-scroll-left,
+.chips.can-scroll-left {
   -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
+}
+.feature-strip.at-end.can-scroll-left,
+.card-strip.at-end.can-scroll-left,
+.screenshots.at-end.can-scroll-left,
+.chips.at-end.can-scroll-left {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px);
+  mask-image: linear-gradient(to right, transparent 0, #000 40px);
+}
+.feature-strip.at-end:not(.can-scroll-left),
+.card-strip.at-end:not(.can-scroll-left),
+.screenshots.at-end:not(.can-scroll-left),
+.chips.at-end:not(.can-scroll-left) {
+  -webkit-mask-image: none;
+  mask-image: none;
 }
 
 .feature-strip {
@@ -503,11 +683,13 @@ p { margin: 0.5em 0 1em; }
   overflow: hidden;
   min-height: 2.6em;
 }
+/* Pills wrap to a second row rather than pushing past a narrow card —
+   testing apps carry two non-shrinking pills plus the category tag. */
 .card-meta {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 6px 8px;
   margin-top: auto;
   font-size: 0.85rem;
   color: var(--muted);
@@ -631,7 +813,14 @@ p { margin: 0.5em 0 1em; }
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
 }
+.screenshots a {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 18px;
+  scroll-snap-align: start;
+}
 .screenshots img {
+  display: block;
   height: 400px;
   width: auto;
   border-radius: 18px;

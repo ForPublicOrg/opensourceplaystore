@@ -30,6 +30,7 @@ const ANTI_FEATURES = ['ads', 'tracking', 'nonfree-network', 'nonfree-assets'];
 const KNOWN_FIELDS = [
   'id', 'name', 'tagline', 'description', 'repo', 'category', 'license',
   'icon', 'screenshots', 'website', 'download', 'fdroid', 'added', 'tags', 'antiFeatures',
+  'status',
 ];
 
 function isString(v) {
@@ -99,6 +100,9 @@ function checkManifest(fileName, app) {
     if (!Array.isArray(app.antiFeatures) || app.antiFeatures.some((a) => !ANTI_FEATURES.includes(a))) {
       err(`antiFeatures entries must be from: ${ANTI_FEATURES.join(', ')}`);
     }
+  }
+  if (app.status !== undefined && app.status !== 'testing') {
+    err('status can only be "testing" — leave it out once the app is stable');
   }
   return errors;
 }

@@ -66,7 +66,9 @@ on the next deploy. No account on this site is ever needed.
 
 Manifest fields are documented in [schema/app.schema.json](schema/app.schema.json). Notable
 optional fields: `fdroid` (package id — enables a direct APK download via F-Droid when the
-GitHub release has none) and `download` (an official download page as a last-resort fallback).
+GitHub release has none), `download` (an official download page as a last-resort fallback),
+and `status: "testing"` (marks an early version — the listing gets a 🧪 badge and appears
+in the `/testing/` collection; prerelease-style release tags are badged automatically).
 Icons and phone screenshots are auto-discovered from the repo's fastlane metadata
 (`fastlane/metadata/android/en-US/images/…`) — publishers who follow that standard get a
 rich listing for free.

@@ -47,10 +47,10 @@
       any = true;
       var li = document.createElement('li');
       var mark = document.createElement('span');
-      mark.className = state === true ? 'ok' : state === 'warn' ? 'warn-t' : 'bad';
-      mark.textContent = state === true ? '✔' : state === 'warn' ? '⚠' : '✘';
+      mark.className = state === true ? 'ok' : state === 'warn' ? 'warn-t' : state === 'pending' ? 'muted' : 'bad';
+      mark.textContent = state === true ? '✔' : state === 'warn' ? '⚠' : state === 'pending' ? '…' : '✘';
       li.appendChild(mark);
-      li.appendChild(document.createTextNode(' ' + r[1]));
+      li.appendChild(document.createTextNode(' ' + r[1] + (state === 'pending' ? ' (checking…)' : '')));
       list.appendChild(li);
     });
     $('checklist-box').hidden = !any;
@@ -141,6 +141,7 @@
       checks.apk = !release.notFound && (release.assets || []).some(function (a) {
         return a.name.toLowerCase().endsWith('.apk');
       }) ? true : 'warn';
+      checks.free = 'pending';
       checkFree(parsed.url);
       drawChecks();
       updatePreview();
@@ -163,7 +164,11 @@
       checks.free = taken ? false : true;
       if (taken) setError('f-name', 'An app from this page (or with this name) is already listed.');
       drawChecks();
-    }).catch(function () { /* offline preview — skip */ });
+    }).catch(function () {
+      /* Could not check (offline preview) — say so instead of vanishing. */
+      checks.free = 'warn';
+      drawChecks();
+    });
   }
 
   /* ---------- live preview ---------- */
@@ -183,6 +188,13 @@
   ['name', 'tagline', 'icon', 'repo'].forEach(function (k) {
     fields[k].addEventListener('input', updatePreview);
   });
+  var testingBox = $('f-testing');
+  if (testingBox) {
+    testingBox.addEventListener('change', function () {
+      var tp = $('preview-testing');
+      if (tp) tp.hidden = !testingBox.checked;
+    });
+  }
 
   /* ---------- build + publish ---------- */
   function buildManifest() {
@@ -240,6 +252,8 @@
       function (el) { return el.value; }
     );
     if (anti.length) manifest.antiFeatures = anti;
+    var testing = $('f-testing');
+    if (testing && testing.checked) manifest.status = 'testing';
     manifest.added = new Date().toISOString().slice(0, 10);
     return manifest;
   }
