@@ -1,0 +1,215 @@
+name: Auto-merge app publishes
+
+# A pull request that does nothing but ADD new data/apps/<id>.json manifests is
+# validated here and merged on its own — that is the whole publish flow, with no
+# human in the loop. Everything else (code, workflows, edits to existing
+# listings, deletions) is left alone for a maintainer to review by hand.
+#
+# Why pull_request_target: publishes arrive as forks, and a fork's pull_request
+# run gets a read-only token that cannot merge. pull_request_target runs with the
+# repo's own token — so this job NEVER checks out or executes the pull request's
+# code. It checks out main, reads the changed file list from the API, and only
+# copies in the manifests once their paths have been checked, one by one.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: write # to merge the pull request
+  pull-requests: write # to label it and comment on it
+  actions: write # to dispatch deploy.yml when hosting on GitHub Pages
+
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PR: ${{ github.event.pull_request.number }}
+  REPO: ${{ github.repository }}
+  MAX_APPS: 5 # at most this many new listings merge unattended in one PR
+  MARKER: "<!-- osps-auto-merge -->"
+
+jobs:
+  auto-merge:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main — never the pull request's code
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Is this pull request only adding app listings?
+        id: scope
+        run: |
+          set -euo pipefail
+          gh api --paginate "repos/$REPO/pulls/$PR/files" \
+            --jq '.[] | [.status, .filename] | @tsv' > changed.tsv
+
+          eligible=true
+          reason=""
+          count=$(grep -c '' changed.tsv || true)
+
+          if [ "$count" -eq 0 ]; then
+            eligible=false
+            reason="it changes no files"
+          elif [ "$count" -gt "$MAX_APPS" ]; then
+            eligible=false
+            reason="it changes $count files at once — up to $MAX_APPS new listings merge unattended"
+          else
+            while IFS=$'\t' read -r status file; do
+              [ -n "$file" ] || continue
+              if [ "$status" != "added" ]; then
+                eligible=false
+                reason="\`$file\` is $status, not added — only brand-new listings merge on their own"
+                break
+              fi
+              case "$file" in
+                data/apps/*.json) ;;
+                *)
+                  eligible=false
+                  reason="\`$file\` is not an app listing — only \`data/apps/<id>.json\` merges on its own"
+                  break
+                  ;;
+              esac
+              name=${file#data/apps/}
+              if ! printf '%s' "$name" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*\.json$'; then
+                eligible=false
+                reason="\`$file\` is not named like an app id (lowercase letters, numbers and dashes)"
+                break
+              fi
+            done < changed.tsv
+          fi
+
+          {
+            echo "eligible=$eligible"
+            echo "reason=$reason"
+            echo "files=$(cut -f2 changed.tsv | tr '\n' ' ')"
+          } >> "$GITHUB_OUTPUT"
+          echo "eligible=$eligible ${reason:+($reason)}"
+
+      - name: Copy the new manifests onto main
+        if: steps.scope.outputs.eligible == 'true'
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth=1 origin "refs/pull/$PR/head"
+          # Safe because every path was pattern-checked above: no directories,
+          # no traversal, nothing outside data/apps/.
+          git checkout FETCH_HEAD -- ${{ steps.scope.outputs.files }}
+          for f in ${{ steps.scope.outputs.files }}; do
+            if [ -L "$f" ] || [ ! -f "$f" ]; then
+              echo "::error::$f is not a plain file"
+              exit 1
+            fi
+            if [ "$(wc -c < "$f")" -gt 32768 ]; then
+              echo "::error::$f is far bigger than a manifest should be"
+              exit 1
+            fi
+          done
+
+      - name: Validate the listings and build the site
+        if: steps.scope.outputs.eligible == 'true'
+        id: check
+        run: |
+          set -uo pipefail
+          {
+            node scripts/validate.js --check-remote --strict --only ${{ steps.scope.outputs.files }} \
+              && node build.js
+          } > check.log 2>&1
+          status=$?
+          tail -n 40 check.log
+          echo "ok=$([ $status -eq 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Merge it
+        if: steps.check.outputs.ok == 'true'
+        id: merge
+        run: |
+          set -euo pipefail
+          subject=$(node -e '
+            const fs = require("fs");
+            const names = process.argv.slice(1).map((f) => JSON.parse(fs.readFileSync(f, "utf8")).name);
+            console.log(`Add ${names.join(", ")} to the catalog`);
+          ' ${{ steps.scope.outputs.files }})
+
+          body="Published from #$PR. Checked automatically: schema, no duplicate repo, the repo is public, licensed and not archived, and the site still builds."
+
+          if gh pr merge "$PR" --squash --subject "$subject" --body "$body"; then
+            echo "merged=now" >> "$GITHUB_OUTPUT"
+          else
+            echo "Direct merge refused (branch protection?) — asking GitHub to merge when checks go green."
+            gh pr merge "$PR" --auto --squash --subject "$subject" --body "$body"
+            echo "merged=queued" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Kick off the deploy
+        # A merge made with GITHUB_TOKEN does not trigger push-triggered workflows,
+        # so GitHub Pages hosting needs an explicit nudge. Vercel/Cloudflare deploy
+        # from the push webhook and need nothing here — leave PAGES_DEPLOY unset.
+        if: steps.merge.outputs.merged == 'now' && vars.PAGES_DEPLOY == 'true'
+        run: gh workflow run deploy.yml --ref main
+
+      - name: Say why it is waiting for a human
+        if: steps.scope.outputs.eligible != 'true' || steps.check.outputs.ok == 'false'
+        env:
+          # Via the environment, never interpolated into the script: the reason
+          # quotes a filename chosen by whoever opened the pull request.
+          ELIGIBLE: ${{ steps.scope.outputs.eligible }}
+          REASON: ${{ steps.scope.outputs.reason }}
+        run: |
+          set -euo pipefail
+          gh label create needs-review --color FBCA04 \
+            --description "Waiting for a maintainer" 2>/dev/null || true
+          gh pr edit "$PR" --add-label needs-review || true
+
+          if [ "$ELIGIBLE" = "true" ]; then
+            # The log is one line per manifest — quote the parts that went wrong.
+            detail=$(grep -E '^(✗|    error:)' check.log | head -30 || true)
+            [ -n "$detail" ] || detail=$(tail -n 30 check.log)
+            {
+              echo "$MARKER"
+              echo "Thanks! 🙌 The checks did not pass, so a maintainer will take a look."
+              echo
+              echo '```'
+              echo "$detail"
+              echo '```'
+              echo
+              echo "Push a fix to this branch and it will be checked again — if everything passes it merges on its own."
+            } > comment.md
+          else
+            {
+              echo "$MARKER"
+              echo "Thanks! 🙌 This one needs a maintainer, because $REASON."
+              echo
+              echo "Pull requests that only **add** new \`data/apps/<id>.json\` files are merged automatically."
+              echo "Anything else — code, workflows, or changes to a listing that already exists — is reviewed by hand."
+            } > comment.md
+          fi
+
+          # Only ever say this once per pull request, however many times it is updated.
+          seen=$(gh api "repos/$REPO/issues/$PR/comments" \
+            --jq "[.[] | select(.body | contains(\"$MARKER\"))] | length")
+          if [ "$seen" -eq 0 ]; then
+            gh pr comment "$PR" --body-file comment.md
+          fi
+          cat comment.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Hand over to a human if anything else went wrong
+        # Merge conflicts, a refused merge, an API hiccup — never leave a publish
+        # sitting there with nothing said about it.
+        if: failure()
+        run: |
+          set -uo pipefail
+          gh label create needs-review --color FBCA04 \
+            --description "Waiting for a maintainer" 2>/dev/null || true
+          gh pr edit "$PR" --add-label needs-review || true
+          seen=$(gh api "repos/$REPO/issues/$PR/comments" \
+            --jq "[.[] | select(.body | contains(\"$MARKER\"))] | length" || echo 1)
+          if [ "$seen" = "0" ]; then
+            gh pr comment "$PR" --body "$MARKER Thanks! 🙌 Something got in the way of merging this automatically — a merge conflict, most likely. A maintainer will take it from here."
+          fi

@@ -7,8 +7,16 @@
  *   node scripts/validate.js                 # offline checks (schema, duplicates)
  *   node scripts/validate.js --check-remote  # + live GitHub checks (repo exists,
  *                                            #   is public, has license and APK release)
+ *   node scripts/validate.js --check-remote --only data/apps/foo.json [more.json …]
+ *                                            #   run the live checks on these manifests
+ *                                            #   only (the offline checks always cover
+ *                                            #   every file — duplicates need them to)
+ *   node scripts/validate.js --check-remote --strict --only data/apps/foo.json
+ *                                            #   also fail on "a human should look at
+ *                                            #   this" warnings — used by auto-merge
  *
- * Exit code 0 = all good, 1 = at least one error. Warnings never fail the run.
+ * Exit code 0 = all good, 1 = at least one error. Warnings never fail the run
+ * unless --strict says otherwise.
  */
 'use strict';
 
@@ -32,6 +40,13 @@ const KNOWN_FIELDS = [
   'icon', 'screenshots', 'website', 'download', 'fdroid', 'added', 'tags', 'antiFeatures',
   'status',
 ];
+
+// Warnings that mean "nobody could confirm this listing is fine" — in --strict
+// mode they become errors, so the auto-merge workflow leaves the PR for a human.
+// "no-apk" is deliberately not here: F-Droid and download-page fallbacks are normal.
+const STRICT_BLOCKING = new Set([
+  'remote-skipped', 'unreachable', 'unverified', 'archived', 'no-license', 'releases-unchecked',
+]);
 
 function isString(v) {
   return typeof v === 'string';
@@ -107,10 +122,10 @@ function checkManifest(fileName, app) {
   return errors;
 }
 
-async function checkRemote(app, errors, warnings) {
+async function checkRemote(app, errors, warn) {
   const m = app.repo.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)$/);
   if (!m) {
-    warnings.push('remote checks currently only cover GitHub repos — skipped');
+    warn('remote-skipped', 'remote checks currently only cover GitHub repos — skipped');
     return;
   }
   const headers = {
@@ -123,7 +138,7 @@ async function checkRemote(app, errors, warnings) {
   try {
     res = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}`, { headers });
   } catch (e) {
-    warnings.push(`could not reach the GitHub API (${e.message}) — remote checks skipped`);
+    warn('unreachable', `could not reach the GitHub API (${e.message}) — remote checks skipped`);
     return;
   }
   if (res.status === 404) {
@@ -131,13 +146,13 @@ async function checkRemote(app, errors, warnings) {
     return;
   }
   if (!res.ok) {
-    warnings.push(`could not verify repo (GitHub API returned HTTP ${res.status})`);
+    warn('unverified', `could not verify repo (GitHub API returned HTTP ${res.status})`);
     return;
   }
   const repo = await res.json();
   if (repo.private) errors.push('repo is private — only public repos can be listed');
-  if (repo.archived) warnings.push('repo is archived — consider whether it should be listed');
-  if (!repo.license) warnings.push('GitHub detects no license file in the repo');
+  if (repo.archived) warn('archived', 'repo is archived — consider whether it should be listed');
+  if (!repo.license) warn('no-license', 'GitHub detects no license file in the repo');
 
   try {
     const rel = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}/releases/latest`, { headers });
@@ -153,27 +168,49 @@ async function checkRemote(app, errors, warnings) {
         : app.download
           ? 'the Download button will use the listed download page'
           : 'the Download button will fall back to the releases page';
-      warnings.push(`no .apk asset in the latest GitHub release — ${fallback}`);
+      warn('no-apk', `no .apk asset in the latest GitHub release — ${fallback}`);
     }
   } catch (e) {
-    warnings.push(`could not check releases (${e.message})`);
+    warn('releases-unchecked', `could not check releases (${e.message})`);
   }
+}
+
+// `--only a.json b.json` — every non-flag argument that follows, until the next flag.
+function parseOnly(argv) {
+  const at = argv.indexOf('--only');
+  if (at === -1) return null;
+  const picked = new Set();
+  for (let i = at + 1; i < argv.length && !argv[i].startsWith('--'); i++) {
+    picked.add(path.basename(argv[i]));
+  }
+  return picked;
 }
 
 async function main() {
   const remote = process.argv.includes('--check-remote');
+  const strict = process.argv.includes('--strict');
+  const only = parseOnly(process.argv);
   const files = fs.readdirSync(APPS_DIR).filter((f) => f.endsWith('.json')).sort();
   if (files.length === 0) {
     console.error('No manifests found in data/apps/');
     process.exit(1);
   }
+  if (only) {
+    const missing = [...only].filter((f) => !files.includes(f));
+    if (missing.length) {
+      console.error(`--only names manifests that are not in data/apps/: ${missing.join(', ')}`);
+      process.exit(1);
+    }
+  }
 
   let failed = false;
+  let remoteChecked = 0;
   const seenRepos = new Map(); // lowercased repo URL -> first file that used it
 
   for (const file of files) {
     const errors = [];
-    const warnings = [];
+    const warnings = []; // { code, message }
+    const warn = (code, message) => warnings.push({ code, message });
     let app;
     try {
       app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
@@ -194,9 +231,16 @@ async function main() {
       }
     }
 
-    if (remote && errors.length === 0) {
-      await checkRemote(app, errors, warnings);
+    const wantRemote = remote && (!only || only.has(file));
+    if (wantRemote && errors.length === 0) {
+      await checkRemote(app, errors, warn);
+      remoteChecked++;
     }
+
+    // In --strict mode the "could not confirm this" warnings are errors, so a
+    // listing nobody has looked at never merges on its own.
+    const blocking = strict && wantRemote ? warnings.filter((w) => STRICT_BLOCKING.has(w.code)) : [];
+    for (const w of blocking) errors.push(`a human should look at this one: ${w.message}`);
 
     if (errors.length) {
       failed = true;
@@ -205,10 +249,15 @@ async function main() {
     } else {
       console.log(`✓ ${file}`);
     }
-    for (const w of warnings) console.log(`    warning: ${w}`);
+    for (const w of warnings) {
+      if (!blocking.includes(w)) console.log(`    warning: ${w.message}`);
+    }
   }
 
-  console.log(`\n${files.length} manifest(s) checked${failed ? ' — FAILED' : ', all good'}`);
+  const scope = remote
+    ? ` (${remoteChecked} also checked against the live repo${strict ? ', strictly' : ''})`
+    : '';
+  console.log(`\n${files.length} manifest(s) checked${scope}${failed ? ' — FAILED' : ', all good'}`);
   process.exit(failed ? 1 : 0);
 }
 

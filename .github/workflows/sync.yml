@@ -1,7 +1,7 @@
 name: Sync app data
 
 # Refreshes stars, releases, APK links, icons and screenshots for every
-# listed app, then commits data/live.json — which triggers the deploy.
+# listed app, then commits data/live.json — which the host rebuilds from.
 on:
   schedule:
     - cron: "17 */6 * * *" # every 6 hours
@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # to dispatch deploy.yml when hosting on GitHub Pages
 
 jobs:
   sync:
@@ -32,3 +33,12 @@ jobs:
           git add data/live.json
           git diff --cached --quiet || git commit -m "chore: refresh live app data"
           git push
+
+      - name: Kick off the deploy
+        # A push made with GITHUB_TOKEN does not trigger push-triggered workflows,
+        # so GitHub Pages hosting needs an explicit nudge. Vercel/Cloudflare build
+        # from the push webhook and need nothing here — leave PAGES_DEPLOY unset.
+        if: vars.PAGES_DEPLOY == 'true'
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

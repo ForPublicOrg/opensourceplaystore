@@ -948,7 +948,7 @@ ${registryNote}
   <p class="center" style="margin-top:10px"><button class="btn btn-secondary" id="copy-btn" type="button">📋 Copy the app info instead</button></p>
   <div class="callout" id="after-publish" hidden>
     🎉 <strong>Almost done!</strong> Finish on the GitHub tab that just opened: press the green button there.
-    We’ll check your app automatically — most apps appear within a day.
+    A robot checks your app and adds it — that usually takes a few minutes.
   </div>
   <div id="copy-fallback" hidden>
     <div class="form-field" style="margin-top:14px">

@@ -6,10 +6,14 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -17,10 +21,24 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate manifests (schema + live repo checks)
-        run: node scripts/validate.js --check-remote
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Which manifests does this PR touch?
+        id: changed
+        run: |
+          set -euo pipefail
+          files=$(gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --jq '.[] | select(.status != "removed") | .filename' \
+            | grep -E '^data/apps/[a-z0-9-]+\.json$' | tr '\n' ' ' || true)
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+
+      - name: Validate manifests (schema always, live repo checks for what changed)
+        run: |
+          set -euo pipefail
+          if [ -n "${{ steps.changed.outputs.files }}" ]; then
+            node scripts/validate.js --check-remote --only ${{ steps.changed.outputs.files }}
+          else
+            node scripts/validate.js
+          fi
 
       - name: Build site
         run: node build.js

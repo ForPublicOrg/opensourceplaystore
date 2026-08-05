@@ -120,6 +120,16 @@ duplicate id or repo, repo missing/private. Soft warn (mergeable, one-glance lab
 no APK in latest release, no license detected, archived repo. Same checks runnable
 locally: `node scripts/validate.js [--check-remote]`.
 
+**Unattended merge.** A PR that only *adds* `data/apps/<id>.json` files (≤5 of them,
+nothing else touched) is squash-merged by CI with no human in the loop, so publishing
+takes minutes rather than a maintainer's attention. For that path the soft warnings
+that mean *nobody could confirm this* — archived, no license, non-GitHub host,
+API unreachable — are promoted to blocks (`--strict`); "no APK in latest release"
+stays soft, since the F-Droid and download-page fallbacks are normal. Everything
+else, including edits to an existing listing, is labelled `needs-review` and waits
+for a person. The guard is a path allowlist in `.github/workflows/auto-merge.yml`,
+which is also why that workflow never executes the PR's code.
+
 ## Performance budget
 
 - First paint = one request: critical CSS inlined in every generated page (< ~10KB).
