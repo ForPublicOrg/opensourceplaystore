@@ -228,6 +228,11 @@ function draw(){b.textContent=cur()==='dark'?'☀️':'🌙';b.setAttribute('ari
 b.addEventListener('click',function(){var n=cur()==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);
 try{localStorage.setItem('osps-theme',n)}catch(e){}draw()});draw()})();</script>`;
 
+/* Vercel Web Analytics. Served first-party from our own origin, cookieless,
+   and no-op unless Analytics is enabled for the project in Vercel. Not run
+   through versioned() — the path is provided by the platform, not public/. */
+const ANALYTICS = '<script defer src="/_vercel/insights/script.js"></script>';
+
 /* `key` is matched exactly against the page's `active` id — never derived
    from the href, so no substring surprises. The mobile Search tab shares the
    catalog's key on purpose: it opens /apps/, so it lights up there. */
@@ -245,7 +250,7 @@ const NAV_SEARCH = `<form class="nav-search" action="/apps/" role="search">
         <input type="search" name="q" placeholder="Search apps…" aria-label="Search apps" autocomplete="off">
       </form>`;
 
-function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '' }) {
+function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false }) {
   const fullTitle = urlPath === '/' ? `${config.siteName} — ${config.tagline}` : `${title} · ${config.siteName}`;
   const canonical = config.baseUrl + urlPath;
   const current = (item) => (active && item.key === active ? ' aria-current="page"' : '');
@@ -305,7 +310,7 @@ ${content}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 ${THEME_TOGGLE}
 ${BANNER_JS}
-${scripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}
+${scripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}${analytics ? '\n' + ANALYTICS : ''}
 </body>
 </html>
 `;
@@ -512,6 +517,7 @@ ${syncedLine}`;
     content,
     scripts: ['/js/search.js', '/js/strips.js'],
     navSearch: false,
+    analytics: true,
   });
 }
 
