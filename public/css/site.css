@@ -835,6 +835,215 @@ p { margin: 0.5em 0 1em; }
   background: var(--surface);
 }
 
+/* ---------- Screenshot lightbox ---------- */
+
+/* The page behind the enlarged picture must not scroll under it. */
+.lightbox-open, .lightbox-open body { overflow: hidden; }
+
+/* The dialog itself carries the scrim (not ::backdrop) so a drag-to-dismiss
+   gesture can thin it out live as the picture follows your finger. */
+.lightbox {
+  width: 100%;
+  max-width: 100%;
+  /* dvh, so a phone's shrinking URL bar can't crop the controls off the
+     bottom exactly when someone reaches for Close. */
+  height: 100%;
+  height: 100dvh;
+  max-height: 100%;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgba(8, 14, 11, 0.82);
+  color: var(--text);
+  overflow: hidden;
+}
+.lightbox::backdrop {
+  background: rgba(8, 14, 11, 0.4);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.lightbox[open] { animation: lightbox-in 0.24s ease-out; }
+.lightbox:focus { outline: none; }
+@keyframes lightbox-in { from { opacity: 0; } to { opacity: 1; } }
+
+.lightbox-track {
+  display: flex;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+  /* Sideways gestures scroll the track and up-and-down ones reach the
+     drag-to-dismiss handler — but pinch-to-zoom is left to the browser: it
+     is the only way to inspect detail in a picture the site cannot describe. */
+  touch-action: pan-x pinch-zoom;
+}
+.lightbox-track::-webkit-scrollbar { display: none; }
+
+.lightbox-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Room for the close button above and the arrows/counter below. */
+  padding: 76px 16px 96px;
+  box-sizing: border-box;
+}
+.lightbox-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 18px;
+  box-shadow: var(--shadow-lift);
+  /* The flight in and out is driven by transforms from lightbox.js. */
+  will-change: transform;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* The viewer is always a dark room, so its controls are smoked glass in both
+   themes — theme-coloured chrome would disappear into the scrim in dark mode. */
+.lightbox-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: saturate(1.6) blur(14px);
+  backdrop-filter: saturate(1.6) blur(14px);
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+.lightbox-btn:hover:not(:disabled) { background: rgba(255, 255, 255, 0.28); }
+.lightbox-btn:active:not(:disabled) { transform: scale(0.94); }
+.lightbox-oops {
+  position: absolute;
+  color: #fff;
+  font-weight: 700;
+}
+.lightbox-btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+
+.lightbox-close {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  font-size: 1.25rem;
+  z-index: 1;
+}
+
+/* Back, count, dots and forward live in one floating cluster, so the bottom
+   of the screen reads as a single control rather than scattered furniture —
+   and a thumb can reach all of it. The wrapper deliberately carries no
+   transform or filter: either would trap the arrows' position:fixed inside
+   it on wide screens. */
+.lightbox-controls {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  pointer-events: none;
+}
+.lightbox-controls > * { pointer-events: auto; }
+
+.lightbox-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  padding: 6px 14px 6px 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(20, 26, 23, 0.55);
+  -webkit-backdrop-filter: saturate(1.6) blur(18px);
+  backdrop-filter: saturate(1.6) blur(18px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.lightbox-count {
+  margin: 0 4px 0 8px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #fff;
+  white-space: nowrap;
+}
+.lightbox-dots {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lightbox-dots::-webkit-scrollbar { display: none; }
+/* Small dots, finger-sized tap areas. The current one stretches into a pill. */
+.lightbox-dot {
+  width: 24px;
+  height: 40px;
+  min-width: 24px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  padding: 0;
+}
+.lightbox-dot:hover:not(:disabled) { background: rgba(255, 255, 255, 0.12); }
+.lightbox-dot::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  transition: width 0.2s ease, background-color 0.2s ease;
+}
+.lightbox-dot.is-current::before {
+  width: 20px;
+  background: #4ade80;
+}
+
+/* Wide screens: lift the arrows out of the bar to the edges of the picture,
+   where a mouse expects them. They stay the same buttons. */
+@media (min-width: 700px) {
+  .lightbox-prev, .lightbox-next {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+  }
+  .lightbox-prev { left: 18px; }
+  .lightbox-next { right: 18px; }
+  .lightbox-prev:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
+  .lightbox-next:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
+  .lightbox-count { margin-left: 14px; }
+  .lightbox-bar { padding: 6px 14px 6px 6px; }
+}
+
+/* Narrow screens don't have room for arrows, a count and a row of dots. The
+   dots are the part that goes: the count says the same thing in words, and
+   it is the live region a screen reader reads. Swiping still works. */
+@media (max-width: 520px) {
+  .lightbox-dots { display: none; }
+}
+
 .links-list { list-style: none; margin: 0; padding: 0; }
 .links-list li { margin: 0 0 10px; }
 .links-list a {

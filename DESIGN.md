@@ -62,7 +62,7 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 | All apps | `/apps/` | the full catalog: search box, sort tabs, 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
 | Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
 | In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
-| App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license, 🧪/💤 pills), Download + Share, screenshots (tap → full size), description, the 5 repo links, 🧭 More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
+| App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license, 🧪/💤 pills), Download + Share, screenshots (tap → in-page viewer), description, the 5 repo links, 🧭 More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
 | Publish | `/publish/` | paste repo URL → autofill → category chips → "still in testing?" checkbox → checklist → GitHub handoff |
 | Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what 🧪 In testing means) |
 | About | `/about/` | how the site works, for skeptical parents and developers |
@@ -94,6 +94,18 @@ box is hidden and the paginated catalog does everything.
 - One accent color (green gradient) reserved for the primary action on each page; amber only for genuine caution (install-guide warning step).
 - Real screenshots and app icons are auto-discovered at sync time from each repo's fastlane
   metadata; a "🔥 Popular right now" strip on the home page showcases screenshot banners.
+- **Screenshot viewer** (`public/js/lightbox.js`): tapping a screenshot enlarges it over the
+  page — never a new tab. The picture flies out of the thumbnail and back into whichever one
+  you're viewing when you close (the strip scrolls to match, and focus lands there too).
+  Sideways swiping is native CSS scroll-snap, so it keeps platform momentum; dragging the
+  picture down dismisses it, thinning the scrim as it follows your finger; pinch-to-zoom is
+  left to the browser. Controls are one glass cluster — `‹ Picture 3 of 6 ●●●●● ›` — hard-coded
+  light-on-dark because the scrim is dark in *both* themes. Opening pushes one history entry,
+  so Back closes the viewer and a second Back leaves the page. Nothing required (closing,
+  scroll unlock, focus return, landing on the right picture) depends on an animation or a
+  `close` event firing — throttled timelines and browsers that skip the event must not be able
+  to strand a visitor. Enhancement only: without JS the screenshots stay plain links to the
+  images, and Back returns.
 - Downloads are always direct APKs when at all possible: GitHub release asset first, then
   **F-Droid** (via the optional `fdroid` manifest field), then the `download` URL, then the releases page.
 - Cards: big tap targets (whole card ≥ 88px), icon, name, tagline, `⭐ 12k` pill (or `🆕 New`), category emoji. Grid 2-col phones → 5-col desktop.
@@ -111,7 +123,12 @@ locally: `node scripts/validate.js [--check-remote]`.
 ## Performance budget
 
 - First paint = one request: critical CSS inlined in every generated page (< ~10KB).
-- JS per page: home ≤10KB (search/filter), detail ≤4KB (live refresh), publish ≤8KB (autofill + JSON), all plain ES modules, no framework.
+- JS per page, measured gzipped (what the host actually sends): home ≤4KB (search 2.6 + strips
+  0.9), detail ≤9KB (app 1.6 + strips 0.9 + screenshot viewer 6.1, and the viewer is only
+  loaded on pages that have screenshots), publish ≤5KB. Plain scripts, no framework. Raw file
+  sizes run ~3× larger because this codebase comments heavily on purpose.
+- Full-size screenshots are never fetched until the viewer opens, and then only the picture
+  you're on plus its two neighbours. They reuse the thumbnails' URLs, so the cache serves them.
 - Icons: publisher icon URL or GitHub avatar CDN fallback, `loading="lazy" decoding="async"` + explicit dimensions.
 - Hosting: Cloudflare Pages primary (`_headers` cache control), GitHub Pages fallback (`CNAME` included).
 

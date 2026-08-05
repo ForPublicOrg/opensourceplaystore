@@ -721,11 +721,14 @@ function appPage(app) {
     ? '<div class="callout warn"><strong>🧪 Early version:</strong> this app is still being built and tested. Things may change or break — trying it and telling the makers what you find is a big help.</div>'
     : '';
 
+  /* Each screenshot stays a real link to the image: with JavaScript off,
+     tapping one opens it full size and Back returns here. lightbox.js
+     intercepts the click and enlarges it in place instead. */
   const shots = screenshotsOf(app);
   const screenshotsHtml = shots.length
     ? `<h2>What it looks like</h2>
-<div class="screenshots">
-${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" target="_blank" rel="noopener"><img src="${esc(s)}" alt="Screenshot ${i + 1} of ${esc(app.name)} — opens full size" loading="lazy" decoding="async"></a>`).join('\n')}
+<div class="screenshots" data-lightbox="${esc(app.name)}">
+${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Picture ${i + 1} of ${shots.length} — see it bigger"><img src="${esc(s)}" alt="" loading="lazy" decoding="async"></a>`).join('\n')}
 </div>` : '';
 
   const descHtml = app.description.split(/\n\s*\n/)
@@ -828,7 +831,9 @@ ${adminLinks}`;
     urlPath: `/app/${app.id}/`,
     active: null,
     content,
-    scripts: ['/js/app.js', '/js/strips.js'],
+    scripts: shots.length
+      ? ['/js/app.js', '/js/strips.js', '/js/lightbox.js']
+      : ['/js/app.js', '/js/strips.js'],
     bodyAttrs: gh ? ` data-github="${esc(gh)}"` : '',
     head: ldScript,
     image: iconUrl(app, 192),
