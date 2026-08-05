@@ -1,0 +1,10 @@
+{
+  "id": "geotag-video-camera",
+  "name": "geotag-video-camera",
+  "tagline": "A camera with geo-tag location support",
+  "description": "A camera with geo-tag location support",
+  "repo": "https://github.com/mlm-games/geotag-video-camera",
+  "category": "media",
+  "license": "GPL-3.0",
+  "added": "2026-08-05"
+}
