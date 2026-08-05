@@ -287,7 +287,7 @@ function homePage() {
   const content = `
 <section class="hero">
   <h1>Free apps made by people, for people 💚</h1>
-  <p>Every app here is <strong>open source</strong> — anyone can look inside and see exactly how it’s made. No account. No ads from us. No tricks.</p>
+  <p>Every app here is <strong>open source</strong> — anyone can look inside and see exactly how it’s made. No account. No tricks.</p>
   <div class="search-box">
     <span aria-hidden="true">🔍</span>
     <input id="search-input" type="search" placeholder="Search for an app…" aria-label="Search for an app" autocomplete="off">
