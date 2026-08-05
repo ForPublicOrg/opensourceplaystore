@@ -43,3 +43,16 @@
   if (q0) { input.value = q0; apply(q0); }
   if (params.get('focus') === 'search' || location.hash === '#search') input.focus();
 })();
+
+/* Horizontal strips (Popular / Trending / Recently added) always fade their
+   right edge in CSS. The left edge only fades in once a strip has actually
+   been scrolled — otherwise the first card would look dimmed from the start. */
+(function () {
+  'use strict';
+  var strips = document.querySelectorAll('.feature-strip, .card-strip');
+  Array.prototype.forEach.call(strips, function (el) {
+    function sync() { el.classList.toggle('can-scroll-left', el.scrollLeft > 8); }
+    el.addEventListener('scroll', sync, { passive: true });
+    sync();
+  });
+})();

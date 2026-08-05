@@ -379,11 +379,19 @@ p { margin: 0.5em 0 1em; }
 /* Fade the trailing edge of horizontal strips so the partially-visible
    card at the right reads as "scroll for more" instead of a hard clip
    through the middle of its text (the same fix applies at any width, so
-   it fixes the cutoff on desktop too, not just narrow phone screens). */
+   it fixes the cutoff on desktop too, not just narrow phone screens).
+   The left edge only fades once search.js confirms the strip has
+   actually been scrolled (.can-scroll-left) — fading it unconditionally
+   would dim the very first card before anyone has scrolled at all. */
 .feature-strip,
 .card-strip {
   -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
   mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
+}
+.feature-strip.can-scroll-left,
+.card-strip.can-scroll-left {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
 }
 
 .feature-strip {
