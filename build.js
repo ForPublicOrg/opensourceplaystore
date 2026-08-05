@@ -12,9 +12,22 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
+
+/* Script URLs carry a content hash (?v=abc123) so a browser's long-lived
+   /js/* cache can never pair an old script with newer HTML — the URL
+   changes whenever the file does. */
+const assetHashes = new Map();
+function versioned(urlPath) {
+  if (!assetHashes.has(urlPath)) {
+    const file = fs.readFileSync(path.join(ROOT, 'public', ...urlPath.split('/').filter(Boolean)));
+    assetHashes.set(urlPath, crypto.createHash('sha256').update(file).digest('hex').slice(0, 8));
+  }
+  return `${urlPath}?v=${assetHashes.get(urlPath)}`;
+}
 
 /* ---------------- data ---------------- */
 
@@ -292,7 +305,7 @@ ${content}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 ${THEME_TOGGLE}
 ${BANNER_JS}
-${scripts.map((s) => `<script src="${s}" defer></script>`).join('\n')}
+${scripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}
 </body>
 </html>
 `;
