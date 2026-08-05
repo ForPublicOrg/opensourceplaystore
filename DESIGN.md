@@ -26,6 +26,7 @@ data/live.json           GENERATED snapshot: stars, latest release, APK url, per
 schema/app.schema.json   manifest contract (mirrored by scripts/validate.js, zero-dep)
 scripts/validate.js      offline schema checks + optional --check-remote (CI on PRs)
 scripts/sync.js          fetches GitHub data for all apps -> data/live.json (cron Action, ~6h)
+scripts/discover.js      searches GitHub for listable apps not yet in the catalog (manual)
 build.js                 zero-dependency static site generator -> dist/
 public/                  static assets copied as-is (JS, favicon, _headers, CNAME...)
 ```
@@ -57,8 +58,8 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 
 | Page | Path | Notes |
 |---|---|---|
-| Home | `/` | hero + search, category chips, 🔥 Popular (screenshot strip), 🚀 Trending, 💎 Hidden gems (20–1500 stars, active in last 6 months), ⭐ Top apps preview (12) → "Browse all" |
-| All apps | `/apps/` | the full catalog: search box, sort tabs (⭐ Top / 🆕 New / 🔄 Updated / 🔤 A–Z), 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
+| Home | `/` | hero + search, category chips, 🔥 Popular (screenshot strip), 🚀 Trending, 🌱 Brand new (repo created in the last year, ≥20 stars), 💎 Hidden gems (20–1500 stars, active in last 6 months), ⭐ Top apps preview (12) → "Browse all" |
+| All apps | `/apps/` | the full catalog: search box, sort tabs, 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
 | Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
 | In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
 | App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license, 🧪/💤 pills), Download + Share, screenshots (tap → full size), description, the 5 repo links, 🧭 More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
@@ -70,6 +71,13 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 Every page also carries a dismissible ⚠️ **keepandroidopen.org** banner (localStorage
 dismiss, applied pre-paint) and — on pages without their own search box — a compact
 header search that submits to `/apps/?q=…`. Phones get a 🔍 Search tab instead.
+
+**Sort orders** (catalog + every category, all pre-rendered so sorting works without JS):
+`⭐ Top` GitHub stars · `🆕 Just added` the listing's `added` date · `🌱 Brand new` the repo's
+creation date · `🔄 Updated` latest release or push · `👤 Maker` owner A–Z (cards swap the
+category tag for the maker's name) · `🔤 A–Z` name. The active order is spelled out in words
+next to the count ("Youngest projects first — recently started"), because two of the tabs mean
+"new" in different senses. Only `top` is indexable; the rest are `noindex,follow`.
 
 **Search** is index-based: `build.js` emits `search-index.json` (~90 KB, name/tagline/
 tags/owner/category/stars/icon per app), fetched once on first focus/keystroke.
@@ -107,13 +115,15 @@ locally: `node scripts/validate.js [--check-remote]`.
 - Icons: publisher icon URL or GitHub avatar CDN fallback, `loading="lazy" decoding="async"` + explicit dimensions.
 - Hosting: Cloudflare Pages primary (`_headers` cache control), GitHub Pages fallback (`CNAME` included).
 
-## Seeded catalog
+## Catalog
 
-18 well-known FOSS apps across all 10 categories (NewPipe, Signal, Bitwarden, Termux,
-Thunderbird, AntennaPod, Aegis, Organic Maps, Mindustry, Shattered Pixel Dungeon,
-AnkiDroid, Kiwix, Element, VLC, Fossify Gallery, OsmAnd, Joplin, KOReader). All repo
-slugs verified live; 5 use the `download` fallback because their GitHub releases carry
-no APK.
+800+ apps across all 10 categories, grown by mining GitHub for open-source Android
+projects that ship a real `.apk` in their releases. Listings are only written for repos
+that are unarchived, carry a detected license, and are neither libraries, demos nor
+mirrors. The 2026 sweep leaned into the AI wave — on-device LLM chats, offline
+transcription and TTS, screen translators, phone-driving agents — alongside the
+long-standing FOSS staples (LibreTube, KeePassDX, Obtainium, FairEmail, Jellyfin,
+Unciv, Fossify, Rethink, Trail Sense …).
 
 ## Later (v2)
 

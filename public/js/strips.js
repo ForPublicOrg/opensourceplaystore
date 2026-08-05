@@ -6,7 +6,7 @@
 (function () {
   'use strict';
   var strips = Array.prototype.slice.call(
-    document.querySelectorAll('.feature-strip, .card-strip, .screenshots, .chips')
+    document.querySelectorAll('.feature-strip, .card-strip, .screenshots, .chips, .sort-tabs')
   );
   if (!strips.length) return;
 
@@ -20,6 +20,15 @@
   }
 
   function syncAll() { strips.forEach(sync); }
+
+  /* Sort tabs and category chips arrive with one item already selected. On a
+     phone the row is wider than the screen, so scroll the chosen one into
+     view — otherwise the page looks like nothing is selected at all. */
+  strips.forEach(function (el) {
+    var current = el.querySelector('[aria-current], .active');
+    if (!current || el.scrollWidth <= el.clientWidth) return;
+    el.scrollLeft = Math.max(0, current.offsetLeft - (el.clientWidth - current.offsetWidth) / 2);
+  });
 
   strips.forEach(function (el) {
     el.addEventListener('scroll', function () { sync(el); }, { passive: true });

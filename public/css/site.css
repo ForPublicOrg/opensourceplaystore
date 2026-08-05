@@ -449,7 +449,8 @@ p { margin: 0.5em 0 1em; }
   text-decoration: none;
   white-space: nowrap;
 }
-/* Narrow phones: text-only tabs so all four fit without hidden overflow. */
+/* Narrow phones: text-only tabs, so more of the row fits before it has to
+   scroll. Overflow is faded at the edges (see the scroller masks below). */
 @media (max-width: 480px) {
   .sort-tab { padding: 10px 12px; }
   .sort-tab > span[aria-hidden="true"] { display: none; }
@@ -547,7 +548,8 @@ p { margin: 0.5em 0 1em; }
   mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
 }
 @media (max-width: 720px) {
-  .chips {
+  .chips,
+  .sort-tabs {
     -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
     mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
   }
@@ -555,6 +557,7 @@ p { margin: 0.5em 0 1em; }
 .feature-strip.can-scroll-left,
 .card-strip.can-scroll-left,
 .screenshots.can-scroll-left,
+.sort-tabs.can-scroll-left,
 .chips.can-scroll-left {
   -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
@@ -562,6 +565,7 @@ p { margin: 0.5em 0 1em; }
 .feature-strip.at-end.can-scroll-left,
 .card-strip.at-end.can-scroll-left,
 .screenshots.at-end.can-scroll-left,
+.sort-tabs.at-end.can-scroll-left,
 .chips.at-end.can-scroll-left {
   -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px);
   mask-image: linear-gradient(to right, transparent 0, #000 40px);
@@ -569,6 +573,7 @@ p { margin: 0.5em 0 1em; }
 .feature-strip.at-end:not(.can-scroll-left),
 .card-strip.at-end:not(.can-scroll-left),
 .screenshots.at-end:not(.can-scroll-left),
+.sort-tabs.at-end:not(.can-scroll-left),
 .chips.at-end:not(.can-scroll-left) {
   -webkit-mask-image: none;
   mask-image: none;

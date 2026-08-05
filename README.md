@@ -7,7 +7,8 @@ GitHub stars and comments are the repo's own Discussions. See [DESIGN.md](DESIGN
 the full product design.
 
 - **No backend, no accounts, no tracking** — 100% static files.
-- **Fully usable with JavaScript disabled** — real download links are baked into the HTML.
+- **Fully usable with JavaScript disabled** — real download links and every sort order are
+  baked into the HTML (⭐ stars · 🆕 just added · 🌱 newest projects · 🔄 updated · 👤 maker · 🔤 A–Z).
 - **Kid-simple UX** — Apple-glass look, emoji navigation, grade-3 reading level.
 
 ## Repo layout
@@ -19,6 +20,7 @@ data/live.json           generated snapshot (stars, APK links, icons, screenshot
 schema/app.schema.json   the manifest contract
 scripts/validate.js      schema + duplicate + live-repo checks (zero-dep)
 scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json
+scripts/discover.js      finds listable apps GitHub has and this catalog doesn't
 scripts/serve.js         tiny local preview server
 build.js                 zero-dependency static site generator -> dist/
 public/                  assets copied into dist/ (JS, favicon, CNAME, _headers)
@@ -37,6 +39,19 @@ node scripts/serve.js    # preview at http://localhost:8080
 
 `node scripts/validate.js` checks every manifest; add `--check-remote` to also verify
 repos exist and releases carry APKs.
+
+## Growing the catalog
+
+```bash
+GITHUB_TOKEN=… node scripts/discover.js --set ai --out candidates.json
+```
+
+`discover.js` searches GitHub for app-shaped repositories, drops anything already listed,
+archived, unlicensed, forked, or lacking an `.apk` in its recent releases, and prints what
+survives. Query sets: `ai` (on-device models, assistants, OCR/speech), `topics` (the everyday
+app categories), `recent` (young projects), or `all`. It deliberately does **not** write
+manifests — the tagline and description are hand-written for every listing, in plain language,
+which is the part that makes this catalog worth browsing.
 
 ## Going live (one-time setup)
 

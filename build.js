@@ -180,15 +180,21 @@ const TESTING_CAT = {
 const CMP = {
   top: (a, b) => (liveOf(b).stars ?? -1) - (liveOf(a).stars ?? -1) || a.name.localeCompare(b.name),
   new: (a, b) => String(b.added || '').localeCompare(String(a.added || '')) || CMP.top(a, b),
+  fresh: (a, b) => String(liveOf(b).createdAt || '').localeCompare(String(liveOf(a).createdAt || '')) || CMP.top(a, b),
   updated: (a, b) => String(lastActiveOf(b) || '').localeCompare(String(lastActiveOf(a) || '')) || CMP.top(a, b),
+  maker: (a, b) => ownerOf(a).localeCompare(ownerOf(b), 'en', { sensitivity: 'base' }) || a.name.localeCompare(b.name),
   az: (a, b) => a.name.localeCompare(b.name),
 };
 
+/* `note` explains the order in plain words — two of these tabs are about
+   "new" in different senses, and the label alone can't carry that. */
 const SORTS = [
-  { id: 'top', emoji: '⭐', label: 'Top' },
-  { id: 'new', emoji: '🆕', label: 'New' },
-  { id: 'updated', emoji: '🔄', label: 'Updated' },
-  { id: 'az', emoji: '🔤', label: 'A–Z' },
+  { id: 'top', emoji: '⭐', label: 'Top', note: 'Most GitHub stars first' },
+  { id: 'new', emoji: '🆕', label: 'Just added', note: 'Newest listings on this site first' },
+  { id: 'fresh', emoji: '🌱', label: 'Brand new', note: 'Youngest projects first — recently started' },
+  { id: 'updated', emoji: '🔄', label: 'Updated', note: 'Worked on most recently first' },
+  { id: 'maker', emoji: '👤', label: 'Maker', note: 'Grouped by who makes them, A–Z' },
+  { id: 'az', emoji: '🔤', label: 'A–Z', note: 'By name, A to Z' },
 ];
 
 const PER_PAGE = 24;
@@ -327,14 +333,19 @@ function starsPillHtml(app, withId) {
   return `<span class="pill"${id}>🆕 New${withId ? ' here' : ''}</span>`;
 }
 
-function appCard(app) {
+/* `maker: true` swaps the category tag for the maker's name — without it the
+   maker sort just looks like a shuffled list. */
+function appCard(app, opts = {}) {
   const cat = catById[app.category];
   const testing = isTesting(app) ? '<span class="pill warn">🧪 Testing</span>' : '';
+  const tag = opts.maker
+    ? `<span class="cat-tag"><span aria-hidden="true">👤</span> ${esc(ownerOf(app))}</span>`
+    : `<span class="cat-tag"><span aria-hidden="true">${cat.emoji}</span> ${esc(cat.name)}</span>`;
   return `<a class="card" style="--cat:${cat.hue}" href="/app/${app.id}/">
   <img class="card-icon" src="${esc(iconUrl(app, 128))}" alt="" width="72" height="72" loading="lazy" decoding="async">
   <span class="card-name">${esc(app.name)}</span>
   <span class="card-tagline">${esc(app.tagline)}</span>
-  <span class="card-meta">${starsPillHtml(app, false)}${testing}<span class="cat-tag"><span aria-hidden="true">${cat.emoji}</span> ${esc(cat.name)}</span></span>
+  <span class="card-meta">${starsPillHtml(app, false)}${testing}${tag}</span>
 </a>`;
 }
 
@@ -449,9 +460,9 @@ function categoryChips(activeId) {
 </div>`;
 }
 
-function grid(appList) {
+function grid(appList, opts) {
   return `<div class="grid">
-${appList.map((a) => appCard(a)).join('\n')}
+${appList.map((a) => appCard(a, opts)).join('\n')}
 </div>`;
 }
 
@@ -480,6 +491,18 @@ function homePage() {
     })
     .sort((a, b) => trendingScore(b) - trendingScore(a))
     .slice(0, 8);
+  /* Brand new: projects that only started in the last year and are already
+     worth a look — the strip the "fresh" sort exists for. */
+  const shownIds = new Set([...trending, ...gems].map((a) => a.id));
+  const YEAR = 365 * 86400000;
+  const brandNew = [...apps]
+    .filter((a) => {
+      const l = liveOf(a);
+      if (shownIds.has(a.id) || typeof l.stars !== 'number' || l.stars < 20) return false;
+      return l.createdAt && Date.now() - new Date(l.createdAt).getTime() < YEAR;
+    })
+    .sort(CMP.fresh)
+    .slice(0, 8);
 
   const content = `
 <section class="hero">
@@ -496,6 +519,7 @@ ${popular.map(featureCard).join('\n')}
   </div>
 </section>` : ''}
 ${cardStrip('🚀', 'Trending', trending, '/apps/updated/')}
+${cardStrip('🌱', 'Brand new', brandNew, '/apps/fresh/')}
 ${cardStrip('💎', 'Hidden gems', gems)}
 <section data-hide-on-search>
   ${sectionHead('⭐', 'Top apps', '/apps/', 'See all')}
@@ -537,9 +561,9 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
     ? `${fmtCount(total)} free, open-source Android apps — and growing.`
     : `${esc(cat.blurb)} — ${total >= 10 ? `${fmtCount(total)} apps, ` : ''}all free and open source.`;
 
-  const countText = total <= PER_PAGE
+  const countText = (total <= PER_PAGE
     ? `${total === 1 ? '1 app' : `${fmtCount(total)} apps`}`
-    : `Showing ${first}–${last}`;
+    : `Showing ${first}–${last}`) + ` · ${sort.note}`;
 
   const body = total === 0
     ? `<div class="empty-state">
@@ -553,7 +577,7 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
     ${sortTabs(catId, sort.id)}
     <p class="catalog-count">${countText}</p>
   </div>
-  ${grid(pageApps)}
+  ${grid(pageApps, { maker: sort.id === 'maker' })}
   ${paginationNav(catId, sort.id, pageNum, totalPages)}
 </div>`;
 
@@ -568,7 +592,14 @@ ${body}
 ${isAll ? searchResults() : ''}
 ${syncedLine}`;
 
-  const sortSuffix = { top: '', new: ' — newest first', updated: ' — recently updated', az: ' — A to Z' }[sort.id];
+  const sortSuffix = {
+    top: '',
+    new: ' — newest listings',
+    fresh: ' — newest projects',
+    updated: ' — recently updated',
+    maker: ' — by maker',
+    az: ' — A to Z',
+  }[sort.id];
   const pageSuffix = pageNum > 1 ? ` — page ${pageNum}` : '';
   let head = '';
   if (pageNum > 1) head += `<link rel="prev" href="${catalogUrl(catId, sort.id, pageNum - 1)}">`;
