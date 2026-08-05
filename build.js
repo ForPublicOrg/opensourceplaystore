@@ -458,7 +458,7 @@ ${shots.map((s, i) => `  <img src="${esc(s)}" alt="Screenshot ${i + 1} of ${esc(
 </p>` : '';
 
   const content = `
-<p style="margin-top:18px"><a href="/">← All apps</a></p>
+<p style="margin-top:14px"><a class="back-link" href="/">← All apps</a></p>
 <section class="app-hero">
   <img class="app-hero-icon" src="${esc(iconUrl(app, 192))}" alt="" width="96" height="96" decoding="async">
   <div>

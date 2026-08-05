@@ -442,7 +442,9 @@ p { margin: 0.5em 0 1em; }
   padding: 18px 0 40px;
 }
 @media (max-width: 480px) {
-  .grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  /* minmax(0, 1fr), not 1fr: a bare 1fr floors at the item's min-content width,
+     and a nowrap .card-meta then pushes both columns past the viewport. */
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 }
 
 .card {
@@ -470,10 +472,13 @@ p { margin: 0.5em 0 1em; }
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(20, 34, 26, 0.15);
 }
-.card-name { font-weight: 800; font-size: 1.05rem; }
+/* Long single-word names ("Authenticator") would otherwise spill out of a
+   narrow phone column with no way to break. */
+.card-name { font-weight: 800; font-size: 1.05rem; overflow-wrap: anywhere; }
 .card-tagline {
   color: var(--muted);
   font-size: 0.9rem;
+  overflow-wrap: anywhere;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -564,10 +569,31 @@ p { margin: 0.5em 0 1em; }
   box-shadow: var(--shadow-lift);
   border: 1px solid var(--glass-border);
 }
-.app-hero h1 { margin-bottom: 0.15em; }
+.app-hero h1 { margin-bottom: 0.15em; overflow-wrap: anywhere; }
+.app-hero > div { min-width: 0; }
 .app-hero .tagline { color: var(--muted); font-size: 1.1rem; margin: 0 0 10px; }
 .badge-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .badge-row .pill { text-decoration: none; }
+
+/* On a phone a 104px icon leaves the title a ~190px column — long names
+   wrapped to three cramped lines. Give the text back some room. */
+@media (max-width: 480px) {
+  .app-hero { gap: 14px; padding-top: 20px; }
+  .app-hero-icon { width: 76px; height: 76px; border-radius: 20px; }
+}
+
+/* Standalone back link: an inline-sized tap target is too small on touch. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 4px 12px 4px 4px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.back-link:hover { background: var(--accent-soft); }
 
 .download-box {
   border-radius: var(--radius);
@@ -616,6 +642,12 @@ p { margin: 0.5em 0 1em; }
 .links-list .link-sub { display: block; font-weight: 400; font-size: 0.85rem; color: var(--muted); }
 
 .meta-line { color: var(--muted); font-size: 0.9rem; }
+/* Vertical padding on an inline link grows the touch area without reflowing
+   the line — these are 19px tall otherwise. Kept small enough that the hit
+   box doesn't swallow the line above when a paragraph wraps. */
+@media (max-width: 720px) {
+  .meta-line a { padding: 6px 2px; }
+}
 
 /* ---------- Callouts, steps, FAQ ---------- */
 
@@ -714,8 +746,8 @@ details.faq[open] { border-color: var(--accent); }
 }
 .cat-picker label:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
 
-.check-row { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 10px; font-weight: 400; }
-.check-row input { width: 22px; height: 22px; margin-top: 3px; accent-color: var(--accent); }
+.check-row { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 10px; padding: 6px 0; min-height: 44px; font-weight: 400; }
+.check-row input { width: 22px; height: 22px; margin-top: 3px; flex-shrink: 0; accent-color: var(--accent); }
 
 .checklist { list-style: none; margin: 12px 0; padding: 0; }
 .checklist li { display: flex; gap: 10px; padding: 6px 0; align-items: baseline; }
@@ -757,6 +789,10 @@ details.faq[open] { border-color: var(--accent); }
 }
 .site-footer a { color: var(--muted); }
 .site-footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; }
+/* The nav links here are flex items on their own line — size them for touch. */
+@media (max-width: 720px) {
+  .site-footer .wrap > a { display: inline-flex; align-items: center; min-height: 44px; }
+}
 .footmark { margin: 0; display: inline-flex; align-items: center; flex-wrap: wrap; }
 .athena-mark { display: inline-flex; align-items: center; gap: 6px; }
 .athena-mark img { vertical-align: middle; }
