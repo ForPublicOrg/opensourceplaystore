@@ -5,8 +5,9 @@
  *
  * Usage:
  *   node scripts/validate.js                 # offline checks (schema, duplicates)
- *   node scripts/validate.js --check-remote  # + live GitHub checks (repo exists,
- *                                            #   is public, has license and APK release)
+ *   node scripts/validate.js --check-remote  # + live checks (repo exists, is public,
+ *                                            #   has license and APK release; the icon
+ *                                            #   and screenshots are real, light pictures)
  *   node scripts/validate.js --check-remote --only data/apps/foo.json [more.json …]
  *                                            #   run the live checks on these manifests
  *                                            #   only (the offline checks always cover
@@ -22,6 +23,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { rawImageUrl } = require('./lib/image-url');
 
 const ROOT = path.join(__dirname, '..');
 const APPS_DIR = path.join(ROOT, 'data', 'apps');
@@ -44,9 +46,20 @@ const KNOWN_FIELDS = [
 // Warnings that mean "nobody could confirm this listing is fine" — in --strict
 // mode they become errors, so the auto-merge workflow leaves the PR for a human.
 // "no-apk" is deliberately not here: F-Droid and download-page fallbacks are normal.
+// Nor is "big-image": a heavy screenshot is worth saying out loud, but it is a
+// real picture of a real app and no reason to hold up a listing.
 const STRICT_BLOCKING = new Set([
   'remote-skipped', 'unreachable', 'unverified', 'archived', 'no-license', 'releases-unchecked',
+  'not-an-image',
 ]);
+
+// Above this, a screenshot costs more to load than the page around it. Phone
+// screenshots leave plenty of room: a 1080x2400 PNG is normally 200-500 KB.
+const BIG_IMAGE_BYTES = 1024 * 1024;
+
+function fmtBytes(n) {
+  return n >= 1024 * 1024 ? `${(n / 1024 / 1024).toFixed(1)} MB` : `${Math.round(n / 1024)} KB`;
+}
 
 function isString(v) {
   return typeof v === 'string';
@@ -175,6 +188,47 @@ async function checkRemote(app, errors, warn) {
   }
 }
 
+/* A link to a web page about a picture, and a 6 MB picture, both sail through
+   every offline check: the manifest is valid and the URL is https. One shows as
+   blank space, the other takes seconds to appear on a phone. Only the server can
+   tell us which we have, so ask it — against the same URL build.js will render,
+   so a pasted github.com/…/blob/… link is judged on where it actually resolves. */
+async function checkImages(app, warn) {
+  const links = [];
+  if (app.icon) links.push(['icon', app.icon]);
+  (app.screenshots || []).forEach((s, i) => links.push([`screenshot ${i + 1}`, s]));
+
+  for (const [label, listed] of links) {
+    const url = rawImageUrl(listed);
+    const via = url === listed ? '' : ` (resolves to ${url})`;
+    let res;
+    try {
+      res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'opensourceplaystore-validator' } });
+    } catch (e) {
+      warn('image-unchecked', `${label}: could not load it (${e.message})`);
+      continue;
+    }
+    if (res.status === 404 || res.status === 410) {
+      warn('not-an-image', `${label}: nothing there (HTTP ${res.status})${via} — the listing will show blank space`);
+      continue;
+    }
+    if (!res.ok) {
+      // Plenty of hosts refuse HEAD outright; that is about them, not the picture.
+      warn('image-unchecked', `${label}: the server answered HTTP ${res.status}, so it could not be checked`);
+      continue;
+    }
+    const type = (res.headers.get('content-type') || '').split(';')[0].trim();
+    if (!type.startsWith('image/')) {
+      warn('not-an-image', `${label}: serves ${type || 'no content type'}, not a picture${via} — the listing will show blank space. Link straight to the image file`);
+      continue;
+    }
+    const size = Number(res.headers.get('content-length'));
+    if (size > BIG_IMAGE_BYTES) {
+      warn('big-image', `${label}: ${fmtBytes(size)} — anything over ${fmtBytes(BIG_IMAGE_BYTES)} is slow on a phone. Please scale it to the phone's own screen size, or save it as JPEG or WebP`);
+    }
+  }
+}
+
 // `--only a.json b.json` — every non-flag argument that follows, until the next flag.
 function parseOnly(argv) {
   const at = argv.indexOf('--only');
@@ -234,6 +288,7 @@ async function main() {
     const wantRemote = remote && (!only || only.has(file));
     if (wantRemote && errors.length === 0) {
       await checkRemote(app, errors, warn);
+      await checkImages(app, warn);
       remoteChecked++;
     }
 
