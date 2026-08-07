@@ -1,0 +1,23 @@
+{
+  "id": "screeny",
+  "name": "Screeny",
+  "tagline": "Provide Millions of Ultra HD wallpaper free of cost no Ads",
+  "description": "Browse, search, and favourite high-resolution wallpapers, then download them or set them straight as your device wallpaper.",
+  "repo": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp",
+  "category": "productivity",
+  "license": "SEE-REPO",
+  "icon": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/androidApp/src/main/ic_launcher-playstore.png",
+  "screenshots": [
+    "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/screenshots/home.png",
+    "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/screenshots/detail.png"
+  ],
+  "download": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/tree/main/androidApp/apk",
+  "tags": [
+    "wallpaper",
+    "personalization",
+    "4k",
+    "hd",
+    "lockscreen"
+  ],
+  "added": "2026-08-07"
+}
