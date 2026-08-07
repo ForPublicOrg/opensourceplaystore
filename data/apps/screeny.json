@@ -6,10 +6,10 @@
   "repo": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp",
   "category": "productivity",
   "license": "SEE-REPO",
-  "icon": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/androidApp/src/main/ic_launcher-playstore.png",
+  "icon": "https://raw.githubusercontent.com/Shahidzbi4213/WallpaperApp-Cmp/main/androidApp/src/main/ic_launcher-playstore.png",
   "screenshots": [
-    "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/screenshots/home.png",
-    "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/blob/main/screenshots/detail.png"
+    "https://raw.githubusercontent.com/Shahidzbi4213/WallpaperApp-Cmp/main/screenshots/home.png",
+    "https://raw.githubusercontent.com/Shahidzbi4213/WallpaperApp-Cmp/main/screenshots/detail.png"
   ],
   "download": "https://github.com/Shahidzbi4213/WallpaperApp-Cmp/tree/main/androidApp/apk",
   "tags": [

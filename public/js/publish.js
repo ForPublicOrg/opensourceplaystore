@@ -68,6 +68,24 @@
     return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 50);
   }
 
+  /* The link in your address bar while *looking at* a picture on a forge points
+     at the page around it, not the picture — paste it into an <img> and you get
+     nothing. Swap in the raw-file link so the pictures actually show up.
+     Kept in step with rawImageUrl() in build.js, which catches anything that
+     slips through by hand. */
+  function rawImageUrl(url) {
+    var u = String(url).trim();
+    var gh = u.match(/^https:\/\/github\.com\/([^/]+\/[^/]+)\/(?:blob|raw)\/(.+?)(?:\?.*)?$/);
+    if (gh) return 'https://raw.githubusercontent.com/' + gh[1] + '/' + gh[2];
+    var gl = u.match(/^https:\/\/gitlab\.com\/(.+?)\/-\/blob\/(.+?)(?:\?.*)?$/);
+    if (gl) return 'https://gitlab.com/' + gl[1] + '/-/raw/' + gl[2];
+    var cb = u.match(/^https:\/\/codeberg\.org\/([^/]+\/[^/]+)\/src\/(.+?)(?:\?.*)?$/);
+    if (cb) return 'https://codeberg.org/' + cb[1] + '/raw/' + cb[2];
+    var bb = u.match(/^https:\/\/bitbucket\.org\/([^/]+\/[^/]+)\/src\/(.+?)(?:\?.*)?$/);
+    if (bb) return 'https://bitbucket.org/' + bb[1] + '/raw/' + bb[2];
+    return u;
+  }
+
   function setError(id, msg) {
     var el = $(id + '-error');
     if (el) { el.textContent = msg || ''; el.hidden = !msg; }
@@ -180,7 +198,7 @@
     p.querySelector('.card-tagline').textContent = fields.tagline.value || 'One line about what it does';
     var img = p.querySelector('.card-icon');
     img.src = fields.icon.value && /^https:\/\//.test(fields.icon.value)
-      ? fields.icon.value
+      ? rawImageUrl(fields.icon.value)
       : parsed && parsed.host === 'github.com'
         ? 'https://github.com/' + parsed.owner + '.png?size=128'
         : img.getAttribute('data-fallback');
@@ -238,9 +256,9 @@
       category: catInput.value,
       license: detectedLicense || 'SEE-REPO',
     };
-    if (icon.value) manifest.icon = icon.value;
+    if (icon.value) manifest.icon = rawImageUrl(icon.value);
     var shots = fields.screenshots.value.split('\n').map(function (s) { return s.trim(); })
-      .filter(function (s) { return /^https:\/\//.test(s); }).slice(0, 8);
+      .filter(function (s) { return /^https:\/\//.test(s); }).map(rawImageUrl).slice(0, 8);
     if (shots.length) manifest.screenshots = shots;
     if (website.value) manifest.website = website.value;
     if (download.value) manifest.download = download.value;
