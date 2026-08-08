@@ -1,0 +1,10 @@
+{
+  "id": "autumn-gallery",
+  "name": "Autumn Gallery",
+  "tagline": "A modern Flutter gallery app featuring albums, photos, videos, sharing, and edit",
+  "description": "A privacy-focused, feature-rich Flutter gallery for organizing, viewing, managing, and editing your photos and videos..",
+  "repo": "https://github.com/TaH00R/gallery-app",
+  "category": "tools",
+  "license": "SEE-REPO",
+  "added": "2026-08-08"
+}
