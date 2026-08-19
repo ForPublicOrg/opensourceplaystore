@@ -1,0 +1,12 @@
+{
+  "id": "pothole-reporter",
+  "name": "Pothole Reporter",
+  "tagline": "Spots potholes as you drive and writes the complaint for you",
+  "description": "Mount your phone facing the road, drive, and Pothole Reporter photographs the potholes it spots. For each one it finds the address, works out which officer is responsible for that road, and looks up the road-work contract it was probably built under.\n\nThen it writes the complaint email for you, with the photo, the exact spot and the contract number in it. You read the draft and press send yourself — the app never sends anything on its own.\n\nIt can only name a recipient in Karnataka, India, where it has the officer directory and the contract records to check against; a pothole anywhere else is saved but not addressed to anyone. You bring your own OpenAI key, and every photo it checks is sent there to be looked at, so a long drive costs a little money. Your key and your reports stay on the phone.",
+  "repo": "https://github.com/coding-parrot/pothole-reporter",
+  "category": "tools",
+  "license": "MIT",
+  "icon": "https://raw.githubusercontent.com/coding-parrot/pothole-reporter/main/static/icon-512.png",
+  "tags": ["potholes", "roads", "civic", "india", "karnataka", "ai"],
+  "added": "2026-08-19"
+}
