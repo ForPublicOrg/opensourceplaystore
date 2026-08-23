@@ -51,7 +51,9 @@ GITHUB_TOKEN=… node scripts/discover.js --set ai --out candidates.json
 `discover.js` searches GitHub for app-shaped repositories, drops anything already listed,
 archived, unlicensed, forked, or lacking an `.apk` in its recent releases, and prints what
 survives. Query sets: `ai` (on-device models, assistants, OCR/speech), `topics` (the everyday
-app categories), `recent` (young projects), or `all`. It deliberately does **not** write
+app categories), `recent` (young projects), `everyday` (the ordinary reasons people open a
+phone — todo, pdf, alarm, recipes, budgets, sudoku), `niche` (ssh, mqtt, ham radio, obd2,
+3D printing, self-hosted clients), or `all`. It deliberately does **not** write
 manifests — the tagline and description are hand-written for every listing, in plain language,
 which is the part that makes this catalog worth browsing.
 
@@ -71,7 +73,11 @@ which is the part that makes this catalog worth browsing.
      [public/CNAME](public/CNAME) already points at the domain.
 4. Point the domain's DNS at your host (CNAME/A records per their docs).
 5. The [sync workflow](.github/workflows/sync.yml) refreshes stars/downloads/screenshots
-   every 6 hours automatically.
+   every 6 hours automatically. A catalog this size costs more API calls than one hourly
+   quota allows, so a run refreshes the stalest entries first and stops cleanly when the
+   quota is spent — the next run carries on from where it left off, and a few runs cover
+   everything. Newly listed apps sort first, so they get their stars and download link on
+   the very next sync.
 
 ## How publishing works
 

@@ -47,9 +47,37 @@ function pickApk(apks) {
   return [...apks].sort((a, b) => score(a) - score(b))[0];
 }
 
-async function gh(url) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function gh(url, attempt = 0) {
   const res = await fetch(url, { headers: HEADERS });
   if (res.status === 404) return { notFound: true };
+  if (res.status === 403 || res.status === 429) {
+    /* Two different limits arrive as 403 and they want opposite responses.
+       A secondary limit — too many calls too quickly, with hourly quota still
+       on the clock — clears in seconds, so back off and retry. The hourly
+       quota running out does not clear until the window turns over, and this
+       catalog is big enough to spend a whole window in one run, so waiting it
+       out would idle the job for the best part of an hour. Stop instead: the
+       run keeps everything it already fetched and the next one carries on. */
+    const remaining = Number(res.headers.get('x-ratelimit-remaining'));
+    if (remaining === 0) {
+      const reset = Number(res.headers.get('x-ratelimit-reset'));
+      const err = new Error('GitHub hourly quota spent');
+      err.quotaSpent = true;
+      err.resetAt = reset ? new Date(reset * 1000) : null;
+      throw err;
+    }
+    if (attempt < 3) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const wait = Number.isFinite(retryAfter) && retryAfter > 0
+        ? Math.min(retryAfter * 1000, 120000)
+        : 5000 * 2 ** attempt;
+      console.log(`… slowing down (attempt ${attempt + 1}/3)`);
+      await sleep(wait);
+      return gh(url, attempt + 1);
+    }
+  }
   if (!res.ok) throw new Error(`GitHub API ${res.status} for ${url}`);
   return res.json();
 }
@@ -227,13 +255,25 @@ async function main() {
   const out = { fetchedAt: new Date().toISOString(), apps: { ...previous.apps } };
   let ok = 0;
   let failed = 0;
+  let quotaReset = null;
+
+  /* Stalest data first. At 3–5 API calls per app a full catalog can cost more
+     than one hourly quota, so a run may not reach the end — refreshing what
+     has waited longest means successive runs cover the whole catalog instead
+     of retrying the same prefix. Apps with no entry at all sort first, so a
+     listing published today gets its stars and download link on the next run. */
+  const lastSyncOf = (file) => {
+    const prev = previous.apps && previous.apps[file.slice(0, -5)];
+    return (prev && prev.syncedAt) || '';
+  };
+  const queue = [...files].sort((a, b) => lastSyncOf(a).localeCompare(lastSyncOf(b)));
 
   /* Each app costs 3–5 API calls, so a catalog of several hundred takes far
      too long one at a time. A small worker pool keeps the whole run to a few
      minutes while staying well inside GitHub's concurrency comfort zone. */
-  const queue = [...files];
   async function worker() {
     for (;;) {
+      if (quotaReset) return; // another worker hit the wall — drain quietly
       const file = queue.shift();
       if (!file) return;
       const app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
@@ -248,6 +288,10 @@ async function main() {
         ].filter(Boolean).join('  ');
         console.log(`✓ ${app.id}  ⭐${entry.stars ?? '-'}  ${extras}`);
       } catch (e) {
+        if (e.quotaSpent) {
+          quotaReset = e.resetAt || true;
+          return;
+        }
         failed++;
         console.error(`✗ ${app.id}: ${e.message} (keeping previous data)`);
       }
@@ -261,7 +305,11 @@ async function main() {
   }
 
   fs.writeFileSync(LIVE_FILE, JSON.stringify(out, null, 1) + '\n');
-  console.log(`\nSynced ${ok}/${files.length} apps${failed ? ` (${failed} failed, previous data kept)` : ''} -> data/live.json`);
+  const notes = [
+    failed ? `${failed} failed, previous data kept` : null,
+    quotaReset ? `stopped early: GitHub quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''} — the next run continues from the stalest entries` : null,
+  ].filter(Boolean).join('; ');
+  console.log(`\nSynced ${ok}/${files.length} apps${notes ? ` (${notes})` : ''} -> data/live.json`);
 }
 
 main().catch((e) => {

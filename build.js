@@ -46,9 +46,20 @@ try {
   console.log('note: no data/live.json — building with fallback links (run scripts/sync.js for live data)');
 }
 
-const apps = fs.readdirSync(path.join(ROOT, 'data', 'apps'))
+const allApps = fs.readdirSync(path.join(ROOT, 'data', 'apps'))
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'apps', f), 'utf8')));
+
+/* A repo whose owner deleted it (or went private) is flagged `missing` by
+   scripts/sync.js. Every link on its page would be a 404 and its download
+   button would go nowhere, so it is dropped from the build rather than
+   shipped broken — the manifest stays in data/apps so the listing comes
+   back by itself if the repo returns. */
+const missingRepo = allApps.filter((a) => live.apps[a.id] && live.apps[a.id].missing);
+const apps = allApps.filter((a) => !(live.apps[a.id] && live.apps[a.id].missing));
+if (missingRepo.length) {
+  console.log(`note: skipped ${missingRepo.length} listing(s) whose repo no longer exists: ${missingRepo.map((a) => a.id).join(', ')}`);
+}
 
 const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
 const liveOf = (app) => live.apps[app.id] || {};
@@ -155,9 +166,14 @@ function timeAgo(iso) {
   return `${Math.round(d / 365)} years ago`;
 }
 
+/* "Last active" = the most recent sign of life, whichever it is. A repo can
+   push code for years after its last tagged release (and, rarely, publish a
+   release without a push showing), so taking releaseDate first would rank a
+   still-active project by a date from several years ago. */
 const lastActiveOf = (app) => {
   const l = liveOf(app);
-  return l.releaseDate || l.pushedAt || null;
+  const dates = [l.releaseDate, l.pushedAt].filter(Boolean);
+  return dates.length ? dates.sort().at(-1) : null;
 };
 
 /* "In testing": the maker says so in the manifest (status: "testing"), or the
@@ -435,7 +451,7 @@ function searchResults() {
 function trendingScore(app) {
   const l = liveOf(app);
   if (typeof l.stars !== 'number') return -1;
-  const lastActive = l.releaseDate || l.pushedAt;
+  const lastActive = lastActiveOf(app);
   if (!lastActive) return -1;
   const days = Math.max(0, (Date.now() - new Date(lastActive).getTime()) / 86400000);
   return Math.log10(l.stars + 1) / Math.sqrt(days + 2);
@@ -483,6 +499,18 @@ const syncedLine = live.fetchedAt
 
 /* ---------------- home ---------------- */
 
+/* The catalog's founding import: hundreds of listings share the one date the
+   site launched, so calling them "just added" weeks later says nothing about
+   any of them. Only the OLDEST date can be that import — a later batch, however
+   big, really was added later and belongs in the strip. */
+const SEEDED_ON = (() => {
+  const perDay = new Map();
+  for (const a of apps) if (a.added) perDay.set(a.added, (perDay.get(a.added) || 0) + 1);
+  if (!perDay.size) return new Set();
+  const oldest = [...perDay.keys()].sort()[0];
+  return perDay.get(oldest) > apps.length / 4 ? new Set([oldest]) : new Set();
+})();
+
 function homePage() {
   const popular = sortedApps.filter((a) => screenshotsOf(a).length > 0).slice(0, 8);
   const trending = [...apps]
@@ -502,15 +530,31 @@ function homePage() {
     })
     .sort((a, b) => trendingScore(b) - trendingScore(a))
     .slice(0, 8);
+  const shownIds = new Set([...trending, ...gems].map((a) => a.id));
+  /* Just added: listings that went up on this site recently, however old the
+     project behind them is. Every other strip ranks by the repo's own history,
+     so a fresh listing of a long-running app had nowhere to appear. Empty
+     strips render as nothing, so this disappears in a quiet month. */
+  const TWO_MONTHS = 61 * 86400000;
+  const justAdded = [...apps]
+    .filter((a) => !shownIds.has(a.id) && a.added && !SEEDED_ON.has(a.added)
+      && Date.now() - new Date(a.added).getTime() < TWO_MONTHS)
+    .sort(CMP.new)
+    .slice(0, 8);
+  justAdded.forEach((a) => shownIds.add(a.id));
   /* Brand new: projects that only started in the last year and are already
      worth a look — the strip the "fresh" sort exists for. */
-  const shownIds = new Set([...trending, ...gems].map((a) => a.id));
   const YEAR = 365 * 86400000;
+  const QUARTER = 90 * 86400000;
   const brandNew = [...apps]
     .filter((a) => {
       const l = liveOf(a);
-      if (shownIds.has(a.id) || typeof l.stars !== 'number' || l.stars < 20) return false;
-      return l.createdAt && Date.now() - new Date(l.createdAt).getTime() < YEAR;
+      if (shownIds.has(a.id) || !l.createdAt) return false;
+      const age = Date.now() - new Date(l.createdAt).getTime();
+      if (age >= YEAR) return false;
+      /* A repo a few weeks old cannot have earned 20 stars yet, so the traction
+         bar only applies once a project has had a quarter to earn them. */
+      return age < QUARTER || (typeof l.stars === 'number' && l.stars >= 20);
     })
     .sort(CMP.fresh)
     .slice(0, 8);
@@ -530,6 +574,7 @@ ${popular.map(featureCard).join('\n')}
   </div>
 </section>` : ''}
 ${cardStrip('🚀', 'Trending', trending, '/apps/updated/')}
+${cardStrip('🆕', 'Just added', justAdded, '/apps/new/')}
 ${cardStrip('🌱', 'Brand new', brandNew, '/apps/fresh/')}
 ${cardStrip('💎', 'Hidden gems', gems)}
 <section data-hide-on-search>

@@ -144,13 +144,22 @@ which is also why that workflow never executes the PR's code.
 
 ## Catalog
 
-800+ apps across all 10 categories, grown by mining GitHub for open-source Android
+1400+ apps across all 10 categories, grown by mining GitHub for open-source Android
 projects that ship a real `.apk` in their releases. Listings are only written for repos
 that are unarchived, carry a detected license, and are neither libraries, demos nor
 mirrors. The 2026 sweep leaned into the AI wave — on-device LLM chats, offline
 transcription and TTS, screen translators, phone-driving agents — alongside the
 long-standing FOSS staples (LibreTube, KeePassDX, Obtainium, FairEmail, Jellyfin,
 Unciv, Fossify, Rethink, Trail Sense …).
+
+A later sweep filled the gaps that mining alone kept missing: the household-name
+messengers and browsers (SimpleX, Element X, Bluesky, Cromite, Tuta), the emulators
+and game ports people actually look for (PPSSPP, Dolphin, ScummVM, SuperTuxKart), and
+whole domains no topic query reached — ham radio, OBD-II, 3D printing, birding,
+accessibility, disaster alerts, recipes. Apps are turned away when the shipped binary
+is not open source, when the interface exists only in a language the site does not
+serve, when the project has been abandoned by its author, or when the app's purpose is
+patching someone else's proprietary app.
 
 ## Later (v2)
 
