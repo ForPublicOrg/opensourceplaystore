@@ -1,8 +1,8 @@
 {
   "id": "hopline",
   "name": "Hopline",
-  "tagline": "Chat with your group when there's no signal",
-  "description": "Hopline is group chat for places with no mobile signal and no WiFi: treks, camps, festivals, village fairs, power cuts.\n\nPhones link to each other directly over Bluetooth and WiFi, and every phone passes messages along for the others. A message can travel down a whole line of hikers, far beyond the reach of any single phone. No internet, no account, no server, no hotspot to set up.\n\nOne person starts a group and gets a 3-word code like \"tiger river lamp\". Everyone else types the three words or scans the QR. Then it's one group chat, like a WhatsApp group, with private chats a tap away. Walk out of range and back, and the chat catches up by itself.\n\nEvery message tells you the truth in plain words: \"Waiting for a phone in range\", \"Sent\", \"Reached 7 of 9\", \"Delivered\". Hold the HELP button for two seconds and every phone in the group buzzes with your name and which phones you're near (it reaches your group only, not rescue services). If anyone in the group has internet, everyone can use a sliver of it: get the weather, read a web page as plain text, or send an SMS home through the friend's phone.\n\nAndroid 8+ with Google Play services. Each hop is Bluetooth range (about 20-40 m in the open). Android only; no end-to-end encryption; text only on purpose. Install it on every phone before you leave signal.",
+  "tagline": "Chat with everyone around you when there's no signal",
+  "description": "Hopline is group chat for places with no mobile signal and no WiFi: treks, camps, festivals, fairs, rallies, power cuts.\n\nPhones link to each other directly over Bluetooth and WiFi, and every phone passes messages along for the others. A message can travel down a whole line of hikers or across a packed ground, far beyond the reach of any single phone. No internet, no account, no server, no hotspot to set up.\n\nOne person starts a group and gets a 3-word code like \"tiger river lamp\". Everyone else types the three words or scans the QR. Then it's one group chat that looks and feels like the chat apps you already know, with private chats a tap away. Walk out of range and back, and the chat catches up by itself.\n\nThe ticks never lie: a clock while it waits for a phone in range, one tick when it's on its way, two ticks when phones confirm. Tap your own message to see exactly who has it, by name.\n\nBuilt for a few friends or a crowd: in a small group every phone confirms every message; in a gathering of hundreds or thousands the phones automatically stop chattering about receipts and slow their \"I'm here\" beacons, so the radios carry your words instead of overhead.\n\nIf anyone in the group has internet, everyone can use a sliver of it: read a web page as plain text, or send an SMS/email home through the friend's phone — the answer hops back to the whole group.\n\nAndroid 8+ with Google Play services. Each hop is Bluetooth range (about 20-40 m in the open). Android only; no end-to-end encryption; text only on purpose. Install it on every phone before you need it.",
   "repo": "https://github.com/ForPublicOrg/hopline",
   "category": "social",
   "license": "MIT",
@@ -14,9 +14,17 @@
     "bluetooth",
     "trek",
     "camping",
+    "festival",
+    "crowd",
     "no signal",
-    "group chat",
-    "emergency"
+    "group chat"
   ],
-  "status": "testing"
+  "status": "testing",
+  "screenshots": [
+    "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+    "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+    "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+    "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+    "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"
+  ]
 }
