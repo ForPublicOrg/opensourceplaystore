@@ -75,7 +75,12 @@
     }
   }
 
-  var KEY = 'osps:' + repo;
+  /* The cache key includes the baked-in download link: when a redeploy ships a
+     newer release URL, old cached entries stop matching and can never overwrite
+     the fresh link with a stale one (that bug shipped a v1.0 APK from a v2.0 page). */
+  var dlBtn = document.getElementById('download-btn');
+  var KEY = 'osps:' + repo + ':' + (dlBtn ? dlBtn.getAttribute('href') : '');
+  try { localStorage.removeItem('osps:' + repo); } catch (e) { /* legacy key */ }
   var TTL = 60 * 60 * 1000;
   try {
     var cached = JSON.parse(localStorage.getItem(KEY));
