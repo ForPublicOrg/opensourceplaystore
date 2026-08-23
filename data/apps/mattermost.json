@@ -1,0 +1,18 @@
+{
+  "id": "mattermost",
+  "name": "Mattermost",
+  "tagline": "Team chat that runs on your own server",
+  "description": "Mattermost is team chat in the style of Slack, and this is its official Android app. Channels, direct messages, threaded replies and file sharing, with the difference that the server behind it belongs to your workplace or community rather than to a software company.\n\nThe app is available in 21 languages, and new versions come out roughly every month.\n\nIt is not useful on its own — you need a Mattermost server to sign in to, running version 11.7.0 or newer, and Android 7.0 or later. If you compile the app yourself rather than installing a published build, you also have to run your own Mattermost push notification service for notifications to arrive.",
+  "repo": "https://github.com/mattermost/mattermost-mobile",
+  "category": "social",
+  "license": "Apache-2.0",
+  "website": "https://mattermost.com",
+  "tags": [
+    "chat",
+    "team",
+    "messaging",
+    "self-hosted",
+    "slack-alternative"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "telemone",
+  "name": "Telemone",
+  "tagline": "Telegram themes that match your phone's colours",
+  "description": "Telemone builds Telegram themes out of the colours your phone is already using. One tap and you get a theme that matches your wallpaper, instead of hunting through theme channels for something that nearly fits.\n\nIf you want to go further, every colour role can be adjusted by hand, with previews as you go. Save as many themes as you like and export them in Telemone's own format or the standard Telegram one, so you can share them or move them to another phone. It also ships with default themes you can recolour to your system palette.\n\nTelemone makes the theme file; you still load it into Telegram yourself. The app was removed from Google Play in May 2025, so the releases on GitHub are where it lives now.",
+  "repo": "https://github.com/nxoim/Telemone",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "telegram",
+    "themes",
+    "theming",
+    "monet",
+    "colours",
+    "wallpaper"
+  ],
+  "added": "2026-08-24"
+}

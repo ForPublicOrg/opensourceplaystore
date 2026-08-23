@@ -1,0 +1,12 @@
+{
+  "id": "telegram-monet",
+  "name": "Telegram Monet",
+  "tagline": "Make Telegram match your phone's colours",
+  "description": "Telegram looks the same on everyone's phone. Telegram Monet builds a theme from your Android Material 3 colour palette, so your chats pick up the same shades as the rest of your system instead of the stock blue.\n\nYou choose the colours in the app, it produces a theme file, and Telegram or Telegram X loads it. Volunteers have translated the app into more than twenty languages.\n\nIt only makes themes, so you still need Telegram or Telegram X installed to use them. Android 8 or newer is required.",
+  "repo": "https://github.com/mi-g-alex/Telegram-Monet",
+  "category": "tools",
+  "license": "EPL-2.0",
+  "website": "https://t.me/tgmonet",
+  "tags": ["telegram", "theme", "material-you", "colours", "customisation"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sms2email",
+  "name": "SMS2Email",
+  "tagline": "Forward your text messages to your email inbox",
+  "description": "SMS2Email sends a copy of every text message your phone receives on to an email address you choose. Handy if you keep a second phone or a spare SIM at home, or if you just want your one-time codes and alerts somewhere you can search them later.\n\nIt sits quietly in the background and mails each new SMS out through an email server you point it at, so the messages go straight from your phone to your own inbox.\n\nYou have to fill in your own account details before it can do anything: the outgoing (SMTP) server address and port, the username and password, and the address to send to. Many email providers make you create a separate app password for this rather than using your normal one.",
+  "repo": "https://github.com/SMS2Email/SMS2Email",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "io.github.sms2email.sms2email",
+  "tags": ["sms", "email", "forwarding", "smtp", "messages", "backup"],
+  "added": "2026-08-24"
+}

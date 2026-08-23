@@ -1,0 +1,19 @@
+{
+  "id": "dreamplayer",
+  "name": "DreamPlayer",
+  "tagline": "Play your videos in Dolby Vision and HDR, on phone or TV",
+  "description": "DreamPlayer plays the video files you already have, and tries hard to play them properly. It handles Dolby Vision, HDR10, HDR10+ and HLG and passes them through to your screen, with a small chip on screen telling you which format is actually running. Lossless soundtracks like DTS-HD and TrueHD work too, and can be sent over HDMI to a compatible soundbar for Atmos or DTS:X.\n\nIt can also reach files that are not on the phone: browse a NAS over SMB, a WebDAV server, or a Jellyfin or Emby library and play straight from it. Films and shows pick up a poster, cast and synopsis from TMDB, a continue watching row remembers where you stopped, and subtitle files sitting next to a video attach themselves in most of the usual formats. There is a full D-pad interface for Android TV and Fire TV alongside the phone version.\n\nWhat you see depends on your hardware: on a device without Dolby Vision it falls back to HDR10 or tells you it cannot play the file. The author is also open about the project being written together with AI coding agents, with each feature checked on a real device before it ships.",
+  "repo": "https://github.com/mangeshghodke/DreamPlayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "video",
+    "player",
+    "hdr",
+    "dolby",
+    "jellyfin",
+    "smb",
+    "subtitles"
+  ],
+  "added": "2026-08-24"
+}

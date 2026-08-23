@@ -1,0 +1,13 @@
+{
+  "id": "inknest",
+  "name": "InkNest",
+  "tagline": "Read comics and manga from free reading sites",
+  "description": "InkNest is a reader for comics and manga. You can search superhero titles, manga, webtoons and older classics, keep bookmarks and a reading history so you always land back where you stopped, and download issues to read when you have no signal.\n\nInkNest does not host any of it. The app pulls listings and pages from public comic and manga sites such as MangaDex, GlobalComix, Bato, ColaManga and WebToon, then puts them behind one interface. There is an iPhone and iPad version built from the same code.\n\nBecause everything comes from other people's websites, chapters can vanish and a source can break without warning, and the developers say plainly that they cannot vouch for where the material originally came from. You need a connection for anything you have not already downloaded. The app is built on Google Firebase, so crash reports, analytics and push notifications send some usage data off your phone.",
+  "repo": "https://github.com/p2devs/InkNest",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://p2devs.github.io/InkNest/",
+  "antiFeatures": ["nonfree-network", "tracking"],
+  "tags": ["comics", "manga", "reader", "webtoon", "offline", "mangadex"],
+  "added": "2026-08-24"
+}

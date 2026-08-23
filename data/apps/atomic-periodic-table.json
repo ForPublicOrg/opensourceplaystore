@@ -1,0 +1,22 @@
+{
+  "id": "atomic-periodic-table",
+  "name": "Atomic - Periodic Table",
+  "tagline": "The periodic table, offline and in detail",
+  "description": "Atomic is a periodic table for schoolwork and for curiosity. Tap an element and you get as much or as little as you need — atomic weight and the basics for a quick check, or electron configuration, ionisation energy and isotope half-lives when the homework gets serious.\n\nThe main table can swap which data it shows with one tap, colouring the whole grid by a property so the trends jump out. There are separate tables for electronegativity, solubility and the electrochemical series, plus a built-in dictionary for the terms nobody explains.\n\nMost of it works without a connection, though element images are fetched online unless you turn offline mode on. There are no ads, but a paid PRO upgrade unlocks extra data, extra tables and more of the study features, and syncing your notes and progress between devices means signing in with a Google account. The app reports usage data to Google's Firebase.",
+  "repo": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://www.jlindemann.se/",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "chemistry",
+    "elements",
+    "periodic",
+    "science",
+    "school",
+    "physics"
+  ],
+  "added": "2026-08-24"
+}

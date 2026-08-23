@@ -1,0 +1,13 @@
+{
+  "id": "flipper-mobile-app",
+  "name": "Flipper Mobile App",
+  "tagline": "Manage your Flipper Zero from your phone",
+  "description": "This is the official companion app for the Flipper Zero, the little pocket multi-tool for tinkerers. It pairs over Bluetooth and lets you keep the device's contents in order from your phone instead of hunching over its tiny screen.\n\nYou can browse the file manager, check device info, sync the files you have captured — NFC, Sub-GHz, infrared and RFID — organise your keys and share them with other Flipper owners, and install firmware updates. It can also stream the Flipper's screen to your phone and let you press its buttons remotely, which is much easier to read.\n\nIt only does anything if you own a Flipper Zero.",
+  "repo": "https://github.com/flipperdevices/Flipper-Android-App",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://flipper.net",
+  "fdroid": "com.flipperdevices.app",
+  "tags": ["flipper", "flipperzero", "nfc", "rfid", "bluetooth", "hardware"],
+  "added": "2026-08-24"
+}

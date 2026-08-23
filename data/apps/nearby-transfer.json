@@ -1,0 +1,11 @@
+{
+  "id": "nearby-transfer",
+  "name": "Nearby Transfer",
+  "tagline": "Send files between your phone and computer over your own Wi-Fi",
+  "description": "Nearby Transfer moves files straight between your phone and a computer sitting on the same Wi-Fi. Nothing travels over the internet and nothing lands in a cloud account: the two devices spot each other on the network and hand the file over directly.\n\nDevices pair once by checking that the same 6-digit number shows on both screens, and after that every transfer is encrypted end to end. Big files go across in chunks and pick up where they stopped if the Wi-Fi drops, and several devices can send at once. A computer can also act as a small WebDAV drive that your other devices browse, upload to and download from.\n\nYou need to install the desktop half on a Windows or Linux machine as well, and there is no macOS build. The Android app needs Android 8 or newer, and the APK is not attached to every release, so you may have to take an older release or build it yourself.",
+  "repo": "https://github.com/luo-5/nearby-transfer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["files", "transfer", "wifi", "lan", "sharing", "encrypted", "webdav"],
+  "added": "2026-08-24"
+}

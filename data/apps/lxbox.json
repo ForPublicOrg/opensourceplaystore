@@ -1,0 +1,19 @@
+{
+  "id": "lxbox",
+  "name": "LxBox",
+  "tagline": "Route your internet through your own VPN or proxy servers",
+  "description": "LxBox is a VPN and proxy client for Android. You hand it your own servers, pasted in as a link, a subscription URL, a WireGuard config or a file, and it sends your phone's traffic through them. It speaks a dozen protocols, including VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SSH, SOCKS, WireGuard and AmneziaWG.\n\nIt is built on sing-box, so the routing gets specific: send certain apps or websites through one server and everything else through another, chain one server through a second, or spread connections across a pool. You can ping your servers before you connect to find the fastest one, there is a speed test for your own connection, and a Quick Settings tile connects and disconnects with one tap. A Get WARP button registers a free Cloudflare tunnel, generating the private key on the phone so it never leaves. The interface is in English and Russian.\n\nLxBox comes with no servers of its own. You need your own, self-hosted or from a provider, before it can do anything at all. The settings run deep and getting the routing rules right takes some patience.",
+  "repo": "https://github.com/Leadaxe/LxBox",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": [
+    "vpn",
+    "proxy",
+    "sing-box",
+    "wireguard",
+    "shadowsocks",
+    "privacy",
+    "tunnel"
+  ],
+  "added": "2026-08-24"
+}

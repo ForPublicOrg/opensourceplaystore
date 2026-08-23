@@ -1,0 +1,18 @@
+{
+  "id": "expenso",
+  "name": "Expenso",
+  "tagline": "Track what you spend and keep to a budget, all offline",
+  "description": "Expenso keeps a record of the money going in and out. Add each expense or bit of income, drop it into a category you made yourself, and the dashboard shows how the month is shaping up: your running balance, what you have spent by category, and charts of where it went.\n\nYou can keep several accounts or wallets side by side, set budgets and watch how close you are getting to them, filter and search past transactions by date, and save a statement as a PDF. It is a Material 3 interface with a dark mode, built in Jetpack Compose.\n\nEverything is stored in a database on the phone itself. There is no account to create and no internet needed, which also means your records live on that one device and do not sync anywhere else.",
+  "repo": "https://github.com/darkvortex144/Expenso",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": [
+    "expenses",
+    "budget",
+    "money",
+    "finance",
+    "offline",
+    "tracker"
+  ],
+  "added": "2026-08-24"
+}

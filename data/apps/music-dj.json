@@ -1,0 +1,12 @@
+{
+  "id": "music-dj",
+  "name": "Music DJ",
+  "tagline": "Make loop-based tunes like the old Sony Ericsson phones",
+  "description": "Music DJ is a remake of MusicDJ, the tiny music maker that came on Sony Ericsson phones in the 2000s. You stack short loops of drums, bass and melody onto a grid and build a song out of them, using the original samples people remember.\n\nIt still opens the original MusicDJ files, so tracks you saved back then will play again. Anything you make can be exported as a WAV file to keep or pass on. Dark and light themes are both included.\n\nIt is a remake of a phone toy rather than a music studio, and it is still being filled in. Adjustable tempo, higher quality samples and faster exporting are all on the roadmap rather than in the app today.",
+  "repo": "https://github.com/pattlebass/Music-DJ",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://pattlebass.github.io/Music-DJ/",
+  "tags": ["music", "loops", "sampler", "retro", "songs", "maker"],
+  "added": "2026-08-24"
+}

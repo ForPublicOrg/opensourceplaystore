@@ -1,0 +1,14 @@
+{
+  "id": "sd-maid-se",
+  "name": "SD Maid SE",
+  "tagline": "Clear out the junk filling up your storage",
+  "description": "SD Maid SE hunts down the files nobody needs any more: leftovers from apps you uninstalled months ago, app caches, duplicate copies of the same photo, and whatever else has quietly eaten your free space. It lists what it found and how much room you would get back, and nothing is deleted until you say so.\n\nEach job has its own tool — a leftover finder, a cache cleaner, a duplicate finder, a storage overview, an app manager for switching apps off, photo compression, a swipe-through review for going file by file, and a scheduler for the regular tidy-up. It works on an ordinary unrooted phone, can do more if you have root or Shizuku set up, and needs Android 8 or newer.\n\nIt is a ground-up rewrite of the original SD Maid and is still being added to, so some pieces are missing. Every tool scans for free, but actually deleting app caches or duplicate files, clearing space from the storage overview and running cleanups on a schedule need a paid upgrade — bought on Google Play, or unlocked with a GitHub Sponsors donation in the open-source build. The app's icons and artwork are not covered by its open licence.",
+  "repo": "https://github.com/d4rken-org/sdmaid-se",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://sdmse.darken.eu",
+  "fdroid": "eu.darken.sdmse",
+  "antiFeatures": ["nonfree-assets"],
+  "tags": ["cleaner", "storage", "junk", "cache", "duplicates", "space"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "paperless-mobile",
+  "name": "Paperless Mobile",
+  "tagline": "Your paperless-ngx document archive, in your pocket",
+  "description": "Paperless Mobile is the phone app for paperless-ngx, the document archive you run at home. Point it at your server and every receipt, contract and letter you have filed is there to search, read, share or download, without fighting a website on a small screen.\n\nIt has a scanner built in, so you can photograph a new document and send it straight to your archive with the right tags and correspondent attached. Anything new waits in an inbox you can work through, and you can lock the whole app behind your fingerprint. Several accounts can be added if you look after more than one server.\n\nIt is useless on its own: it only works with a paperless-ngx server that you or someone you know already runs.",
+  "repo": "https://github.com/astubenbord/paperless-mobile",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "de.astubenbord.paperless_mobile",
+  "tags": [
+    "documents",
+    "paperless",
+    "scanner",
+    "archive",
+    "search",
+    "files"
+  ],
+  "added": "2026-08-24"
+}

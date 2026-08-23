@@ -1,0 +1,14 @@
+{
+  "id": "etchdroid",
+  "name": "EtchDroid",
+  "tagline": "Write a Linux install image to a USB stick from your phone",
+  "description": "When your laptop will not boot and you need a rescue USB, EtchDroid gets you out of it. Plug a USB stick into your phone with an OTG adapter, pick a disk image you have downloaded, and it writes a bootable drive. No root needed, no computer needed.\n\nIt handles modern GNU/Linux images including Ubuntu, Debian, Fedora, Arch, Linux Mint, Pop!_OS and FreeBSD, and Raspberry Pi SD card images once you have unzipped them.\n\nA few things it cannot do: official Microsoft Windows ISOs, Apple DMG files, and Linux images older than about 2010. It writes to USB flash drives and USB SD card readers only, not to external hard drives, SSDs, hubs or docks. The Google Play and GitHub builds send anonymous diagnostics (the name of the image file and the USB device ID) which you can switch off in the menu; the F-Droid build has none.",
+  "repo": "https://github.com/etchdroid/etchdroid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://etchdroid.app/",
+  "fdroid": "eu.depau.etchdroid",
+  "tags": ["usb", "bootable", "linux", "iso", "otg", "flash drive", "rescue"],
+  "antiFeatures": ["tracking"],
+  "added": "2026-08-24"
+}

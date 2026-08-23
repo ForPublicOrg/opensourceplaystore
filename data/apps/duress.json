@@ -1,0 +1,19 @@
+{
+  "id": "duress",
+  "name": "Duress",
+  "tagline": "A lock screen password that wipes instead of unlocking",
+  "description": "Duress watches your lock screen for one particular password that you pick in advance. If someone forces you to unlock the phone and you type that password instead of your real one, the app can wipe the device or send a signal to another app, rather than letting them in.\n\nIt is deliberately tiny: one setting, one job. It uses Android's accessibility service to notice what is typed at the lock screen, and device administrator rights if you want the wipe. It pairs with the same developer's Wasted app if you would rather it set off a wider panic routine.\n\nThings to know before you rely on it: it does not run in Android's safe mode, it has only been tested on a handful of devices on Android 12, and Google has changed the Android APIs it depends on, so the developer is redesigning how the app works.",
+  "repo": "https://github.com/x13a/Duress",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "me.lucky.duress",
+  "tags": [
+    "security",
+    "duress",
+    "wipe",
+    "privacy",
+    "lockscreen",
+    "emergency"
+  ],
+  "added": "2026-08-24"
+}

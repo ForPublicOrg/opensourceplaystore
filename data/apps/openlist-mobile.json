@@ -1,0 +1,18 @@
+{
+  "id": "openlist-mobile",
+  "name": "OpenList Mobile",
+  "tagline": "Turn your phone into a file server for your other devices",
+  "description": "OpenList Mobile runs a small file server on your phone. Other devices on the same Wi-Fi, a laptop, a tablet or a smart TV, can then open a web page in their browser and browse, download or upload your files. No cable and no cloud account in the middle.\n\nIt bundles the full OpenList server, so as well as the files on your phone you can hook up the other storage services OpenList supports and manage them all from one list. The app is rebuilt automatically whenever a new version of OpenList comes out.\n\nYou run the server yourself, which means choosing a port and setting a password before you leave it reachable, and keeping the app running while you want the files available. The iOS build is still experimental, and a lot of the project's writing is in Chinese.",
+  "repo": "https://github.com/OpenListTeam/OpenList-Mobile",
+  "category": "internet",
+  "license": "AGPL-3.0",
+  "tags": [
+    "file-server",
+    "file-sharing",
+    "webdav",
+    "openlist",
+    "alist",
+    "cloud-storage"
+  ],
+  "added": "2026-08-24"
+}

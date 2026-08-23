@@ -1,0 +1,13 @@
+{
+  "id": "wire",
+  "name": "Wire",
+  "tagline": "Encrypted messages, calls and group video",
+  "description": "Wire is a messenger built around end-to-end encryption: private and group chats, voice calls and group video calls, on phones as well as desktop and web.\n\nThis repository holds the whole Android client, and it is one part of Wire's published source code — the other clients are open too. Volunteers translate the app through Crowdin.\n\nA couple of honest notes. The build you compile from this source links against the open-source calling library, while the version on the Play Store uses one with proprietary improvements to call quality, so audio and video may behave a little differently. The open-source project also leaves out the API keys for third-party services, and you need a Wire account to sign in.",
+  "repo": "https://github.com/wireapp/wire-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://wire.com",
+  "fdroid": "com.wire",
+  "tags": ["messaging", "chat", "encryption", "video-calls", "e2ee"],
+  "added": "2026-08-24"
+}

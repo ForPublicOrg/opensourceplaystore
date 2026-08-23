@@ -1,0 +1,12 @@
+{
+  "id": "cloudstream",
+  "name": "CloudStream",
+  "tagline": "Stream and download from video sources you add yourself",
+  "description": "CloudStream is a media centre for your phone and TV. It plays and downloads films, series and anime, keeps bookmarks and a watch list, casts to a Chromecast, and shows no ads and collects no analytics.\n\nOn its own the app is empty on purpose: it ships with no video sources at all. You add extensions, small plug-ins that tell it where to fetch things from, so you decide what it can reach. People have written extensions for LibriVox audiobooks, YouTube, Twitch and the free IPTV channel lists from iptv-org, among many others.\n\nExpect to spend a little time reading the setup guide before anything appears. The CloudStream team does not run, moderate or endorse the extensions other people publish, so what you install is your own call.",
+  "repo": "https://github.com/recloudstream/cloudstream",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["streaming", "movies", "anime", "tv", "extensions", "downloads"],
+  "added": "2026-08-24"
+}

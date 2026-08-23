@@ -1,0 +1,12 @@
+{
+  "id": "apatch",
+  "name": "APatch",
+  "tagline": "Root your phone by patching its kernel",
+  "description": "APatch is a way to get root on Android. It works by patching the kernel your phone already runs, then giving you a manager app where you decide which apps are allowed root and which are not.\n\nIt supports two kinds of add-ons: APM modules, which work much like Magisk modules for system tweaks, and KPM modules, which run code inside the kernel itself. The manager interface is based on KernelSU's, and the patching is done by the KernelPatch project.\n\nThis is for people who know what they are doing. It covers ARM64 devices with kernel versions 3.18 to 6.12 and needs certain kernel options switched on. Access is protected by a SuperKey, a password with even more power than root, so a weak one hands over your whole phone. Flashing a patched kernel can leave a device unusable, and the documentation is still incomplete.",
+  "repo": "https://github.com/bmax121/APatch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://apatch.dev",
+  "tags": ["root", "kernel", "magisk", "modules", "superuser"],
+  "added": "2026-08-24"
+}

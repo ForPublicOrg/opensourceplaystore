@@ -1,0 +1,19 @@
+{
+  "id": "rpg-npc-generator",
+  "name": "RPG NPC Generator",
+  "tagline": "Roll up a believable NPC when your players go off-script",
+  "description": "Your tabletop players walk into the shop you never planned. Tap once and this app rolls a whole person for you: race, age, gender, profession, alignment, personality, motivation, languages, a name and a nickname. Any single trait can be re-rolled on its own until the character fits the scene.\n\nKeep the good ones. Saved characters go into a roster you can search by name, profession, race or your own tags, sort how you like, and group by campaign, each with its own notes. You can attach an optional D&D 5e stat block with ability scores, armour class, hit points and challenge rating, share a finished character as a PNG or a one-page PDF, and back up the whole roster, portraits included, to a single file.\n\nGenerating characters and browsing your roster work with no internet. The one part that reaches out is the AI portrait, which is rendered on the project's own server. The app is in English, Spanish and Portuguese. Take the F-Droid build if you can: the Play Store one carries ads and analytics, and the APKs on GitHub still send analytics.",
+  "repo": "https://github.com/LeoColman/rpg-npc-generator",
+  "category": "games",
+  "license": "AGPL-3.0",
+  "fdroid": "me.kerooker.rpgcharactergenerator",
+  "tags": [
+    "rpg",
+    "dnd",
+    "npc",
+    "dungeon master",
+    "tabletop",
+    "generator"
+  ],
+  "added": "2026-08-24"
+}

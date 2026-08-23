@@ -1,0 +1,13 @@
+{
+  "id": "icsx5",
+  "name": "ICSx\u2075",
+  "tagline": "Add a calendar feed from the web to your phone",
+  "description": "ICSx\u2075 subscribes your phone to calendars published on the internet \u2014 a school or university timetable, your sports team's fixture list, public holidays, a shared iCloud calendar. Paste in the webcal or .ics address once and those events start showing up in whichever calendar app you already use.\n\nIt refreshes on a schedule you choose and is careful about only downloading what actually changed, so it does not eat your data. It can also read an .ics file saved on the phone, opens webcal:// links straight from your browser, and handles HTTPS and feeds that need a username and password.\n\nTwo things to know. A subscription is one-way: the app pulls events in and keeps them fresh, so edits belong wherever the feed is published. And ICSx\u2075 does not display anything itself \u2014 you need a calendar app on the phone to actually see the events.",
+  "repo": "https://github.com/bitfireAT/icsx5",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://icsx5.bitfire.at",
+  "fdroid": "at.bitfire.icsdroid",
+  "tags": ["calendar", "icalendar", "webcal", "subscribe", "ics", "timetable"],
+  "added": "2026-08-24"
+}

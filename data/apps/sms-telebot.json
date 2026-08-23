@@ -1,0 +1,11 @@
+{
+  "id": "sms-telebot",
+  "name": "SMS Telebot",
+  "tagline": "Forward your texts, calls and battery alerts to Telegram or email",
+  "description": "SMS Telebot watches your phone and passes things on to somewhere you actually look. Incoming texts, incoming calls, low battery warnings and charger plug-ins can each be sent to a Telegram bot, an ntfy topic, an email address over SMTP, or another phone number by SMS. Handy for a second phone, a work SIM, or a device you leave at home.\n\nYou build rules: pick which events to forward, add one or more destinations, and set filters on the sender or the message text (plain words or regular expressions) so only what matters gets through. A whitelist forwards matches, a blacklist drops them, and you can test a rule before saving it. If sending fails because the internet is down, it retries in the background. Tokens and passwords are stored encrypted.\n\nYou supply the destination yourself, so expect a little setup: a free Telegram bot from BotFather, an ntfy topic, or an email account with an app password. Android may also throttle background apps, so turn off battery optimisation for it if alerts start arriving late. And because it reads your SMS, some security scanners flag it as suspicious even though it only sends to the addresses you enter.",
+  "repo": "https://github.com/teslor/sms-telebot",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["sms", "forwarding", "telegram", "ntfy", "email", "alerts", "notifications"],
+  "added": "2026-08-24"
+}

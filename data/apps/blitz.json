@@ -1,0 +1,13 @@
+{
+  "id": "blitz",
+  "name": "Blitz",
+  "tagline": "Time both sides of a chess game with one tap",
+  "description": "Blitz is a chess clock for games played across a real board. It starts on 5 minutes each with 3 seconds added per move, and you set your own time and increment by dragging on the screen: sideways for the minutes, up and down for the seconds added per move.\n\nTap anywhere to hand the clock to the other player. The back gesture pauses the clock, and again resets it. It follows the FIDE rule for increment timing, so a 5+3 game starts at 5:03 rather than 5:00, and if your phone is set to vibrate you get a small buzz on every move.\n\nThere is nothing else in it: no ads, no accounts, and the app asks for no permissions at all. It works just as well for any two-player game that needs timed turns.",
+  "repo": "https://github.com/ldeso/blitz",
+  "category": "games",
+  "license": "Apache-2.0",
+  "website": "https://blitz.leodesouza.net",
+  "fdroid": "net.leodesouza.blitz",
+  "tags": ["chess", "clock", "timer", "board game", "blitz", "fischer"],
+  "added": "2026-08-24"
+}

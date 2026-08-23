@@ -1,0 +1,21 @@
+{
+  "id": "ai-edge-gallery",
+  "name": "AI Edge Gallery",
+  "tagline": "Run AI models on your phone with no internet",
+  "description": "AI Edge Gallery is Google's own app for trying open AI models straight on your phone. Download a model once and you can hold a conversation with it, point the camera at something and ask what it is, or have a voice recording transcribed and translated — all on the device, with nothing sent to a server.\n\nIt is a workshop as much as a chat app. Prompt Lab lets you test prompts with the temperature and top-k dials in your hands, Agent Skills adds tools like Wikipedia look-ups so answers can be grounded in something, and a benchmark tool shows how fast each model actually runs on your particular hardware. You can load your own models next to the ones on the list.\n\nIt needs Android 12 or newer, and the models are big downloads that eat storage, so fetch them on Wi-Fi; some are hosted on Hugging Face and ask you to sign in and accept their licence before they will download. Google labels this an experimental beta: it is a sandbox for playing with on-device models, not a finished assistant, and it reports usage and crash data to Firebase.",
+  "repo": "https://github.com/google-ai-edge/gallery",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "offline",
+    "chatbot",
+    "gemma",
+    "on-device"
+  ],
+  "added": "2026-08-24"
+}

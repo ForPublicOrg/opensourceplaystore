@@ -1,0 +1,20 @@
+{
+  "id": "linphone",
+  "name": "Linphone",
+  "tagline": "Voice and video calls through your own SIP account",
+  "description": "Linphone is a phone app that calls over the internet instead of the mobile network. It speaks SIP, the open standard behind most internet phone providers and office phone systems, so it works with whatever account you already have rather than tying you to one company's service. Voice calls, video calls, group conferences and instant messaging are all built in.\n\nVersion 6 is a full redesign, with real support for several accounts at once, presence, and video that adapts to each side of the call. Because SIP is an open standard, you can point Linphone at a commercial provider, your workplace phone system, or a server you run yourself.\n\nYou need a SIP account before it is useful — the app is the handset, not the phone line. It also requires Android 9 or newer.",
+  "repo": "https://github.com/BelledonneCommunications/linphone-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://linphone.org",
+  "fdroid": "org.linphone",
+  "tags": [
+    "sip",
+    "voip",
+    "calls",
+    "video call",
+    "phone",
+    "messaging"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sayboard",
+  "name": "Sayboard",
+  "tagline": "Voice typing that never leaves your phone",
+  "description": "Sayboard is a keyboard that types what you say out loud. Switch to it in any app, tap the microphone, and your words appear in the text box — handy when your hands are busy or typing is slow for you.\n\nAll the listening happens on the phone itself, using Vosk speech models. Nothing is recorded or sent anywhere, and once a model is on your phone, dictation keeps working with no internet at all.\n\nYou do have to fetch a language model before the first use — either with the built-in downloader or by importing one yourself. How well it hears you depends on the model you pick, so expect it to be rougher than the cloud voice typing built into your phone.",
+  "repo": "https://github.com/ElishaAz/Sayboard",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.elishaazaria.sayboard",
+  "tags": [
+    "keyboard",
+    "voice",
+    "dictation",
+    "offline",
+    "speech to text",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "wi-fi-info",
+  "name": "Wi-Fi Info",
+  "tagline": "See everything about the Wi-Fi you're connected to",
+  "description": "Wi-Fi Info lays out what your phone actually knows about the network it is on: the network name, your local and public IP addresses, signal strength in dBm and as a percentage, an estimate of how far away the router is, the channel and frequency, your DNS servers, gateway, subnet mask, MAC address, link speed, and how much data has gone in and out since the phone last started.\n\nIt also packs in the network tools you would normally open a laptop for. There is a ping tool, a subnet scanner that lists every device on your local network with its IP and MAC address, a port scanner for TCP and UDP, WHOIS and DNS lookups, a way to see the IP your mobile network gave you, and a shortcut into your router's setup page.\n\nUseful when the Wi-Fi is playing up and you want to work out whether the problem is the signal, the router, or the internet beyond it.",
+  "repo": "https://github.com/TrueMLGPro/Wi-Fi_Info",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://truemlgpro.github.io/Wi-Fi_Info/",
+  "tags": [
+    "wifi",
+    "network",
+    "ip",
+    "ping",
+    "scanner",
+    "dns",
+    "router"
+  ],
+  "added": "2026-08-24"
+}

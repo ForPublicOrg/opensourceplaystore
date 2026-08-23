@@ -1,0 +1,12 @@
+{
+  "id": "breezy-weather",
+  "name": "Breezy Weather",
+  "tagline": "A weather app that lets you pick the forecaster",
+  "description": "Breezy Weather gives you daily and hourly forecasts up to sixteen days out, rain in the next hour, severe weather alerts, air quality, pollen, UV, wind and sun and moon times, laid out in charts that are actually easy to read.\n\nWhat sets it apart is choice: more than fifty weather services are supported, so you can use whichever one is most accurate where you live. There is a big pile of widgets, a live wallpaper and support for custom icon packs.\n\nNo adverts, no trackers, and sharing your location is optional. If you would rather not hand over precise coordinates, it can use a rough location from your internet connection instead.",
+  "repo": "https://github.com/breezy-weather/breezy-weather",
+  "category": "tools",
+  "license": "LGPL-3.0",
+  "fdroid": "org.breezyweather",
+  "tags": ["weather", "forecast", "radar", "air quality", "pollen", "widget"],
+  "added": "2026-08-24"
+}

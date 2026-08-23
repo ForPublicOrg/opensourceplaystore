@@ -1,0 +1,12 @@
+{
+  "id": "neriplayer",
+  "name": "NeriPlayer",
+  "tagline": "One music player for your files and your accounts",
+  "description": "NeriPlayer plays the music already on your phone and, once you sign in with your own accounts, streams from NetEase Cloud Music, Bilibili and YouTube Music as well. Playlists, downloads, play history and settings are kept on the device rather than in someone else's cloud.\n\nIt is made for people who like control over how music sounds and looks: word-by-word karaoke lyrics that can float over other apps or sit in the status bar, an equaliser and audio effects, home screen widgets, and a listen-together mode you can host on your own server. Your playlists and listening stats can back up to a private GitHub repository or a WebDAV drive that belongs to you.\n\nThe streaming sources need your own accounts on those platforms and follow their rules — the app does not unlock paid or region-locked music, and it will not work as a streaming player without them. Needs Android 9 or newer.",
+  "repo": "https://github.com/cwuom/NeriPlayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["music", "player", "lyrics", "equalizer", "webdav", "streaming"],
+  "added": "2026-08-24"
+}

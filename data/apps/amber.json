@@ -1,0 +1,19 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "tagline": "Sign in to Nostr apps without handing over your key",
+  "description": "Amber keeps your Nostr private key — your nsec — inside one app that does nothing else. When another app needs you to sign something, like posting a note or logging in, it asks Amber, you approve, and the key itself never leaves. Your key is then exposed to one app instead of a dozen.\n\nIt works offline, with no server and no extra hardware, using the NIP-46 standard. You can tell it to remember your answer for an app so routine signing happens quietly in the background, and it handles several accounts at once. It is also built to work with Nostr websites without needing a browser extension.\n\nAmber is only useful if you already use Nostr. It is not a social app on its own — you point your Nostr clients at it.",
+  "repo": "https://github.com/greenart7c3/Amber",
+  "category": "security",
+  "license": "MIT",
+  "fdroid": "com.greenart7c3.nostrsigner",
+  "tags": [
+    "nostr",
+    "signer",
+    "keys",
+    "privacy",
+    "security",
+    "login"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "slimsocial-for-facebook",
+  "name": "SlimSocial for Facebook",
+  "tagline": "Use Facebook in a much smaller, lighter app",
+  "description": "SlimSocial is a small, quick wrapper around Facebook's mobile website. You read your feed and post as usual, but the app itself is a fraction of the size of the official one and asks for far fewer permissions, which makes a real difference on older or slower phones.\n\nYou can change its colours and fonts, hide ads, and if you want to go further you can run your own CSS or JavaScript on the page.\n\nIt is still Facebook on the other end, so Facebook still sees what you do there. What this app changes is what sits on your phone, not what the company collects once you are logged in.",
+  "repo": "https://github.com/rignaneseleo/SlimSocial-for-Facebook",
+  "category": "social",
+  "license": "GPL-2.0",
+  "fdroid": "it.rignanese.leo.slimfacebook",
+  "tags": [
+    "facebook",
+    "social",
+    "lightweight",
+    "webview",
+    "privacy",
+    "data-saver"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

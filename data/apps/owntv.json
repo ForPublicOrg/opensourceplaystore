@@ -1,0 +1,20 @@
+{
+  "id": "owntv",
+  "name": "OwnTV",
+  "tagline": "Watch your own IPTV channels on an Android TV",
+  "description": "OwnTV plays live channels, films and series from IPTV sources on an Android TV, a streaming box or a Fire TV stick. Add an Xtream login, an M3U playlist or a Stalker portal and you get a proper programme guide, categories, favourites, catch-up TV, resume points and separate profiles.\n\nIt runs two playback engines and lets you pick per channel: mpv handles awkward formats in films and series, while ExoPlayer switches live channels almost instantly. There is 4K HDR playback, subtitles from files or OpenSubtitles, a picture-in-picture mini player, an audio-only mode and downloads for watching later. The whole interface is built for a remote control.\n\nOwnTV comes with no channels, playlists or subscriptions — you supply your own legal sources. It is built for Android TV only, so it expects a remote rather than a touchscreen, and it isn't on any app store — you install the APK from the project's own releases page.",
+  "repo": "https://github.com/ahXN00/OwnTV",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://t.me/owntvplayer",
+  "tags": [
+    "iptv",
+    "m3u",
+    "xtream",
+    "epg",
+    "player",
+    "streaming",
+    "android tv"
+  ],
+  "added": "2026-08-24"
+}

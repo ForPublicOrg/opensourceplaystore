@@ -1,0 +1,19 @@
+{
+  "id": "privacy-friendly-food-tracker",
+  "name": "Privacy Friendly Food Tracker",
+  "tagline": "A calorie diary that stays on your phone",
+  "description": "Privacy Friendly Food Tracker is a plain food diary. You log what you eat, it adds up the calories, and you can look back over a week or a month to see how your eating actually goes rather than how you remember it.\n\nEverything is kept in an encrypted database on the phone itself — there is no account to make and no nutrition company holding your meals. The one time it goes online is when you search for a product, which it looks up in Open Food Facts, the community-run food database.\n\nIt comes from the SECUSO research group at Karlsruhe Institute of Technology, part of their Privacy Friendly Apps family. It is deliberately small: a diary and a calorie total, not a coach.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-food-tracker",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "org.secuso.privacyfriendlyfoodtracker",
+  "tags": [
+    "calories",
+    "food",
+    "diary",
+    "nutrition",
+    "health",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

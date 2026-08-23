@@ -1,0 +1,11 @@
+{
+  "id": "moodle",
+  "name": "Moodle",
+  "tagline": "Your school or university coursework in your pocket",
+  "description": "Moodle is the official app for Moodle sites \u2014 the learning platform thousands of schools, universities and workplaces use for their courses. Sign in to your institution's site and you get your courses, files, quizzes, grades and course calendar on your phone.\n\nYou can download course material to read on the bus with no signal, get a push notification when a teacher posts something or a deadline is near, message classmates and tutors, upload work from your phone, and keep an eye on your badges and progress.\n\nIt only works if your school, college or employer already runs a Moodle site \u2014 there is nothing to browse on your own. You will need the site address and the same login you use in a web browser.",
+  "repo": "https://github.com/moodlehq/moodleapp",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": ["moodle", "learning", "courses", "university", "school", "lms"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mooltik",
+  "name": "Mooltik",
+  "tagline": "Make hand-drawn animations on your phone",
+  "description": "Mooltik is a small animation studio for your phone or tablet. You draw each frame by hand, set how long every frame and scene lasts, loop it back to check the timing, and end up with a short cartoon, an animatic, or a storyboard for a music video.\n\nIt is part drawing app and part video editor. Layers act as separate timelines, so a background can be animated apart from the main action, you can write dialogue or notes onto a scene, drop in a music track, and export the whole thing as an mp4.\n\nWork on it stopped in 2023, so take it as finished rather than growing. The drawing tools are simple ones, and audio is limited to a single soundtrack.",
+  "repo": "https://github.com/ruskakimov/mooltik",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://mooltik.app",
+  "tags": ["animation", "drawing", "storyboard", "animatic", "cartoon", "art"],
+  "added": "2026-08-24"
+}

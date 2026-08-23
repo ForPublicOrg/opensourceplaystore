@@ -1,0 +1,20 @@
+{
+  "id": "owncloud",
+  "name": "ownCloud",
+  "tagline": "Your files, kept on a server you control",
+  "description": "This is the official ownCloud app. It gives you the files on your own ownCloud server wherever you are: browse folders, open documents, look through your photos, and share a link with someone when you need to.\n\nPhotos and videos from your camera can upload themselves in the background, so your camera roll ends up on your own storage rather than someone else's. Mark the files you want kept on the phone and they stay readable with no signal, and a passcode or your fingerprint locks the app when you put it down.\n\nIt works with both ownCloud Infinite Scale and older ownCloud servers. You need an account on one of them — the app is a door, not the house.",
+  "repo": "https://github.com/owncloud/android",
+  "category": "productivity",
+  "license": "GPL-2.0",
+  "website": "https://owncloud.com",
+  "fdroid": "com.owncloud.android",
+  "tags": [
+    "cloud",
+    "files",
+    "sync",
+    "owncloud",
+    "photos",
+    "self-hosted"
+  ],
+  "added": "2026-08-24"
+}

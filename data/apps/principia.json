@@ -1,0 +1,20 @@
+{
+  "id": "principia",
+  "name": "Principia",
+  "tagline": "Build machines and circuits in a physics sandbox",
+  "description": "Principia is a sandbox where you build contraptions and let physics decide what happens. Bolt together beams, wheels, motors and gears, wire up electronics, add robots, and find out whether your machine actually works.\n\nIt is the successor to the old Android game Apparatus. You can work through puzzle levels or just tinker freely, script more complicated behaviour with Lua, and upload your creations for other players to try — or play through theirs.\n\nPrincipia went open source in 2022 and is now looked after by its community rather than the studio that made it. Sharing levels online needs an account on the community site.",
+  "repo": "https://github.com/Bithack/principia",
+  "category": "games",
+  "license": "BSD-3-Clause",
+  "website": "https://principia-web.se",
+  "fdroid": "com.bithack.principia",
+  "tags": [
+    "sandbox",
+    "physics",
+    "puzzle",
+    "building",
+    "lua",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

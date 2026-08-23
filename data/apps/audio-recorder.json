@@ -1,0 +1,19 @@
+{
+  "id": "audio-recorder",
+  "name": "Audio Recorder",
+  "tagline": "A simple voice recorder that starts instantly",
+  "description": "Audio Recorder is for catching a lecture, an interview, a song idea or a note to yourself. It opens quickly, starts recording right away, and draws a waveform so you can see what you captured instead of guessing.\n\nRecord to M4A, WAV or 3GP, set the sample rate and bitrate, and choose mono or stereo. Recordings can be renamed, bookmarked and shared, existing audio files can be imported, and a few colour themes let you make it yours.\n\nIt records from the phone's own microphone. Bluetooth mics and picking a different audio source are on the developer's list but are not in the app yet.",
+  "repo": "https://github.com/Dimowner/AudioRecorder",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "com.dimowner.audiorecorder",
+  "tags": [
+    "recorder",
+    "voice",
+    "audio",
+    "memo",
+    "dictaphone",
+    "waveform"
+  ],
+  "added": "2026-08-24"
+}

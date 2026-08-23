@@ -1,0 +1,18 @@
+{
+  "id": "questphone",
+  "name": "QuestPhone",
+  "tagline": "Earn your screen time by finishing real tasks",
+  "description": "QuestPhone locks your distracting apps away and hands them back only when you have done something you said you would do. You turn your own habits into quests — a walk, a glass of water, an hour of study — and get levels, streaks and rewards for keeping at it.\n\nThe idea is that quests are checked rather than just ticked off. Health Connect can read steps, distance, hydration, sleep or calories from your watch or fitness app, Deep Focus blocks everything but the apps you need for a set stretch, and AI Snap asks you to photograph the finished task so a model on the phone can look at it. There is also an optional minimal launcher with widget support, and a plain tap-to-confirm mode for quests nothing else can check.\n\nThe developers describe the project as experimental and not ready for full production, so expect rough edges. They also say the on-device AI photo check does not work properly yet, so treat that one as unfinished. Fitness quests need a tracker or another app feeding data into Health Connect, and sharing your profile needs an account on the QuestPhone site.",
+  "repo": "https://github.com/QuestPhone/questphone",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "app blocker",
+    "focus",
+    "habits",
+    "screen time",
+    "gamified",
+    "launcher"
+  ],
+  "added": "2026-08-24"
+}

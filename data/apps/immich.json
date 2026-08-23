@@ -1,0 +1,20 @@
+{
+  "id": "immich",
+  "name": "Immich",
+  "tagline": "Back up your photos to a server you own",
+  "description": "Immich is a photo and video library you run on your own machine, and this is the app for it. It backs up your camera roll in the background, then lets you browse, search and share everything from your phone — much like Google Photos, except the pictures live on hardware you own.\n\nSearch works on what is in a picture as well as when and where it was taken: objects, faces and plain descriptions. There are albums and shared albums, partner sharing, a map, memories from years ago, favourites and an archive, and support for RAW files and motion photos. You can pull originals back down to the phone whenever you want.\n\nThe app is only half of it — you have to set up and keep the Immich server running yourself. And as the project itself warns: keep proper backups of your photos, and do not trust any single copy.",
+  "repo": "https://github.com/immich-app/immich",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://immich.app",
+  "fdroid": "app.alextran.immich",
+  "tags": [
+    "photos",
+    "backup",
+    "gallery",
+    "self-hosted",
+    "videos",
+    "google photos"
+  ],
+  "added": "2026-08-24"
+}

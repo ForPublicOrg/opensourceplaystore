@@ -1,0 +1,19 @@
+{
+  "id": "agepony",
+  "name": "AgePony",
+  "tagline": "Lock files and text with strong encryption on your phone",
+  "description": "AgePony encrypts files and text on your phone using age, a well established encryption format. You can lock something with a passphrase, with another person's public key, or with an SSH key, and unlock anything sent to you the same way. Nothing leaves the device: no accounts, no servers, no analytics.\n\nFiles encrypted with a passphrase, an age key or an SSH key follow the age v1 format exactly, so they open in the standard age command line tool on a friend's laptop. It can also sign and verify files with SSH keys, bundle several files into one archive, and swap keys by QR code. There are post-quantum keys too, for things you need to keep private for a long time, but those are an AgePony extension that the standard age tool will not read. Your keys sit in a vault that unlocks with your fingerprint or an app password.\n\nThere is an optional duress password that silently wipes the vault when it is typed. Set that one up carefully, because it really does delete your keys.",
+  "repo": "https://github.com/norsehorse-dev/AgePonyAndroid",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://agepony.com",
+  "tags": [
+    "encryption",
+    "age",
+    "files",
+    "privacy",
+    "ssh",
+    "decrypt"
+  ],
+  "added": "2026-08-24"
+}

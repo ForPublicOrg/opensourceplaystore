@@ -1,0 +1,12 @@
+{
+  "id": "scummvm",
+  "name": "ScummVM",
+  "tagline": "Play classic point-and-click adventure games again",
+  "description": "ScummVM brings old adventure games back to life on your phone. Monkey Island, Broken Sword, Myst, Blade Runner and hundreds of others were written for computers that have long since gone; ScummVM stands in for the missing machine and runs the game itself.\n\nCopy a game's data files onto the phone, point ScummVM at the folder, and it works out which game it is looking at. Touch controls take the place of the mouse, you can save wherever you like, and the supported list stretches to hundreds of titles, including text adventures and old role-playing games.\n\nIt ships with no games of its own. You need the data files from a copy you already own or a re-release you bought, or you can start with the freeware games the ScummVM team offer on their website, among them Beneath a Steel Sky and Flight of the Amazon Queen. Games that are not on the supported list will not run.",
+  "repo": "https://github.com/scummvm/scummvm",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://www.scummvm.org",
+  "tags": ["adventure", "games", "retro", "classic", "lucasarts", "emulator"],
+  "added": "2026-08-24"
+}

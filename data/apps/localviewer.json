@@ -1,0 +1,11 @@
+{
+  "id": "localviewer",
+  "name": "LocalViewer",
+  "tagline": "Read comics and photos straight off your home network drive",
+  "description": "If your comics, manga and photo collection live on a NAS or a PC at home, LocalViewer lets you read them on your phone without copying anything across first. It connects over SMB or WebDAV, recognises gallery folders, and loads covers quickly even deep inside a messy folder tree.\n\nThe reader opens ZIP, RAR, CBZ, CBR, CBT, PDF and EPUB files directly from the share, handles webtoon-style long strips, rotates wide pages automatically, and decodes images at full size instead of shrinking them. It supports JXL, JXR, JPG, AVIF and HEIC, including HDR and wide colour, and there is an E-Ink mode for readers with those screens. Video files in the same folders can be handed to MPV, MX Player or VLC with subtitles and alternate audio tracks.\n\nThis one expects you to already have a file share running — a NAS, or a PC serving SMB or WebDAV on the same network. There are separate builds too: the standard one needs Android 12, while the HDR build needs Android 14 and a 64-bit device.",
+  "repo": "https://github.com/zmz125000/LocalViewer",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": ["comics", "manga", "nas", "smb", "webdav", "reader", "gallery"],
+  "added": "2026-08-24"
+}

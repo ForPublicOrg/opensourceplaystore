@@ -1,0 +1,11 @@
+{
+  "id": "esearch",
+  "name": "ESearch",
+  "tagline": "A small web browser with an ad blocker built in",
+  "description": "ESearch is a small, plain web browser for everyday reading. A built-in ad blocker with a list that updates itself quietly strips ads out of pages, and you can swap search engine in the middle of a search without digging through settings.\n\nOn the privacy side it sends the Do Not Track header, which sites are free to ignore, runs DuckDuckGo's privacy scripts, and lets you switch JavaScript off when you want a page to behave itself. It is built on the browser engine Android already has, which is why the app stays so small.\n\nIt works on Android 5 and up. The last release was in January 2022, so do not expect fixes or new features, and since it borrows Android's own engine rather than shipping one, sites render the way they would in any other WebView app.",
+  "repo": "https://github.com/T8RIN/ESearch",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": ["browser", "web", "adblock", "privacy", "search", "lightweight"],
+  "added": "2026-08-24"
+}

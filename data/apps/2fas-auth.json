@@ -1,0 +1,22 @@
+{
+  "id": "2fas-auth",
+  "name": "2FAS Auth",
+  "tagline": "Two-step login codes, with a backup so you can't lose them",
+  "description": "2FAS Auth makes the 6-digit codes that many sites now ask for after your password. Scan the QR code a site shows you once, and from then on the app produces a fresh code every 30 seconds. It works with anything that follows the usual TOTP or HOTP standard, which covers Google, Microsoft, Dropbox and most of the rest.\n\nThere is a backup option so a lost or replaced phone does not lock you out of all your accounts at once, and the app pairs with the 2FAS browser extension for signing in on a computer. Setup is a scan and a tap.\n\nOne note: the icons and artwork in the app are not part of the open source project and carry their own licence. The code itself is GPL.",
+  "repo": "https://github.com/twofas/2fas-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://2fas.com",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "2fa",
+    "totp",
+    "authenticator",
+    "codes",
+    "otp",
+    "security"
+  ],
+  "added": "2026-08-24"
+}

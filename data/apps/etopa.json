@@ -1,0 +1,19 @@
+{
+  "id": "etopa",
+  "name": "Etopa",
+  "tagline": "2-step login codes that sync across your devices",
+  "description": "Etopa gives you the 6-digit codes (2FA) that keep an account safe when someone else learns your password. What makes it different from most authenticator apps is that your codes live on a server, so the same list appears on your phone and in any web browser you sign into.\n\nYou can use the etopa.de instance the developer runs, or host your own with Docker and point the Android app at that address instead. Either way the app is a front end for the account you keep on the server.\n\nThat design means Etopa needs an account and a connection to sync. If you would rather your codes never left the phone, an offline authenticator is a better fit. The Android build is also published through the developer's own F-Droid repository rather than the main F-Droid catalogue.",
+  "repo": "https://github.com/ltheinrich/etopa",
+  "category": "security",
+  "license": "ISC",
+  "website": "https://etopa.de",
+  "tags": [
+    "2fa",
+    "totp",
+    "authenticator",
+    "codes",
+    "sync",
+    "self-hosted"
+  ],
+  "added": "2026-08-24"
+}

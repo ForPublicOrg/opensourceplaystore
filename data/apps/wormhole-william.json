@@ -1,0 +1,18 @@
+{
+  "id": "wormhole-william",
+  "name": "Wormhole William",
+  "tagline": "Send files between devices with a short one-time code",
+  "description": "Wormhole William moves a file from one device to another using nothing but a short code made of a number and a couple of words. You pick the file, the app shows you the code, you read it out to whoever is receiving, and the transfer starts. No account, no sign-up, and no copy of your file left sitting in somebody's cloud afterwards.\n\nIt speaks the Magic Wormhole protocol, so it works with the desktop wormhole tools on Linux, macOS and Windows just as well as with another phone. The transfer is encrypted end to end, and the code only works once. You can send a piece of text the same way, which is handy for moving a link or a note across.\n\nTwo limits worth knowing: you can only send one file at a time, and a folder you receive arrives as a zip that you unpack yourself.",
+  "repo": "https://github.com/psanford/wormhole-william-mobile",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "files",
+    "transfer",
+    "sharing",
+    "encryption",
+    "wormhole",
+    "send"
+  ],
+  "added": "2026-08-24"
+}

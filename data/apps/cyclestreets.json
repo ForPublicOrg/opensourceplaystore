@@ -1,0 +1,20 @@
+{
+  "id": "cyclestreets",
+  "name": "CycleStreets",
+  "tagline": "Bike routes planned by cyclists, read aloud as you ride",
+  "description": "CycleStreets plans cycle journeys from A to B. Tap two points on the map, or type addresses or postcodes, and you get a route — then switch between the quiet, balanced and fast versions depending on how happy you are sharing the road with traffic.\n\nLiveRide speaks the directions aloud so you can keep your eyes up and your hands on the bars. You can save routes to use again, set your usual cycling speed and map style, download maps for offline use, and post photos of cycling problems or good design for other riders to see.\n\nThe routing service covers the UK, so that is where the app is genuinely useful.",
+  "repo": "https://github.com/cyclestreets/android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://www.cyclestreets.net/mobile/android/",
+  "fdroid": "net.cyclestreets",
+  "tags": [
+    "cycling",
+    "bike",
+    "routing",
+    "navigation",
+    "journey planner",
+    "maps"
+  ],
+  "added": "2026-08-24"
+}

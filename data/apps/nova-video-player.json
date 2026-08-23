@@ -1,0 +1,15 @@
+{
+  "id": "nova-video-player",
+  "name": "NOVA Video Player",
+  "tagline": "Play your own videos, wherever you keep them",
+  "description": "NOVA plays the films and shows you already have, whether they sit on the phone, on a USB stick, or on a computer or NAS somewhere in the house. It reaches them over SMB, UPnP, FTP and SFTP and gathers everything into one library with posters, descriptions and seasons, so browsing your own files feels like browsing a streaming app.\n\nPlayback is hardware accelerated and handles MKV, MP4, AVI, WMV and more, with several audio tracks, subtitle files it can download for you, and manual sliders when sound or subtitles drift out of step. There is a separate remote-friendly layout for Android TV boxes, AC3 and DTS passthrough on hardware that supports it, and it can pick up a film on one device where you left off on another. Trakt can track what you have watched.\n\nPosters and descriptions come from TheMovieDB, an outside service, so that part of the library needs an internet connection. The subtitles it fetches come from OpenSubtitles, which only lets you download a handful a day unless you register a free account with them.",
+  "repo": "https://github.com/nova-video-player/aos-AVP",
+  "category": "media",
+  "license": "Apache-2.0",
+  "fdroid": "org.courville.nova",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": ["video", "player", "nas", "smb", "subtitles", "tv", "movies"],
+  "added": "2026-08-24"
+}

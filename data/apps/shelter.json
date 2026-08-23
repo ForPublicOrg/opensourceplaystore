@@ -1,0 +1,19 @@
+{
+  "id": "shelter",
+  "name": "Shelter",
+  "tagline": "Put nosy apps in a sealed-off space",
+  "description": "Shelter uses the work profile built into Android to make a second, walled-off space on your phone. Apps installed in there cannot see the contacts, photos and files in your main space, which is a tidy way to run an app you need but do not trust.\n\nYou can freeze apps in that space so they never run or wake up in the background until you tap them, and install a second copy of an app you already have, which is handy for a second account.\n\nIt can only do what Android's work profile allows, so how airtight it is depends on your phone's version of Android. The app is in maintenance mode: few new features, but the author keeps it working with each new Android release. To remove it, delete the work profile in Settings first, then uninstall.",
+  "repo": "https://github.com/PeterCxy/Shelter",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "net.typeblog.shelter",
+  "tags": [
+    "privacy",
+    "sandbox",
+    "isolation",
+    "clone",
+    "freeze",
+    "workprofile"
+  ],
+  "added": "2026-08-24"
+}

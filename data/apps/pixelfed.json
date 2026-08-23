@@ -1,0 +1,19 @@
+{
+  "id": "pixelfed",
+  "name": "Pixelfed",
+  "tagline": "Share photos on a network no single company owns",
+  "description": "Pixelfed is photo sharing that feels a lot like Instagram, except it runs on many independent servers instead of one company's. This is the official app: post pictures, scroll your feed, follow people, leave comments and send messages.\n\nPixelfed speaks ActivityPub, so the people you follow do not have to be on the same server as you — or even on Pixelfed. Someone posting from Mastodon or another fediverse site can turn up in your feed just the same.\n\nYou will need an account on a Pixelfed server before you can sign in; the app is the window onto the network, not the network itself.",
+  "repo": "https://github.com/pixelfed/pixelfed-rn",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://pixelfed.org",
+  "tags": [
+    "photos",
+    "fediverse",
+    "activitypub",
+    "social",
+    "instagram",
+    "sharing"
+  ],
+  "added": "2026-08-24"
+}

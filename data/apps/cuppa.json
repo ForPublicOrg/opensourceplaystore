@@ -1,0 +1,19 @@
+{
+  "id": "cuppa",
+  "name": "Cuppa",
+  "tagline": "A one-tap timer for your cup of tea",
+  "description": "Cuppa times your tea while it steeps so it does not end up stewed and cold. Open the app, tap the tea you are brewing, and that is the whole job — a teabag drops into the cup and slowly darkens while a countdown runs alongside it.\n\nYou can have two teas brewing at once, each with its own timer, and Cuppa lets you know they are done with a notification, plus a sound or a buzz depending on your phone's settings. If the built-in brew times are not yours, change them, or add your own teas.\n\nNothing to sign up for and nothing to set up before the first cup.",
+  "repo": "https://github.com/ncosgray/cuppa_mobile",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "website": "https://www.nathanatos.com",
+  "fdroid": "com.nathanatos.Cuppa",
+  "tags": [
+    "tea",
+    "timer",
+    "brewing",
+    "kitchen",
+    "steep"
+  ],
+  "added": "2026-08-24"
+}

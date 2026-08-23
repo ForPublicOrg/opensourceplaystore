@@ -1,0 +1,19 @@
+{
+  "id": "arity",
+  "name": "Arity",
+  "tagline": "A scientific calculator that draws your functions",
+  "description": "Arity is a calculator for maths and science homework. Type an expression and it works out the answer: trigonometry, combinatorics, complex numbers, and numbers in binary, octal or hexadecimal alongside the usual decimal.\n\nWhere it goes past an ordinary phone calculator is graphing. Type a function and it plots it, several at once on the same 2D graph if you like, and it can draw the derivative too. There are animated 3D graphs for surfaces, and you can save a screenshot of any graph to hand in or share.\n\nOne thing worth knowing: the developer has said they will not send personal identity details to Google, so under Google's new rules the app is expected to stop working on certified Android devices from 2026 or 2027.",
+  "repo": "https://github.com/woheller69/Arity",
+  "category": "education",
+  "license": "Apache-2.0",
+  "fdroid": "org.woheller69.arity",
+  "tags": [
+    "calculator",
+    "graphing",
+    "math",
+    "science",
+    "functions",
+    "students"
+  ],
+  "added": "2026-08-24"
+}

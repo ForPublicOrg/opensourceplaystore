@@ -1,0 +1,12 @@
+{
+  "id": "enroute-flight-navigation",
+  "name": "Enroute Flight Navigation",
+  "tagline": "Moving-map navigation for pilots of small aircraft",
+  "description": "Enroute Flight Navigation is a moving map for VFR pilots, drawn in the style of the official ICAO charts. It marks where you are and the ground you will cover in the next five minutes, along with the route you planned. Tap the map and you get the airspace, airfield or navaid under your finger, with frequencies, codes, elevations and runway information.\n\nThe aeronautical maps download for offline use, cover large parts of the world and are updated most weeks. The app also handles the basic flight planning sums for you: distances, courses and headings, plus an estimate of flight time and fuel. If the weather turns, it lists the nearest airfields you could put down at, with distances, directions and frequencies.\n\nIt is written by Akaflieg Freiburg, a German flying club, is entirely non-commercial and collects nothing about you. The map data is not from official sources and may be incomplete or out of date, so use it as an aid alongside proper flight preparation, never as your primary means of navigation.",
+  "repo": "https://github.com/Akaflieg-Freiburg/enroute",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://akaflieg-freiburg.github.io/enroute/",
+  "tags": ["aviation", "pilot", "navigation", "vfr", "flying", "aircraft", "chart"],
+  "added": "2026-08-24"
+}

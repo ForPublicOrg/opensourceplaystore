@@ -1,0 +1,18 @@
+{
+  "id": "librepods",
+  "name": "LibrePods",
+  "tagline": "AirPods features your Android phone was missing",
+  "description": "LibrePods gives your AirPods the tricks Apple keeps for its own devices. On Android you get an accurate battery reading for each bud and the case, music that pauses the moment you take one out, and a proper control for switching between noise cancellation, transparency and off.\n\nIt manages this by implementing Apple's own AirPods protocol, which the project worked out by reverse engineering. Beyond the basics there are head gestures, conversational awareness, renaming your AirPods, automatic connection, and the accessibility and hearing-aid settings — including loading an audiogram you already have.\n\nWhether it works without root depends on your phone. Recent Pixels and ColorOS or OxygenOS 16 devices are fine as they come; on most other phones an Android Bluetooth bug means you need root and Xposed before the app can connect at all. A few extras, like making Android pretend to be an Apple device or showing battery in the system settings, always need root. And of course you need AirPods.",
+  "repo": "https://github.com/librepods-org/librepods",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "airpods",
+    "bluetooth",
+    "headphones",
+    "earbuds",
+    "battery",
+    "audio"
+  ],
+  "added": "2026-08-24"
+}

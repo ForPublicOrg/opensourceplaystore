@@ -1,0 +1,20 @@
+{
+  "id": "simon-tatham-s-puzzles",
+  "name": "Simon Tatham's Puzzles",
+  "tagline": "40 small logic puzzles that never run out",
+  "description": "This is Simon Tatham's collection of 40 single-player logic puzzles, ported to Android. Sudoku, Minesweeper, Bridges, Light Up, Untangle and dozens more, each with its own rules and its own kind of thinking.\n\nEvery puzzle is generated fresh when you ask for one, at a size and difficulty you choose, so you never run out and never replay the same board twice. It works completely offline, instructions included, and asks for almost no permissions.\n\nNo ads, no accounts, nothing to sign up for. There are touch-friendly extras too: pinch to zoom, optional on-screen arrow keys, and a button to swap tap and long-press.",
+  "repo": "https://github.com/chrisboyle/sgtpuzzles",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://chris.boyle.name/puzzles",
+  "fdroid": "name.boyle.chris.sgtpuzzles",
+  "tags": [
+    "puzzle",
+    "logic",
+    "sudoku",
+    "minesweeper",
+    "offline",
+    "brain"
+  ],
+  "added": "2026-08-24"
+}

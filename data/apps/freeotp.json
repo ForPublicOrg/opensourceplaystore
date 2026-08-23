@@ -1,0 +1,19 @@
+{
+  "id": "freeotp",
+  "name": "FreeOTP+",
+  "tagline": "Two-step login codes you can back up",
+  "description": "FreeOTP+ produces the 6-digit codes a website asks for after your password. Scan the QR code the site shows you and the codes start appearing on your phone, worked out on the device itself rather than fetched from anywhere.\n\nIt is a fork of Red Hat's FreeOTP, and its main addition is a way out: you can export your saved logins to a file, on the phone or in a storage app such as Google Drive, and import them again when you get a new phone. There is a search box, categories for tidying a long list, and an option to ask for your fingerprint or PIN before the app opens.\n\nIt knows the icons of a couple of hundred popular sites and fills them in for you. Needs Android 5.0 or later.",
+  "repo": "https://github.com/helloworld1/FreeOTPPlus",
+  "category": "security",
+  "license": "Apache-2.0",
+  "fdroid": "org.liberty.android.freeotpplus",
+  "tags": [
+    "2fa",
+    "authenticator",
+    "otp",
+    "totp",
+    "codes",
+    "security"
+  ],
+  "added": "2026-08-24"
+}

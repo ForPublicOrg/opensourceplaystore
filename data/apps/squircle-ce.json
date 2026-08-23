@@ -1,0 +1,19 @@
+{
+  "id": "squircle-ce",
+  "name": "Squircle CE",
+  "tagline": "Write and edit code on your phone",
+  "description": "Squircle CE is a code editor and file manager for a phone or tablet. It colours the syntax of more than thirty languages, including Java, Kotlin, Python, C and C++, HTML, JavaScript, TypeScript, PHP, Rust and Go, and it saves as you go so your work is still there when you come back.\n\nIt behaves like a proper editor rather than a notepad: code completion based on what is in your file, unlimited undo and redo that survives a restart, bracket matching, automatic indentation, and quick ways to select, delete or duplicate lines. Git is built in for committing, pushing, pulling and switching branches, and the file manager can reach files on another machine over SFTP or FTP.\n\nThe builds on F-Droid and GitHub are made without the closed-source libraries used in the Google Play version.",
+  "repo": "https://github.com/massivemadness/Squircle-CE",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "com.blacksquircle.ui",
+  "tags": [
+    "code",
+    "editor",
+    "programming",
+    "text",
+    "git",
+    "developer"
+  ],
+  "added": "2026-08-24"
+}

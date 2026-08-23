@@ -1,0 +1,13 @@
+{
+  "id": "retroarch",
+  "name": "RetroArch",
+  "tagline": "One app for dozens of retro game consoles",
+  "description": "RetroArch plays games from the consoles and home computers people grew up with — the NES, Mega Drive, Game Boy, PlayStation and many more — all inside a single app. Each system is handled by a small plug-in called a core, and you download the cores you want from a list inside the app; there are more than eighty of them.\n\nPoint it at a folder of games and it sorts them into collections and looks up details about each one. There are save states, rewind, cheat codes, control remapping for a Bluetooth gamepad or the on-screen buttons, picture filters that soften the pixels, and online multiplayer for the systems that support it. The menus are built for a gamepad or a TV as much as a touchscreen.\n\nIt comes with no games. You supply your own game files, and a few systems also want BIOS files from a console you own. RetroArch is deep and full of settings, so expect to spend a while in the menus before your first game starts, and the cores are fetched from libretro's own servers rather than bundled in.",
+  "repo": "https://github.com/libretro/RetroArch",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://www.libretro.com",
+  "fdroid": "com.retroarch",
+  "tags": ["emulator", "retro", "games", "console", "libretro", "roms"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "blocker",
+  "name": "Blocker",
+  "tagline": "Switch off the parts of an app you don't want running",
+  "description": "Apps are built out of many separate components: the piece that shows ads, the piece that reports analytics, the piece that starts the app in the background whenever your phone boots. Blocker lists those components for every installed app and lets you switch individual ones off, without uninstalling the app or losing the parts you actually use.\n\nIt can do this two ways. Through Android's package manager, or through the Intent Firewall built into Android since 4.4, which stops a component from ever starting while still looking enabled to the app, so it cannot quietly turn itself back on. Rules can be exported and imported, and backups from MyAndroidTools can be converted across.\n\nYou will need root, or Shizuku started with root privileges, because Shizuku's ordinary shell permission is not enough to change components in normal apps. The F-Droid build also leaves out the Firebase analytics and crash reporting that the Play Store build includes.",
+  "repo": "https://github.com/lihenggui/blocker",
+  "category": "security",
+  "license": "Apache-2.0",
+  "fdroid": "com.merxury.blocker",
+  "tags": [
+    "components",
+    "root",
+    "shizuku",
+    "ads",
+    "trackers",
+    "firewall",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

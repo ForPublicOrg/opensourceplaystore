@@ -1,0 +1,19 @@
+{
+  "id": "pocketmaps",
+  "name": "PocketMaps",
+  "tagline": "Download a country's map and navigate with no signal",
+  "description": "PocketMaps downloads maps by country or region and then works with no connection at all — browse the map, search by address or coordinates, and get turn-by-turn directions for driving, cycling or walking. Downloads can be paused and picked up again later.\n\nThe map data comes from OpenStreetMap, drawn by volunteers, and the route calculation happens on your phone rather than on someone's server. It can also record your own tracks and show you a few stats about the trip afterwards.\n\nEach map you download takes up storage, so grab the regions you actually need before a trip rather than everything at once.",
+  "repo": "https://github.com/junjunguo/PocketMaps",
+  "category": "maps",
+  "license": "MIT",
+  "fdroid": "com.junjunguo.pocketmaps",
+  "tags": [
+    "offline maps",
+    "routing",
+    "navigation",
+    "openstreetmap",
+    "gps",
+    "directions"
+  ],
+  "added": "2026-08-24"
+}

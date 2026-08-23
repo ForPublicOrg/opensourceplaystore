@@ -1,0 +1,18 @@
+{
+  "id": "songsync",
+  "name": "SongSync",
+  "tagline": "Get synced lyrics for the songs on your phone",
+  "description": "SongSync finds lyrics for the music files already sitting on your phone and saves them as .lrc files beside each song, or writes them into the song file itself. Do one track at a time, or set it loose on the whole library with a single tap.\n\nIt checks several lyric sources, and you can also search for a song you do not own and download its lyrics anyway. Where a source has timed lyrics, the .lrc file it saves carries the timings line by line rather than one block of text.\n\nSongSync only fetches the lyrics, it never plays anything. You still need a music player that knows how to read .lrc files or embedded lyrics in order to see them while you listen. It is not on the main F-Droid repo, so you install it from IzzyOnDroid or the project's releases.",
+  "repo": "https://github.com/Lambada10/SongSync",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "lyrics",
+    "lrc",
+    "music",
+    "synced",
+    "library",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

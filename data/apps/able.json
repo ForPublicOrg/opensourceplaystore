@@ -1,0 +1,22 @@
+{
+  "id": "able",
+  "name": "Able",
+  "tagline": "A free music player that streams songs from YouTube",
+  "description": "Able plays music from YouTube without the ads. Search for a song, start it straight away, or download it so you can listen later with no signal. You can build your own playlists and import one from Spotify instead of typing it all out again.\n\nIt also plays music files already sitting on your phone, so your downloads and your own collection live in the same player. The design is dark and simple, with a full screen player and album art.\n\nThe songs come from YouTube, a service the app does not control, so a track can stop working when YouTube changes something on their side. Able is not connected to YouTube or Spotify in any official way.",
+  "repo": "https://github.com/uditkarode/AbleMusicPlayer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://uditkarode.github.io/able",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "music",
+    "youtube",
+    "player",
+    "streaming",
+    "offline",
+    "playlists"
+  ],
+  "added": "2026-08-24"
+}

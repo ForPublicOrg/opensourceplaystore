@@ -1,0 +1,19 @@
+{
+  "id": "kurozora",
+  "name": "Kurozora",
+  "tagline": "Keep track of the anime, manga and games you're working through",
+  "description": "Kurozora is a place to keep a list of everything you watch, read and play. Search a large catalogue of anime, manga and games, mark what you have finished and what you are partway through, rate them, and read what other people made of them before you start something new.\n\nEach title has a reviews section, and there is a feed where you can post about a show, reply to other people, reshare and like. It ships with a handful of colour themes and can download more, and it is built to look right on anything from a small phone to a tablet.\n\nThis is the Android client for the kurozora.app service, so you need an account and a connection for it to do anything. The Android version is younger than the iPhone one and the latest release is still a beta, so expect some rough edges.",
+  "repo": "https://github.com/Kurozora/kurozora-android",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://kurozora.app",
+  "tags": [
+    "anime",
+    "manga",
+    "tracker",
+    "games",
+    "watchlist",
+    "library"
+  ],
+  "added": "2026-08-24"
+}

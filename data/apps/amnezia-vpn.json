@@ -1,0 +1,19 @@
+{
+  "id": "amnezia-vpn",
+  "name": "Amnezia VPN",
+  "tagline": "Run your own VPN on a server you rent",
+  "description": "Amnezia sets up a VPN on a server of your own and then connects you to it. You type in the server's address and SSH login, and the app installs everything needed on that machine for you. No command line, no config files to edit by hand.\n\nBecause the server is yours, nobody is keeping logs of your browsing but you. On Android it speaks WireGuard and OpenVPN, plus protocols designed to look like ordinary traffic, such as AmneziaWG, XRay, Shadowsocks and OpenVPN over Cloak, which helps where plain VPNs are blocked. Split tunnelling sends only the sites or apps you pick through the tunnel.\n\nYou do need a server to point it at; a cheap rented virtual one is enough. The project also sells a ready-made paid plan if you would rather not run a server yourself.",
+  "repo": "https://github.com/amnezia-vpn/amnezia-client",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://amnezia.org",
+  "tags": [
+    "vpn",
+    "wireguard",
+    "openvpn",
+    "censorship",
+    "privacy",
+    "proxy"
+  ],
+  "added": "2026-08-24"
+}

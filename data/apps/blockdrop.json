@@ -1,0 +1,12 @@
+{
+  "id": "blockdrop",
+  "name": "BlockDrop",
+  "tagline": "Stack the falling blocks and clear the lines",
+  "description": "BlockDrop is the classic falling-block puzzle. All seven shapes come down one after another, you rotate and slide them into place, and every full row clears away. Your score climbs as long as you can keep the stack from reaching the top.\n\nSwipe left and right to move, tap to rotate, swipe down to drop a little faster and double tap to slam a piece home. You can park one piece in the hold slot to save for later, and the next piece is always shown so you can plan ahead. There are several themes in light, dark and true-black for AMOLED screens.\n\nIt plays entirely offline, with no ads and nothing to sign up for.",
+  "repo": "https://github.com/brandonp2412/BlockDrop",
+  "category": "games",
+  "license": "MIT",
+  "fdroid": "com.blockdrop.game",
+  "tags": ["puzzle", "tetris", "blocks", "arcade", "offline"],
+  "added": "2026-08-24"
+}

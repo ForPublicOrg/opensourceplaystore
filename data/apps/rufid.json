@@ -1,0 +1,12 @@
+{
+  "id": "rufid",
+  "name": "Rufid",
+  "tagline": "Make a bootable USB stick straight from your phone",
+  "description": "Rufid writes disk images onto a USB stick plugged into your phone, so you can build a Windows installer, a Linux live stick or a rescue drive without sitting at a computer. Pick the drive, pick an ISO from your files or paste a download link, and it writes it.\n\nIt can also bring a dead stick back to life by clearing it and formatting a fresh FAT32 or exFAT volume, back up a whole drive to a file, look at what is already on a boot disk, and split oversized Windows install files so they fit on FAT32. There are no ads, no analytics and no crash reporting, and it never asks for root.\n\nYou need a USB OTG adapter, or a phone whose USB-C port can power the drive. Writing erases the stick, so Rufid shows you the plan first and makes you type a letter to confirm. It is not connected to Rufus, Ventoy or EtchDroid in any way.",
+  "repo": "https://github.com/GPLaider/rufid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.rufid",
+  "tags": ["usb", "bootable", "iso", "otg", "format", "installer", "rescue"],
+  "added": "2026-08-24"
+}

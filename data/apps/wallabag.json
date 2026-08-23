@@ -1,0 +1,20 @@
+{
+  "id": "wallabag",
+  "name": "wallabag",
+  "tagline": "Save articles now, read them later offline",
+  "description": "wallabag keeps web articles for later and strips out the clutter, leaving the words. Share a link to it from a browser, a chat or a news app and the article waits for you, tidy and readable, until you have time.\n\nSaved articles work with no connection, and you can cache their images too. Make the text bigger or smaller, switch between a serif and a sans-serif font, pick from a number of themes, or let the phone read an article aloud while you do something else. There are no ads.\n\nwallabag is self-hosted, so you need an account before the app is any use: either an instance you install on your own server, or a hosted account at wallabag.it. It works with wallabag 2.0 and newer.",
+  "repo": "https://github.com/wallabag/android-app",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://www.wallabag.org",
+  "fdroid": "fr.gaulupeau.apps.InThePoche",
+  "tags": [
+    "read later",
+    "articles",
+    "offline",
+    "reading",
+    "bookmarks",
+    "wallabag"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "olvid",
+  "name": "Olvid",
+  "tagline": "Encrypted messaging without a phone number",
+  "description": "Olvid is an end-to-end encrypted messenger that asks for no personal information at all. It does not want your phone number, and it never reads your contacts. You add someone by exchanging an invitation and confirming it directly with them, and that mutual check is the only thing your privacy rests on.\n\nBecause there is no central directory of users, nobody can look you up and send you things you did not ask for. Olvid does use servers to carry messages, but the encryption happens on your own phone and is designed on the assumption that those servers were broken into on day one.\n\nMade in France, and put through the French government's CSPN security certification. The help pages and tutorial videos are in English and French.",
+  "repo": "https://github.com/olvid-io/olvid-android",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://olvid.io",
+  "tags": [
+    "messenger",
+    "chat",
+    "encrypted",
+    "privacy",
+    "secure",
+    "messaging"
+  ],
+  "added": "2026-08-24"
+}

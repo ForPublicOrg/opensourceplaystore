@@ -1,0 +1,22 @@
+{
+  "id": "anitrend",
+  "name": "AniTrend",
+  "tagline": "Keep track of the anime and manga you're following",
+  "description": "AniTrend is a phone app for AniList, the free anime and manga database. Look up any series, see what it is about and what other people made of it, and keep your own watching and reading lists ticking along from your phone.\n\nEverything syncs with your AniList account, so progress you mark here shows up on the website as well. There are light and dark themes, dedicated pages for each anime and manga, reviews, and a Crunchyroll feed. Where a series is legally available to watch, the app links out to the official site.\n\nTwo things to know before you install. AniTrend does not play anything itself, it only tracks and links out. And it needs a free AniList account, because that is where your lists actually live. The next big version is still being worked on, so expect some rough edges.",
+  "repo": "https://github.com/AniTrend/anitrend-app",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://anitrend.co",
+  "tags": [
+    "anime",
+    "manga",
+    "anilist",
+    "tracker",
+    "watchlist",
+    "reviews"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

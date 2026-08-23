@@ -1,0 +1,12 @@
+{
+  "id": "red-moon",
+  "name": "Red Moon",
+  "tagline": "Tint your screen red so night reading is easier",
+  "description": "Red Moon filters blue light out of your screen and dims it below the level Android normally allows, so late-night reading is kinder on your eyes. Blue light suppresses melatonin, the hormone that makes you sleepy, and cutting it out helps you wind down.\n\nSet it to run automatically from sunset to sunrise or at times you pick, choose one of the ready-made colour profiles or dial in your own colour, intensity and dimming, and flick it on and off from the notification, a quick settings tile or a home screen widget. It can also pause itself in apps you choose, or in apps that block screen overlays.\n\nRed Moon is no longer actively maintained \u2014 it still works and pull requests are accepted, but do not expect new features.",
+  "repo": "https://github.com/LibreShift/red-moon",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.jmstudios.redmoon",
+  "tags": ["blue light", "night mode", "screen filter", "dim", "sleep", "eyes"],
+  "added": "2026-08-24"
+}

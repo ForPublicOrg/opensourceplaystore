@@ -1,0 +1,13 @@
+{
+  "id": "feedflow",
+  "name": "FeedFlow",
+  "tagline": "Read the sites you follow, in order, no algorithm",
+  "description": "FeedFlow is an RSS reader. You choose the blogs, news sites and comics you want to follow, and it shows their new articles in one plain timeline, newest first, with nothing picked for you and nothing slipped in between. If you already have a subscription list, import the OPML file and you are reading in a minute.\n\nArticles open in a stripped-back reader mode, an in-app browser, or whichever browser you normally use. Your feeds can stay on the phone alone, sync through Dropbox, Google Drive or iCloud, or connect to a reader account like FreshRSS, Miniflux, Feedbin or BazQux. Bookmarks, category filters, blocked words and offline saving keep a busy timeline under control, and there is a home screen widget.\n\nThe same app exists for iPhone, Mac, Windows and Linux, so your reading list can follow you to a desktop.",
+  "repo": "https://github.com/prof18/feed-flow",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://www.feedflow.dev",
+  "fdroid": "com.prof18.feedflow",
+  "tags": ["rss", "news", "feeds", "reader", "opml", "offline"],
+  "added": "2026-08-24"
+}

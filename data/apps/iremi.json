@@ -1,0 +1,13 @@
+{
+  "id": "iremi",
+  "name": "Iremi",
+  "tagline": "Guided breathing exercises to calm anxiety",
+  "description": "Iremi talks you through slow breathing when you are anxious or wound up. A shape on screen grows and shrinks so you always know whether to breathe in, hold or breathe out, and an optional voice can read the steps aloud if you would rather close your eyes.\n\nIt includes deep belly breathing at beginner, intermediate and advanced paces, the 4-7-8 pattern for winding down before sleep, and box breathing for staying steady under pressure. You can save your own patterns too. The app keeps a profile with your progress, streaks and badges, all in a database on the phone that you can export and restore yourself. Light and dark themes are both there.\n\nIt asks you to set up a profile the first time you open it, which is stored locally rather than on any server, and the spoken guidance is still marked as beta. This is a relaxation tool, not medical treatment. If the exercises make you feel unwell, stop and talk to a professional.",
+  "repo": "https://github.com/ZiClaud/Iremi-Breathing-App",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://claudiodimaio.netlify.app/#/works/iremi",
+  "fdroid": "eu.ziclaud.iremibreathingapp",
+  "tags": ["breathing", "anxiety", "relaxation", "meditation", "calm", "sleep", "mindfulness"],
+  "added": "2026-08-24"
+}

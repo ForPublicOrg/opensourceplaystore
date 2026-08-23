@@ -1,0 +1,20 @@
+{
+  "id": "diaguard",
+  "name": "Diaguard",
+  "tagline": "A diabetes logbook you can hand to your doctor",
+  "description": "Diaguard replaces the handwritten diabetes diary. You note blood sugar, insulin, carbohydrates, HbA1c, activity, weight, pulse, blood pressure and oxygen saturation, and the app draws it back as graphs and clear logs, so a month of readings becomes something you can actually read.\n\nA food database with thousands of entries makes counting carbohydrates quicker. There are settings for basal rate, correction factor and meal-bolus factor, reminders, an estimated HbA1c, statistics, dark mode, configurable units, and export to PDF or CSV — the PDF is the one to print before an appointment. It is translated into German, French, Spanish, Italian, Russian and Turkish as well as English.\n\nThe app is currently being rewritten from scratch so it can run on iPhone too, so this Android version is in maintenance rather than active development.",
+  "repo": "https://github.com/Faltenreich/Diaguard",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://diaguard.wordpress.com",
+  "fdroid": "com.faltenreich.diaguard",
+  "tags": [
+    "diabetes",
+    "glucose",
+    "insulin",
+    "diary",
+    "health",
+    "logbook"
+  ],
+  "added": "2026-08-24"
+}

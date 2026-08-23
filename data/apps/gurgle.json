@@ -1,0 +1,19 @@
+{
+  "id": "gurgle",
+  "name": "Gurgle",
+  "tagline": "Guess the hidden word as often as you like",
+  "description": "Gurgle is a word-guessing game in the Wordle mould. Type a word and the letters turn green if they are in the right place, yellow if they are in the word somewhere else, and grey if they are not in it at all. Unlike the daily original, you can tap refresh and start a fresh word whenever you feel like it.\n\nWords come from built-in lists in several languages. Tap any word to look up what it means, through Wiktionary or an offline dictionary app you already have. There are colour themes, optional confetti and a fanfare when you get it, accented letters for languages that need them, and you can long-press to lock letters you have already placed.\n\nYou can share your grid as a picture or as coloured squares, or share a code — including a QR code — so a friend running Gurgle gets the same run of words. There is nothing to sign up for; the only part that goes online is looking a word up.",
+  "repo": "https://github.com/billthefarmer/gurgle",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://billthefarmer.github.io/gurgle/",
+  "fdroid": "org.billthefarmer.gurgle",
+  "tags": [
+    "word",
+    "wordle",
+    "puzzle",
+    "game",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

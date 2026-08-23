@@ -1,0 +1,14 @@
+{
+  "id": "kreate",
+  "name": "Kreate",
+  "tagline": "Play and download music from YouTube Music without ads",
+  "description": "Kreate is a music player that pulls its songs from YouTube Music, without the ads and without a subscription. It keeps playing while the screen is off, caches what you listen to, and lets you download whole playlists so they still work on a train with no signal.\n\nIt is a fork of RiMusic built around speed. You get themes and a choice of two interface styles, synced lyrics you can fetch, edit and translate, a sleep timer, listening statistics, playlist import and export, and support for Android Auto and Android TV. It has been translated into a long list of languages by the community.\n\nBecause it leans on YouTube Music, it can stop working for a while when YouTube changes something. The audio visualiser needs microphone permission and is off until you turn it on, and the built-in updater only works if you installed the APK from GitHub.",
+  "repo": "https://github.com/knighthat/Kreate",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://kreate.knighthat.me",
+  "fdroid": "me.knighthat.kreate",
+  "tags": ["music", "youtube-music", "streaming", "offline", "lyrics", "player"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

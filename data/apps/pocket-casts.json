@@ -1,0 +1,22 @@
+{
+  "id": "pocket-casts",
+  "name": "Pocket Casts",
+  "tagline": "Follow your podcasts and pick up where you left off",
+  "description": "Pocket Casts is a podcast player. Search for a show, subscribe, and new episodes arrive on their own. There is a full screen player, filters for digging out what you have not heard yet, a discover section for finding something new, and a run-down of your listening at the end of the year.\n\nThis is the source code for the real app, opened up by its owners at Automattic. It comes with a version for cars running Android Automotive and a Tasker plugin if you like wiring your phone up to do things by itself.\n\nSyncing your subscriptions and progress between devices needs a Pocket Casts account, and the app collects usage analytics.",
+  "repo": "https://github.com/Automattic/pocket-casts-android",
+  "category": "media",
+  "license": "MPL-2.0",
+  "website": "https://pocketcasts.com",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "podcast",
+    "podcasts",
+    "player",
+    "episodes",
+    "subscriptions",
+    "audio"
+  ],
+  "added": "2026-08-24"
+}

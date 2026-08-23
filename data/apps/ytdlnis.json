@@ -1,0 +1,14 @@
+{
+  "id": "ytdlnis",
+  "name": "YTDLnis",
+  "tagline": "Save video or audio from almost any link",
+  "description": "YTDLnis downloads video and audio from more than a thousand websites. Share a link to it from your browser or any other app, a small card pops up, and you pick MP3 or video and the quality you want before it starts.\n\nUnder the hood it drives yt-dlp, so it can do the fiddly things: queue downloads and schedule them for a certain time, work through whole playlists, cut a clip by timestamp or chapter, skip SponsorBlock segments, and embed subtitles, chapters and cover art. There is a built-in terminal for your own yt-dlp commands, an incognito mode that keeps no history, and it can use your cookies to fetch videos only your account can see.\n\nNeeds Android 7 or newer. Video sites change constantly, so a download that worked last week can break until yt-dlp is updated, which the app can do from its own settings.",
+  "repo": "https://github.com/deniscerri/ytdlnis",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://ytdlnis.org",
+  "fdroid": "com.deniscerri.ytdl",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["downloader", "youtube", "yt-dlp", "video", "audio", "mp3"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "skytube",
+  "name": "SkyTube",
+  "tagline": "Watch YouTube without ads or an account",
+  "description": "SkyTube lets you search, browse and play YouTube videos with no adverts and no Google account. Your subscriptions, bookmarks and watch history stay on the phone, and you can back them up to a file or bring your subscriptions across from YouTube.\n\nIts video blocker is the unusual part: hide entire channels, or videos in languages you do not read, or ones with hardly any views, and a counter in the toolbar shows how many it kept out of your feed. SponsorBlock skips sponsor segments, videos can be sped up or slowed down, swiping adjusts volume and brightness, and you can download a video to watch later.\n\nThis build is fully free software. A separate SkyTube Extra APK on the project's releases page adds Chromecast and the official YouTube player using a closed-source library. Because YouTube keeps changing things, playback can break now and then until an update arrives. Works on Android 4.4 and later.",
+  "repo": "https://github.com/SkyTubeTeam/SkyTube",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "free.rm.skytube.oss",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["youtube", "video", "sponsorblock", "subscriptions", "player", "adfree"],
+  "added": "2026-08-24"
+}

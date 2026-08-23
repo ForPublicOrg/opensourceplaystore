@@ -1,0 +1,19 @@
+{
+  "id": "sanmill",
+  "name": "Sanmill",
+  "tagline": "Nine Men's Morris against the computer or a friend",
+  "description": "Sanmill is the old mill game — you take turns placing pieces, line three up in a row, and take one of your opponent's off the board. Play against the computer, against someone sitting next to you on the same phone, or against another device on your Wi-Fi.\n\nThe computer opponent has thirty difficulty levels, so it can go easy while you learn and then stop going easy. You can switch to variants like Twelve Men's Morris, Lasker Morris and Morabaraba, turn house rules such as flying on or off, and change the board, the pieces, the colours and the sounds.\n\nThere is also an analysis engine that shows you what it makes of a position, which is a good way to work out where your game went wrong.",
+  "repo": "https://github.com/calcitem/Sanmill",
+  "category": "games",
+  "license": "AGPL-3.0",
+  "fdroid": "com.calcitem.sanmill",
+  "tags": [
+    "board",
+    "morris",
+    "mill",
+    "strategy",
+    "offline",
+    "two-player"
+  ],
+  "added": "2026-08-24"
+}

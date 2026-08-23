@@ -1,0 +1,18 @@
+{
+  "id": "beamklipper",
+  "name": "BeamKlipper",
+  "tagline": "Run your 3D printer's Klipper host on an old phone",
+  "description": "BeamKlipper turns a spare Android phone into the brain of a Klipper 3D printer. It bundles Klipper, Moonraker and the Fluidd and Mainsail web interfaces, so you plug the printer into the phone over USB OTG and then drive it from a browser on any device on your network.\n\nEverything runs as an ordinary app in user space. Nothing about your Android system is changed, and you can still use the phone as a phone. The phone's own camera can act as the printer webcam, with extra commands for the flashlight, focus and a beeper.\n\nYou need a printer already flashed with matching Klipper firmware, a USB OTG cable, and ideally a powered hub so the phone charges while it's connected. The web interface lives on port 8888 rather than the usual port 80, and the support chats are mostly in Russian.",
+  "repo": "https://github.com/utkabobr/BeamKlipper",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "3d printing",
+    "klipper",
+    "moonraker",
+    "fluidd",
+    "printer",
+    "usb"
+  ],
+  "added": "2026-08-24"
+}

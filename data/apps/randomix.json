@@ -1,0 +1,12 @@
+{
+  "id": "randomix",
+  "name": "Randomix",
+  "tagline": "Roll dice, flip coins and pick at random",
+  "description": "Randomix settles arguments. Spin a roulette to choose between the options you type in or a range of numbers, flip a coin, throw dice, or ask a magic ball a question and let it answer for you.\n\nThe roulette keeps your recent lists so you can pin, delete or bring one back, and it has ready-made presets for letters, cards and plain numbers. The dice are d4, d6, d10, d12 and d20, up to ten at a time. You can write your own magic ball answers, and turn sounds and vibration on or off.\n\nIt follows your Material You colours with light, dark and AMOLED themes, is about 4 MB, and has been translated into a long list of languages.",
+  "repo": "https://github.com/m-i-n-a-r/randomix",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "com.minar.randomix",
+  "tags": ["random", "dice", "coin", "decision", "roulette", "generator"],
+  "added": "2026-08-24"
+}

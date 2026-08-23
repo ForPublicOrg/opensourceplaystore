@@ -1,0 +1,12 @@
+{
+  "id": "ffshare",
+  "name": "FFShare",
+  "tagline": "Shrink photos, videos and audio before you share them",
+  "description": "When a video is too big to send or a photo carries more detail than the chat window needs, share it to FFShare first. It squeezes the file down, then hands you a fresh share dialog so you can pass the smaller copy on to WhatsApp, email or wherever you were headed.\n\nShrinking also strips out the metadata riding along inside the file, including the spot on the map where a photo was taken. The work is done on your phone by ffmpeg, the same tool video editors use, and you watch the progress bar while it runs.\n\nIt has no gallery of its own: you always start from the Share menu of another app. And because compressing trades quality for size, keep the original if the original is the one that matters.",
+  "repo": "https://github.com/caydey/ffshare",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.caydey.ffshare",
+  "tags": ["compress", "video", "photos", "audio", "ffmpeg", "sharing", "metadata"],
+  "added": "2026-08-24"
+}

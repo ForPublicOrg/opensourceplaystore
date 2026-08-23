@@ -1,0 +1,20 @@
+{
+  "id": "rhvoice",
+  "name": "RHVoice",
+  "tagline": "Add clear speaking voices to your phone",
+  "description": "RHVoice is a speech synthesizer that plugs into Android's built-in text-to-speech system. Once it is installed, anything that reads text aloud — the TalkBack screen reader, ebook apps, navigation, accessibility tools — can use its voices. It speaks Russian, American and Scottish English, Brazilian Portuguese, Ukrainian, Polish, Macedonian, Albanian, Georgian, Kyrgyz, Tatar and Esperanto.\n\nThe voices are built from recordings of real people but stored as compact statistical models rather than audio, so downloads are small and everything runs on the phone with no internet connection. They sound less lifelike than large cloud voices, though they stay very intelligible at fast reading speeds, which is why blind and low-vision users have relied on RHVoice for years.\n\nIt is an engine, not an app you open day to day. After installing it, go to your phone's text-to-speech settings, choose RHVoice, and download the voices you want.",
+  "repo": "https://github.com/RHVoice/RHVoice",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "website": "https://rhvoice.org",
+  "fdroid": "com.github.olga_yakovleva.rhvoice.android",
+  "tags": [
+    "text to speech",
+    "tts",
+    "voice",
+    "accessibility",
+    "screen reader",
+    "speech"
+  ],
+  "added": "2026-08-24"
+}

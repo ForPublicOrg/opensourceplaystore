@@ -1,0 +1,19 @@
+{
+  "id": "espeak-ng",
+  "name": "eSpeak NG",
+  "tagline": "Speech output in more than 100 languages",
+  "description": "eSpeak NG is a text-to-speech engine covering over a hundred languages and accents, including plenty that no phone maker ships a voice for. Install it, set it as your Android speech engine, and screen readers, ebook apps and anything else that talks can speak your language.\n\nIt builds speech from scratch using formant synthesis rather than recordings of a human voice. That keeps the whole thing to a few megabytes and lets it read at very high speed, which is why it's a long-standing favourite with blind users of screen readers. Voices can be adjusted, and it understands SSML markup.\n\nThe trade-off is the sound: clear and easy to follow, but plainly robotic next to engines built from human recordings. Every language ships inside the app, so once it is installed there is nothing further to download and nothing goes over the internet.",
+  "repo": "https://github.com/espeak-ng/espeak-ng",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.reecedunn.espeak",
+  "tags": [
+    "text to speech",
+    "tts",
+    "accessibility",
+    "screen reader",
+    "voice",
+    "languages"
+  ],
+  "added": "2026-08-24"
+}

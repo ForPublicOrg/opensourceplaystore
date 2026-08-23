@@ -1,0 +1,13 @@
+{
+  "id": "notesnook",
+  "name": "Notesnook",
+  "tagline": "Encrypted notes that follow you to every device",
+  "description": "Notesnook is a notes app that locks everything up on your phone before it goes anywhere. Notes, notebooks, tags and attachments are all encrypted with your password, so the people running the service cannot read a word of what you wrote even if they wanted to.\n\nThe same notes turn up on the web, desktop and your other phones through one account, and there is an importer for pulling your writing out of Evernote and other apps. All of the client code is published here, and the company runs a public tool for checking that the encryption does what they say.\n\nYou sign up with an email address to use it \u2014 the account is what carries your notes between devices. The app is free to use, with a paid plan for people who want more.",
+  "repo": "https://github.com/streetwriters/notesnook",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://notesnook.com/",
+  "fdroid": "com.streetwriters.notesnook",
+  "tags": ["notes", "encrypted", "sync", "evernote", "privacy", "notebook"],
+  "added": "2026-08-24"
+}

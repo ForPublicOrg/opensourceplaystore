@@ -1,0 +1,18 @@
+{
+  "id": "octo4a",
+  "name": "Octo4a",
+  "tagline": "Run your 3D printer from an old Android phone",
+  "description": "Octo4a installs OctoPrint on an Android phone, so you can watch and control your 3D printer from a web browser on any device in the house. If there is an old handset sitting in a drawer, this saves you buying a Raspberry Pi for the job.\n\nYou tap Install OctoPrint and the app downloads and sets the whole thing up for you, with no Linux knowledge needed. The printer connects over USB OTG through a custom driver, so the phone does not need root, and the phone's own camera can act as the printer camera, including timelapses with Octolapse. If you like tinkering, you can log in over SSH afterwards.\n\nCheck two things before you start. The phone must support USB OTG, and some models cannot charge and use OTG at the same time, which matters for long prints. The project keeps a community list of which phones people have had luck with. The first install needs an internet connection and can take a while. Development has been quiet since 2024, so it still does the job but is not seeing regular updates.",
+  "repo": "https://github.com/feelfreelinux/octo4a",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": [
+    "octoprint",
+    "3d",
+    "printer",
+    "printing",
+    "usb",
+    "server"
+  ],
+  "added": "2026-08-24"
+}

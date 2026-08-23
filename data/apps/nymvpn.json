@@ -1,0 +1,20 @@
+{
+  "id": "nymvpn",
+  "name": "NymVPN",
+  "tagline": "A VPN that hides who you talk to, not just your address",
+  "description": "NymVPN hides more than your IP address. An ordinary VPN swaps your internet provider for one company that can still see both who you are and where you are going. NymVPN spreads that across several hops run by different independent operators, so no single one of them knows both halves.\n\nThere are two modes you pick between. The fast mode routes you through two WireGuard hops and feels close to a normal VPN. The private mode routes you through a five-hop mixnet that shuffles your traffic in with everyone else's and adds filler traffic, which hides the timing patterns that can otherwise identify you. It also has a kill switch, split tunnelling, custom DNS and built-in ad and tracker blocking, and the code has been through several independent security audits.\n\nIt is a paid service. You buy access with credentials designed to be unlinkable from what you do, so there is no email address or account name involved. Expect the mixnet mode to feel slower than a normal VPN. That slowdown is the price of the extra anonymity, which is why the faster mode is there as well.",
+  "repo": "https://github.com/nymtech/nym-vpn-client",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://nym.com",
+  "fdroid": "net.nymtech.nymvpn",
+  "tags": [
+    "vpn",
+    "privacy",
+    "mixnet",
+    "anonymity",
+    "wireguard",
+    "censorship"
+  ],
+  "added": "2026-08-24"
+}

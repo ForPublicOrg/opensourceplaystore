@@ -1,0 +1,19 @@
+{
+  "id": "winlator",
+  "name": "Winlator",
+  "tagline": "Run Windows programs and games on Android",
+  "description": "Winlator lets you run real Windows (x86_64) programs and games on an Android phone or tablet. It bundles Wine, which stands in for Windows itself, together with Box86 and Box64, which translate PC instructions so they run on your phone’s chip.\n\nYou install it, wait once while it sets itself up, then add your programs. Each game gets its own shortcut on the home screen with its own settings, so you can tune graphics and compatibility for one title without changing the rest.\n\nExpect to tinker. Plenty of games need a different Box64 preset, an extra environment variable or a Wine component installed before they behave properly, and some software will not run at all.",
+  "repo": "https://github.com/brunodev85/winlator",
+  "category": "games",
+  "license": "LGPL-2.1",
+  "website": "https://winlator.org",
+  "tags": [
+    "windows",
+    "wine",
+    "pc games",
+    "emulator",
+    "box64",
+    "gaming"
+  ],
+  "added": "2026-08-24"
+}

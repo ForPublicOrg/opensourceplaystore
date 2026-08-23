@@ -1,0 +1,19 @@
+{
+  "id": "wasted",
+  "name": "Wasted",
+  "tagline": "Lock or wipe your phone the moment it is taken",
+  "description": "Wasted is an emergency switch. When it fires, the phone locks itself straight away and, if you have asked it to, runs a factory reset, so whoever is holding it cannot get at your messages, photos and accounts. Instead of wiping it can also send a signal to another app you have set up.\n\nYou can trigger it from a quick settings tile, a home screen shortcut, a PanicKit app, or by texting the phone a secret code. It can also fire on its own: when the phone has not been unlocked for a set time, when a USB data cable is plugged in while it is locked, when a decoy messenger app is opened, or when a duress password is typed. It works inside a work profile too, so you can wipe just that profile.\n\nBe realistic about the limits. Only an encrypted phone can promise the data is really gone, the app does not run in Android's safe mode, and it needs device administrator rights. Google has changed the Android APIs this depends on, so the developer is redesigning how the app works.",
+  "repo": "https://github.com/x13a/Wasted",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "me.lucky.wasted",
+  "tags": [
+    "security",
+    "wipe",
+    "panic",
+    "emergency",
+    "privacy",
+    "lock"
+  ],
+  "added": "2026-08-24"
+}

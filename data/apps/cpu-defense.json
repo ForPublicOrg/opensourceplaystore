@@ -1,0 +1,18 @@
+{
+  "id": "cpu-defense",
+  "name": "Chip Defense",
+  "tagline": "Tower defense inside a computer chip",
+  "description": "Chip Defense, previously called CPU Defense, is a tower defense game set on a circuit board. Waves of attackers — bits and bytes — travel along the traces towards your processor, and you stop them by dropping logic chips into the empty slots along the way.\n\nInstead of arrows and cannons, your towers do arithmetic: subtraction, right shift, bitwise AND and so on, each chipping away at the attacking numbers. Chips can be upgraded as you go, and you collect \"heroes of the information age\" — more than 25 real people who shaped computing, each with a short biography and a bonus that makes runs easier.\n\nThere are 32 hand-built levels plus an endless mode with randomly generated boards. As well as English it is translated into German, French, Italian and Chinese, and it needs Android 6 or later.",
+  "repo": "https://github.com/ochadenas/cpudefense",
+  "category": "games",
+  "license": "MIT",
+  "fdroid": "de.chadenas.cpudefense",
+  "tags": [
+    "tower",
+    "defense",
+    "strategy",
+    "retro",
+    "game"
+  ],
+  "added": "2026-08-24"
+}

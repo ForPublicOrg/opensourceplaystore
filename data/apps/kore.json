@@ -1,0 +1,12 @@
+{
+  "id": "kore",
+  "name": "Kore",
+  "tagline": "Control Kodi on your TV from your phone",
+  "description": "Kore is the official remote for Kodi. It puts your media centre in your hand: browse the movies, TV shows, music and add-ons in your library, read the details, and send whatever you pick to the big screen.\n\nWhile something is playing you get the usual controls — play, pause, seek, volume — plus subtitle and audio-track switching, subtitle downloading, and the current playlist to add to or manage. You can type text on your phone instead of pecking at an on-screen keyboard with a d-pad, send YouTube videos over to Kodi, switch live TV channels and start recordings on a PVR setup, run library clean-ups and updates, and wake the machine with Wake-on-LAN. Several colour themes are included.\n\nIt is a remote and nothing else: you need Kodi 14 or newer already running on your network, with remote control allowed in its settings.",
+  "repo": "https://github.com/xbmc/Kore",
+  "category": "media",
+  "license": "Apache-2.0",
+  "fdroid": "org.xbmc.kore",
+  "tags": ["kodi", "remote", "media-center", "xbmc", "remote-control", "htpc"],
+  "added": "2026-08-24"
+}

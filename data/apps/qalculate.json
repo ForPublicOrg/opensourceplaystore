@@ -1,0 +1,12 @@
+{
+  "id": "qalculate",
+  "name": "Qalculate!",
+  "tagline": "A calculator that handles units, currencies and equations",
+  "description": "Qalculate! is the Android version of the desktop calculator many people already keep on their computer. You write what you mean, like \"15% of 80\" or \"3 miles to km\", and it works the answer out, converting units and currencies along the way.\n\nBehind the ordinary-looking keypad sits libqalculate, the same engine the desktop app uses: a large library of functions, physical constants, variables you can define yourself, symbolic maths including integrals and equations, arbitrary precision and uncertainty propagation. There is a plain default view for quick sums, and an optional calculate-as-you-type mode that shows the result while you are still writing.\n\nThe deeper features have a syntax worth reading up on. The Qalculate! manual on the project's website lists all the functions, units and variables. This Android front end is a younger project than the desktop one, so expect it to keep changing.",
+  "repo": "https://github.com/jherkenhoff/qalculate-android",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": ["calculator", "units", "converter", "currency", "math", "equations"],
+  "fdroid": "com.jherkenhoff.qalculate",
+  "added": "2026-08-24"
+}

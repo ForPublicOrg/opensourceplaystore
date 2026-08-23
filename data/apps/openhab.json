@@ -1,0 +1,20 @@
+{
+  "id": "openhab",
+  "name": "openHAB",
+  "tagline": "Run your smart home from your phone",
+  "description": "openHAB is home automation software that ties lights, heating, blinds, sensors and hundreds of other gadgets together no matter which brand made them. This app is the remote control: your sitemaps and pages, laid out for a phone screen.\n\nYou can speak commands instead of tapping, trigger things by touching an NFC tag, put the controls you use most on your home screen as widgets, and hand your alarm clock time to the system so the house can wake up with you. Notifications arrive through an openHAB Cloud account such as myopenHAB. There is a Tasker plugin included, and a mode built for tablets mounted on a wall.\n\nYou need an openHAB server already running on your network. The app talks to it; it does not do the automation itself.",
+  "repo": "https://github.com/openhab/openhab-android",
+  "category": "tools",
+  "license": "EPL-2.0",
+  "website": "https://www.openhab.org",
+  "fdroid": "org.openhab.habdroid",
+  "tags": [
+    "openhab",
+    "smarthome",
+    "automation",
+    "iot",
+    "lights",
+    "remote"
+  ],
+  "added": "2026-08-24"
+}

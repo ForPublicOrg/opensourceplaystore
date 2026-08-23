@@ -1,0 +1,20 @@
+{
+  "id": "jitsi-meet",
+  "name": "Jitsi Meet",
+  "tagline": "Free group video calls you join with a link",
+  "description": "Jitsi Meet is free group video calling. Name a room, share the link, and everyone else can join from this app or straight from a web browser. It works for family catch-ups, study groups and work meetings alike.\n\nCalls come with HD audio and video, screen and content sharing, chat with private messages, polls, reactions, raised hands and virtual backgrounds. Jitsi is also free to install, so plenty of schools, companies and communities run their own server instead of using the public one.\n\nOn the free meet.jit.si service you need a Google, Facebook or GitHub account to start a meeting. The people you invite do not need an account at all.",
+  "repo": "https://github.com/jitsi/jitsi-meet",
+  "category": "social",
+  "license": "Apache-2.0",
+  "website": "https://jitsi.org/meet",
+  "fdroid": "org.jitsi.meet",
+  "tags": [
+    "video",
+    "calls",
+    "meetings",
+    "conference",
+    "webrtc",
+    "zoom"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "triliumdroid",
+  "name": "TriliumDroid",
+  "tagline": "Your Trilium notes on your phone, synced and offline",
+  "description": "TriliumDroid is an unofficial Android client for Trilium Notes. It syncs your whole note tree onto the phone, so the notes are there whether or not you have signal, and pushes your edits back when you reconnect.\n\nYou get the same deep tree of notes with a single note able to live in several places, a rich text editor based on CKEditor, fast jump-to-note search, automatic versioning, per-note encryption, Excalidraw sketches, map notes and note attributes. It also hooks into Android sharing, so you can send a note to another app or save something shared to you as a new note. English, German, Turkish and Simplified Chinese are included.\n\nYou need your own Trilium sync server running version 0.97 or newer \u2014 there is no cloud account, and the app is not much use on its own yet. Android 7.0 or later.",
+  "repo": "https://github.com/FliegendeWurst/TriliumDroid",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": ["notes", "trilium", "sync", "self-hosted", "knowledge base", "offline"],
+  "added": "2026-08-24"
+}

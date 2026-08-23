@@ -1,0 +1,12 @@
+{
+  "id": "runnerup",
+  "name": "RunnerUp",
+  "tagline": "Track your runs with the GPS in your phone",
+  "description": "RunnerUp records your runs, rides and walks using your phone's GPS and gives you the detail afterwards: pace, distance, time and how each stretch went. Spoken cues in your ear tell you how you are doing without having to look at the screen.\n\nYou can set a target pace or heart rate zone for a free run, or build interval sessions in the style of a Garmin watch. It pairs with Bluetooth and ANT+ heart rate straps, uses your phone's step and pressure sensors, and can push finished workouts straight to Strava, Runalyze and other services. There is a Wear OS companion too.\n\nThe F-Droid build leaves out a few features that could not be included for licensing reasons; the releases on GitHub are the complete version.",
+  "repo": "https://github.com/jonasoreland/runnerup",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.runnerup.free",
+  "tags": ["running", "gps", "fitness", "tracker", "strava", "intervals"],
+  "added": "2026-08-24"
+}

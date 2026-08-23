@@ -1,0 +1,23 @@
+{
+  "id": "shonenx",
+  "name": "ShonenX",
+  "tagline": "Watch anime and read manga with your progress kept in sync",
+  "description": "ShonenX is an anime and manga app that keeps your watch and read progress in step with AniList, MyAnimeList and Kitsu at the same time. It has no ads and no trackers.\n\nThere is a built-in player and reader with an AMOLED dark mode, and you can download episodes and volumes to watch or read offline. The app also runs on Windows and Linux, so you can pick up where you left off on a computer.\n\nIt ships bare: no sources are included. You add your own through the AnymeX extension bridge, which takes Aniyomi and Mangayomi extensions, and until you do the app has nothing to play. What those third-party sources serve, and whether it is legal where you live, is on you.",
+  "repo": "https://github.com/roshancodespace/ShonenX",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://shonenx.vercel.app",
+  "tags": [
+    "anime",
+    "manga",
+    "anilist",
+    "myanimelist",
+    "tracker",
+    "streaming",
+    "reader"
+  ],
+  "added": "2026-08-24",
+  "antiFeatures": [
+    "nonfree-network"
+  ]
+}

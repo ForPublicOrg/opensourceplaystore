@@ -1,0 +1,19 @@
+{
+  "id": "stoat",
+  "name": "Stoat",
+  "tagline": "Community chat servers, channels and friends",
+  "description": "Stoat is a chat platform built around community servers — channels for different subjects, direct messages with friends, and roles for the people who run the place. If you have used Discord you will find your way around in a minute. The project used to be called Revolt.\n\nThis is the official Android app, written in Kotlin with Jetpack Compose, so it behaves like a real Android app rather than a website in a wrapper. The app and the library it uses to talk to Stoat are both open source.\n\nYou need a Stoat account to sign in, and the app is still being actively built out, so expect the occasional rough edge.",
+  "repo": "https://github.com/stoatchat/for-android",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://stoat.chat",
+  "tags": [
+    "chat",
+    "community",
+    "revolt",
+    "messaging",
+    "servers",
+    "discord"
+  ],
+  "added": "2026-08-24"
+}

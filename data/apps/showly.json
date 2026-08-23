@@ -1,0 +1,13 @@
+{
+  "id": "showly",
+  "name": "Showly",
+  "tagline": "Keep track of the shows and films you watch",
+  "description": "Showly remembers what you are in the middle of. Add a series and it shows which episode comes next and when the next one airs, and you tick episodes off as you go. Films get their own collection and watchlist, so nothing is forgotten between seasons.\n\nA discover feed covers what is popular, trending and most anticipated, with details and comments for each show, episode and film. You can build your own lists, see statistics about your collection, get optional notifications about new episodes and premieres, and put widgets and shortcuts on your home screen.\n\nTwo things worth knowing. Showly is a tracker, not a player, so it will not stream anything, and its listings come from Trakt.tv, TMDB and OMDb, so it needs an internet connection; signing in with a free Trakt account keeps your progress in step with other devices. This Android build has no Google services and no payments in it, so the extras Showly gates behind its Premium upgrade — the light theme, custom posters, quick ratings — stay locked here.",
+  "repo": "https://github.com/trakt/showly",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://www.showlyapp.com",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["tv shows", "movies", "tracker", "trakt", "watchlist", "episodes"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gpstest",
+  "name": "GPSTest",
+  "tagline": "See which satellites your phone is using",
+  "description": "GPSTest shows you exactly what your phone's location chip is doing: which satellites it can see right now, how strong each signal is, how accurate your fix is, and how long it took to find you. Handy when your maps app keeps losing you and you want to know why.\n\nIt covers all the major satellite systems — GPS, GLONASS, Galileo, BeiDou, QZSS and NavIC — plus the correction signals that sharpen accuracy in different parts of the world. Dual-frequency readings need a phone that supports them and Android 8 or newer.\n\nThis is a diagnostic tool, not a navigation app. It won't give you directions — it tells you how good your position is.",
+  "repo": "https://github.com/barbeau/gpstest",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "com.android.gpstest.osmdroid",
+  "tags": [
+    "gps",
+    "gnss",
+    "satellite",
+    "location",
+    "accuracy",
+    "diagnostics"
+  ],
+  "added": "2026-08-24"
+}

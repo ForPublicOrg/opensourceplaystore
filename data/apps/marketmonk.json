@@ -1,0 +1,12 @@
+{
+  "id": "marketmonk",
+  "name": "MarketMonk",
+  "tagline": "Follow your shares and see how your portfolio is doing",
+  "description": "MarketMonk keeps an eye on the shares you care about. Add the ones you own or are watching, look at the price history as a line graph, and build a portfolio so you can see what the whole lot is worth in one place.\n\nThe dashboard can be rearranged to show what you actually look at, and your holdings are stored on the phone itself rather than in an account somewhere. Prices and charts are pulled from Yahoo Finance, so it does need an internet connection to refresh.\n\nIt is a tracker and nothing more: it shows you numbers and leaves every decision to you.",
+  "repo": "https://github.com/brandonp2412/MarketMonk",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "com.codesail.market_monk",
+  "tags": ["stocks", "portfolio", "investing", "finance", "charts", "tracker"],
+  "added": "2026-08-24"
+}

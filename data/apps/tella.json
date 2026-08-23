@@ -1,0 +1,20 @@
+{
+  "id": "tella",
+  "name": "Tella",
+  "tagline": "Keep sensitive photos and files hidden and encrypted",
+  "description": "Tella is a camera and file vault for people documenting things that could get them into trouble — journalists, human rights defenders, election observers. Photos, videos, recordings and documents you take with it are encrypted and kept in a separate gallery that the phone's normal photo app and file browser cannot see.\n\nThe app can also disguise itself, changing its name and icon so it looks like an ordinary calculator on your home screen. It records details about when and where a file was captured, which helps prove later that the footage is genuine, and one action wipes everything in the vault if you need it gone.\n\nIf you work with an organisation, Tella can send your files straight to a server that organisation runs, without passing through anyone else's cloud — but that part only works if such a server exists and someone has given you the connection details.",
+  "repo": "https://github.com/Horizontal-org/Tella-Android",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://tella-app.org/",
+  "fdroid": "org.hzontal.tellaFOSS",
+  "tags": [
+    "encryption",
+    "privacy",
+    "hidden",
+    "camera",
+    "journalism",
+    "human rights"
+  ],
+  "added": "2026-08-24"
+}

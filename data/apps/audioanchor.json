@@ -1,0 +1,19 @@
+{
+  "id": "audioanchor",
+  "name": "AudioAnchor",
+  "tagline": "Play your audiobooks and never lose your place",
+  "description": "AudioAnchor plays the audiobooks and podcast episodes you already have on your phone, and remembers exactly where you stopped in each one. Put it down for a week, come back, and it still knows the spot.\n\nYou point it at a folder of audio files, or at a folder of folders with one book in each, and it builds your library from that. Drop a cover image in and it looks tidy. There are bookmarks, adjustable playback speed, a sleep timer and lock screen controls, and you can export your listening progress to a file and import it again later.\n\nIt only plays files that are already on your phone. There is no shop or podcast directory built in, so you download or copy the audio across yourself.",
+  "repo": "https://github.com/flackbash/AudioAnchor",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "audiobook",
+    "podcast",
+    "player",
+    "offline",
+    "bookmarks",
+    "listening"
+  ],
+  "fdroid": "com.prangesoftwaresolutions.audioanchor",
+  "added": "2026-08-24"
+}

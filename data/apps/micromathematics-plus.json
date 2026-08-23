@@ -1,0 +1,20 @@
+{
+  "id": "micromathematics-plus",
+  "name": "microMathematics Plus",
+  "tagline": "Do maths on a worksheet and watch the graphs update",
+  "description": "microMathematics Plus is a calculator that works like a page of notes instead of a row of buttons. You write formulas the way they look in a textbook, and the results and plots update live as you change a number.\n\nIt covers the usual scientific functions, draws 2D and 3D plots, understands units, and keeps your formulas, notes and images together in one document you can save, reuse, or export to LaTeX or a picture. A built-in guide and a set of worked examples come with the app.\n\nNo ads, no trackers and no unusual permissions. It is a fair bit more involved than a pocket calculator, so give yourself a few minutes with the examples before you start from a blank page.",
+  "repo": "https://github.com/mkulesh/microMathematics",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "com.mkulesh.micromath.plus",
+  "tags": [
+    "calculator",
+    "maths",
+    "graphing",
+    "plotting",
+    "worksheet",
+    "science",
+    "latex"
+  ],
+  "added": "2026-08-24"
+}

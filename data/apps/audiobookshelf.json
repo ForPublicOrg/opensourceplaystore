@@ -1,0 +1,19 @@
+{
+  "id": "audiobookshelf",
+  "name": "Audiobookshelf",
+  "tagline": "Your own audiobook and podcast server, on your phone",
+  "description": "Audiobookshelf is a server you run at home that holds your audiobooks and podcasts. This is its phone app: sign in to your server, then stream a book over the network or download it first so it plays while you are out.\n\nBecause the library lives on the server rather than in the app, the same books and the same place in them are waiting for you whichever device you sign in from.\n\nOn its own the app does nothing, so you need an Audiobookshelf server first. The developers still label the Android app a beta, and the iOS version is earlier still.",
+  "repo": "https://github.com/advplyr/audiobookshelf-app",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://audiobookshelf.org",
+  "tags": [
+    "audiobook",
+    "podcast",
+    "selfhosted",
+    "server",
+    "offline",
+    "streaming"
+  ],
+  "added": "2026-08-24"
+}

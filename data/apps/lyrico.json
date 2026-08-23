@@ -1,0 +1,19 @@
+{
+  "id": "lyrico",
+  "name": "Lyrico",
+  "tagline": "Tidy up your music tags and add synced lyrics",
+  "description": "Lyrico is a tag editor for the music files on your phone. It scans your library so you can browse by song, artist, album or folder, then fix the details that are wrong or missing — title, artist, album, year, genre, track number, cover art, comments and custom tags — across MP3, FLAC, OGG, Opus, M4A and WAV files.\n\nIt can also search online to fill the gaps: cover art, lyrics, translations and romanised lyrics, including word-by-word synced lyrics written straight into the file. Select several tracks at once for batch matching, editing, renaming and loudness analysis when a whole album needs sorting out.\n\nThe online searching comes from plugins you add yourself, so what Lyrico can find depends on which search sources you install — and the ones available are mostly Chinese music services such as Kugou, QQ Music and NetEase. Several other music players can hand tracks over to Lyrico for editing.",
+  "repo": "https://github.com/Replica0110/Lyrico",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://replica0110.github.io/Lyrico/",
+  "tags": [
+    "music",
+    "tags",
+    "metadata",
+    "lyrics",
+    "editor",
+    "id3"
+  ],
+  "added": "2026-08-24"
+}

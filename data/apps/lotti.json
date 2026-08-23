@@ -1,0 +1,12 @@
+{
+  "id": "lotti",
+  "name": "Lotti",
+  "tagline": "A private logbook for what you planned and what you did",
+  "description": "Lotti keeps a record of your days: tasks and what came of them, tracked time, notes, photos, voice memos, habits, measurements and health data. What you meant to do and what actually happened are stored as two separate things, so the week still reads honestly when it goes sideways.\n\nEverything lives in a database on your own devices. Voice notes can be transcribed on the device itself, and sync between your phone, laptop and tablet is end-to-end encrypted, so the relay in the middle only ever sees scrambled data. The AI assistants are optional extras: they read what you record, summarise the mess and suggest a next step, but every change they propose waits for you to accept or dismiss it.\n\nA few things to know first. The Android build is an APK from the project's releases page rather than a store listing. Sync runs over a Matrix server you or someone you trust has to run, and the first device is paired using a command line tool, so it is not a one tap affair. The AI side needs a key you supply yourself from whichever provider you choose, or a model running on your own machine, and some features ship switched off because they are still rough.",
+  "repo": "https://github.com/matthiasn/lotti",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://matthiasn.github.io/lotti/",
+  "tags": ["journal", "diary", "tasks", "time-tracking", "habits", "encrypted", "ai"],
+  "added": "2026-08-24"
+}

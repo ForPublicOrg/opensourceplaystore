@@ -1,0 +1,12 @@
+{
+  "id": "calyx",
+  "name": "Calyx",
+  "tagline": "Track your indoor grow tent without a subscription",
+  "description": "Calyx is a log book for an indoor garden. You describe your tents, add plants to them, and record what you do to each one: watering, feeding, pruning, pH and EC readings, notes. Photos go into a gallery in date order with the days since germination and the current growth phase written onto the picture.\n\nIt carries a database of 30,000 strains on the phone itself, and uses the genetics of the one you picked to work out a likely harvest window. If you run Home Assistant, Calyx reads temperature, humidity and VPD from it and lets you switch grow-room sockets on and off from inside the app; it can also watch for light leaking into a scheduled dark period and send you an alert through ntfy.\n\nBy default your records live in a database on your device. Syncing between devices is optional and needs you to run the project's Docker backend on a machine of your own, and the environment and socket features only do anything if you already have Home Assistant set up.",
+  "repo": "https://github.com/stefexec/Calyx",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.gurkenwerfer.calyx",
+  "tags": ["garden", "grow", "plants", "home assistant", "tent", "journal"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "transportr",
+  "name": "Transportr",
+  "tagline": "Plan bus and train trips without ads or tracking",
+  "description": "Transportr is a public transport companion that talks to more than fifty local and national transport networks and gives them all the same interface. Tell it where you want to go and it finds the connections, tells you where to change, and estimates when you will get there.\n\nIt lists upcoming departures from any station, shows real-time delays wherever the operator publishes them, uses your location to find stops nearby and follow you along a journey so you do not miss your stop, remembers the places and trips you use often, and draws everything on a map.\n\nIt is a volunteer project with no adverts and no analytics. Coverage is strongest in Europe, with a few networks in the United States and the UAE, so check that yours is on the list before you rely on it. The timetables come from the transport agencies themselves, so Transportr cannot promise the information is correct.",
+  "repo": "https://github.com/grote/Transportr",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://transportr.app",
+  "fdroid": "de.grobox.liberario",
+  "tags": [
+    "transport",
+    "transit",
+    "bus",
+    "train",
+    "departures",
+    "travel"
+  ],
+  "added": "2026-08-24"
+}

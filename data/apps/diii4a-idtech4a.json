@@ -1,0 +1,19 @@
+{
+  "id": "diii4a-idtech4a",
+  "name": "DIII4A (idTech4A++)",
+  "tagline": "Run Doom 3, Quake and Prey on your phone",
+  "description": "DIII4A is an engine, not a game. It bundles rebuilt versions of the idTech engines and a few relatives so that PC shooters from the late nineties and early 2000s run natively on Android: Doom 3, Quake 4, Prey (2006), Doom 3 BFG, Quake 1, 2 and 3, Return to Castle Wolfenstein, The Dark Mod, GZDoom, Jedi Knight, Serious Sam Classic and a good many more.\n\nYou pick a game from the launcher, point it at that game's files, and play with an on-screen stick and buttons or a gamepad you have paired. The Doom 3 side gained things the original never had, including soft shadow mapping, several lighting models, and mods for bots and full body awareness.\n\nIt ships with no game content. You have to copy the data files from your own PC copies of these games onto the phone, into the exact folders the app expects, which takes patience and a read of the documentation. It needs Android 4.4 or later on an ARM device.",
+  "repo": "https://github.com/glKarin/com.n0n3m4.diii4a",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.karin.idTech4Amm",
+  "tags": [
+    "doom",
+    "quake",
+    "prey",
+    "shooter",
+    "fps",
+    "engine"
+  ],
+  "added": "2026-08-24"
+}

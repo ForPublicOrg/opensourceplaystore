@@ -1,0 +1,21 @@
+{
+  "id": "binaural-beats",
+  "name": "Binaural Beats",
+  "tagline": "Tone sessions for sleep, focus and relaxation",
+  "description": "Binaural Beats plays two slightly different tones, one in each ear, to nudge you into a mood — falling asleep, taking a power nap, settling down to study, or simply unwinding. Put headphones on, pick a session, and let it run.\n\nIt ships with a long list of ready-made programs, from sleep induction and insomnia relief to creativity, wakeful relaxation and shamanic rhythm, and a preset builder if you would rather design your own. You can turn the moving on-screen visuals off so the screen switches itself off while the session plays.\n\nHeadphones are essential — the effect does not happen through a speaker — and you should be somewhere safe and comfortable before starting. The brainwave claims behind some of the presets are not medically proven, so treat this as a relaxation aid rather than a treatment. The app also carries Facebook, Google and Firebase analytics code.",
+  "repo": "https://github.com/GiorgioRegni/Binaural-Beats",
+  "category": "education",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "binaural",
+    "sleep",
+    "meditation",
+    "relaxation",
+    "focus",
+    "audio"
+  ],
+  "added": "2026-08-24"
+}

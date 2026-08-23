@@ -1,0 +1,13 @@
+{
+  "id": "twire",
+  "name": "Twire",
+  "tagline": "Watch Twitch without ads and without signing in",
+  "description": "Twire is another way into Twitch. Browse live streams and past broadcasts, watch with chat alongside, and skip the advertising — ad blocking is built in. A Twitch account is optional; if you just want to watch, you never have to log in.\n\nChat shows the third-party emotes people actually use, from BetterTTV, FrankerFaceZ and 7TV, and past broadcasts come with the original chat replayed in step with the video. Picture-in-picture keeps a stream in the corner while you do something else, and most of the interface can be rearranged to your taste.\n\nIt is a client for Twitch, which is a closed service, so what you can watch is whatever Twitch is showing.",
+  "repo": "https://github.com/twireapp/Twire",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "com.perflyst.twire",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["twitch", "streaming", "live-streams", "no-ads", "vod", "chat"],
+  "added": "2026-08-24"
+}

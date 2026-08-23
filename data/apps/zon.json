@@ -1,0 +1,12 @@
+{
+  "id": "zon",
+  "name": "Zon",
+  "tagline": "Focus in timed sessions and see where your hours went",
+  "description": "Zon is a Pomodoro timer: you work for a set stretch, take a break, then go again. You can change how long each part lasts, save presets for different kinds of work, and have the next session start on its own so you are not fiddling with the phone.\n\nIt also keeps a record of what you actually did. Daily, weekly and monthly charts, a year-long heatmap, and a breakdown of which times of day you focus best in. Alongside the timer there is a task list with subjects and priorities, ambient background sounds including your own audio files, home screen widgets, and a Do Not Disturb mode that switches itself on while a session runs.\n\nEverything works offline with no ads and no account. Light, dark and AMOLED themes, dynamic colours on Android 12 and up, backup and restore, and more than 15 languages. It needs Android 8.1 or newer.",
+  "repo": "https://github.com/vrn7712/Zon",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://vrn7712.github.io/zon-website/",
+  "tags": ["pomodoro", "timer", "focus", "study", "tasks", "productivity"],
+  "added": "2026-08-24"
+}

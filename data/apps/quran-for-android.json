@@ -1,0 +1,12 @@
+{
+  "id": "quran-for-android",
+  "name": "Quran for Android",
+  "tagline": "Read and listen to the Quran on your phone",
+  "description": "Quran for Android shows the mushaf as high-quality page images, so the Arabic looks the way it does in print. Tap a verse to hear it recited, read a translation in your own language, or open a tafsir commentary that explains it.\n\nTranslations, tafsir and recitations are downloaded inside the app, so once you have them you can read and listen with no connection. You can choose from a long list of reciters, bookmark verses, and jump straight to any sura or page.\n\nThe page images and audio files are large, so give the first downloads some time and a Wi-Fi connection.",
+  "repo": "https://github.com/quran/quran_android",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://android.quran.com",
+  "tags": ["quran", "islam", "muslim", "recitation", "tafsir", "reading"],
+  "added": "2026-08-24"
+}

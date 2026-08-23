@@ -1,0 +1,19 @@
+{
+  "id": "syncthing-fork",
+  "name": "Syncthing-Fork",
+  "tagline": "Keep folders in sync between your own devices",
+  "description": "Syncthing-Fork keeps folders the same across the devices you own — phone, laptop, desktop, a second phone. Change a file in one place and it turns up in the others, sent straight between the machines with no cloud account and no company holding your files.\n\nIt wraps Syncthing, the long-running open sync engine, in an Android app. This fork is the version people use now that the official Android app has been retired, and the project's wiki has a guide for moving over from it.\n\nBoth ends need Syncthing running, and each device has to approve the other once, so the first setup takes a few minutes. It syncs rather than backs up: delete a file on one device and it disappears from the rest too.",
+  "repo": "https://github.com/researchxxl/syncthing-android",
+  "category": "tools",
+  "license": "MPL-2.0",
+  "fdroid": "com.github.catfriend1.syncthingfork",
+  "tags": [
+    "sync",
+    "files",
+    "syncthing",
+    "folders",
+    "p2p",
+    "backup"
+  ],
+  "added": "2026-08-24"
+}

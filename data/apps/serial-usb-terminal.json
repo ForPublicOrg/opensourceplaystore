@@ -1,0 +1,11 @@
+{
+  "id": "serial-usb-terminal",
+  "name": "Simple USB Terminal",
+  "tagline": "Talk to Arduinos and other USB serial gadgets",
+  "description": "This is a plain text terminal for hardware you plug into your phone. Connect an Arduino, an ESP32, a micro:bit, a Pi Pico or any board with a serial port through a USB adapter, type a line, and read whatever it sends back — handy for checking sensor output or poking at a project when you have no laptop with you.\n\nIt knows the usual USB-to-serial chips (FTDI, Prolific PL2303, Silicon Labs CP210x, CH340 and CH341) as well as boards that speak USB CDC directly. A background service keeps collecting incoming data while you rotate the screen or switch apps, and it handles flow control, the control lines and sending a BREAK.\n\nYou will need a USB OTG cable. The app is deliberately a simplified version of the author's Play Store app, published so others can learn from and build on the code, so it is basic by design.",
+  "repo": "https://github.com/kai-morich/SimpleUsbTerminal",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["serial", "usb", "arduino", "terminal", "uart", "esp32", "otg"],
+  "added": "2026-08-24"
+}

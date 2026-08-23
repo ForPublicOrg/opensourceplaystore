@@ -1,0 +1,11 @@
+{
+  "id": "bluke",
+  "name": "Bluke",
+  "tagline": "Turn your phone into a wireless keyboard, gamepad or trackpad",
+  "description": "Bluke lets your phone stand in for a Bluetooth keyboard, gamepad or trackpad. Pair it the way you would pair a real keyboard, then type on your computer, TV box or games console from the phone in your hand. There is nothing to install on the other device.\n\nIt uses the Bluetooth keyboard support built into Android, so Windows, macOS, Linux, ChromeOS, Android TV and consoles just see an ordinary keyboard. As you type it plays back real mechanical switch sounds, with several switch types to choose from, and you can change the keycap theme and case colour, use system haptics, and let it pick up your Material You colours.\n\nYou need Android 9 or newer, and your phone's Bluetooth has to support acting as a keyboard. Not every chipset and manufacturer ROM does, so on some phones it will not work at all.",
+  "repo": "https://github.com/arnav-kr/Bluke",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": ["bluetooth", "keyboard", "remote", "gamepad", "trackpad", "hid", "typing"],
+  "added": "2026-08-24"
+}

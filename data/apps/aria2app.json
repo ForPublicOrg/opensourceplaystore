@@ -1,0 +1,12 @@
+{
+  "id": "aria2app",
+  "name": "Aria2App",
+  "tagline": "Run and watch your aria2 downloads from your phone",
+  "description": "Aria2App is a control panel for aria2, the download tool that copes with ordinary links, magnet links and torrents. Add a download, pause and resume it, change speed limits, watch the progress bars, and get a notification when something finishes.\n\nWhat makes it handy is that it is not tied to one machine. Save a profile for each aria2 server you use, be it the computer at home, a seedbox or a NAS, and switch between them from the same app. DirectDownload then copies a finished file from that server to your phone with one tap. It can also run aria2 on the phone itself, so you can use it with no server at all.\n\nSetting up a remote profile means knowing your server's address, port and RPC secret, and turning the RPC interface on at that end. DirectDownload needs a bit more: a small web server running alongside aria2 to hand the finished files over. The project wiki walks through both.",
+  "repo": "https://github.com/devgianlu/Aria2App",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "fdroid": "com.gianlu.aria2app",
+  "tags": ["aria2", "downloads", "torrents", "download manager", "remote", "magnet"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lanshield",
+  "name": "LANShield",
+  "tagline": "Stop apps on your phone from poking around your home network",
+  "description": "Plenty of apps quietly scan the network you are connected to, looking for printers, TVs, speakers and anything else sitting on your Wi-Fi. Most of them have no reason to. LANShield lets you decide which apps may reach the local network at all, and shows you which ones have been trying.\n\nSet a default of block or allow, treat the apps you installed differently from the system ones, then make exceptions app by app. DNS and multicast traffic can be handled on their own, since they happen constantly and usually do not need blocking. A log records every connection, including which app made it, where it went, how long it lasted and how much data moved, and you can export the lot to a file. A separate scan shows which apps are sitting there listening for incoming connections.\n\nIt uses Android's built-in VPN slot to do this, so no root is needed, but Android only allows one VPN at a time and LANShield will take that slot. It controls local network traffic only, so it is not a general internet firewall. The app comes from the DistriNet research group at KU Leuven in Belgium.",
+  "repo": "https://github.com/DistriNet/LANShield",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://lanshield.eu",
+  "fdroid": "org.distrinet.lanshield",
+  "tags": [
+    "firewall",
+    "network",
+    "lan",
+    "privacy",
+    "block apps",
+    "wifi"
+  ],
+  "added": "2026-08-24"
+}

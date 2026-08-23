@@ -1,0 +1,18 @@
+{
+  "id": "immich-swipe",
+  "name": "Immich Swipe",
+  "tagline": "Tidy up your Immich photo library one swipe at a time",
+  "description": "If you keep your photos on your own Immich server, the library has probably grown far faster than you have ever sorted it. Immich Swipe deals them out one at a time like cards: swipe right to keep, left to delete, or skip the ones you cannot decide about yet and let them come back in a day or a month.\n\nNothing changes on the server until you say so. A review screen lists every decision first and shows how much space you would get back, and anything you delete goes to the Immich trash rather than disappearing, so a slip is recoverable. You can also archive photos, add them to albums, rotate them, edit descriptions, and switch between several Immich accounts while keeping each one's progress separate.\n\nYou need your own Immich server and an API key with the right permissions, which the project lists in full. It is an independent app, not an official part of Immich, and the interface is available in English, French and Spanish.",
+  "repo": "https://github.com/Minos2020/immich-swipe-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "immich",
+    "photos",
+    "self-hosted",
+    "gallery",
+    "cleanup",
+    "swipe"
+  ],
+  "added": "2026-08-24"
+}

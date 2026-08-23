@@ -1,0 +1,18 @@
+{
+  "id": "bvnc-ardp-remote-desktop",
+  "name": "bVNC / aRDP Remote Desktop",
+  "tagline": "Control another computer's screen from your phone",
+  "description": "This project builds a family of remote desktop apps that let you see and use a computer's screen from your phone. bVNC connects over VNC, aRDP connects to Windows machines over RDP, aSPICE talks to SPICE virtual machines, and Opaque connects to oVirt, RHEV and Proxmox servers.\n\nThey have been maintained together for more than a decade, so they handle the awkward parts: SSH tunnelling to reach a machine safely, saved connection profiles, on-screen mouse and keyboard controls, and pinch-to-zoom around a desktop far bigger than your phone screen.\n\nThese are four separate apps, so install the one that matches what you are connecting to. The free versions are not on F-Droid — you get them from the project's GitHub releases page or the IzzyOnDroid repository. Paid Pro versions built from the same code are sold on the app stores to fund the work.",
+  "repo": "https://github.com/iiordanov/remote-desktop-clients",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "vnc",
+    "rdp",
+    "remote desktop",
+    "spice",
+    "proxmox",
+    "remote control"
+  ],
+  "added": "2026-08-24"
+}

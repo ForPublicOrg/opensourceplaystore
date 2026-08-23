@@ -1,0 +1,19 @@
+{
+  "id": "meshcore",
+  "name": "MeshCore Open",
+  "tagline": "Text friends over LoRa radio when there's no signal",
+  "description": "MeshCore Open connects your phone to a MeshCore LoRa radio over Bluetooth, USB or the network, so you can message people well outside mobile coverage. Private chats are end-to-end encrypted, public channels let a whole group talk on the same mesh, and you can reply to and react to messages the way you would in a normal chat app.\n\nA live map shows the nodes around you, filtered by type and how recently they were heard, and each contact has its routing path and signal quality. There's battery monitoring for your radio and a full command line for setting up and watching over repeaters. Messages and contacts are stored in a database on your phone.\n\nYou need MeshCore hardware for any of this — the app is a companion for the radio, not a messenger on its own. Downloading map tiles for offline use in remote areas needs your own free StadiaMaps key.",
+  "repo": "https://github.com/zjs81/meshcore-open",
+  "category": "social",
+  "license": "MIT",
+  "website": "https://meshcoreopen.org",
+  "tags": [
+    "lora",
+    "mesh",
+    "offgrid",
+    "messaging",
+    "radio",
+    "meshcore"
+  ],
+  "added": "2026-08-24"
+}

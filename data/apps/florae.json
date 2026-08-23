@@ -1,0 +1,19 @@
+{
+  "id": "florae",
+  "name": "Florae",
+  "tagline": "Reminders so your plants get watered on time",
+  "description": "Florae remembers what each of your plants needs and when. Add a plant, say how often it wants watering, spraying, pruning, feeding, cleaning, turning or moving to a bigger pot, and the app nudges you when the day comes round.\n\nYou can look ahead at the care that is due, which makes it easy to do the whole windowsill in one go, or to work out what needs doing before you go away. Everything stays on your phone — no account, no cost, nothing collected.\n\nOne honest warning: some phone makers shut down background apps very aggressively, and when they do the reminders arrive late or not at all. If that happens to you, exclude Florae from your phone's battery optimisation.",
+  "repo": "https://github.com/aeri/Florae",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "cat.naval.florae",
+  "tags": [
+    "plants",
+    "watering",
+    "reminders",
+    "garden",
+    "care",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

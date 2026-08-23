@@ -1,0 +1,20 @@
+{
+  "id": "kitshn",
+  "name": "kitshn",
+  "tagline": "Your Tandoor recipe box on your phone",
+  "description": "kitshn puts your Tandoor recipe collection in your pocket. Browse and search your recipes, cook a dish step by step with timers it picks out of the instructions, plan what you are eating this week, and tick things off the shopping list while you walk round the shop.\n\nIt is built to feel like a proper Android app rather than a website in a frame — it takes its colours from your wallpaper, rearranges itself for tablets and foldables, keeps recipe books and favourites, and the shopping list keeps working when the signal drops. Share a recipe link to kitshn and it imports it.\n\nYou need your own Tandoor Recipes server for any of this: kitshn is a client, not a recipe app on its own, and it is not made by the Tandoor team.",
+  "repo": "https://github.com/aimok04/kitshn",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://kitshn.app",
+  "fdroid": "de.kitshn.android",
+  "tags": [
+    "recipes",
+    "tandoor",
+    "cooking",
+    "mealplan",
+    "shopping",
+    "selfhosted"
+  ],
+  "added": "2026-08-24"
+}

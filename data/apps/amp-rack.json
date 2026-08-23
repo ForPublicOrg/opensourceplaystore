@@ -1,0 +1,19 @@
+{
+  "id": "amp-rack",
+  "name": "Amp Rack",
+  "tagline": "Turn your phone into a guitar effects rack",
+  "description": "Amp Rack runs your guitar or your voice through a chain of real audio effects while you play. Plug in through the headphone jack with a cheap 3.5mm adapter, or use a USB audio interface, then stack distortion, overdrive, delay, reverb, compressors, cabinet emulations and even autotune in any order you like.\n\nMore than 150 plugins are included, along with presets made by other players, an impulse-response cabinet loader, and support for Neural Amp Modeler and AIDA-X profiles. A drum machine and a backing-track player are built in for practice, and you can record what you play to WAV, MP3 or Opus, or capture video.\n\nHow well it plays live depends on your phone and how you plug in. The delay between plucking a string and hearing it varies by device, and a USB interface is usually steadier than the headphone jack. It is not on F-Droid, so you install it from Google Play or the project's releases.",
+  "repo": "https://github.com/djshaji/amp-rack",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://amprack.in",
+  "tags": [
+    "guitar",
+    "effects",
+    "amp",
+    "audio",
+    "ladspa",
+    "recording"
+  ],
+  "added": "2026-08-24"
+}

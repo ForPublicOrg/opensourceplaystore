@@ -1,0 +1,13 @@
+{
+  "id": "andbible",
+  "name": "AndBible",
+  "tagline": "Study the Bible offline with commentaries and notes",
+  "description": "AndBible is a Bible study app that works entirely on your device. Download the Bible translations, commentaries and dictionaries you want, then read them with footnotes and cross-references shown right in the text.\n\nYou can split the screen into several windows to keep a Bible, a commentary and your notes in view at once, and save those layouts as workspaces you switch between. Bookmarks, highlighting, personal notes, Study Pads for longer writing, and reading aloud are all built in.\n\nIt has more settings than a plain Bible reader, so give yourself a few minutes to set up your first workspace. After that everything stays on your phone.",
+  "repo": "https://github.com/AndBible/and-bible",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://andbible.org",
+  "fdroid": "net.bible.android.activity",
+  "tags": ["bible", "study", "christian", "offline", "commentary", "notes"],
+  "added": "2026-08-24"
+}

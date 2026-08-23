@@ -1,0 +1,20 @@
+{
+  "id": "fedilab",
+  "name": "Fedilab",
+  "tagline": "One app for all your fediverse accounts",
+  "description": "Fedilab is a single app for the fediverse — the loose network of independent social servers that all speak to each other. It supports Mastodon, Pleroma, Friendica, Pixelfed, PeerTube, Misskey and GNU Social, and you can be signed in to several accounts at once and act across them with a long press.\n\nIt has been going for years and is packed with options: compose whole threads, schedule posts from your phone, filter posts finely, pick from several notification methods including UnifiedPush and ntfy, import and export your database, use custom themes and emoji, and swap YouTube and Twitter links for Invidious and Nitter ones automatically.\n\nAll those settings can be a lot at first; the project keeps a wiki at wiki.fedilab.app explaining the less obvious ones. Development happens on Codeberg — the GitHub repository here is a mirror.",
+  "repo": "https://github.com/stom79/Fedilab",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://fedilab.app",
+  "fdroid": "fr.gouv.etalab.mastodon",
+  "tags": [
+    "mastodon",
+    "fediverse",
+    "pixelfed",
+    "peertube",
+    "social",
+    "multi-account"
+  ],
+  "added": "2026-08-24"
+}

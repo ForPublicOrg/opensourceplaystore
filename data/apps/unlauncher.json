@@ -1,0 +1,19 @@
+{
+  "id": "unlauncher",
+  "name": "Unlauncher",
+  "tagline": "A plain home screen that keeps you off your phone",
+  "description": "Unlauncher replaces the grid of colourful icons with a short list of app names in plain text. No wallpaper, no widgets, nothing blinking for attention — you look at your phone, see the few things you meant to open, and put it down again.\n\nYou pin up to six apps on the home screen and reach everything else by swiping up into a searchable list. You can rename apps to whatever you like, hide the notification bar, and pick from a few colour themes.\n\nIt started life as a fork of Slim Launcher, with the difference that all your other apps stay one swipe away instead of being locked out entirely.",
+  "repo": "https://github.com/jkuester/unlauncher",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://jkuester.github.io/unlauncher/",
+  "fdroid": "com.jkuester.unlauncher",
+  "tags": [
+    "launcher",
+    "minimalist",
+    "home screen",
+    "focus",
+    "distraction"
+  ],
+  "added": "2026-08-24"
+}

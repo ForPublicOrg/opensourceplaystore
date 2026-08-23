@@ -1,0 +1,18 @@
+{
+  "id": "pomodoro-timer",
+  "name": "Pomodoro Timer",
+  "tagline": "Work in 25-minute bursts and take timed breaks",
+  "description": "Pomodoro Timer cuts your work into 25-minute stretches with a five-minute break after each one. Start the clock, put the phone down, and keep going until it tells you to stop. It is a simple way to get moving on something you have been putting off.\n\nYou can change how long the work and rest intervals run, turn the sound and vibration on or off, keep the screen awake while you work, and pick a colour theme. Leave the app and the countdown carries on, with controls in the notification so you can pause or skip it without going back in.\n\nIt is only a timer. There is no task list, no project tracking and no history of past sessions.",
+  "repo": "https://github.com/emenjivar/pomodoro-timer",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": [
+    "pomodoro",
+    "timer",
+    "focus",
+    "study",
+    "productivity",
+    "procrastination"
+  ],
+  "added": "2026-08-24"
+}

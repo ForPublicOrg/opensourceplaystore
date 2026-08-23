@@ -1,0 +1,12 @@
+{
+  "id": "fsclock",
+  "name": "FsClock",
+  "tagline": "Turn an old phone, tablet or TV into a full-screen clock",
+  "description": "FsClock fills the whole screen with a clock, which gives a phone or tablet you no longer carry around a second life on a shelf or a bedside table. Show analog hands, a digital readout, or both together.\n\nPick from the clock faces and hands that come with it or use your own images, choose the background and clock colours, and add the date and weekday in whatever format suits you. It can pull in alarms and upcoming appointments from your Android calendar, and it nudges the display slightly over time so an OLED screen does not burn in. Set it as your system screensaver (Daydream) and it comes on by itself.\n\nIt runs on Android TV boxes as well as phones and tablets. The basic clock is free; the advanced settings are unlocked by a one-off payment, either an in-app purchase or an unlock code through GitHub sponsorship.",
+  "repo": "https://github.com/schorschii/FsClock-Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "systems.sieber.fsclock",
+  "tags": ["clock", "screensaver", "daydream", "widget", "tv", "analog"],
+  "added": "2026-08-24"
+}

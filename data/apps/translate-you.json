@@ -1,0 +1,20 @@
+{
+  "id": "translate-you",
+  "name": "Translate You",
+  "tagline": "Translate text without handing over your data",
+  "description": "Translate You translates between more than 150 languages, and lets you choose which service actually does the work. You can pick open, self-hostable engines like LibreTranslate, SimplyTranslate, Mozhi, Apertium or Wikimedia MinT instead of sending everything to one big company.\n\nIt hooks into the Android share menu, so you can translate text from any app without copying it about. It can also pull text out of a photo, and it keeps a history of what you have translated. The look is Material You, picking up the colours of your wallpaper.\n\nSome engines need an API key or a server you run yourself — LibreTranslate is the main one. More than a dozen engines are supported, so if one gives you a poor translation you can just switch to another.",
+  "repo": "https://github.com/you-apps/TranslateYou",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://you-apps.net",
+  "fdroid": "com.bnyro.translate",
+  "tags": [
+    "translate",
+    "translation",
+    "languages",
+    "privacy",
+    "text",
+    "images"
+  ],
+  "added": "2026-08-24"
+}

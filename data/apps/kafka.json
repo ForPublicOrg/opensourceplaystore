@@ -1,0 +1,20 @@
+{
+  "id": "kafka",
+  "name": "Kafka",
+  "tagline": "Read and listen to free books from the Internet Archive",
+  "description": "Kafka puts the Internet Archive's free library on your phone: around 41 million books and texts and 14.5 million audio recordings, across many genres and languages. You can search and filter them, read the books as PDFs, and play the audiobooks.\n\nThe audio player keeps going in the background and has a sleep timer and speed controls. The reader remembers where you stopped. Mark anything as a favourite to build your own shelf, download books to use offline, and share what you find. Dark theme and Material You colours are included.\n\nEverything comes from archive.org, so expect public-domain works and community uploads rather than new releases.",
+  "repo": "https://github.com/vipulyaara/Kafka",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://www.getkafka.app",
+  "tags": [
+    "books",
+    "audiobooks",
+    "reading",
+    "pdf",
+    "archive",
+    "public domain",
+    "library"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "logger",
+  "name": "μlogger",
+  "tagline": "Log your route and share it live from your own server",
+  "description": "μlogger quietly records where you go — a hike, a bike ride, a road trip — saving a point every so often while it runs in the background. You can drop waypoints along the way with a photo and a comment attached, and export the whole track as a GPX file.\n\nIt is built to stay small and easy on the battery, and it does not use Google Play services. Paired with the companion μlogger web server, it uploads your position in real time so family or friends can follow the trip on a map you own, and keeps retrying if the connection drops.\n\nLive tracking needs that server, and you have to set it up yourself. Without one the app still works fine offline — you just upload or export your tracks later.",
+  "repo": "https://github.com/bfabiszewski/ulogger-android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "fdroid": "net.fabiszewski.ulogger",
+  "tags": [
+    "gps",
+    "tracking",
+    "location",
+    "logger",
+    "gpx",
+    "self-hosted"
+  ],
+  "added": "2026-08-24"
+}

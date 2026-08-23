@@ -1,0 +1,11 @@
+{
+  "id": "moneytopia",
+  "name": "Moneytopia",
+  "tagline": "Track where your money goes each month",
+  "description": "Moneytopia is a small, tidy expense tracker. Note down what you spent as you spend it, glance at the last 24 hours on the home screen, and open a full report whenever you want to see the bigger picture.\n\nSpending is drawn as a line chart, and you can swipe to move between time periods. Records can be deleted one at a time or wiped in one go. The design follows Material You, picks up your wallpaper colours, and switches between light and dark on its own. It asks for no permissions at all.\n\nTwo honest notes: the author has paused active development for now, so treat it as finished rather than growing, and the app is currently translated into English and Indonesian only.",
+  "repo": "https://github.com/dimrnhhh/moneytopia",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["expenses", "budget", "money", "spending", "finance", "tracker"],
+  "added": "2026-08-24"
+}

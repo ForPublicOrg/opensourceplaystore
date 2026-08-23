@@ -1,0 +1,22 @@
+{
+  "id": "ekspensify",
+  "name": "Ekspensify",
+  "tagline": "Track your spending, with transactions picked up from bank texts",
+  "description": "Ekspensify keeps a running picture of where your money goes. You record income and expenses, sort them into the built-in categories or ones you make up yourself, set budgets for your spending, and get a nudge when you are getting close to the limit.\n\nIt can also read your bank's transaction alerts out of your text messages and drop them into a pending list for you to confirm, so you are not typing every coffee in by hand. Different bank accounts are tracked separately, a dashboard breaks the month down by category, and you can export everything to PDF or CSV.\n\nA few things to know first. This is an app for India: amounts are shown in rupees with no way to change the currency, and the text message reading looks for amounts written as Rs or INR against a fixed list of Indian banks, so it will not pick anything up elsewhere. You sign in with a Google account and your transactions are kept on the Ekspensify server, not only on your phone. The app also uses Firebase for analytics and crash reports and OneSignal for push notifications, and the most recent release was in March 2025.",
+  "repo": "https://github.com/dilipsuthar264/ekspensify-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://www.ekspensify.in",
+  "tags": [
+    "expense",
+    "budget",
+    "money",
+    "finance",
+    "spending",
+    "sms"
+  ],
+  "antiFeatures": [
+    "tracking"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pixel-wheels",
+  "name": "Pixel Wheels",
+  "tagline": "A pixel-art racer seen from above",
+  "description": "Pixel Wheels is a small retro racing game viewed from the top down. Pick a vehicle, race around a track, and grab the bonuses scattered along the way — some give you a boost, others are weapons for slowing down whoever is ahead of you.\n\nThere are several tracks and vehicles, quick races and full championships, and more vehicles to unlock as you win. The chunky pixel art and simple controls make it a good pick for a few minutes at a time.\n\nOn a computer up to four people can race on a split screen, but the Android version is single-player only.",
+  "repo": "https://github.com/agateau/pixelwheels",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://agateau.com/projects/pixelwheels",
+  "fdroid": "com.agateau.tinywheels.android",
+  "tags": [
+    "racing",
+    "retro",
+    "arcade",
+    "pixel art",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

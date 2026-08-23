@@ -1,0 +1,12 @@
+{
+  "id": "mauth",
+  "name": "Mauth",
+  "tagline": "Your 2-step login codes in one tidy app",
+  "description": "Mauth holds the 6-digit codes (2FA) you need to finish signing in to your accounts. Scan an account's QR code once and Mauth shows a fresh code every few seconds, with no internet connection required.\n\nIt handles both TOTP and HOTP codes and is fully compatible with Google Authenticator, so you can bring your existing accounts across. Lock it behind your fingerprint or a PIN, search, sort and group your accounts, and export them again as QR codes or otpauth links when you move to a new phone.\n\nWorth knowing before you start: the accounts are not stored encrypted yet, and there is no cloud backup. Moving or saving your codes is something you do yourself with the export screen.",
+  "repo": "https://github.com/X1nto/Mauth",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["2fa", "totp", "hotp", "authenticator", "otp", "login", "codes"],
+  "fdroid": "com.xinto.mauth",
+  "added": "2026-08-24"
+}

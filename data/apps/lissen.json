@@ -1,0 +1,20 @@
+{
+  "id": "lissen",
+  "name": "Lissen",
+  "tagline": "A simple player for your Audiobookshelf library",
+  "description": "Lissen is a stripped-back Android app for an Audiobookshelf server. Sign in and your audiobooks and podcasts are ready to stream straight away, or download them first so they play with no connection.\n\nYour progress syncs through the server, so you can stop on the phone and carry on somewhere else. The design is deliberately plain: it is not trying to copy every feature of the official app, only to make listening pleasant.\n\nYou need an Audiobookshelf server of your own for this to work. If you would rather look around before setting one up, the project runs a demo server you can connect to.",
+  "repo": "https://github.com/GrakovNe/lissen-android",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://lissenapp.org/",
+  "fdroid": "org.grakovne.lissen",
+  "tags": [
+    "audiobook",
+    "audiobookshelf",
+    "podcast",
+    "offline",
+    "selfhosted",
+    "player"
+  ],
+  "added": "2026-08-24"
+}

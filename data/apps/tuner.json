@@ -1,0 +1,12 @@
+{
+  "id": "tuner",
+  "name": "Tuner",
+  "tagline": "Tune your instrument, in modern or historical tunings",
+  "description": "Tuner listens through your phone's microphone and tells you how far off the note is. It comes with the usual instruments \u2014 chromatic, guitar, bass, violin and more \u2014 and you can add your own if yours is not in the list.\n\nIt works out the pitch from both autocorrelation and the frequency spectrum, then refines the reading using phase information, which keeps the needle steady rather than jittery. A graph shows how your pitch drifts over time, useful when you are holding a long note. Beyond equal temperament it supports just intonation, Werckmeister, Kirnberger and other historical tunings, plus non-12-tone scales like 17, 19, 31 and 53 divisions of the octave.\n\nIf you like fiddling with the details, the concert pitch, FFT window size and type, and overlap are all adjustable.",
+  "repo": "https://github.com/thetwom/Tuner",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "de.moekadu.tuner",
+  "tags": ["tuner", "music", "guitar", "pitch", "instrument", "temperament"],
+  "added": "2026-08-24"
+}

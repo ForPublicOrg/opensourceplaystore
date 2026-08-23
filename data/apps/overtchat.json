@@ -1,0 +1,12 @@
+{
+  "id": "overtchat",
+  "name": "OvertChat",
+  "tagline": "Chat with AI models on your own server",
+  "description": "OvertChat is a phone app for talking to AI models that you host yourself. Your conversations, files and projects live on your server rather than in someone else's account, and you decide which models to point it at.\n\nThe server side works with local inference engines like vLLM, llama.cpp and SGLang, and with hosted providers using your own API keys. It can also connect to coding agents running on your machine or over SSH, so you can start or resume a session, follow the plan and tool calls as they happen, and review changes without sitting in a terminal.\n\nThe Android app is a thin client, so it is only half the story: you have to install and run the OvertChat server first, which is a Docker setup on a computer you control. With no server to connect to, the app has nothing to talk to.",
+  "repo": "https://github.com/yoloyash/overtchat",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://overtchat.com",
+  "tags": ["ai", "chat", "llm", "ollama", "selfhosted", "local"],
+  "added": "2026-08-24"
+}

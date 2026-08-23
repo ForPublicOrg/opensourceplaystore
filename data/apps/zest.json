@@ -1,0 +1,11 @@
+{
+  "id": "zest",
+  "name": "Zest",
+  "tagline": "Keep your to-dos in order and see what you finish",
+  "description": "Zest is a to-do app for the everyday list: shopping, chores, work, anything you need to remember. Sort tasks into colour-coded categories, break the big ones into subtasks, give them priorities and tags, and pin whatever matters most to the top.\n\nReminders arrive on time, and you can mark a task done or snooze it straight from the notification without opening the app. A calendar view shows what is coming up and a year-long heatmap shows what you have already finished. Backups can be made by hand or on a daily, weekly or monthly schedule into a folder you pick. It follows your wallpaper colours, has a pure black theme for OLED screens, and speaks 16 languages.\n\nEverything stays on your phone. There is no account and no sync between devices, so a backup file is how you move your lists somewhere else.",
+  "repo": "https://github.com/darkmoonight/Zest",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": ["todo", "tasks", "checklist", "reminders", "planner", "lists"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "breathly",
+  "name": "Breathly",
+  "tagline": "Guided breathing to calm down or fall asleep",
+  "description": "Breathly gives you one thing: a breathing exercise to follow. Pick a technique, then watch the animation as it tells you when to breathe in, when to hold and when to let go. A few minutes of it is a simple way to settle before sleep, or after something has wound you up.\n\nSeveral well-known breathing patterns are included, with spoken cues if you would rather listen than watch. There is no account, no sign-up and nothing to read first — you open it, choose a pattern and start.\n\nIt was written by one developer in his spare time and it stays deliberately small. It is a breath trainer, not a meditation course, and it does not pretend otherwise.",
+  "repo": "https://github.com/mmazzarolo/breathly-app",
+  "category": "education",
+  "license": "MPL-2.0",
+  "website": "https://breathly.app",
+  "fdroid": "com.mmazzarolo.breathly",
+  "tags": [
+    "breathing",
+    "relax",
+    "calm",
+    "sleep",
+    "anxiety",
+    "meditation"
+  ],
+  "added": "2026-08-24"
+}

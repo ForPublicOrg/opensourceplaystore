@@ -1,0 +1,12 @@
+{
+  "id": "calculator-plus",
+  "name": "Calculator Plus",
+  "tagline": "A clean everyday calculator with a few extra tricks",
+  "description": "Calculator Plus handles the sums you do every day and the scientific ones you do now and then. It works the answer out as you type, puts separators into long numbers so you can read them, and lets you choose how many decimal places you want, up to ten.\n\nWhen an equation is not quite valid it tries to fix it for you, closing brackets you forgot rather than just showing an error. The design follows Material guidelines, with a light theme, a dark theme, or whatever your phone is set to. It is about 5 MB and has no ads.\n\nThe app does include Google Firebase for crash reports, analytics and performance monitoring, so a little usage data does leave your phone.",
+  "repo": "https://github.com/arch10/Calculator-Plus",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "antiFeatures": ["tracking"],
+  "tags": ["calculator", "maths", "scientific", "arithmetic", "material-design"],
+  "added": "2026-08-24"
+}

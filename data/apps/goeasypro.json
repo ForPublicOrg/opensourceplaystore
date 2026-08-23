@@ -1,0 +1,11 @@
+{
+  "id": "goeasypro",
+  "name": "GoEasyPro",
+  "tagline": "Control several GoPro cameras at once and pull off the footage",
+  "description": "GoEasyPro connects to your GoPro cameras over Bluetooth and gives you one screen to run them from. You can start and stop recording, change camera settings and see the state of each camera, and it handles several at the same time, so one tap rolls them all.\n\nOnce a camera is connected you can watch a live preview, browse what is on the memory card, and download clips and photos to your phone, including the small low-resolution LRV proxy files. Those parts run over the camera's own WiFi rather than Bluetooth, so your phone joins the camera's network for them. It can also start live streams, and there is an optional quiet notification that keeps a connected camera visible on your lock screen.\n\nIt works with Hero models that have WiFi. You put the camera into pairing mode the same way you would for GoPro's own app, then add it from the main menu, and you have to grant the permissions it asks for on first launch.",
+  "repo": "https://github.com/sepp89117/GoEasyPro_Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["gopro", "camera", "bluetooth", "remote-control", "video", "action-camera"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "magicdesk",
+  "name": "MagicDesk",
+  "tagline": "Turn your phone into a desktop with real windows on a big screen",
+  "description": "MagicDesk gives Android a proper desktop: a taskbar, a Start menu with search, a desktop folder holding files, shortcuts and widgets, and your ordinary Android apps running in windows you can move, resize, snap, stack and send full screen. Plug into a monitor over USB-C or HDMI, use a wireless Miracast display you have already connected, or run the whole workspace on the phone's own screen.\n\nThe apps stay ordinary Android tasks, so nothing is streamed, emulated or wrapped, and they keep behaving the way they normally do. Around them it adds the tools a desktop needs: a file manager, a real terminal with proper shell sessions, a task manager showing CPU and memory, screen capture and recording, media and volume controls, and support for physical keyboards, mice and touchpads, with Alt+Tab to switch tasks and the phone usable as a touchpad.\n\nThis one asks something of you before it works. It needs Android 15 or newer, firmware that implements Android's freeform windows properly, and the official Shizuku app running with an authorised server, which you start over wireless debugging or ADB. There is also a one-time setup pass and a reboot before your first session. Phone makers implement windowing differently, so check the project's compatibility notes for your model. Nubia and REDMAGIC devices get extra display and input support.",
+  "repo": "https://github.com/mekhontsev/magicdesk",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["desktop", "windows", "dex", "monitor", "multitasking", "shizuku", "taskbar"],
+  "added": "2026-08-24"
+}

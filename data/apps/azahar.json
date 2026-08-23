@@ -1,0 +1,19 @@
+{
+  "id": "azahar",
+  "name": "Azahar",
+  "tagline": "Play Nintendo 3DS games on your phone",
+  "description": "Azahar plays Nintendo 3DS games on your Android phone. It is where 3DS emulation carried on after Citra shut down: PabloMK7’s Citra fork and the Lime3DS project merged into one project, with the aim of being the place future work happens.\n\nIt runs on Android, Windows, macOS and Linux. On Android there are two versions — the Play Store build, and a plain build from GitHub that handles your files a faster way that Google’s rules do not allow.\n\nNo games are included. You supply your own, from a console you own.",
+  "repo": "https://github.com/azahar-emu/azahar",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://azahar-emu.org/",
+  "tags": [
+    "3ds",
+    "nintendo",
+    "emulator",
+    "citra",
+    "games",
+    "retro"
+  ],
+  "added": "2026-08-24"
+}

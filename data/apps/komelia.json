@@ -1,0 +1,19 @@
+{
+  "id": "komelia",
+  "name": "Komelia",
+  "tagline": "Read the comics on your own Komga server",
+  "description": "Komelia is a phone and tablet app for Komga, the self-hosted server people use to keep their comic and manga collections in order. Sign in to your server and you can browse your libraries, find a book, and read it on your phone or tablet instead of at your computer.\n\nThe same app also runs on Windows and Linux desktops, so the collection you set up at home is the one you carry with you, in an interface that looks the same on both.\n\nThis is a client and nothing more. It holds no books of its own, so it is only useful if you already run a Komga server, or are willing to set one up.",
+  "repo": "https://github.com/Snd-R/Komelia",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "fdroid": "io.github.snd_r.komelia",
+  "tags": [
+    "comics",
+    "manga",
+    "komga",
+    "reader",
+    "selfhosted",
+    "server"
+  ],
+  "added": "2026-08-24"
+}

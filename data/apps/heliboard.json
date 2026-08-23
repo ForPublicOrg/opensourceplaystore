@@ -1,0 +1,19 @@
+{
+  "id": "heliboard",
+  "name": "HeliBoard",
+  "tagline": "A keyboard with no internet permission at all",
+  "description": "HeliBoard is a keyboard built on Android's own AOSP keyboard. It has no internet permission whatsoever, so nothing you type can leave the phone: no cloud correction, no sync, no account to make.\n\nAlmost everything about it can be changed. Themes, colours and a background image of your own, custom layouts, the symbol and number layouts, multilingual typing, a split keyboard, one-handed mode, a number pad and clipboard history. Your settings and the words it has learned can be backed up and put back later.\n\nTwo things need a little setup. Word suggestions and spell check come from dictionary files you add yourself, downloaded separately for your language. Glide typing needs a closed-source library that cannot be shipped with the app, so you have to supply that file yourself if you want to swipe rather than tap.",
+  "repo": "https://github.com/HeliBorg/HeliBoard",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "helium314.keyboard",
+  "tags": [
+    "keyboard",
+    "typing",
+    "offline",
+    "privacy",
+    "themes",
+    "glide"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "subway-tooter",
+  "name": "Subway Tooter",
+  "tagline": "Mastodon in columns, for following a lot at once",
+  "description": "Subway Tooter is a Mastodon app built around columns. Every timeline, hashtag, notification list or search sits in its own column that you can drag into whatever order suits you, and on a tablet several columns show side by side at once.\n\nIt handles multiple accounts and lets you act across them — favourite, boost, reply to or follow someone using a different account from the one you are reading with. A pseudo-account mode lets you read a server's public timeline without logging in at all. Custom emoji are fully supported, very long posts fold themselves away automatically, and there are word, regex, media and app filters for muting what you don't want.\n\nNeeds Android 8 or newer. Push notifications rely on Google Play services; without them the app checks for new posts every 15 minutes instead. It is not in the main F-Droid catalogue — look in the IzzyOnDroid repository or the GitHub releases page. Some of the project's own writing is in Japanese.",
+  "repo": "https://github.com/tateisu/SubwayTooter",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": [
+    "mastodon",
+    "fediverse",
+    "columns",
+    "tablet",
+    "social",
+    "multi-account"
+  ],
+  "added": "2026-08-24"
+}

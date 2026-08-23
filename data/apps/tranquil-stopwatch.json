@@ -1,0 +1,19 @@
+{
+  "id": "tranquil-stopwatch",
+  "name": "Tranquil Stopwatch",
+  "tagline": "A calm stopwatch and clock for meditation and other long sittings",
+  "description": "Tranquil Stopwatch counts elapsed time for sessions where you are not going to touch the phone: meditation, breathing practice, a long stretch of anything. It shows the current time next to the stopwatch, so one glance tells you both how long you have been sitting and what time it now is.\n\nThe screen is black, which costs almost nothing on an AMOLED display, and it leaves milliseconds off so the numbers are not redrawing constantly. Timing stays accurate over hours. Pause, resume and reset are the only controls, and nothing interrupts you with ads, rating requests or prompts.\n\nThe plainness is deliberate. There are no laps, no interval alarms and no history, so if you want any of those you will want a different stopwatch.",
+  "repo": "https://github.com/tibarj/tranquilstopwatch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "tibarj.tranquilstopwatch",
+  "tags": [
+    "stopwatch",
+    "meditation",
+    "clock",
+    "timer",
+    "amoled",
+    "minimal"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "octodroid",
+  "name": "OctoDroid",
+  "tagline": "Browse and manage your GitHub from your phone",
+  "description": "OctoDroid is a GitHub client for Android. Browse repositories, read source files with syntax highlighting, follow the commit history of any file, and read diffs in a proper colour-coded viewer instead of a cramped web page.\n\nSign in and you can do the everyday work too: open, comment on, edit and close issues, filter them by label, assignee or milestone, manage labels and milestones, watch repositories, follow people and keep an eye on your activity feed. It also shows gists, trending repositories and the GitHub blog.\n\nIt is a client for GitHub, a closed service, so it needs an internet connection and a GitHub account for anything beyond reading public pages.",
+  "repo": "https://github.com/slapperwan/gh4a",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "com.gh4a",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "github",
+    "git",
+    "code",
+    "issues",
+    "pull requests",
+    "developer"
+  ],
+  "added": "2026-08-24"
+}

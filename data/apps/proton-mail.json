@@ -1,0 +1,13 @@
+{
+  "id": "proton-mail",
+  "name": "Proton Mail",
+  "tagline": "Encrypted email from your Proton account",
+  "description": "Proton Mail is the official Android app for a Proton Mail inbox, the encrypted email service run by Proton in Switzerland. The encryption happens on your phone, so you read and write mail as normal while the contents stay unreadable to anyone in between.\n\nThe app was rebuilt from scratch and the whole source is published here under the GPL. The team is working through its own roadmap at the moment and is not accepting outside issues or pull requests, so this is code you can read and build rather than a community project.\n\nYou need a Proton account to use it, and it will not connect to Gmail, Outlook or other mailboxes. Proton's servers are not open source, and release builds send crash reports to Sentry.",
+  "repo": "https://github.com/ProtonMail/android-mail",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://proton.me",
+  "antiFeatures": ["nonfree-network", "tracking"],
+  "tags": ["email", "encryption", "privacy", "proton", "secure", "inbox"],
+  "added": "2026-08-24"
+}

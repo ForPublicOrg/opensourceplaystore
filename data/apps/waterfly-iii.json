@@ -1,0 +1,12 @@
+{
+  "id": "waterfly-iii",
+  "name": "Waterfly III",
+  "tagline": "Log expenses on the go against your Firefly III books",
+  "description": "Waterfly III puts your Firefly III finances on your phone. Add and edit transactions as you spend, look up an account balance, check a budget, glance at the charts on the dashboard, and see which bills are coming up — without opening the web interface.\n\nIt can read incoming notifications from your banking or payment app and pre-fill a transaction from them, so logging a card payment is a couple of taps. Split transactions, several currencies, photo attachments and fingerprint lock are all supported, and the app carries no trackers.\n\nYou need your own Firefly III server; this is an unofficial client and stores nothing on its own. It is meant as a companion for everyday entries rather than a replacement for everything the web interface can do.",
+  "repo": "https://github.com/dreautall/waterfly-iii",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "com.dreautall.waterflyiii",
+  "tags": ["firefly", "finance", "expenses", "budget", "self-hosted", "money"],
+  "added": "2026-08-24"
+}

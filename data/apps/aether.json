@@ -1,0 +1,19 @@
+{
+  "id": "aether",
+  "name": "Aether",
+  "tagline": "An AI assistant that works through tasks step by step",
+  "description": "Aether is a chat app for AI models that can actually do things rather than just reply. Ask it to look something up, read a file or run a command and it works through the steps, showing you each tool it uses along the way.\n\nIt is built on the open Pi agent framework, so it works with a wide range of AI providers, and you can add extensions for web search, tool servers and background sub-agents. A small Alpine Linux environment is installed inside the app so shell commands run on the device itself, and on Android it can optionally hook into Shizuku or Termux to reach further into the system.\n\nYou bring your own AI provider and API key — none is included, and using most models costs money. Aether is written by one developer in their spare time and is still being polished, so expect frequent changes.",
+  "repo": "https://github.com/Zhou-Shilin/Aether",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://aether.baimoqilin.com",
+  "tags": [
+    "ai",
+    "agent",
+    "assistant",
+    "chat",
+    "llm",
+    "automation"
+  ],
+  "added": "2026-08-24"
+}

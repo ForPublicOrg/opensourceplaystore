@@ -1,0 +1,12 @@
+{
+  "id": "memerize",
+  "name": "Memerize",
+  "tagline": "Browse memes from Reddit and Lemmy in one feed",
+  "description": "Memerize puts memes from Reddit and Lemmy into a single scrolling feed. You add the subreddits and Lemmy communities you actually want, sort the top posts by day, week or month, and share or download anything worth keeping.\n\nIt uses Material You, so it takes its colours from your wallpaper and has a proper dark mode. Memes can be cached for browsing when you are offline, and you can pick your own download folder.\n\nReddit is a closed service, so the feed only works for as long as Reddit keeps letting the app read it. Lemmy posts come from whichever community servers you have added.",
+  "repo": "https://github.com/SuhasDissa/MemerizeApp",
+  "category": "social",
+  "license": "GPL-3.0",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["memes", "reddit", "lemmy", "funny", "images", "material-you"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "jami",
+  "name": "Jami",
+  "tagline": "Video calls that go straight to the other person",
+  "description": "Jami is a free messaging and calling app with no company in the middle. Calls go directly between you and the person you are speaking to, rather than through someone's servers, so there is no call history sitting on a computer you don't control. It works over the internet and over a plain local network too.\n\nOne-to-one and group conversations include text messages, audio and video calls, recorded voice and video messages, file transfers, screen sharing and location sharing. There are Jami apps for Windows, macOS, GNU/Linux, iOS, Android and Android TV, and it can double as a SIP client if you already have a SIP account. Jami is a GNU package, made by Savoir-faire Linux, with no ads and no subscription.\n\nBecause calls are peer-to-peer, both people need to be online at the same time to talk.",
+  "repo": "https://github.com/savoirfairelinux/jami-client-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://jami.net",
+  "fdroid": "cx.ring",
+  "tags": [
+    "video calls",
+    "messenger",
+    "peer-to-peer",
+    "sip",
+    "private",
+    "chat"
+  ],
+  "added": "2026-08-24"
+}

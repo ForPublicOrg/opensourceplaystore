@@ -1,0 +1,20 @@
+{
+  "id": "kitchenowl",
+  "name": "KitchenOwl",
+  "tagline": "A shopping list your whole household shares",
+  "description": "KitchenOwl is a grocery list everyone at home can add to. Someone adds milk from the sofa and it appears on your phone in the shop a minute later, so you stop texting each other about it. Offline support is partial, so the list is still readable when there is no signal in the aisle.\n\nIt also stores your recipes, adds their ingredients to the list with a tap, and lets you plan what you are eating this week. There is a shared expense tracker for household costs as well, so you can see who paid for what.\n\nKitchenOwl is self-hosted: someone has to run the server first, usually with Docker, before the app has anything to connect to. The project is still in development, so expect the occasional rough edge.",
+  "repo": "https://github.com/TomBursch/kitchenowl",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://kitchenowl.org/",
+  "fdroid": "com.tombursch.kitchenowl",
+  "tags": [
+    "grocery",
+    "shopping",
+    "recipes",
+    "household",
+    "meal",
+    "self-hosted"
+  ],
+  "added": "2026-08-24"
+}

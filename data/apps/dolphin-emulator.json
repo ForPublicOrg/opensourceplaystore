@@ -1,0 +1,20 @@
+{
+  "id": "dolphin-emulator",
+  "name": "Dolphin Emulator",
+  "tagline": "Play GameCube and Wii games on your phone",
+  "description": "Dolphin plays GameCube and Wii games on Android. It is the long-running desktop emulator, with an official Android build from the same team, so compatibility is good and most well-known games are playable.\n\nYou control games with an on-screen overlay or a Bluetooth gamepad, and Dolphin can run them with graphical improvements the original consoles never managed. Save states let you stop and pick up again anywhere.\n\nNo games are included — you supply your own, dumped from discs you own. You need a 64-bit phone on Android 7 or later with OpenGL ES 3.0 graphics; Dolphin will refuse to install below that. Wii games in particular ask a lot of a phone, so older devices may struggle.",
+  "repo": "https://github.com/dolphin-emu/dolphin",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://dolphin-emu.org",
+  "fdroid": "org.dolphinemu.dolphinemu",
+  "tags": [
+    "gamecube",
+    "wii",
+    "emulator",
+    "nintendo",
+    "retro",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

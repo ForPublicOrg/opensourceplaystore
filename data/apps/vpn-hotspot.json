@@ -1,0 +1,11 @@
+{
+  "id": "vpn-hotspot",
+  "name": "VPN Hotspot",
+  "tagline": "Share your phone's VPN connection over a hotspot",
+  "description": "VPN Hotspot passes whatever VPN your phone is connected to on to other devices through your Wi-Fi hotspot or a repeater. That gets things like a Chromecast, a games console or a smart TV onto the VPN even though they have no way of running one themselves.\n\nIt also shows you every device currently connected, so you can see who is using the connection and block anything you do not recognise. It works with real VPN apps and with the ad-blockers and DNS apps that use Android's VPN feature.\n\nThis one needs root. A few extras, such as changing the system hotspot settings on some Android versions, additionally need the app installed as a system app. It needs Android 10 or newer.",
+  "repo": "https://github.com/Mygod/VPNHotspot",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["vpn", "hotspot", "tethering", "root", "wifi", "repeater"],
+  "added": "2026-08-24"
+}

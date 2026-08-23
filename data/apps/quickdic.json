@@ -1,0 +1,12 @@
+{
+  "id": "quickdic",
+  "name": "QuickDic",
+  "tagline": "Offline dictionaries for dozens of language pairs",
+  "description": "QuickDic looks up words between two languages with no internet at all. Open its dictionary manager, download the language pairs you need once, and after that every search works on a plane, on a train, or abroad with no signal.\n\nThe dictionaries are built from Wiktionary, so instead of a single translation you often get several senses of a word. Results appear as you type, and you can keep as many dictionaries on the phone as you have room for.\n\nBecause the data comes from volunteer-written Wiktionary entries, coverage is uneven: big pairs are detailed, small ones can be thin. Remember to download the dictionaries you want before you travel.",
+  "repo": "https://github.com/rdoeffinger/Dictionary",
+  "category": "education",
+  "license": "Apache-2.0",
+  "fdroid": "de.reimardoeffinger.quickdic",
+  "tags": ["dictionary", "offline", "translation", "language", "travel", "wiktionary"],
+  "added": "2026-08-24"
+}

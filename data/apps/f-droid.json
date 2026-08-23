@@ -1,0 +1,20 @@
+{
+  "id": "f-droid",
+  "name": "F-Droid",
+  "tagline": "Install open-source apps without a Google account",
+  "description": "F-Droid is an app store that carries only free and open source software. You can browse thousands of apps, install them and get updates later, all without signing in to anything or owning a Google account.\n\nApps in the main repository are built from source by the F-Droid team, and each listing tells you plainly if an app shows ads, tracks you or depends on a service you do not control. If you want more than the main collection, you can add other repositories run by other people.\n\nA normal Android app cannot install packages on its own, so F-Droid asks for permission to install from unknown sources, and you confirm each update by hand. Only a ROM that bundles the separate Privileged Extension can skip that step.",
+  "repo": "https://github.com/f-droid/fdroidclient",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://f-droid.org",
+  "fdroid": "org.fdroid.fdroid",
+  "tags": [
+    "store",
+    "apps",
+    "installer",
+    "updates",
+    "repository",
+    "fdroid"
+  ],
+  "added": "2026-08-24"
+}

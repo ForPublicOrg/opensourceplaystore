@@ -1,0 +1,14 @@
+{
+  "id": "simplytranslate",
+  "name": "SimplyTranslate",
+  "tagline": "Google Translate without the Google app",
+  "description": "SimplyTranslate translates text between more than a hundred languages in a plain, quiet interface. Type or paste something, share text in from another app, or select words anywhere on your phone and tap Translate in the selection menu.\n\nIt fetches results straight from Google Translate's public web pages, so there is no account, no sign-in and none of the extras the official app brings with it. It can also read the translation out loud.\n\nThe translating still happens on Google's servers, so you need a connection, and you should not paste in anything you would want kept private.",
+  "repo": "https://github.com/ManeraKai/simplytranslate_mobile",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://simplytranslate-mobile.manerakai.com/",
+  "fdroid": "com.simplytranslate_mobile",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["translate", "translation", "language", "privacy", "text"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "jidoujisho",
+  "name": "jidoujisho",
+  "tagline": "Learn a language by tapping words in video, books and manga",
+  "description": "jidoujisho is for people learning a language by reading and watching the real thing rather than working through lessons. Tap or drag across a line of subtitles, a paragraph of a book or a line in a manga panel and the dictionary answer appears at once, so you can keep going instead of stopping to type the word out somewhere else.\n\nIt plays video and audio from your phone, from YouTube, or streamed from a Jellyfin server, reads EPUB and HTMLZ books in a built-in reader, and opens manga that has been processed with Mokuro. Whatever you look up can be sent to AnkiDroid as a flashcard, complete with the picture and the audio of the exact moment it came from. It can also look up the words of the song your music app is playing.\n\nIt was built for Japanese first and that is still where it is strongest. You supply your own dictionary files, in Yomichan, Migaku or DSL format, and there is a fair bit of reading to do before the workflow clicks. Development happens in bursts, with quiet stretches in between.",
+  "repo": "https://github.com/arianneorpilla/jidoujisho",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": [
+    "japanese",
+    "language",
+    "dictionary",
+    "anki",
+    "subtitles",
+    "manga",
+    "immersion"
+  ],
+  "added": "2026-08-24"
+}

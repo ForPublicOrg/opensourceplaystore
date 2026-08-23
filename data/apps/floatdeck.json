@@ -1,0 +1,19 @@
+{
+  "id": "floatdeck",
+  "name": "FloatDeck",
+  "tagline": "A live wallpaper whose characters drift as you tilt your phone",
+  "description": "FloatDeck gives your home screen a sense of depth. Character portraits sit in front of the background as floating cards, and as you tilt the phone they slide with a little momentum behind them, driven by the gyroscope. It carries across to the lock screen too, with a smooth change between the two layouts.\n\nThe look is yours to build. A template is a background image plus a set of portraits arranged down the left and right sides, described by a small text file. You can bring one in from a ZIP on your phone, a folder, or a download link, and the app checks the file before it opens anything.\n\nNo artwork comes with the app, so you either supply your own pictures or grab one of the sample theme packs from the releases page. Those packs use art that belongs to miHoYo. Setting up your own template means editing a short JSON file by hand, so expect a bit of fiddling. Menus are in English, Chinese, Japanese and Korean.",
+  "repo": "https://github.com/kxxoling/FloatDeck",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "app.floatdeck",
+  "tags": [
+    "wallpaper",
+    "live wallpaper",
+    "gyroscope",
+    "parallax",
+    "3d",
+    "home screen"
+  ],
+  "added": "2026-08-24"
+}

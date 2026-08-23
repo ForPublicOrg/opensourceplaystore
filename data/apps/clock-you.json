@@ -1,0 +1,20 @@
+{
+  "id": "clock-you",
+  "name": "Clock You",
+  "tagline": "A plain clock with alarms, timers and a stopwatch",
+  "description": "Clock You does the four things a clock app is actually for: showing the time, waking you up, counting down a timer, and running a stopwatch. Nothing else is bolted on.\n\nIt is built in Material You, so it picks up the colours from your wallpaper and has proper light and dark themes. There is no account to make, no sign-in screen, and no ads or trackers.",
+  "repo": "https://github.com/you-apps/ClockYou",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://you-apps.net",
+  "fdroid": "com.bnyro.clock",
+  "tags": [
+    "clock",
+    "alarm",
+    "timer",
+    "stopwatch",
+    "material-you",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "clash-meta-for-android",
+  "name": "Clash Meta for Android",
+  "tagline": "Send some apps through a proxy, the rest direct",
+  "description": "Clash Meta for Android is the phone front end for the Clash.Meta tunnel. You load a profile of rules and proxy servers, and for every connection it decides whether to send it through a proxy or straight out to the internet.\n\nRules can match on the address, the domain, or the app making the request, so you can route one or two apps abroad while everything else takes the normal path. Profiles can be imported from a link and refreshed later.\n\nIt comes with no servers of its own. You supply the proxy details, usually a config file or subscription link from a service you use or a server you run, and without one there is nothing to connect to. Android 5.0 is the minimum; 7.0 or later works better.",
+  "repo": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "com.github.metacubex.clash.meta",
+  "tags": [
+    "proxy",
+    "tunnel",
+    "clash",
+    "vpn",
+    "network",
+    "routing"
+  ],
+  "added": "2026-08-24"
+}

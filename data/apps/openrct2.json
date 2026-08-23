@@ -1,0 +1,22 @@
+{
+  "id": "openrct2",
+  "name": "OpenRCT2",
+  "tagline": "Build and run your own theme park",
+  "description": "OpenRCT2 is a rebuilt version of RollerCoaster Tycoon 2 that runs on modern devices, Android included. You design roller coasters piece by piece, lay out paths, shops and gardens, hire mechanics and entertainers, and try to keep the guests happy while the park turns a profit. Play the scenarios with their objectives and deadlines, or switch to sandbox and just build.\n\nBecause the engine was written from scratch, it lifts the old limits and adds things the original never had: a clearer interface, smarter guest and staff behaviour, bigger parks, more editing tools, co-operative multiplayer, and some rides and mechanics brought back from the first RollerCoaster Tycoon.\n\nOne important catch: the code is free but the game's graphics, music and scenarios are not. You must already own RollerCoaster Tycoon 2 — from Steam or GOG — and copy its files onto your device before OpenRCT2 will start.",
+  "repo": "https://github.com/OpenRCT2/OpenRCT2",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://openrct2.io",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "game",
+    "theme park",
+    "rollercoaster",
+    "simulation",
+    "tycoon",
+    "strategy"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "unitto",
+  "name": "Unitto",
+  "tagline": "A calculator and unit converter in one",
+  "description": "Unitto is a calculator and a converter sharing one app. Work out sums with brackets, trigonometry and answers shown as fractions, then swap over to convert between more than 600 units, from metres and kilograms to the ones you only meet once a year.\n\nIt also converts currencies using up to date rates, adds and subtracts dates, compares time zones and works out BMI. You can mark the units you use most as favourites, find them by typing roughly what you mean, copy or share a result, and put widgets for the calculator and the converter on your home screen.\n\nThe currency rates need an internet connection. After installing, look for it on your home screen under the name Calculator rather than Unitto.",
+  "repo": "https://github.com/sadellie/unitto",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://sadellie.github.io/unitto",
+  "fdroid": "com.sadellie.unitto",
+  "tags": [
+    "calculator",
+    "converter",
+    "units",
+    "currency",
+    "timezone",
+    "widget"
+  ],
+  "added": "2026-08-24"
+}

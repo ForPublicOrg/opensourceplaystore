@@ -1,0 +1,13 @@
+{
+  "id": "archivetune",
+  "name": "ArchiveTune",
+  "tagline": "Play YouTube Music and your own files, ad-free",
+  "description": "ArchiveTune plays music from YouTube Music and from the files stored on your phone, in one clean Material 3 player. Sign in and your playlists, liked songs and subscriptions come across; playback keeps going in the background, with no ads.\n\nIt is a player built from scratch rather than a wrapper around the website, so it can do things the official app will not: live synced lyrics with translation and romanisation, loudness levelling, crossfade, tempo and pitch controls, listening statistics, and scrobbling to Last.fm or ListenBrainz. You can bring playlists over from Spotify, and the look changes with your album art.\n\nIt depends on YouTube's servers, which are closed and can change without warning. If YouTube Music is not offered where you live, you will need a VPN or proxy set to a supported country the first time it loads your data.",
+  "repo": "https://github.com/rukamori/ArchiveTune",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://archivetune.koiiverse.cloud",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["music", "youtube", "player", "lyrics", "streaming", "offline"],
+  "added": "2026-08-24"
+}

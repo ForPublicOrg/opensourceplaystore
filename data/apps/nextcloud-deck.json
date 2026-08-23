@@ -1,0 +1,19 @@
+{
+  "id": "nextcloud-deck",
+  "name": "Nextcloud Deck",
+  "tagline": "Kanban boards from your Nextcloud, on your phone",
+  "description": "Nextcloud Deck puts your Deck boards in your pocket, so you can move cards along, tick things off and jot a note while you are away from a computer. Boards, lists, cards, labels, comments and attachments all work the way they do in the browser.\n\nEverything lives on your own Nextcloud, and the app keeps a copy on the phone so you can carry on with no signal and sync later. Add more than one account if you use several servers.\n\nThis is a companion app, not a standalone to-do list. You need a Nextcloud server with the Deck app switched on, and the official Nextcloud Android app installed to handle signing in.",
+  "repo": "https://github.com/stefan-niedermann/nextcloud-deck",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "it.niedermann.nextcloud.deck",
+  "tags": [
+    "kanban",
+    "tasks",
+    "nextcloud",
+    "boards",
+    "todo",
+    "projects"
+  ],
+  "added": "2026-08-24"
+}

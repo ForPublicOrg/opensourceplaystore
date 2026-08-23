@@ -1,0 +1,12 @@
+{
+  "id": "lux-alarm",
+  "name": "Lux Alarm",
+  "tagline": "An alarm that only switches off once your room is bright",
+  "description": "Lux Alarm is an alarm clock that refuses to let you snooze in the dark. It keeps going until your phone's ambient light sensor reads enough brightness in the room, so the only way to silence it is to open the blinds or switch a lamp on.\n\nYou can set how bright is bright enough, which matters when a grey winter morning is nothing like a summer one. The rest is a plain Material Design 3 alarm screen with nothing else in the way.\n\nIt depends entirely on your phone having a working ambient light sensor, and on the phone sitting somewhere the light can actually reach it rather than face down under a pillow.",
+  "repo": "https://github.com/salmundani/LuxAlarm",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.dsalmun.luxalarm",
+  "tags": ["alarm", "clock", "wake-up", "morning", "light-sensor"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wireguard",
+  "name": "WireGuard",
+  "tagline": "The official app for WireGuard VPN tunnels",
+  "description": "WireGuard builds a private tunnel between your phone and somewhere else — your home network, the office, or a VPN provider that supports it. This is the official Android app for it.\n\nYou add a tunnel using the configuration from whoever runs the other end, then flip a switch to turn it on. It uses your phone's kernel support for WireGuard when that is available and falls back to a userspace version when it is not, so root is never required.\n\nThe app is not a VPN service on its own. You need a configuration, either from a server you set up yourself or from a provider you have an account with.",
+  "repo": "https://github.com/WireGuard/wireguard-android",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://www.wireguard.com",
+  "tags": [
+    "vpn",
+    "wireguard",
+    "tunnel",
+    "privacy",
+    "network"
+  ],
+  "added": "2026-08-24"
+}

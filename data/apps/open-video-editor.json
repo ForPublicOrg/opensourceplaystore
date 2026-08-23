@@ -1,0 +1,12 @@
+{
+  "id": "open-video-editor",
+  "name": "Open Video Editor",
+  "tagline": "Trim, rotate and resize videos on your phone",
+  "description": "Open Video Editor handles the small jobs you actually need on a phone. Cut a clip down to the part you want, rotate it, scale it, change its resolution or make it grayscale, then save the result.\n\nIt is built on Android's own Media3 libraries and Jetpack Compose, so it stays small and looks at home on a modern phone. It is also translated by volunteers into a growing list of languages.\n\nKeep your expectations in the right place: this is a trimmer and converter, not a studio. There is no multi-track timeline, no titles and no audio editing today, though the project keeps a public roadmap of what comes next.",
+  "repo": "https://github.com/devhyper/open-video-editor",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.devhyper.openvideoeditor",
+  "tags": ["video-editor", "trim", "rotate", "resize", "video", "converter"],
+  "added": "2026-08-24"
+}

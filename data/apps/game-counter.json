@@ -1,0 +1,12 @@
+{
+  "id": "game-counter",
+  "name": "Game Counter",
+  "tagline": "Keep score for everyone at the table",
+  "description": "Game Counter takes the place of the scrap of paper you hunt for at the start of every board or card game. Each player gets a card on screen carrying as many counters as the game needs, whether that is points, life totals or damage, and you tap plus or minus to change them.\n\nYou name each counter and set what it starts at, so a life counter can begin at 20 and a score at zero. Long-press plus or minus to move a number quickly, and let each player pick the colour of their own card so nobody loses track of theirs. It also rolls a die of any size and picks a random player order when you need to settle who goes first.\n\nThe app asks for no permissions and never touches the internet, so nothing about you or your games leaves the phone.",
+  "repo": "https://github.com/multun/gamecounter",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "net.multun.gamecounter.fdroid",
+  "tags": ["score", "counter", "life", "board games", "cards", "dice"],
+  "added": "2026-08-24"
+}

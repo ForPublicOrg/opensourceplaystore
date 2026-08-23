@@ -1,0 +1,11 @@
+{
+  "id": "cinnamon",
+  "name": "Cinnamon",
+  "tagline": "Calls, texts and contacts together in one clean app",
+  "description": "Cinnamon rolls the dialer, the messages app and the contacts list into a single app, so the three things you use to reach people finally look and behave the same way. Texts and picture messages, a full keypad with T9 search, voicemail, and editing your contacts all sit behind one design.\n\nThe small touches are what you notice day to day: schedule a message to send later, pin the chats you care about to the top, give each conversation its own wallpaper and colour, use contact posters, and block a number at the system level. If you carry two SIMs you can pick one for calls and a different one for texts.\n\nAndroid will ask you to make it your default phone and messaging app before it can send or receive anything. It is handed out through GitHub releases rather than an app store, so you install and update it yourself.",
+  "repo": "https://github.com/sosauce/Cinnamon",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": ["sms", "dialer", "contacts", "messages", "phone", "mms"],
+  "added": "2026-08-24"
+}

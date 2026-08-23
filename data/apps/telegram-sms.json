@@ -1,0 +1,22 @@
+{
+  "id": "telegram-sms",
+  "name": "Telegram SMS",
+  "tagline": "Forward your texts and missed calls to Telegram",
+  "description": "Telegram SMS sends every text message your phone receives straight into a Telegram chat, and tells you about incoming and missed calls and battery changes too. It is handy for a spare handset, a work SIM, or a data SIM you leave plugged in at home while you are away.\n\nYou create your own Telegram bot and give the app its token, either by pasting it in or scanning a QR code, and the messages start arriving. You can send commands back from the chat to control the phone, and it can forward to other notification services such as Bark, PushDeer or Gotify instead.\n\nIt needs deep permissions to do this: reading your SMS, your call log and your notifications. Everything it forwards travels through Telegram's servers, which are not open source. Note also that the different builds are signed with different keys, so moving between them means uninstalling first and setting everything up again.",
+  "repo": "https://github.com/telegram-sms/telegram-sms",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "website": "https://telegram-sms.com",
+  "tags": [
+    "sms",
+    "telegram",
+    "forwarding",
+    "bot",
+    "calls",
+    "notifications"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

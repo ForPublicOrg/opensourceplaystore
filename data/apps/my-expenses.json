@@ -1,0 +1,13 @@
+{
+  "id": "my-expenses",
+  "name": "My Expenses",
+  "tagline": "Keep track of where your money goes",
+  "description": "My Expenses records what you spend and what you earn across several accounts, including transfers between different currencies. You can plan recurring transactions, filter your history, group everything by day, week, month or year, and tick off transactions against a bank statement.\n\nEverything lives on your phone. Lock it with a password or your screen lock, add entries quickly from a home-screen widget, and export or import with CSV and QIF so your data is never stuck in one app. It has been maintained for well over a decade and translated into more than 30 languages.\n\nThe free version stops at five accounts and three recurring plans, and a fair few features sit behind paid licence keys. A one-off Contrib key lifts those limits and adds split transactions and the category pie chart, Extended adds CSV import and cloud sync, and the Professional subscription adds budgets, receipt scanning and the cash flow chart.",
+  "repo": "https://github.com/mtotschnig/MyExpenses",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://www.myexpenses.mobi/",
+  "fdroid": "org.totschnig.myexpenses",
+  "tags": ["expenses", "budget", "finance", "money", "spending", "accounting"],
+  "added": "2026-08-24"
+}

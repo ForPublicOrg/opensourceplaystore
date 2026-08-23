@@ -1,0 +1,13 @@
+{
+  "id": "drawpile",
+  "name": "Drawpile",
+  "tagline": "Draw and paint together on one shared canvas",
+  "description": "Drawpile is a drawing and painting app where other people can join you on the very same canvas and watch every stroke appear as you make it. Sketch with a friend on the other side of the world, run a group art session, or just use it on your own as a normal paint program with layers and animation frames.\n\nIt works on phones and tablets, and is built around a pressure-sensitive pen, though you can draw with your finger too. The same program runs on Windows, Linux and macOS, so everyone can join from whatever they own.\n\nTo draw together, you all connect to the same session — one hosted on a public Drawpile server or one somebody runs themselves.",
+  "repo": "https://github.com/drawpile/Drawpile",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://drawpile.net/",
+  "fdroid": "net.drawpile",
+  "tags": ["drawing", "painting", "art", "collaboration", "animation", "canvas"],
+  "added": "2026-08-24"
+}

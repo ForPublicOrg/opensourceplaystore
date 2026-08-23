@@ -1,0 +1,18 @@
+{
+  "id": "flycast",
+  "name": "Flycast",
+  "tagline": "Play Sega Dreamcast and arcade games on your phone",
+  "description": "Flycast is an emulator for the Sega Dreamcast and for the arcade boards that shared its hardware — Naomi, Naomi 2 and Atomiswave. Point it at a game you own and it plays on your phone, with on-screen controls or a Bluetooth gamepad.\n\nIt grew out of the older reicast project and is looked after actively, with builds for Android, Windows, macOS, Linux and more. There is a community wiki covering the settings, and a Discord if you get stuck.\n\nNo games come with it. You supply your own copies of the discs you own.",
+  "repo": "https://github.com/flyinghead/flycast",
+  "category": "games",
+  "license": "GPL-2.0",
+  "tags": [
+    "dreamcast",
+    "sega",
+    "emulator",
+    "arcade",
+    "naomi",
+    "retro"
+  ],
+  "added": "2026-08-24"
+}

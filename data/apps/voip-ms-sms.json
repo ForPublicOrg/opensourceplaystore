@@ -1,0 +1,22 @@
+{
+  "id": "voip-ms-sms",
+  "name": "VoIP.ms SMS",
+  "tagline": "Text from your VoIP.ms number in a normal messaging app",
+  "description": "VoIP.ms SMS lets you send and receive text messages on your VoIP.ms phone number from an app that looks and works like the messaging app you already know. Conversations show your contacts' names and photos from your address book, and you can search back through old messages.\n\nMessages sync with VoIP.ms rather than with a carrier SIM, so the same conversations are waiting on whichever device you sign in from. Plenty of people use VoIP.ms this way instead of paying for a voice plan.\n\nYou need your own account with VoIP.ms, a paid Canadian VoIP provider; this app is only a client for it. Push notifications work only in the Google Play build of the app.",
+  "repo": "https://github.com/michaelkourlas/voipms-sms-client",
+  "category": "social",
+  "license": "Apache-2.0",
+  "tags": [
+    "sms",
+    "texting",
+    "messaging",
+    "voip",
+    "canada",
+    "phone number"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "net.kourlas.voipms_sms",
+  "antiFeatures": [
+    "nonfree-network"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "web-to-app",
+  "name": "Web to App",
+  "tagline": "Turn a website into an installable app on your phone",
+  "description": "Web to App takes a website, or a folder of web files you have made, and builds it into a real Android app you can install and share. The whole build happens on the phone — no computer, no developer tools, no remote build server.\n\nIt goes well past wrapping a page in a browser window. You can bundle Node.js, PHP, Python, Go or WordPress so the app runs its own server inside itself, add your own JavaScript and CSS, install userscripts or Chrome extensions, set a per-app proxy, and sign the finished APK (or export a Play-ready bundle) without leaving the app. The interface comes in ten languages.\n\nThere is a lot packed in here, and the deeper parts — signing keys, proxies, bundled runtimes — assume you have some idea what they do. Installing the apps you build means allowing installs from unknown sources.",
+  "repo": "https://github.com/shiaho777/web-to-app",
+  "category": "tools",
+  "license": "Unlicense",
+  "website": "https://shiaho777.github.io/web-to-app/",
+  "tags": ["apk", "builder", "website", "webview", "wrapper", "developer"],
+  "added": "2026-08-24"
+}

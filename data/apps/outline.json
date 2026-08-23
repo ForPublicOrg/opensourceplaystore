@@ -1,0 +1,12 @@
+{
+  "id": "outline",
+  "name": "Outline",
+  "tagline": "Reach the open internet with a key to your own VPN server",
+  "description": "Outline connects your phone to a VPN server that you or someone you trust runs. You paste in an access key, tap connect, and everything your phone sends goes out through that server, encrypted. It helps when the network you are on blocks sites, or when you would rather it could not see what you are doing.\n\nIt comes from Jigsaw, and the connection is built to be hard for a network to recognise and block. The app also works with any ordinary Shadowsocks server, not only Outline ones.\n\nThere is no server included and nothing to sign up for here. Someone has to create one first \u2014 the free Outline Manager for Windows, Mac or Linux sets one up on a cloud host \u2014 and then share the access key with you.",
+  "repo": "https://github.com/OutlineFoundation/outline-apps",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://getoutline.org/",
+  "tags": ["vpn", "proxy", "censorship", "shadowsocks", "privacy", "jigsaw"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fitbook",
+  "name": "FitBook",
+  "tagline": "Count calories and see your eating habits over time",
+  "description": "FitBook is a food diary for your phone. Write down what you eat and it adds up the calories, protein, carbs and fat for you, then draws graphs so you can see how your diet shifts from week to week.\n\nOver seven thousand foods are built in, so you can start logging the moment you install it, with no account to make. If what you are eating is not in the list, scan the barcode on the packet or search the Open Food Facts database instead.\n\nEverything is kept on your phone. Barcode scanning and online food search are the only parts that need a connection, and you can get by without them entirely.",
+  "repo": "https://github.com/brandonp2412/FitBook",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://brandonp2412.github.io/FitBook/",
+  "fdroid": "com.presley.fit_book",
+  "tags": ["calories", "nutrition", "diet", "barcode", "food", "macros", "health"],
+  "added": "2026-08-24"
+}

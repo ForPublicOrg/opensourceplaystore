@@ -1,0 +1,12 @@
+{
+  "id": "notepad",
+  "name": "Notepad",
+  "tagline": "Plain notes with nothing in the way",
+  "description": "Notepad does one thing: you open it, you type, it saves. No account, no sign-in, no folders to set up, and it asks for zero permissions on your phone.\n\nNotes are ordinary text, so you can export them to your storage and open them anywhere. If you want a bit of structure you can write in Markdown or HTML and switch to a view mode where links become clickable. It sorts by name or date, shares text to and from other apps, keeps drafts as you go, and lays out two panes on a tablet.\n\nNo ads, and almost nothing to configure.",
+  "repo": "https://github.com/farmerbb/Notepad",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "fdroid": "com.farmerbb.notepad",
+  "tags": ["notes", "notepad", "text", "markdown", "simple"],
+  "added": "2026-08-24"
+}

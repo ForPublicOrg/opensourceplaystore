@@ -1,0 +1,20 @@
+{
+  "id": "simplex-chat",
+  "name": "SimpleX Chat",
+  "tagline": "Chat with no username, phone number or account",
+  "description": "SimpleX Chat is a messenger with no user identifiers at all — no phone number, no username, nothing anyone can look you up by. To start talking to someone you share a one-time link or scan their QR code, in person or over any channel where you can be sure the message really came from them.\n\nMessages use double-ratchet end-to-end encryption with a further layer on top, and the design goes after metadata too: it tries to hide who you talk to and when, not only what you said. The relay servers that pass messages along can be run by anyone, including you, and there are apps for Android, iOS and desktop as well as a terminal version. The protocol has been through a security audit by Trail of Bits.\n\nThe trade-off for having no accounts is that there is no directory to search: if you lose touch with a contact, you swap a fresh link or QR code to reconnect.",
+  "repo": "https://github.com/simplex-chat/simplex-chat",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://simplex.chat",
+  "fdroid": "chat.simplex.app",
+  "tags": [
+    "messenger",
+    "private",
+    "encrypted",
+    "anonymous",
+    "chat",
+    "metadata"
+  ],
+  "added": "2026-08-24"
+}

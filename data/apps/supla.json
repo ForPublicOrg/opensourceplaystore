@@ -1,0 +1,12 @@
+{
+  "id": "supla",
+  "name": "SUPLA",
+  "tagline": "Control your SUPLA smart home gadgets from your phone",
+  "description": "SUPLA is the official Android app for the SUPLA smart home platform. It lists the switches, sockets, sensors, blinds and other devices on your account, shows the state each one is in, and lets you send them commands from anywhere. Notifications from your devices land here too.\n\nThe app is only the remote control. Your gadgets talk to a SUPLA server, either the hosted SUPLA Cloud or one you run yourself, and the automation rules live on that server rather than on your phone.\n\nThis is no use on its own: you need SUPLA hardware and an account first. The whole platform is open source, including the device firmware and the server software, so nothing about it is locked to one company.",
+  "repo": "https://github.com/SUPLA/supla-android",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "website": "https://www.supla.org",
+  "tags": ["smart-home", "home-automation", "iot", "remote-control", "sensors"],
+  "added": "2026-08-24"
+}

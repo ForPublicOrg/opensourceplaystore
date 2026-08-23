@@ -1,0 +1,19 @@
+{
+  "id": "pi-hole-client",
+  "name": "Pi-hole Client",
+  "tagline": "Check and control your Pi-hole from your phone",
+  "description": "Pi-hole blocks ads for every device on your home network. This app is the remote control for it: see how much is being blocked, turn blocking off for a moment when a site misbehaves, and turn it back on with one button.\n\nYou get charts of your traffic, a query log you can dig into, and lists you can edit on the spot. Add or remove a domain from the allow or block list, and update your adlists without opening a laptop. Several Pi-holes can be added and managed side by side, over HTTP or HTTPS. On Android 12 and newer it picks up your wallpaper colours.\n\nThis is an unofficial app, not made by the Pi-hole team, and it only works if you already run a Pi-hole of your own. It targets Pi-hole v6; v5 still works but is treated as the old version.",
+  "repo": "https://github.com/tsutsu3/pi-hole-client",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://tsutsu3.github.io/pi-hole-client/",
+  "tags": [
+    "pihole",
+    "adblock",
+    "dns",
+    "dashboard",
+    "network",
+    "self-hosted"
+  ],
+  "added": "2026-08-24"
+}

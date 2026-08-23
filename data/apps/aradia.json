@@ -1,0 +1,11 @@
+{
+  "id": "aradia",
+  "name": "Aradia",
+  "tagline": "Listen to thousands of free public-domain audiobooks",
+  "description": "Aradia gives you more than 20,000 free audiobooks recorded by LibriVox volunteers and fetched through the Internet Archive. Search by title, author or subject, download a book for the train, and listen with the screen off.\n\nThe player has the things that matter for long listening: adjustable speed, a sleep timer, silence skipping, a wishlist for books you want next, and a mini player you can reach from anywhere in the app. There are no ads. It can also play a YouTube video as an audiobook if you paste one in.\n\nOne thing to know before you start: everything here is out of copyright, so the shelves are full of classics and older titles rather than this year's bestsellers, and the recordings are read by volunteers rather than professional narrators.",
+  "repo": "https://github.com/sagarchaulagai/aradia",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["audiobooks", "librivox", "offline", "books", "listening", "archive"],
+  "added": "2026-08-24"
+}

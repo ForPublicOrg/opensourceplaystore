@@ -1,0 +1,12 @@
+{
+  "id": "quranapp",
+  "name": "QuranApp",
+  "tagline": "Ad-free Quran reading, translation and recitation",
+  "description": "QuranApp puts a translation you can read next to the Arabic — more than 45 translations across 20-odd languages, plus tafsir commentaries when you want a fuller explanation. Read verse by verse or in a mushaf page layout, in whichever Arabic script suits you.\n\nRecitations from many reciters play with the text scrolling along, at the speed you choose, and you can repeat a verse or a range while memorising. Bookmark verses with your own notes, search the whole text, and set a verse of the day reminder.\n\nThere are no ads, no purchases, no tracking and no account to make. Translations, tafsir and recitations all work offline once you have downloaded them.",
+  "repo": "https://github.com/AlfaazPlus/QuranApp",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://quran.alfaazplus.com/",
+  "tags": ["quran", "islam", "muslim", "translation", "tafsir", "reading"],
+  "added": "2026-08-24"
+}

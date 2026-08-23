@@ -1,0 +1,19 @@
+{
+  "id": "androidaps",
+  "name": "AndroidAPS",
+  "tagline": "A closed-loop insulin system for type 1 diabetes",
+  "description": "AndroidAPS closes the loop. It reads your continuous glucose sensor, works out how much insulin you need, and tells your pump to deliver it — adjusting through the day and through the night, including while you sleep. People with type 1 diabetes run it as their everyday system, and it is built and maintained by that same community.\n\nIt can send your data to Nightscout so the numbers are visible elsewhere, and the same source also builds companion apps for a follower's phone and for a smartwatch, so a parent or a partner can watch the numbers too.\n\nThis is not a casual install. The main looping app is not offered as a ready-made download — you build it from the source yourself, following the project's wiki, and it only works with the specific insulin pumps and glucose sensors it supports. It is not an approved medical device. Read the documentation before you go anywhere near it.",
+  "repo": "https://github.com/nightscout/AndroidAPS",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://wiki.aaps.app",
+  "tags": [
+    "diabetes",
+    "insulin",
+    "pump",
+    "cgm",
+    "loop",
+    "nightscout"
+  ],
+  "added": "2026-08-24"
+}

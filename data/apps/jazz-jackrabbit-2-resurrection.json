@@ -1,0 +1,19 @@
+{
+  "id": "jazz-jackrabbit-2-resurrection",
+  "name": "Jazz Jackrabbit 2 Resurrection",
+  "tagline": "The 1998 Jazz Jackrabbit 2 platformer, rebuilt for phones",
+  "description": "Jazz² Resurrection is a rewrite of Jazz Jackrabbit 2, the 1998 side-scrolling platformer where a green rabbit runs, shoots and bounces his way through bright, busy levels. This version was written from scratch in C++ and runs as a native Android app with on-screen controls.\n\nIt reads the levels and artwork from the original game and understands several releases of it: the shareware demo, Holiday Hare '98, The Secret Files and Christmas Chronicles. Parts of the JJ2+ community patch and the MLLE level editor are supported too.\n\nThe app ships without the original game's data files. You have to copy the contents of an original Jazz Jackrabbit 2 folder into a Source directory on your phone before anything will start. It needs Android 5.0 or later and a GPU with OpenGL ES 3.0, and the very first launch spends a while building a cache during the intro.",
+  "repo": "https://github.com/deathkiller/jazz2-native",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://de4th.dev/jazz2/",
+  "tags": [
+    "platformer",
+    "jazz",
+    "jackrabbit",
+    "retro",
+    "action",
+    "game"
+  ],
+  "added": "2026-08-24"
+}

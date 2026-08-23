@@ -1,0 +1,12 @@
+{
+  "id": "kioskzen",
+  "name": "KioskZen",
+  "tagline": "Turn a spare tablet into a Home Assistant wall panel",
+  "description": "KioskZen turns an old Android tablet into a fixed control panel for your home. It opens your Home Assistant dashboard fullscreen with no address bar or buttons in the way, keeps the screen awake, reloads on its own if the page fails or the Wi-Fi drops, and comes back after a reboot. The settings are hidden behind five taps in the top right corner, with an optional password, so nobody wanders out of the dashboard by accident.\n\nYou choose which engine draws the page: GeckoView, which is the Firefox one, Android's own WebView, or a Chromium-style profile kept inside the app. That choice is the reason the app exists, because camera and video streams that play fine in Firefox often fail in kiosk apps that only offer WebView. It is a free stand-in for tools like Fully Kiosk Browser and WallPanel, with nothing held back behind a paywall.\n\nYou need your own Home Assistant server for any of this to be useful, and the automatic kiosk setting only helps if you have installed kiosk-mode through HACS. The developer also notes that parts of the code were written with AI tooling and then reviewed by hand.",
+  "repo": "https://github.com/exraaaa/KioskZen",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://exraaaa.github.io/KioskZen/",
+  "tags": ["kiosk", "homeassistant", "dashboard", "tablet", "wallpanel", "smarthome"],
+  "added": "2026-08-24"
+}

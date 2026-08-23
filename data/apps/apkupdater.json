@@ -1,0 +1,21 @@
+{
+  "id": "apkupdater",
+  "name": "APKUpdater",
+  "tagline": "Keeps the apps you sideloaded up to date",
+  "description": "APKUpdater checks every app on your phone against a whole list of app sources at once and tells you when a newer version is out there. It is for people who install apps from outside the Play Store and otherwise have no easy way of knowing when something is out of date.\n\nIt looks for updates on APKMirror, Aptoide, F-Droid, IzzyOnDroid, APKPure, GitLab, GitHub and Google Play, and it can search those same sources when you want to find something new. Set it to check in the background and it will notify you when updates appear. There are no ads and no tracking, and it works on Android TV as well as phones.\n\nUpdates come from those mirrors rather than straight from the developer, so it is worth glancing at which source an update came from before you install it. Android will also ask you to allow installing apps from unknown sources.",
+  "repo": "https://github.com/rumboalla/apkupdater",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "updater",
+    "apk",
+    "sideload",
+    "apps",
+    "installer",
+    "updates"
+  ],
+  "added": "2026-08-24"
+}

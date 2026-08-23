@@ -1,0 +1,13 @@
+{
+  "id": "knit",
+  "name": "Knit",
+  "tagline": "Message people nearby with no internet and no account",
+  "description": "Knit lets phones talk straight to each other. No internet, no mobile signal, no server, no account and no phone number: your message goes out over Wi-Fi Aware and Bluetooth LE to every Knit phone in range, and each of those passes it along again, so it hops across a crowd. Useful at a festival, on a hike, in a power cut, or anywhere the network has given up.\n\nInside you get a public Nearby room that everyone around can read, plus private one-to-one chats and group chats, with names, avatars, emoji reactions, mentions and photos. Direct and group messages are end-to-end encrypted, so the phones relaying them only ever carry scrambled text, and the message history on your own device is encrypted at rest. It does not use Google Play services at all.\n\nA few honest limits. The Nearby room is deliberately unencrypted, because it has no fixed set of recipients. You need Android 10 or newer and at least one of the two radios: almost every phone has Bluetooth LE, while Wi-Fi Aware is on Pixel 3 and newer and many other recent models. And it only reaches people who are physically close to you and also running Knit.",
+  "repo": "https://github.com/getknit/knit",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://getknit.app",
+  "fdroid": "app.getknit.knit",
+  "tags": ["messaging", "offline", "mesh", "bluetooth", "encrypted", "chat", "p2p"],
+  "added": "2026-08-24"
+}

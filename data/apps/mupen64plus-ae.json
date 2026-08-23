@@ -1,0 +1,18 @@
+{
+  "id": "mupen64plus-ae",
+  "name": "Mupen64Plus AE",
+  "tagline": "Play Nintendo 64 games on your phone",
+  "description": "Mupen64Plus AE is the Android front end for Mupen64Plus, the long-running Nintendo 64 emulator. Open a game file you own and it plays on your phone, using on-screen buttons or a Bluetooth controller.\n\nIt has been around for years and is on F-Droid, so it updates along with your other apps. There is a forum for support and discussion when a particular game misbehaves.\n\nNo games come with it, and this is a community project rather than an official release from the Mupen64Plus team.",
+  "repo": "https://github.com/mupen64plus-ae/mupen64plus-ae",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "org.mupen64plusae.v3.alpha",
+  "tags": [
+    "n64",
+    "nintendo",
+    "emulator",
+    "games",
+    "retro"
+  ],
+  "added": "2026-08-24"
+}

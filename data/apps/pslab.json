@@ -1,0 +1,13 @@
+{
+  "id": "pslab",
+  "name": "PSLab",
+  "tagline": "A pocket science lab on your phone",
+  "description": "PSLab is the app for the Pocket Science Lab, a small open-hardware board that rolls a whole bench of instruments into one thing you can carry in a bag: an oscilloscope, a waveform generator, a frequency counter, a programmable voltage and current source, a logic analyser and a data logger.\n\nPlug the board into your phone and the app gives you the screens for all of it — traces to watch, signals to generate, readings to record — enough to run real physics and electronics experiments without a bench full of separate instruments. The same app also runs on iOS, Windows, macOS, Linux and the web.\n\nThe hardware is a separate purchase, from the FOSSASIA shop or a reseller, and you connect it with a USB OTG cable. Wireless connection is still being built.",
+  "repo": "https://github.com/fossasia/pslab-app",
+  "category": "education",
+  "license": "Apache-2.0",
+  "website": "https://pslab.io",
+  "fdroid": "io.pslab",
+  "tags": ["oscilloscope", "science", "electronics", "lab", "logic analyzer", "sensors", "education"],
+  "added": "2026-08-24"
+}

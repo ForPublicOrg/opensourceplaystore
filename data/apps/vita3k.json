@@ -1,0 +1,19 @@
+{
+  "id": "vita3k",
+  "name": "Vita3K",
+  "tagline": "Play PlayStation Vita games on your phone",
+  "description": "Vita3K is an emulator for Sony’s PlayStation Vita, and it now has Android builds alongside the Windows, macOS and Linux ones. It already runs most Vita homebrew and a good number of commercial games.\n\nThe project publishes compatibility lists for both homebrew and shop-bought games, so you can look up a title before you spend time on it, plus a quickstart guide covering what your device needs.\n\nIt is openly called experimental — crashes and games that simply refuse to boot are normal. On Android you may also need to install replacement Adreno graphics drivers to get good results, and you supply your own games and system files.",
+  "repo": "https://github.com/Vita3K/Vita3K",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://vita3k.org/",
+  "tags": [
+    "ps vita",
+    "playstation",
+    "emulator",
+    "games",
+    "sony",
+    "retro"
+  ],
+  "added": "2026-08-24"
+}

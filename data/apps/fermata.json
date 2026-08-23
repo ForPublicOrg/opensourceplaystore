@@ -1,0 +1,11 @@
+{
+  "id": "fermata",
+  "name": "Fermata",
+  "tagline": "Play your own music and video, in the car or on the TV",
+  "description": "Fermata plays the audio and video files you already have, kept the way you keep them — in folders and playlists. It remembers the last track and position for every folder, understands CUE and M3U playlists, and holds favourites and bookmarks so you can pick a long recording back up later.\n\nIt is built for screens you barely touch. Android Auto and Android TV both get proper support, with favourites and playlists on the TV home screen. There is an equaliser, bass and volume boost and a virtualiser, and playback speed and audio effects can be set per track or per folder. You can also choose which engine does the playing: MediaPlayer, ExoPlayer or VLC.\n\nAn IPTV add-on plays live TV playlists with an XMLTV programme guide and catch-up, but you supply the playlist. One thing to know: subtitles and alternate audio tracks in video only work with the VLC engine.",
+  "repo": "https://github.com/AndreyPavlenko/Fermata",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["video-player", "music-player", "android-auto", "android-tv", "iptv", "playlist", "subtitles"],
+  "added": "2026-08-24"
+}

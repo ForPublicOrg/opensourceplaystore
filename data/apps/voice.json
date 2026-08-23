@@ -1,0 +1,20 @@
+{
+  "id": "voice",
+  "name": "Voice",
+  "tagline": "Play your own audiobooks and never lose your place",
+  "description": "Voice plays the audiobooks you already own. Point it at a folder of files and it sorts them into a library, remembers exactly where you stopped in every book, and gives you the things a music player always gets wrong: chapters, bookmarks, a sleep timer and a speed control.\n\nIt handles M4B, MP3, M4A, OGG and OPUS files, can skip silences, boost quiet recordings, rewind a few seconds after a pause, and works with Android Auto.\n\nThere is no account, no ads and no forced cloud sync. Your books stay on the phone, which also means you need to bring your own audiobook files.",
+  "repo": "https://github.com/PaulWoitaschek/Voice",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://voice.woitaschek.de",
+  "fdroid": "de.ph1b.audiobook",
+  "tags": [
+    "audiobook",
+    "audiobooks",
+    "player",
+    "offline",
+    "books",
+    "m4b"
+  ],
+  "added": "2026-08-24"
+}

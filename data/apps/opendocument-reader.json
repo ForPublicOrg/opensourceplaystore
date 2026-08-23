@@ -1,0 +1,13 @@
+{
+  "id": "opendocument-reader",
+  "name": "OpenDocument Reader",
+  "tagline": "Open Word, Excel and OpenOffice files on your phone",
+  "description": "OpenDocument Reader opens the documents people actually send you. ODT, ODS, ODP and ODG files from LibreOffice or OpenOffice are its speciality, and it also handles Word, Excel and PowerPoint files, PDFs, plain text, images and more. Read them full screen, search for a word and see it highlighted, select and copy text out, or print if a printer is set up.\n\nDocuments are opened on your own device and never uploaded anywhere, so it works with no internet at all. It can open password-protected files, read a document aloud with text-to-speech, and take attachments straight from your mail app or a cloud drive. Basic editing is there as well, enough to fix a typo or add a sentence before passing something on. The app is translated into nineteen languages.\n\nIt is a reader first. For writing long documents from scratch you will still want a full office suite.",
+  "repo": "https://github.com/opendocument-app/OpenDocument.droid",
+  "category": "productivity",
+  "license": "MPL-2.0",
+  "website": "https://opendocument.app/",
+  "tags": ["documents", "office", "odt", "word", "pdf", "spreadsheet", "reader"],
+  "fdroid": "at.tomtasche.reader",
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "podverse",
+  "name": "Podverse",
+  "tagline": "Subscribe to podcasts and keep your queue in order",
+  "description": "Podverse is a podcast player for following shows and actually getting through them. Subscribe, let it fetch new episodes on its own, drag episodes around in the queue until the order suits you, and set a sleep timer for listening in bed. Light and dark modes both look right.\n\nThe parts that run on Podverse's own servers cost money: cutting and sharing clips of a podcast, syncing your subscriptions, queue and position between devices, and making playlists all need a paid membership, free for the first three months. Everything else works with no account at all.\n\nDevelopment has been quiet since early 2025, so what is on F-Droid and the app stores today is the version you get. It still works, but do not expect new features soon.",
+  "repo": "https://github.com/podverse/podverse-rn",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://podverse.fm",
+  "fdroid": "com.podverse.fdroid",
+  "tags": [
+    "podcast",
+    "podcasts",
+    "player",
+    "queue",
+    "rss",
+    "clips"
+  ],
+  "added": "2026-08-24"
+}

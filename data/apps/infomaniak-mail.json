@@ -1,0 +1,13 @@
+{
+  "id": "infomaniak-mail",
+  "name": "Infomaniak Mail",
+  "tagline": "Mail app for your Infomaniak mailbox",
+  "description": "Infomaniak Mail puts your Infomaniak email addresses on your phone, including the free @ik.me ones. You can send and receive mail, keep several Infomaniak accounts side by side, search for unread, starred or attachment-carrying messages, and file everything into folders you make yourself.\n\nSwipe a message to archive, move or delete it, get a push notification the moment mail arrives, and lock the app behind the same fingerprint or PIN that unlocks your phone. Dark and light themes, accent colours and display density are all yours to set. It can also become the default mail app on the phone.\n\nIt works only with mailboxes hosted by Infomaniak, so it will not open a Gmail or Outlook account. The F-Droid build has no push notifications, and crash reporting is on by default.",
+  "repo": "https://github.com/Infomaniak/android-kMail",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "fdroid": "com.infomaniak.mail",
+  "antiFeatures": ["nonfree-network", "tracking"],
+  "tags": ["email", "mail", "infomaniak", "inbox", "ik.me", "swiss"],
+  "added": "2026-08-24"
+}

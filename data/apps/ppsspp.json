@@ -1,0 +1,19 @@
+{
+  "id": "ppsspp",
+  "name": "PPSSPP",
+  "tagline": "Play your PSP games on your phone",
+  "description": "PPSSPP runs PlayStation Portable games on Android. Load a game you own, pick your controls, and play — a lot of titles run at full speed on an ordinary modern phone, and many look sharper than they ever did on the real handheld.\n\nYou can render games at your screen's full resolution, upscale textures, save and resume at any moment, and play with the on-screen buttons or a Bluetooth controller. No BIOS file is needed: PPSSPP emulates the console at a high level, so the default settings just work.\n\nIt does not come with any games. You supply your own game files, copied from discs or downloads you legally own. Not every game is perfect either — the project keeps a public compatibility list, so it is worth checking before you go hunting for a particular title.",
+  "repo": "https://github.com/hrydgard/ppsspp",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://www.ppsspp.org",
+  "fdroid": "org.ppsspp.ppsspp",
+  "tags": [
+    "psp",
+    "emulator",
+    "playstation",
+    "retro",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

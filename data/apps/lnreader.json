@@ -1,0 +1,19 @@
+{
+  "id": "lnreader",
+  "name": "LNReader",
+  "tagline": "Read light novels and web novels on your phone",
+  "description": "LNReader is a reader for light novels and web novels. You browse sources, add what you like to a library, and download chapters so you can carry on reading without a connection. It keeps your history, tracks which chapters are new, and remembers where you stopped.\n\nThe reading screen can be styled to your taste, keeps the screen from dimming while you read, and will read chapters aloud if you would rather listen. Sources come from plugin repositories you add yourself. There is tracker support, local backups, and a settings page where you can paste your own CSS or JavaScript to change how chapters look.\n\nThe project has no affiliation with the sites its plugins fetch from. Needs Android 7.0 or newer.",
+  "repo": "https://github.com/lnreader/lnreader",
+  "category": "reading",
+  "license": "MIT",
+  "website": "https://www.lnreader.app",
+  "tags": [
+    "novels",
+    "webnovels",
+    "reader",
+    "books",
+    "offline",
+    "tts"
+  ],
+  "added": "2026-08-24"
+}

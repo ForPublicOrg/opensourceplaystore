@@ -1,0 +1,12 @@
+{
+  "id": "iconify",
+  "name": "Iconify",
+  "tagline": "Change your phone's icons, colours and notification panel",
+  "description": "Iconify reshapes the parts of Android you look at all day. Swap the status bar and quick settings icons for another set, change the shape behind app icons, choose your own accent colours, and rebuild the notification panel and volume slider in a different style.\n\nIt does this by building a system module made for your particular ROM and applying it through Magisk, KernelSU or APatch together with an Xposed framework such as LSPosed. You grant root access once, wait while the module is generated, reboot when it asks, and the changes are in place.\n\nThis is a root app and there is no version that works without it. You need Android 12 or newer on a Pixel or an AOSP-based custom ROM, plus Magisk, KernelSU or APatch and an Xposed framework. Use v7.3.0 for Android 12 up to Android 16 (non-QPR) and v8.0.0 or later for Android 16 QPR1 onwards. KernelSU 3.0 and above also needs the Mountify module. Have a working custom recovery ready before you start, in case a change stops the phone booting.",
+  "repo": "https://github.com/Mahmud0808/Iconify",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://mahmud0808.github.io/Iconify/",
+  "tags": ["theme", "icons", "customization", "root", "magisk", "notifications", "colors"],
+  "added": "2026-08-24"
+}

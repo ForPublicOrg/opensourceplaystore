@@ -1,0 +1,20 @@
+{
+  "id": "nextcloud-cookbook",
+  "name": "Nextcloud Cookbook",
+  "tagline": "Your Nextcloud recipe book, on your phone",
+  "description": "If you keep your recipes in the Cookbook app on Nextcloud, this puts the whole collection in your pocket. Browse everything or jump to a category, read a recipe while you cook, and add or edit recipes right from the phone. You can also paste the address of a recipe page from the web and let the app import it for you.\n\nThe screen stays awake on a recipe, so it will not go dark halfway through the method with floury hands. Everything lives on your own Nextcloud, so any change shows up on your other devices too.\n\nYou need a Nextcloud server with the Cookbook app installed and turned on. There is no offline mode yet, so you have to be able to reach your server to read your recipes.",
+  "repo": "https://github.com/lneugebauer/nextcloud-cookbook",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://lneugebauer.github.io/nextcloud-cookbook/",
+  "tags": [
+    "recipes",
+    "cooking",
+    "nextcloud",
+    "cookbook",
+    "kitchen",
+    "self-hosted"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "de.lukasneugebauer.nextcloudcookbook"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sanmer-authenticator",
+  "name": "Sanmer Authenticator",
+  "tagline": "Keep your 2-step sign-in codes in one simple app",
+  "description": "Sanmer Authenticator holds the short codes (2FA) that websites and apps ask you for after your password. You add an account once, usually by scanning its setup code, and from then on the app shows a fresh number on a timer. It all happens on the phone, with no account to make and no internet needed.\n\nYou can lock the app with a password or your fingerprint and stop it showing up in screenshots. Codes you delete go to a trash bin first, so a slip of the thumb does not lock you out, and you can import and export the whole set when you move to a new phone. If your phone's clock drifts, it can check the time against a time server so your codes still line up.\n\nIt needs Android 11 or newer. The app is small and plain, comes in English and Simplified Chinese, and has almost no documentation beyond the screens themselves.",
+  "repo": "https://github.com/SanmerApps/Authenticator",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": ["2fa", "totp", "authenticator", "codes", "otp", "login"],
+  "added": "2026-08-24"
+}

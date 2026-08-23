@@ -1,0 +1,11 @@
+{
+  "id": "ai-assistant",
+  "name": "AI Assistant",
+  "tagline": "A voice assistant that runs on your own AI key",
+  "description": "AI Assistant is a talking assistant you can set as the default one on your phone, so a long press on the home button opens it instead of Google's. Ask a question and it answers out loud. Ask it to call a contact, set an alarm, start navigation, check the weather or play a song, and it does that instead.\n\nThe listening happens on the device: it works out when you start and stop speaking without sending your voice off anywhere, and it can look at your screen or your camera so you can ask about what is in front of you. Conversations are encrypted before they are saved. The answering is done by whatever service you point it at, so you can use Groq, OpenAI, Gemini, or a model running on your own computer through Ollama or LM Studio.\n\nYou need your own API key before it can answer anything, pasted into the settings screen, and song search wants a YouTube API key of its own. It is still early: the developer lists rough edges, including that talking over the assistant to interrupt it does not always work, and that translation of other languages is switched off for now.",
+  "repo": "https://github.com/souravanand001/ai-assistant-android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["assistant", "voice", "ai", "llm", "speech", "chatbot"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "distribute",
+  "name": "Distribute",
+  "tagline": "Play your own music library, synced from a server you run",
+  "description": "Distribute is a music player for people who own their music rather than rent it. It connects to a server you run at home, pulls your collection onto your phone, and plays it back offline on the train, on a plane, or anywhere with no signal.\n\nThe library is cached on the device, so anything you already have plays without touching the network. The only server involved is yours, so nobody else is keeping a record of what you listen to. The same server also feeds clients for Windows, macOS, Linux and iOS, so your collection follows you between machines. Syncing one server with another is advertised, but the project's own roadmap still lists it as a later version, so do not count on it yet.\n\nThe honest catch: the app does nothing on its own. You have to set up and run the server yourself, which ships as a Go service with a Docker Compose file, and load your own music into it. The project is still at version 0.3, so expect rough edges and features that are on the roadmap rather than finished.",
+  "repo": "https://github.com/sourcelocation/Distribute",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://distribute.sourceloc.net",
+  "tags": [
+    "music",
+    "player",
+    "offline",
+    "selfhosted",
+    "sync",
+    "library"
+  ],
+  "added": "2026-08-24"
+}

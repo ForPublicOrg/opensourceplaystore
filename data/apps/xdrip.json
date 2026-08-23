@@ -1,0 +1,19 @@
+{
+  "id": "xdrip",
+  "name": "xDrip+",
+  "tagline": "Live glucose readings, graphs and alarms",
+  "description": "xDrip+ takes the readings from a continuous glucose sensor and turns them into live numbers, charts and alarms on your phone and your watch. You can enter insulin, carbs and notes by voice, keypad or watch, see the action curves of what you have taken, and get an early warning when a low is being forecast.\n\nIt works as a hub rather than a single-device app. It connects to a long list of sensors, Bluetooth glucose meters and insulin pens, syncs instantly between your own phones and tablets, uploads to Nightscout, Tidepool or your own database if you want it to, and exchanges live data with AndroidAPS. There is no registration, and it does not need an internet connection to do its main job.\n\nThis is an independent community project, described by its own authors as a personal research version — not an approved medical device, and not endorsed by any sensor manufacturer. It is not on the Play Store or F-Droid either; you install the APK from the project's own download page, and you need a compatible sensor or meter before it has anything to show you.",
+  "repo": "https://github.com/NightscoutFoundation/xDrip",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://jamorham.github.io/#xdrip-plus",
+  "tags": [
+    "diabetes",
+    "glucose",
+    "cgm",
+    "nightscout",
+    "health",
+    "alarms"
+  ],
+  "added": "2026-08-24"
+}

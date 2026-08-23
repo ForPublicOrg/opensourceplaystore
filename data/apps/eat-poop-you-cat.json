@@ -1,0 +1,12 @@
+{
+  "id": "eat-poop-you-cat",
+  "name": "Eat Poop You Cat",
+  "tagline": "Pass the phone: a drawing and guessing game",
+  "description": "This is the old party game of telephone, played with drawings. Someone writes a sentence and hands the phone on. The next person draws that sentence. The one after that only sees the drawing and writes what they think it says. Round and round it goes until everyone has had a turn, and then you read the whole chain back and laugh at how far it drifted.\n\nOne phone is all you need — no accounts, no internet, no permissions. Everyone just types a display name when their turn comes. Drawings are plain black and white, and each person plays a game once, so nobody can peek twice.\n\nBest with a few friends in the same room and a bit of patience while the phone goes around.",
+  "repo": "https://github.com/JamesOsborn-SE/eat-poop-you-cat-android",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "dev.develsinthedetails.eatpoopyoucat",
+  "tags": ["party", "game", "drawing", "telephone", "offline", "friends"],
+  "added": "2026-08-24"
+}

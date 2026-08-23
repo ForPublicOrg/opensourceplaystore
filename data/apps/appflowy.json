@@ -1,0 +1,12 @@
+{
+  "id": "appflowy",
+  "name": "AppFlowy",
+  "tagline": "Notes, wikis and project boards in one place",
+  "description": "AppFlowy is a workspace for everything you write down: notes, documents, wikis, checklists and project plans. If you have ever used Notion it will feel familiar — pages nested inside pages, and tables of tasks you can also look at as a kanban board.\n\nThe point of AppFlowy is that you keep control of your data. You can use it on its own, sync across your phone and computer through AppFlowy's cloud, or point it at a server you host yourself. There are AI writing tools too, which need an account.\n\nThe Android app needs Android 10 or newer, and older ARMv7 phones are not supported. Downloads for Windows, Mac and Linux are on the same releases page.",
+  "repo": "https://github.com/AppFlowy-IO/AppFlowy",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://appflowy.com",
+  "tags": ["notes", "wiki", "notion", "kanban", "documents", "workspace"],
+  "added": "2026-08-24"
+}

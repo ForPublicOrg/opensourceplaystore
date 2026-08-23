@@ -1,0 +1,20 @@
+{
+  "id": "de-bloater",
+  "name": "De-Bloater",
+  "tagline": "Remove pre-installed junk apps from a rooted phone",
+  "description": "De-Bloater gets rid of the system apps your phone came with, the ones Android normally will not let you uninstall. Pick the apps you do not want, tap remove, restart the phone, and they are gone.\n\nNothing is actually deleted from your phone. The app builds a Magisk, KernelSU or APatch module that hides the apps instead, so you can bring any of them back later or reset the whole thing and start again.\n\nThis only works on a rooted phone with a full Magisk, KernelSU or APatch setup, and not in Magisk core only mode. Removing an important system app can leave your phone stuck restarting in a loop, so take it one app at a time.",
+  "repo": "https://github.com/sunilpaulmathew/De-Bloater",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://sunilpaulmathew.github.io/De-Bloater/",
+  "fdroid": "com.sunilpaulmathew.debloater",
+  "tags": [
+    "debloat",
+    "root",
+    "magisk",
+    "bloatware",
+    "uninstall",
+    "kernelsu"
+  ],
+  "added": "2026-08-24"
+}

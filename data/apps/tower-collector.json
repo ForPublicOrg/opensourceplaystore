@@ -1,0 +1,19 @@
+{
+  "id": "tower-collector",
+  "name": "Tower Collector",
+  "tagline": "Map the mobile masts around you and share the data",
+  "description": "Tower Collector logs the mobile cell towers your phone sees along with your GPS position, helping build an open map of where network coverage actually reaches. You can upload what you gather to OpenCellID and BeaconDB, public databases anyone is free to use.\n\nIt handles GSM, UMTS, LTE, CDMA and 5G networks, and its GPS settings are tuned to keep battery drain down while you're out walking or driving. If you'd rather keep the readings to yourself, export them instead as CSV, JSON, GPX, KML or KMZ.\n\nThe app has no ads and says it collects nothing that identifies you or your device. It does need location running while you collect, so expect some extra battery use on long trips.",
+  "repo": "https://github.com/zamojski/TowerCollector",
+  "category": "maps",
+  "license": "MPL-2.0",
+  "fdroid": "info.zamojski.soft.towercollector",
+  "tags": [
+    "cell towers",
+    "opencellid",
+    "coverage",
+    "gps",
+    "mapping",
+    "network"
+  ],
+  "added": "2026-08-24"
+}

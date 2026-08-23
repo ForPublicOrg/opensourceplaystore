@@ -1,0 +1,13 @@
+{
+  "id": "better-rail",
+  "name": "Better Rail",
+  "tagline": "Train times and platforms for Israel Railways",
+  "description": "Better Rail plans your train journey on Israel Railways: pick a station and a destination and it shows you the departures, the changes you need to make, and which platform to stand on.\n\nIt is an independent open source project, not the railway's own app. The people behind it have put a lot of work into the design and into making it usable with a screen reader.\n\nIt only covers Israel Railways, and it depends on the railway's own timetable service, so it needs an internet connection and can only be as accurate as the data the railway publishes.",
+  "repo": "https://github.com/better-rail/app",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "website": "https://better-rail.co.il",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["train", "israel", "railways", "timetable", "transit", "commute"],
+  "added": "2026-08-24"
+}

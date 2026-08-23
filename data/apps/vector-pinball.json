@@ -1,0 +1,18 @@
+{
+  "id": "vector-pinball",
+  "name": "Vector Pinball",
+  "tagline": "Pinball with real physics on nine tables",
+  "description": "Vector Pinball is a pinball game with nine table layouts to work through. The graphics are deliberately plain — everything is drawn with lines and circles — so nothing distracts from the flippers, the ball and where it is about to go.\n\nThe ball is simulated with the Box2D physics engine, so bounces, spins and ramp shots behave the way you expect rather than following a script. It runs entirely on your phone.\n\nIf you like tinkering, the author also maintains a separate, very experimental editor for designing your own tables.",
+  "repo": "https://github.com/dozingcat/Vector-Pinball",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.dozingcatsoftware.bouncy",
+  "tags": [
+    "pinball",
+    "arcade",
+    "physics",
+    "game",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

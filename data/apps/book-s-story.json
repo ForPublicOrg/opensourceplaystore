@@ -1,0 +1,20 @@
+{
+  "id": "book-s-story",
+  "name": "Book's Story",
+  "tagline": "Read your own ebooks in a clean, customisable reader",
+  "description": "Book's Story opens the ebooks you already have on your phone and then gets out of the way. Hand it a file and it will read EPUB, FB2, PDF, TXT, HTML or Markdown, and you can sort your shelf into categories that make sense to you.\n\nThe design follows Material You, so it picks up the colours of your wallpaper, and there are extra themes and colour presets if you would rather choose for yourself. There is a lot to adjust in the reader itself, and chapters are listed so you can jump around a long book instead of scrolling for it.\n\nThere is no built-in store or catalogue, so you bring your own files, and there are no ads or tracking. One thing to know before you install: from September 2026 Android requires apps to be registered by a verified developer before they can go on certified devices, and the author says Book's Story will not be installable there once that takes effect. Releases have slowed too, the last one being in October 2025.",
+  "repo": "https://github.com/Acclorite/book-story",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": [
+    "ebook",
+    "epub",
+    "reader",
+    "books",
+    "fb2",
+    "pdf",
+    "reading"
+  ],
+  "fdroid": "ua.acclorite.book_story",
+  "added": "2026-08-24"
+}

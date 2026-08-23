@@ -1,0 +1,11 @@
+{
+  "id": "dileit",
+  "name": "Dileit",
+  "tagline": "Look up English words and drill them with flashcards",
+  "description": "Dileit is an English dictionary that also helps you remember what you looked up. Search a word, read its meaning, and add it to a flashcard box in one tap.\n\nIt uses the Leitner system, so words you keep getting right come back less often and the ones you forget come back sooner. You can add your own cards for phrases and idioms that are not in the dictionary, set a reminder so the app nudges you when review time comes round, and open a report to see how your learning is going.\n\nThe dictionaries are built into the app and work with no connection. There are two of them, English to English and English to Persian, each with more than 300,000 entries.",
+  "repo": "https://github.com/yasinhajilou/Dileit",
+  "category": "education",
+  "license": "GPL-3.0",
+  "tags": ["dictionary", "english", "flashcards", "leitner", "vocabulary", "persian"],
+  "added": "2026-08-24"
+}

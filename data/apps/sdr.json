@@ -1,0 +1,11 @@
+{
+  "id": "sdr",
+  "name": "SDR++",
+  "tagline": "Listen to the radio spectrum with an SDR dongle",
+  "description": "SDR++ is radio receiver software. Plug a software-defined radio dongle into your phone and you can tune across the airwaves — shortwave, aircraft, weather satellites, ham chatter, local FM — watching the signals scroll past on a waterfall display and listening to several at once.\n\nIt is the same program people run on desktop computers. The Android build handles RTL-SDR, Airspy, Airspy HF+, HackRF, PlutoSDR and HydraSDR dongles — SDRplay, LimeSDR and SoapySDR are not built into it — and it can also pull audio from a receiver on your network over rtl_tcp, SpyServer or an SDR++ server, so the antenna can sit on the roof while you listen from the sofa.\n\nYou need radio hardware for this: a dongle plus a USB OTG adapter, or a networked receiver somewhere. The app on its own has nothing to tune. Note also that the numbered releases carry no APK — the Android build comes only from the project's rolling nightly build.",
+  "repo": "https://github.com/AlexandreRouma/SDRPlusPlus",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["radio", "sdr", "rtl-sdr", "scanner", "shortwave", "ham", "waterfall"],
+  "added": "2026-08-24"
+}

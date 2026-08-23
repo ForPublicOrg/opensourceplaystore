@@ -1,0 +1,20 @@
+{
+  "id": "grocy-android",
+  "name": "Grocy Android",
+  "tagline": "Keep track of what is in your kitchen",
+  "description": "Grocy Android keeps your household stock in one place: what you have, how much is left, and what is about to go off. Scan a barcode as you unpack the shopping and it goes in; scan it again as you cook and it comes out.\n\nShopping lists work offline, and there is a shopping mode with big buttons for using in the aisle. Barcodes it does not recognise can be looked up on Open Food Facts. No ads, no analytics, and it runs fine on phones with no Google services on them.\n\nIt is a companion for Grocy, a grocery and household manager you host yourself, so you need a Grocy server running before the app is any use. There is a demo option on the login screen if you want a look around first.",
+  "repo": "https://github.com/patzly/grocy-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://patrickzedler.com/grocy/",
+  "fdroid": "xyz.zedler.patrick.grocy",
+  "tags": [
+    "groceries",
+    "grocy",
+    "shopping",
+    "barcode",
+    "pantry",
+    "household"
+  ],
+  "added": "2026-08-24"
+}

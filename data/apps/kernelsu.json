@@ -1,0 +1,12 @@
+{
+  "id": "kernelsu",
+  "name": "KernelSU",
+  "tagline": "Root your phone and decide which apps get root access",
+  "description": "KernelSU gives you root on your Android phone, which means full control over the system: removing built-in apps, backing up things normally locked away, and running tools that ordinary apps cannot. Its manager app shows every request for root so nothing gets it behind your back.\n\nUnlike older methods, the root support lives inside the kernel itself. App Profile lets you hand an app only part of root's power instead of all of it, and a module system installs system tweaks without permanently changing the system partition, so they can be turned off again.\n\nThis is not a normal install. It officially supports GKI 2.0 devices on kernel 5.10 or newer, arm64 and x86_64 only. Older kernels from 4.14 work but you have to build the kernel yourself. Flashing a kernel can break your phone, void the warranty and stop banking apps from running, so read the official guide first.",
+  "repo": "https://github.com/tiann/KernelSU",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://kernelsu.org",
+  "tags": ["root", "superuser", "kernel", "modules", "magisk-alternative"],
+  "added": "2026-08-24"
+}

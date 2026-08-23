@@ -1,0 +1,11 @@
+{
+  "id": "openotp",
+  "name": "OpenOTP",
+  "tagline": "Keep your 2-step login codes on every device you own",
+  "description": "OpenOTP holds the 6-digit codes (2FA) that accounts ask for after your password. Point the camera at the QR code an account shows you, and OpenOTP starts making a fresh code for it every 30 seconds, with no internet connection needed.\n\nThe same app is built for Android, iPhone, Windows, macOS and Linux from one shared codebase, so it looks and behaves the same wherever you install it. It handles both kinds of code, the time-based ones and the counter-based ones, and keeps your accounts in the phone's encrypted storage.\n\nTo get your codes onto another device, or back after a new phone, you can link a Dropbox or OneDrive account and let the app back the list up there. That is switched off until you turn it on, and turning it on means putting your 2FA accounts in someone else's cloud, so think it over first. Leave it off and your codes stay on the one device.",
+  "repo": "https://github.com/avan1235/open-otp",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["2fa", "authenticator", "totp", "codes", "login", "offline"],
+  "added": "2026-08-24"
+}

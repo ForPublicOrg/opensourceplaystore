@@ -1,0 +1,19 @@
+{
+  "id": "opencook",
+  "name": "openCook",
+  "tagline": "Photograph a cookbook page and get a recipe",
+  "description": "openCook turns pictures of paper recipes into recipes you can use. Photograph a page from a cookbook and it reads off the title, the ingredients and amounts, the steps, the cooking time and the servings — and if there are two recipes on the page it splits them apart. From there it can plan your week and build one shopping list the whole household ticks off together.\n\nRecipes, meal plans and lists work with no server at all, and phones in the same house sync directly with each other over your Wi-Fi. You can add pantry items by scanning a barcode, and save a recipe you are reading in your phone's browser by sharing it to the app. There is no sign-up.\n\nReading recipes from photos is the one part that needs a small server you run at home — the AI runs on your machine, not someone else's — and scans queue up until it is reachable again. The app is young, so expect some rough edges.",
+  "repo": "https://github.com/oliexdev/openCook",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.food.opencook",
+  "tags": [
+    "recipes",
+    "cooking",
+    "mealplan",
+    "shopping",
+    "scan",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

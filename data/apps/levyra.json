@@ -1,0 +1,14 @@
+{
+  "id": "levyra",
+  "name": "Levyra",
+  "tagline": "Stream and download music with synced lyrics you can keep offline",
+  "description": "Levyra plays music streamed from YouTube and YouTube Music, with no ads and no account to sign into. Search for a song or an artist, browse the global and country Top 50 charts, and either play it there and then or save it for later.\n\nWhat you save are ordinary M4A files, written to Music/Levyra on your phone with the cover art, artist, album and lyrics tucked inside the file, so they also play in your car stereo or any other player. Lyrics come from LRCLIB and scroll line by line as the song goes, and you can tap a line to jump to it. SponsorBlock skips intros, chatter and silence. Play counts and playlists live in a database on the phone rather than on someone's server. There is Android Auto support and a separate Windows version.\n\nOne thing to be clear about: the music comes from YouTube, a service the app does not control. When YouTube changes how it works, playback can break until a new version of Levyra comes out.",
+  "repo": "https://github.com/LUC4N3X/Levyra-deepsound",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://levyra.dpdns.org",
+  "tags": ["music", "player", "streaming", "download", "lyrics", "offline", "youtube"],
+  "fdroid": "com.luc4n3x.levyra",
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

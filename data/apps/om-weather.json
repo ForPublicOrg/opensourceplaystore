@@ -1,0 +1,12 @@
+{
+  "id": "om-weather",
+  "name": "Cirrus",
+  "tagline": "Weather and rain radar for anywhere on Earth",
+  "description": "Cirrus shows you the weather right now and hour by hour for up to sixteen days ahead, for any place in the world. A rain radar lets you see the shower that is heading your way, and a home screen widget keeps the forecast one glance away.\n\nForecasts come from the free Open-Meteo and LibreWXR services. There are no adverts and no account to create, and the app asks for nothing but internet access; letting it use GPS is optional and only used to find where you are.\n\nIt needs an internet connection to fetch a forecast, so there is nothing to read when you are offline. On F-Droid and in its source code the app goes by the name omweather rather than Cirrus.",
+  "repo": "https://github.com/woheller69/omweather",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.omweather",
+  "tags": ["weather", "forecast", "rain radar", "widget", "open-meteo", "cirrus"],
+  "added": "2026-08-24"
+}

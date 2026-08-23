@@ -1,0 +1,20 @@
+{
+  "id": "cryptomator",
+  "name": "Cryptomator",
+  "tagline": "Encrypt your cloud files before they leave the phone",
+  "description": "Cryptomator locks your files in a vault before they go up to the cloud, so whoever runs the storage only ever sees scrambled data. File contents and file names are both encrypted, and the only thing that opens them is a password you choose.\n\nMaking a vault takes one screen: pick a folder, set a password. There is no account to sign up for. Vaults unlock with your fingerprint, lock themselves again after a few minutes away from the app or when the screen goes off, and can be opened on Windows, macOS and Linux with the free desktop version.\n\nThe Android app is not free. Every version, including the one in F-Droid, needs a licence key bought from cryptomator.org, which is how the project is funded. The F-Droid build works with WebDAV, S3 and folders on the phone, so it pairs with any sync app; the download from Cryptomator's own site or Google Play also connects to Dropbox, Google Drive, OneDrive and pCloud.",
+  "repo": "https://github.com/cryptomator/android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://cryptomator.org",
+  "fdroid": "org.cryptomator.lite",
+  "tags": [
+    "encryption",
+    "cloud",
+    "vault",
+    "privacy",
+    "files",
+    "webdav"
+  ],
+  "added": "2026-08-24"
+}

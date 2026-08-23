@@ -1,0 +1,18 @@
+{
+  "id": "nosved-player",
+  "name": "Nosved Player",
+  "tagline": "Plays almost any video file, with proper subtitle control",
+  "description": "Nosved Player plays the videos on your phone using mpv, the same engine behind well-known desktop players. That is why it copes with odd formats and codecs that make other phone players stumble, and why subtitles come out looking right instead of squashed.\n\nThe controls go deeper than most. You can switch between hardware and software decoding while a video is playing, lift quiet audio up to twice its volume, shift subtitle timing or change their font and size, and adjust brightness, contrast, saturation, gamma and hue as you watch. Sliding along the edges of the screen changes brightness and volume, two- and three-finger taps can be mapped to actions like play or fast-forward, and the on-screen buttons are yours to rearrange. It follows Material You, with proper black AMOLED and dark themes.\n\nIt is a young project from a single developer and there are a great many settings, so give yourself a few minutes in the options before it feels like your player.",
+  "repo": "https://github.com/DevSon1024/Nosved-Player",
+  "category": "media",
+  "license": "MIT",
+  "tags": [
+    "video",
+    "player",
+    "mpv",
+    "subtitles",
+    "material-you",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

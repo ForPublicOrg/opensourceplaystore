@@ -1,0 +1,20 @@
+{
+  "id": "personaldnsfilter",
+  "name": "personalDNSfilter",
+  "tagline": "Block ads and trackers for every app on the phone",
+  "description": "personalDNSfilter sits between your phone and the internet and quietly drops requests to ad, malware and tracking domains. Because it works on domain names rather than inside the browser, it cleans up every app on the phone at once.\n\nThe filtering happens entirely on your device, using host lists you choose. Nothing is sent off to a filtering company, and it works with whatever upstream DNS server you prefer. On Android 4.2 and newer it needs no root. The same program can also be run on a computer as the DNS server for a whole home network.\n\nThere is almost nothing on the GitHub page: the setup notes and documentation live on the developer's own site at zenz-solutions.de.",
+  "repo": "https://github.com/IngoZenz/personaldnsfilter",
+  "category": "security",
+  "license": "GPL-2.0",
+  "website": "https://www.zenz-solutions.de/personaldnsfilter/",
+  "fdroid": "dnsfilter.android",
+  "tags": [
+    "dns",
+    "adblock",
+    "filter",
+    "privacy",
+    "tracking",
+    "malware"
+  ],
+  "added": "2026-08-24"
+}

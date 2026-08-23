@@ -1,0 +1,17 @@
+{
+  "id": "hyperbridge",
+  "name": "HyperBridge",
+  "tagline": "Show notifications in the pill around your camera cutout",
+  "description": "HyperBridge takes ordinary Android notifications and displays them in the island around the camera cutout, the way HyperOS already does for its own apps. Music gets album art and a now-playing bar, navigation gets turn-by-turn steps, downloads get a progress ring, and calls get their own layout with a timer.\n\nYou decide which apps can use the island and how long it stays. A built-in theme editor lets you change colours, icon shapes and per-app styling, and you can pin normal Android widgets to the island layer, even on the lock screen. A blocked-words list keeps message spoilers from popping up.\n\nIt is made for Xiaomi, POCO and Redmi phones running HyperOS. You'll need to grant notification access and turn off battery restrictions so the background service isn't killed.",
+  "repo": "https://github.com/D4vidDf/HyperBridge",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "notifications",
+    "dynamic island",
+    "hyperos",
+    "xiaomi",
+    "widgets"
+  ],
+  "added": "2026-08-24"
+}

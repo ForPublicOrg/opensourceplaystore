@@ -1,0 +1,11 @@
+{
+  "id": "exiferaser",
+  "name": "ExifEraser",
+  "tagline": "Remove hidden location data from photos before sharing",
+  "description": "Every photo your phone takes carries hidden notes along with the picture: where you were standing, which phone took it, the exact second. ExifEraser strips those out, so a snapshot you drop into a group chat does not quietly hand over your home address.\n\nPick a few images, a whole folder, or take a photo inside the app; you can also paste one from the clipboard or share images to it from anywhere else. It asks for no permissions at all, because it works through Android's own file picker. Cleaned copies are written where you choose, with a name ending you set, and you get a report of exactly what each image was carrying. Up to a hundred images can go through at once.\n\nIt handles JPEG, PNG and WebP files and needs Android 6 or newer. The author has put the app in maintenance mode: bugs still get fixed, but no new features are planned.",
+  "repo": "https://github.com/Tommy-Geenexus/exif-eraser",
+  "category": "security",
+  "license": "MIT",
+  "tags": ["exif", "metadata", "photos", "privacy", "location", "images"],
+  "added": "2026-08-24"
+}

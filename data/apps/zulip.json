@@ -1,0 +1,19 @@
+{
+  "id": "zulip",
+  "name": "Zulip",
+  "tagline": "Group chat where every conversation has its own topic",
+  "description": "Zulip is team and community chat with one big difference: every message belongs to a named topic inside a channel. Instead of scrolling back through one endless stream to work out what people were talking about, you open the topic you care about and read it start to finish.\n\nThis is the official Zulip app, built with Flutter. It became the main Zulip mobile app in June 2025, replacing the older one.\n\nYou will need an account on a Zulip server — your workplace's, an open-source project's, or one on zulip.com. The app connects to it; it is not a chat service of its own.",
+  "repo": "https://github.com/zulip/zulip-flutter",
+  "category": "social",
+  "license": "Apache-2.0",
+  "website": "https://zulip.com",
+  "tags": [
+    "chat",
+    "team",
+    "topics",
+    "messaging",
+    "community",
+    "work"
+  ],
+  "added": "2026-08-24"
+}

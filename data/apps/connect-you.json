@@ -1,0 +1,19 @@
+{
+  "id": "connect-you",
+  "name": "Connect You",
+  "tagline": "A private replacement for your contacts and text messages",
+  "description": "Connect You is your address book and your text messages in one calm app. It uses the normal Android contacts already on your phone, so nothing gets locked away where only this app can read it, and your SMS conversations sit right alongside them.\n\nYou can add, edit and delete contacts with phone numbers, email addresses, postal addresses and dates like birthdays, and send, read and delete texts. It follows Material You, so it takes its colours from your wallpaper and has a proper dark theme.\n\nOn Android 16 and newer you have to switch on restricted permissions for the app in Android settings before the text message side will work.",
+  "repo": "https://github.com/you-apps/ConnectYou",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://you-apps.net",
+  "fdroid": "com.bnyro.contacts",
+  "tags": [
+    "contacts",
+    "sms",
+    "messaging",
+    "texts",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

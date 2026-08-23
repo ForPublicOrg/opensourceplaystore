@@ -1,0 +1,20 @@
+{
+  "id": "kde-connect",
+  "name": "KDE Connect",
+  "tagline": "Link your phone and your computer over Wi-Fi",
+  "description": "KDE Connect joins your phone and your computer together over the Wi-Fi you already have. Copy something on one and paste it on the other, send files and links either way, read and reply to your phone's notifications from the desktop, and read and send text messages from the computer's keyboard.\n\nThe phone screen also works as a touchpad and keyboard, which is handy when the computer is across the room, and it can advance presentation slides or act as a remote for media players on the computer. Everything goes directly between your two devices over the local network, encrypted with TLS, so none of it passes through anyone else's server.\n\nIt only works in pairs: you need the matching KDE Connect desktop app installed on your computer, and both devices have to be on the same network. Linux is where it is best supported. There is a Windows build in the Microsoft Store, but macOS has no official release.",
+  "repo": "https://github.com/KDE/kdeconnect-android",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "website": "https://kdeconnect.kde.org",
+  "fdroid": "org.kde.kdeconnect_tp",
+  "tags": [
+    "sync",
+    "clipboard",
+    "notifications",
+    "remote",
+    "files",
+    "desktop"
+  ],
+  "added": "2026-08-24"
+}

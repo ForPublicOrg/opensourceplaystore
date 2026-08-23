@@ -1,0 +1,20 @@
+{
+  "id": "cavity",
+  "name": "Cavity",
+  "tagline": "Keep track of every bottle in your wine cellar",
+  "description": "Cavity is a record of the wine you own: which bottles are on which shelf, how many are left, and what you thought of the ones you have already opened. When you drink one, you note it down, and the stock updates itself.\n\nIt points out bottles that are hitting their peak so you do not leave them too long, keeps a history of what you bought and drank with buying and drinking stats on top, and lets you search the whole cellar. Friends get their own entries, so you can record a bottle you gave away or shared. Tasting sessions add small practical touches like a reminder to chill a bottle or a nudge when a wine has decanted long enough.\n\nThe app is built dark-first, in gold on black, though a light theme is there if you prefer it. Your cellar lives on the phone by default. If you want a copy you can restore after a reinstall, you can make a Cavity account and back the cellar up to the developer's server, but note that wine and friend photos and PDFs are not included in that backup.",
+  "repo": "https://github.com/ninjinskii/Cavity",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://cavity.fr",
+  "fdroid": "com.louis.app.cavity",
+  "tags": [
+    "wine",
+    "cellar",
+    "collection",
+    "tasting",
+    "inventory",
+    "bottles"
+  ],
+  "added": "2026-08-24"
+}

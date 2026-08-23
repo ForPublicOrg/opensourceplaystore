@@ -1,0 +1,11 @@
+{
+  "id": "fladder",
+  "name": "Fladder",
+  "tagline": "Watch your Jellyfin library on phone or TV",
+  "description": "Fladder is a front end for Jellyfin, the free media server people run at home. It lays your films and series out with their posters, remembers where you stopped, and skips intros and credits when the server has marked them.\n\nPlay straight off the server, let it transcode when the file is awkward, or download items to the device and watch with no signal, and your progress syncs back either way. It handles several users and several servers at once, shows scrubbing thumbnails on the timeline, reads comic files in .cbz and .cbr, hooks up to Jellyseerr for requests, and rearranges itself to suit a phone, an Android TV or a desktop.\n\nYou need a Jellyfin server of your own, or an account on someone else's. Fladder is only the viewer; it does not store or supply any media itself.",
+  "repo": "https://github.com/DonutWare/Fladder",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": ["jellyfin", "media", "streaming", "movies", "tv", "offline"],
+  "added": "2026-08-24"
+}

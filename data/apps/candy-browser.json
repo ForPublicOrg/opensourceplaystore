@@ -1,0 +1,11 @@
+{
+  "id": "candy-browser",
+  "name": "Candy Browser",
+  "tagline": "A browser you steer with gestures, with tracker blocking built in",
+  "description": "Candy Browser is a web browser built around swiping rather than hunting for small buttons. Slide along the address bar to flick between tabs, swipe into a visual overview of everything you have open, and throw a card away to close it. Long press a link and it opens in a live preview you can read and dismiss without it ever touching your history.\n\nAd and tracker filtering runs on the phone, and it shows its work: a per-tab list of what was blocked, from which sites, plus a record of which pages asked for your camera, microphone or location. History, favourites, profiles and filter rules all stay on the device. You can choose your search engine, read cluttered pages in a plain reader view, and keep separate browsing profiles.\n\nIt needs Android 13 or newer, and it draws pages with Android's built-in WebView, so sites behave much as they do in Chrome. Installs come from the project's GitHub releases, and Android will ask you to approve each one.",
+  "repo": "https://github.com/sk2andy/candy-browser",
+  "category": "internet",
+  "license": "MPL-2.0",
+  "tags": ["browser", "web", "privacy", "adblock", "gestures", "tabs"],
+  "added": "2026-08-24"
+}

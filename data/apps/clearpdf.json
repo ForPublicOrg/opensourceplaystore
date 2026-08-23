@@ -1,0 +1,11 @@
+{
+  "id": "clearpdf",
+  "name": "ClearPDF",
+  "tagline": "Read PDFs and merge, split, shrink or lock them on your phone",
+  "description": "ClearPDF opens your PDFs with smooth pinch-to-zoom reading, then gives you the tools to change them. Join several files into one, split a file up or pull single pages out, reorder, rotate or delete pages, squeeze a heavy file down to a smaller size, or put a password on one before you send it.\n\nYou can mark documents up with a pen, highlighter, shapes and arrows, select and copy text out of them (including text inside scans, read on the device), turn photos into a PDF, and scan paper documents with automatic edge detection. Page operations are lossless, so text and graphics come through the edit unchanged rather than being flattened into pictures.\n\nAll the PDF work happens on your phone. There are no accounts, no ads, no analytics and nothing gets uploaded. The scanner and the text selection use Google's on-device ML Kit components, which the project lists in its NOTICE file.",
+  "repo": "https://github.com/Chethan616/ClearPDF",
+  "category": "reading",
+  "license": "MIT",
+  "tags": ["pdf", "reader", "merge", "split", "compress", "scanner", "annotate"],
+  "added": "2026-08-24"
+}

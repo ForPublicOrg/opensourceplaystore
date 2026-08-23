@@ -1,0 +1,20 @@
+{
+  "id": "wger",
+  "name": "wger",
+  "tagline": "Plan your workouts and log every set",
+  "description": "wger keeps track of your training. Build a routine from its exercise list, log the sets, reps and weight you actually managed, and record body weight, measurements and what you ate alongside it, so progress becomes something you can look at rather than guess at.\n\nThe app is the phone front end for wger: it talks over the internet to a wger server, and that server is where your data lives. It can be the project's own hosted one or a copy you run yourself, which is the point for a lot of people — the training log stays somewhere you control.\n\nSo there is a little setup before the first workout. You need an account on a wger server and the app pointed at its address; without one there is nothing for the app to read or write.",
+  "repo": "https://github.com/wger-project/flutter",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://wger.de",
+  "fdroid": "de.wger.flutter",
+  "tags": [
+    "fitness",
+    "workout",
+    "gym",
+    "exercise",
+    "nutrition",
+    "weight"
+  ],
+  "added": "2026-08-24"
+}

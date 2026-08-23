@@ -1,0 +1,18 @@
+{
+  "id": "island",
+  "name": "Island",
+  "tagline": "Clone an app, or shut it away from your data",
+  "description": "Island builds a separate space on your phone out of Android's work profile and lets you put apps inside it. An app in there cannot reach the contacts, photos and accounts in your main space, so the app that insists on seeing everything ends up seeing nothing.\n\nYou can also clone an app into that space to sign in with a second account, and freeze apps you rarely use so they stop running in the background completely until a home screen shortcut wakes them up.\n\nSetting it up asks for device administrator permission, because that is what creates the work profile, and some phones cannot do it at all. Development has gone quiet, with the last release in April 2025, and the copy in F-Droid's main repository is a community fork named Insular rather than Island itself.",
+  "repo": "https://github.com/oasisfeng/island",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": [
+    "clone",
+    "privacy",
+    "sandbox",
+    "isolation",
+    "freeze",
+    "accounts"
+  ],
+  "added": "2026-08-24"
+}

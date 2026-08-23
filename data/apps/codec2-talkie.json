@@ -1,0 +1,18 @@
+{
+  "id": "codec2-talkie",
+  "name": "Codec2 Talkie",
+  "tagline": "Digital voice and APRS for ham radio, from your phone",
+  "description": "Codec2 Talkie turns your phone into the front end of a digital voice radio. You can hold voice conversations using the open Codec2 and OPUS codecs, and send or receive APRS position reports and short messages, with a map showing where other stations are and a log of the raw traffic.\n\nThe phone talks to a KISS modem over Bluetooth, BLE, USB or TCP/IP — LoRa, AFSK, FSK, or software like Direwolf — or straight to an analog transceiver through a USB audio adapter, keying it with VOX or USB CAT. It can also sit on the air as an APRS digipeater or an internet gateway.\n\nThis is a radio amateur's tool, not a chat app. You need the radio hardware or modem yourself, and a licence to transmit on the ham bands.",
+  "repo": "https://github.com/sh123/codec2_talkie",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": [
+    "ham radio",
+    "aprs",
+    "codec2",
+    "radio",
+    "lora",
+    "walkie talkie"
+  ],
+  "added": "2026-08-24"
+}

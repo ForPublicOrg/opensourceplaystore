@@ -1,0 +1,22 @@
+{
+  "id": "c-geo",
+  "name": "c:geo",
+  "tagline": "Find and log geocaches straight from your phone",
+  "description": "c:geo is a full geocaching app: search for caches near you, see them on a map, read the hints and everyone else's logs, walk to the spot and post your find — no browser, no exporting files, just install it and go.\n\nIt is an unofficial client for geocaching.com and also has basic support for other geocaching sites such as the Opencaching networks. Maps can be kept offline, so you can still hunt in a forest with no signal.\n\nYou need a geocaching.com account to use it, and some listing details on that site are only available to paying members.",
+  "repo": "https://github.com/cgeo/cgeo",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "website": "https://www.cgeo.org",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "geocaching",
+    "caches",
+    "treasure hunt",
+    "maps",
+    "outdoors",
+    "gps"
+  ],
+  "added": "2026-08-24"
+}

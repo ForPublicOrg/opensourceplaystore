@@ -1,0 +1,11 @@
+{
+  "id": "my-brain",
+  "name": "My Brain",
+  "tagline": "Notes, tasks, calendar and diary all in one place",
+  "description": "My Brain gathers the everyday bits into one app: tasks with sub-tasks, priorities, due dates and reminders; notes that understand markdown, so headings, lists and links work; your calendar in a list or month view; a daily mood diary with graphs of how the month went; and bookmarks you save by sharing a link from any other app. A dashboard puts the day at a glance, and home screen widgets do the same without opening it.\n\nEverything lives on your phone. There is no account to make and the app collects nothing about you. You can lock it behind your fingerprint.\n\nThe built-in AI assistant is optional and needs an API key of your own from a provider such as OpenAI or Google; without one the rest of the app works exactly the same and nothing leaves the device. My Brain is no longer published on F-Droid, so get releases from GitHub or through Obtainium. If you already use the F-Droid version, export your data before you switch over and import it afterwards.",
+  "repo": "https://github.com/mhss1/MyBrain",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["notes", "tasks", "calendar", "diary", "bookmarks", "todo", "journal"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "airguard",
+  "name": "AirGuard",
+  "tagline": "Find out if a hidden tracker is following you",
+  "description": "AirGuard watches for the small Bluetooth trackers that people hide in bags, coats and cars to follow someone. It checks your surroundings in the background and warns you if an AirTag, Samsung SmartTag or Google Find My Device tracker keeps turning up wherever you go.\n\nA warning only arrives once the same tracker has been seen in at least three different places, so your neighbour's keys will not set it off. When one is found you can make supported trackers play a sound to locate it, and look back at a map of where it followed you. If nothing is following you, the app stays quiet.\n\nThe scans and those locations stay on your phone. It needs Bluetooth, location permission and the freedom to run in the background, so check your phone is not putting it to sleep. It is made by the Secure Mobile Networking Lab at TU Darmstadt, and you can choose to share anonymised data with their research study, but nothing is sent unless you opt in.",
+  "repo": "https://github.com/seemoo-lab/AirGuard",
+  "category": "security",
+  "license": "Apache-2.0",
+  "fdroid": "de.seemoo.at_tracking_detection",
+  "tags": ["airtag", "stalking", "tracker", "bluetooth", "privacy", "safety"],
+  "added": "2026-08-24"
+}

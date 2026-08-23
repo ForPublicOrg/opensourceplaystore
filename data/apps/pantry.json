@@ -1,0 +1,19 @@
+{
+  "id": "pantry",
+  "name": "Pantry",
+  "tagline": "Household lists, notes and photos on your Nextcloud",
+  "description": "Pantry keeps a household in order in one place: shared checklists for the shopping and the chores, a wall of colour-coded notes for the reminders everyone needs to see, and folders of shared photos with captions. Everyone in the house sees the same thing on their own phone.\n\nChecklists handle categories, quantities, pictures and items that come round again every week. You can drag anything into the order you want it, select several at a time for bulk changes, and it caches what it has already loaded so it opens quickly.\n\nIt is a client, not a service. You need a Nextcloud server of your own with the Pantry server app installed on it — without that, there is nothing for the app to talk to. Your data stays on your server.",
+  "repo": "https://github.com/chenasraf/pantry-flutter",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "dev.casraf.pantry",
+  "tags": [
+    "nextcloud",
+    "household",
+    "lists",
+    "notes",
+    "shopping",
+    "selfhosted"
+  ],
+  "added": "2026-08-24"
+}

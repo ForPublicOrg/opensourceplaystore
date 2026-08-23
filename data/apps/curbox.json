@@ -1,0 +1,20 @@
+{
+  "id": "curbox",
+  "name": "Curbox",
+  "tagline": "Block the apps and sites that eat your day",
+  "description": "Curbox blocks the apps and websites that keep pulling you back, on a schedule and within a daily time budget you set. It can also block just the worst part of an app instead of the whole thing — hide the YouTube home feed but keep search, or switch off Reels and Shorts while messages still work.\n\nWhen your time is up, you choose how hard it should be to get back in: a flat no, a short timed unlock, retyping a sentence about why you are giving up on your goals, solving a sum, or scanning a QR code you stuck on the far side of the house. Alongside that it counts how many short videos you scrolled, times each session, and can turn a chosen app grey.\n\nSetting it up takes a few permission steps: the blocking runs through Android's accessibility service, and some of the stronger controls need Shizuku. Their website has the walkthrough.",
+  "repo": "https://github.com/curbox-app/curbox-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://curbox.app",
+  "fdroid": "neth.iecal.curbox",
+  "tags": [
+    "app blocker",
+    "screen time",
+    "focus",
+    "reels",
+    "shorts",
+    "productivity"
+  ],
+  "added": "2026-08-24"
+}

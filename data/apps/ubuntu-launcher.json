@@ -1,0 +1,18 @@
+{
+  "id": "ubuntu-launcher",
+  "name": "Ubuntu Launcher",
+  "tagline": "A home screen with the look of Ubuntu Linux",
+  "description": "Ubuntu Launcher replaces your Android home screen with one styled after the Ubuntu GNOME desktop. It is deliberately plain: an empty home screen, a side bar of shortcut apps, a search bar for finding apps, and no ads.\n\nLong-press the home screen to change the wallpaper, long-press a sidebar icon to swap that shortcut, and sort your app list alphabetically or by when apps were installed or updated. You can set it as your default launcher.\n\nIt started as one person's side project and is still fairly basic. It targets Android 12 rather than the newest release and updates come rarely, so on a recent phone some parts may not look or behave quite right. Try it for a while before making it your default.",
+  "repo": "https://github.com/jspw/Ubuntu-Launcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "launcher",
+    "home screen",
+    "ubuntu",
+    "linux",
+    "minimal",
+    "desktop"
+  ],
+  "added": "2026-08-24"
+}

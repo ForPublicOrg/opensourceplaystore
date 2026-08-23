@@ -1,0 +1,12 @@
+{
+  "id": "binary-eye",
+  "name": "Binary Eye",
+  "tagline": "Scan any QR code or barcode, with no ads",
+  "description": "Binary Eye reads QR codes and barcodes with your camera and shows you what is inside — a link, a Wi-Fi password, a ticket, a product number. It works in portrait or landscape, copes with codes printed light on dark, and carries no ads at all.\n\nIt makes codes as well. Type in some text, a link or a phone number and it draws a QR code you can show on screen or save as a picture. Scans go into a history you can search through and export as CSV, JSON or a database file, and you can tell it which codes to keep out of that history.\n\nUnder the hood it uses the ZXing-C++ scanning library, so it handles the shop barcodes you would expect plus Data Matrix, PDF417, Aztec and the smaller QR variants.",
+  "repo": "https://github.com/markusfisch/BinaryEye",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "de.markusfisch.android.binaryeye",
+  "tags": ["qr", "barcode", "scanner", "camera", "generator", "history"],
+  "added": "2026-08-24"
+}

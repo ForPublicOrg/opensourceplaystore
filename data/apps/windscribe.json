@@ -1,0 +1,13 @@
+{
+  "id": "windscribe",
+  "name": "Windscribe",
+  "tagline": "Encrypt your connection through Windscribe's VPN servers",
+  "description": "Windscribe sends your phone's traffic through one of the company's servers somewhere else in the world, so the cafe wifi or your mobile provider sees an encrypted tunnel instead of the sites you visit. This is the official Android app, with the whole source code published, and it works on phones, tablets and Android TV.\n\nIt can connect using six different protocols, including a couple designed to get through networks that block ordinary VPNs, and it can pick a different one per wifi network. Split tunnelling lets you choose which apps go through the VPN and which do not. R.O.B.E.R.T., the built-in DNS filter, blocks ads and trackers with toggles you control, and you can import your own WireGuard or OpenVPN configs.\n\nYou need a Windscribe account. There is a free tier with a monthly data allowance and paid plans that lift it; static IP addresses are a paid extra. The servers belong to Windscribe, so you are trusting the company the same way you would any VPN provider.",
+  "repo": "https://github.com/Windscribe/Android-App",
+  "category": "security",
+  "license": "GPL-2.0",
+  "website": "https://windscribe.com/features/android/",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["vpn", "privacy", "wireguard", "openvpn", "ad blocker", "tunnel"],
+  "added": "2026-08-24"
+}

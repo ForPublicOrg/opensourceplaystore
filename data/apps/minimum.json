@@ -1,0 +1,18 @@
+{
+  "id": "minimum",
+  "name": "Minimum",
+  "tagline": "A plain, fast home screen that stays out of your way",
+  "description": "Minimum replaces your home screen with your apps and a search box, and not much else. No widgets, no news feed, no suggestion rows. You open it, type a couple of letters or scroll a short way, and you are in the app you wanted.\n\nFavourites can be gathered into groups, apps can be shown as a grid or a list, and icon packs let you change how the whole thing looks. Anything you would rather other people did not see can be hidden, and only appears once you unlock the screen.\n\nIt is written in Flutter and deliberately kept small.",
+  "repo": "https://github.com/JunioJsv/minimum-flutter",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "launcher",
+    "minimal",
+    "home-screen",
+    "icon-pack",
+    "privacy",
+    "lightweight"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "wifianalyzer",
+  "name": "WiFiAnalyzer",
+  "tagline": "Find the least crowded Wi-Fi channel in your home",
+  "description": "WiFiAnalyzer shows every Wi-Fi network your phone can hear, how strong each one is, and which channel it is sitting on. When your connection keeps stalling, this is how you find out whether a neighbour's router has parked itself on the same channel as yours, or whether the far bedroom is simply out of range.\n\nGraphs show signal strength per channel and how it moves over time, and the app rates the channels so you can pick a quiet one and change your router over to it. It covers the 2.4, 5 and 6 GHz bands where your phone supports them, estimates how far away each access point is, filters the list by band, signal or name, and can export the details. It never asks for internet access, so nothing you see here goes anywhere.\n\nAndroid makes any app ask for location permission before it can scan for Wi-Fi, so it will request that. Newer Android versions also limit how often a scan may refresh, so readings update more slowly than you might expect. It cannot recover or crack Wi-Fi passwords.",
+  "repo": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/",
+  "fdroid": "com.vrem.wifianalyzer",
+  "tags": ["wifi", "network", "signal", "channel", "router", "analyzer"],
+  "added": "2026-08-24"
+}

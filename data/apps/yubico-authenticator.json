@@ -1,0 +1,21 @@
+{
+  "id": "yubico-authenticator",
+  "name": "Yubico Authenticator",
+  "tagline": "Read your YubiKey's login codes with a tap of the phone",
+  "description": "If you keep your two-factor codes on a YubiKey rather than on your phone, this is the app that reads them. Hold the key against the back of the phone over NFC, or plug it into the USB port, and the current one-time codes stored on the key appear on screen.\n\nIt also looks after the key itself: set or change the PIN, enrol fingerprints, manage the passkeys you use to sign in to websites, handle PIV private keys and certificates, program static passwords and Yubico OTP into the key's slots, and check its serial number and firmware. Because the secrets live on the key and never on the phone, a lost phone does not put your accounts at risk. No internet connection is needed.\n\nYou need an actual YubiKey; the app does nothing without one. Android 13 and newer is fully supported, and versions back to Android 7 are expected to work but are not guaranteed.",
+  "repo": "https://github.com/Yubico/yubioath-flutter",
+  "category": "security",
+  "license": "Apache-2.0",
+  "website": "https://www.yubico.com/products/yubico-authenticator/",
+  "fdroid": "com.yubico.yubioath",
+  "tags": [
+    "yubikey",
+    "2fa",
+    "totp",
+    "nfc",
+    "passkeys",
+    "fido",
+    "security key"
+  ],
+  "added": "2026-08-24"
+}

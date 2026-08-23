@@ -1,0 +1,12 @@
+{
+  "id": "etar-calendar",
+  "name": "Etar Calendar",
+  "tagline": "A clean calendar showing every account on your phone",
+  "description": "Etar is a calendar app that reads whatever calendars are already set up on your phone \u2014 your Google account, a work account, or one you keep only on the device \u2014 and shows them together in month, week, day and agenda views. It grew out of the calendar that ships with Android, tidied up and given a proper dark theme, with no adverts.\n\nYou pick which calendars appear and which one a new event lands in. There is an agenda widget for your home screen, and you can share a calendar as an .ics file or import one from storage. If you want to keep dates on the phone alone, create an offline calendar and nothing leaves the device.\n\nEtar does not sync anything itself. A Google calendar keeps syncing through the account you already added; for a CalDAV server you need a separate app such as DAVx\u2075. The ICS import has known bugs, so use it carefully, especially if your calendar provider sends invitation emails automatically.",
+  "repo": "https://github.com/Etar-Group/Etar-Calendar",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "ws.xsoh.etar",
+  "tags": ["calendar", "events", "agenda", "widget", "caldav", "material"],
+  "added": "2026-08-24"
+}

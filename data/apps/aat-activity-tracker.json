@@ -1,0 +1,20 @@
+{
+  "id": "aat-activity-tracker",
+  "name": "AAT Activity Tracker",
+  "tagline": "Track hikes and rides on maps that work offline",
+  "description": "AAT records your outdoor activities — cycling above all, but hiking and walking too — and shows where you are on live cockpit and map screens as you move. Every track is saved as a plain GPX file, so you can open it in anything else later.\n\nMaps work without a connection, using Mapsforge files or downloaded tiles, with overlays for waymarked cycling and hiking routes. It can show elevation from terrain data instead of trusting the GPS altitude, display offline points of interest, search places through OpenStreetMap, and read Bluetooth or built-in sensors. There is also a simple GPX editor for sketching a route before you set off.\n\nThe offline maps, terrain tiles and point-of-interest databases are separate downloads you fetch yourself.",
+  "repo": "https://github.com/bailuk/AAT",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://bailu.ch/aat",
+  "fdroid": "ch.bailu.aat",
+  "tags": [
+    "gpx",
+    "hiking",
+    "cycling",
+    "tracking",
+    "offline maps",
+    "openstreetmap"
+  ],
+  "added": "2026-08-24"
+}

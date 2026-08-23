@@ -1,0 +1,21 @@
+{
+  "id": "fcitx5-for-android",
+  "name": "Fcitx5 for Android",
+  "tagline": "Type Chinese, Japanese, Korean and more on your phone",
+  "description": "Fcitx5 for Android is a keyboard for languages that a plain alphabet keyboard cannot handle. Chinese comes built in — Pinyin, Shuangpin, Wubi, Cangjie and your own custom tables — along with English and its spell check. Japanese, Korean, Vietnamese, Thai, Sinhala, Jyutping, Zhuyin and RIME schemas are each added by installing a small plugin.\n\nIt is the Linux Fcitx5 input engine ported to Android, so typing works the way it does on a desktop. You get an expandable candidate list, an emoji and symbol picker, a clipboard history for plain text, long-press popups for extra symbols, custom colour themes with a background image, and Android 12 dynamic colour. Plug in a physical keyboard and the candidate panel floats above your text.\n\nThe on-screen key layout cannot be rearranged yet. Also note that the Google Play build is signed with a different key from the F-Droid and GitHub builds, so you cannot update from one to the other without uninstalling first.",
+  "repo": "https://github.com/fcitx5-android/fcitx5-android",
+  "category": "tools",
+  "license": "LGPL-2.1",
+  "website": "https://fcitx5-android.github.io/",
+  "fdroid": "org.fcitx.fcitx5.android",
+  "tags": [
+    "keyboard",
+    "input method",
+    "chinese",
+    "pinyin",
+    "japanese",
+    "korean",
+    "ime"
+  ],
+  "added": "2026-08-24"
+}

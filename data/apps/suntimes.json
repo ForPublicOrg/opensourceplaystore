@@ -1,0 +1,12 @@
+{
+  "id": "suntimes",
+  "name": "Suntimes",
+  "tagline": "Sunrise, sunset and moon times at a glance",
+  "description": "Suntimes tells you when the sun and moon rise and set wherever you are. As well as sunrise and sunset it covers civil, nautical and astronomical twilight, the blue hour and golden hour photographers care about, the solstices and equinoxes, and the moon's phase and how brightly it is lit.\n\nIt comes with a large collection of home screen widgets, so the times you check most can sit on your home screen instead of inside an app. You can set any location rather than being tied to where you are standing.\n\nSeparate companion apps from the same developer add alarms, calendar entries and hunting and fishing times if you want them.",
+  "repo": "https://github.com/forrestguice/SuntimesWidget",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.forrestguice.suntimeswidget",
+  "tags": ["sunrise", "sunset", "moon", "twilight", "widget", "golden hour"],
+  "added": "2026-08-24"
+}

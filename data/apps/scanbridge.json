@@ -1,0 +1,20 @@
+{
+  "id": "scanbridge",
+  "name": "ScanBridge",
+  "tagline": "Scan paper documents straight to your phone over Wi-Fi",
+  "description": "ScanBridge finds the scanners on your home or office network and scans straight to your phone. No drivers, no computer in the middle, no manufacturer app to sign into.\n\nIt talks to any scanner that supports eSCL, also known as AirScan, which covers most modern network scanners. Scan several pages and arrange them how you like, then set the input source, resolution, duplex and page size to get the most out of the machine. Save the result as a PDF or as images and share it with any other app. The design is Material You.\n\nThe only permission it asks for is internet access, which it needs to find and talk to the scanner on your network.",
+  "repo": "https://github.com/Chrisimx/ScanBridge",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "scanner",
+    "scanning",
+    "documents",
+    "pdf",
+    "escl",
+    "airscan",
+    "wifi"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "io.github.chrisimx.scanbridge"
+}

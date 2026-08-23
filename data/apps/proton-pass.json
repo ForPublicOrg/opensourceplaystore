@@ -1,0 +1,23 @@
+{
+  "id": "proton-pass",
+  "name": "Proton Pass",
+  "tagline": "Store your passwords where only you can read them",
+  "description": "Proton Pass keeps your logins and private notes in a vault that is encrypted on your device before it goes anywhere, so Proton cannot read what is inside. It fills your username and password into apps and websites, generates strong random passwords for new sign-ups, stores passkeys, and unlocks with your fingerprint or face.\n\nUnlike most password managers it encrypts more than the password itself, covering the username and the site address as well. It also makes hide-my-email aliases: a throwaway address that forwards to your real inbox, so a shop or newsletter never learns your actual email and you can cut the alias off if spam starts arriving. Everything syncs to the browser extension and the other Proton Pass apps.\n\nYou need a Proton account. The free plan covers unlimited logins on unlimited devices and ten aliases, with no ads; the built-in 2FA code store, unlimited aliases, item sharing and data-leak alerts are all on the paid plans. The app is open source, but the servers that store and sync your vault are Proton's.",
+  "repo": "https://github.com/protonpass/android-pass",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://proton.me/pass",
+  "fdroid": "proton.android.pass.fdroid",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "password manager",
+    "passwords",
+    "autofill",
+    "proton",
+    "encryption",
+    "aliases"
+  ],
+  "added": "2026-08-24"
+}

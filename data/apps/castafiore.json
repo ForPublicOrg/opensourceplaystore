@@ -1,0 +1,20 @@
+{
+  "id": "castafiore",
+  "name": "Castafiore",
+  "tagline": "Play your own music from a Navidrome or Subsonic server",
+  "description": "Castafiore plays the music collection you host yourself. Point it at a Navidrome server, or anything else that speaks the Subsonic API, and your albums, playlists, radio stations and lyrics are all on your phone.\n\nYou can rearrange the home screen to suit how you listen, keep songs on the device for offline play, mark favourites, and add your ListenBrainz username to see your listening stats and fresh album releases. It speaks several languages and has themes. The same app also runs in a browser as a web app, so your desktop gets the same player.\n\nIt is only a client. You need a Subsonic-compatible music server already running somewhere before it can play anything.",
+  "repo": "https://github.com/sawyerf/Castafiore",
+  "category": "media",
+  "license": "Unlicense",
+  "website": "https://sawyerf.github.io/Castafiore/",
+  "tags": [
+    "music",
+    "subsonic",
+    "navidrome",
+    "self-hosted",
+    "streaming",
+    "player",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "jellybook",
+  "name": "JellyBook",
+  "tagline": "Read the books and comics on your Jellyfin server",
+  "description": "JellyBook opens the ebooks, comics and audiobooks you keep on your own Jellyfin server and lets you read or listen to them on your phone. Your library and its covers come straight from the server, so everything you have collected is there without copying files around by hand.\n\nIt reads EPUB and PDF books, CBZ and CBR comics, and plays audiobooks in formats like MP3, M4A, M4B, FLAC and WAV.\n\nYou need your own Jellyfin server with the Bookshelf plugin for this to be any use. It is a one person passion project and some parts are still rough: EPUB image handling is weak, PDFs only scroll sideways, and several comic formats are not supported yet.",
+  "repo": "https://github.com/JellyBookOrg/JellyBook",
+  "category": "reading",
+  "license": "MIT",
+  "tags": [
+    "jellyfin",
+    "ebook",
+    "comics",
+    "reader",
+    "audiobook",
+    "epub",
+    "cbz"
+  ],
+  "added": "2026-08-24"
+}

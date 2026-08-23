@@ -1,0 +1,12 @@
+{
+  "id": "secure-dialer",
+  "name": "Secure Dialer",
+  "tagline": "Make calls and keep contacts without anything leaving your phone",
+  "description": "Secure Dialer replaces the phone and contacts apps that came with your device. It has a T9 dialpad that finds people as you spell their name, a full call history, speed dial on the number keys, and support for two SIMs.\n\nThe app does not ask for internet permission at all, so it cannot send your call log or address book anywhere. Spam screening runs on the phone against your own block list, and what it saves (call notes, speed dials, blocked numbers) is encrypted on the device, with password protected backups if you want to move them. There are useful extras too: a fake incoming call to get you out of an awkward meeting, callback reminders for missed calls, and gestures like turning the phone face down to silence a ring.\n\nAndroid will ask you to make it your default phone app before it can place and answer calls. Because it has no internet access, caller ID for unknown numbers is limited to what you have blocked yourself.",
+  "repo": "https://github.com/Secure-Phone-apps/Secure-Dialer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://secure-phone-apps.github.io/Secure-Dialer/",
+  "tags": ["dialer", "phone", "contacts", "calls", "t9", "spam", "offline"],
+  "added": "2026-08-24"
+}

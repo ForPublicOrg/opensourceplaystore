@@ -1,0 +1,19 @@
+{
+  "id": "mindfulness-meditation",
+  "name": "Mindfulness Meditation",
+  "tagline": "Guided meditations to help you slow down",
+  "description": "Mindfulness Meditation is a small collection of guided audio sessions for when you want to stop and breathe. It includes a body scan, breath and body, sounds and thoughts, a 3-step breathing space, mindful walking, an open sitting meditation, and a 30 minute silent sit with bells.\n\nThe recordings come from Dr Rebecca Crane of the Centre for Mindfulness Research and Practice at Bangor University, shared with permission. You download the ones you want onto the phone and play them from there, so a session does not need a connection once it is saved.\n\nThe app does one thing: it downloads these guides and plays them. The recordings are in English.",
+  "repo": "https://github.com/vbresan/MindfulnessMeditation",
+  "category": "education",
+  "license": "MIT",
+  "tags": [
+    "meditation",
+    "mindfulness",
+    "audio",
+    "calm",
+    "relax",
+    "wellbeing"
+  ],
+  "fdroid": "biz.binarysolutions.mindfulnessmeditation",
+  "added": "2026-08-24"
+}

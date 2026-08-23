@@ -1,0 +1,22 @@
+{
+  "id": "vocable-aac",
+  "name": "Vocable AAC",
+  "tagline": "Speak in phrases when you can't use your voice",
+  "description": "Vocable AAC lends a voice to people who cannot speak — after a stroke, or living with ALS, MS or a spinal cord injury. You choose a phrase from the board and the phone says it out loud, so you can tell someone you are in pain, or thirsty, or just want to chat.\n\nIt can be used completely hands-free. The camera follows your head movements to work out where you are looking, and resting your gaze on something selects it. If you have more movement you can simply tap instead. There is a full keyboard for anything the saved phrases do not cover, a starter set of phrases written by speech language pathologists, and room to add your own.\n\nHead tracking relies on Google's ARCore, so check that your phone is on the supported list before you count on it. The app sends crash and usage reports to Google's Firebase. Vocable is free and open source, doing a job that normally means buying dedicated hardware.",
+  "repo": "https://github.com/willowtreeapps/vocable-android",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://vocable.app",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "aac",
+    "speech",
+    "accessibility",
+    "communication",
+    "nonverbal",
+    "disability"
+  ],
+  "added": "2026-08-24"
+}

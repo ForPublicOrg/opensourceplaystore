@@ -1,0 +1,21 @@
+{
+  "id": "androbd",
+  "name": "AndrOBD",
+  "tagline": "Read your car's fault codes and live engine data",
+  "description": "AndrOBD turns your phone into a car diagnostic tool. Plug an ELM327 adapter into the OBD port under your dashboard and you can read the fault codes behind a check-engine light, clear them once the problem is fixed, and watch live readings from the engine as you drive.\n\nLive data can appear as plain numbers, charts, a dashboard of gauges, or a head-up display you prop against the windscreen. You can record a drive, save it, load it back later to study it, and export it as a CSV. There is also a demo mode with simulated data, so you can see how all of it works before buying an adapter.\n\nYou do need that adapter — any ELM327-compatible one, connecting over Bluetooth, USB or Wi-Fi — and a car with an OBD-II port, which means most cars sold since the early 2000s.",
+  "repo": "https://github.com/fr3ts0n/AndrOBD",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://fr3ts0n.github.io/AndrOBD/",
+  "fdroid": "com.fr3ts0n.ecu.gui.androbd",
+  "tags": [
+    "car",
+    "obd",
+    "obd2",
+    "elm327",
+    "diagnostics",
+    "vehicle",
+    "fault codes"
+  ],
+  "added": "2026-08-24"
+}

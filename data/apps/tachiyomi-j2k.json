@@ -1,0 +1,18 @@
+{
+  "id": "tachiyomi-j2k",
+  "name": "Tachiyomi J2K",
+  "tagline": "A manga reader shaped for one-handed reading",
+  "description": "TachiyomiJ2K reads manga from online sources and from chapters you have already downloaded. It has a configurable reader with several viewers and reading directions, categories to sort your library, scheduled checks for new chapters, local backups, and tracking through MyAnimeList, AniList, Kitsu, Shikimori and Manga Updates.\n\nThis fork of the original Tachiyomi rebuilds the layout around your thumb. The toolbar is expanded so the controls sit lower, the search bar floats, and the library is one vertical list of categories you can collapse or expand with a tap. Series pages take their colours from the cover art, you can drag and drop to sort, group the library automatically by tag or tracking status, and join two pages into one for tablet reading.\n\nNo sources are included — you add extensions yourself once it is installed. Runs on Android 6.0 and above.",
+  "repo": "https://github.com/Jays2Kings/tachiyomiJ2K",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": [
+    "manga",
+    "comics",
+    "reader",
+    "library",
+    "tachiyomi",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

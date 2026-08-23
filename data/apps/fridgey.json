@@ -1,0 +1,12 @@
+{
+  "id": "fridgey",
+  "name": "Fridgey",
+  "tagline": "Know what's in the fridge before it goes off",
+  "description": "Fridgey is a simple list of the food you have at home. Add an item with its expiry date, and a photo, category, quantity or note if you want, and the app sorts everything so whatever needs eating first sits at the top of the screen.\n\nIt sends a notification when something is getting close to its date, and a consume button counts an item down as you use it up. There is a random picker for when you cannot decide what to cook, a compact layout that drops the photos so more food fits on one screen, and CSV export and import if you want your list somewhere else.\n\nOne honest warning: the reminders depend on Android letting the app wake up in the background, and some phone makers are strict about that, so notifications are not always perfectly on time.",
+  "repo": "https://github.com/NielsLee/FoodRecords",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "fdroid": "lying.fengfeng.foodrecords",
+  "tags": ["fridge", "food", "expiry", "groceries", "kitchen", "waste"],
+  "added": "2026-08-24"
+}

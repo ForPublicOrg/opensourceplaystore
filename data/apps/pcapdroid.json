@@ -1,0 +1,13 @@
+{
+  "id": "pcapdroid",
+  "name": "PCAPdroid",
+  "tagline": "See what your apps are sending to the internet",
+  "description": "PCAPdroid shows you every connection the apps on your phone make: which app started it, which website or address it reached, and which country that server sits in. Use it to catch an app quietly phoning home in the background, or to check that something you just installed behaves the way it claims.\n\nIt needs no root. The app registers itself as a VPN so Android hands it the traffic, but nothing is sent to a remote server: everything is examined on the phone itself. You can read HTTP requests and replies, decrypt your own HTTPS traffic, write it all to a PCAP file, and open that file later in Wireshark on a computer.\n\nMonitoring and PCAP dumping are free. Blocking apps and domains with the built-in firewall, malware detection from blacklists, and the newer PCAPng format are paid extras. While PCAPdroid is capturing you cannot run another VPN app at the same time, unless your phone is rooted.",
+  "repo": "https://github.com/emanuele-f/PCAPdroid",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://emanuele-f.github.io/PCAPdroid",
+  "fdroid": "com.emanuelef.remote_capture",
+  "tags": ["network", "traffic", "monitor", "pcap", "firewall", "privacy", "wireshark"],
+  "added": "2026-08-24"
+}

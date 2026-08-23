@@ -1,0 +1,12 @@
+{
+  "id": "calculator-you",
+  "name": "Calculator You",
+  "tagline": "A good-looking calculator for everyday sums",
+  "description": "Calculator You handles the everyday arithmetic, the shopping bill, the tip, the discount, on a plain keypad with nothing extra on it. Switch to scientific mode when you need trigonometry, logarithms, roots and powers.\n\nIt keeps a history of your recent calculations so you can check what you worked out earlier, and there is a unit converter built in for length, weight and other measures. More than 60 colour themes are included if you want it to sit nicely with the rest of your phone.\n\nIt needs Android 8.1 or newer. Translations are contributed by volunteers, so some languages are further along than others.",
+  "repo": "https://github.com/forzzzzz/Calculator-You",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.marktka.calculatorYou",
+  "tags": ["calculator", "maths", "scientific", "converter", "units", "themes"],
+  "added": "2026-08-24"
+}

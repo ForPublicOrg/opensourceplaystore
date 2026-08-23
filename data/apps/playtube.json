@@ -1,0 +1,13 @@
+{
+  "id": "playtube",
+  "name": "PlayTube",
+  "tagline": "Watch and download YouTube videos without ads",
+  "description": "PlayTube plays YouTube videos with no ads and no Google account. You can search, watch, read the comments, follow channels, and save videos to your phone in the quality you pick so you can watch them again with no signal.\n\nIt pulls videos in using the NewPipe extractor instead of YouTube's own app, so you are never signed in and your watching is not tied to a Google profile. Videos keep playing when you leave the app or shrink into a small floating window, and there are subtitles, swipe controls for volume and brightness, and an incognito mode that remembers nothing.\n\nBecause it works around YouTube rather than with it, playback can break for a few days when YouTube changes something, until an update catches up. Your subscriptions and history live on the phone only, so use the built-in backup to save them to a file, and you can bring an existing subscription list or watch history in from a Google Takeout export.",
+  "repo": "https://github.com/arslandaim-hub/PlayTube",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "com.arslandaim.playtube",
+  "tags": ["youtube", "video", "downloader", "player", "streaming", "subtitles"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "baby-dots",
+  "name": "Baby Dots",
+  "tagline": "Gentle moving dots to calm a young baby",
+  "description": "Baby Dots fills the screen with big, slowly drifting dots for a baby to watch. It is a sensory app made to calm and hold the attention of very young babies, who pick out large high-contrast shapes long before they see any detail.\n\nChange the colour scheme from a single splash of colour to a full rainbow or plain monochrome, and set the size, speed and shape of the dots. Three calm classical pieces can play alongside them, or you can mute the sound. A sleep timer stops the music, dims the screen and turns it off when it runs out, and a child lock lets small fingers touch the dots to change them without dropping out of the app.\n\nNo ads, no tracking, no in-app purchases. The paid copy on the Play Store is the same app and exists only so people can chip in.",
+  "repo": "https://github.com/babydots/babydots",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.serwylo.babydots",
+  "tags": [
+    "baby",
+    "sensory",
+    "dots",
+    "calm",
+    "infant",
+    "colours"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cromite",
+  "name": "Cromite",
+  "tagline": "A Chromium browser with ad blocking built in",
+  "description": "Cromite is Chromium, the engine behind Chrome, with ad blocking switched on from the first launch and much of the tracking machinery taken out. Sites look and work the way you expect, minus the ads.\n\nIt carries on Bromite, an older privacy-minded Chromium fork. The aim is to cut the browser's built-in ties to the company that makes it: features that can be used to follow your habits are removed, or disabled and left for you to turn back on if you want them. Signed builds are published for arm64, arm and x86_64 phones.\n\nThe developers are honest that the anti-fingerprinting work is not complete, and say that journalists and people living under restricted freedoms should use Tor Browser instead. It needs Android 10 or newer.",
+  "repo": "https://github.com/uazo/cromite",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://www.cromite.org/",
+  "tags": ["browser", "chromium", "adblock", "privacy", "web", "bromite"],
+  "added": "2026-08-24"
+}

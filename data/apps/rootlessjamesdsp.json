@@ -1,0 +1,19 @@
+{
+  "id": "rootlessjamesdsp",
+  "name": "RootlessJamesDSP",
+  "tagline": "Equalizer and audio effects for other apps, no root",
+  "description": "RootlessJamesDSP reshapes the sound coming out of your phone. It gives you a proper equalizer, bass boost, reverb, compressor and convolution, and applies them to music and video playing in other apps rather than in one player only. No root needed.\n\nMost rootless audio apps can only use the handful of effects Android has built in. This one captures the audio stream itself through Android's internal audio capture, runs it through the JamesDSP engine, and plays it back, which is what makes the more advanced effects possible.\n\nThat trick has real limits worth knowing first. Apps that block audio capture, such as Spotify, Chrome and SoundCloud, stay unprocessed unless you patch them yourself. It can clash with other effect apps like Wavelet, and it adds a little audio latency.",
+  "repo": "https://github.com/timschneeb/RootlessJamesDSP",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "me.timschneeberger.rootlessjamesdsp",
+  "tags": [
+    "equalizer",
+    "audio",
+    "dsp",
+    "bass boost",
+    "effects",
+    "sound"
+  ],
+  "added": "2026-08-24"
+}

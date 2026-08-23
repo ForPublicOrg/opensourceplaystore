@@ -1,0 +1,22 @@
+{
+  "id": "intervals-sync",
+  "name": "Intervals Sync",
+  "tagline": "Copy rides from your iGPSPORT or Bryton account to intervals.icu",
+  "description": "If you ride with an iGPSPORT or Bryton head unit but study your training on intervals.icu, this closes the gap between them. Enter your logins once, press Sync, and your recent rides are fetched as their original .fit files and uploaded to intervals.icu. It skips anything already uploaded, so running it again is safe, and you choose how many recent activities to look at.\n\nIt works in the other direction too. Planned workouts from your intervals.icu calendar can be pushed back to iGPSPORT custom workouts or Bryton Active, and your FTP, heart rate thresholds, weight and training zones can be copied into your iGPSPORT profile. It can set the proper sport type after upload, since iGPSPORT exports everything as a plain Ride, mirror files to a Dropbox folder, and delete the local .fit files once they are safely across. Your password and API key go into the Android keystore rather than a file. The same app also runs on Windows and macOS.\n\nYou need an account with iGPSPORT or Bryton, an intervals.icu account, and an intervals.icu API key copied from its developer settings. All three are services run by other people, so the app can only do as well as their sites are doing that day. Chinese iGPSPORT accounts use a different server and have their own region setting.",
+  "repo": "https://github.com/jorge-huxley/intervalssync",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "cycling",
+    "bike",
+    "rides",
+    "sync",
+    "training",
+    "igpsport",
+    "bryton"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

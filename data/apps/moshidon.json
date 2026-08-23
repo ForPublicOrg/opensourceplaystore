@@ -1,0 +1,20 @@
+{
+  "id": "moshidon",
+  "name": "Moshidon",
+  "tagline": "Mastodon with the timelines the official app leaves out",
+  "description": "Moshidon is an app for Mastodon, the social network made of thousands of independent servers that all talk to each other. Posts arrive in plain chronological order, with no algorithm deciding what you see, and Moshidon adds the parts the official Mastodon app leaves out: your server's local timeline, the full federated timeline, drafts, scheduled posts, bookmarks and unlisted posting.\n\nYou can pin hashtags, lists or other servers to the home menu and sort them however you like. Sign in to several accounts and hold the boost or favourite button to act from a different one. Pictures with alt text get a small ALT tag you can tap, and the app can remind you to write alt text before you post.\n\nYou will need an account on a Mastodon server to use it — Moshidon is the app, not the service.",
+  "repo": "https://github.com/LucasGGamerM/moshidon",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://lucasggamerm.github.io/moshidon/",
+  "fdroid": "org.joinmastodon.android.moshinda",
+  "tags": [
+    "mastodon",
+    "fediverse",
+    "social",
+    "microblog",
+    "timeline",
+    "toots"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "warpinator",
+  "name": "Warpinator",
+  "tagline": "Move files between your phone and a Linux PC",
+  "description": "Warpinator sends files back and forth between your Android phone and computers running Linux Mint's Warpinator, over your own Wi-Fi. The devices spot each other on the network by themselves, so there is nothing to pair and no account to sign up for.\n\nIt sends whole folders as well as single files, runs several transfers at the same time, and accepts files shared to it from other apps. A group code stops anyone else on the same network from connecting, and it can start when the phone does so it is always ready. It asks for no location permission and needs no internet connection — a hotspot with no data works fine.\n\nThis is an unofficial port rather than the Linux Mint team's own work, although it speaks the same protocol. The computer at the other end needs Warpinator installed: it comes with Linux Mint and can be added to other Linux systems.",
+  "repo": "https://github.com/slowscript/warpinator-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "slowscript.warpinator",
+  "tags": ["files", "transfer", "sharing", "linux", "wifi", "local"],
+  "added": "2026-08-24"
+}

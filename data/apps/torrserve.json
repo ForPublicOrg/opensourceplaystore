@@ -1,0 +1,13 @@
+{
+  "id": "torrserve",
+  "name": "TorrServe",
+  "tagline": "Stream video from torrents without downloading first",
+  "description": "TorrServe turns a torrent into an ordinary HTTP stream, so a film can start playing right away instead of after a full download. The cache is held in RAM rather than written to storage, which spares your phone's internal memory.\n\nThe project comes in two halves: a server that does the torrent work, and this Android app that drives it. On first run you fetch the server from inside the app — Updates, then Update server from network — or point the app at a remote server you already run.\n\nThe app holds no content of its own; you bring the torrents. And be careful if your internet provider blocks or watches torrent traffic.",
+  "repo": "https://github.com/YouROK/TorrServe",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://yourok.ru",
+  "fdroid": "ru.yourok.torrserve",
+  "tags": ["torrent", "streaming", "video", "player", "magnet", "torrserver"],
+  "added": "2026-08-24"
+}

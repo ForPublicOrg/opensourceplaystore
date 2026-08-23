@@ -1,0 +1,19 @@
+{
+  "id": "droidvnc-ng",
+  "name": "droidVNC-NG",
+  "tagline": "See and control your phone from your computer",
+  "description": "droidVNC-NG turns your Android phone or tablet into a screen you can open on your computer. Point any VNC viewer on the same network at it and you see the phone's display live, then tap, type and scroll using your mouse and keyboard.\n\nIt uses the screen sharing built into Android 7 and newer, so no root is needed. You can set a password, choose a port, start the server automatically when the phone boots, and even connect straight from a web browser thanks to the built-in noVNC client. Remote control only works once you switch on the app's accessibility service, and you can copy text between the two machines.\n\nIt is made for a home or office network. Apart from the password exchange the connection is not encrypted, so treat it as something for a network you trust. To reach the phone from outside you either have to open a port on your router yourself, or use the reverse-connection option so the phone dials out to a viewer that is waiting for it.",
+  "repo": "https://github.com/bk138/droidVNC-NG",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": [
+    "vnc",
+    "remote",
+    "screen",
+    "desktop",
+    "control",
+    "server"
+  ],
+  "fdroid": "net.christianbeier.droidvnc_ng",
+  "added": "2026-08-24"
+}

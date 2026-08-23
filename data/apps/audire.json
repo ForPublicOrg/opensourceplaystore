@@ -1,0 +1,21 @@
+{
+  "id": "audire",
+  "name": "Audire",
+  "tagline": "Find out the name of the song playing around you",
+  "description": "Audire listens through your microphone and tells you what is playing. Hold your phone towards the music for a few seconds and you get the title, the artist, the album and the cover art. There is a quick settings tile so you can start it without digging through your apps.\n\nEverything it recognises is kept in a history list on the device, so you can go back later and find that song you heard in a cafe last week. It uses Material You and takes its colours from your wallpaper.\n\nThe actual matching is done by Shazam's service. That means it needs an internet connection, and a short clip of the sound around you is sent off to a company you do not control.",
+  "repo": "https://github.com/alexmercerind/audire",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "music",
+    "song",
+    "recognition",
+    "identify",
+    "shazam",
+    "material-you"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

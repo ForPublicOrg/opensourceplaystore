@@ -1,0 +1,13 @@
+{
+  "id": "round-sync",
+  "name": "Round Sync",
+  "tagline": "Sync your phone with almost any cloud storage",
+  "description": "Round Sync puts the cloud storage you already use into a file manager on your phone. Browse Google Drive, Dropbox, OneDrive, Nextcloud, S3 and dozens of other services, upload and download, move, rename and delete, and set up tasks that sync a folder on a schedule.\n\nIt runs rclone underneath, the well known sync tool, so anything rclone can connect to works here too. You can turn on rclone's own encryption so the provider only ever sees scrambled files, stream a video straight from the cloud, or serve a folder over FTP, HTTP, WebDAV or DLNA to other devices at home. It reaches SD cards and USB drives as well as the cloud.\n\nYou set each account up once, either by adding the remote inside the app or importing an rclone.conf you already made on a computer. No root needed, and it runs on Android 7 or newer.",
+  "repo": "https://github.com/newhinton/Round-Sync",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://roundsync.com",
+  "fdroid": "de.felixnuesse.extract",
+  "tags": ["cloud", "sync", "rclone", "files", "backup", "dropbox", "webdav"],
+  "added": "2026-08-24"
+}

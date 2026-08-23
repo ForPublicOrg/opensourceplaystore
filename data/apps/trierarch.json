@@ -1,0 +1,18 @@
+{
+  "id": "trierarch",
+  "name": "Trierarch",
+  "tagline": "Run an Arch Linux desktop on your phone",
+  "description": "Trierarch runs a real Arch Linux system on your Android phone and can put a full KDE Plasma desktop on the screen: file manager, terminal, editors and the rest. It brings its own display layer, so you do not need Termux, Termux:X11 or root to run it.\n\nThe first launch downloads and unpacks an Arch system image of about 156 MB, so you need a connection. From there you open the built-in terminal shortcut and install the desktop yourself with pacman, then start it from a floating orb that also holds the display, keyboard and appearance controls. Sound from Linux apps is passed through to the phone's speakers.\n\nThis one asks something of you. You should be comfortable at a Linux command line, and it runs on 64-bit ARM phones. The developers currently warn that recent KDE updates make the window manager crash and they are working on a fix, possibly by moving to Debian. Expect rough edges for now.",
+  "repo": "https://github.com/Beauty114514/trierarch-app",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "linux",
+    "arch",
+    "desktop",
+    "kde",
+    "terminal",
+    "proot"
+  ],
+  "added": "2026-08-24"
+}

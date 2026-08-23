@@ -1,0 +1,18 @@
+{
+  "id": "yagni-launcher",
+  "name": "Yagni Launcher",
+  "tagline": "A 2 MB home screen with no bloat and no tracking",
+  "description": "Yagni Launcher replaces the home screen your phone came with. It does the things a stock launcher does, but the whole app is about 2 MB instead of the usual tens of megabytes, so it opens quickly and leaves your battery alone.\n\nThe name comes from a programming rule, \"You Aren't Gonna Need It\". If a feature isn't genuinely needed it doesn't go in, which is why the app stays small while others grow with every update. It was written from scratch rather than forked from an existing launcher, and there are no paywalls and no trackers.\n\nThis is still an alpha build, so expect bugs and missing pieces.",
+  "repo": "https://github.com/JackEblan/YagniLauncher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.eblan.launcher",
+  "tags": [
+    "launcher",
+    "home screen",
+    "minimal",
+    "lightweight",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gitjournal",
+  "name": "GitJournal",
+  "tagline": "Markdown notes that sync through your own Git repo",
+  "description": "GitJournal is a note taking app that keeps every note as a plain Markdown file, optionally with a small YAML header. Instead of living on a company's server, your notes sit in a Git repository you choose, on GitHub, GitLab, another provider, or a server you run yourself.\n\nBecause the notes are ordinary files, you can open the very same ones on your computer with any editor you like, keep a full history of every edit, and walk away with everything if you ever change your mind about the app. There are community tools for exporting your existing notes out of Google Keep, Simplenote and Day One first.\n\nYou need a Git repository of your own, and the first setup takes a few steps: connect an account, pick a repo, and let it sync before you write your first note.",
+  "repo": "https://github.com/GitJournal/GitJournal",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://gitjournal.io",
+  "tags": [
+    "notes",
+    "markdown",
+    "git",
+    "journal",
+    "sync",
+    "writing"
+  ],
+  "added": "2026-08-24"
+}

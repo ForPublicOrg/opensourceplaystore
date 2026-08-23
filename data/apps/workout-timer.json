@@ -1,0 +1,19 @@
+{
+  "id": "workout-timer",
+  "name": "Workout Timer",
+  "tagline": "Time your rest between sets at the gym",
+  "description": "Finish a set, press start, and Workout Timer counts your rest down on a screen you can read from across the gym. When the time is up it sounds, vibrates and shows a notification, so you put the phone down instead of scrolling until your body has gone cold. There are one-tap presets for 30, 60, 90 and 120 seconds, and the countdown keeps running with the screen locked.\n\nThere is more if you want it. A library of over 870 exercises with demonstration pictures, searchable in English or Chinese and filtered by muscle group or equipment. Weight and reps logging for every set, with weekly and monthly charts of your training volume, your strength trend and which muscles you have been working. Everything lives in a database on the phone, with no account and no cloud sync, and you can export all of it as JSON.\n\nThe app switches between English and Chinese. Its AI training plan feature does not talk to any service by itself: it writes out a prompt from your goals, experience and equipment for you to paste into a chat assistant of your own.",
+  "repo": "https://github.com/Kaiji-Z/workout-timer",
+  "category": "productivity",
+  "license": "MIT",
+  "tags": [
+    "gym",
+    "fitness",
+    "timer",
+    "rest",
+    "exercises",
+    "workout",
+    "strength"
+  ],
+  "added": "2026-08-24"
+}

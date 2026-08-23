@@ -1,0 +1,12 @@
+{
+  "id": "alkitab-bible",
+  "name": "Alkitab Bible",
+  "tagline": "Read the Bible offline in the version you like",
+  "description": "Alkitab is a free Bible app that keeps the text on your phone. Download the Bible versions you want, then read and search across them with no connection needed.\n\nYou can highlight verses, add bookmarks and your own notes, follow a daily reading plan, and put a verse of the day on your home screen. Song books, daily devotional readings and audio playback are included as well.\n\nAlkitab is the Indonesian word for Bible and this edition is aimed at Indonesian readers; the same app is published as Quick Bible for everyone else. Either way you pick your own translations after installing.",
+  "repo": "https://github.com/yukuku/androidbible",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://alkitab.app",
+  "tags": ["bible", "christian", "offline", "reading", "notes"],
+  "added": "2026-08-24"
+}

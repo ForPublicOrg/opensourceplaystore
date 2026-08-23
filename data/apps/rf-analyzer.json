@@ -1,0 +1,13 @@
+{
+  "id": "rf-analyzer",
+  "name": "RF Analyzer",
+  "tagline": "See the radio waves around you on your phone",
+  "description": "RF Analyzer turns your phone into a radio spectrum analyser. Plug in a software-defined radio dongle and you get a live picture of what is on the air \u2014 a scrolling waterfall and frequency graph you can pinch and drag through, plus audio so you can actually listen in on AM, FM, single sideband and Morse.\n\nYou can bookmark stations and bands, record raw signal data to a file and play it back later, and download the EiBi shortwave station list so the display tells you what each signal is. There is a full manual and a help system built into the app.\n\nYou need the hardware: a HackRF, RTL-SDR, Airspy or HydraSDR dongle and a USB OTG cable, and some setups need a powered hub. The Google Play build is a 7-day trial that asks for a one-time purchase afterwards; the F-Droid build is the free open-source one.",
+  "repo": "https://github.com/demantz/RFAnalyzer",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "website": "https://demantz.github.io/RFAnalyzer/",
+  "fdroid": "com.mantz_it.rfanalyzer",
+  "tags": ["sdr", "radio", "spectrum", "hackrf", "rtl-sdr", "ham"],
+  "added": "2026-08-24"
+}

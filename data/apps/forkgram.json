@@ -1,0 +1,13 @@
+{
+  "id": "forkgram",
+  "name": "Forkgram",
+  "tagline": "Telegram with a long list of small fixes",
+  "description": "Forkgram is a fork of the official Telegram app for Android that fixes dozens of small annoyances. \"Delete for everyone\" is on by default, forwarded messages show the original date, you can jump to the first message in a chat, pin as many chats as you like, forward without quoting the sender, share any media in a private chat with one button, and secret chats get far more self-destruct timer options.\n\nSeveral changes are about keeping things to yourself: the \"Connecting to proxy\" line is hidden, account names are kept out of the side drawer, you can hide a chat's name and picture from the chat list, and photos can be sent without sticker information attached. The project adds no telemetry, analytics or crash reporting on top of Telegram, and traffic goes only to Telegram's own servers.\n\nIt is still an unofficial Telegram client, so you need a Telegram account and your messages stay on Telegram's servers.",
+  "repo": "https://github.com/forkgram/TelegramAndroid",
+  "category": "social",
+  "license": "GPL-2.0",
+  "fdroid": "org.forkgram.messenger",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["telegram", "messaging", "chat", "privacy", "fork"],
+  "added": "2026-08-24"
+}

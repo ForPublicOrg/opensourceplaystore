@@ -1,0 +1,13 @@
+{
+  "id": "fossify-phone",
+  "name": "Fossify Phone",
+  "tagline": "Make and take calls without ads or tracking",
+  "description": "Fossify Phone replaces the dialer that came with your phone. You get a keypad, your contacts and favourites, your call history, and a block list for the numbers you never want to hear from again. On a phone with two SIM cards you pick which one each call goes out on.\n\nThere are no ads and no analytics, and it asks for only the permissions a phone app actually needs. Colours and themes are yours to change, and it is part of the wider Fossify family of simple, open replacements for the built-in apps.\n\nLike any dialer, Android will ask you to make it your default phone app before it can place calls.",
+  "repo": "https://github.com/FossifyOrg/Phone",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://www.fossify.org",
+  "fdroid": "org.fossify.phone",
+  "tags": ["dialer", "calls", "contacts", "call-blocking", "dual-sim", "privacy"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "zapp",
+  "name": "Zapp",
+  "tagline": "German public TV, live and on demand",
+  "description": "Zapp is a quick way into German public broadcasting. Watch ARD, ZDF and over thirty other channels live, or search the on-demand libraries of nearly twenty broadcasters for something that already aired.\n\nStreams adapt to the speed of your connection, channels switch fast, current programme information is shown as you browse, and you can put channel shortcuts on your home screen. Video keeps playing in the background, some Mediathek programmes offer subtitles, and anything can be shared out to a friend. It is part of the MediathekView project.\n\nThe app and its content are in German. If you watch from outside Germany some broadcasters, ZDF among them, will block their streams.",
+  "repo": "https://github.com/mediathekview/zapp",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://mediathekview.de/news/zapp/",
+  "fdroid": "de.christinecoenen.code.zapp",
+  "tags": ["german", "live-tv", "television", "ard", "zdf", "mediathek", "streaming"],
+  "added": "2026-08-24"
+}

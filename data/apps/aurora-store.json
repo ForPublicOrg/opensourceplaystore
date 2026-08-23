@@ -1,0 +1,23 @@
+{
+  "id": "aurora-store",
+  "name": "Aurora Store",
+  "tagline": "Get Play Store apps without using Google's app",
+  "description": "Aurora Store lets you search, download and update apps from Google Play without the official Play Store app. You can read descriptions, look at screenshots and reviews, then install straight to your phone.\n\nYou can sign in with your own Google account or with a shared anonymous one, so Google need not know it is you. Listings show which trackers an app contains, using data from Exodus Privacy, and how well it runs without Google services, using data from Plexus. You can also change the device and country your phone reports in order to reach apps that are otherwise unavailable to you, and blacklist apps you never want updated.\n\nIt reaches Google Play through an unofficial interface, so things do break when Google changes something on their side. Paid apps cannot be downloaded, games that use Play Asset Delivery cannot be updated, and your library, purchase history and beta programmes only work when you sign in with your own account.",
+  "repo": "https://github.com/AuroraOSS/AuroraStore",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://auroraoss.com",
+  "fdroid": "com.aurora.store",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "playstore",
+    "apps",
+    "installer",
+    "google",
+    "updates",
+    "downloads"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "http-shortcuts",
+  "name": "HTTP Shortcuts",
+  "tagline": "Home screen buttons that fire off web requests",
+  "description": "HTTP Shortcuts puts a button on your home screen that sends a web request the moment you tap it. That is often all it takes to switch on a smart plug, open the garage door, start a job on your home server or poke a service you use, without digging through another app to find the right screen.\n\nYou build each shortcut yourself: the address and method, any headers, a body typed in or taken from a file or the camera, and how the answer should appear, whether as a small pop-up, a dialog, a rendered web page, or nothing at all. Shortcuts can ask you for a value first using variables, sit in tabs, and be triggered from widgets, quick settings tiles or other apps like Tasker and MacroDroid. If you need more, you can run a little JavaScript before or after the request.\n\nIt copes with the awkward parts too: several kinds of login, client certificates, self-signed certificates and proxies. Everything can be imported and exported as JSON or cURL, or edited from a computer through the web editor. No ads, and free.",
+  "repo": "https://github.com/Waboodoo/HTTP-Shortcuts",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://http-shortcuts.rmy.ch",
+  "tags": [
+    "http",
+    "api",
+    "automation",
+    "iot",
+    "shortcuts",
+    "widget",
+    "requests"
+  ],
+  "fdroid": "ch.rmy.android.http_shortcuts",
+  "added": "2026-08-24"
+}

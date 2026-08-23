@@ -1,0 +1,12 @@
+{
+  "id": "enthusiast-tea-timer",
+  "name": "Enthusiast Tea Timer",
+  "tagline": "Time your tea and keep notes on every leaf",
+  "description": "Enthusiast Tea Timer keeps your tea collection in order and times each steep for you. Add a tea, set how long its infusions should run, and start the timer. It handles both Gong Fu Cha and Western style brewing.\n\nPresets for popular tea varieties get you going without any setup, and you can write tasting notes and give each tea a star rating so you remember which ones were worth it. It is built for people who brew the same leaves several times, so every infusion is timed separately.\n\nNo ads and no data collection. Everything you save stays on the phone.",
+  "repo": "https://github.com/Sesu8642/InfusionTimer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["tea", "timer", "brewing", "gongfu", "notes", "kitchen"],
+  "fdroid": "com.sesu8642.infusion_timer",
+  "added": "2026-08-24"
+}

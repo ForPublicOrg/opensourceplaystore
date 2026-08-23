@@ -1,0 +1,21 @@
+{
+  "id": "anx-reader",
+  "name": "Anx Reader",
+  "tagline": "Read your ebooks and see how much you read",
+  "description": "Anx Reader opens EPUB, MOBI, AZW3, FB2, TXT and PDF files and gives you a reading screen you can adjust in detail — font size, weight and style, letter, line and paragraph spacing, margins, themes and backgrounds. Highlight passages, write notes against them, and export the lot as TXT, Markdown or CSV.\n\nIt keeps track of how long you read, with daily, weekly, monthly and yearly figures and a heatmap of your habits. Books, notes and progress sync between Android, iPhone, Mac and Windows through a WebDAV server of your own. It can also read a book aloud with a choice of voice, speed and a sleep timer, and show a translation of a whole book side by side with the original.\n\nTwo things to know before you install. The AI parts — summaries, mind maps, on-demand dictionary and translation — need an API key from an OpenAI, Claude or Gemini compatible service that you sign up and pay for yourself. And the developer's own Android build gives you seven days, after which it asks for a one-off lifetime purchase before you can carry on reading; the F-Droid build has that purchase code stripped out and stays free.",
+  "repo": "https://github.com/Anxcye/anx-reader",
+  "category": "reading",
+  "license": "MIT",
+  "website": "https://anx.anxcye.com",
+  "fdroid": "com.anxcye.anx_reader",
+  "tags": [
+    "ebook",
+    "reader",
+    "epub",
+    "mobi",
+    "notes",
+    "reading",
+    "webdav"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chess",
+  "name": "Chess",
+  "tagline": "Chess with puzzles, openings and no adverts",
+  "description": "Chess for Android is a complete chess app with nothing trying to sell you anything. Play against the built-in engine, work through Lichess puzzles and a mate-in-two collection, or set a position up by hand and study it.\n\nIt keeps a searchable database of your games, has an ECO opening explorer, and can cast the board to a Chromecast so everyone in the room can follow along. Chess 960 is supported, Duck chess is there as an experiment, and the board works with TalkBack if you use a screen reader.\n\nIf you have an account on Lichess or FICS you can play online through the app, and if you would rather use a different engine, it speaks the Open Exchange Protocol so you can plug a third-party one in.",
+  "repo": "https://github.com/jcarolus/android-chess",
+  "category": "games",
+  "license": "MIT",
+  "fdroid": "jwtc.android.chess",
+  "tags": [
+    "chess",
+    "board",
+    "puzzles",
+    "lichess",
+    "offline",
+    "game"
+  ],
+  "added": "2026-08-24"
+}

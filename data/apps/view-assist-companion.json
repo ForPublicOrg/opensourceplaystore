@@ -1,0 +1,11 @@
+{
+  "id": "view-assist-companion",
+  "name": "View Assist Companion",
+  "tagline": "Turn an old tablet into a Home Assistant smart display",
+  "description": "View Assist Companion turns a spare Android phone or tablet into a voice-controlled smart display for Home Assistant, so you can build your own answer to an Echo Show or a Nest Hub. Say the wake word, ask your question, and it passes it to your Home Assistant voice assistant, shows your dashboards on the screen, and can play music or radio from your media library.\n\nWake word detection runs on the device itself, with six built-in words and room to add your own, so there is nothing extra to install on the server for it. Home Assistant also gains controls for the tablet, such as screen on and off, brightness, dark mode, do not disturb and mic mute, plus sensors for battery, charging, light level, orientation and the last thing you asked. Devices with a camera can react to motion in the room.\n\nThis one is not useful on its own. You need a Home Assistant server of your own and the matching integration installed through HACS. The setup steps live in the project's wiki pages.",
+  "repo": "https://github.com/msp1974/ViewAssist_Companion_App",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": ["home assistant", "smart display", "voice", "wake word", "tablet", "smart home"],
+  "added": "2026-08-24"
+}

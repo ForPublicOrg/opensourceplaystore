@@ -1,0 +1,12 @@
+{
+  "id": "anymex",
+  "name": "AnymeX",
+  "tagline": "Keep track of every anime and manga you're watching",
+  "description": "AnymeX is a companion for the lists you already keep on AniList, MyAnimeList or Simkl. Sign in to any of them and you can browse what you are watching or reading, tick off episodes and chapters as you finish them, score things, and search for something new to start.\n\nIt talks to those services through their official APIs, so the changes you make here show up everywhere else you use them. The same app runs on Android, iOS, Windows, macOS and Linux, so your progress looks the same on the sofa and at the desk.\n\nIt is a tracker and nothing more: it does not host or stream any anime or manga itself, and you will need an account on one of the three services for it to be any use.",
+  "repo": "https://github.com/RyanYuuki/AnymeX",
+  "category": "media",
+  "license": "MIT",
+  "tags": ["anime", "manga", "tracker", "anilist", "myanimelist", "simkl", "watchlist"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

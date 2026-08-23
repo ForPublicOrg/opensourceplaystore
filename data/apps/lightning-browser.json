@@ -1,0 +1,19 @@
+{
+  "id": "lightning-browser",
+  "name": "Lightning Browser",
+  "tagline": "A light, quick browser that stays out of your way",
+  "description": "Lightning is a small, fast web browser for everyday use. It keeps your bookmarks and history, opens incognito tabs when you would rather leave no trace, and lets you choose who does the searching — Google, DuckDuckGo, StartPage, Bing, Yahoo and others.\n\nTabs live in a drawer you pull out from the side or the bottom instead of a cramped strip across the top, which makes them easier to reach one-handed. Camera, microphone and location access stay switched off until you turn them on yourself in settings.\n\nIt draws pages with the web engine Android already has, so sites look and behave the way they do elsewhere on your phone.",
+  "repo": "https://github.com/anthonycr/Lightning-Browser",
+  "category": "internet",
+  "license": "MPL-2.0",
+  "fdroid": "acr.browser.lightning",
+  "tags": [
+    "browser",
+    "web",
+    "incognito",
+    "bookmarks",
+    "lightweight",
+    "search"
+  ],
+  "added": "2026-08-24"
+}

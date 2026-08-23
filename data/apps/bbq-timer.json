@@ -1,0 +1,19 @@
+{
+  "id": "bbq-timer",
+  "name": "BBQ Timer",
+  "tagline": "An interval timer you can start and check from the lock screen",
+  "description": "BBQ Timer is a stopwatch and a repeating alarm running at once. It nudges you every few minutes to turn the food while it keeps counting the total cooking time, so you always know both how long it has been on and how long until the next check.\n\nIt shows up on the lock screen, in the pull-down notifications and as a home screen widget, so you can start, pause and read it without unlocking anything. Type an interval as 10, 7:30 or 3:15:00, and keep a pop-up menu of the ones you use often with a note attached to each, like \"6 thin fish, cook to 145°F\". You can change the alarm while the timer is running, and the phone's volume keys adjust how loud it will be.\n\nIt was written for barbecues but works for anything on a repeat, from laundry to stretching. Needs Android 6 or newer, and the reminders only reach you if your alarm volume is up and your lock screen is set to show notifications.",
+  "repo": "https://github.com/1fish2/BBQTimer",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "timer",
+    "stopwatch",
+    "cooking",
+    "bbq",
+    "interval",
+    "widget",
+    "lock screen"
+  ],
+  "added": "2026-08-24"
+}

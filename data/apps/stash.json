@@ -1,0 +1,22 @@
+{
+  "id": "stash",
+  "name": "Stash",
+  "tagline": "Your Spotify and YouTube Music library, offline in FLAC",
+  "description": "Stash copies the playlists, liked songs and daily mixes from your Spotify and YouTube Music accounts onto your phone. Pick what you want, and it either downloads each track as a lossless FLAC file or builds a light streaming index instead, which uses almost no storage but needs a connection to play.\n\nThere is no Stash account, no subscription and no ads. Your logins stay encrypted on the device, and you get a five-band equaliser, crossfade, volume levelling, synced lyrics from LRCLIB and optional Last.fm scrobbling.\n\nYou need your own Spotify and YouTube Music accounts. The audio files come from third-party lossless sources rather than from Spotify itself, so what you end up with depends on what those sources have. It wants Android 8 or newer, and you install it from the project's own releases rather than an app store.",
+  "repo": "https://github.com/rawnaldclark/Stash",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "music",
+    "spotify",
+    "youtube",
+    "flac",
+    "offline",
+    "lossless",
+    "download"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gmaps-wv",
+  "name": "GMaps WV",
+  "tagline": "Use Google Maps without installing the Google app",
+  "description": "GMaps WV opens the Google Maps website inside a stripped-down window of its own, so you get the search, the satellite view and the directions without putting Google's app and its permissions on your phone.\n\nIt wipes your browsing data when you close it, blocks Google's trackers and other third-party resources from loading, forces every connection over HTTPS, and lets you switch location access on and off whenever you want.\n\nTwo things to know before you install. There is no live turn-by-turn navigation — you get a list of directions to follow yourself. And it is still Google Maps underneath, so Google still sees the searches you make.",
+  "repo": "https://github.com/woheller69/maps",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "fdroid": "us.spotco.maps",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "maps",
+    "google maps",
+    "directions",
+    "privacy",
+    "navigation",
+    "webview"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "seamless",
+  "name": "Seamless",
+  "tagline": "Translate speech without an internet connection",
+  "description": "Seamless listens to you speak and writes out the translation. Hold the microphone button, say your sentence, choose the language you want it in, and the text appears. It works between English, Spanish, Portuguese, Hindi and Russian.\n\nThe translation runs on your phone using Meta's Seamless M4T model, so nothing you say is sent anywhere. The first time you open the app it downloads that model from Hugging Face, and that is the only moment it needs to be online.\n\nIt works best if you pause a beat before speaking and talk clearly at a steady pace. The model itself is published under a non-commercial licence, so it is not free software in the strict sense.",
+  "repo": "https://github.com/woheller69/seamless",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "org.woheller69.seemless",
+  "antiFeatures": ["nonfree-network", "nonfree-assets"],
+  "tags": ["translate", "speech", "offline", "voice", "language", "travel"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chronicle",
+  "name": "Chronicle",
+  "tagline": "Listen to your Plex audiobooks anywhere",
+  "description": "Chronicle plays the audiobooks you keep on your own Plex server. It remembers where you stopped, keeps your progress in sync, and lets you speed the narrator up or slow them down until it sounds right.\n\nYou can download books to the phone for flights and commutes, set a sleep timer for bedtime listening, and let it skip silent gaps and rewind a few seconds when you press play again. Android Auto works for basic playback in the car, though voice commands don't. Supported files are mp3, m4a and m4b.\n\nTwo things to know first. It is only useful if you already run a Plex server with your audiobooks on it. And there has been no packaged release since 2023, so the build on the Play Store is old and may not install on a newer phone. The code is still being worked on, but for now you may have to build it yourself.",
+  "repo": "https://github.com/mattttvaughn/chronicle",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "audiobook",
+    "plex",
+    "player",
+    "offline",
+    "books",
+    "sleep timer"
+  ],
+  "added": "2026-08-24"
+}

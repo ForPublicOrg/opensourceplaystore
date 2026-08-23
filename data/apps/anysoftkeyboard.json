@@ -1,0 +1,20 @@
+{
+  "id": "anysoftkeyboard",
+  "name": "AnySoftKeyboard",
+  "tagline": "A keyboard for many languages that never goes online",
+  "description": "AnySoftKeyboard is an on-screen keyboard that has been going for well over a decade and covers a long list of languages through add-on packs. English comes in QWERTY, Dvorak, AZERTY, Colemak and Workman, and there are packs for Hebrew, Russian, Arabic, German, Swedish, Spanish, Catalan, Portuguese, Ukrainian, Bulgarian, Lao and many more.\n\nIt has no internet access, so what you type stays on the phone. You get word and next-word suggestions that you can tune or switch off, gesture typing, auto-capitalisation, plenty of emoji, a dark mode, a power saving mode, per-app colour tinting, and an incognito mode that learns nothing and remembers nothing. Special keyboards appear for number, email and web address fields, and a physical keyboard works too.\n\nLanguage packs are separate downloads, so the first thing to do after installing is add the pack for the language you actually type in. It needs Android 6.0 or newer.",
+  "repo": "https://github.com/AnySoftKeyboard/AnySoftKeyboard",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://anysoftkeyboard.github.io",
+  "fdroid": "com.menny.android.anysoftkeyboard",
+  "tags": [
+    "keyboard",
+    "typing",
+    "languages",
+    "offline",
+    "themes",
+    "emoji"
+  ],
+  "added": "2026-08-24"
+}

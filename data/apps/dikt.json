@@ -1,0 +1,18 @@
+{
+  "id": "dikt",
+  "name": "dikt",
+  "tagline": "Look up words offline, with everything in thumb's reach",
+  "description": "dikt is a dictionary that never needs the internet. The whole layout is flipped compared to most apps: the search box sits at the bottom, results build upwards from there, and the main controls are down low too, so you can look a word up with the hand already holding the phone.\n\nIt arrives with WordNet 3, a large English dictionary, and you can add more. It stays quick even with a very large collection, and dictionaries are compressed so they take up less space on the phone. On Android you can select text anywhere and look it up straight from the pop-up menu. Belarusian and Russian speakers can type и, у and e in place of і, ў and ё without switching keyboards.\n\nExtra dictionaries have to be converted first: the free PyGlossary tool turns formats like DSL and StarDict into JSON, which the app can import, and a separate command-line tool packs big ones into a faster format. That is a fiddly step if you are not comfortable at a computer. The same app also runs on Windows, macOS and Linux.",
+  "repo": "https://github.com/maxim-saplin/dikt",
+  "category": "education",
+  "license": "MIT",
+  "tags": [
+    "dictionary",
+    "offline",
+    "words",
+    "english",
+    "wordnet",
+    "lookup"
+  ],
+  "added": "2026-08-24"
+}

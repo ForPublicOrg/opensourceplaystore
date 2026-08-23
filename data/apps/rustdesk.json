@@ -1,0 +1,13 @@
+{
+  "id": "rustdesk",
+  "name": "RustDesk",
+  "tagline": "Control your computer from your phone, from anywhere",
+  "description": "RustDesk shows you the screen of your desktop computer on your phone and lets you tap and type as if you were sitting in front of it. Useful for grabbing a file you left at home, restarting something on the office machine, or helping a relative sort out their laptop.\n\nYou install RustDesk on both devices, then connect using the ID and password it shows. It works out of the box with the servers the project runs, but you can point it at your own relay server instead so none of your traffic passes through anyone else's hands. There are versions for Windows, macOS, Linux, Android and iOS.\n\nRemember that the computer you want to reach has to be switched on with RustDesk running, and set to accept connections.",
+  "repo": "https://github.com/rustdesk/rustdesk",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://rustdesk.com",
+  "fdroid": "com.carriez.flutter_hbb",
+  "tags": ["remote-desktop", "remote-control", "teamviewer", "self-hosted", "screen-sharing"],
+  "added": "2026-08-24"
+}

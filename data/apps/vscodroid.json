@@ -1,0 +1,11 @@
+{
+  "id": "vscodroid",
+  "name": "VSCodroid",
+  "tagline": "VS Code and a bash terminal, running on your phone",
+  "description": "VSCodroid runs a full VS Code on your Android phone. The editor, the command palette and the file search all run on the device itself rather than on a server you connect to, so you can work with no signal at all.\n\nIt comes with a proper bash terminal and the tools you would expect next to it: Node.js, Python 3, Git, npm, SSH and tmux are bundled and ready. You can install themes and language support from the Open VSX extension marketplace, preview a dev server in a tab beside your code, and reach Ctrl, Alt, Tab, Esc and the function keys from an extra key row built for touch.\n\nIt is a big app for a phone. You need Android 13 or newer on a 64-bit ARM phone, roughly 865 MB of free space to install, and 4 GB of RAM is recommended. The editor interface itself is English only.",
+  "repo": "https://github.com/rmyndharis/VSCodroid",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["ide", "editor", "terminal", "programming", "vscode", "developer", "coding"],
+  "added": "2026-08-24"
+}

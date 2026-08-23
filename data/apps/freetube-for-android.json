@@ -1,0 +1,12 @@
+{
+  "id": "freetube-for-android",
+  "name": "FreeTube for Android",
+  "tagline": "YouTube without ads, with your subscriptions kept on your phone",
+  "description": "FreeTube for Android plays YouTube videos with no advertisements and without Google's cookies and scripts following you around. You subscribe to channels without an account, and your subscriptions and watch history are stored on your device and never sent out.\n\nIt gets video through a built-in extractor, or optionally through an Invidious instance, and can be pointed at a proxy such as Tor. There is SponsorBlock, chapters, trending, import and export of subscriptions, and profiles that split your feed into smaller focused groups. No official YouTube API is used.\n\nIt is a soft fork of the desktop FreeTube app and is still in beta, so expect rough edges and missing features. It also depends on YouTube, which can change and break things at any time.",
+  "repo": "https://github.com/MarmadileManteater/FreeTubeAndroid",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["youtube", "video", "no-ads", "privacy", "subscriptions", "sponsorblock", "invidious"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "afwall",
+  "name": "AFWall+",
+  "tagline": "Choose exactly which apps may use the internet (needs root)",
+  "description": "AFWall+ lets you decide, app by app, what is allowed online. Tick the handful you trust and everything else stays offline, even apps that asked for internet permission when you installed them. It is a straightforward way to stop background chatter, save mobile data, and keep an app you only half trust from talking to anyone.\n\nThe blocking happens in iptables, the firewall built into the Linux kernel underneath Android, so it sits below the apps and they cannot work around it. You can set separate rules for WiFi, mobile data, roaming and VPN connections, and turn on a log to see what was blocked and when.\n\nYour phone must be rooted; there is no way around that. A few extra convenience features are unlocked by donating to the project. The app has been going for many years and is stable, but firewall rules are easy to get wrong at first, so expect to spend a little time working out which apps you actually want online.",
+  "repo": "https://github.com/ukanth/afwall",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "dev.ukanth.ufirewall",
+  "tags": ["firewall", "block", "internet", "root", "privacy", "data saver", "iptables"],
+  "added": "2026-08-24"
+}

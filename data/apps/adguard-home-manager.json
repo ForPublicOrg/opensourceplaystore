@@ -1,0 +1,18 @@
+{
+  "id": "adguard-home-manager",
+  "name": "AdGuard Home Manager",
+  "tagline": "Look after your AdGuard Home ad blocker from your phone",
+  "description": "AdGuard Home blocks ads and trackers for every device on your network at once by filtering DNS. This app is a comfortable way to look after it: turn the different protections on or off with a single switch, read and filter the query log to see what your devices are really asking for, and manage your filtering lists.\n\nYou can add several servers and jump between them, browse the client list and give one device its own rules, and change DHCP, DNS and rewrite settings. It connects over HTTP or HTTPS, follows your Android theme colours on Android 12 and later, and there are desktop builds for Windows, macOS and Linux as well.\n\nThis is an unofficial client, not made by the AdGuard team, and it needs an AdGuard Home server you already run. The author suggests raising auth_attempts in AdGuardHome.yaml from 5 to 15 so the app's logins do not lock you out.",
+  "repo": "https://github.com/JGeek00/adguard-home-manager",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": [
+    "adguard",
+    "adblock",
+    "dns",
+    "network",
+    "privacy",
+    "server"
+  ],
+  "added": "2026-08-24"
+}

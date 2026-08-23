@@ -1,0 +1,11 @@
+{
+  "id": "nextcloud-calendar-mobile",
+  "name": "Nextcloud Calendar Mobile",
+  "tagline": "See and edit the calendar on your own Nextcloud server",
+  "description": "This app puts the calendars from your Nextcloud server on your phone. You get month, week, three-day, day and agenda views, and you can add events, open them, drag one to a new time, or pull its edge to make it longer or shorter.\n\nIt talks to Nextcloud over CalDAV, so changes travel both ways and a copy is kept on the phone for reading when you are offline. You can add several Nextcloud accounts, hide or show each calendar and give it a colour, put your next events on a home screen widget, and attach a Nextcloud Talk room to an event when you create it.\n\nYou need your own Nextcloud server for any of this to work. It is not made or approved by Nextcloud, and it is still being actively built, so things can change from one version to the next.",
+  "repo": "https://github.com/SoluceTechnologies/nextcloud-calendar-mobile",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": ["calendar", "nextcloud", "caldav", "events", "sync", "selfhosted", "widget"],
+  "added": "2026-08-24"
+}

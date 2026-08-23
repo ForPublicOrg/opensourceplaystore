@@ -1,0 +1,19 @@
+{
+  "id": "plant-it",
+  "name": "Plant-it",
+  "tagline": "Remember when you last watered each plant",
+  "description": "Plant-it is a notebook for your houseplants and garden. Add each plant to your collection, then log what you do to it — watered, fertilized, repotted, pruned — and the app keeps the history so you can always see how long it has been. Add photos along the way and you end up with a record of how each plant has changed.\n\nIt deliberately does not tell you what your plants need. The author's view is that you know them better than an app does, so Plant-it simply remembers what you did and can nudge you — say, if a plant has not been watered in four days. You can filter the log by plant or by type of event.\n\nDevelopment has slowed to maintenance: the author considers the app finished and is unlikely to add new features.",
+  "repo": "https://github.com/MDeLuise/plant-it",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.github.mdeluise.plantit",
+  "tags": [
+    "plants",
+    "gardening",
+    "watering",
+    "reminders",
+    "garden",
+    "houseplants"
+  ],
+  "added": "2026-08-24"
+}

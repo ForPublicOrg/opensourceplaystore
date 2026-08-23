@@ -1,0 +1,20 @@
+{
+  "id": "permission-manager-x",
+  "name": "Permission Manager X",
+  "tagline": "See and switch off the permissions Android keeps hidden",
+  "description": "Permission Manager X shows you, app by app, everything an app is allowed to do. That means the ordinary permissions you already see in Settings, like camera, storage and location, plus the AppOps controls Android uses underneath them. AppOps cover things Settings never offers you a switch for, such as clipboard access, running in the background and vibration.\n\nYou can grant or revoke each one from a single screen. You can also record a reference state for every permission, so after a reinstall, a new phone or a system update the coloured bars show you at a glance which apps have drifted from what you wanted.\n\nThis one is for tinkerers. It only does its job if your phone is rooted or you set up ADB over the network, and some extra features are a paid upgrade. The app's only outside connections are to check for updates and fetch its help pages.",
+  "repo": "https://github.com/mirfatif/PermissionManagerX",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "website": "https://mirfatif.github.io/PermissionManagerX/help",
+  "fdroid": "com.mirfatif.permissionmanagerx",
+  "tags": [
+    "permissions",
+    "privacy",
+    "appops",
+    "root",
+    "adb",
+    "security"
+  ],
+  "added": "2026-08-24"
+}

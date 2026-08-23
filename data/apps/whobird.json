@@ -1,0 +1,12 @@
+{
+  "id": "whobird",
+  "name": "whoBIRD",
+  "tagline": "Name the bird you can hear, right where you stand",
+  "description": "Open whoBIRD outdoors and it listens. When a bird sings nearby its name appears on the screen within seconds, from a list of more than 6,000 species worldwide.\n\nThe recognition runs on your phone using the BirdNET model, so it keeps working deep in a wood or far from any signal. It uses your location and the time of year to rule out birds that could not be there, and keeps a list of everything it has heard that you can back up or share.\n\nThe model files download the first time you open the app, so start it once on Wi-Fi. Wind, traffic and distance all affect accuracy — the settings include a high-pass filter and a confidence threshold to help in noisy places.",
+  "repo": "https://github.com/woheller69/whoBIRD",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.whobird",
+  "tags": ["birds", "birdsong", "nature", "identification", "offline", "wildlife"],
+  "added": "2026-08-24"
+}

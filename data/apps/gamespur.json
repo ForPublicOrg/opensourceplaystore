@@ -1,0 +1,21 @@
+{
+  "id": "gamespur",
+  "name": "GameSpur",
+  "tagline": "Gaming news from across the web, without ads",
+  "description": "GameSpur pulls gaming articles from a long list of sites into one place, so you can catch up on releases, reviews and announcements without hopping between tabs. Stories open inside the app, and you can bookmark the ones you want to come back to.\n\nYou can build your own feeds to follow the games, studios or topics you care about, and there is a deals section for discounted games. The project says it carries no ads and does not sell your data to advertisers. The same app is available on Android and iOS.\n\nArticles are fetched from the project's own servers rather than from the news sites directly, so it needs a connection and depends on that service staying online. Some parts of the app run on in-app 'gems', which you earn by reading or can buy.",
+  "repo": "https://github.com/GameSpur/MobileApp",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "tags": [
+    "gaming",
+    "news",
+    "articles",
+    "rss",
+    "feeds",
+    "deals"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

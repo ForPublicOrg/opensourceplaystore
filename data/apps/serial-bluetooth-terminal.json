@@ -1,0 +1,11 @@
+{
+  "id": "serial-bluetooth-terminal",
+  "name": "Simple Bluetooth Terminal",
+  "tagline": "Send and receive text over classic Bluetooth",
+  "description": "A plain text terminal for Bluetooth modules — the HC-05 and HC-06 style boards bolted to hobby robots, model cars and microcontroller projects. Connect to a device your phone has already paired with, type a line, and read whatever it sends back. It is the quickest way to check that a project is alive without dragging out a laptop.\n\nUnder the hood it opens an ordinary RFCOMM connection to the standard Serial Port Profile, which is what those modules and plenty of older instruments speak.\n\nTwo things to know before you install: this is classic Bluetooth only, so it will not talk to newer Bluetooth Low Energy devices, and it is a deliberately simplified version of the author's Play Store app, published so others can read and reuse the code.",
+  "repo": "https://github.com/kai-morich/SimpleBluetoothTerminal",
+  "category": "tools",
+  "license": "MIT",
+  "tags": ["bluetooth", "serial", "terminal", "spp", "arduino", "robotics"],
+  "added": "2026-08-24"
+}

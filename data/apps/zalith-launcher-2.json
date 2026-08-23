@@ -1,0 +1,13 @@
+{
+  "id": "zalith-launcher-2",
+  "name": "Zalith Launcher 2",
+  "tagline": "Play Minecraft: Java Edition on your phone",
+  "description": "Zalith Launcher 2 runs the desktop version of Minecraft — Java Edition — on an Android phone or tablet. It downloads the game version you pick, and can install mod loaders and whole modpacks so your modded worlds come with you.\n\nUnder the hood it uses PojavLauncher's launching engine, wrapped in a modern Material 3 interface. Sign in with a Microsoft account, or use an offline or custom authentication account instead. You can build your own on-screen control layouts, including joysticks, or plug in a game controller. The app is translated by volunteers into a growing list of languages.\n\nYou need to own Minecraft: Java Edition — this is a launcher only and does not include the game. Running a desktop game on a phone asks a lot of the hardware, so older devices will struggle. It is also a separate project from the original Zalith Launcher, despite the name.",
+  "repo": "https://github.com/ZalithLauncher/ZalithLauncher2",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://www.zalithlauncher.cn",
+  "antiFeatures": ["nonfree-assets"],
+  "tags": ["minecraft", "launcher", "java", "mods", "modpack", "gaming"],
+  "added": "2026-08-24"
+}

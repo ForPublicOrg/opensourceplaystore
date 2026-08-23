@@ -1,0 +1,12 @@
+{
+  "id": "exodus-privacy",
+  "name": "Exodus Privacy",
+  "tagline": "See which hidden trackers are inside the apps on your phone",
+  "description": "Most apps quietly carry bits of other companies' code that report back on what you do. Exodus goes through the apps installed on your phone and tells you, one by one, which trackers are baked into each one and which permissions it has asked for.\n\nThe findings come from the exodus platform, a public analysis service run by the French non-profit Exodus Privacy. The app downloads their report for each of your apps and lays it out in plain language, so you can decide what is worth keeping and what to uninstall.\n\nIt needs an internet connection to fetch those reports, and an app the platform has not analysed yet simply will not have one to show.",
+  "repo": "https://github.com/Exodus-Privacy/exodus-android-app",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "org.eu.exodus_privacy.exodusprivacy",
+  "tags": ["trackers", "privacy", "permissions", "apps", "analysis", "security"],
+  "added": "2026-08-24"
+}

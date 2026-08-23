@@ -1,0 +1,19 @@
+{
+  "id": "paranoid-s-pal",
+  "name": "Paranoid's Pal",
+  "tagline": "Lock your phone the moment the screen goes off",
+  "description": "Most phones wait a while after the screen goes dark before they really lock, which is plenty of time for someone to pick yours up and swipe straight back in. Paranoid's Pal closes that gap: the screen turns off and the phone is locked, right away.\n\nWhen you need it locked this second, a quick shake does it. There is also a tile for the Quick Settings panel and a home screen shortcut, so it is never more than one tap away. The app works entirely offline with no account and no internet connection, and nothing about you leaves the phone.\n\nIt makes your existing lock happen sooner rather than replacing it, so you still need a PIN, pattern or fingerprint set up on the phone.",
+  "repo": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": [
+    "lock",
+    "screenlock",
+    "privacy",
+    "security",
+    "shake",
+    "offline"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "com.paranoid.privacylock"
+}

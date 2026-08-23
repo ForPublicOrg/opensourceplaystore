@@ -1,0 +1,19 @@
+{
+  "id": "pano-scrobbler",
+  "name": "Pano Scrobbler",
+  "tagline": "Keep a record of every song you play",
+  "description": "Pano Scrobbler notices whatever music app you are using and logs each track to Last.fm, ListenBrainz, Libre.fm or Pleroma. Over time that becomes charts of your most played songs, artists and albums, plus a summary at the end of every week, month and year.\n\nYou can tidy up messy track names with your own find-and-replace rules, block artists or songs so they are skipped or muted automatically, look at what people you follow are listening to, and put a chart widget on your home screen. It can log what Shazam and similar apps identify playing around you, or simply write everything to a file on your phone instead.\n\nIt needs a free account with one of those scrobbling services before it can do much.",
+  "repo": "https://github.com/kawaiiDango/pano-scrobbler",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://kawaiidango.github.io/pano-scrobbler/",
+  "tags": [
+    "scrobbler",
+    "lastfm",
+    "listenbrainz",
+    "music",
+    "charts",
+    "stats"
+  ],
+  "added": "2026-08-24"
+}

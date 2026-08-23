@@ -1,0 +1,12 @@
+{
+  "id": "torrentsearch",
+  "name": "TorrentSearch",
+  "tagline": "Search a lot of torrent sites at once",
+  "description": "TorrentSearch queries many torrent indexing sites at the same time and shows results as they come in, each with its seeders, peers, file size, upload date and category. Tap one to open the magnet link in your torrent app, save the .torrent file, read the full details without leaving the app, or copy and share the link.\n\nYou can browse what is popular or newly posted, sort and filter the list, hide dead torrents and ones you have already looked at, and bookmark things for later. A Safe Mode switches off adult providers and hides adult results. If you run Jackett, Prowlarr or another Torznab indexer of your own, you can add it as a source.\n\nIt only finds torrents — you still need a separate torrent app to actually download anything, and it will point you to free ones if you have none installed. Needs Android 7.1 or newer.",
+  "repo": "https://github.com/prajwalch/TorrentSearch",
+  "category": "internet",
+  "license": "MIT",
+  "fdroid": "com.prajwalch.torrentsearch",
+  "tags": ["torrent", "search", "magnet", "bittorrent", "download", "indexer"],
+  "added": "2026-08-24"
+}

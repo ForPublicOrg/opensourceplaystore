@@ -1,0 +1,19 @@
+{
+  "id": "xrayfa",
+  "name": "XrayFA",
+  "tagline": "Reach blocked sites through a proxy server you trust",
+  "description": "XrayFA sends your phone's internet traffic through a proxy server, so you can reach sites and services that your network blocks. Paste a link from the clipboard or scan a QR code, tap connect, and everything on the phone goes through the tunnel.\n\nIt is built on Xray-core and speaks the common protocols: VLESS, VMess, Shadowsocks, Trojan and Hysteria2. Subscription links can be imported and updated in a batch, and a dashboard shows your connection status, speed and how much data you have used. There are routing and DNS settings if you want to send some traffic direct.\n\nYou need your own server, or a subscription from a provider you trust. The app does not come with any servers of its own.",
+  "repo": "https://github.com/Q7DF1/XrayFA",
+  "category": "security",
+  "license": "Apache-2.0",
+  "tags": [
+    "proxy",
+    "vpn",
+    "xray",
+    "vless",
+    "shadowsocks",
+    "censorship"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "com.android.xrayfa"
+}

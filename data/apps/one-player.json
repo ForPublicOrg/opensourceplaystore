@@ -1,0 +1,18 @@
+{
+  "id": "one-player",
+  "name": "One Player",
+  "tagline": "One app for all the music and video on your phone",
+  "description": "One Player plays the files you already have, without an account, an upload or an internet connection. Music and video both live in the same app, so you are not switching between a song player and a video player depending on what you tapped.\n\nIt handles the formats people actually run into: MP4, MKV, AVI, MOV, WEBM, FLV and WMV for video, FLAC, MP3, AAC, OGG and WAV for audio, including H.265 and 4K files. Playback runs on Android's own Media3 engine for hardware decoding, and the interface is built with Jetpack Compose so it adjusts itself for phones and tablets.\n\nThe developer describes it as still in active development, so expect changes and the odd rough edge. It grew out of an earlier audio-only app called Audiofy.",
+  "repo": "https://github.com/googol-apps/OnePlayer",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": [
+    "music-player",
+    "video",
+    "player",
+    "offline",
+    "media",
+    "mkv"
+  ],
+  "added": "2026-08-24"
+}

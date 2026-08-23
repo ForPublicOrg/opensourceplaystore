@@ -1,0 +1,20 @@
+{
+  "id": "r-shop",
+  "name": "R-Shop",
+  "tagline": "Browse your retro game collection like a console shop",
+  "description": "R-Shop takes the folders of retro game files you already own and lays them out as a proper library, with cover art, system logos and game details pulled in for you. Everything is built around a D-pad and buttons first, so it feels at home on a retro handheld or on a TV with a controller in your hands.\n\nYour games can sit in a folder on the device, on an SMB or FTP share, or on a RomM server you pair by scanning a QR code, and R-Shop merges them all into one library. It knows around 66 consoles and sorts games into them by itself, matches up RetroAchievements progress where it can, and downloads titles in the background while you carry on browsing.\n\nR-Shop is not an emulator and does not supply any games. It organises files you already own or host yourself, and you still need something like RetroArch, Dolphin or PPSSPP installed to actually play them. It is aimed at devices with physical controls, so a plain touchscreen phone is not what it was designed for.",
+  "repo": "https://github.com/AverageConsumer/R-Shop",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://averageconsumer.github.io/R-Shop/",
+  "tags": [
+    "retro",
+    "games",
+    "roms",
+    "emulation",
+    "controller",
+    "romm",
+    "library"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "peakorama",
+  "name": "PeakOrama",
+  "tagline": "See which mountains you are looking at",
+  "description": "PeakOrama draws the skyline around you and labels every peak in it. Hold your phone up on a hike or at a viewpoint, and the outline on screen tells you which mountain is which.\n\nYou can use your current position or search for any place in the world. The view follows your phone's compass, or you can spin it with your finger; if the compass reads a little off, there is a setting to correct it.\n\nIt needs a working internet connection, and it downloads roughly 5-10 MB of terrain for each new location, so watch your data on mobile. There is no way to drop your own marks on the view.",
+  "repo": "https://github.com/woheller69/PeakOrama",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.PeakOrama",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["mountains", "hiking", "peaks", "compass", "outdoors", "panorama"],
+  "added": "2026-08-24"
+}

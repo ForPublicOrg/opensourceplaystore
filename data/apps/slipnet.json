@@ -1,0 +1,19 @@
+{
+  "id": "slipnet",
+  "name": "SlipNet",
+  "tagline": "Reach blocked sites through a tunnelled connection",
+  "description": "SlipNet is a VPN-style app for networks where the internet is filtered. It moves your traffic through channels that blocked connections usually still allow — ordinary DNS lookups, an SSH session, a Tor bridge or an HTTPS tunnel that looks like Chrome — so pages that were blocked start loading again.\n\nThere are several tunnel types to choose from (DNSTT, NoizDNS, VayDNS, Slipstream, NaiveProxy, SSH, DNS-over-HTTPS and Tor), most of which can be chained through SSH for an extra layer, plus a built-in scanner that hunts for DNS servers still reachable on your network. A step-by-step user guide is included in English and Persian.\n\nYou need a server to connect to: either a profile someone shares with you, or one you set up yourself with the project's own installer. SlipNet is only published on GitHub and the developers' Telegram channel — anything with this name on an app store did not come from them.",
+  "repo": "https://github.com/anonvector/SlipNet",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": [
+    "vpn",
+    "tunnel",
+    "censorship",
+    "proxy",
+    "dns",
+    "tor",
+    "ssh"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "luanti",
+  "name": "Luanti",
+  "tagline": "Dig, build and explore blocky worlds of your own",
+  "description": "Luanti is a voxel world engine — blocky landscapes you can dig into, mine and build in, much like Minecraft. It used to be called Minetest and was renamed in 2024.\n\nRather than one fixed game, Luanti is a platform. A built-in browser lets you download hundreds of free games, mods and texture packs made by the community: survival crafting, city building, pure creative sandboxes and more. You can play on your own or join public servers with other people.\n\nBecause it ships as an engine, there is no game in the box. The first thing you do after installing is pick a game from the online list and download it, so you need an internet connection to get started.",
+  "repo": "https://github.com/luanti-org/luanti",
+  "category": "games",
+  "license": "LGPL-2.1",
+  "website": "https://www.luanti.org",
+  "fdroid": "net.minetest.minetest",
+  "tags": [
+    "voxel",
+    "sandbox",
+    "minetest",
+    "building",
+    "mods",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

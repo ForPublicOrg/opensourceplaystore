@@ -1,0 +1,18 @@
+{
+  "id": "panda3ds",
+  "name": "Panda3DS",
+  "tagline": "A lighter way to play 3DS games on your phone",
+  "description": "Panda3DS is a Nintendo 3DS emulator with its own Android app. It uses high-level emulation, which recreates what the console did rather than copying it instruction by instruction, and that is meant to ask less of your phone.\n\nIt began as a curiosity project and has grown steadily since. There are builds for Android, Windows, macOS and Linux, and some unusual extras for people who like to tinker, including Lua scripting.\n\nThe developers are honest that it can only sort of play games so far, so expect some titles not to run at all. It ships with no games — you supply your own.",
+  "repo": "https://github.com/wheremyfoodat/Panda3DS",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://panda3ds.com/",
+  "tags": [
+    "3ds",
+    "nintendo",
+    "emulator",
+    "games",
+    "retro"
+  ],
+  "added": "2026-08-24"
+}

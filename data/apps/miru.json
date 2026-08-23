@@ -1,0 +1,13 @@
+{
+  "id": "miru",
+  "name": "Miru",
+  "tagline": "Video, comics and novels from sources you add",
+  "description": "Miru is one app for watching video and reading comics and novels. You add source extensions that tell it where to fetch things from, and whatever they bring back is shown with the same layout and the same controls, so a comic and a series sit side by side in one library.\n\nThe official extension repository already has video sources, so you can start without writing anything, and you can point the app at another repository or write your own extension in JavaScript. It fills in details from TMDB, can update your progress on AniList, plays BitTorrent links, and can route its traffic through an HTTP, SOCKS4 or SOCKS5 proxy. The same app also runs on Windows and in a browser.\n\nMiru does not host anything itself, and the people who publish extensions are not connected to the app. Parts of the project and much of the extension community are Chinese-first, so some corners have thin English.",
+  "repo": "https://github.com/miru-project/miru-app",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://miru.js.org",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["anime", "manga", "comics", "novels", "extensions", "player"],
+  "added": "2026-08-24"
+}

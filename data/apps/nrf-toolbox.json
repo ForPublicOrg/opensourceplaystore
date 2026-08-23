@@ -1,0 +1,19 @@
+{
+  "id": "nrf-toolbox",
+  "name": "nRF Toolbox",
+  "tagline": "Connect to Bluetooth LE gadgets and see their data",
+  "description": "nRF Toolbox from Nordic Semiconductor connects to Bluetooth Low Energy devices and shows you what they're sending. It has ready-made screens for the common ones: heart rate straps, cycling and running speed sensors, thermometers, blood pressure cuffs and glucose meters.\n\nFor anyone building their own gadget there's a UART terminal for firing commands at a board, a throughput tester, distance measurement and a simple LED-and-button demo. Connections are held open by a background service, so data keeps flowing while you move between screens.\n\nMost of it speaks the standard Bluetooth LE profiles rather than one manufacturer's private protocol, so it works with any hardware that follows those standards. A couple of the developer extras, the distance measurement and the LED demo, only work with Nordic's own chips.",
+  "repo": "https://github.com/nordicsemi/Android-nRF-Toolbox",
+  "category": "tools",
+  "license": "BSD-3-Clause",
+  "website": "https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Toolbox",
+  "tags": [
+    "bluetooth",
+    "ble",
+    "sensors",
+    "heart rate",
+    "nordic",
+    "iot"
+  ],
+  "added": "2026-08-24"
+}

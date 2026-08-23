@@ -1,0 +1,13 @@
+{
+  "id": "localsend",
+  "name": "LocalSend",
+  "tagline": "Send files to nearby devices without the internet",
+  "description": "LocalSend moves files straight from your phone to another phone or a computer on the same Wi-Fi. Pick the files, tap the device that pops up in the list, and the transfer starts. There is no account to make, nothing is uploaded to anyone's server, and it keeps working when the internet is down.\n\nThe two devices find each other on the local network and talk to each other directly over an encrypted connection. You can send a short text message the same way. There are versions for Windows, macOS, Linux, iOS and Android, so a phone can hand a file to a laptop and get one back.\n\nBoth ends need LocalSend installed and need to be on the same network — a phone on mobile data cannot reach your laptop at home. The app does not update itself if you install the APK by hand, so getting it from F-Droid or a store saves you that chore.",
+  "repo": "https://github.com/localsend/localsend",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://localsend.org",
+  "fdroid": "org.localsend.localsend_app",
+  "tags": ["files", "sharing", "transfer", "airdrop", "wifi", "offline"],
+  "added": "2026-08-24"
+}

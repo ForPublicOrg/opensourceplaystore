@@ -1,0 +1,19 @@
+{
+  "id": "lavender-photos",
+  "name": "Lavender Photos",
+  "tagline": "Browse, edit and lock away your photos",
+  "description": "Lavender Photos is a gallery for everything your camera has ever taken. Pictures and videos are laid out by date, you make and remove albums as you please rather than being handed a fixed set, and you can group albums together once there are a lot of them. Search finds a photo by its name, its date or a tag you gave it, and anything you delete waits in a trash bin sorted by when it went in.\n\nEditing works without a connection, so you can crop and adjust photos and videos anywhere. A secure folder keeps private pictures behind AES-256 encryption, and favourites carry over to other apps. It can browse Google Drive, Proton Drive, Dropbox and similar services natively, and back up to an Immich server if you run one.\n\nNothing about you is collected and nothing happens without your permission. It is a fairly young app that is still gaining features, so expect it to change between releases.",
+  "repo": "https://github.com/kaii-lb/LavenderPhotos",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "com.kaii.photos",
+  "tags": [
+    "gallery",
+    "photos",
+    "videos",
+    "albums",
+    "immich",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

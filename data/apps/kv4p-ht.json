@@ -1,0 +1,19 @@
+{
+  "id": "kv4p-ht",
+  "name": "kv4p HT",
+  "tagline": "Turn your phone into a handheld ham radio",
+  "description": "kv4p HT is the phone half of a homebrew two-way radio. A small circuit board plugs into your USB-C port and gives you a 1 watt VHF or UHF transceiver; this app is the screen, the push-to-talk button and the brains, using your phone's display, GPS and battery instead of its own.\n\nIt has a proper APRS modem built in, so you can send short text messages to other stations as well as beacon your position — something most handhelds cannot do. There are live closed captions of received audio, sticky PTT with haptic feedback, and no internet connection is needed once you are on the air.\n\nThis is a build-it-yourself project. You need the kv4p HT board (a kit or your own soldering), an antenna, a case and a USB-C cable or adapter, and you need at least a Technician class amateur radio licence to transmit. There are no warranties — it is a maker project, and half the fun is putting it together.",
+  "repo": "https://github.com/VanceVagell/kv4p-ht",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://kv4p.com",
+  "tags": [
+    "ham",
+    "radio",
+    "aprs",
+    "transceiver",
+    "vhf",
+    "uhf"
+  ],
+  "added": "2026-08-24"
+}

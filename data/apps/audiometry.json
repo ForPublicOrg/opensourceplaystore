@@ -1,0 +1,19 @@
+{
+  "id": "audiometry",
+  "name": "Audiometry",
+  "tagline": "Test your hearing at home with headphones",
+  "description": "Audiometry plays quiet beeps at different pitches into one ear at a time and asks you to tap the screen whenever you hear one. From your answers it draws an audiogram — a chart of how faint a sound you can still catch at each frequency, in dB HL — and saves it, so a later test can be compared against it.\n\nBefore the first test the headphones have to be calibrated. You can do a full calibration with one or more people aged between 18 and 35 who hear normally, or a quick calibration at 1000 Hz only, where the other frequencies are worked out from the ISO 226:2003 standard. After that you can run full tests, test single frequencies by hand, and back up your results.\n\nYour headphones must not have their own volume control, loudness boost or equaliser, or the numbers will be meaningless. And this is a home screening tool, not a clinic: if it suggests hearing loss, that is a reason to see a professional, not a diagnosis.",
+  "repo": "https://github.com/woheller69/audiometry",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.audiometry",
+  "tags": [
+    "hearing",
+    "audiogram",
+    "ears",
+    "test",
+    "health",
+    "audiometry"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "comaps",
+  "name": "CoMaps",
+  "tagline": "Offline maps and directions that keep your trips private",
+  "description": "CoMaps is an offline map app built on OpenStreetMap. Download the countries or regions you need once, then search for streets, shops, restaurants and landmarks, get walking, cycling or driving directions with spoken turn-by-turn guidance, and save the places you like — all of it working with the phone in aeroplane mode.\n\nIt is as much for getting outdoors as for getting across town. Hiking trails, campsites, drinking water, peaks and contour lines are drawn on the map, and you can record a track and export it as GPX, KML or KMZ. There are also offline Wikipedia articles for places, a subway layer with transit directions, a dark mode, Android Auto support, and a small built-in editor so you can fix mistakes on the map for everyone.\n\nCoMaps is a community fork of Organic Maps, run as a not-for-profit with public finances and governance. There are no adverts and no tracking. Maps are large files, so leave room on your phone for the regions you download.",
+  "repo": "https://github.com/comaps/comaps",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "website": "https://www.comaps.app",
+  "fdroid": "app.comaps.fdroid",
+  "tags": [
+    "maps",
+    "navigation",
+    "offline",
+    "gps",
+    "hiking",
+    "openstreetmap"
+  ],
+  "added": "2026-08-24"
+}

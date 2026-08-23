@@ -1,0 +1,18 @@
+{
+  "id": "cresto",
+  "name": "Cresto",
+  "tagline": "A to-do list that reads tasks out of text and photos",
+  "description": "Cresto is a task app with the usual pieces — todos, subtasks, due dates, reminders and a calendar view — plus an insights page that shows how much you are actually finishing.\n\nWhat makes it different is how tasks get in. Share a message, a screenshot or a photo of a note to Cresto and it pulls out the task, the date, the time and any subtasks for you. Todos can be pushed into your Android calendar by hand or automatically, and everything exports to a JSON file you keep yourself, with the option to skip duplicates when you import it somewhere else.\n\nThe AI parts need your own API key, entered in Settings. It defaults to BigModel's glm-4-flash endpoint but ships with no key, and you can point it at any other chat-completions service that accepts the same text and image format. Grabbing tasks from whatever is on screen also needs Shizuku. Cresto is in active alpha, so details change quickly.",
+  "repo": "https://github.com/Nevodev/Cresto",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": [
+    "todo",
+    "tasks",
+    "reminders",
+    "calendar",
+    "productivity",
+    "ai"
+  ],
+  "added": "2026-08-24"
+}

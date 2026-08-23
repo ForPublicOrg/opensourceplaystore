@@ -1,0 +1,13 @@
+{
+  "id": "goodtime",
+  "name": "Goodtime",
+  "tagline": "A focus timer for one task at a time",
+  "description": "Goodtime helps you sit down and concentrate. Use the classic pomodoro pattern of focus sessions with short breaks and a longer one every few rounds, or the count-up flow timer, which lets you keep going while you are in the zone and builds up break time as you do.\n\nIt is deliberately plain: no ads, no tracking, a quiet screen while the timer runs, optional Do Not Disturb during a session, and statistics afterwards so you can see how much focused time you really put in. Coloured labels keep study time and work time apart.\n\nThe Play Store version sells a Pro upgrade, but this build has everything unlocked and simply asks for a donation. One practical note: some phones kill background apps to save battery, so turn off battery optimisation for Goodtime if your alarms arrive late.",
+  "repo": "https://github.com/adrcotfas/goodtime",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://goodtime.tools/",
+  "fdroid": "com.apps.adrcotfas.goodtime",
+  "tags": ["pomodoro", "timer", "focus", "study", "productivity"],
+  "added": "2026-08-24"
+}

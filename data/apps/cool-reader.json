@@ -1,0 +1,19 @@
+{
+  "id": "cool-reader",
+  "name": "Cool Reader",
+  "tagline": "Read almost any ebook format, out loud if you like",
+  "description": "Cool Reader opens the formats other readers give up on: EPUB, FB2 and FB3, MOBI, RTF, plain text, HTML, CHM help files, Word and OpenDocument files, comic archives and old Palm books. Everything stays on your device — no account, no cloud shelf, no connection needed.\n\nYou get unusually fine control over the page, including proper hyphenation in a long list of languages, and you can switch a book's own styling off if you would rather read it your way. It reads aloud through your phone's speech engine with a choice of voice and speed, looks up words in dictionary apps you already have installed, and can fetch books from OPDS catalogues.\n\nThe project has been going since 1998 and the Android app shows it. The interface is dense and old-fashioned next to newer readers, with a lot of settings to wade through. It is not a PDF reader, and it cannot open books locked with DRM.",
+  "repo": "https://github.com/buggins/coolreader",
+  "category": "reading",
+  "license": "GPL-2.0",
+  "tags": [
+    "ebook",
+    "reader",
+    "epub",
+    "fb2",
+    "mobi",
+    "offline",
+    "tts"
+  ],
+  "added": "2026-08-24"
+}

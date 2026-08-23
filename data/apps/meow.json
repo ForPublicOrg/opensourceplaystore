@@ -1,0 +1,19 @@
+{
+  "id": "meow",
+  "name": "Meow",
+  "tagline": "Send your phone's traffic through a proxy you choose",
+  "description": "Meow is a Clash and mihomo client for Android. You add a subscription or paste in a config, pick which server to use, and flip the switch. Your phone's traffic then travels through that server instead of going out directly.\n\nIt handles Shadowsocks, Trojan and AnyTLS connections, and its rule engine decides per site or per app what goes through the proxy and what goes straight out. Live screens show your speed, open connections, logs and matched rules, and you can choose exactly which apps use the tunnel.\n\nYou supply the server yourself, either your own or one from a provider. Meow is only the client.",
+  "repo": "https://github.com/madeye/meow",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://madeye.github.io/meow/",
+  "tags": [
+    "proxy",
+    "vpn",
+    "clash",
+    "mihomo",
+    "shadowsocks",
+    "tunnel"
+  ],
+  "added": "2026-08-24"
+}

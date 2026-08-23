@@ -1,0 +1,12 @@
+{
+  "id": "a-flash-deck",
+  "name": "Flash Deck",
+  "tagline": "Make flash cards and quiz yourself until it sticks",
+  "description": "Flash Deck is a study app built on the old trick that still works: put a question on one side of a card, the answer on the other, and keep testing yourself until you remember. You can attach pictures and voice recordings to a card, and mark a card as reversible so it also quizzes you the other way round.\n\nQuestions and answers can use Markdown with LaTeX maths, so formulas come out looking right. A timer can drop a random card into your notifications during the hours you choose, and play back the voice recording you attached to it, straight from the notification. Decks can be exported and shared with a friend, or swapped with Anki using .apkg files.\n\nThe Anki import only handles Basic cards, so cloze cards and Anki's own scheduling are skipped. There is also an optional deck generator that uses Google Gemini, which needs your own API key before it will do anything.",
+  "repo": "https://github.com/rh-id/a-flash-deck",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "m.co.rh.id.a_flash_deck",
+  "tags": ["flashcards", "study", "learning", "revision", "anki", "memory"],
+  "added": "2026-08-24"
+}

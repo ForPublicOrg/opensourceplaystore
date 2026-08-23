@@ -1,0 +1,20 @@
+{
+  "id": "harmonic",
+  "name": "Harmonic",
+  "tagline": "Read Hacker News and follow the comment threads",
+  "description": "Harmonic is a Hacker News reader built around the comments. Threads fold and unfold smoothly so long arguments stay easy to follow, and a built-in reader mode strips a linked article down to plain text without sending you off to a browser.\n\nSign in with your Hacker News account to vote, reply, submit links and see your favourites and past upvotes. There is a lot you can adjust — themes, colours and dozens of small preferences — the result of years of daily use and tinkering by its author.\n\nIt is a client for Hacker News itself, so it needs a connection, and an account on news.ycombinator.com if you want to take part rather than just read.",
+  "repo": "https://github.com/SimonHalvdansson/Harmonic-HN",
+  "category": "social",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "hackernews",
+    "news",
+    "reader",
+    "comments",
+    "tech"
+  ],
+  "added": "2026-08-24"
+}

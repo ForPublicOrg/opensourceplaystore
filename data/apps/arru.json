@@ -1,0 +1,18 @@
+{
+  "id": "arru",
+  "name": "Arru",
+  "tagline": "Track what you spend, shop by shop",
+  "description": "Arru keeps a record of your shopping. Each trip is a basket, and inside it you can note the individual items with their shop, category and producer, or just log the total if that is all you have time for. Over a few weeks it turns into a clear picture of where the money actually goes.\n\nCharts rank your categories and shops by how much you have spent, and because prices are tied to shops you can see where a thing costs less. Duplicate shops, products, producers or categories can be merged when your records get untidy, and there are local backups and a data export so your history stays yours.\n\nEverything is kept on the phone. The developer warns that a copy on Google Play is not theirs; the official builds come from GitHub and IzzyOnDroid.",
+  "repo": "https://github.com/KSSidll/Arru",
+  "category": "productivity",
+  "license": "BSD-3-Clause-Clear",
+  "tags": [
+    "expenses",
+    "budget",
+    "spending",
+    "money",
+    "shopping",
+    "tracker"
+  ],
+  "added": "2026-08-24"
+}

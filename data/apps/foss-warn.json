@@ -1,0 +1,19 @@
+{
+  "id": "foss-warn",
+  "name": "FOSS Warn",
+  "tagline": "Government emergency alerts without Google services",
+  "description": "FOSS Warn tells you when something dangerous is happening near you — a flood, a storm, a chemical leak, a bomb disposal a few streets away. It collects official warnings from more than a hundred countries and can show them on a map, so you get told without your phone depending on Google's alert system.\n\nWarnings come from the FOSS Public Alert Server, which gathers the official government feeds in one place, and arrive as push notifications through UnifiedPush.\n\nTwo things to know first. FOSS Warn is unofficial and is not run by any authority, and how well it covers your area depends on what your country publishes — the project keeps a list of supported countries. To get push notifications you also need a UnifiedPush app installed alongside it.",
+  "repo": "https://github.com/nucleus-ffm/foss_warn",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "de.nucleus.foss_warn",
+  "tags": [
+    "emergency",
+    "alerts",
+    "warnings",
+    "disaster",
+    "safety",
+    "weather"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "seal",
+  "name": "Seal",
+  "tagline": "Save video and music from the web to your phone",
+  "description": "Seal downloads video and audio from the long list of sites that yt-dlp supports, so you can keep a clip or a track and watch or listen with no connection. Paste a link, pick video or audio, and it saves to your phone. A whole playlist can come down in one go.\n\nWhen you pull the audio out of a video, Seal writes the title, artist and cover art into the file so your music player shows it properly. It can embed subtitles into videos, use aria2c to fetch files faster, and — if you know yt-dlp — run your own commands from saved templates. The design is clean Material You that picks up your wallpaper colours.\n\nThe sites it downloads from belong to other companies and change what they allow often, so a link that worked last month may stop working. Please respect the rights of whoever made what you are saving.",
+  "repo": "https://github.com/JunkFood02/Seal",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "fdroid": "com.junkfood.seal",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "downloader",
+    "video",
+    "audio",
+    "yt-dlp",
+    "offline",
+    "music"
+  ],
+  "added": "2026-08-24"
+}

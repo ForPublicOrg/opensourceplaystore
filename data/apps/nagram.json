@@ -1,0 +1,12 @@
+{
+  "id": "nagram",
+  "name": "Nagram",
+  "tagline": "A Telegram fork with translation and proxy tools",
+  "description": "Nagram is an unofficial Telegram app based on NekoX. It uses your normal Telegram account and keeps the familiar layout, then piles on extras: translate messages, selected text and articles, undo and redo while typing, combine messages, forced copy, unlimited logged-in accounts, a scrollable chat preview, and noise suppression for voice messages.\n\nWhere it really goes further is proxies. It has built-in support for VMess, Shadowsocks, SSR and Trojan proxies, proxy subscriptions in many formats, import by QR code, speed testing, sorting and automatic switching — handy in places where Telegram is blocked.\n\nTwo things to know: it is an unofficial client, so Telegram's servers and rules still apply, and the project notes that the bundled proxy support is no longer actively maintained.",
+  "repo": "https://github.com/NextAlone/Nagram",
+  "category": "social",
+  "license": "GPL-3.0",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["telegram", "messaging", "chat", "proxy", "translation", "fork"],
+  "added": "2026-08-24"
+}

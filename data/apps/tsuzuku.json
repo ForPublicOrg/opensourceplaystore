@@ -1,0 +1,12 @@
+{
+  "id": "tsuzuku",
+  "name": "Tsuzuku",
+  "tagline": "Track daily habits and stay off your phone with a focus timer",
+  "description": "Tsuzuku, which means 'to keep going', helps you do the small things every day. Add the habits you want to build, tick them off as you go, and watch the streaks grow. The insights screen shows your best runs, a yearly heatmap and how consistent you have been, and a daily reminder can nudge you if you forget.\n\nFocus mode runs a timer for a block of work and counts how often you pick the phone up, with an allowance for slips and an option to turn on Do Not Disturb. If you want to go further, Tsuzuku can act as your home screen: a plain launcher with a clock and only the apps you decided to let yourself open. Habit names are encrypted on the device, and you can export everything to a backup file.\n\nThe launcher part is optional. You can use the habit tracker and focus timer on their own and leave your normal home screen as it is.",
+  "repo": "https://github.com/agupta07505/Tsuzuku",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://tsuzuku-web.vercel.app/",
+  "tags": ["habits", "tracker", "streaks", "focus", "launcher", "reminders"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "whisper-ime",
+  "name": "Whisper IME",
+  "tagline": "Speak instead of typing, without sending your voice away",
+  "description": "Whisper IME is a voice keyboard. Hold the button, say what you want to write, and it types it out \u2014 using OpenAI's Whisper speech recognition running on the phone itself, so nothing you say is sent to a company's servers.\n\nYou can use it as a standalone app, as a keyboard, or set it as Android's system-wide voice input so the microphone button in other keyboards and apps uses it instead. As a standalone app it can also translate speech in other languages into English. There are two models: a small fast English-only one and a much slower multilingual one.\n\nOn first launch it downloads about 435 MB of models from Hugging Face \u2014 that is the only time it needs the internet, so do it on Wi-Fi. Each recording is limited to 30 seconds, and setting it as system voice input sometimes needs an adb command, explained in the project's readme.",
+  "repo": "https://github.com/woheller69/whisperIME",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "org.woheller69.whisper",
+  "tags": ["speech to text", "voice", "keyboard", "dictation", "whisper", "offline"],
+  "added": "2026-08-24"
+}

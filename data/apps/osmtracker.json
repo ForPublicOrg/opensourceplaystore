@@ -1,0 +1,19 @@
+{
+  "id": "osmtracker",
+  "name": "OSMTracker",
+  "tagline": "Record a GPS track with notes, photos and voice memos",
+  "description": "OSMTracker logs where you walk, ride or drive, and lets you mark things as you pass them. The big buttons on the main screen are for tagging what you see — a bench, a gate, a junction — and you can also take a photo, record a voice note or type a comment straight into the track.\n\nEverything ends up in a GPX file you can export. It was made for people who add detail to OpenStreetMap, but it works just as well for keeping a record of a hike or surveying somewhere new.\n\nThe button layout is fully customisable, so you can set it up for whatever you are actually out there mapping.",
+  "repo": "https://github.com/labexp/osmtracker-android",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "fdroid": "net.osmtracker",
+  "tags": [
+    "gpx",
+    "gps",
+    "openstreetmap",
+    "tracking",
+    "mapping",
+    "hiking"
+  ],
+  "added": "2026-08-24"
+}

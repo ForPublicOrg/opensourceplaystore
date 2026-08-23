@@ -1,0 +1,20 @@
+{
+  "id": "netguard",
+  "name": "NetGuard",
+  "tagline": "Block any app from using the internet, no root",
+  "description": "NetGuard lets you decide which apps are allowed online. Tap the icons next to an app to cut off its Wi-Fi or its mobile data, and it stays cut off. Less data used, less battery drained, and fewer apps quietly reporting back about you.\n\nNo root is needed. NetGuard uses Android's own VPN slot to do the filtering on the phone itself, so nothing is sent to anyone else. Start from \"allow everything, block the troublemakers\", or flip it round and block everything until you say otherwise.\n\nBecause it sits in the VPN slot, it cannot run at the same time as an actual VPN app. Some extras, such as logging every connection attempt and rules for individual addresses, are paid unlocks.",
+  "repo": "https://github.com/M66B/NetGuard",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://www.netguard.me/",
+  "fdroid": "eu.faircode.netguard",
+  "tags": [
+    "firewall",
+    "privacy",
+    "block",
+    "data",
+    "internet",
+    "tracking"
+  ],
+  "added": "2026-08-24"
+}

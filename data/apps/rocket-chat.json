@@ -1,0 +1,19 @@
+{
+  "id": "rocket-chat",
+  "name": "Rocket.Chat",
+  "tagline": "Team chat for the Rocket.Chat server you use",
+  "description": "This is the official mobile app for Rocket.Chat, the team chat platform that companies, schools and communities run for themselves. Sign in to your server and you get channels, teams, discussions, threaded replies, direct messages and message search on your phone.\n\nPrivate groups and direct messages can be end-to-end encrypted. Video calls are there too, but only if whoever runs your server has switched a conference-call provider on. An organisation that hosts its own server keeps messages on machines it controls.\n\nYou need the address of a Rocket.Chat server and an account on it before you can use this — the app is the client, not the chat service. Servers running version 0.70 or newer are supported, and the app needs Android 6.0 or later.",
+  "repo": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
+  "category": "social",
+  "license": "MIT",
+  "website": "https://rocket.chat",
+  "tags": [
+    "chat",
+    "team",
+    "messaging",
+    "work",
+    "channels",
+    "selfhosted"
+  ],
+  "added": "2026-08-24"
+}

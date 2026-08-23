@@ -1,0 +1,11 @@
+{
+  "id": "openaudiobookify",
+  "name": "OpenAudioBookify",
+  "tagline": "Turn your ebooks into spoken audiobooks on your phone",
+  "description": "OpenAudioBookify reads your books out loud and saves the result as a file. Pick one or more plain text, Markdown, HTML or EPUB documents, choose a folder for the output, and it produces an M4A audio file you can load into your favourite podcast or audiobook player.\n\nAll of it happens on the phone. It speaks using whichever text-to-speech engine and voices you already have installed, and uses the phone's own audio encoder for the finished file. No cloud service, no account, no subscription. Before you start you can set the engine, voice, speaking rate, pitch and the output bitrate.\n\nA whole book can take many minutes to render, so allow the notification it asks for and set the app to unrestricted battery use, or Android may quietly stop it partway through. The reading voice is a machine voice, not a narrator, and for now the app is only available from its GitHub releases page.",
+  "repo": "https://github.com/alzwded/OpenAudioBookify",
+  "category": "reading",
+  "license": "BSD-2-Clause",
+  "tags": ["audiobook", "ebook", "epub", "tts", "speech", "offline"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "timer-machine",
+  "name": "Timer Machine",
+  "tagline": "Build repeating timers for workouts, cooking or study",
+  "description": "Timer Machine is an interval timer you build yourself: a warm-up, eight rounds of thirty seconds with rests between them, then a cool-down. Good for HIIT and gym sessions, running, stretching, yoga, and just as good for study blocks, daily routines or a presentation.\n\nEvery stage can remind you how you want: a sound from your own music, a spoken phrase read out by the phone, a vibration pattern, a beep, a halfway warning or a full-screen notification. Timers keep running in the background and show progress in a notification, you can float one over other apps in picture-in-picture, put a shortcut on your home screen, run several at once, schedule one for a set time or repeat it weekly, and back the whole lot up.\n\nThis is the build made for stores outside Google Play. It leaves out the in-app purchases and the Google services the Play version uses, so a few extras from that version are missing and your backups are files you save yourself rather than copies kept in the cloud.",
+  "repo": "https://github.com/timer-machine/timer-machine-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": [
+    "timer",
+    "interval",
+    "hiit",
+    "workout",
+    "stopwatch",
+    "pomodoro",
+    "countdown"
+  ],
+  "added": "2026-08-24",
+  "fdroid": "io.github.deweyreed.timer.other"
+}

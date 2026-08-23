@@ -1,0 +1,19 @@
+{
+  "id": "qaul",
+  "name": "qaul",
+  "tagline": "Chat and share files with people nearby, even with no internet",
+  "description": "qaul lets phones talk straight to each other. It builds a small wireless network out of everyone running the app, over Bluetooth and local Wi-Fi, so you can send messages, photos, files and voice notes with no mobile signal, no router and no company's servers in the middle.\n\nDirect messages are encrypted end to end, and every person has their own cryptographic identity instead of a phone number or an account. Messages can hop from one phone to the next, so two people out of range of each other can still be connected through someone standing between them. The same app also runs on Linux, macOS and Windows, which can act as fixed points in the network.\n\nA network like this only works when the people around you are running it too, and Bluetooth range is short. Version 2 is still a release candidate, so expect rough edges.",
+  "repo": "https://github.com/qaul/qaul.net",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://qaul.net",
+  "tags": [
+    "mesh",
+    "offline",
+    "chat",
+    "bluetooth",
+    "messaging",
+    "p2p"
+  ],
+  "added": "2026-08-24"
+}

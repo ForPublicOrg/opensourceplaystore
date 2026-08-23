@@ -1,0 +1,18 @@
+{
+  "id": "broccoli",
+  "name": "Broccoli",
+  "tagline": "Your own recipe collection, with a seasonal calendar",
+  "description": "Broccoli is somewhere to keep the recipes you actually cook. Type them in yourself or pull them in from a food blog with a link, sort them with categories and hashtags, and read them back offline whenever you need them.\n\nWhen you start cooking, a fullscreen assistant shows the recipe without anything else getting in the way, and you can scale the ingredient amounts up or down for however many people are eating. A seasonal calendar tells you what is growing in your region right now, and seasonal ingredients are marked in your own recipes so you can cook with them.\n\nNo account and no cloud — the recipes sit on your phone and you make your own backup file. Importing from a link only works on sites that publish their recipes in a machine-readable form, so a few blogs will not come across.",
+  "repo": "https://github.com/flauschtrud/broccoli",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.flauschcode.broccoli",
+  "tags": [
+    "recipes",
+    "cooking",
+    "seasonal",
+    "food",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

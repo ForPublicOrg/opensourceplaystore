@@ -1,0 +1,12 @@
+{
+  "id": "tabletop-tools",
+  "name": "Tabletop Tools",
+  "tagline": "Dice, timers and buzzers for board game night",
+  "description": "Tabletop Tools stands in for the small pieces that always go missing from a board game box. It rolls dice in every usual shape, from a D3 up to a D100, runs a timer with a sound at the end, gives one to four players their own buzzer for quiz rounds, and shuffles a list of names into a random order when you need to decide who goes first.\n\nThere are two extras for puzzle games as well: a ROT13 encoder for hiding and revealing clues, and a converter between decimal, binary and hexadecimal.\n\nNothing to set up and no account to make. Open it, tap the tool you need, put the phone back on the table.",
+  "repo": "https://github.com/mueller-ma/TabletopTools",
+  "category": "games",
+  "license": "Apache-2.0",
+  "fdroid": "com.github.muellerma.tabletoptools",
+  "tags": ["dice", "board games", "timer", "buzzer", "random", "tabletop"],
+  "added": "2026-08-24"
+}

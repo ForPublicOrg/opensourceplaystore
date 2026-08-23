@@ -1,0 +1,13 @@
+{
+  "id": "standard-notes",
+  "name": "Standard Notes",
+  "tagline": "Encrypted notes built to still be readable in 20 years",
+  "description": "Standard Notes keeps your writing in an end-to-end encrypted account, so only you can open it. It syncs to as many devices as you like without paying, and the app stays deliberately plain \u2014 a list of notes and somewhere to type \u2014 so nothing gets between you and the writing.\n\nThe project cares a lot about lasting: simple formats, published source code, and clear instructions for running your own sync server if you would rather not use theirs. You can tag notes, lock individual ones behind a passcode, and export the lot at any time in plain or encrypted form.\n\nYou create an account to get started, and encrypted sync on unlimited devices is part of the free version. The free plan is plain text only, though — Markdown and rich text, folders, spreadsheets and file storage all sit behind a paid plan. Self-hosting the sync server is an option either way.",
+  "repo": "https://github.com/standardnotes/app",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://standardnotes.com",
+  "fdroid": "com.standardnotes",
+  "tags": ["notes", "encrypted", "sync", "markdown", "privacy", "self-hosted"],
+  "added": "2026-08-24"
+}

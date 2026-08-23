@@ -1,0 +1,11 @@
+{
+  "id": "coon-gallery",
+  "name": "Coon Gallery",
+  "tagline": "Find photos by searching for what's in them",
+  "description": "Coon Gallery is a private gallery for your photos and videos. It does everything you expect — albums, editing, sharing, moving, copying and deleting, with hold-and-drag to select a run of pictures at once — and it picks up the trash and favourites you set in other apps. The built-in video player handles zoom, multi-tap seeking, picture-in-picture, playback speed, subtitles and audio tracks.\n\nThe unusual part is search. Link an album folder to a metadata file and you can search by what is actually in a picture: type \"cat\" and the photos with a cat in them come up. It also backs albums up over your own wi-fi to a computer, never to a cloud service.\n\nThose two features need the companion desktop app, Coon Gallery PC, running on a computer on the same network to generate the metadata and receive the backups. Without it you still get a good-looking Material You gallery, just an ordinary one.",
+  "repo": "https://github.com/BOTPanzer/Coon-Gallery",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["gallery", "photos", "videos", "search", "privacy", "backup"],
+  "added": "2026-08-24"
+}

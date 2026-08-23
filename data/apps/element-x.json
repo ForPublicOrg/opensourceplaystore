@@ -1,0 +1,20 @@
+{
+  "id": "element-x",
+  "name": "Element X",
+  "tagline": "Fast Matrix messaging and video calls",
+  "description": "Element X is the current Matrix messenger from Element. Matrix is an open chat network: anyone can run a server, and people on different servers still message each other normally. You get private one-to-one chats, private and public rooms, video calls, emoji reactions, replies, polls and pinned messages.\n\nIt is a complete rewrite of the older Element app, built on the Matrix Rust SDK, which makes starting up and syncing your rooms noticeably quicker. You choose where your account lives — the big free server at matrix.org, a smaller community one, or your own — and you can talk to friends using FluffyChat, Cinny and other Matrix apps.\n\nIt is a separate app from the older Element Classic rather than an update to it, though the Element team now points new users here. Needs Android 7 or newer.",
+  "repo": "https://github.com/element-hq/element-x-android",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://element.io",
+  "fdroid": "io.element.android.x",
+  "tags": [
+    "matrix",
+    "chat",
+    "messenger",
+    "video calls",
+    "encrypted",
+    "element"
+  ],
+  "added": "2026-08-24"
+}

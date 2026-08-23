@@ -1,0 +1,12 @@
+{
+  "id": "music-player-lite",
+  "name": "Music Player Lite",
+  "tagline": "A light, ad-free player for the music on your phone",
+  "description": "Music Player Lite plays the audio files you already have on your phone. It finds them by itself and sorts everything into albums, artists and folders, with a search box for when you know what you are after. No ads, no account, no internet.\n\nIt is built to stay small and go easy on the battery. You get a queue with shuffle and repeat, controls on the lock screen and in the notification shade, headset buttons, a sleep timer, dark and light themes, and a choice of accent colour. Folders you would rather not see in your library can be hidden.\n\nIt is a straightforward player rather than a full library manager. Playlists were removed after causing problems and have not come back, and the developer's own notes say the equalizer and tag editor still need work.",
+  "repo": "https://github.com/ap-atul/music_player_lite",
+  "category": "media",
+  "license": "Unlicense",
+  "fdroid": "com.atul.musicplayer",
+  "tags": ["music", "player", "audio", "offline", "mp3", "folders", "lightweight"],
+  "added": "2026-08-24"
+}

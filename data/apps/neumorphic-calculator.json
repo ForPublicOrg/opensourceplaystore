@@ -1,0 +1,12 @@
+{
+  "id": "neumorphic-calculator",
+  "name": "Neumorphic Calculator",
+  "tagline": "A soft-looking calculator that keeps your past sums",
+  "description": "Neumorphic Calculator handles everyday sums, with soft raised buttons that look pressed out of the background rather than drawn on top of it. Every calculation you do goes into a history list, so you can scroll back and reuse an answer instead of typing it out again.\n\nYou can make it look how you like: light and dark themes that follow your phone, a choice of colour schemes, different button shapes, and your own font.\n\nIt is built with Flutter and also runs on iPhone, though Apple's rules mean you have to sideload it there rather than install it normally.",
+  "repo": "https://github.com/mllrr96/Neumorphic-Calculator",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "com.ragheb.neumorphic_calculator",
+  "tags": ["calculator", "math", "history", "themes", "flutter"],
+  "added": "2026-08-24"
+}

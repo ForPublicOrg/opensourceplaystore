@@ -1,0 +1,20 @@
+{
+  "id": "repertoire",
+  "name": "Repertoire",
+  "tagline": "Keep your sheet music, recordings and practice notes in one place",
+  "description": "Repertoire is a library for the pieces you perform. Whether you play an instrument, dance, or do magic, every piece gets its own entry holding the sheet music, notes, photos, recordings and video links that belong to it, plus a record of the last time you practised it.\n\nPDFs open inside the app, notes are written in Markdown so lyrics and annotations stay readable, and audio files can be slowed down or pitch-shifted while you work something out. Search by title, composer or tag, filter by genre and difficulty, and sort by whatever you have left alone the longest. The whole library can be backed up to a single file, by hand or on a schedule, to a folder you choose.\n\nThere are Windows, Linux and web builds as well as the Android app. It is still a young project, so some corners are rougher than others.",
+  "repo": "https://github.com/Adithya-Jayan/MyRepertoirApp",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "website": "https://adithyajayan.in/MyRepertoirApp/",
+  "fdroid": "io.github.adithya_jayan.myrepertoirapp.fdroid",
+  "tags": [
+    "music",
+    "practice",
+    "sheet music",
+    "musician",
+    "recordings",
+    "library"
+  ],
+  "added": "2026-08-24"
+}

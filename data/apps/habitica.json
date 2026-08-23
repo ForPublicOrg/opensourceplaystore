@@ -1,0 +1,13 @@
+{
+  "id": "habitica",
+  "name": "Habitica",
+  "tagline": "Turn your habits and to-dos into a role-playing game",
+  "description": "Habitica treats your real life like a role-playing game. Ticking off a habit, a daily task or a to-do earns your character experience and gold; letting them slide costs you health. You spend what you earn on gear, pets and rewards you have set for yourself.\n\nA lot of it is social. You can join a party with friends, fight bosses together, and feel the sting when someone in the group skips their dailies. This is the official Android app for habitica.com, and the service behind it is open source too.\n\nYou need a free Habitica account, because your tasks live on the server rather than on the phone. There is an optional paid subscription and in-app currency for cosmetic extras, and the app includes crash reporting and usage analytics.",
+  "repo": "https://github.com/HabitRPG/habitica-android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://habitica.com",
+  "antiFeatures": ["tracking"],
+  "tags": ["habits", "tasks", "todo", "rpg", "gamification", "productivity"],
+  "added": "2026-08-24"
+}

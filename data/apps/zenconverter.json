@@ -1,0 +1,20 @@
+{
+  "id": "zenconverter",
+  "name": "ZenConverter",
+  "tagline": "Convert files to other formats on your phone, nothing uploaded",
+  "description": "ZenConverter turns files into other formats right on your phone. Videos, music, photos, PDFs, office documents, subtitles and fonts are all handled on the device itself, so your files are never uploaded to someone else's server to be converted.\n\nPick a file, choose what you want out of it, and the job runs in the background while you carry on. You can shrink or trim a video, save a clip as a GIF, pull the audio out of it, turn photos into a PDF, merge PDFs, add or remove a PDF password, enlarge a small picture, or strip the hidden camera and location data out of an image. No ads, no account, no paywall.\n\nSome parts are still marked beta. Office documents convert but the layout will not match exactly, HEIC photos depend on what your phone can decode, and long video jobs need free storage, memory and battery, so leave the phone alone while one is running.",
+  "repo": "https://github.com/Jasonzhu1207/ZenConverter",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://zenconverter.xlab.my",
+  "tags": [
+    "converter",
+    "video",
+    "pdf",
+    "image",
+    "audio",
+    "offline",
+    "ffmpeg"
+  ],
+  "added": "2026-08-24"
+}

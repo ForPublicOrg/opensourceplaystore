@@ -1,0 +1,12 @@
+{
+  "id": "neko",
+  "name": "Neko",
+  "tagline": "Read manga from MangaDex on your phone",
+  "description": "Neko is a reader for MangaDex, the free online manga library. Sign in with your MangaDex account and the series you follow, your MDList and your reading progress stay in step with the website, so you can pick up on the phone where you left off in a browser.\n\nDownload chapters to read on a plane or the underground, get recommendations for similar titles, and sync what you have read with MyAnimeList, AniList, Kitsu, MangaUpdates or MangaBaka. Where MangaDex is missing chapters of a series, Neko can fill the gaps from other sources, including a Komga or Suwayomi server you run yourself.\n\nIt is an unofficial app, not made by MangaDex, and it hosts no manga itself: everything you read comes from MangaDex or from the sources you connect. Needs Android 8 or newer.",
+  "repo": "https://github.com/nekomangaorg/Neko",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["manga", "mangadex", "reader", "comics", "offline", "webtoon"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

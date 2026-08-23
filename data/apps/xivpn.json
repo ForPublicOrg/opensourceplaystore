@@ -1,0 +1,12 @@
+{
+  "id": "xivpn",
+  "name": "XiVPN",
+  "tagline": "Route your internet through your own private proxy servers",
+  "description": "XiVPN sends your phone's internet traffic through proxy servers you already have access to, using Android's built-in VPN switch. It is a plain-language front end for Xray, which speaks VLESS, VMess, Trojan, Shadowsocks and other protocols that tend to keep working in places where ordinary VPNs are blocked.\n\nYou can chain several servers one after another so no single hop sees the whole picture, keep your servers in groups and swap between them with a tap, and set rules that send some addresses or domains through one server and let the rest go out normally. The Xray core runs as its own separate process, so a crash there does not take the whole app down with it.\n\nSetting it up would otherwise mean hand-writing JSON config files, which is the problem this app solves. It is not a VPN service though: it comes with no servers, so you need your own subscription or your own server and its connection details first.",
+  "repo": "https://github.com/Exclude0122/xivpn",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.exclude0122.xivpn",
+  "tags": ["vpn", "proxy", "xray", "vless", "shadowsocks", "tunnel", "censorship"],
+  "added": "2026-08-24"
+}

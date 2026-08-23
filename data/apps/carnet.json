@@ -1,0 +1,22 @@
+{
+  "id": "carnet",
+  "name": "Carnet",
+  "tagline": "Rich notes that sync with your Nextcloud",
+  "description": "Carnet is a note-taking app with a real editor behind it: bold and italic, colours and highlighting, images you can crop, to-do lists, audio recordings, keywords and folders to keep it all sorted. Notes are saved as HTML, so they are not locked into a private format.\n\nSync is the reason to pick it. Point Carnet at your Nextcloud or ownCloud server and the same notes show up in the desktop app and in the Nextcloud web version. You can search across all your notes and put a PIN on the app, though the PIN locks the app rather than encrypting the notes.\n\nIts author still calls it a beta. F-Droid flags it for tracking, because it contacts the developer's own servers without asking you first. The Google Drive sync in the Play Store version is stripped out of the F-Droid build, so Nextcloud or ownCloud is your option here.",
+  "repo": "https://github.com/CarnetApp/CarnetAndroid",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://getcarnet.app",
+  "fdroid": "com.spisoft.quicknote",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "notes",
+    "notepad",
+    "nextcloud",
+    "sync",
+    "todo"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "termuc",
+  "name": "TermuC",
+  "tagline": "Write and run C and C++ code on your phone",
+  "description": "TermuC is a small C and C++ editor for Android. You write code on your phone and then build and run it, without a computer anywhere in the loop. It colours your code, completes as you type, formats it, jumps to definitions, renames symbols, suggests fixes and shows compiler errors right where they happen. It keeps your files organised as projects, and there is a dark mode.\n\nThe trick is that TermuC does not carry its own compiler. It hands the real work to Termux, the Linux environment app, and talks to the clangd language server running inside it. That keeps TermuC small and gives you a proper toolchain instead of a toy one.\n\nSo you do need Termux installed first, and you need to follow the project's Setup guide to get clang, clangd and netcat installed inside it. Skip that step and TermuC will not build anything.",
+  "repo": "https://github.com/RainbowC0/TermuC",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "c",
+    "cpp",
+    "programming",
+    "ide",
+    "termux",
+    "editor",
+    "compiler"
+  ],
+  "fdroid": "cn.rbc.termuc",
+  "added": "2026-08-24"
+}

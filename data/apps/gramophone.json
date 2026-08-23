@@ -1,0 +1,12 @@
+{
+  "id": "gramophone",
+  "name": "Gramophone",
+  "tagline": "A clean player for the music already on your phone",
+  "description": "Gramophone plays the music files stored on your device. It reads them through Android's own media index, so your library shows up fast and stays current, and you can browse by album, artist, playlist, folder or plain filesystem, in a list or a grid, with sensible natural sorting.\n\nIt shows synced lyrics from LRC, TTML and SRT files, including word-by-word karaoke timing, supports ReplayGain 2.0 so albums do not jump in volume, and hands off to your system or third-party equaliser. The look follows Material 3 closely, with player colours drawn from the album art and a themed icon on Android 12 and newer.\n\nIt is deliberately light and minimal, and it plays only what is already on your phone — there is no streaming service behind it.",
+  "repo": "https://github.com/FoedusProgramme/Gramophone",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "org.akanework.gramophone",
+  "tags": ["music-player", "offline", "local-music", "material-design", "lyrics", "replaygain"],
+  "added": "2026-08-24"
+}

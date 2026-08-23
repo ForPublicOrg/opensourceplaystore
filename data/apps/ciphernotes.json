@@ -1,0 +1,12 @@
+{
+  "id": "ciphernotes",
+  "name": "CipherNotes",
+  "tagline": "Private notes that never leave your phone",
+  "description": "CipherNotes is a small notes and to-do app that keeps everything on your device. Notes are encrypted with AES-256 through your phone's own keystore, so what sits on disk is unreadable to anything that gets hold of it.\n\nThere are no accounts and no cloud sync. The app does not even ask for internet permission, which means it could not send your notes anywhere if it tried. It uses Material You colours with light and dark modes, and you can share text into it from your browser or any other app.\n\nWith no sync there is no recovery either: forget your password and those notes stay locked for good, which is the whole point. The author suggests keeping the password in a password manager, and copying the files yourself with something like Syncthing or Nextcloud if you want them on a second device.",
+  "repo": "https://github.com/CipherApps/cipher-notes",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://cipherapps.github.io/",
+  "tags": ["notes", "encryption", "privacy", "offline", "todo", "notepad"],
+  "added": "2026-08-24"
+}

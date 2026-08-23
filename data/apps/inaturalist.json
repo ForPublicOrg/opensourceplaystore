@@ -1,0 +1,13 @@
+{
+  "id": "inaturalist",
+  "name": "iNaturalist",
+  "tagline": "Find out what plant or animal you just saw",
+  "description": "Photograph a flower, insect, bird or mushroom and iNaturalist suggests what it is. Naturalists on the site then confirm or correct that guess, so you end up with an answer a person has actually checked.\n\nEvery sighting you post becomes an observation with a date and a place, and researchers use that data to study where species live and how they are shifting. You can browse what other people have found near you and build up a list of everything you have seen.\n\nYou need a free iNaturalist.org account and an internet connection, because identification happens on their servers rather than on your phone. The app also relies on Google Maps and Google Play Services and includes crash reporting.",
+  "repo": "https://github.com/inaturalist/iNaturalistAndroid",
+  "category": "education",
+  "license": "MIT",
+  "website": "https://www.inaturalist.org",
+  "antiFeatures": ["tracking"],
+  "tags": ["nature", "wildlife", "plants", "birds", "identification", "science"],
+  "added": "2026-08-24"
+}

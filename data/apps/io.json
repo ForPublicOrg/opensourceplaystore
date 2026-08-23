@@ -1,0 +1,12 @@
+{
+  "id": "io",
+  "name": "IO",
+  "tagline": "Italy's public services in one app",
+  "description": "IO is the official app Italian citizens use to deal with the public administration. Messages from government offices, councils and schools arrive in one inbox, you can pay taxes, fines and other public charges through pagoPA, and you carry your digital identity and documents with you instead of a drawer full of paper.\n\nIt is built and maintained by PagoPA S.p.A., the state-owned company behind Italy's public payment system, and dozens of national and local services plug into it.\n\nThis one is only for Italy: you sign in with a SPID account or a CIE electronic identity card, so you need to be registered with the Italian state. The interface is translated into English and German, but the messages and services inside it are mostly in Italian.",
+  "repo": "https://github.com/pagopa/io-app",
+  "category": "productivity",
+  "license": "EUPL-1.2",
+  "website": "https://ioapp.it",
+  "tags": ["italy", "government", "payments", "spid", "cie", "pagopa"],
+  "added": "2026-08-24"
+}

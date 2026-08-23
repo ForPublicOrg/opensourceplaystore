@@ -1,0 +1,18 @@
+{
+  "id": "wled-native",
+  "name": "WLED Native",
+  "tagline": "Control your WLED light strips from your phone",
+  "description": "WLED Native finds every WLED light controller on your Wi-Fi and keeps them all in one list, so you can tap a strip and go straight to its colours, effects and presets without typing IP addresses.\n\nDiscovery happens on its own over mDNS. You can give devices your own names, hide or delete the ones you never touch, and it follows your phone's light or dark theme, with a wider layout on tablets. If you connect to a device's own WLED-AP hotspot, it opens that light's controls right away.\n\nIt only works with LED controllers already running the WLED firmware. If you haven't flashed an ESP board with WLED yet, the app will have nothing to find.",
+  "repo": "https://github.com/Moustachauve/WLED-Android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "wled",
+    "leds",
+    "lights",
+    "esp32",
+    "remote",
+    "home"
+  ],
+  "added": "2026-08-24"
+}

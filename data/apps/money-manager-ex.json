@@ -1,0 +1,13 @@
+{
+  "id": "money-manager-ex",
+  "name": "Money Manager Ex",
+  "tagline": "Personal accounts and bills that stay on your phone",
+  "description": "Money Manager Ex keeps your accounts, transactions and upcoming bills in one place so you can see what you have and what is due without opening a bank app. You enter what you spend, it does the arithmetic.\n\nIt is the phone companion to the MoneyManagerEx desktop program for Windows, Mac and Linux and can use the same database file, which lives on your device and can be encrypted with a password. If you want your phone and computer to stay in step, it syncs through a server you run yourself.\n\nIt works fine on its own too, and it can take transactions from GnuCash or anything else that exports QIF files.",
+  "repo": "https://github.com/moneymanagerex/android-money-manager-ex",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://android.moneymanagerex.org/",
+  "fdroid": "com.money.manager.ex",
+  "tags": ["finance", "budget", "expenses", "accounts", "money", "bills"],
+  "added": "2026-08-24"
+}

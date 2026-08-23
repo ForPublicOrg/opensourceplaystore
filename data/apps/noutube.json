@@ -1,0 +1,14 @@
+{
+  "id": "noutube",
+  "name": "NouTube",
+  "tagline": "Watch YouTube and YouTube Music with no ads",
+  "description": "NouTube puts YouTube and YouTube Music side by side in one app, with the ads stripped out. Video and music keep playing when you lock the screen or switch apps, you can download a video to watch later, and Shorts can be hidden if you would rather not see them.\n\nYour library and watch history are kept on your phone, so you do not have to sign in to keep track of what you watch. It also reads YouTube channels as RSS feeds, shows live chat, and lets you restyle the whole thing with your own CSS.\n\nUnder the hood it loads YouTube's own mobile site in a browser view and injects code to block ads and take over the playback controls. That means it depends entirely on YouTube's site, so a change on their side can break things until an update lands. The project is not affiliated with YouTube.",
+  "repo": "https://github.com/nonbili/NouTube",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://oss.nonbili.jp/noutube",
+  "fdroid": "jp.nonbili.noutube",
+  "tags": ["youtube", "youtube-music", "video", "background-play", "no-ads", "downloads"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

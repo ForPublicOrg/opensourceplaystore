@@ -1,0 +1,20 @@
+{
+  "id": "boinc",
+  "name": "BOINC",
+  "tagline": "Lend your phone's spare power to science",
+  "description": "BOINC hands the computing time your phone is not using to real research. While it sits charging overnight it can work through calculations for projects studying pulsars, protein folding, climate models or new medicines, then send the results back to the scientists who asked for them.\n\nYou pick which projects to join, and you set the rules for when it may run — only while plugged in, only above a certain battery level, only on Wi-Fi — so it does not quietly eat your battery or your data. BOINC comes from the University of California, Berkeley, and has been the backbone of volunteer computing for over twenty years.\n\nBe ready for the phone to get warm and draw more electricity while it works. This is an app for giving rather than getting: apart from statistics, there is nothing much to look at.",
+  "repo": "https://github.com/BOINC/boinc",
+  "category": "education",
+  "license": "LGPL-3.0",
+  "website": "https://boinc.berkeley.edu",
+  "fdroid": "edu.berkeley.boinc",
+  "tags": [
+    "science",
+    "research",
+    "volunteer",
+    "computing",
+    "distributed",
+    "astronomy"
+  ],
+  "added": "2026-08-24"
+}

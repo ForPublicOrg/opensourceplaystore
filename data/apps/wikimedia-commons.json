@@ -1,0 +1,20 @@
+{
+  "id": "wikimedia-commons",
+  "name": "Wikimedia Commons",
+  "tagline": "Share your photos with Wikipedia",
+  "description": "This is the official app for uploading pictures to Wikimedia Commons, the free media library that Wikipedia draws its images from. Take a photo, or pick one from your gallery, and a few taps later it can be illustrating an article that thousands of people read.\n\nThe best part is the Nearby screen: a map of places around you — buildings, monuments, parks — that have a Wikipedia article but no photograph yet. It turns a walk around your own town into something genuinely useful. You can also browse your past uploads and add categories and descriptions so other people can find them.\n\nYou need a free Wikimedia account to upload, and everything you send becomes public under a licence that lets anyone reuse it, so only upload photos you took yourself. The app is built and maintained by Wikimedia volunteers.",
+  "repo": "https://github.com/commons-app/apps-android-commons",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://commons-app.github.io/",
+  "fdroid": "fr.free.nrw.commons",
+  "tags": [
+    "wikipedia",
+    "photos",
+    "upload",
+    "commons",
+    "wikimedia",
+    "camera"
+  ],
+  "added": "2026-08-24"
+}

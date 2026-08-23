@@ -1,0 +1,13 @@
+{
+  "id": "frosty",
+  "name": "Frosty",
+  "tagline": "Watch Twitch with chat emotes that actually show up",
+  "description": "Frosty is a Twitch app built around chat. The official app renders 7TV, BetterTTV and FrankerFaceZ emotes as bare text, which makes busy channels unreadable; Frosty shows them as the images and GIFs they are meant to be, badges included.\n\nYou can browse the streams you follow, top streams and top categories, search for channels, and watch live with chat in theatre mode, fullscreen or picture-in-picture. Chat has autocomplete for emotes and mentions, a chatter list you can filter, local message history, and blocking and reporting. There are light, dark and OLED-black themes and a sleep timer.\n\nTwitch is a closed service. You can watch anonymously, but chatting means signing in with a Twitch account.",
+  "repo": "https://github.com/tommyxchow/frosty",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://frostyapp.io",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["twitch", "streaming", "chat", "emotes", "7tv", "bttv", "live-streams"],
+  "added": "2026-08-24"
+}

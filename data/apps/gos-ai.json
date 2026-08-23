@@ -1,0 +1,18 @@
+{
+  "id": "gos-ai",
+  "name": "GOS AI",
+  "tagline": "A voice assistant that talks to the AI model you choose",
+  "description": "GOS AI is a voice and text assistant you can set as your phone's default assistant, so pressing both volume keys, tapping a Quick Settings tile or triple-pressing power brings it straight up. Ask it a question out loud, show it a photo or a PDF, or have it look something up on the web and read the answer back.\n\nYou decide where the thinking happens. It can send your question to a cloud model through OpenRouter, or, if you are willing to set it up, run a language model directly on the phone with no internet at all. Speech can be recognised on-device too, and any keys you enter are stored encrypted in Android's keystore, with phone numbers, emails and device IDs stripped out before anything is sent to the cloud.\n\nThe cloud models, web search and cloud speech all need your own API keys, which cost money. The fully on-device model needs extra native libraries you may have to build yourself, and it cannot do web search, weather or images. This is a community project and is not connected to the GrapheneOS team, despite the name.",
+  "repo": "https://github.com/mx37/gos-ai",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "ai",
+    "assistant",
+    "voice",
+    "llm",
+    "offline",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

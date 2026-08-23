@@ -1,0 +1,20 @@
+{
+  "id": "currencies",
+  "name": "Currencies",
+  "tagline": "Convert money at today's exchange rates",
+  "description": "Currencies works out what a foreign price really costs you. You pick where the rates come from — the European Central Bank, OpenExchangeRates, the European Commission, the Bank of Canada, Norges Bank or the Russian Central Bank — and it converts between the currencies that source covers.\n\nThere is a calculator built into the keypad, which is handy for splitting a restaurant bill before converting it. You can add your bank's foreign exchange fee to every calculation, check a chart of the past year to see how a currency has moved, or look up the rate from an earlier date. The rates it last downloaded are kept on the phone, so it still answers you when you have no signal.\n\nNo ads and nothing that watches you. It is meant as a companion on holiday rather than a trading tool — depending on the source you pick, the rates are updated hourly, daily or only once a month.",
+  "repo": "https://github.com/sal0max/currencies",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "de.salomax.currencies",
+  "tags": [
+    "currency",
+    "converter",
+    "exchange",
+    "rates",
+    "money",
+    "travel",
+    "calculator"
+  ],
+  "added": "2026-08-24"
+}

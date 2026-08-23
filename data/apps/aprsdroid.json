@@ -1,0 +1,19 @@
+{
+  "id": "aprsdroid",
+  "name": "APRSdroid",
+  "tagline": "Put your position on the ham radio APRS network",
+  "description": "APRSdroid is for licensed amateur radio operators. It reports your position to APRS, the amateur radio position-reporting network, shows other stations near you on a map, and lets you send and receive short APRS messages.\n\nThat makes it useful for keeping a group in sight on a trip, for club events and public service work, or for anyone who would rather their location went out over amateur radio than through a commercial tracking service.\n\nYou need an amateur radio licence and your own callsign to take part — this is not a general-purpose location sharing app.",
+  "repo": "https://github.com/ge0rg/aprsdroid",
+  "category": "maps",
+  "license": "GPL-2.0",
+  "website": "https://aprsdroid.org/",
+  "tags": [
+    "aprs",
+    "ham radio",
+    "amateur radio",
+    "callsign",
+    "location",
+    "tracking"
+  ],
+  "added": "2026-08-24"
+}

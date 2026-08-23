@@ -1,0 +1,19 @@
+{
+  "id": "kiss-launcher",
+  "name": "KISS Launcher",
+  "tagline": "Type a few letters to open anything on your phone",
+  "description": "KISS turns your home screen into a search box. Type the first letters of an app, a contact or a setting and it comes straight up, usually after two or three keystrokes. The things you open most often float to the top on their own.\n\nThe whole launcher is under 250 KB, so it opens quickly and takes almost nothing from your memory or battery. It never connects to the internet, so nothing you type into the search box leaves the phone.\n\nIt is deliberately plain, and it takes a day or two to get used to if you are attached to a wall of icons. The optional double tap to lock the screen needs Android's accessibility permission, which the app uses for nothing else.",
+  "repo": "https://github.com/Neamar/KISS",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://kisslauncher.com",
+  "fdroid": "fr.neamar.kiss",
+  "tags": [
+    "launcher",
+    "homescreen",
+    "search",
+    "minimal",
+    "lightweight"
+  ],
+  "added": "2026-08-24"
+}

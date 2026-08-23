@@ -1,0 +1,19 @@
+{
+  "id": "sherpatts",
+  "name": "SherpaTTS",
+  "tagline": "Natural-sounding speech that works offline",
+  "description": "SherpaTTS is a text-to-speech engine you set as your phone's system voice, so ebook readers, navigation, accessibility tools and anything else that speaks will use it. The voices come from the Piper and Coqui projects and sound far closer to a person than the small robotic engines most phones fall back on.\n\nOpen Manage Languages, pick a language, and the app fetches that voice model for you. After that it runs entirely on the phone, with nothing sent anywhere. You can also sideload your own Piper models from storage or over ADB if you have them in ONNX format.\n\nThat first download is the only time it needs the internet. It's built on the Next-gen Kaldi engine (sherpa-onnx).",
+  "repo": "https://github.com/woheller69/ttsEngine",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.ttsengine",
+  "tags": [
+    "text to speech",
+    "tts",
+    "offline",
+    "voice",
+    "piper",
+    "accessibility"
+  ],
+  "added": "2026-08-24"
+}

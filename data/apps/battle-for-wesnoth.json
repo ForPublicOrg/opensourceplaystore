@@ -1,0 +1,20 @@
+{
+  "id": "battle-for-wesnoth",
+  "name": "Battle for Wesnoth",
+  "tagline": "Turn-based fantasy strategy on hex maps",
+  "description": "The Battle for Wesnoth is a turn-based tactical strategy game with a high fantasy theme. You move small armies across hex maps where terrain, the time of day and each unit’s own traits decide how a fight goes. Reclaim the throne of Wesnoth, search for the key to immortality, or take on any of the other adventures.\n\nThere are many campaigns, each with its own story and several difficulty levels, plus online and hotseat multiplayer, a map editor with hundreds of terrain types, an original soundtrack, and a wide range of community-made map packs, eras and whole campaigns.\n\nThe Android port is newer than the desktop game and still marked alpha. It is also a big, text-heavy game built originally for a mouse, so a tablet or a large phone makes it much more comfortable to play.",
+  "repo": "https://github.com/wesnoth/wesnoth",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://www.wesnoth.org/",
+  "fdroid": "org.wesnoth.Wesnoth",
+  "tags": [
+    "strategy",
+    "turn-based",
+    "fantasy",
+    "tactics",
+    "rpg",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

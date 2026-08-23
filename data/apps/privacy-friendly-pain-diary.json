@@ -1,0 +1,19 @@
+{
+  "id": "privacy-friendly-pain-diary",
+  "name": "Privacy Friendly Pain Diary",
+  "tagline": "Keep a daily record of the pain you feel",
+  "description": "When pain comes and goes, it is almost impossible to answer honestly how the last few months have really been. This diary lets you make one entry a day: how you felt overall, how intense the pain was, where in the body it sat, what kind of pain it was and when, which medication you took, and any note you want to keep.\n\nA few weeks of entries turn into something a doctor or physiotherapist can read — a record instead of a recollection. It comes from the SECUSO research group at Karlsruhe Institute of Technology, part of their Privacy Friendly Apps family, which ask for as few permissions as possible and keep your entries on the phone.\n\nBecause nothing is synced anywhere, backups are handled by the separate Privacy Friendly Backup app — that is also how you would move your history to a new phone.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-pain-diary",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "org.secuso.privacyfriendlypaindiary",
+  "tags": [
+    "pain",
+    "diary",
+    "health",
+    "medication",
+    "tracker",
+    "privacy"
+  ],
+  "added": "2026-08-24"
+}

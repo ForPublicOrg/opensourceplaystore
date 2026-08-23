@@ -1,0 +1,19 @@
+{
+  "id": "dnsnet",
+  "name": "DNSNet",
+  "tagline": "Block ads and trackers across your whole phone",
+  "description": "DNSNet stops your phone from loading ads, malware and other unwanted junk in the first place. It filters by hostname, so it cleans up every app rather than just the browser, and it arrives already set up with several widely respected host lists that you can add to or switch off.\n\nIt uses Android's VPN slot to read your DNS requests on the device and decide which ones to allow. Nothing goes to a remote server and no root is needed. DNSNet picks up where the older DNS66 left off, rebuilt with modern Android tooling and actively maintained.\n\nTwo honest limits. Android only allows one VPN service at a time, so you cannot run DNSNet alongside a real VPN app. And because it has to run constantly, it costs a little more battery than root-level blockers such as AdAway.",
+  "repo": "https://github.com/t895/DNSNet",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "dev.clombardo.dnsnet",
+  "tags": [
+    "dns",
+    "adblock",
+    "tracker",
+    "privacy",
+    "filter",
+    "dns66"
+  ],
+  "added": "2026-08-24"
+}

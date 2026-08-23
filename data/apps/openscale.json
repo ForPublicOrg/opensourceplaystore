@@ -1,0 +1,19 @@
+{
+  "id": "openscale",
+  "name": "openScale",
+  "tagline": "Track your weight and body measurements over time",
+  "description": "openScale keeps a history of your weight and turns it into graphs you can actually read. Alongside weight it can track BMI, body fat, water, muscle, bone mass, waist and hip measurements and plenty more — and you can switch off every figure you do not care about.\n\nIt connects directly to a long list of Bluetooth bathroom scales from makers such as Beurer, Medisana, Sanitas, Xiaomi, Yunmai and iHealth. There is no account to create and nothing is sent to a manufacturer's cloud. If your scale has no Bluetooth, or is not supported, you can type readings in by hand in a couple of taps.\n\nHow well each scale works varies, so check the project's list of supported models before counting on an automatic connection.",
+  "repo": "https://github.com/oliexdev/openScale",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.health.openscale",
+  "tags": [
+    "weight",
+    "health",
+    "fitness",
+    "bluetooth",
+    "scale",
+    "tracker"
+  ],
+  "added": "2026-08-24"
+}

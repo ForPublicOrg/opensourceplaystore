@@ -1,0 +1,20 @@
+{
+  "id": "audio-analyzer",
+  "name": "Audio Analyzer",
+  "tagline": "See the sound around you as a live spectrum",
+  "description": "Audio Analyzer turns your phone's microphone into a measuring instrument. It draws the frequencies it is hearing in real time, so you can check how loud a room really is, hunt down the hum in a noisy appliance, tune an instrument, or just watch what your own voice looks like.\n\nYou can read levels in dB or A-weighted dB, switch the frequency axis between logarithmic and linear, and label it with musical notes instead of hertz. Peak frequency is shown both in hertz and as a note plus cents. FFT size, window function and overlap are all yours to set. Pinch to zoom, drag to move, long-press to drop a cursor — and it can record what it hears as a WAV file.\n\nThis is a measuring tool rather than a toy: getting real value from it takes a little knowledge of spectrum analysis, and accuracy depends entirely on your phone's microphone, since there is no calibration. The developer has also said the app is expected to stop working on certified Android devices from 2026 or 2027, because they will not send personal identity details to Google.",
+  "repo": "https://github.com/woheller69/audio-analyzer-for-android",
+  "category": "education",
+  "license": "Apache-2.0",
+  "fdroid": "org.woheller69.audio_analyzer_for_android",
+  "tags": [
+    "audio",
+    "spectrum",
+    "fft",
+    "microphone",
+    "noise",
+    "tuning",
+    "science"
+  ],
+  "added": "2026-08-24"
+}

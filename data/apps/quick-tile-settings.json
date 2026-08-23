@@ -1,0 +1,19 @@
+{
+  "id": "quick-tile-settings",
+  "name": "Quick Tile Settings",
+  "tagline": "Toggle Private DNS and USB debugging from the shade",
+  "description": "Some Android settings sit several menus deep. Quick Tile Settings brings two of them into the panel you pull down from the top of the screen: one tile cycles Private DNS between off, automatic and whichever providers you choose, and another turns USB debugging on and off.\n\nYou keep your own list of DNS hostnames — Cloudflare, AdGuard and Quad9 are built in, or add your own — and pick which ones appear in the cycle. Tiles can put the setting back on their own after a delay, Private DNS can switch off automatically when a VPN connects or change between Wi-Fi and mobile data, and each action is also available as a shortcut that automation apps like Tasker can trigger.\n\nAndroid does not hand out permission to change these settings to normal apps. The app shows you how to grant it once, either from a computer over ADB or using Shizuku or root. Needs Android 10 or newer.",
+  "repo": "https://github.com/RBN-Apps/Quick-Tile-Settings",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.rbn.qtsettings",
+  "tags": [
+    "dns",
+    "tiles",
+    "quick settings",
+    "usb debugging",
+    "shizuku",
+    "adb"
+  ],
+  "added": "2026-08-24"
+}

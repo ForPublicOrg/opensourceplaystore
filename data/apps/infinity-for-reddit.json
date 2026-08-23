@@ -1,0 +1,20 @@
+{
+  "id": "infinity-for-reddit",
+  "name": "Infinity for Reddit",
+  "tagline": "Browse Reddit without ads",
+  "description": "Infinity is a Reddit reader for Android. You can browse posts, open and collapse comment threads, vote, save things for later, write and edit comments, submit text, link, image and video posts, see every subreddit and user you follow, and read your Reddit messages with a notification when something is unread.\n\nThere are no ads anywhere in it. The layout is clean and quick, and a \"lazy mode\" scrolls through posts on its own so you can keep reading without moving your thumb.\n\nIt is a client for Reddit, so you need a Reddit account for anything beyond browsing and Reddit's own rules still apply. The Google Play listing is a paid app, but the APKs on the GitHub releases page are free — and if you avoid Google services, pick the one with \"Infinity-Patreon\" in its name, which works without Google Play Services.",
+  "repo": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "reddit",
+    "social",
+    "comments",
+    "forum",
+    "no-ads"
+  ],
+  "added": "2026-08-24"
+}

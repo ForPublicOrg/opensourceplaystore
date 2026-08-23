@@ -1,0 +1,14 @@
+{
+  "id": "threema-libre",
+  "name": "Threema Libre",
+  "tagline": "Encrypted messaging without Google services",
+  "description": "Threema is a Swiss messenger where text and voice messages, voice, video and group calls, files, polls and location sharing are all end-to-end encrypted. You do not hand over a phone number or an email address — a randomly generated Threema ID identifies you instead, so you can use it anonymously. Messages are deleted from the server as soon as they are delivered, and there are no ads or trackers.\n\nThis listing is the Libre build, the one made for F-Droid. It contains no proprietary libraries or Google Play Services, no self-updater, and it uses your phone's own emoji rather than bundling its own. Builds are reproducible, so what you install can be checked against this source.\n\nThreema is a paid app: you need a licence from the Threema shop before you can create an ID. Its servers are run by Threema and are not open source.",
+  "repo": "https://github.com/threema-ch/threema-android",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://threema.ch/open-source/",
+  "fdroid": "ch.threema.app.libre",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["messaging", "chat", "encryption", "privacy", "secure-messenger"],
+  "added": "2026-08-24"
+}

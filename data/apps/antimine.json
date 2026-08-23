@@ -1,0 +1,18 @@
+{
+  "id": "antimine",
+  "name": "Antimine",
+  "tagline": "Minesweeper that never makes you guess",
+  "description": "Antimine is Minesweeper, rebuilt for a phone. Flag every mine without setting one off, from Beginner up to Legend, or make a custom board at whatever size you fancy.\n\nIts no-guessing generator means every board can be solved by logic alone, so you never lose to a coin flip. There are themes and skins to pick from, including dynamic colours and an AMOLED black, four control styles, statistics, saved games you can come back to, and an assistant that flags the mines you have already worked out. It runs on Wear OS and Android Auto too.",
+  "repo": "https://github.com/lucasnlm/antimine-android",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "dev.lucanlm.antimine",
+  "tags": [
+    "minesweeper",
+    "puzzle",
+    "game",
+    "logic",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

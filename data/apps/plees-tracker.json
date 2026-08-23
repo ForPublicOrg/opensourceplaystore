@@ -1,0 +1,20 @@
+{
+  "id": "plees-tracker",
+  "name": "Plees Tracker",
+  "tagline": "A simple way to record how long and how well you sleep",
+  "description": "Plees Tracker is a stopwatch for sleep. Tap start when you go to bed, tap stop when you get up, and it keeps the record and works out your averages. Afterwards you can give the night a rating, add a comment and note how many times you woke up.\n\nIt does nothing at all while you are asleep, so there is no battery drain and no microphone or sensor listening in. You can add a home screen widget or a quick settings tile to start and stop with one tap, look back through past nights, swipe away any you got wrong, and export everything to a CSV file or to your calendar. On newer phones it can also sync its sessions to Health Connect, which stays off until you turn it on.\n\nIt is deliberately manual. It will not detect sleep stages, snoring or movement, and it will not start tracking on its own. It counts hours, and that is the whole idea.",
+  "repo": "https://github.com/vmiklos/plees-tracker",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://vmiklos.hu/plees-tracker/",
+  "tags": [
+    "sleep",
+    "tracker",
+    "health",
+    "stopwatch",
+    "csv",
+    "widget"
+  ],
+  "fdroid": "hu.vmiklos.plees_tracker",
+  "added": "2026-08-24"
+}

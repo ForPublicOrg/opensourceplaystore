@@ -1,0 +1,19 @@
+{
+  "id": "meshenger",
+  "name": "Meshenger",
+  "tagline": "Call people nearby without accounts or the internet",
+  "description": "Meshenger makes voice and video calls between phones on the same network — your home wifi, an office, a boat, a community mesh. There is no sign-up, no phone number and no company in the middle, so it keeps working when the internet is down.\n\nYou add someone by scanning the QR code on their phone, which carries the address other devices can reach them at. Calls then run directly from one phone to the other and are encrypted along the way.\n\nBecause it is truly direct, both phones have to be able to reach each other on the network — calls will not cross a firewall or the boundary of a home router. If someone's address changes, you have to update their contact by hand.",
+  "repo": "https://github.com/meshenger-app/meshenger-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "fdroid": "d.d.meshenger",
+  "tags": [
+    "calls",
+    "video call",
+    "p2p",
+    "offline",
+    "local network",
+    "mesh"
+  ],
+  "added": "2026-08-24"
+}

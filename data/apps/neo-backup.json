@@ -1,0 +1,12 @@
+{
+  "id": "neo-backup",
+  "name": "Neo Backup",
+  "tagline": "Back up your apps along with their data",
+  "description": "Neo Backup copies your installed apps and the data inside them — logins, settings, save games — to a folder you choose, so a factory reset or a new phone does not mean setting everything up from scratch. You can back up and restore one app at a time or run through a whole batch.\n\nBuild your own lists of the apps that matter, then schedule as many regular runs as you like so the backups stay current without you remembering. System apps can usually be put back without a reboot afterwards. It is a full rewrite of the old OAndBackup and part of the Neo Applications family.\n\nIt needs root. Reading an app's data means reaching into folders Android keeps locked away, and without root access the app simply cannot do that. The developers still call it beta, so keep a second copy of anything you cannot afford to lose.",
+  "repo": "https://github.com/NeoApplications/Neo-Backup",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "fdroid": "com.machiav3lli.backup",
+  "tags": ["backup", "restore", "root", "apps", "data", "schedule"],
+  "added": "2026-08-24"
+}

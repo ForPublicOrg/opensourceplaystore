@@ -1,0 +1,20 @@
+{
+  "id": "phyphox",
+  "name": "phyphox",
+  "tagline": "Turn your phone's sensors into a physics lab",
+  "description": "Your phone is already full of measuring instruments — an accelerometer, a gyroscope, a magnetometer, a microphone, a light sensor, GPS. phyphox puts them to work. It comes with a library of ready-made experiments, so you can time a pendulum, measure the speed of sound, or watch what happens to acceleration in a lift, and see the readings plotted as they arrive.\n\nIt was written by physicists at RWTH Aachen University and is used in schools and universities. You can export your data, and switch on remote access so a computer on the same network can start the experiment and read the results in a browser — useful when the phone has to sit inside whatever you are measuring.\n\nphyphox can only measure what your phone actually has. An older or cheaper handset may be missing a gyroscope, a barometer or a magnetometer, and those experiments will not run.",
+  "repo": "https://github.com/phyphox/phyphox-android",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://phyphox.org",
+  "fdroid": "de.rwth_aachen.phyphox",
+  "tags": [
+    "physics",
+    "sensors",
+    "science",
+    "experiments",
+    "school",
+    "education"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tuta-mail",
+  "name": "Tuta Mail",
+  "tagline": "Encrypted email, calendar and contacts",
+  "description": "Tuta Mail is the phone app for a Tuta mailbox. Your messages, contacts and calendar entries are encrypted on your own device, so the company running the service cannot read them either, and the same encrypted mailbox follows you to the web and desktop apps.\n\nIt is built by the people who run the service and the whole app is published here under the GPL, so anyone can read the code or build it themselves.\n\nOne thing to know before installing: it only works with a Tuta account. It will not connect to Gmail, Outlook or any other mailbox, and because of the encryption you cannot point a normal mail app at a Tuta account either, so you need to sign up with Tuta first.",
+  "repo": "https://github.com/tutao/tutanota",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://tuta.com",
+  "fdroid": "de.tutao.tutanota",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "email",
+    "encryption",
+    "privacy",
+    "calendar",
+    "secure",
+    "tutanota"
+  ],
+  "added": "2026-08-24"
+}

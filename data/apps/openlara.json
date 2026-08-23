@@ -1,0 +1,18 @@
+{
+  "id": "openlara",
+  "name": "OpenLara",
+  "tagline": "Play classic Tomb Raider using your own game files",
+  "description": "OpenLara is a rebuilt version of the engine behind the original Tomb Raider games. Give it the level files from a copy of the game you already own and you can play through them on your phone, using touch controls or a gamepad you plug in.\n\nBecause the engine was written again from scratch rather than emulated, it runs as a normal native app instead of a slow simulation of an old PC. The same code also runs on desktop machines and a long list of consoles, from the Nintendo Switch back to the 3DO.\n\nIt comes with no game content at all. You need the data files from an original Tomb Raider release, copied into the app's folder on your phone. The Android build also gets less attention than the desktop ones, so expect some rough edges.",
+  "repo": "https://github.com/XProger/OpenLara",
+  "category": "games",
+  "license": "BSD-2-Clause",
+  "tags": [
+    "tomb",
+    "raider",
+    "adventure",
+    "retro",
+    "engine",
+    "game"
+  ],
+  "added": "2026-08-24"
+}

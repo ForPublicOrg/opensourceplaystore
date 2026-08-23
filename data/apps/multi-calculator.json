@@ -1,0 +1,18 @@
+{
+  "id": "multi-calculator",
+  "name": "Multi-Calculator",
+  "tagline": "A calculator that also handles units, money and dates",
+  "description": "Multi-Calculator does your everyday sums and then keeps going. Next to the normal calculator with brackets, powers, roots, logarithms and trigonometry, it converts units, works out the days between two dates, checks live currency rates, solves simple equations, and helps with loans, savings, discounts and BMI.\n\nIt is under 5 MB, asks for no permissions it does not need, keeps a history of what you typed, and comes with home screen widgets and a floating window for quick sums while you are in another app. There is even an on screen ruler for measuring small things.\n\nA few of the tools are meant for Chinese users, such as the uppercase Chinese numeral writer and the family title calculator. The app is translated into English, German, Simplified Chinese and Traditional Chinese.",
+  "repo": "https://github.com/YangDai2003/Multi-Calculator-Android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "calculator",
+    "converter",
+    "units",
+    "currency",
+    "bmi",
+    "compass"
+  ],
+  "added": "2026-08-24"
+}

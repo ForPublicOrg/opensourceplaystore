@@ -1,0 +1,11 @@
+{
+  "id": "mangayomi",
+  "name": "Mangayomi",
+  "tagline": "Read manga and novels and watch anime in one library",
+  "description": "Mangayomi is one library for the things you read and watch: manga, webtoons, comics and novels, plus anime and films. You organise everything into your own categories, and the reader lets you choose the viewer, the reading direction and the page layout to suit whatever you have open.\n\nThe app ships with no content of its own. You add sources to it, then search and browse them from inside the app. Chapters and episodes can be saved for offline use, files already on your phone can be read directly, and your progress can sync with MyAnimeList, AniList, Kitsu, SIMKL or Trakt. Backups save to the phone or to a cloud service you already use.\n\nIt is not on Google Play or F-Droid; download it from the project's GitHub releases page. The developers warn that lookalike sites such as mangayomi.org have nothing to do with them. What you can actually read depends entirely on the sources you add.",
+  "repo": "https://github.com/kodjodevf/mangayomi",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": ["manga", "anime", "comics", "novels", "reader", "webtoon", "offline"],
+  "added": "2026-08-24"
+}

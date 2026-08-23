@@ -1,0 +1,22 @@
+{
+  "id": "moelist",
+  "name": "MoeList",
+  "tagline": "Keep your MyAnimeList anime and manga lists up to date",
+  "description": "MoeList puts your MyAnimeList account on your phone. Sign in and you can mark off the episode or chapter you just finished, read details and recommendations, look through the characters, search by season, and check the top charts.\n\nIt can notify you when a show you follow is airing, has a home screen widget listing what is airing, and follows your light or dark theme with Android 12 wallpaper colours.\n\nYou need a free MyAnimeList account to use it. A few things the website does are simply missing because MyAnimeList's own interface for apps does not offer them: reviews, favourites, friends and other people's lists. The developer has also moved new work to a rewritten version called MoeListKMP, so this app now mostly gets fixes.",
+  "repo": "https://github.com/axiel7/MoeList",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://moelist.net",
+  "tags": [
+    "anime",
+    "manga",
+    "myanimelist",
+    "tracker",
+    "watchlist",
+    "mal"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

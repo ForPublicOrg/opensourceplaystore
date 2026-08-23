@@ -1,0 +1,23 @@
+{
+  "id": "mullvad-vpn",
+  "name": "Mullvad VPN",
+  "tagline": "Send your phone's traffic through an encrypted tunnel",
+  "description": "Mullvad VPN sends your phone's internet traffic through an encrypted tunnel, so the cafe wifi you are on and the sites you visit learn a lot less about you. Every setting defaults to the safer option, and the app is built to stop traffic leaking outside the tunnel rather than quietly letting it through.\n\nIt connects over WireGuard, can block ads and other unwanted content at the DNS level, lets you point it at a custom DNS server, and can send only some of your apps through the tunnel. The code has been audited by outside security firms.\n\nMullvad is a paid service, so you need a subscription before the app can connect to anything. The client is open source; the servers you connect through are run by Mullvad.",
+  "repo": "https://github.com/mullvad/mullvadvpn-app",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://mullvad.net/",
+  "fdroid": "net.mullvad.mullvadvpn",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "vpn",
+    "wireguard",
+    "privacy",
+    "mullvad",
+    "tunnel",
+    "encryption"
+  ],
+  "added": "2026-08-24"
+}

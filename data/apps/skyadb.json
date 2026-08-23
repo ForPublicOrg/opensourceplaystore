@@ -1,0 +1,18 @@
+{
+  "id": "skyadb",
+  "name": "SkyADB",
+  "tagline": "Manage another Android device from your phone",
+  "description": "SkyADB puts the ADB tools that normally live on a computer onto your phone. Point it at another phone, tablet, TV box or television on the same network and you can install and remove apps, browse and copy files both ways, take screenshots, read the system log, press buttons with an on-screen remote, mirror the screen and run shell commands.\n\nIt pairs over Wireless Debugging, scans your local network to find devices automatically, and remembers the ones you use so you can reconnect in a tap. It can also talk to a device over a USB OTG cable, including Fastboot. Handy for a TV box with no keyboard, or a spare phone across the room.\n\nThe other device needs Developer options and Wireless Debugging switched on before it will connect. The app itself offers English and Chinese, but the project's documentation is written in Chinese only.",
+  "repo": "https://github.com/sky22333/skyadb",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "adb",
+    "fastboot",
+    "shizuku",
+    "screen mirroring",
+    "android tv",
+    "debugging"
+  ],
+  "added": "2026-08-24"
+}

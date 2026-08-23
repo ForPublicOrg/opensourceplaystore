@@ -1,0 +1,19 @@
+{
+  "id": "anlinux",
+  "name": "AnLinux",
+  "tagline": "Run a full Linux distro on your phone, no root",
+  "description": "AnLinux sets up a real Linux system on an ordinary Android phone — Ubuntu, Debian, Arch, Fedora, Kali, openSUSE, Alpine, Void and more. You pick a distribution, the app hands you a command to paste into Termux, and a script downloads the image and mounts it for you.\n\nNothing is rooted and nothing about your phone is modified. It uses PRoot, which runs the distribution inside a normal app sandbox. If you want more than a command line, AnLinux can also install a desktop such as Xfce, MATE, LXQt, LXDE or KDE and start a VNC server so you can open it in a VNC viewer.\n\nTermux has to be installed separately or none of this works, and the images come down over the internet, so plan for a big first download. There's no audio support yet.",
+  "repo": "https://github.com/EXALAB/AnLinux-App",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "linux",
+    "termux",
+    "ubuntu",
+    "debian",
+    "arch",
+    "proot",
+    "desktop"
+  ],
+  "added": "2026-08-24"
+}

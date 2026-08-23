@@ -1,0 +1,18 @@
+{
+  "id": "supertuxkart",
+  "name": "SuperTuxKart",
+  "tagline": "Race silly karts around wild tracks",
+  "description": "SuperTuxKart is a kart racing game in the spirit of the classics: pick a character, tear around a colourful track, grab bonus boxes and fire off weapons to get ahead. It aims for fun rather than realistic physics, so anyone can pick it up in a minute.\n\nThere are dozens of tracks and characters, plus single races, time trials, grand prix cups, a story mode, and online multiplayer where you race real people. On a phone you steer with on-screen controls, or connect a gamepad or keyboard.\n\nIt needs Android 5.0 or later and a phone from roughly 2014 onwards with OpenGL ES 3.0 graphics. The download itself is around 150 MB, and the game offers to fetch the full high-quality textures and music the first time you run it, which takes the whole thing to about 800 MB.",
+  "repo": "https://github.com/supertuxkart/stk-code",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://supertuxkart.net",
+  "tags": [
+    "racing",
+    "kart",
+    "3d",
+    "multiplayer",
+    "games"
+  ],
+  "added": "2026-08-24"
+}

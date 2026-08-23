@@ -1,0 +1,20 @@
+{
+  "id": "open-food-facts",
+  "name": "Open Food Facts",
+  "tagline": "Scan a barcode to see what is really in your food",
+  "description": "Point your phone at the barcode on a packet and Open Food Facts tells you what is inside it: the ingredients, the additives, the Nutri-Score and the eco-score. The answers come from a free food database that shoppers all over the world have built together, one product at a time.\n\nIf something you scan isn't in there yet, you can add it yourself by photographing the packet and its label. The data is open, so anyone is free to use it — this app is just one window onto it.\n\nLooking a product up needs an internet connection, and a barcode nobody has entered yet will come back empty. That is your cue to add it.",
+  "repo": "https://github.com/openfoodfacts/smooth-app",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "website": "https://world.openfoodfacts.org/open-food-facts-mobile-app",
+  "fdroid": "openfoodfacts.github.scrachx.openfood",
+  "tags": [
+    "food",
+    "barcode",
+    "scanner",
+    "nutrition",
+    "health",
+    "shopping"
+  ],
+  "added": "2026-08-24"
+}

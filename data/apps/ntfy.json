@@ -1,0 +1,20 @@
+{
+  "id": "ntfy",
+  "name": "ntfy",
+  "tagline": "Get a notification from any script or server",
+  "description": "ntfy lets anything on your network buzz your phone. A backup that failed, a long job that finished, someone logging into your server — one simple web request and the message arrives. You do not need an account to start.\n\nYou subscribe to a topic name in the app, and anything that knows that name can post to it, from a one-line curl command in a shell script to a PowerShell task or your own program. You can use the free ntfy.sh service or point the app at an ntfy server you run yourself.\n\nThe sending side needs a little setup by you — a line added to a script, or a webhook from whatever tool you want alerts from. The free ntfy.sh tier has daily message limits and there are paid plans above it; a server of your own has no limits, but it is yours to look after.",
+  "repo": "https://github.com/binwiederhier/ntfy-android",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://ntfy.sh",
+  "fdroid": "io.heckel.ntfy",
+  "tags": [
+    "notifications",
+    "push",
+    "alerts",
+    "self-hosted",
+    "server",
+    "scripts"
+  ],
+  "added": "2026-08-24"
+}

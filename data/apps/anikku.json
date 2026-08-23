@@ -1,0 +1,12 @@
+{
+  "id": "anikku",
+  "name": "Anikku",
+  "tagline": "Watch anime from sources you add yourself",
+  "description": "Anikku keeps everything you are watching in one library, with a full-featured player, categories to sort things into, downloads for offline viewing, and automatic checks for new episodes. It grew out of the Aniyomi codebase and piles a long list of extras on top of it.\n\nOn top of the basics it adds suggestions from the source site for whatever you are looking at, community recommendations from AniList and MyAnimeList, hand-editing of series details, custom themes with colour palettes and per-entry colours taken from the cover art, bulk actions on your library, and two-way progress sync with tracking sites. It runs on Android TV and Fire TV as well as phones.\n\nThe app arrives empty and hosts no content itself. You install the sources you want through its extension system, so what you can watch depends entirely on what you add. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/komikku-app/anikku",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://anikku-app.github.io",
+  "tags": ["anime", "aniyomi", "video-player", "streaming", "library", "offline"],
+  "added": "2026-08-24"
+}

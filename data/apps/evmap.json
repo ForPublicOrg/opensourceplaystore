@@ -1,0 +1,13 @@
+{
+  "id": "evmap",
+  "name": "EVMap",
+  "tagline": "Find a charger for your electric car",
+  "description": "EVMap shows you electric vehicle charging stations on a map, using the community-maintained directories from GoingElectric.de and Open Charge Map. Tap a station to see the connectors, power, who runs it and what other drivers have said about it.\n\nYou can search for a place, filter hard on the things that matter \u2014 plug type, minimum power, network, free charging \u2014 and save those filters as profiles. Favourite the chargers you use often, and open the map on your car's screen through Android Auto or Android Automotive. No ads.\n\nLive availability, showing whether a plug is actually free right now, and the built-in price comparison only work in Europe. The F-Droid build uses OpenStreetMap rather than Google Maps. EVMap is not an official app of GoingElectric or Open Charge Map \u2014 it just uses their public data.",
+  "repo": "https://github.com/ev-map/EVMap",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://ev-map.app/",
+  "fdroid": "net.vonforst.evmap",
+  "tags": ["ev", "charging", "electric car", "map", "chargers", "android auto"],
+  "added": "2026-08-24"
+}

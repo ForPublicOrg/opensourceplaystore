@@ -1,0 +1,11 @@
+{
+  "id": "chameleon-ultra-gui",
+  "name": "Chameleon Ultra GUI",
+  "tagline": "Control your Chameleon Ultra from your phone",
+  "description": "A control panel for the Chameleon Ultra and Chameleon Lite, the pocket NFC and RFID devices that can read a card and then pretend to be it. Instead of typing commands at a computer, you get screens: read a card, save it, write one, and fill the device's emulation slots with the tags you want to carry.\n\nIt connects over Bluetooth LE or a USB cable, keeps a library of the cards you have saved, and lets you change the device's settings and Mifare emulation options without remembering any syntax. The same app runs on Windows, Linux, macOS and iOS.\n\nYou need the Chameleon hardware for any of this. Note too that the APK from the project's own releases is unsigned, so it will not install over the Play Store build — pick one and stay with it. Only read and clone cards you are allowed to.",
+  "repo": "https://github.com/GameTec-live/ChameleonUltraGUI",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": ["nfc", "rfid", "chameleon", "mifare", "cards", "hardware"],
+  "added": "2026-08-24"
+}

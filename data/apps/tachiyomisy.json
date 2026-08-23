@@ -1,0 +1,18 @@
+{
+  "id": "tachiyomisy",
+  "name": "TachiyomiSY",
+  "tagline": "Manga reader with extra tools for big libraries",
+  "description": "TachiyomiSY reads manga from online sources and from your downloads, with a configurable reader, categories, scheduled library updates, local backups, and tracking through MyAnimeList, AniList, Kitsu, MangaUpdates, Shikimori, Bangumi and Hikka.\n\nIt is a fork of Mihon built for people whose libraries have grown large. You can merge the same series from several sources into one entry, save searches, keep an eye on up to five sources in a Latest tab, migrate everything off a source that has gone bad, filter by tracking status, and search your library with a real query syntax including exclusions and exact phrases. The reader adds automatic webtoon detection, autoscroll, adjustable page preloading and a background that matches the page colour.\n\nAdult titles can be filtered out of your library, and the adult-source features switched off entirely in advanced settings. The app comes with no sources — you install extensions yourself afterwards. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/jobobby04/TachiyomiSY",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": [
+    "manga",
+    "comics",
+    "reader",
+    "library",
+    "tachiyomi",
+    "mihon"
+  ],
+  "added": "2026-08-24"
+}

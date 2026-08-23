@@ -1,0 +1,12 @@
+{
+  "id": "ai-hub",
+  "name": "AI Hub",
+  "tagline": "All your AI chatbots in one tabbed app",
+  "description": "AI Hub gathers the AI chat sites you already use into a single app, each one in its own tab, so you stop hopping between browser tabs and separate apps. Choose which assistants you want, put them in the order you like, and hide the rest.\n\nEach tab keeps its own session, so a conversation is still there when you come back to it. The app blocks ads and trackers using a public blocklist, collects nothing about you itself, and follows your wallpaper colours with automatic light and dark modes. You can bump the text size up if the built-in one is small.\n\nIt loads each assistant's own website rather than talking to them directly, so you sign in to each service as usual and their terms and privacy policies still apply. You need an internet connection, and anything that requires a paid account there still requires one here.",
+  "repo": "https://github.com/SilentCoderHere/aihub",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": ["ai", "chatbot", "assistant", "chat", "tabs", "browser"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

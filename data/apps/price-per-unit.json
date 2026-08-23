@@ -1,0 +1,19 @@
+{
+  "id": "price-per-unit",
+  "name": "Price Per Unit",
+  "tagline": "Work out which pack is actually cheaper",
+  "description": "Price Per Unit does the sum you cannot quite manage standing in the aisle. Put in the price and the size of each pack — 400 g of this one, 1.2 kg of that one — and it works out what each comes to per unit, so you can see which is genuinely better value rather than just cheaper on the shelf.\n\nIt covers weight, volume, length and plain counts, each with their own sub-units, and it can convert every item you have entered to the same unit for a straight comparison. Set your own currency symbol, choose how many decimal places to round to, and what you typed is still there when you come back to it.\n\nIt asks for no permissions, shows no ads and collects nothing about you.",
+  "repo": "https://github.com/brentvollebregt/price-per-unit",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "fdroid": "net.nitratine.priceperunit",
+  "tags": [
+    "shopping",
+    "price",
+    "compare",
+    "supermarket",
+    "calculator",
+    "groceries"
+  ],
+  "added": "2026-08-24"
+}

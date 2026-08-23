@@ -1,0 +1,13 @@
+{
+  "id": "screen-stream",
+  "name": "Screen Stream",
+  "tagline": "Show your phone screen in any web browser",
+  "description": "Screen Stream puts whatever is on your phone onto a computer, tablet or TV nearby. Start the stream, type the address it gives you into the other device's browser, and your screen appears there. No cable, and nothing to install on the other end.\n\nIt does this by running a small web server on the phone itself, so in local mode the pictures never leave your own network, and you can put a four to six digit PIN on it. There is also an RTSP mode that sends proper H.264 or H.265 video with sound to a player like VLC, either from the phone's own server or to a server you point it at. Android 7 or newer.\n\nExpect a little delay, and be careful on mobile data because streaming a screen eats through it. The build on Google Play adds a WebRTC mode that works over the internet but carries ads; the open version here is ad-free and covers the local and RTSP modes only.",
+  "repo": "https://github.com/dkrivoruchko/ScreenStream",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://screenstream.io",
+  "fdroid": "info.dvkr.screenstream",
+  "tags": ["screen", "mirroring", "streaming", "browser", "rtsp", "presentation"],
+  "added": "2026-08-24"
+}

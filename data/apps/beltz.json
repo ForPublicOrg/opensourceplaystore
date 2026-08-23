@@ -1,0 +1,11 @@
+{
+  "id": "beltz",
+  "name": "Beltz",
+  "tagline": "Untangle the belts and get the shafts spinning",
+  "description": "Beltz is a small tap puzzle. Each level gives you a set of shafts joined by belts, and your job is to get every belt into the right place so all the shafts start turning.\n\nThere are two difficulty modes. On easy you tap a belt to move it, and on hard you tap the shafts instead, which takes a bit more thinking. Music and sound effects can each be switched off in the settings.\n\nIt is a quiet little game for filling a few spare minutes, not a long adventure.",
+  "repo": "https://github.com/Carapacik/Beltz",
+  "category": "games",
+  "license": "MIT",
+  "tags": ["puzzle", "tap", "casual", "belts", "offline", "brain"],
+  "added": "2026-08-24"
+}

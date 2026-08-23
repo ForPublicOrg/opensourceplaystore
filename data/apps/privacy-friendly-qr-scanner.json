@@ -1,0 +1,13 @@
+{
+  "id": "privacy-friendly-qr-scanner",
+  "name": "Privacy Friendly QR Scanner",
+  "tagline": "See where a QR code really leads before you open it",
+  "description": "This app reads QR codes and barcodes with your camera and then shows you what is inside, before anything opens. When a code holds a web address it highlights the actual domain and asks you to confirm you have looked at it \u2014 which is how you catch a sticker slapped over the real one on a poster or a parking meter, pointing at a fake page.\n\nThe only permissions it asks for are the camera, plus storage on Android 9 and older. There is no internet permission in the app at all, so your scans cannot be sent anywhere, and there are no adverts or tracking. It is made by the SECUSO research group as one of their Privacy Friendly Apps.\n\nIf you move to a new phone, the separate Privacy Friendly Backup app can carry its data across.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-qr-scanner",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://secuso.aifb.kit.edu/QR_Scanner.php",
+  "fdroid": "com.secuso.privacyFriendlyCodeScanner",
+  "tags": ["qr", "barcode", "scanner", "camera", "privacy", "phishing"],
+  "added": "2026-08-24"
+}

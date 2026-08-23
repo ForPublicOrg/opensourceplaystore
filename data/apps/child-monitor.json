@@ -1,0 +1,12 @@
+{
+  "id": "child-monitor",
+  "name": "Child Monitor",
+  "tagline": "Turn two old phones into a baby monitor",
+  "description": "Child Monitor makes a baby monitor out of two Android phones. Leave one in the room with your child and it announces itself on your Wi-Fi and streams the sound. Open the app on the second phone, pick the child device from the list, and you can hear the room from anywhere in the house.\n\nThe audio travels over your own network. There is no account to make, no subscription, and no company server sitting in the middle of it. If the two phones are not on the same Wi-Fi you can bridge them with a VPN, but they will not find each other automatically, so you have to type the child device's address in by hand.\n\nIt is audio only, and the developer calls the current version rudimentary: it advertises itself, accepts a connection and streams sound, and dropped packets are not handled gracefully yet. Needs Android 5.0 or newer.",
+  "repo": "https://github.com/enguerrand/child-monitor",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "de.rochefort.childmonitor",
+  "tags": ["baby", "monitor", "audio", "wifi", "parenting", "nursery"],
+  "added": "2026-08-24"
+}

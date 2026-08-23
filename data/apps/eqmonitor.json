@@ -1,0 +1,22 @@
+{
+  "id": "eqmonitor",
+  "name": "EQMonitor",
+  "tagline": "Live earthquake alerts and shaking maps for Japan",
+  "description": "EQMonitor tells you when the ground is about to move. It picks up earthquake reports and early warnings issued by the Japan Meteorological Agency and shows you where the quake started, how strong the shaking is expected to be, and when the waves are due to reach you.\n\nWhile a warning is running the map updates live, drawing the spreading P and S waves. You can also watch the strong-motion monitor from Japan's national disaster research institute, and scroll back through past quakes.\n\nThis one is for Japan only, the app is in Japanese, and it needs an internet connection and the developer's own server to receive alerts. Treat the live monitor readings as a rough guide rather than exact numbers — they are raw, unchecked observations.",
+  "repo": "https://github.com/YumNumm/EQMonitor",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://eqmonitor.app/",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "earthquake",
+    "japan",
+    "alerts",
+    "warning",
+    "safety",
+    "map"
+  ],
+  "added": "2026-08-24"
+}

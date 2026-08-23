@@ -1,0 +1,11 @@
+{
+  "id": "tangler",
+  "name": "Tangler",
+  "tagline": "A calm tile puzzle about joining colours into loops",
+  "description": "Tangler hands you a board and a stream of random tiles with coloured curves printed on them. You put each tile down so its curves carry on from the ones already there. When a colour finally closes into a loop, it disappears and frees up room for more tiles.\n\nThere is no timer, no score table and nothing chasing you. It is meant to be meditative, closer to drawing a mandala than to a race. You can choose between three board sizes, three tile shapes and up to six colours, with the colours on a tile either repeating or all different.\n\nNo ads, no purchases, no internet connection, and it asks for no permissions at all. It plays fine on a phone, especially on the smaller boards, but a tablet screen suits it better. There is also a desktop Java version if you would rather play on a computer.",
+  "repo": "https://github.com/andrzej-nov/Tangler",
+  "category": "games",
+  "license": "CC-BY-4.0",
+  "tags": ["puzzle", "tiles", "casual", "relaxing", "offline", "board"],
+  "added": "2026-08-24"
+}

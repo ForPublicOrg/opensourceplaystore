@@ -1,0 +1,12 @@
+{
+  "id": "aniyomi",
+  "name": "Aniyomi",
+  "tagline": "Watch anime and read manga from sources you add yourself",
+  "description": "Aniyomi keeps your anime and your manga in one library. It has a video player built on mpv, a configurable comic reader, categories to sort things into, and a schedule that checks for new episodes and chapters while you are not looking.\n\nEpisodes and chapters can be saved for offline viewing, and your progress can sync with tracking sites like MyAnimeList, AniList, Kitsu, Simkl, MangaUpdates and Bangumi. Backups can be made locally or sent to whichever cloud storage you already use. It started as a fork of Mihon, so the reader will feel familiar if you have used that.\n\nThe app ships with nothing to watch or read. You install the sources you want through its extension system, so what is available depends on what you add. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/aniyomiorg/aniyomi",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://aniyomi.org",
+  "tags": ["anime", "manga", "video-player", "reader", "tachiyomi", "offline"],
+  "added": "2026-08-24"
+}

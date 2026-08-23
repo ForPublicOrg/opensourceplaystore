@@ -1,0 +1,19 @@
+{
+  "id": "privacy-friendly-pedometer",
+  "name": "Privacy Friendly Pedometer",
+  "tagline": "Count your steps without going online",
+  "description": "A step counter that does the ordinary thing well. It records how many steps you take each hour and turns that into daily, weekly and monthly reports, with the distance covered and the calories worked out for you. There is a separate view for recording a single training session, like a jog, and it can remind you when your daily goal is slipping out of reach.\n\nThe app has no internet permission at all, so your step history has nowhere to go but your own phone. It comes from the SECUSO research group at Karlsruhe Institute of Technology, who publish a whole family of apps built to the same rule: ask for the fewest permissions the job needs, and nothing more.\n\nNo account, no sign-up, no sync — which also means the history lives on this phone only.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-pedometer",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "org.secuso.privacyfriendlyactivitytracker",
+  "tags": [
+    "steps",
+    "pedometer",
+    "walking",
+    "fitness",
+    "privacy",
+    "health"
+  ],
+  "added": "2026-08-24"
+}

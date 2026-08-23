@@ -1,0 +1,19 @@
+{
+  "id": "shizu-corefetch",
+  "name": "Shizu CoreFetch",
+  "tagline": "Install and update apps without tapping through prompts",
+  "description": "Shizu CoreFetch is an app store for open-source Android apps that are published on GitHub. It fetches, installs, updates and removes them for you, and instead of the usual chain of confirmation screens for every APK, you tap once and it happens quietly in the background.\n\nIt does this through Shizuku, which lets a normal app borrow system-level permission without rooting the phone. Downloads carry on while you use other apps, and the APKs it has fetched are kept in a local store you can share, open elsewhere or delete. Root and wireless debugging both work, as do test-only packages. The interface is Material 3 and comes in eleven languages.\n\nYou need Shizuku installed and its service running first, started either by root or by wireless debugging, and you must grant this app permission. Without that it cannot install anything. It also only covers apps whose developers have added themselves to its catalogue, so it will not update everything already on your phone.",
+  "repo": "https://github.com/elhizazi1/ShizuCoreFetch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://shizucorefetch.siwane.xyz",
+  "tags": [
+    "shizuku",
+    "installer",
+    "apk",
+    "app store",
+    "updates",
+    "package manager"
+  ],
+  "added": "2026-08-24"
+}

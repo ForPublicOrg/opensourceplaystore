@@ -1,0 +1,13 @@
+{
+  "id": "pixiv-shaft",
+  "name": "Pixiv Shaft",
+  "tagline": "Browse, search and download art, manga and novels from Pixiv",
+  "description": "Pixiv Shaft is an unofficial Android app for Pixiv, the Japanese art site. You sign in with your own Pixiv account and get recommendations, daily and weekly rankings, trending tags, artist pages, manga series and a novel reader, all in one place.\n\nSearch is the strong part: six sort orders including by popularity without needing Pixiv Premium, filters for upload date, bookmark counts, size and AI-generated work. You can queue batch downloads that resume after a dropped connection, mute tags or artists you would rather not see, save things to a private watch-later list, and read FANBOX posts and pixiv COMIC without leaving the app. Multiple accounts can be switched between freely.\n\nBecause it talks to Pixiv's own service, you need a Pixiv account and a working connection to it, and a change on Pixiv's side can break things until the app is updated. It is not made by Pixiv. Needs Android 7.0 or newer.",
+  "repo": "https://github.com/CeuiLiSA/Pixiv-Shaft",
+  "category": "reading",
+  "license": "GPL-2.0",
+  "website": "https://pixshaft.com",
+  "tags": ["pixiv", "illustration", "artwork", "manga", "novels", "downloader"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

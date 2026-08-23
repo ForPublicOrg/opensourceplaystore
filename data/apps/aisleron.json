@@ -1,0 +1,20 @@
+{
+  "id": "aisleron",
+  "name": "Aisleron",
+  "tagline": "A shopping list sorted by supermarket aisle",
+  "description": "Aisleron puts your shopping list in the order you actually walk the shop. Set up the shops you go to and the aisles inside them, tell it where each product lives, and the list follows your route instead of sending you back across the store for the milk.\n\nSwipe an item one way to mark it as needed and the other way to mark it as already in stock, long-press to edit it, and look at your list for one shop or for all of them at once. It can show the list on your lock screen so you are not unlocking your phone at the end of every aisle, and it will open your shop loyalty card if you keep them in Catima.\n\nEverything happens on the phone. No account, no ads, and nothing about where you shop or what you buy leaves the device.",
+  "repo": "https://github.com/aisleron/aisleron",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://aisleron.com/",
+  "fdroid": "com.aisleron",
+  "tags": [
+    "shopping",
+    "list",
+    "groceries",
+    "supermarket",
+    "aisle",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

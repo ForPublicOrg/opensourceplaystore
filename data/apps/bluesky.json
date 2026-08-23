@@ -1,0 +1,13 @@
+{
+  "id": "bluesky",
+  "name": "Bluesky",
+  "tagline": "The official app for the Bluesky network",
+  "description": "Bluesky is a short-post social network in the style of Twitter, and this is the official app, built by Bluesky's own team. It is unusual in that the entire client is open source rather than just the parts a company doesn't mind sharing.\n\nUnderneath it runs on the AT Protocol, an open protocol. That is why you can subscribe to custom feeds made by other people instead of being handed one algorithm, use a domain you own as your handle, and move your account to another server without starting over.\n\nThe app reports crashes and performance data to third-party services. Some of the artwork, icons and fonts in the repository are licensed to Bluesky alone and are not covered by the app's open licence.",
+  "repo": "https://github.com/bluesky-social/social-app",
+  "category": "social",
+  "license": "MIT",
+  "website": "https://bsky.app",
+  "antiFeatures": ["tracking", "nonfree-assets"],
+  "tags": ["bluesky", "social", "microblog", "atproto", "feeds"],
+  "added": "2026-08-24"
+}

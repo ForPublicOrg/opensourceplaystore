@@ -1,0 +1,12 @@
+{
+  "id": "shizuku",
+  "name": "Shizuku",
+  "tagline": "Let trusted apps do system-level jobs without rooting",
+  "description": "Some Android apps can do far more if they are allowed to reach parts of the system that are normally off limits \u2014 removing pre-installed bloatware, changing permissions in bulk, running a firewall. Shizuku is the piece that hands them that access without you having to root the phone.\n\nYou start Shizuku once using Android's own developer tools. On Android 11 and newer you can do it from the phone itself with wireless debugging; on Android 10 and below you plug into a computer to start it. Apps that support Shizuku then ask you for permission the way they would ask for the camera, and talk to the system directly instead of running shell commands.\n\nOn its own it does nothing useful, so it is only worth installing if an app you already use asks for it. And unless your phone is rooted, you have to repeat the start-up steps after every reboot. ADB permissions are also limited, so a few things stay out of reach.",
+  "repo": "https://github.com/RikkaApps/Shizuku",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://shizuku.rikka.app/",
+  "tags": ["adb", "root", "permissions", "debloat", "system", "developer"],
+  "added": "2026-08-24"
+}

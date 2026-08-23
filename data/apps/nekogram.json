@@ -1,0 +1,21 @@
+{
+  "id": "nekogram",
+  "name": "Nekogram",
+  "tagline": "Telegram with a tidier screen and a translator",
+  "description": "Nekogram is Telegram with a small set of useful changes. It signs in to your ordinary Telegram account and everything is where you expect it, but a built-in translator is added: translate a single message, or switch on automatic translation for a whole chat, choosing between Google, DeepL, Microsoft, Yandex and several other engines.\n\nThe rest is quiet polish. You can hide the bottom navigation bar, use your phone's own emoji instead of Telegram's, show your chat folders as icons rather than text, hide the \"All Chats\" tab, change how big stickers appear, and have voice messages transcribed free through Whisper when you don't have Telegram Premium.\n\nIt is an unofficial app for a closed service, so your messages still live on Telegram's servers and Telegram's rules still apply.",
+  "repo": "https://github.com/Nekogram/Nekogram",
+  "category": "social",
+  "license": "GPL-2.0",
+  "website": "https://nekogram.app",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "telegram",
+    "messaging",
+    "chat",
+    "translation",
+    "fork"
+  ],
+  "added": "2026-08-24"
+}

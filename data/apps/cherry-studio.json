@@ -1,0 +1,13 @@
+{
+  "id": "cherry-studio",
+  "name": "Cherry Studio",
+  "tagline": "Chat with AI models using your own API keys",
+  "description": "Cherry Studio is the phone version of the Cherry Studio desktop app. You bring your own API keys — OpenAI, Google Gemini, Anthropic and others — and talk to all of those models from one place, in a layout made for a small screen with light and dark themes.\n\nConversations are kept on your phone and you can search back through your history or bring your data over from the desktop app. Preset assistants let you save a model together with its own instructions, so you can keep a set-up for writing, coding or translation ready to go.\n\nThe app is not an AI service in itself: you need an account and an API key with a model provider, and you pay that provider for what you use. The mobile version is newer than the desktop one and support for some providers is still being filled in.",
+  "repo": "https://github.com/CherryHQ/cherry-studio-app",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://cherry-ai.com",
+  "antiFeatures": ["nonfree-network"],
+  "tags": ["ai", "chat", "llm", "openai", "gemini", "assistant"],
+  "added": "2026-08-24"
+}

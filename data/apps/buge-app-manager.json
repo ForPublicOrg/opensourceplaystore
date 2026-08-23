@@ -1,0 +1,12 @@
+{
+  "id": "buge-app-manager",
+  "name": "Buge App Manager",
+  "tagline": "Manage apps and permissions with Shizuku, no root needed",
+  "description": "Buge App Manager is a control panel for everything installed on your phone. Browse your own apps and the system ones Android usually keeps out of sight, then uninstall, disable or force stop them. System apps you removed can be restored again later.\n\nThe permission side shows you which apps can reach your microphone, camera, location, notifications, contacts and storage. You can filter by what has been granted or denied and change permissions for a whole batch of apps at once instead of tapping through them one by one. There is also an activity launcher for opening screens that apps do not otherwise give you a way into.\n\nIt needs Android 8 or newer and it needs Shizuku, a separate free app you set up once to hand it these powers. Without Shizuku running, Buge cannot change anything. Turning off system apps can break parts of your phone, so take it slowly.",
+  "repo": "https://github.com/BugeStudioTeam/Buge-App-Manager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://bugestudio.website/appmanager/",
+  "tags": ["apps", "permissions", "shizuku", "uninstall", "system", "privacy", "manager"],
+  "added": "2026-08-24"
+}

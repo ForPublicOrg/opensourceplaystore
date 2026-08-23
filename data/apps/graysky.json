@@ -1,0 +1,21 @@
+{
+  "id": "graysky",
+  "name": "Graysky",
+  "tagline": "A feed-first way to read Bluesky",
+  "description": "Graysky is an independent app for Bluesky, the open short-post social network. It is built around your custom feeds rather than one timeline, so hopping between the feeds you follow takes a tap.\n\nIt adds things the official app does not have: translate a post without leaving the app, view and post animated GIFs, clickable hashtags, and a look at anyone's likes instead of only your own. Push notifications are included.\n\nThe app is free to use. An optional Graysky Pro subscription adds better translations through DeepL, a custom accent colour and a circle graph of your closest connections — you can skip it and nothing stops working. Worth knowing before you install: it sends crash reports to a third-party service, it is not on F-Droid, and updates have slowed a lot — the last tagged release was in early 2025.",
+  "repo": "https://github.com/mozzius/graysky",
+  "category": "social",
+  "license": "MIT",
+  "website": "https://graysky.app",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "bluesky",
+    "social",
+    "atproto",
+    "feeds",
+    "microblog"
+  ],
+  "added": "2026-08-24"
+}

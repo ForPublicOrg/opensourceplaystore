@@ -1,0 +1,18 @@
+{
+  "id": "detoxdroid",
+  "name": "DetoxDroid",
+  "tagline": "Makes your phone boring so you use it less",
+  "description": "Most detox apps ask you to start a timer and then behave. DetoxDroid works the other way round: a calm phone is the normal state and you have to ask for a break from it. It keeps the screen mostly grey, leaves Do Not Disturb on, and switches off the apps you named as time sinks.\n\nIt also watches for those long scrolling sessions and interrupts you when one goes on too far. You can allow colour in the apps that genuinely need it, take a pause that ends by itself, hide the settings behind a commitment password so a moment of weakness cannot undo everything, and put a plain text launcher widget on your home screen.\n\nGetting it running is the awkward part. Android will not let an ordinary app change these settings, so you have to connect the phone to a computer, turn on USB debugging and run a small script the project provides.",
+  "repo": "https://github.com/flxapps/DetoxDroid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.flx_apps.digitaldetox",
+  "tags": [
+    "grayscale",
+    "focus",
+    "screen time",
+    "digital detox",
+    "distraction"
+  ],
+  "added": "2026-08-24"
+}

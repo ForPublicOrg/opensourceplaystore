@@ -1,0 +1,20 @@
+{
+  "id": "sms-backup",
+  "name": "SMS Backup+",
+  "tagline": "Back up your texts and call log to your email",
+  "description": "SMS Backup+ copies your text messages, picture messages and call log into Gmail, or into any other IMAP mailbox you use. They arrive as ordinary emails under their own label, so you can search years of conversations the way you search your mail, and you still have them if the phone is lost.\n\nAfter the first manual backup it can keep going on a schedule in the background. Texts and call records can be pulled back onto a phone later, and call entries can also be written into a Google Calendar so you can see who you spoke to and when.\n\nA few honest caveats. Picture messages can be backed up but not restored, and RCS chats are not supported at all. Google changed its rules, so with Gmail you now have to create an app password rather than signing in normally. The app is long-standing and stable rather than actively growing, and the project keeps a list of known problems that is worth reading first.",
+  "repo": "https://github.com/jberkel/sms-backup-plus",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://jberkel.github.io/sms-backup-plus/",
+  "tags": [
+    "sms",
+    "backup",
+    "gmail",
+    "imap",
+    "restore",
+    "messages"
+  ],
+  "fdroid": "com.zegoggles.smssync",
+  "added": "2026-08-24"
+}

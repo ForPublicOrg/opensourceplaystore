@@ -1,0 +1,20 @@
+{
+  "id": "qgroundcontrol",
+  "name": "QGroundControl",
+  "tagline": "Plan drone flights and watch live telemetry",
+  "description": "QGroundControl is the ground station for drones that speak MAVLink, which covers anything running PX4 or ArduPilot. You can plan a waypoint, survey or structure-scan mission, fly it, and watch the map, instruments and full vehicle telemetry live on your phone.\n\nIt also handles first-time setup, with guided steps for sensor calibration, radio, flight modes and power, plus access to every parameter on the aircraft. There's video streaming with recording, support for several vehicles at once, and tools for downloading and picking through MAVLink logs.\n\nThis is the same program that runs on desktop computers, so it's a big, dense app rather than a simple remote. You'll need a MAVLink-capable drone and a way to reach it, such as a telemetry radio or a USB link.",
+  "repo": "https://github.com/mavlink/qgroundcontrol",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://qgroundcontrol.com",
+  "tags": [
+    "drone",
+    "uav",
+    "mavlink",
+    "px4",
+    "ardupilot",
+    "telemetry",
+    "flight"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gps-cockpit",
+  "name": "GPS Cockpit",
+  "tagline": "Your speed, altitude and position in big clear dials",
+  "description": "GPS Cockpit turns your phone into a dashboard. A large speedometer, a compass, your altitude and your exact coordinates, all readable at a glance. Swipe the speedometer to swap it for an altimeter, or tap it to change the speed range.\n\nPress start and it counts the distance you cover, including how much you climbed and descended along the way. Coordinates can be copied, shared, or opened in a maps app. It also lists the satellites in view with their signal quality, and can clear stale assisted-GPS data when your phone is slow to get a fix. Flip the display and it becomes a head-up view you can read reflected in a windscreen.\n\nWhether it keeps running with the screen off depends on your phone — some manufacturers kill background apps no matter what permissions you grant.",
+  "repo": "https://github.com/woheller69/gpscockpit",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "fdroid": "org.woheller69.gpscockpit",
+  "tags": [
+    "gps",
+    "speedometer",
+    "altimeter",
+    "compass",
+    "dashboard",
+    "satellites"
+  ],
+  "added": "2026-08-24"
+}

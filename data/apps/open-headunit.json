@@ -1,0 +1,13 @@
+{
+  "id": "open-headunit",
+  "name": "Open Headunit",
+  "tagline": "Turn a spare tablet into an Android Auto screen for your car",
+  "description": "Open Headunit turns an old Android tablet or phone into an Android Auto display, so you get maps, music and calls on a proper screen in the car without buying a head unit or a new car. It is a revival of Michael Reid's original headunit project, brought up to date for current Android versions.\n\nThe dependable way to connect is a USB cable from your phone to the tablet, with the tablet in USB host mode and Android Auto installed on the phone. Wireless is possible too, either through the project's companion Wireless Helper app, the headunit server hidden in Android Auto's developer settings, or a wireless Android Auto dongle. Settings let you set the resolution, DPI, frame rate and video codec to suit your screen; mapping steering wheel keys is possible too, but the tablet has to be rooted or have Shizuku installed for that part.\n\nThis is a project for tinkerers: you supply the tablet, the cable, the power and the mounting, and the wiki is worth reading before you start. Android Auto 17.4 broke most wireless connection methods, the Wireless Helper included, so a wired connection or a dongle is the safe choice for now. Android Auto itself is a Google app and is not open source.",
+  "repo": "https://github.com/andreknieriem/open-headunit",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://headunit.andrerinas.com/",
+  "tags": ["android auto", "car", "tablet", "headunit", "usb", "driving"],
+  "antiFeatures": ["nonfree-network"],
+  "added": "2026-08-24"
+}

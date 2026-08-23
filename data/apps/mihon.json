@@ -1,0 +1,12 @@
+{
+  "id": "mihon",
+  "name": "Mihon",
+  "tagline": "Read manga and webtoons from sources you add yourself",
+  "description": "Mihon is a comic reader for your phone. You build a library, organise it into categories, and read with the page layout and reading direction you like. Chapters can be downloaded so you can keep reading with no signal, and the app checks your library for new chapters on a schedule.\n\nIt can also keep your progress in step with tracking sites like MyAnimeList, AniList, Kitsu, MangaUpdates and others, and it makes local backups you can move to another phone or keep in your own cloud storage.\n\nMihon arrives empty. It hosts nothing itself. You choose and install the online sources you want through its extension system, so what you can read depends entirely on what you add. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/mihonapp/mihon",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://mihon.app",
+  "tags": ["manga", "comics", "webtoon", "reader", "tachiyomi", "offline"],
+  "added": "2026-08-24"
+}

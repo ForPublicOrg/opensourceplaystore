@@ -1,0 +1,23 @@
+{
+  "id": "gamenative",
+  "name": "GameNative",
+  "tagline": "Play the PC games you already own on Android",
+  "description": "GameNative runs the PC games in your Steam, Epic, GOG and Amazon libraries directly on an Android device. Nothing is streamed — the games run on the phone itself. Your saves sync to the cloud, so you can stop on your PC and carry on where you left off.\n\nIt handles controllers and touch, with a custom control editor and an on-screen HUD, and it automatically applies settings that other players have found to work, so a lot of games start up with no fiddling. There is a public compatibility list you can check before you try a game.\n\nIt is still early: not every game runs, some need tweaking, and you will need to sign in to the stores your games live on. The app also sends anonymous play and compatibility data by default, which is how those shared settings get built; part of that can be switched off in settings.",
+  "repo": "https://github.com/utkarshdalal/GameNative",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://gamenative.app",
+  "antiFeatures": [
+    "tracking",
+    "nonfree-network"
+  ],
+  "tags": [
+    "steam",
+    "pc games",
+    "gaming",
+    "wine",
+    "epic",
+    "gog"
+  ],
+  "added": "2026-08-24"
+}

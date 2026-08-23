@@ -1,0 +1,21 @@
+{
+  "id": "currency-converter-calculator",
+  "name": "Currency Converter Calculator",
+  "tagline": "Convert currencies with a calculator built in",
+  "description": "This app converts between most of the currencies used around the world, and lets you do the arithmetic in the same place — add up a few numbers and convert the result, without switching to a separate calculator.\n\nRates come from the project's own server rather than from a public rates website. The same app is published for iPhone, so both phones in a household behave the same way.\n\nThe published builds carry adverts. Paying for Premium switches them off, but it runs out after a set period rather than for good, and the home screen widget is Premium-only as well. If you build the app yourself, the rate server's address is not published, so conversions will not work until you point it at a server of your own.",
+  "repo": "https://github.com/Oztechan/CCC",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "ads"
+  ],
+  "tags": [
+    "currency",
+    "converter",
+    "exchange",
+    "rates",
+    "money",
+    "calculator"
+  ],
+  "added": "2026-08-24"
+}

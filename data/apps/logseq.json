@@ -1,0 +1,12 @@
+{
+  "id": "logseq",
+  "name": "Logseq",
+  "tagline": "A notebook that links your ideas, kept as plain files",
+  "description": "Logseq is somewhere to write notes as nested bullet points and link them to each other, so a thought you had months ago turns up again when it is relevant. Pages, links and tasks all live together, and a dated journal page gives you somewhere to start writing each day.\n\nYour notes are ordinary Markdown or Org-mode files stored on your own device rather than in someone else's format, which means you can read them with any text editor and take them elsewhere whenever you like. There are desktop apps for Windows, Mac and Linux too, plus a large collection of plugins and themes.\n\nA couple of honest caveats. The mobile app has most, but not all, of what the desktop version does, and getting the same notes on both takes some setting up on your part. Logseq also asks more of you than a simple notes app before it clicks \u2014 it rewards people who want to build up a body of linked notes over time.",
+  "repo": "https://github.com/logseq/logseq",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://logseq.com",
+  "tags": ["notes", "markdown", "outliner", "knowledge base", "org-mode", "pkm"],
+  "added": "2026-08-24"
+}

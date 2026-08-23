@@ -1,0 +1,18 @@
+{
+  "id": "molly",
+  "name": "Molly",
+  "tagline": "Signal with an extra lock on your messages",
+  "description": "Molly is a hardened version of Signal. It connects to Signal's own servers and uses your Signal account, so you talk to exactly the same people in exactly the same way — but the copy of your messages stored on the phone can be encrypted with a passphrase, and the app can lock itself automatically when you stop using it. That matters if your phone is ever taken or stolen while it is switched on.\n\nIt also shreds sensitive data from memory, can block messages and calls from people you don't know, links several devices including tablets to one account, schedules its own backups, and can send its traffic through a SOCKS proxy or Tor with Orbot. It follows Signal's releases every two weeks, with security fixes applied sooner. There are two builds: plain Molly, and Molly-FOSS with no proprietary Google code, which can get notifications through UnifiedPush instead.\n\nYou still need a Signal account and Signal's terms still apply. Molly is not in the main F-Droid catalogue — install it from the project's own F-Droid repository at molly.im/fdroid, from Accrescent, or from the GitHub releases page.",
+  "repo": "https://github.com/mollyim/mollyim-android",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "tags": [
+    "signal",
+    "messenger",
+    "encrypted",
+    "privacy",
+    "security",
+    "chat"
+  ],
+  "added": "2026-08-24"
+}

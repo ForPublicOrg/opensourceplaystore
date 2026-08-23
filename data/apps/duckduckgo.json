@@ -1,0 +1,18 @@
+{
+  "id": "duckduckgo",
+  "name": "DuckDuckGo",
+  "tagline": "A private browser with a one-tap clear button",
+  "description": "DuckDuckGo is a web browser built around not being followed. It blocks the hidden trackers that advertising companies hide in pages, searches with DuckDuckGo instead of a search engine that keeps a profile of you, and puts a fire button in the corner that burns your tabs and browsing data in one tap.\n\nIt is made by the search company of the same name and developed in the open: the full app is here under the Apache licence, and the project takes translations and fixes from people outside the company.\n\nUsing it needs no account and there is nothing to set up. Two caveats: tracker blocking is never complete, and the odd site will misbehave, though you can report those from the app's settings. It is not on F-Droid either, so you install it from Google Play or from DuckDuckGo's own site.",
+  "repo": "https://github.com/duckduckgo/Android",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "website": "https://duckduckgo.com",
+  "tags": [
+    "browser",
+    "privacy",
+    "tracker blocking",
+    "search",
+    "web"
+  ],
+  "added": "2026-08-24"
+}

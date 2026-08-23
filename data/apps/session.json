@@ -1,0 +1,19 @@
+{
+  "id": "session",
+  "name": "Session",
+  "tagline": "Private messaging without a phone number or email",
+  "description": "Session is a messenger that does not ask who you are. There is no phone number and no email address to sign up with, so there is no account tied to your real identity in the first place.\n\nMessages are end-to-end encrypted and travel through a network of independently run service nodes using onion routing, the same idea behind Tor, so the machines passing your messages along never learn your IP address. Those nodes also hold messages for you until the other person comes online, which means neither of you needs a server of your own.\n\nWorth knowing: Session is not in the main F-Droid catalogue. The project runs its own F-Droid repository at fdroid.getsession.org, and signed APKs are on the GitHub releases page.",
+  "repo": "https://github.com/session-foundation/session-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://getsession.org",
+  "tags": [
+    "messenger",
+    "private",
+    "encrypted",
+    "onion",
+    "anonymous",
+    "chat"
+  ],
+  "added": "2026-08-24"
+}

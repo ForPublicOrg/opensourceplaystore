@@ -1,0 +1,21 @@
+{
+  "id": "telegram",
+  "name": "Telegram",
+  "tagline": "Chat, call and send big files to anyone",
+  "description": "Telegram is a messaging app for one-to-one chats, groups, voice and video calls, and channels you can follow. It is fast on a poor connection, handles large file transfers, and keeps your conversations in sync across every device you sign in on.\n\nThis is the official Android app, and Telegram publishes the complete source code for it, so anyone can read what the app does or build their own copy. For private conversations there are Secret Chats, which are encrypted end to end and stay on the two devices taking part.\n\nWorth knowing before you sign up: you need a phone number, Telegram's servers are closed source and run by the company, and ordinary chats are stored there rather than encrypted end to end. The open code here is the app, not the service behind it.",
+  "repo": "https://github.com/DrKLO/Telegram",
+  "category": "social",
+  "license": "GPL-2.0",
+  "website": "https://telegram.org",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "chat",
+    "messaging",
+    "telegram",
+    "calls",
+    "groups"
+  ],
+  "added": "2026-08-24"
+}

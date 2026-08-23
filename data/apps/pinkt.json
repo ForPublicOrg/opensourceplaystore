@@ -1,0 +1,11 @@
+{
+  "id": "pinkt",
+  "name": "Pinkt",
+  "tagline": "Save and search your bookmarks from your phone",
+  "description": "Pinkt is a bookmark app for Pinboard and Linkding. Share a link from your browser or any other app and it goes straight into your collection, with the title and description filled in for you if you like. Later you can search by word, filter by tag, and read what you saved without leaving the app.\n\nIt keeps a copy of your bookmarks on the phone, so the list opens instantly, and there are ready-made filters for recent, unread, public, private and untagged links. Dark theme, tablet layout and Material You colours are all there.\n\nIt is an unofficial client, so you need an account somewhere first: Pinboard, which charges a one-off signup fee, or Linkding, which you host yourself.",
+  "repo": "https://github.com/fibelatti/pinboard-kotlin",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": ["bookmarks", "pinboard", "linkding", "links", "reading", "sync"],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "teledrive",
+  "name": "TeleDrive",
+  "tagline": "Turn a private Telegram channel into your own cloud drive",
+  "description": "TeleDrive keeps your files in a private channel on your own Telegram account, so you get somewhere to put photos and documents without signing up for a new service. Take a photo and it uploads on its own, the way a cloud gallery app does, and a full file manager lets you browse, search, rename, move and bin things afterwards.\n\nThere is no TeleDrive server in the middle. You sign in with your phone number or a QR code, the app creates the channel, and a local index keeps browsing and searching fast even when you are offline. Turn on encryption and the channel holds only sealed bytes with random file names, unlocked by a passphrase only you know. Backups can be told to wait for Wi-Fi or for charging, and files that have not changed are never sent twice.\n\nYou need a Telegram account and your own Telegram API key, which means logging in at my.telegram.org, creating an app there, and copying the API ID and hash into TeleDrive on first launch. It is free and quick, but it is a step most people have never done before. Telegram's own rules then apply: files stop at 2 GB, or 4 GB with Premium, and encrypted photos and videos have to finish downloading before they open. There is no way to reset a lost encryption passphrase, which is the point of it. Needs Android 8 or newer.",
+  "repo": "https://github.com/Mahmud0808/TeleDrive",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "telegram",
+    "cloud storage",
+    "backup",
+    "files",
+    "photos",
+    "encryption"
+  ],
+  "added": "2026-08-24"
+}

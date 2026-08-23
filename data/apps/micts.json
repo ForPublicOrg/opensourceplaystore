@@ -1,0 +1,21 @@
+{
+  "id": "micts",
+  "name": "MiCTS",
+  "tagline": "Trigger Circle to Search on phones that never got it",
+  "description": "MiCTS brings up Google's Circle to Search on Android phones where the feature was never offered. Circle to Search lets you draw around anything on the screen, a jacket, a plant, a line of text, and search for it without leaving whatever app you are in. It covers Android 9 through 16.\n\nOpening MiCTS is what pulls the trigger, so you can start it however suits you: the quick settings tile it adds, a floating button app, or a gesture app. On Xiaomi phones it can also hook itself to a long press on the navigation bar or the Home key.\n\nThere is a real catch. You need Google's own app installed and set as your assistant, and on many devices Google has the feature switched off at their end. Getting round that needs root and LSPosed so the app can present your phone as a supported model. MiCTS only fires the trigger; anything that goes wrong after that is Google's software, not this app's. The main documentation is in Chinese, with English, Russian, Turkish and Persian versions of the readme.",
+  "repo": "https://github.com/parallelcc/MiCTS",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "search",
+    "google",
+    "lens",
+    "assistant",
+    "screenshot",
+    "gesture"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "komikku",
+  "name": "Komikku",
+  "tagline": "Keep all your manga in one library",
+  "description": "Komikku gathers manga from many online sources into a single library. You can browse and search across sources, download chapters to read on the train, and organise everything into categories. The reader offers several viewers and reading directions, and your progress syncs both ways with MyAnimeList, AniList, Kitsu, MangaUpdates, Shikimori and Bangumi.\n\nIt is a fork of Mihon by way of TachiyomiSY, and it adds a few things of its own: suggestions of related titles from whatever source you are browsing, hidden categories for keeping some of your library away from nosy eyes, colours drawn from each cover, adding many titles to your library at once, and a Feed tab that works with every source.\n\nThe app arrives with no sources at all — you install extensions yourself after setting it up, and where you get them from is your decision. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/komikku-app/komikku",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "tags": [
+    "manga",
+    "comics",
+    "reader",
+    "library",
+    "mihon",
+    "offline"
+  ],
+  "added": "2026-08-24"
+}

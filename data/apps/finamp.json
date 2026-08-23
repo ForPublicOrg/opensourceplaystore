@@ -1,0 +1,18 @@
+{
+  "id": "finamp",
+  "name": "Finamp",
+  "tagline": "Play your Jellyfin music library on your phone",
+  "description": "Finamp connects to a Jellyfin server and plays the music you keep on it. What it is really built around is downloading songs to the phone, so your collection keeps playing on the train or on a plane with no signal at all.\n\nJellyfin is a free media server you run yourself, on a home computer or a small box under the telly, so your music never passes through anyone else's service.\n\nYou need a Jellyfin server before this is any use. The app is also still a work in progress: you cannot reorder the queue while shuffle is turned on, and it can feel slow in places if your library is very large or your phone is old.",
+  "repo": "https://github.com/finamp-app/finamp",
+  "category": "media",
+  "license": "MPL-2.0",
+  "tags": [
+    "jellyfin",
+    "music",
+    "player",
+    "offline",
+    "selfhosted",
+    "streaming"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "transdroid",
+  "name": "Transdroid",
+  "tagline": "Control your torrent downloads from anywhere",
+  "description": "Transdroid is the remote control for the torrent program running on your computer or home server. Check what is downloading, see the speeds, pause or start things, look inside a torrent to pick which files you actually want, and add new ones without getting up.\n\nIt talks to most of the popular clients — Transmission, qBittorrent, Deluge, rTorrent, Vuze, µTorrent and many more. You can add torrents through the built-in search or from RSS feeds, and keep an eye on progress with a home screen widget or a background check that tells you when something finishes.\n\nYou need a torrent client already running somewhere the phone can reach it. Transdroid does not download anything itself.",
+  "repo": "https://github.com/erickok/transdroid",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://www.transdroid.org",
+  "fdroid": "org.transdroid.full",
+  "tags": [
+    "torrent",
+    "remote",
+    "transmission",
+    "qbittorrent",
+    "deluge",
+    "downloads",
+    "rss"
+  ],
+  "added": "2026-08-24"
+}

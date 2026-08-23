@@ -1,0 +1,17 @@
+{
+  "id": "re-arranged-pixel-dungeon",
+  "name": "Re-ARranged Pixel Dungeon",
+  "tagline": "A roguelike dungeon crawl with guns, katanas and new heroes",
+  "description": "Re-ARranged Pixel Dungeon is a much bigger version of Shattered Pixel Dungeon: a turn-based roguelike where you climb down a randomly generated dungeon, use whatever you happen to find, and usually die trying. Every run is different and every death is permanent.\n\nThis fork piles on extra content. There are five new classes and a new subclass for every existing hero, firearms alongside the usual swords, katanas and nunchaku, a new laboratory region on floors 26 to 31, a hidden Old Temple sub-dungeon, new bosses and enemies, trinkets, spellbooks, extra alchemy recipes and a blueprint crafting system.\n\nThe game is written in Korean first. English is there, but it was machine-translated, so some item and talent descriptions read awkwardly. A community translation is in progress.",
+  "repo": "https://github.com/Hoto-Mocha/Re-ARranged-Pixel-Dungeon",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": [
+    "roguelike",
+    "dungeon",
+    "pixel",
+    "rpg",
+    "game"
+  ],
+  "added": "2026-08-24"
+}

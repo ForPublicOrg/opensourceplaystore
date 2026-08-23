@@ -1,0 +1,18 @@
+{
+  "id": "hid-client",
+  "name": "HID Client",
+  "tagline": "Use your phone as a USB keyboard and mouse",
+  "description": "Plug your phone into a computer with a USB cable and this app makes that computer see a real keyboard and mouse. Whatever you type on the phone lands on the computer, you can move its mouse pointer, and multimedia keys work too, so you can turn the volume up and down from your pocket.\n\nNothing has to be installed on the computer's side. Because it looks like ordinary USB hardware at a very low level, it works even before an operating system has loaded, which means you can drive a BIOS or UEFI screen with it. Under the hood the app adds HID functions to your phone's own USB gadget.\n\nThis one needs a rooted phone, with no way around it, and the root has to be Magisk or KernelSU because the app patches SELinux rules as it runs. Special keys such as modifiers and function keys are much easier with a keyboard app like Unexpected Keyboard, though most things work with any keyboard. It has been tested mainly with a Linux computer on the other end.",
+  "repo": "https://github.com/Arian04/android-hid-client",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "keyboard",
+    "mouse",
+    "usb",
+    "hid",
+    "root",
+    "remote control"
+  ],
+  "added": "2026-08-24"
+}

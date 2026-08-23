@@ -1,0 +1,21 @@
+{
+  "id": "satdump",
+  "name": "SatDump",
+  "tagline": "Pull pictures out of satellite radio signals",
+  "description": "SatDump listens to satellites passing overhead and turns their radio transmissions into pictures and data. Point an antenna at the sky and the weather satellites on 137 MHz will hand you cloud images of your own region a few minutes after the pass ends.\n\nIt handles a long list of formats — NOAA APT, Meteor LRPT, HRPT and many S-band missions — and if you are in view of a geostationary satellite such as GOES or GK-2A, it can process that on the phone as well. You can decode live from the radio or open a recording made earlier on a computer; it is the same software as the desktop version.\n\nThis needs radio hardware you supply yourself: a supported SDR receiver (RTL-SDR, Airspy, Airspy HF+, HydraSDR or HackRF) plugged into your phone, plus an antenna. Not every SDR that works on a desktop works on Android.",
+  "repo": "https://github.com/SatDump/SatDump",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.satdump.org",
+  "fdroid": "org.satdump.SatDump",
+  "tags": [
+    "satellite",
+    "sdr",
+    "radio",
+    "weather",
+    "noaa",
+    "decoder",
+    "rtl-sdr"
+  ],
+  "added": "2026-08-24"
+}

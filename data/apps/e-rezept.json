@@ -1,0 +1,13 @@
+{
+  "id": "e-rezept",
+  "name": "E-Rezept",
+  "tagline": "Collect and redeem your German prescriptions at the pharmacy",
+  "description": "E-Rezept is the official app for Germany's electronic prescription. When your doctor issues a prescription digitally, it appears here, so you can see what you have been given and redeem it at a pharmacy, either by showing the code in the shop or by sending it to a pharmacy that delivers.\n\nYou sign in with your health insurance card and its PIN, held against the back of your phone over NFC, or with your insurer's own app. Prescriptions live on Germany's health network, and everything the app keeps on the phone is stored encrypted.\n\nThis is only useful if you have German public health insurance, a card that works over NFC and the PIN your insurer posted to you. The app is translated into English and a dozen other languages, but it only talks to Germany's own health network, so it does nothing anywhere else. There is a usage-analytics setting, which you can leave switched off.",
+  "repo": "https://github.com/gematik/E-Rezept-App-Android",
+  "category": "productivity",
+  "license": "EUPL-1.2",
+  "website": "https://gematik.github.io/E-Rezept-App-Android/",
+  "tags": ["prescription", "health", "pharmacy", "germany", "medicine", "insurance"],
+  "antiFeatures": ["nonfree-network", "tracking"],
+  "added": "2026-08-24"
+}

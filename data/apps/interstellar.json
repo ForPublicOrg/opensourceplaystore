@@ -1,0 +1,12 @@
+{
+  "id": "interstellar",
+  "name": "Interstellar",
+  "tagline": "Browse fediverse communities in one app",
+  "description": "Interstellar is a reader for the threadiverse — the Reddit-style side of the fediverse, where people post links and discuss them in communities. It speaks to Mbin, Lemmy and PieFed servers, so all three show up in one app instead of three.\n\nThe same app also runs on iOS, Linux and Windows, and volunteers translate it through Weblate, so there is a good chance it already speaks your language.\n\nThere is no single company behind any of this. You choose a server to sign up with, and the communities you see depend on which one you pick.",
+  "repo": "https://github.com/interstellar-app/interstellar",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://interstellar.jwr.one",
+  "tags": ["fediverse", "lemmy", "mbin", "piefed", "communities", "forum"],
+  "added": "2026-08-24"
+}

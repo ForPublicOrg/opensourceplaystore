@@ -1,0 +1,13 @@
+{
+  "id": "quillpad",
+  "name": "Quillpad",
+  "tagline": "Markdown notes, task lists and reminders in one place",
+  "description": "Quillpad is a notes app for writing in Markdown, with notebooks and tags to keep everything sorted. Turn a note into a task list, set a reminder so something does not slip, pin the ones you open constantly, archive the ones you are done with, and hide the ones you would rather other people did not see.\n\nNotes can carry voice recordings and file attachments. You can have Quillpad save everything as plain Markdown files in a folder on the phone or in a cloud folder, back the lot up to a zip file you can restore later, and choose between light and dark modes with several colour schemes. No adverts, and no unnecessary permissions.\n\nNextcloud sync exists but is still experimental, and it needs the Nextcloud Notes app installed on the server you sync with. Quillpad is a community continuation of Quillnote, which stopped being developed.",
+  "repo": "https://github.com/quillpad/quillpad",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://quillpad.github.io",
+  "fdroid": "io.github.quillpad",
+  "tags": ["notes", "markdown", "tasks", "reminders", "nextcloud", "keep"],
+  "added": "2026-08-24"
+}

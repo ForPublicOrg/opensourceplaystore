@@ -1,0 +1,20 @@
+{
+  "id": "fluffychat",
+  "name": "FluffyChat",
+  "tagline": "A cute, friendly way to chat on Matrix",
+  "description": "FluffyChat is a colourful chat app for Matrix, an open messaging network where anyone can run a server and everyone can still talk to each other. Send messages, pictures, files, voice notes and your location, in one-to-one chats, private groups or public channels with thousands of people in them.\n\nIt works hard to hide the awkward parts of Matrix — long user IDs turn into QR codes you can simply scan. Messages are end-to-end encrypted, chat backups are encrypted too, and the app picks up your phone's Material You colours. Because it speaks standard Matrix, you can chat with friends using Element, Nheko, NeoChat or any other Matrix app.\n\nYou need a Matrix account to sign in. You can make one on a public server or on a server you run yourself.",
+  "repo": "https://github.com/krille-chan/fluffychat",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://fluffychat.im/",
+  "fdroid": "chat.fluffy.fluffychat",
+  "tags": [
+    "matrix",
+    "chat",
+    "messenger",
+    "encrypted",
+    "groups",
+    "flutter"
+  ],
+  "added": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "look4sat",
+  "name": "Look4Sat",
+  "tagline": "Know when the space station flies over you",
+  "description": "Look4Sat tells you when satellites will pass over your head and where to look. Pick the International Space Station, a weather satellite or a ham radio relay, and it lists the upcoming passes, draws the path across a map, and tracks the pass live as it happens.\n\nSatellite data comes from Celestrak and SatNOGS, so over nine thousand active satellites are searchable by name or catalogue number. The calculations run on your phone, so once the data is downloaded you can use it without a signal.\n\nSet your location in the settings first, or the pass times will be wrong, and refresh the satellite data about once a week to keep predictions accurate.",
+  "repo": "https://github.com/rt-bishop/Look4Sat",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "com.rtbishop.look4sat",
+  "tags": ["satellite", "iss", "space", "ham radio", "tracker", "astronomy"],
+  "added": "2026-08-24"
+}

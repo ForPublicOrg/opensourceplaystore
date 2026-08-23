@@ -1,0 +1,19 @@
+{
+  "id": "bitchat",
+  "name": "BitChat",
+  "tagline": "Chat over Bluetooth when there is no internet",
+  "description": "BitChat lets nearby phones talk to each other directly over Bluetooth, with no accounts, no phone numbers and no servers in the middle. Messages hop from phone to phone, so someone a few rooms or a few buildings away can still hear you when the mobile network is down, jammed or simply absent. Handy at a festival, on a hike, or during an outage.\n\nPrivate messages are end-to-end encrypted, and group channels can be locked with a password. When you do have internet, BitChat can also send over the Nostr network, including public chat rooms tied to an area on the map, and it has Tor built in. Commands like /join and /msg will feel familiar if you have ever used IRC.\n\nEveryone you want to reach needs the app and Bluetooth switched on, and a message only travels up to seven hops. The app keeps a notification running so the mesh stays alive in the background. Triple-tapping wipes everything on the spot.",
+  "repo": "https://github.com/permissionlesstech/bitchat-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://bitchat.free",
+  "tags": [
+    "chat",
+    "bluetooth",
+    "mesh",
+    "offline",
+    "messaging",
+    "nostr"
+  ],
+  "added": "2026-08-24"
+}

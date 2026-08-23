@@ -1,0 +1,12 @@
+{
+  "id": "v2rayng",
+  "name": "v2rayNG",
+  "tagline": "Send your phone's internet through your own proxy server",
+  "description": "v2rayNG connects your phone to a proxy server you already have, so your browsing goes out through that server instead of straight from your phone. It speaks the common proxy formats people use for this: VMess, VLESS, Trojan, Shadowsocks and SOCKS5, running on the Xray or v2fly core.\n\nYou add a server by pasting its link or scanning its QR code, then tap to connect. Android hands all traffic to it as a VPN. Routing rules let you decide what goes through the proxy and what goes out normally, using downloadable country and domain lists.\n\nThis is a client only. It comes with no servers of any kind, so you need your own or one someone gives you, and setting it up means dealing with settings like ports, IDs and transport types.",
+  "repo": "https://github.com/2dust/v2rayNG",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://v2rayng.2dust.link",
+  "tags": ["proxy", "vpn", "xray", "v2ray", "shadowsocks", "trojan", "vless"],
+  "added": "2026-08-24"
+}

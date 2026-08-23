@@ -1,0 +1,12 @@
+{
+  "id": "freebloks",
+  "name": "Freebloks",
+  "tagline": "Fit your shapes into the board corner by corner",
+  "description": "Freebloks is a board game about squeezing 21 oddly shaped tiles onto a 20x20 grid. Two rules, and they are enough: each tile you lay down has to touch a corner of one of your own tiles, and it must never share an edge with them. Whoever gets the most squares onto the board wins.\n\nPlay against the computer, pass the phone round the table, or take a game online or over Bluetooth against friends. You get hints and an undo when you paint yourself into a corner, board sizes other than the standard one, and two-colour variants including Blokus Duo and Junior. Quit part way and your game comes back exactly where you left it.\n\nIt is the Android port of Freebloks 3D, and it can play across the network against the Windows and Linux versions of the same game.",
+  "repo": "https://github.com/shlusiak/Freebloks-Android",
+  "category": "games",
+  "license": "GPL-2.0",
+  "fdroid": "de.saschahlusiak.freebloks",
+  "tags": ["board game", "strategy", "blokus", "tiles", "multiplayer", "offline"],
+  "added": "2026-08-24"
+}

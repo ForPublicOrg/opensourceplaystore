@@ -1,0 +1,20 @@
+{
+  "id": "sapio",
+  "name": "Sapio",
+  "tagline": "See which apps still work without Google services",
+  "description": "Sapio tells you whether an Android app will actually run on a phone with no Google Play Services. If you use a deGoogled phone, a custom system like LineageOS, CalyxOS or /e/OS, or microG, it saves you installing something only to find the login or the notifications are dead.\n\nEvery rating comes from someone else running a similar setup. Apps are marked green when everything works, yellow when one part is broken (notifications, login, in-app purchases, maps and so on) and red when the app will not run at all, and each report says whether the phone had microG or was bare AOSP. You can look apps up in the app or on the website, and add your own reports without an email address, an account or any sign-up.\n\nThe ratings are only as good as what people have sent in, so a less popular app may have very few reports, or none yet.",
+  "repo": "https://github.com/jonathanklee/Sapio",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://checksap.io",
+  "tags": [
+    "degoogle",
+    "microg",
+    "lineageos",
+    "privacy",
+    "compatibility",
+    "aosp"
+  ],
+  "fdroid": "com.klee.sapio",
+  "added": "2026-08-24"
+}

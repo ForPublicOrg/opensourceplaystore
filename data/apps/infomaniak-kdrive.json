@@ -1,0 +1,23 @@
+{
+  "id": "infomaniak-kdrive",
+  "name": "Infomaniak kDrive",
+  "tagline": "Your kDrive files and photos on your phone",
+  "description": "kDrive is Infomaniak's cloud storage, held in data centres in Switzerland, and this is its Android app. Manage, share and view your documents, photos, videos and audio, add any file from the phone, and open, create or edit Word, Excel and PowerPoint documents.\n\nYour camera gallery can back itself up automatically, and you can store chosen files on the phone so they open with no connection. If you have more than one kDrive, you can switch between them. Infomaniak says it does not analyse or resell what you store.\n\nYou need an Infomaniak account: there is a free 15 GB offer, and paid plans above that. The app is open source, but the storage service behind it is a commercial product. It comes in English and a dozen other European languages.",
+  "repo": "https://github.com/Infomaniak/android-kDrive",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://www.infomaniak.com/en/kdrive",
+  "fdroid": "com.infomaniak.drive",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "cloud",
+    "storage",
+    "files",
+    "photos",
+    "backup",
+    "kdrive"
+  ],
+  "added": "2026-08-24"
+}
