@@ -8,8 +8,9 @@ the full product design.
 
 - **No backend, no accounts, no tracking** — 100% static files.
 - **Fully usable with JavaScript disabled** — real download links and every sort order are
-  baked into the HTML (⭐ stars · 🆕 just added · 🌱 newest projects · 🔄 updated · 👤 maker · 🔤 A–Z).
-- **Kid-simple UX** — Apple-glass look, emoji navigation, grade-3 reading level.
+  baked into the HTML (stars · just added · newest projects · updated · maker · A–Z).
+- **Kid-simple UX** — plain words at a grade-3 reading level, big tap targets, icon-and-word
+  navigation, and one obvious action per page. See the UX system in [DESIGN.md](DESIGN.md).
 
 ## Repo layout
 
@@ -19,12 +20,13 @@ data/categories.json     fixed category taxonomy
 data/live.json           generated snapshot (stars, APK links, icons, screenshots)
 schema/app.schema.json   the manifest contract
 scripts/validate.js      schema + duplicate + live-repo checks (zero-dep)
+scripts/lib/icons.js     the site's icon set, inlined into every page as an SVG sprite
 scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json
 scripts/discover.js      finds listable apps GitHub has and this catalog doesn't
 scripts/setup-repo.js    one-time GitHub settings for unattended publishing
 scripts/serve.js         tiny local preview server
 build.js                 zero-dependency static site generator -> dist/
-public/                  assets copied into dist/ (JS, favicon, CNAME, _headers)
+public/                  assets copied into dist/ (JS, CSS, the display font, favicon, CNAME, _headers)
 .github/workflows/       validate PRs · auto-merge publishes · deploy · 6-hourly sync
 ```
 
@@ -115,7 +117,7 @@ so it never checks out or runs the pull request's code. It checks out `main`, re
 changed-file list from the API, and copies in the manifests only after their paths pass the
 checks above. What it deliberately does *not* judge is taste: whether an app is worth
 listing, and whether the URLs in a listing point somewhere sensible. Anyone can flag a bad
-listing with **🚩 Report this listing**, and removing one is a normal (human-reviewed) PR.
+listing with **Report this listing**, and removing one is a normal (human-reviewed) PR.
 
 ### Turning it on
 
@@ -138,7 +140,7 @@ unattended merges.
 Manifest fields are documented in [schema/app.schema.json](schema/app.schema.json). Notable
 optional fields: `fdroid` (package id — enables a direct APK download via F-Droid when the
 GitHub release has none), `download` (an official download page as a last-resort fallback),
-and `status: "testing"` (marks an early version — the listing gets a 🧪 badge and appears
+and `status: "testing"` (marks an early version — the listing gets an "In testing" badge and appears
 in the `/testing/` collection; prerelease-style release tags are badged automatically).
 Icons and phone screenshots are auto-discovered from the repo's fastlane metadata
 (`fastlane/metadata/android/en-US/images/…`) — publishers who follow that standard get a

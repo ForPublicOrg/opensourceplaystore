@@ -14,6 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { rawImageUrl } = require('./scripts/lib/image-url');
+const { sprite, icon: ic } = require('./scripts/lib/icons');
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
@@ -34,7 +35,10 @@ function versioned(urlPath) {
 
 const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8'));
 const categories = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'categories.json'), 'utf8'));
-const CSS = fs.readFileSync(path.join(ROOT, 'public', 'css', 'site.css'), 'utf8');
+/* The display face is preloaded from the page head and referenced from the
+   inlined CSS; both use the same content-hashed URL. */
+const FONT_URL = versioned('/fonts/bricolage-grotesque.woff2');
+const CSS = fs.readFileSync(path.join(ROOT, 'public', 'css', 'site.css'), 'utf8').replaceAll('__FONT_URL__', FONT_URL);
 
 const registryReady = !config.registryRepo.includes('YOUR_GITHUB_USERNAME');
 const registryUrl = `https://github.com/${config.registryRepo}`;
@@ -144,7 +148,7 @@ function fmtStars(n) {
 function fmtCount(n) {
   if (n < 10) return String(n);
   const base = n < 100 ? Math.floor(n / 10) * 10 : Math.floor(n / 50) * 50;
-  return `${base}+`;
+  return `${base.toLocaleString('en-US')}+`;
 }
 
 function fmtSize(bytes) {
@@ -189,7 +193,7 @@ function isTesting(app) {
 const TESTING_CAT = {
   id: 'testing',
   name: 'In testing',
-  emoji: '🧪',
+  icon: 'flask',
   blurb: 'Early versions — help by trying them',
   hue: 55,
 };
@@ -208,12 +212,12 @@ const CMP = {
 /* `note` explains the order in plain words — two of these tabs are about
    "new" in different senses, and the label alone can't carry that. */
 const SORTS = [
-  { id: 'top', emoji: '⭐', label: 'Top', note: 'Most GitHub stars first' },
-  { id: 'new', emoji: '🆕', label: 'Just added', note: 'Newest listings on this site first' },
-  { id: 'fresh', emoji: '🌱', label: 'Brand new', note: 'Youngest projects first — recently started' },
-  { id: 'updated', emoji: '🔄', label: 'Updated', note: 'Worked on most recently first' },
-  { id: 'maker', emoji: '👤', label: 'Maker', note: 'Grouped by who makes them, A–Z' },
-  { id: 'az', emoji: '🔤', label: 'A–Z', note: 'By name, A to Z' },
+  { id: 'top', label: 'Top', note: 'Most GitHub stars first' },
+  { id: 'new', label: 'Just added', note: 'Newest listings on this site first' },
+  { id: 'fresh', label: 'New projects', note: 'Youngest projects first — recently started' },
+  { id: 'updated', label: 'Updated', note: 'Worked on most recently first' },
+  { id: 'maker', label: 'Maker', note: 'Grouped by who makes them, A–Z' },
+  { id: 'az', label: 'A–Z', note: 'By name, A to Z' },
 ];
 
 const PER_PAGE = 24;
@@ -235,11 +239,18 @@ if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?
 document.documentElement.setAttribute('data-theme',t);
 try{if(localStorage.getItem('osps-banner')==='off')document.documentElement.setAttribute('data-banner','off')}catch(e){}})();</script>`;
 
+/* Every icon on the site, once per page, referenced by <use>. */
+const SPRITE = sprite();
+
+/* The mark: an outlined ("open") play triangle. Coloured by CSS so it
+   follows the theme; the favicon is the same drawing with fixed colours. */
+const LOGO_MARK = '<svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16"/><path d="M25 18.5v27L47.5 32z"/></svg>';
+
 /* Site-wide alert banner (keepandroidopen.org). Dismiss persists in localStorage;
    THEME_BOOT applies it before first paint so there is no flash. */
 const BANNER = `<div class="site-banner" id="site-banner">
-  <p><span aria-hidden="true">⚠️</span> Google is changing how Android installs apps — stores like this one are at risk. <a href="https://keepandroidopen.org/" rel="noopener">keepandroidopen.org</a></p>
-  <button class="banner-close" id="banner-close" type="button" aria-label="Hide this message">✕</button>
+  <p>${ic('alert')}<span>Google is changing how Android installs apps — stores like this one are at risk. <a href="https://keepandroidopen.org/" rel="noopener">keepandroidopen.org</a></span></p>
+  <button class="banner-close" id="banner-close" type="button" aria-label="Hide this message">${ic('x')}</button>
 </div>`;
 
 const BANNER_JS = `<script>(function(){var b=document.getElementById('banner-close');if(!b)return;
@@ -247,9 +258,11 @@ b.addEventListener('click',function(){document.documentElement.setAttribute('dat
 try{localStorage.setItem('osps-banner','off')}catch(e){}
 var n=document.querySelector('.site-header .logo');if(n)n.focus();});})();</script>`;
 
+/* The button holds both a sun and a moon; CSS shows the one for the theme
+   you would switch to, so the script only has to keep the label honest. */
 const THEME_TOGGLE = `<script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;
 function cur(){return document.documentElement.getAttribute('data-theme')==='dark'?'dark':'light'}
-function draw(){b.textContent=cur()==='dark'?'☀️':'🌙';b.setAttribute('aria-label',cur()==='dark'?'Switch to light colors':'Switch to dark colors')}
+function draw(){b.setAttribute('aria-label',cur()==='dark'?'Switch to light colors':'Switch to dark colors')}
 b.addEventListener('click',function(){var n=cur()==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);
 try{localStorage.setItem('osps-theme',n)}catch(e){}draw()});draw()})();</script>`;
 
@@ -262,23 +275,25 @@ const ANALYTICS = '<script defer src="/_vercel/insights/script.js"></script>';
    from the href, so no substring surprises. The mobile Search tab shares the
    catalog's key on purpose: it opens /apps/, so it lights up there. */
 const NAV_ITEMS = [
-  { href: '/', emoji: '🏠', label: 'Home', key: 'home' },
-  { href: '/apps/?focus=search', emoji: '🔍', label: 'Search', key: 'apps', tabOnly: true },
-  { href: '/apps/', emoji: '📱', label: 'All apps', key: 'apps', navOnly: true },
-  { href: '/publish/', emoji: '📤', label: 'Publish', key: 'publish' },
-  { href: '/help/', emoji: '❓', label: 'Help', key: 'help' },
+  { href: '/', icon: 'home', label: 'Home', key: 'home' },
+  { href: '/apps/?focus=search', icon: 'search', label: 'Search', key: 'apps', tabOnly: true },
+  { href: '/apps/', icon: 'apps', label: 'All apps', key: 'apps', navOnly: true },
+  { href: '/publish/', icon: 'upload', label: 'Publish', key: 'publish' },
+  { href: '/help/', icon: 'help', label: 'Help', key: 'help' },
 ];
 
 /* Compact search in the header for pages that have no search box of their own.
    /js/search.js fills the listbox as you type; Enter without a highlighted row
    falls back to the plain GET to /apps/?q=…, which applies the query there. */
 const NAV_SEARCH = `<form class="nav-search" action="/apps/" role="search">
-        <input type="search" name="q" placeholder="Search apps…" aria-label="Search apps" autocomplete="off"
+        ${ic('search')}
+        <input type="search" name="q" placeholder="Search apps" aria-label="Search apps" autocomplete="off"
                role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="nav-search-results">
+        <kbd aria-hidden="true">/</kbd>
         <div class="nav-results" id="nav-search-results" role="listbox" aria-label="Search results" hidden></div>
       </form>`;
 
-function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false }) {
+function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false, mainClass = '' }) {
   const fullTitle = urlPath === '/' ? `${config.siteName} — ${config.tagline}` : `${title} · ${config.siteName}`;
   const canonical = config.baseUrl + urlPath;
   const current = (item) => (active && item.key === active ? ' aria-current="page"' : '');
@@ -298,8 +313,9 @@ function page({ title, description, urlPath, active, content, scripts = [], body
 <link rel="canonical" href="${esc(canonical)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#f6f8f6" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="${FONT_URL}" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${esc(canonical)}">
@@ -309,35 +325,38 @@ ${image ? `<meta property="og:image" content="${esc(image)}">\n` : ''}${head ? h
 <style>${CSS}</style>
 </head>
 <body${bodyAttrs}>
+${SPRITE}
 ${BANNER}
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="/"><img src="/favicon.svg" alt="" width="34" height="34"> Open Source<br>Play Store</a>
+    <a class="logo" href="/">${LOGO_MARK}<span>Open Source Play Store</span></a>
     <nav class="top-nav" aria-label="Main">
       ${navSearch ? NAV_SEARCH : ''}
       ${NAV_ITEMS.filter((n) => !n.tabOnly).map((n) =>
-        `<a class="nav-link" href="${n.href}"${current(n)}><span aria-hidden="true">${n.emoji}</span> ${n.label}</a>`
+        `<a class="nav-link" href="${n.href}"${current(n)}>${n.label}</a>`
       ).join('\n      ')}
-      <button class="theme-btn" id="theme-toggle" type="button" aria-label="Switch colors">🌙</button>
+      <button class="icon-btn theme-btn" id="theme-toggle" type="button" aria-label="Switch colors">${ic('moon', { cls: 'i-moon' })}${ic('sun', { cls: 'i-sun' })}</button>
     </nav>
   </div>
 </header>
-<main class="wrap" id="main">
+<main class="wrap${mainClass ? ' ' + mainClass : ''}" id="main">
 ${content}
 </main>
 <footer class="site-footer">
   <div class="wrap">
     <p class="footmark">© ${new Date().getFullYear()} ${esc(config.siteName)}${registryReady ? `&nbsp;·&nbsp;<a href="${esc(registryUrl)}" rel="noopener">Open source</a>` : ''}&nbsp;·&nbsp;<a class="athena-mark" href="https://tryathena.dev" rel="noopener"><img src="/athena.svg" alt="" width="18" height="18"> Built using Athena</a></p>
-    <a href="/apps/">All apps</a>
-    <a href="/about/">How this site works</a>
-    <a href="/help/">Help</a>
-    <a href="/publish/">Publish an app</a>
-    <span>We don’t host apps — downloads come from each app’s own page.</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/apps/">All apps</a>
+      <a href="/about/">How this site works</a>
+      <a href="/help/">Help</a>
+      <a href="/publish/">Publish an app</a>
+    </nav>
+    <p class="footer-note">We don’t host apps — downloads come from each app’s own page.</p>
   </div>
 </footer>
 <nav class="tab-bar" aria-label="Quick tabs">
   ${NAV_ITEMS.filter((n) => !n.navOnly).map((n) =>
-    `<a href="${n.href}"${current(n)}><span class="tab-emoji" aria-hidden="true">${n.emoji}</span>${n.label}</a>`
+    `<a href="${n.href}"${current(n)}><span class="tab-ic">${ic(n.icon)}</span>${n.label}</a>`
   ).join('\n  ')}
 </nav>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -351,46 +370,57 @@ ${pageScripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('
 
 /* ---------------- components ---------------- */
 
-function starsPillHtml(app, withId) {
+/* GitHub stars on a card, or "New" for an app that has none yet. */
+function starsHtml(app) {
   const l = liveOf(app);
-  const id = withId ? ' id="stars-pill"' : '';
   if (typeof l.stars === 'number') {
-    return `<span class="pill"${id}>⭐ ${fmtStars(l.stars)}${withId ? ' GitHub stars' : ''}</span>`;
+    return `<span class="stars">${ic('star-solid')}<span>${fmtStars(l.stars)}</span></span>`;
   }
-  return `<span class="pill"${id}>🆕 New${withId ? ' here' : ''}</span>`;
+  return '<span class="badge badge-new">New</span>';
+}
+
+/* The same fact as a tag in an app page's header. /js/app.js refreshes the
+   count in place, so the number lives in its own span. */
+function starsTag(app) {
+  const l = liveOf(app);
+  if (typeof l.stars === 'number') {
+    return `<span class="tag" id="stars-pill">${ic('star-solid', { cls: 'star' })}<span id="stars-count">${fmtStars(l.stars)}</span>&nbsp;GitHub stars</span>`;
+  }
+  return `<span class="tag" id="stars-pill">${ic('star', { cls: 'star' })}New here</span>`;
 }
 
 /* `maker: true` swaps the category tag for the maker's name — without it the
    maker sort just looks like a shuffled list. */
 function appCard(app, opts = {}) {
   const cat = catById[app.category];
-  const testing = isTesting(app) ? '<span class="pill warn">🧪 Testing</span>' : '';
+  const testing = isTesting(app) ? `<span class="badge badge-warn">${ic('flask')}Testing</span>` : '';
   const tag = opts.maker
-    ? `<span class="cat-tag"><span aria-hidden="true">👤</span> ${esc(ownerOf(app))}</span>`
-    : `<span class="cat-tag"><span aria-hidden="true">${cat.emoji}</span> ${esc(cat.name)}</span>`;
+    ? `<span class="cat-tag">${ic('user')}${esc(ownerOf(app))}</span>`
+    : `<span class="cat-tag">${ic(cat.icon)}${esc(cat.name)}</span>`;
   return `<a class="card" style="--cat:${cat.hue}" href="/app/${app.id}/">
-  <img class="card-icon" src="${esc(iconUrl(app, 128))}" alt="" width="72" height="72" loading="lazy" decoding="async">
+  <img class="card-icon" src="${esc(iconUrl(app, 128))}" alt="" width="56" height="56" loading="lazy" decoding="async">
   <span class="card-name">${esc(app.name)}</span>
   <span class="card-tagline">${esc(app.tagline)}</span>
-  <span class="card-meta">${starsPillHtml(app, false)}${testing}${tag}</span>
+  <span class="card-meta">${starsHtml(app)}${testing}${tag}</span>
 </a>`;
 }
 
-/* Section heading with an optional "See all" link on the right. */
-function sectionHead(emoji, title, seeAllHref, seeAllLabel) {
+/* Section heading, a one-line explanation under it, and an optional
+   "See all" link on the right. */
+function sectionHead(title, seeAllHref, seeAllLabel, sub) {
   const link = seeAllHref
-    ? `<a class="see-all" href="${seeAllHref}">${esc(seeAllLabel || 'See all')} →</a>` : '';
+    ? `<a class="see-all" href="${seeAllHref}">${esc(seeAllLabel || 'See all')}${ic('arrow-right')}</a>` : '';
   return `<div class="section-head">
-  <h2 class="section-title"><span aria-hidden="true">${emoji}</span> ${esc(title)}</h2>
+  <div><h2>${esc(title)}</h2>${sub ? `<p>${esc(sub)}</p>` : ''}</div>
   ${link}
 </div>`;
 }
 
 /* Horizontal strip of compact cards, hidden while searching. */
-function cardStrip(emoji, title, appsList, seeAllHref) {
+function cardStrip(title, appsList, seeAllHref, sub) {
   if (!appsList.length) return '';
   return `<section data-hide-on-search>
-  ${sectionHead(emoji, title, seeAllHref)}
+  ${sectionHead(title, seeAllHref, 'See all', sub)}
   <div class="card-strip">
 ${appsList.map((a) => appCard(a)).join('\n')}
   </div>
@@ -401,7 +431,7 @@ ${appsList.map((a) => appCard(a)).join('\n')}
 function sortTabs(catId, activeId) {
   return `<nav class="sort-tabs" aria-label="Sort order">
   ${SORTS.map((s) =>
-    `<a class="sort-tab" href="${catalogUrl(catId, s.id)}"${s.id === activeId ? ' aria-current="true"' : ''}><span aria-hidden="true">${s.emoji}</span> ${s.label}</a>`
+    `<a class="sort-tab" href="${catalogUrl(catId, s.id)}"${s.id === activeId ? ' aria-current="true"' : ''}>${s.label}</a>`
   ).join('\n  ')}
 </nav>`;
 }
@@ -420,29 +450,30 @@ function paginationNav(catId, sortId, cur, total) {
     prev = n;
   }
   return `<nav class="pagination" aria-label="More pages">
-  ${cur > 1 ? `<a class="page-link page-step" rel="prev" href="${url(cur - 1)}">← Previous</a>` : ''}
+  ${cur > 1 ? `<a class="page-link page-step" rel="prev" href="${url(cur - 1)}">${ic('chevron-left')}Previous</a>` : ''}
   ${parts.join('\n  ')}
-  ${cur < total ? `<a class="page-link page-step" rel="next" href="${url(cur + 1)}">Next →</a>` : ''}
+  ${cur < total ? `<a class="page-link page-step" rel="next" href="${url(cur + 1)}">Next${ic('chevron-right')}</a>` : ''}
 </nav>`;
 }
 
 /* Search UI (hero variant) + the containers client-side results render into. */
 function searchBox() {
   return `<div class="search-box" role="search" aria-label="Search apps">
-    <span aria-hidden="true">🔍</span>
-    <input id="search-input" type="search" placeholder="Search apps…" aria-label="Search for an app" autocomplete="off">
-    <button class="search-clear" type="button" aria-label="Clear search">✕</button>
+    ${ic('search')}
+    <input id="search-input" type="search" placeholder="Search apps" aria-label="Search for an app" autocomplete="off">
+    <kbd aria-hidden="true">/</kbd>
+    <button class="search-clear" type="button" aria-label="Clear search">${ic('x')}</button>
   </div>
-  <p class="meta-line center" id="result-count" aria-live="polite"></p>`;
+  <p class="meta-line result-count" id="result-count" aria-live="polite"></p>`;
 }
 
 function searchResults() {
   return `<div class="grid" id="search-results" hidden></div>
 <div class="empty-state" id="search-empty" hidden>
-  <p class="big" aria-hidden="true">😢</p>
+  <div class="empty-icon">${ic('search-off')}</div>
   <h2>No apps match</h2>
-  <p class="muted">Try another word — or maybe you know an app we’re missing?</p>
-  <a class="btn btn-primary" href="/publish/">📤 Add an app</a>
+  <p>Try another word — or maybe you know an app we’re missing?</p>
+  <a class="btn btn-primary" href="/publish/">Add an app</a>
 </div>`;
 }
 
@@ -457,31 +488,31 @@ function trendingScore(app) {
   return Math.log10(l.stars + 1) / Math.sqrt(days + 2);
 }
 
-/* Big banner card with a real screenshot — used in the "Popular" strip. */
+/* Big card with a real screenshot — used in the "Popular" strip. */
 function featureCard(app) {
   const cat = catById[app.category];
   const shot = screenshotsOf(app)[0];
   return `<a class="feature-card" style="--cat:${cat.hue}" href="/app/${app.id}/">
   <img class="feature-shot" src="${esc(shot)}" alt="" loading="lazy" decoding="async">
   <span class="feature-body">
-    <img class="feature-icon" src="${esc(iconUrl(app, 128))}" alt="" width="52" height="52" loading="lazy" decoding="async">
+    <img class="feature-icon" src="${esc(iconUrl(app, 128))}" alt="" width="44" height="44" loading="lazy" decoding="async">
     <span>
       <span class="card-name">${esc(app.name)}</span>
       <span class="card-tagline">${esc(app.tagline)}</span>
     </span>
-    ${starsPillHtml(app, false)}
+    ${starsHtml(app)}
   </span>
 </a>`;
 }
 
 function categoryChips(activeId) {
   const cur = (isActive) => (isActive ? ' active" aria-current="page' : '');
-  const all = `<a class="chip${cur(!activeId)}" href="/apps/">✨ All apps</a>`;
-  const testing = `<a class="chip chip-cat${cur(activeId === TESTING_CAT.id)}" style="--cat:${TESTING_CAT.hue}" href="/testing/"><span aria-hidden="true">${TESTING_CAT.emoji}</span> ${esc(TESTING_CAT.name)}</a>`;
+  const all = `<a class="chip${cur(!activeId)}" href="/apps/">${ic('apps')}All apps</a>`;
+  const testing = `<a class="chip chip-cat${cur(activeId === TESTING_CAT.id)}" style="--cat:${TESTING_CAT.hue}" href="/testing/">${ic(TESTING_CAT.icon)}${esc(TESTING_CAT.name)}</a>`;
   return `<div class="chips">
   ${all}
   ${categories.map((c) =>
-    `<a class="chip chip-cat${cur(activeId === c.id)}" style="--cat:${c.hue}" href="/category/${c.id}/"><span aria-hidden="true">${c.emoji}</span> ${esc(c.name)}</a>`
+    `<a class="chip chip-cat${cur(activeId === c.id)}" style="--cat:${c.hue}" href="/category/${c.id}/">${ic(c.icon)}${esc(c.name)}</a>`
   ).join('\n  ')}
   ${testing}
 </div>`;
@@ -542,7 +573,7 @@ function homePage() {
     .sort(CMP.new)
     .slice(0, 8);
   justAdded.forEach((a) => shownIds.add(a.id));
-  /* Brand new: projects that only started in the last year and are already
+  /* New projects: ones that only started in the last year and are already
      worth a look — the strip the "fresh" sort exists for. */
   const YEAR = 365 * 86400000;
   const QUARTER = 90 * 86400000;
@@ -559,33 +590,49 @@ function homePage() {
     .sort(CMP.fresh)
     .slice(0, 8);
 
+  /* The picture next to the headline is the catalog itself: the twelve
+     most-starred apps' own icons, each a real link. */
+  const shelf = sortedApps.slice(0, 12);
+
   const content = `
 <section class="hero">
-  <h1>Free apps made by people, for people 💚</h1>
-  <p>Every app here is <strong>open source</strong> — anyone can look inside and see exactly how it’s made. No account. No tricks.</p>
-  ${searchBox()}
-  <p class="meta-line center" data-hide-on-search>${fmtCount(apps.length)} apps in ${categories.length} categories · <a href="/apps/">browse them all</a></p>
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow">${fmtCount(apps.length)} free Android apps</p>
+      <h1>Free apps made by people, for people.</h1>
+      <p class="lede">Every app here is open source: anyone can look inside and see exactly how it’s made. No account, no tricks, nothing to pay.</p>
+      ${searchBox()}
+      <ul class="hero-facts" data-hide-on-search>
+        <li>${ic('check-circle')}No account needed</li>
+        <li>${ic('code')}Every app shows its code</li>
+        <li>${ic('download')}Downloads come from the makers</li>
+      </ul>
+    </div>
+    <div class="mosaic" data-hide-on-search>
+      ${shelf.map((a) => `<a href="/app/${a.id}/" title="${esc(a.name)}" aria-label="${esc(a.name)}"><img src="${esc(iconUrl(a, 128))}" alt="" width="96" height="96" loading="lazy" decoding="async"></a>`).join('\n      ')}
+    </div>
+  </div>
 </section>
 ${categoryChips(null)}
 ${popular.length ? `<section class="popular" data-hide-on-search>
-  ${sectionHead('🔥', 'Popular right now', '/apps/')}
+  ${sectionHead('Popular', '/apps/', 'See all', 'The most-loved apps, with a look inside')}
   <div class="feature-strip">
 ${popular.map(featureCard).join('\n')}
   </div>
 </section>` : ''}
-${cardStrip('🚀', 'Trending', trending, '/apps/updated/')}
-${cardStrip('🆕', 'Just added', justAdded, '/apps/new/')}
-${cardStrip('🌱', 'Brand new', brandNew, '/apps/fresh/')}
-${cardStrip('💎', 'Hidden gems', gems)}
+${cardStrip('Trending', trending, '/apps/updated/', 'Loved apps that shipped something recently')}
+${cardStrip('Just added', justAdded, '/apps/new/', 'New on this site')}
+${cardStrip('New projects', brandNew, '/apps/fresh/', 'Started in the last year and already worth a look')}
+${cardStrip('Hidden gems', gems, null, 'Small, active projects the star count hides')}
 <section data-hide-on-search>
-  ${sectionHead('⭐', 'Top apps', '/apps/', 'See all')}
+  ${sectionHead('Top apps', '/apps/', 'See all', 'The most GitHub stars')}
   ${grid(sortedApps.slice(0, 12))}
-  <p class="browse-all"><a class="btn btn-secondary" href="/apps/">Browse all apps →</a></p>
+  <p class="browse-all"><a class="btn btn-secondary" href="/apps/">Browse all ${fmtCount(apps.length)} apps${ic('arrow-right')}</a></p>
 </section>
 ${searchResults()}
-<section class="callout center" data-hide-on-search>
-  <h2 style="margin-top:0">Made an app? Put it here! 📤</h2>
-  <p>If your Android app is open source, listing it takes about 3 minutes. It’s free, forever.</p>
+<section class="cta-panel" data-hide-on-search>
+  <h2>Made an app? List it here.</h2>
+  <p>If your Android app is open source, listing it takes about three minutes. It’s free, forever.</p>
   <a class="btn btn-primary" href="/publish/">Publish your app</a>
 </section>
 ${syncedLine}`;
@@ -610,9 +657,8 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
   const first = (pageNum - 1) * PER_PAGE + 1;
   const last = Math.min(total, pageNum * PER_PAGE);
 
-  const heroTitle = isAll
-    ? 'All apps'
-    : `<span aria-hidden="true">${cat.emoji}</span> ${esc(cat.name)}`;
+  const heroTitle = isAll ? 'All apps' : esc(cat.name);
+  const catMark = cat ? `<div class="cat-mark" style="--cat:${cat.hue}">${ic(cat.icon)}</div>` : '';
   const heroSub = isAll
     ? `${fmtCount(total)} free, open-source Android apps — and growing.`
     : `${esc(cat.blurb)} — ${total >= 10 ? `${fmtCount(total)} apps, ` : ''}all free and open source.`;
@@ -623,10 +669,10 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
 
   const body = total === 0
     ? `<div class="empty-state">
-  <p class="big" aria-hidden="true">${cat ? cat.emoji : '✨'}</p>
+  <div class="empty-icon">${ic(cat ? cat.icon : 'apps')}</div>
   <h2>No apps here yet</h2>
-  <p class="muted">Be the first! Do you make an app like this, or know one?</p>
-  <a class="btn btn-primary" href="/publish/">📤 Add an app</a>
+  <p>Be the first! Do you make an app like this, or know one?</p>
+  <a class="btn btn-primary" href="/publish/">Add an app</a>
 </div>`
     : `<div data-hide-on-search>
   <div class="toolbar">
@@ -638,7 +684,8 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
 </div>`;
 
   const content = `
-<section class="hero hero-compact">
+<section class="page-head">
+  ${catMark}
   <h1>${heroTitle}</h1>
   <p>${heroSub}</p>
   ${isAll ? searchBox() : ''}
@@ -733,48 +780,52 @@ function appPage(app) {
   /* Download chain: baked APK -> manifest download url -> releases page. */
   let dlHref;
   let dlLabel;
+  let dlIcon;
   let dlKind;
-  let dlSub = '';
+  let dlMeta;
   let dlNote = `This comes straight from ${esc(app.name)}’s own GitHub page — it’s free.`;
   if (l.apk) {
     dlHref = l.apk.url;
-    dlLabel = '⬇️ Download the app (APK)';
+    dlLabel = 'Download the app';
+    dlIcon = 'download';
     dlKind = 'apk';
     const fromFdroid = l.apk.source === 'fdroid';
-    const bits = [
+    dlMeta = [
+      'APK file',
       l.releaseTag ? `Version ${esc(l.releaseTag)}` : null,
       l.apk.size ? fmtSize(l.apk.size) : null,
       l.releaseDate ? `updated ${timeAgo(l.releaseDate)}` : null,
-      fromFdroid ? 'via F-Droid 💚' : null,
+      fromFdroid ? 'via F-Droid' : null,
     ].filter(Boolean);
-    dlSub = `<p class="center meta-line">${bits.join(' · ')}</p>`;
     if (fromFdroid) {
       dlNote = 'This download comes from F-Droid, a trusted library of free open-source apps.';
     }
   } else if (app.download) {
     dlHref = app.download;
-    dlLabel = '⬇️ Get the app';
+    dlLabel = 'Get the app';
+    dlIcon = 'arrow-up-right';
     dlKind = 'fallback';
-    dlSub = '<p class="center meta-line">Opens the app’s own download page</p>';
+    dlMeta = ['Opens the app’s own download page'];
   } else {
     dlHref = releasesUrl;
-    dlLabel = '🔗 Get it from the app’s GitHub page';
+    dlLabel = 'Get it from GitHub';
+    dlIcon = 'arrow-up-right';
     dlKind = 'fallback';
-    dlSub = '<p class="center meta-line">Look for the file ending in <strong>.apk</strong></p>';
+    dlMeta = ['Look for the file ending in <strong>.apk</strong>'];
   }
 
-  const licensePill = `<span class="pill">📜 ${esc(l.license || app.license)}</span>`;
-  const archivedPill = l.archived
-    ? '<span class="pill warn">💤 No longer updated</span>' : '';
-  const testingPill = isTesting(app)
-    ? '<a class="pill warn" href="/testing/">🧪 In testing</a>' : '';
+  const licenseTag = `<span class="tag">${ic('scale')}${esc(l.license || app.license)}</span>`;
+  const archivedTag = l.archived
+    ? `<span class="tag tag-warn">${ic('archive')}No longer updated</span>` : '';
+  const testingTag = isTesting(app)
+    ? `<a class="tag tag-warn" href="/testing/">${ic('flask')}In testing</a>` : '';
 
   const antiHtml = (app.antiFeatures || []).length
-    ? `<div class="callout warn"><strong>Heads up:</strong> the makers say this app ${app.antiFeatures.map((a) => esc(ANTI_LABELS[a] || a)).join(', and ')}.</div>`
+    ? `<div class="callout warn">${ic('alert')}<div><strong>Heads up:</strong> the makers say this app ${app.antiFeatures.map((a) => esc(ANTI_LABELS[a] || a)).join(', and ')}.</div></div>`
     : '';
 
   const testingHtml = isTesting(app)
-    ? '<div class="callout warn"><strong>🧪 Early version:</strong> this app is still being built and tested. Things may change or break — trying it and telling the makers what you find is a big help.</div>'
+    ? `<div class="callout warn">${ic('flask')}<div><strong>Early version:</strong> this app is still being built and tested. Things may change or break — trying it and telling the makers what you find is a big help.</div></div>`
     : '';
 
   /* Each screenshot stays a real link to the image: with JavaScript off,
@@ -794,13 +845,13 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
   const licenseUrl = gh ? `${app.repo}?tab=License-1-ov-file` : app.repo;
 
   const links = [
-    ['📄', 'See the code', 'How it’s made — every line is public', app.repo],
-    ['💬', 'Questions & comments', 'Talk with the people who make it', discussionsUrl],
-    ['🐛', 'Report a problem', 'Tell the makers something is broken', `${app.repo}/issues`],
-    ['🕘', 'All versions', 'Older downloads and what changed', releasesUrl],
-    ['📜', 'License', 'The rules for using and sharing it', licenseUrl],
+    ['code', 'See the code', 'How it’s made — every line is public', app.repo],
+    ['chat', 'Questions & comments', 'Talk with the people who make it', discussionsUrl],
+    ['bug', 'Report a problem', 'Tell the makers something is broken', `${app.repo}/issues`],
+    ['history', 'All versions', 'Older downloads and what changed', releasesUrl],
+    ['scale', 'License', 'The rules for using and sharing it', licenseUrl],
   ];
-  if (app.website) links.splice(1, 0, ['🌐', 'Website', 'The app’s own home page', app.website]);
+  if (app.website) links.splice(1, 0, ['globe', 'Website', 'The app’s own home page', app.website]);
 
   const ownerName = ownerOf(app);
   const updatedLine = [
@@ -809,16 +860,15 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
     l.syncedAt ? `info updated ${timeAgo(l.syncedAt)}` : null,
   ].filter(Boolean).join(' · ');
 
-  const adminLinks = registryReady ? `<p class="center meta-line">
-  <a href="https://github.com/${config.registryRepo}/edit/${config.registryBranch}/data/apps/${app.id}.json" rel="noopener">✏️ Suggest an edit</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/${config.registryRepo}/issues/new?title=${encodeURIComponent(`Report listing: ${app.name} (${app.id})`)}&body=${encodeURIComponent('What is wrong with this listing?\n\n')}" rel="noopener">🚩 Report this listing</a>
+  const adminLinks = registryReady ? `<p class="admin-links">
+  <a href="https://github.com/${config.registryRepo}/edit/${config.registryBranch}/data/apps/${app.id}.json" rel="noopener">${ic('pencil')}Suggest an edit</a>
+  <a href="https://github.com/${config.registryRepo}/issues/new?title=${encodeURIComponent(`Report listing: ${app.name} (${app.id})`)}&body=${encodeURIComponent('What is wrong with this listing?\n\n')}" rel="noopener">${ic('flag')}Report this listing</a>
 </p>` : '';
 
   const similar = similarApps(app);
   const similarHtml = similar.length
     ? `<section>
-  ${sectionHead('🧭', 'More like this', `/category/${cat.id}/`, `All ${esc(cat.name)}`)}
+  ${sectionHead('More like this', `/category/${cat.id}/`, `All ${cat.name}`)}
   ${grid(similar)}
 </section>` : '';
 
@@ -841,40 +891,41 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
   const ldScript = `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`;
 
   const content = `
-<p style="margin-top:14px"><a class="back-link" href="/apps/">← All apps</a></p>
+<a class="back-link" href="/apps/">${ic('arrow-left')}All apps</a>
 <section class="app-hero">
   <img class="app-hero-icon" src="${esc(iconUrl(app, 192))}" alt="" width="96" height="96" decoding="async">
   <div>
     <h1>${esc(app.name)}</h1>
     <p class="tagline">${esc(app.tagline)}</p>
     <div class="badge-row">
-      ${starsPillHtml(app, true)}
-      ${licensePill}
-      <a class="pill" href="/category/${cat.id}/"><span aria-hidden="true">${cat.emoji}</span> ${esc(cat.name)}</a>
-      ${testingPill}
-      ${archivedPill}
+      ${starsTag(app)}
+      ${licenseTag}
+      <a class="tag tag-cat" style="--cat:${cat.hue}" href="/category/${cat.id}/">${ic(cat.icon)}${esc(cat.name)}</a>
+      ${testingTag}
+      ${archivedTag}
     </div>
+    <p class="maker-line">Made by <a href="${esc(gh ? `https://github.com/${ownerName}` : app.repo)}" rel="noopener">${esc(ownerName)}</a> · free and open source</p>
   </div>
 </section>
-<p class="meta-line">Made by <a href="${esc(gh ? `https://github.com/${ownerName}` : app.repo)}" rel="noopener"><strong>${esc(ownerName)}</strong></a> · free &amp; open source ✅</p>
 ${testingHtml}
 ${antiHtml}
 <div class="download-box">
   <div class="download-actions">
-    <a class="btn btn-primary" id="download-btn" data-kind="${dlKind}" href="${esc(dlHref)}" rel="noopener">${dlLabel}</a>
-    <button class="btn btn-secondary" id="share-btn" type="button" data-share-text="${esc(`${app.name} — ${app.tagline}`)}" hidden>📤 Share</button>
+    <a class="btn btn-primary btn-lg" id="download-btn" data-kind="${dlKind}" href="${esc(dlHref)}" rel="noopener">${ic(dlIcon)}<span>${dlLabel}</span></a>
+    <button class="btn btn-secondary" id="share-btn" type="button" data-share-text="${esc(`${app.name} — ${app.tagline}`)}" hidden>${ic('share')}Share</button>
   </div>
-  ${dlSub}
-  <p class="download-note">${dlNote}
-  <a href="/help/">Need help installing? →</a></p>
+  <p class="download-meta">${dlMeta.map((m) => `<span>${m}</span>`).join('')}</p>
+  <p class="download-note">${dlNote} <a href="/help/">Need help installing?</a></p>
 </div>
 ${screenshotsHtml}
 <h2>About this app</h2>
+<div class="prose">
 ${descHtml}
+</div>
 <h2>From the app’s home page</h2>
 <ul class="links-list">
-${links.map(([emoji, label, sub, href]) =>
-    `  <li><a href="${esc(href)}" rel="noopener"><span class="link-emoji" aria-hidden="true">${emoji}</span><span>${label}<span class="link-sub">${sub}</span></span></a></li>`
+${links.map(([name, label, sub, href]) =>
+    `  <li><a href="${esc(href)}" rel="noopener"><span class="link-icon">${ic(name)}</span><span>${label}<span class="link-sub">${sub}</span></span>${ic('arrow-up-right', { cls: 'ic-ext' })}</a></li>`
   ).join('\n')}
 </ul>
 ${similarHtml}
@@ -893,6 +944,7 @@ ${adminLinks}`;
     bodyAttrs: gh ? ` data-github="${esc(gh)}"` : '',
     head: ldScript,
     image: iconUrl(app, 192),
+    mainClass: 'app-page',
   });
 }
 
@@ -904,12 +956,12 @@ function publishPage() {
   ).join('\n      ');
 
   const registryNote = registryReady ? '' : `
-<div class="callout warn"><strong>🔧 A note for the person building this site:</strong> one-click publishing isn’t connected yet. Open <code>site.config.json</code> and set <code>registryRepo</code> to your GitHub repo. Until then, this form gives everyone copy-paste instructions instead.</div>`;
+<div class="callout warn">${ic('alert')}<div><strong>A note for the person building this site:</strong> one-click publishing isn’t connected yet. Open <code>site.config.json</code> and set <code>registryRepo</code> to your GitHub repo. Until then, this form gives everyone copy-paste instructions instead.</div></div>`;
 
   const content = `
-<section class="hero">
-  <h1>Add your app 📤</h1>
-  <p>Takes about 3 minutes. Free forever. You just need your app’s code on <strong>GitHub</strong> (public) and a free GitHub account.</p>
+<section class="page-head">
+  <h1>Add your app</h1>
+  <p>Takes about three minutes. Free forever. You just need your app’s code on <strong>GitHub</strong> (public) and a free GitHub account.</p>
 </section>
 ${registryNote}
 <form id="publish-form" class="form-card" data-registry="${esc(config.registryRepo)}" data-branch="${esc(config.registryBranch)}" onsubmit="return false">
@@ -918,12 +970,15 @@ ${registryNote}
     <input type="url" id="f-repo" placeholder="https://github.com/you/your-app" autocomplete="off" aria-describedby="f-repo-error">
     <p class="field-error" id="f-repo-error" hidden></p>
     <p class="hint">Paste the link, then let us do the typing:</p>
-    <button class="btn btn-secondary" id="fetch-btn" type="button">✨ Fill it in for me</button>
+    <button class="btn btn-secondary" id="fetch-btn" type="button">Fill it in from GitHub</button>
   </div>
   <div class="callout" id="checklist-box" hidden>
-    <strong>Quick check:</strong>
-    <ul class="checklist" id="checklist"></ul>
-    <p class="hint">⚠ marks are okay — your app can still be listed.</p>
+    ${ic('check-circle')}
+    <div>
+      <strong>Quick check</strong>
+      <ul class="checklist" id="checklist"></ul>
+      <p class="hint">Warnings are okay — your app can still be listed.</p>
+    </div>
   </div>
   <div class="form-field">
     <label for="f-name">2. What’s it called?</label>
@@ -941,21 +996,21 @@ ${registryNote}
     <p class="field-error" id="f-description-error" hidden></p>
   </div>
   <div class="form-field">
-    <label>5. Which group fits best?</label>
-    <div class="cat-picker" id="f-category" role="radiogroup" aria-label="Category" aria-describedby="f-category-error">
+    <p class="label" id="f-category-label">5. Which group fits best?</p>
+    <div class="cat-picker" id="f-category" role="radiogroup" aria-labelledby="f-category-label" aria-describedby="f-category-error">
       ${categories.map((c) =>
-        `<label><input type="radio" name="category" value="${c.id}"><span aria-hidden="true">${c.emoji}</span> ${esc(c.name)}</label>`
+        `<label style="--cat:${c.hue}"><input type="radio" name="category" value="${c.id}">${ic(c.icon)}${esc(c.name)}</label>`
       ).join('\n      ')}
     </div>
     <p class="field-error" id="f-category-error" hidden></p>
   </div>
   <div class="form-field">
-    <label>6. Is it ready for everyone?</label>
-    <label class="check-row"><input type="checkbox" id="f-testing"> 🧪 Not yet — it’s an early version, still in testing</label>
+    <p class="label">6. Is it ready for everyone?</p>
+    <label class="check-row"><input type="checkbox" id="f-testing"> Not yet — it’s an early version, still in testing</label>
     <p class="hint">We’ll show a small “In testing” badge so people know what to expect. Easy to remove later.</p>
   </div>
-  <details class="faq">
-    <summary>Extras (icon, pictures, website…) — all optional</summary>
+  <details class="extras">
+    <summary>Extras (icon, pictures, website…) — all optional${ic('chevron-down')}</summary>
     <div class="form-field">
       <label for="f-icon">Icon link</label>
       <input type="url" id="f-icon" placeholder="https://… (a square picture)" aria-describedby="f-icon-error">
@@ -981,30 +1036,32 @@ ${registryNote}
       <input type="text" id="f-tags" placeholder="e.g. music, player, offline">
     </div>
     <div class="form-field">
-      <label>Be honest — does your app have any of these?</label>
+      <p class="label">Be honest — does your app have any of these?</p>
       ${antiBoxes}
       <p class="hint">Saying so builds trust. Most apps here have none.</p>
     </div>
   </details>
   <h2>How it will look</h2>
-  <div class="grid" style="max-width:260px;padding-bottom:8px">
-    <span class="card" id="preview-card">
-      <img class="card-icon" src="/favicon.svg" data-fallback="/favicon.svg" alt="" width="64" height="64">
+  <div class="grid preview-grid">
+    <span class="card" id="preview-card" style="--cat:145">
+      <img class="card-icon" src="/favicon.svg" data-fallback="/favicon.svg" alt="" width="56" height="56">
       <span class="card-name">Your app</span>
       <span class="card-tagline">One line about what it does</span>
-      <span class="card-meta"><span class="pill">🆕 New</span><span class="pill warn" id="preview-testing" hidden>🧪 Testing</span></span>
+      <span class="card-meta"><span class="badge badge-new">New</span><span class="badge badge-warn" id="preview-testing" hidden>${ic('flask')}Testing</span></span>
     </span>
   </div>
   <div class="callout">
-    <strong>What happens next?</strong> A page on <strong>GitHub.com</strong> opens with your app’s info already filled in.
+    ${ic('info')}
+    <div><strong>What happens next?</strong> A page on <strong>GitHub.com</strong> opens with your app’s info already filled in.
     Just press GitHub’s green <em>“Propose new file”</em> button — that asks us to add your app.
-    A robot checks it, and your app goes live. ✅
+    A robot checks it, and your app goes live.</div>
   </div>
-  <button class="btn btn-primary btn-block" id="publish-btn" type="button">🚀 Publish on GitHub</button>
-  <p class="center" style="margin-top:10px"><button class="btn btn-secondary" id="copy-btn" type="button">📋 Copy the app info instead</button></p>
+  <button class="btn btn-primary btn-lg btn-block" id="publish-btn" type="button">Publish on GitHub${ic('arrow-up-right')}</button>
+  <p class="center" style="margin-top:12px"><button class="btn btn-secondary" id="copy-btn" type="button">${ic('copy')}Copy the app info instead</button></p>
   <div class="callout" id="after-publish" hidden>
-    🎉 <strong>Almost done!</strong> Finish on the GitHub tab that just opened: press the green button there.
-    A robot checks your app and adds it — that usually takes a few minutes.
+    ${ic('check-circle')}
+    <div><strong>Almost done!</strong> Finish on the GitHub tab that just opened: press the green button there.
+    A robot checks your app and adds it — that usually takes a few minutes.</div>
   </div>
   <div id="copy-fallback" hidden>
     <div class="form-field" style="margin-top:14px">
@@ -1014,7 +1071,7 @@ ${registryNote}
     </div>
   </div>
 </form>
-<noscript><div class="callout warn">This form needs JavaScript. You can still add your app: create a file under <code>data/apps/</code> in the site’s GitHub repo${registryReady ? ` — <a href="${esc(registryUrl)}" rel="noopener">open it here</a>` : ''}.</div></noscript>`;
+<noscript><div class="callout warn">${ic('alert')}<div>This form needs JavaScript. You can still add your app: create a file under <code>data/apps/</code> in the site’s GitHub repo${registryReady ? ` — <a href="${esc(registryUrl)}" rel="noopener">open it here</a>` : ''}.</div></div></noscript>`;
 
   return page({
     title: 'Publish your app',
@@ -1028,29 +1085,35 @@ ${registryNote}
 
 /* ---------------- help ---------------- */
 
+const faq = (q, a) => `<details class="faq"><summary>${q}${ic('chevron-down')}</summary><p>${a}</p></details>`;
+
 function helpPage() {
   const content = `
-<section class="hero">
-  <h1>Help ❓</h1>
+<section class="page-head">
+  <h1>Help</h1>
   <p>Everything you need to know, in plain words.</p>
 </section>
+<div class="prose">
 <h2>How to install an app</h2>
 <ol class="steps">
   <li><h3>Tap the big green Download button</h3><p>Your phone downloads a file ending in <strong>.apk</strong> — that file <em>is</em> the app.</p></li>
   <li><h3>Open the downloaded file</h3><p>Pull down from the top of the screen and tap the download. (Or find it in your <strong>Files</strong> app.)</p></li>
-  <li><h3>Say yes to your phone’s question</h3><p>Your phone shows a caution message — <strong>that’s normal</strong> ✅. It appears for every app that doesn’t come from the Play Store. Tap <em>Settings</em>, turn on <em>“Allow from this source”</em>, then press back.</p></li>
-  <li><h3>Tap Install</h3><p>🎉 All done! Open your new app from the home screen.</p></li>
+  <li><h3>Say yes to your phone’s question</h3><p>Your phone shows a caution message — <strong>that’s normal</strong>. It appears for every app that doesn’t come from the Play Store. Tap <em>Settings</em>, turn on <em>“Allow from this source”</em>, then press back.</p></li>
+  <li><h3>Tap Install</h3><p>All done! Open your new app from the home screen.</p></li>
 </ol>
-<div class="callout warn"><strong>Stay safe:</strong> only install apps from places you trust. Every app on this site shows its full source code — anyone in the world can check there’s nothing hidden. If something looks wrong, use the “Report” link on the app’s page.</div>
+<div class="callout warn">${ic('alert')}<div><strong>Stay safe:</strong> only install apps from places you trust. Every app on this site shows its full source code — anyone in the world can check there’s nothing hidden. If something looks wrong, use the “Report” link on the app’s page.</div></div>
 <h2>Questions people ask</h2>
-<details class="faq"><summary>What’s an APK?</summary><p>It’s the file format Android apps come in — like <code>.exe</code> on Windows. When you download an APK and open it, your phone installs the app.</p></details>
-<details class="faq"><summary>Is this safe?</summary><p>Every app here is <strong>open source</strong>: its full recipe (the code) is public. That means experts everywhere can check what it really does — the opposite of hidden. Downloads come straight from each app’s own GitHub page, not from us. Still, only install what you trust, and ask a grown-up if you’re not sure.</p></details>
-<details class="faq"><summary>Why is everything free?</summary><p>These apps are made by people who share their work for everyone. Some accept donations — you’ll find that on their pages — but nothing here costs money.</p></details>
-<details class="faq"><summary>What does the 🧪 “In testing” badge mean?</summary><p>The app’s makers are still building it. You can try it early and tell them what you find — that really helps them — but expect a few rough edges. Everything in testing lives on <a href="/testing/">one page</a>.</p></details>
-<details class="faq"><summary>Where do the stars and comments come from?</summary><p>Straight from GitHub, the site where the apps are built. ⭐ stars show how many people bookmarked an app there. “Questions &amp; comments” takes you to the app’s own community.</p></details>
-<details class="faq"><summary>The download button showed a page full of files — which one do I pick?</summary><p>Look for a file ending in <strong>.apk</strong>. If there are several, the one with <strong>arm64</strong> (or <strong>universal</strong>) in its name works on most phones.</p></details>
-<details class="faq"><summary>I make an app — how do I put it here?</summary><p>Wonderful! <a href="/publish/">Go to the Publish page</a> — it takes about 3 minutes.</p></details>
-<p><a href="/about/">Curious how this site works? →</a></p>`;
+<div class="faq-list">
+${faq('What’s an APK?', 'It’s the file format Android apps come in — like <code>.exe</code> on Windows. When you download an APK and open it, your phone installs the app.')}
+${faq('Is this safe?', 'Every app here is <strong>open source</strong>: its full recipe (the code) is public. That means experts everywhere can check what it really does — the opposite of hidden. Downloads come straight from each app’s own GitHub page, not from us. Still, only install what you trust, and ask a grown-up if you’re not sure.')}
+${faq('Why is everything free?', 'These apps are made by people who share their work for everyone. Some accept donations — you’ll find that on their pages — but nothing here costs money.')}
+${faq('What does the “In testing” badge mean?', 'The app’s makers are still building it. You can try it early and tell them what you find — that really helps them — but expect a few rough edges. Everything in testing lives on <a href="/testing/">one page</a>.')}
+${faq('Where do the stars and comments come from?', 'Straight from GitHub, the site where the apps are built. Stars show how many people bookmarked an app there. “Questions &amp; comments” takes you to the app’s own community.')}
+${faq('The download button showed a page full of files — which one do I pick?', 'Look for a file ending in <strong>.apk</strong>. If there are several, the one with <strong>arm64</strong> (or <strong>universal</strong>) in its name works on most phones.')}
+${faq('I make an app — how do I put it here?', 'Wonderful! <a href="/publish/">Go to the Publish page</a> — it takes about three minutes.')}
+</div>
+<p><a href="/about/">Curious how this site works?</a></p>
+</div>`;
 
   return page({
     title: 'Help',
@@ -1065,20 +1128,22 @@ function helpPage() {
 
 function aboutPage() {
   const content = `
-<section class="hero">
-  <h1>How this site works 💚</h1>
+<section class="page-head">
+  <h1>How this site works</h1>
   <p>A free, open store for open-source Android apps — with no accounts and no servers.</p>
 </section>
+<div class="prose">
 <h2>The whole trick, in three sentences</h2>
 <p>1. Every app listing is a tiny public file in ${registryReady ? `<a href="${esc(registryUrl)}" rel="noopener">a GitHub repository</a>` : 'a GitHub repository'} — anyone can propose one, and a robot checks it.</p>
 <p>2. Downloads come <strong>straight from each app’s own releases</strong> — we never host or change the files.</p>
 <p>3. Stars and comments are the app’s real GitHub stars and discussions — we don’t invent our own.</p>
 <h2>For grown-ups and developers</h2>
 <p>This site is a <em>listing</em>, not an app store with review teams. We check automatically that a listed project exists, is public, and declares an open-source license — but <strong>we don’t audit code and we don’t scan APKs</strong>. The honest trust signal is the one open source has always had: the code is public, the community is public, and the download comes from the project itself.</p>
-<p>Found something that shouldn’t be here? Every app page has a <strong>🚩 Report</strong> link — reports are public GitHub issues and removals are fast.</p>
-<p>Want to list your app? It’s a 3-minute form: <a href="/publish/">Publish</a>. Updating a listing is a normal pull request.</p>
+<p>Found something that shouldn’t be here? Every app page has a <strong>Report</strong> link — reports are public GitHub issues and removals are fast.</p>
+<p>Want to list your app? It’s a three-minute form: <a href="/publish/">Publish</a>. Updating a listing is a normal pull request.</p>
 <h2>Fast by design</h2>
-<p>The whole site is static files — no database, no tracking scripts, nothing between you and the apps. Pages are tiny and work even with JavaScript switched off.</p>`;
+<p>The whole site is static files — no database, no tracking scripts, nothing between you and the apps. Pages are tiny and work even with JavaScript switched off.</p>
+</div>`;
 
   return page({
     title: 'About',
@@ -1094,10 +1159,10 @@ function aboutPage() {
 function notFoundPage() {
   const content = `
 <div class="empty-state">
-  <p class="big" aria-hidden="true">🕵️</p>
+  <div class="empty-icon">${ic('search-off')}</div>
   <h1>We looked everywhere…</h1>
-  <p class="muted">…but this page isn’t here. Maybe the app moved, or the link has a typo.</p>
-  <p><a class="btn btn-primary" href="/">🏠 Back to all apps</a></p>
+  <p>…but this page isn’t here. Maybe the app moved, or the link has a typo.</p>
+  <p><a class="btn btn-primary" href="/">Back to the home page</a></p>
 </div>`;
   return page({
     title: 'Page not found',
@@ -1179,7 +1244,7 @@ write('index.json', JSON.stringify(
 
 /* Compact search index fetched on demand by /js/search.js (first keystroke). */
 const searchIndex = {
-  cats: Object.fromEntries(categories.map((c) => [c.id, { n: c.name, e: c.emoji, h: c.hue }])),
+  cats: Object.fromEntries(categories.map((c) => [c.id, { n: c.name, ic: c.icon, h: c.hue }])),
   apps: sortedApps.map((a) => ({
     id: a.id,
     n: a.name,

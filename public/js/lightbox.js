@@ -58,10 +58,23 @@
     return node;
   }
 
-  function button(cls, label, glyph) {
-    var b = el('button', 'lightbox-btn ' + cls, glyph);
+  /* Icons come from the sprite every page inlines (see scripts/lib/icons.js). */
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+  function svgIcon(name) {
+    var svg = document.createElementNS(SVG_NS, 'svg');
+    svg.setAttribute('class', 'ic');
+    svg.setAttribute('aria-hidden', 'true');
+    var use = document.createElementNS(SVG_NS, 'use');
+    use.setAttribute('href', '#i-' + name);
+    svg.appendChild(use);
+    return svg;
+  }
+
+  function button(cls, label, iconName) {
+    var b = el('button', 'lightbox-btn ' + cls);
     b.type = 'button';
     b.setAttribute('aria-label', label);
+    if (iconName) b.appendChild(svgIcon(iconName));
     return b;
   }
 
@@ -105,7 +118,7 @@
     });
     dialog.appendChild(track);
 
-    closeBtn = button('lightbox-close', 'Close', '✕');
+    closeBtn = button('lightbox-close', 'Close', 'x');
     closeBtn.addEventListener('click', function () { requestClose(); });
     dialog.appendChild(closeBtn);
     chrome.push(closeBtn);
@@ -114,8 +127,8 @@
        arrows out to the edges of the picture; on phones they stay in the bar
        where a thumb can reach them. */
     if (links.length > 1) {
-      prevBtn = button('lightbox-prev', 'Previous picture', '‹');
-      nextBtn = button('lightbox-next', 'Next picture', '›');
+      prevBtn = button('lightbox-prev', 'Previous picture', 'chevron-left');
+      nextBtn = button('lightbox-next', 'Next picture', 'chevron-right');
       prevBtn.addEventListener('click', function () { go(index - 1); });
       nextBtn.addEventListener('click', function () { go(index + 1); });
 

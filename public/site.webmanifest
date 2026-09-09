@@ -4,7 +4,7 @@
   "description": "Free, open-source Android apps. No account needed.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f6f8f6",
-  "theme_color": "#15803d",
+  "background_color": "#f5f4f0",
+  "theme_color": "#0c7c59",
   "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
 }

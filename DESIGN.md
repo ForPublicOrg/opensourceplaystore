@@ -9,8 +9,9 @@ GitHub Releases. Ratings are GitHub stars. Comments are the repo's own Discussio
 1. **No backend, no accounts, no tracking.** 100% static files. Publishing rides on
    GitHub's own login and pull-request flow.
 2. **Fast everywhere.** Pre-rendered HTML for every page, inlined CSS, no framework,
-   system fonts, lazy images. The site is fully usable with JavaScript disabled.
-3. **Simple enough for a 10-year-old.** Emoji + word navigation, grade-3 reading level,
+   the system font for text (one small self-hosted display face for headings), lazy
+   images. The site is fully usable with JavaScript disabled.
+3. **Simple enough for a 10-year-old.** Icon + word navigation, grade-3 reading level,
    one big obvious action per page, no jargon ("the app's home page", not "repository"),
    no dead ends — every empty state suggests the next tap.
 4. **Quick publishing, honest trust signals.** Light automated validation only (schema,
@@ -58,24 +59,24 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 
 | Page | Path | Notes |
 |---|---|---|
-| Home | `/` | hero + search, category chips, 🔥 Popular (screenshot strip), 🚀 Trending, 🌱 Brand new (repo created in the last year, ≥20 stars), 💎 Hidden gems (20–1500 stars, active in last 6 months), ⭐ Top apps preview (12) → "Browse all" |
+| Home | `/` | hero (headline, search, a shelf of twelve real app icons), category chips, Popular (screenshot strip), Trending, Just added, New projects (repo created in the last year, ≥20 stars), Hidden gems (20–1500 stars, active in last 6 months), Top apps preview (12) → "Browse all" |
 | All apps | `/apps/` | the full catalog: search box, sort tabs, 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
 | Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
 | In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
-| App detail | `/app/<id>/` | hero (icon, name, tagline, ⭐, license, 🧪/💤 pills), Download + Share, screenshots (tap → in-page viewer), description, the 5 repo links, 🧭 More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
+| App detail | `/app/<id>/` | hero (icon, name, tagline, stars, license, category, testing/archived tags), Download + Share (a sticky side column on wide screens), screenshots (tap → in-page viewer), description, the 5 repo links, More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
 | Publish | `/publish/` | paste repo URL → autofill → category chips → "still in testing?" checkbox → checklist → GitHub handoff |
-| Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what 🧪 In testing means) |
+| Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what In testing means) |
 | About | `/about/` | how the site works, for skeptical parents and developers |
 | 404 | `/404.html` | friendly, links back to browse |
 
-Every page also carries a dismissible ⚠️ **keepandroidopen.org** banner (localStorage
+Every page also carries a dismissible **keepandroidopen.org** notice (localStorage
 dismiss, applied pre-paint) and — on pages without their own search box — a compact
-header search that submits to `/apps/?q=…`. Phones get a 🔍 Search tab instead.
+header search that submits to `/apps/?q=…`. Phones get a Search tab instead.
 
 **Sort orders** (catalog + every category, all pre-rendered so sorting works without JS):
-`⭐ Top` GitHub stars · `🆕 Just added` the listing's `added` date · `🌱 Brand new` the repo's
-creation date · `🔄 Updated` latest release or push · `👤 Maker` owner A–Z (cards swap the
-category tag for the maker's name) · `🔤 A–Z` name. The active order is spelled out in words
+`Top` GitHub stars · `Just added` the listing's `added` date · `New projects` the repo's
+creation date · `Updated` latest release or push · `Maker` owner A–Z (cards swap the
+category tag for the maker's name) · `A–Z` name. The active order is spelled out in words
 next to the count ("Youngest projects first — recently started"), because two of the tabs mean
 "new" in different senses. Only `top` is indexable; the rest are `noindex,follow`.
 
@@ -87,11 +88,24 @@ box is hidden and the paginated catalog does everything.
 
 ## UX system
 
-- Visual language: **Apple "liquid glass"** — frosted translucent panels (`backdrop-filter` blur + saturate)
-  floating over a colorful gradient mesh, hairline light borders, layered shadows. Solid-surface
-  fallback via `@supports` for browsers without blur. (User-requested direction.)
-- Nav: floating glass bottom tab bar on phones / glass top bar on desktop — `🏠 Home` `🔍 Search` `📤 Publish` `❓ Help` (+ theme toggle). No hamburger.
-- One accent color (green gradient) reserved for the primary action on each page; amber only for genuine caution (install-guide warning step).
+- Visual language: **paper and ink, with one green.** Warm off-white surfaces (deep charcoal
+  in the dark theme), hairline borders instead of shadows, radii from 8 to 22px, and a single
+  accent (`#0c7c59`; `#4fcf9a` in the dark theme) reserved for the one primary action on each
+  page — download, publish, a focused search box. No gradients, no glass except the translucent
+  sticky header and phone tab bar, no lift-on-hover: a hover changes a border or a fill.
+- Type: **Bricolage Grotesque** (OFL) for the wordmark, headings and the app name on a detail
+  page — one self-hosted 34 KB instance (optical size 36, weights 600–800, `public/fonts/`) —
+  and the system UI font for everything else, which on an Android phone is the OS's own face.
+  Counts are set in tabular numerals.
+- Icons: one hand-drawn set of 24px stroke icons (`scripts/lib/icons.js`), inlined as an SVG
+  sprite on every page and referenced with `<use>` by the build and the client scripts alike.
+  No emoji anywhere in the UI. Each category has an icon and a hue; the hue tints its icon on
+  chips and cards and the mark at the top of its catalog page.
+- Nav: wordmark, text links, a compact search field and the theme toggle on desktop; a fixed
+  bottom tab bar on phones — `Home` `Search` `Publish` `Help`, icon over label, the active one
+  in a tinted pill. No hamburger.
+- Amber only for genuine caution: the site notice, the install-guide warning step, and the
+  "In testing" / "No longer updated" tags.
 - Real screenshots and app icons are auto-discovered at sync time from each repo's fastlane
   metadata; a "🔥 Popular right now" strip on the home page showcases screenshot banners.
 - **Screenshot viewer** (`public/js/lightbox.js`): tapping a screenshot enlarges it over the
@@ -108,8 +122,8 @@ box is hidden and the paginated catalog does everything.
   images, and Back returns.
 - Downloads are always direct APKs when at all possible: GitHub release asset first, then
   **F-Droid** (via the optional `fdroid` manifest field), then the `download` URL, then the releases page.
-- Cards: big tap targets (whole card ≥ 88px), icon, name, tagline, `⭐ 12k` pill (or `🆕 New`), category emoji. Grid 2-col phones → 5-col desktop.
-- Base font 18px, form inputs ≥16px, line-height 1.5+, WCAG AA contrast both themes, dark mode = `prefers-color-scheme` default + persisted toggle.
+- Cards: big tap targets (whole card ≥ 88px), a 56px icon with a hairline ring, name, tagline (two lines), then `★ 12k` (or a `New` badge) and the category with its icon; a `Testing` badge where it applies. Grid 2-col phones → 4–5-col desktop.
+- Base font 17px, form inputs ≥16px, line-height 1.5+, WCAG AA contrast both themes, dark mode = `prefers-color-scheme` default + persisted toggle.
 - Stars are always called "GitHub stars", never "rating". Buttons are verbs.
 - Real URLs for every state (`?q=` for search); back button always works.
 
@@ -132,7 +146,10 @@ which is also why that workflow never executes the PR's code.
 
 ## Performance budget
 
-- First paint = one request: critical CSS inlined in every generated page (< ~10KB).
+- First paint = one request: critical CSS inlined in every generated page (~10KB gzipped, icon
+  sprite included). The display face is one preloaded, immutably cached 34 KB woff2; headings
+  render first in a metric-matched Arial (`size-adjust`/`ascent-override`) so nothing shifts
+  when it arrives.
 - JS per page, measured gzipped (what the host actually sends): home ≤4KB (search 2.6 + strips
   0.9), detail ≤9KB (app 1.6 + strips 0.9 + screenshot viewer 6.1, and the viewer is only
   loaded on pages that have screenshots), publish ≤5KB. Plain scripts, no framework. Raw file

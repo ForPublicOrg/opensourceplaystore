@@ -35,6 +35,34 @@
     return String(n);
   }
 
+  /* Icons come from the sprite every page inlines (see scripts/lib/icons.js). */
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+  function svgIcon(name) {
+    var svg = document.createElementNS(SVG_NS, 'svg');
+    svg.setAttribute('class', 'ic');
+    svg.setAttribute('aria-hidden', 'true');
+    var use = document.createElementNS(SVG_NS, 'use');
+    use.setAttribute('href', '#i-' + name);
+    svg.appendChild(use);
+    return svg;
+  }
+
+  /* GitHub stars with the star, or a "New" badge for an app without any yet. */
+  function starsNode(stars) {
+    var el = document.createElement('span');
+    if (typeof stars === 'number') {
+      el.className = 'stars';
+      el.appendChild(svgIcon('star-solid'));
+      var n = document.createElement('span');
+      n.textContent = fmtStars(stars);
+      el.appendChild(n);
+    } else {
+      el.className = 'badge badge-new';
+      el.textContent = 'New';
+    }
+    return el;
+  }
+
   /* Lower score = better. Name prefix > name > tags/owner/category > tagline >
      all words present somewhere. Ties break toward more GitHub stars. */
   function rank(q, d) {
@@ -93,7 +121,7 @@
     /* Build a result card with the same structure/classes as server cards.
        DOM APIs + textContent only — index data never becomes HTML. */
     function card(a, cats) {
-      var cat = cats[a.c] || { n: '', e: '', h: 145 };
+      var cat = cats[a.c] || { n: '', ic: 'apps', h: 145 };
       var el = document.createElement('a');
       el.className = 'card';
       el.href = appHref(a);
@@ -103,7 +131,7 @@
       img.className = 'card-icon';
       img.src = a.i;
       img.alt = '';
-      img.width = 72; img.height = 72;
+      img.width = 56; img.height = 56;
       img.loading = 'lazy'; img.decoding = 'async';
       el.appendChild(img);
 
@@ -119,19 +147,18 @@
 
       var meta = document.createElement('span');
       meta.className = 'card-meta';
-      var pill = document.createElement('span');
-      pill.className = 'pill';
-      pill.textContent = typeof a.s === 'number' ? '⭐ ' + fmtStars(a.s) : '🆕 New';
-      meta.appendChild(pill);
+      meta.appendChild(starsNode(a.s));
       if (a.x) {
         var tp = document.createElement('span');
-        tp.className = 'pill warn';
-        tp.textContent = '🧪 Testing';
+        tp.className = 'badge badge-warn';
+        tp.appendChild(svgIcon('flask'));
+        tp.appendChild(document.createTextNode('Testing'));
         meta.appendChild(tp);
       }
       var ct = document.createElement('span');
       ct.className = 'cat-tag';
-      ct.textContent = cat.e + ' ' + cat.n;
+      ct.appendChild(svgIcon(cat.ic));
+      ct.appendChild(document.createTextNode(cat.n));
       meta.appendChild(ct);
       el.appendChild(meta);
       return el;
@@ -266,12 +293,7 @@
       text.appendChild(tag);
       el.appendChild(text);
 
-      if (typeof a.s === 'number') {
-        var stars = document.createElement('span');
-        stars.className = 'nav-result-stars';
-        stars.textContent = '⭐ ' + fmtStars(a.s);
-        el.appendChild(stars);
-      }
+      if (typeof a.s === 'number') el.appendChild(starsNode(a.s));
       return el;
     }
 
@@ -309,7 +331,7 @@
           } else if (matches.length > shown.length) {
             var all = option('/apps/?q=' + encodeURIComponent(q), shown.length);
             all.className = 'nav-result nav-result-all';
-            all.textContent = 'See all ' + matches.length + ' matches →';
+            all.textContent = 'See all ' + matches.length + ' matches';
             rows.push(all);
             panel.appendChild(all);
           }

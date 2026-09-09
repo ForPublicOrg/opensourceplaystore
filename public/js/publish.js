@@ -17,6 +17,19 @@
     download: $('f-download'), tags: $('f-tags'), screenshots: $('f-screenshots'),
   };
 
+
+  /* Icons come from the sprite every page inlines (see scripts/lib/icons.js). */
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+  function svgIcon(name) {
+    var svg = document.createElementNS(SVG_NS, 'svg');
+    svg.setAttribute('class', 'ic');
+    svg.setAttribute('aria-hidden', 'true');
+    var use = document.createElementNS(SVG_NS, 'use');
+    use.setAttribute('href', '#i-' + name);
+    svg.appendChild(use);
+    return svg;
+  }
+
   function toast(msg) {
     var el = $('toast');
     if (!el) return;
@@ -46,9 +59,8 @@
       if (state === null) return;
       any = true;
       var li = document.createElement('li');
-      var mark = document.createElement('span');
-      mark.className = state === true ? 'ok' : state === 'warn' ? 'warn-t' : state === 'pending' ? 'muted' : 'bad';
-      mark.textContent = state === true ? '✔' : state === 'warn' ? '⚠' : state === 'pending' ? '…' : '✘';
+      var mark = svgIcon(state === true ? 'check-circle' : state === 'warn' ? 'alert' : state === 'pending' ? 'dots' : 'x');
+      mark.setAttribute('class', 'ic ' + (state === true ? 'ok' : state === 'warn' ? 'warn-t' : state === 'pending' ? 'muted' : 'bad'));
       li.appendChild(mark);
       li.appendChild(document.createTextNode(' ' + r[1] + (state === 'pending' ? ' (checking…)' : '')));
       list.appendChild(li);
@@ -117,12 +129,12 @@
     }
     fields.repo.value = parsed.url;
     if (parsed.host !== 'github.com') {
-      toast('Auto-fill works for GitHub for now — please type the details below 😊');
+      toast('Auto-fill works for GitHub for now — please type the details below.');
       return;
     }
     var btn = this;
     btn.disabled = true;
-    btn.textContent = 'Looking at your app… 🔎';
+    btn.textContent = 'Looking at your app…';
 
     function get(url) {
       return fetch(url).then(function (r) {
@@ -163,12 +175,12 @@
       checkFree(parsed.url);
       drawChecks();
       updatePreview();
-      toast('Filled in what we could find ✨ Check it and pick a category!');
+      toast('Filled in what we could find. Check it and pick a category.');
     }).catch(function () {
-      toast('GitHub is busy right now — you can type the details yourself 😊');
+      toast('GitHub is busy right now — you can type the details yourself.');
     }).finally(function () {
       btn.disabled = false;
-      btn.textContent = '✨ Fill it in for me';
+      btn.textContent = 'Fill it in from GitHub';
     });
   });
 
@@ -289,7 +301,7 @@
       $('after-publish').scrollIntoView({ block: 'center' });
     } else if (registryReady) {
       // Very long description — the pre-filled URL would get cut off by GitHub.
-      toast('Your text is quite long — please copy it instead 📋');
+      toast('Your text is quite long — please copy it instead.');
       $('copy-fallback').hidden = false;
       $('manifest-out').value = json;
       $('copy-fallback').scrollIntoView({ block: 'center' });
@@ -307,7 +319,7 @@
     $('copy-fallback').hidden = false;
     $('manifest-out').value = json;
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(json).then(function () { toast('Copied! 📋'); }, function () {});
+      navigator.clipboard.writeText(json).then(function () { toast('Copied'); }, function () {});
     }
   });
 })();

@@ -29,7 +29,7 @@
         navigator.share(data).catch(function () { /* user closed the sheet */ });
       } else if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(location.href).then(
-          function () { toast('Link copied! 📋'); },
+          function () { toast('Link copied'); },
           function () { toast('Could not copy — the link is in the address bar'); }
         );
       }
@@ -61,15 +61,33 @@
   }
 
   function update(d) {
+    var count = document.getElementById('stars-count');
     var pill = document.getElementById('stars-pill');
-    if (pill && typeof d.stars === 'number') {
-      pill.textContent = '⭐ ' + fmtStars(d.stars) + ' GitHub stars';
+    if (typeof d.stars === 'number') {
+      if (count) {
+        count.textContent = fmtStars(d.stars);
+      } else if (pill) {
+        /* The page said "New here" — the app has stars now. */
+        var use = pill.querySelector('use');
+        if (use) use.setAttribute('href', '#i-star-solid');
+        var text = pill.lastChild;
+        if (text && text.nodeType === 3) text.textContent = '';
+        count = document.createElement('span');
+        count.id = 'stars-count';
+        count.textContent = fmtStars(d.stars);
+        pill.appendChild(count);
+        pill.appendChild(document.createTextNode('\u00a0GitHub stars'));
+      }
     }
     var btn = document.getElementById('download-btn');
     if (btn && d.apkUrl) {
       btn.href = d.apkUrl;
       if (btn.getAttribute('data-kind') === 'fallback') {
-        btn.textContent = '⬇️ Download the app (APK)';
+        /* The button was pointing at a page; now it is a real file. */
+        var label = btn.querySelector('span');
+        if (label) label.textContent = 'Download the app';
+        var glyph = btn.querySelector('use');
+        if (glyph) glyph.setAttribute('href', '#i-download');
         btn.setAttribute('data-kind', 'apk');
       }
     }
