@@ -10681,17 +10681,17 @@
    "stars": 0,
    "owner": "ForPublicOrg",
    "createdAt": "2026-08-23T16:40:26Z",
-   "pushedAt": "2026-10-02T21:16:51Z",
+   "pushedAt": "2026-10-03T17:14:43Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-10-03T16:20:13.447Z",
-   "releaseTag": "v2.2",
-   "releaseDate": "2026-10-02T21:16:51Z",
+   "syncedAt": "2026-10-03T17:32:41.548Z",
+   "releaseTag": "v2.3",
+   "releaseDate": "2026-10-03T17:14:43Z",
    "apk": {
     "name": "Hopline.apk",
-    "url": "https://github.com/ForPublicOrg/hopline/releases/download/v2.2/Hopline.apk",
-    "size": 7706488
+    "url": "https://github.com/ForPublicOrg/hopline/releases/download/v2.3/Hopline.apk",
+    "size": 7912879
    },
    "icon": "https://raw.githubusercontent.com/ForPublicOrg/hopline/main/fastlane/metadata/android/en-US/images/icon.png",
    "screenshots": [
