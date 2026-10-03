@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-03T16:17:09.473Z",
+ "fetchedAt": "2026-10-03T17:29:41.614Z",
  "apps": {
   "2048": {
    "stars": 448,
@@ -12039,23 +12039,14 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "CC0-1.0",
-   "syncedAt": "2026-10-03T11:41:25.456Z",
+   "syncedAt": "2026-10-03T17:29:41.914Z",
    "releaseTag": "v0.66.0",
    "releaseDate": "2026-09-30T04:02:50Z",
    "apk": {
     "name": "jyutping-v0.66.0.apk",
     "url": "https://github.com/yuetyam/jyutping-android/releases/download/v0.66.0/jyutping-v0.66.0.apk",
     "size": 48095145
-   },
-   "icon": "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/icon.png",
-   "screenshots": [
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/1.png",
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/2.png",
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/3.png",
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/4.png",
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/5.png",
-    "https://raw.githubusercontent.com/yuetyam/jyutping-android/master/metadata/en-US/images/phoneScreenshots/6.png"
-   ]
+   }
   },
   "k6nele": {
    "stars": 290,
@@ -12156,7 +12147,7 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "MIT",
-   "syncedAt": "2026-10-03T11:41:24.892Z",
+   "syncedAt": "2026-10-03T17:29:41.934Z",
    "releaseTag": "5.1",
    "releaseDate": "2022-03-24T10:01:22Z",
    "apk": {
@@ -12811,7 +12802,7 @@
    "archived": false,
    "hasDiscussions": true,
    "license": "MIT",
-   "syncedAt": "2026-10-03T11:41:24.976Z",
+   "syncedAt": "2026-10-03T17:29:41.908Z",
    "releaseTag": "2025.3",
    "releaseDate": "2025-03-23T03:15:43Z",
    "apk": {
@@ -12854,22 +12845,14 @@
    "archived": false,
    "hasDiscussions": false,
    "license": "AGPL-3.0",
-   "syncedAt": "2026-10-03T11:41:25.518Z",
+   "syncedAt": "2026-10-03T17:29:41.897Z",
    "releaseTag": "v2.4",
    "releaseDate": "2026-09-20T23:53:49Z",
    "apk": {
     "name": "Kryptos.apk",
     "url": "https://github.com/swisslite/Kryptos/releases/download/v2.4/Kryptos.apk",
     "size": 25895633
-   },
-   "icon": "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/icon.png",
-   "screenshots": [
-    "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-    "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-    "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-    "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-    "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
-   ]
+   }
   },
   "kura": {
    "stars": 21,
@@ -13062,26 +13045,21 @@
    }
   },
   "lemuroid": {
-   "stars": 4369,
+   "stars": 4370,
    "owner": "Swordfish90",
    "createdAt": "2019-12-09T13:55:34Z",
    "pushedAt": "2026-08-12T12:33:31Z",
    "archived": false,
    "hasDiscussions": true,
    "license": "GPL-3.0",
-   "syncedAt": "2026-10-03T11:41:25.212Z",
+   "syncedAt": "2026-10-03T17:29:41.892Z",
    "releaseTag": "1.17.0",
    "releaseDate": "2026-04-21T08:52:05Z",
    "apk": {
     "name": "lemuroid-app-free-dynamic-release.apk",
     "url": "https://github.com/Swordfish90/Lemuroid/releases/download/1.17.0/lemuroid-app-free-dynamic-release.apk",
     "size": 11985230
-   },
-   "screenshots": [
-    "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-    "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-    "https://raw.githubusercontent.com/Swordfish90/Lemuroid/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
-   ]
+   }
   },
   "leon-url-cleaner": {
    "stars": 396,
