@@ -7,7 +7,10 @@ GitHub Releases. Ratings are GitHub stars. Comments are the repo's own Discussio
 ## Product principles
 
 1. **No backend, no accounts, no tracking.** 100% static files. Publishing rides on
-   GitHub's own login and pull-request flow.
+   GitHub's own login and pull-request flow. The one piece of shared state is an
+   anonymous per-app download count in Cloud Firestore, written straight from the
+   browser — `firestore.rules` allows public reads and a `+1` per write, nothing else —
+   and nothing breaks if it is unreachable.
 2. **Fast everywhere.** Pre-rendered HTML for every page, inlined CSS, no framework,
    the system font for text (one small self-hosted display face for headings), lazy
    images. The site is fully usable with JavaScript disabled.
@@ -24,9 +27,12 @@ GitHub Releases. Ratings are GitHub stars. Comments are the repo's own Discussio
 data/apps/<id>.json      one hand-written manifest per app   (the only thing publishers touch)
 data/categories.json     fixed category taxonomy (10 categories, emoji + word)
 data/live.json           GENERATED snapshot: stars, latest release, APK url, per app
+data/downloads.json      GENERATED snapshot: download count per app, from Firestore
 schema/app.schema.json   manifest contract (mirrored by scripts/validate.js, zero-dep)
 scripts/validate.js      offline schema checks + optional --check-remote (CI on PRs)
 scripts/sync.js          fetches GitHub data for all apps -> data/live.json (cron Action, ~6h)
+scripts/downloads.js     reads the Firestore counts -> data/downloads.json (every build + cron)
+firestore.rules          the counter's whole server side: public reads, +1-only writes
 scripts/discover.js      searches GitHub for listable apps not yet in the catalog (manual)
 build.js                 zero-dependency static site generator -> dist/
 public/                  static assets copied as-is (JS, favicon, _headers, CNAME...)
@@ -74,7 +80,9 @@ dismiss, applied pre-paint) and — on pages without their own search box — a 
 header search that submits to `/apps/?q=…`. Phones get a Search tab instead.
 
 **Sort orders** (catalog + every category, all pre-rendered so sorting works without JS):
-`Top` GitHub stars · `Just added` the listing's `added` date · `New projects` the repo's
+`Top` GitHub stars · `Most downloaded` taps on this site's Download button (cards show the
+count in place of the category tag; apps not yet downloaded fall back to stars) ·
+`Just added` the listing's `added` date · `New projects` the repo's
 creation date · `Updated` latest release or push · `Maker` owner A–Z (cards swap the
 category tag for the maker's name) · `A–Z` name. The active order is spelled out in words
 next to the count ("Youngest projects first — recently started"), because two of the tabs mean
@@ -151,7 +159,7 @@ which is also why that workflow never executes the PR's code.
   render first in a metric-matched Arial (`size-adjust`/`ascent-override`) so nothing shifts
   when it arrives.
 - JS per page, measured gzipped (what the host actually sends): home ≤4KB (search 2.6 + strips
-  0.9), detail ≤9KB (app 1.6 + strips 0.9 + screenshot viewer 6.1, and the viewer is only
+  0.9), detail ≤10KB (app 2.7 incl. the download counter + strips 0.9 + screenshot viewer 6.1, and the viewer is only
   loaded on pages that have screenshots), publish ≤5KB. Plain scripts, no framework. Raw file
   sizes run ~3× larger because this codebase comments heavily on purpose.
 - Full-size screenshots are never fetched until the viewer opens, and then only the picture

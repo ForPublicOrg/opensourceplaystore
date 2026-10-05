@@ -6,7 +6,8 @@
   "engines": { "node": ">=18" },
   "scripts": {
     "sync": "node scripts/sync.js",
-    "build": "node scripts/sync.js && node build.js",
+    "downloads": "node scripts/downloads.js",
+    "build": "node scripts/sync.js && node scripts/downloads.js && node build.js",
     "validate": "node scripts/validate.js",
     "serve": "node scripts/serve.js"
   }

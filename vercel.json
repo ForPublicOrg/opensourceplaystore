@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node scripts/sync.js && node build.js",
+  "buildCommand": "node scripts/sync.js && node scripts/downloads.js && node build.js",
   "outputDirectory": "dist",
   "trailingSlash": true,
   "headers": [

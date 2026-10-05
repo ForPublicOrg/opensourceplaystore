@@ -1,0 +1,36 @@
+rules_version = '2';
+
+// Download counter for opensourceplaystore.com.
+//
+// The site has no backend: visitors' browsers write here directly over the
+// Firestore REST API, signed out (public/js/app.js). So these rules ARE
+// the server-side logic. Anyone may read the counts — they're shown on the
+// site anyway — and the only write anyone may make is "add exactly one to one
+// app's count". No deletes, no other fields, no other collections.
+//
+// Deploy: paste into Firebase console -> Firestore Database -> Rules -> Publish,
+// or run `npx firebase-tools deploy --only firestore:rules` from the repo root.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // downloads/<app id> = { count: <int> }
+    match /downloads/{appId} {
+      allow get, list: if true;
+
+      // The first download of an app creates its document at 1. The id must
+      // look like an app id (data/apps/<id>.json: lowercase slug, <= 50 chars).
+      allow create: if appId.matches('[a-z0-9]+(-[a-z0-9]+)*')
+        && appId.size() <= 50
+        && request.resource.data.keys().hasOnly(['count'])
+        && request.resource.data.count is int
+        && request.resource.data.count == 1;
+
+      // Every later one adds exactly one.
+      allow update: if request.resource.data.keys().hasOnly(['count'])
+        && request.resource.data.count is int
+        && request.resource.data.count == resource.data.count + 1;
+    }
+
+    // Everything else is closed (Firestore denies anything not allowed above).
+  }
+}

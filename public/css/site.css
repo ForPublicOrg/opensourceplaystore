@@ -876,6 +876,8 @@ kbd {
   white-space: nowrap;
 }
 .stars .ic { width: 15px; height: 15px; color: var(--star); }
+/* Download counts (the "Most downloaded" sort) share the look, in plain ink. */
+.dl-count .ic { color: var(--text-2); }
 
 .badge {
   display: inline-flex;

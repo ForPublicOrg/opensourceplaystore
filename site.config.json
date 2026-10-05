@@ -4,5 +4,6 @@
   "baseUrl": "https://opensourceplaystore.com",
   "registryRepo": "ForPublicOrg/opensourceplaystore",
   "registryBranch": "main",
+  "firestoreProject": "opensourceplaystore",
   "tagline": "Free apps made by people, for people"
 }

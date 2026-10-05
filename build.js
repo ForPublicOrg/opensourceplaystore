@@ -50,6 +50,18 @@ try {
   console.log('note: no data/live.json — building with fallback links (run scripts/sync.js for live data)');
 }
 
+/* Download counts, from scripts/downloads.js. With no snapshot every count is
+   0: the "Most downloaded" sort falls back to stars and the home page leaves
+   the total out until there is one. */
+let downloads = { total: 0, apps: {} };
+try {
+  downloads = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'downloads.json'), 'utf8'));
+} catch {
+  console.log('note: no data/downloads.json — building without download counts (run scripts/downloads.js)');
+}
+/* /js/app.js counts Download taps only when the button names a database. */
+const counterOn = Boolean(config.firestoreProject);
+
 const allApps = fs.readdirSync(path.join(ROOT, 'data', 'apps'))
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'apps', f), 'utf8')));
@@ -67,6 +79,7 @@ if (missingRepo.length) {
 
 const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
 const liveOf = (app) => live.apps[app.id] || {};
+const downloadsOf = (app) => downloads.apps[app.id] || 0;
 
 /* Fail fast, loudly and clearly, on data that would corrupt the build:
    ids become file paths, categories are dereferenced everywhere, and URL
@@ -202,6 +215,7 @@ const TESTING_CAT = {
    sorting never needs JavaScript. ISO date strings compare lexicographically. */
 const CMP = {
   top: (a, b) => (liveOf(b).stars ?? -1) - (liveOf(a).stars ?? -1) || a.name.localeCompare(b.name),
+  downloads: (a, b) => downloadsOf(b) - downloadsOf(a) || CMP.top(a, b),
   new: (a, b) => String(b.added || '').localeCompare(String(a.added || '')) || CMP.top(a, b),
   fresh: (a, b) => String(liveOf(b).createdAt || '').localeCompare(String(liveOf(a).createdAt || '')) || CMP.top(a, b),
   updated: (a, b) => String(lastActiveOf(b) || '').localeCompare(String(lastActiveOf(a) || '')) || CMP.top(a, b),
@@ -213,6 +227,7 @@ const CMP = {
    "new" in different senses, and the label alone can't carry that. */
 const SORTS = [
   { id: 'top', label: 'Top', note: 'Most GitHub stars first' },
+  { id: 'downloads', label: 'Most downloaded', note: 'Downloaded most from this site first' },
   { id: 'new', label: 'Just added', note: 'Newest listings on this site first' },
   { id: 'fresh', label: 'New projects', note: 'Youngest projects first — recently started' },
   { id: 'updated', label: 'Updated', note: 'Worked on most recently first' },
@@ -390,18 +405,23 @@ function starsTag(app) {
 }
 
 /* `maker: true` swaps the category tag for the maker's name — without it the
-   maker sort just looks like a shuffled list. */
+   maker sort just looks like a shuffled list. `downloads: true` likewise puts
+   the download count first, in the category's place; the stars stay, since
+   they order the many apps nobody has downloaded yet. */
 function appCard(app, opts = {}) {
   const cat = catById[app.category];
   const testing = isTesting(app) ? `<span class="badge badge-warn">${ic('flask')}Testing</span>` : '';
   const tag = opts.maker
     ? `<span class="cat-tag">${ic('user')}${esc(ownerOf(app))}</span>`
-    : `<span class="cat-tag">${ic(cat.icon)}${esc(cat.name)}</span>`;
+    : opts.downloads ? ''
+      : `<span class="cat-tag">${ic(cat.icon)}${esc(cat.name)}</span>`;
+  const dl = opts.downloads
+    ? `<span class="stars dl-count" title="Downloads from this site">${ic('download')}<span>${fmtStars(downloadsOf(app))}</span></span>` : '';
   return `<a class="card" style="--cat:${cat.hue}" href="/app/${app.id}/">
   <img class="card-icon" src="${esc(iconUrl(app, 128))}" alt="" width="56" height="56" loading="lazy" decoding="async">
   <span class="card-name">${esc(app.name)}</span>
   <span class="card-tagline">${esc(app.tagline)}</span>
-  <span class="card-meta">${starsHtml(app)}${testing}${tag}</span>
+  <span class="card-meta">${dl}${starsHtml(app)}${testing}${tag}</span>
 </a>`;
 }
 
@@ -679,7 +699,7 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
     ${sortTabs(catId, sort.id)}
     <p class="catalog-count">${countText}</p>
   </div>
-  ${grid(pageApps, { maker: sort.id === 'maker' })}
+  ${grid(pageApps, { maker: sort.id === 'maker', downloads: sort.id === 'downloads' })}
   ${paginationNav(catId, sort.id, pageNum, totalPages)}
 </div>`;
 
@@ -697,6 +717,7 @@ ${syncedLine}`;
 
   const sortSuffix = {
     top: '',
+    downloads: ' — most downloaded',
     new: ' — newest listings',
     fresh: ' — newest projects',
     updated: ' — recently updated',
@@ -911,7 +932,7 @@ ${testingHtml}
 ${antiHtml}
 <div class="download-box">
   <div class="download-actions">
-    <a class="btn btn-primary btn-lg" id="download-btn" data-kind="${dlKind}" href="${esc(dlHref)}" rel="noopener">${ic(dlIcon)}<span>${dlLabel}</span></a>
+    <a class="btn btn-primary btn-lg" id="download-btn" data-kind="${dlKind}" data-app="${app.id}"${counterOn ? ` data-db="${esc(config.firestoreProject)}"` : ''} href="${esc(dlHref)}" rel="noopener">${ic(dlIcon)}<span>${dlLabel}</span></a>
     <button class="btn btn-secondary" id="share-btn" type="button" data-share-text="${esc(`${app.name} — ${app.tagline}`)}" hidden>${ic('share')}Share</button>
   </div>
   <p class="download-meta">${dlMeta.map((m) => `<span>${m}</span>`).join('')}</p>
@@ -1142,7 +1163,9 @@ function aboutPage() {
 <p>Found something that shouldn’t be here? Every app page has a <strong>Report</strong> link — reports are public GitHub issues and removals are fast.</p>
 <p>Want to list your app? It’s a three-minute form: <a href="/publish/">Publish</a>. Updating a listing is a normal pull request.</p>
 <h2>Fast by design</h2>
-<p>The whole site is static files — no database, no tracking scripts, nothing between you and the apps. Pages are tiny and work even with JavaScript switched off.</p>
+<p>The whole site is static files — no accounts, no tracking scripts, nothing between you and the apps. Pages are tiny and work even with JavaScript switched off.</p>
+${counterOn ? `<h2>The one thing we count</h2>
+<p>When you tap an app’s Download button, we add one to that app’s download count — just a number per app, nothing about who you are. Those numbers make the “Most downloaded” order${downloads.total > 0 ? ` — ${downloads.total.toLocaleString('en-US')} downloads so far` : ''}.</p>` : ''}
 </div>`;
 
   return page({

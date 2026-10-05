@@ -1,7 +1,8 @@
 /* App detail page enhancements. Everything here is optional:
    the page fully works without JS (real links are baked into the HTML).
    1. Share button — native share sheet on phones, copy-link + toast elsewhere.
-   2. Silent refresh of stars + APK link from the GitHub API (1h localStorage cache).
+   2. Download counter — a tap on Download adds one to the app's count in Firestore.
+   3. Silent refresh of stars + APK link from the GitHub API (1h localStorage cache).
       Any failure is swallowed: the baked-in data stays. */
 (function () {
   'use strict';
@@ -34,6 +35,44 @@
         );
       }
     });
+  }
+
+  /* Once per app per browser per day, so a double tap or a retried download
+     counts once. Only the app's id is sent — no cookies, nothing about the
+     visitor — and firestore.rules makes "+1 to one app" the only write anyone
+     can make. Plain REST, not the ~100 KB Firebase SDK. A string body goes as
+     text/plain (Google's API reads the JSON anyway): a simple CORS request, no
+     preflight, and keepalive delivers it even when the tap opens another page. */
+  var dl = document.getElementById('download-btn');
+  var db = dl && dl.getAttribute('data-db');
+  if (db && window.fetch) {
+    var appId = dl.getAttribute('data-app');
+    var docs = 'projects/' + db + '/databases/(default)/documents';
+    var counted = false;
+    var countDownload = function () {
+      if (counted) return;
+      counted = true;
+      var seen = {};
+      try { seen = JSON.parse(localStorage.getItem('osps-dl')) || {}; } catch (e) { /* none yet */ }
+      var now = Date.now();
+      if (now - (seen[appId] || 0) < 864e5) return;
+      for (var id in seen) if (now - seen[id] >= 864e5) delete seen[id];
+      seen[appId] = now;
+      try { localStorage.setItem('osps-dl', JSON.stringify(seen)); } catch (e) { /* private mode */ }
+      fetch('https://firestore.googleapis.com/v1/' + docs + ':commit', {
+        method: 'POST',
+        keepalive: true,
+        credentials: 'omit',
+        body: JSON.stringify({ writes: [{
+          update: { name: docs + '/downloads/' + appId, fields: {} },
+          updateMask: { fieldPaths: [] },
+          updateTransforms: [{ fieldPath: 'count', increment: { integerValue: '1' } }],
+        }] }),
+      }).catch(function () { /* offline or over quota — the download goes on */ });
+    };
+    dl.addEventListener('click', countDownload);
+    /* Middle-click opens a new tab without firing click. */
+    dl.addEventListener('auxclick', function (e) { if (e.button === 1) countDownload(); });
   }
 
   var repo = document.body.getAttribute('data-github');

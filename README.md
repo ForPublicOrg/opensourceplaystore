@@ -6,9 +6,11 @@ downloads come straight from the project's own releases (GitHub or F-Droid); rat
 GitHub stars and comments are the repo's own Discussions. See [DESIGN.md](DESIGN.md) for
 the full product design.
 
-- **No backend, no accounts, no tracking** — 100% static files.
+- **No backend, no accounts, no tracking** — 100% static files. The one piece of shared
+  state is an anonymous per-app download count in Firestore (see [Download counter](#download-counter)).
 - **Fully usable with JavaScript disabled** — real download links and every sort order are
-  baked into the HTML (stars · just added · newest projects · updated · maker · A–Z).
+  baked into the HTML (stars · most downloaded · just added · newest projects · updated ·
+  maker · A–Z).
 - **Kid-simple UX** — plain words at a grade-3 reading level, big tap targets, icon-and-word
   navigation, and one obvious action per page. See the UX system in [DESIGN.md](DESIGN.md).
 
@@ -18,15 +20,18 @@ the full product design.
 data/apps/<id>.json      one manifest per app — the only file publishers touch
 data/categories.json     fixed category taxonomy
 data/live.json           generated snapshot (stars, APK links, icons, screenshots)
+data/downloads.json      generated snapshot of the download counts in Firestore
 schema/app.schema.json   the manifest contract
 scripts/validate.js      schema + duplicate + live-repo checks (zero-dep)
 scripts/lib/icons.js     the site's icon set, inlined into every page as an SVG sprite
 scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json
+scripts/downloads.js     fetches the download counts from Firestore -> downloads.json
 scripts/discover.js      finds listable apps GitHub has and this catalog doesn't
 scripts/setup-repo.js    one-time GitHub settings for unattended publishing
 scripts/serve.js         tiny local preview server
 build.js                 zero-dependency static site generator -> dist/
 public/                  assets copied into dist/ (JS, CSS, the display font, favicon, CNAME, _headers)
+firestore.rules          the download counter's only server-side logic: public reads, +1 writes
 .github/workflows/       validate PRs · auto-merge publishes · deploy · 6-hourly sync
 ```
 
@@ -36,6 +41,7 @@ Requires Node 18+ (no npm install — there are zero dependencies).
 
 ```bash
 node scripts/sync.js     # optional: fetch live data (set GITHUB_TOKEN for higher limits)
+node scripts/downloads.js  # optional: fetch the current download counts
 node build.js            # generate the site into dist/
 node scripts/serve.js    # preview at http://localhost:8080
 ```
@@ -80,6 +86,34 @@ which is the part that makes this catalog worth browsing.
    quota is spent — the next run carries on from where it left off, and a few runs cover
    everything. Newly listed apps sort first, so they get their stars and download link on
    the very next sync.
+
+## Download counter
+
+A tap on an app page's Download button adds one to that app's count in Cloud Firestore
+(project `firestoreProject` in [site.config.json](site.config.json)). There is no server
+and no Firebase SDK: [public/js/app.js](public/js/app.js) posts a
+single `+1` straight to the Firestore REST API, signed out and without cookies, once per
+app per browser per day. [firestore.rules](firestore.rules) is the whole server side —
+anyone may read the counts, and the only write anyone may make is adding exactly one to
+one app's `downloads/<app id>` document.
+
+At build time [scripts/downloads.js](scripts/downloads.js) reads the counts back into
+`data/downloads.json` (the 6-hourly sync also commits it, as a fallback snapshot), and
+`build.js` uses it for the **Most downloaded** sort on every catalog page. If Firestore
+can't be reached, the previous snapshot is used and the build carries on. Leave
+`firestoreProject` empty to switch the counter off entirely.
+
+**One-time setup:** create the Firestore database (*Build → Firestore Database → Create
+database*, production mode), then publish the rules — paste [firestore.rules](firestore.rules)
+into *Firestore → Rules → Publish*, or:
+
+```bash
+npx firebase-tools deploy --only firestore:rules
+```
+
+To test rule changes locally, `npx firebase-tools emulators:start --only firestore` serves
+them on port 8085, and `FIRESTORE_EMULATOR_HOST=127.0.0.1:8085 node scripts/downloads.js`
+reads from it.
 
 ## How publishing works
 
