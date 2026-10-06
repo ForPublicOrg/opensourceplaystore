@@ -1,0 +1,22 @@
+{
+  "id": "omgsoundboard",
+  "name": "OMGSoundboard",
+  "tagline": "Build your own soundboards and play sounds at the tap of a button",
+  "description": "OMGSoundboard lets you make soundboards out of the sounds you like. Import your own clips, sort them into as many boards as you want, and play any of them with one tap. Sounds can overlap, so you can layer several at once, and you decide when each one starts and stops.\n\nYou can mark favourites, search through a big collection by word, and set a sound as your ringtone, alarm or notification sound. Any app that can share a file can be used to send a sound to someone. A built-in backup lets you keep your collection and move it to another phone or give it to family and friends. It also supports Wear OS smartwatches, works offline and has no ads or trackers.\n\nThe app comes with only a small handful of sounds because of copyright, and the developer says there are no plans to add more. The sounds you add are your responsibility, so expect to bring your own.",
+  "repo": "https://github.com/OMGSoundboard/android-app",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://omgsoundboard.audio/",
+  "fdroid": "audio.omgsoundboard",
+  "tags": [
+    "soundboard",
+    "sound effects",
+    "sound clips",
+    "meme sounds",
+    "ringtone",
+    "notification sounds",
+    "audio",
+    "wear os"
+  ],
+  "added": "2026-10-06"
+}

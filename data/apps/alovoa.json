@@ -1,0 +1,23 @@
+{
+  "id": "alovoa",
+  "name": "Alovoa",
+  "tagline": "A free open-source dating app with no ads and no paid extras",
+  "description": "Alovoa is a dating and friend-finding app. You make a profile with photos, a short bio, your interests and what you are looking for (meeting new people, a relationship, or sexual intimacy), then browse people near you. You can only send messages after you both like each other.\n\nYou choose who you see. Filters cover age range, distance and the gender you are looking for, and the app can hide profiles that have been flagged for suspicious activity. Profiles can also hold prompts you answer and details such as kids and family plans. To prove you are real, you can verify your profile by uploading a photo of yourself holding a handwritten note, and other people can vote on your authenticity too. You can block or report people, delete your account, and download the data the service holds about you. The developers promise no microtransactions, no ads and no selling of your data. There is a Donate section, but giving is optional.\n\nThe app only talks to the Alovoa service at alovoa.com, so you need an account there (sign up with an email address, or sign in with Google or Facebook), and you cannot point it at a different server. F-Droid flags it for that dependency, even though the server code is open source too. You must be at least 16 to register. It asks for your location to show people nearby. The app is in English and German.",
+  "repo": "https://github.com/Alovoa/alovoa-expo",
+  "category": "social",
+  "license": "MPL-2.0",
+  "website": "https://alovoa.com",
+  "fdroid": "com.alovoa.expo",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "dating",
+    "meet people",
+    "friends",
+    "matches",
+    "relationships",
+    "online dating"
+  ],
+  "added": "2026-10-06"
+}

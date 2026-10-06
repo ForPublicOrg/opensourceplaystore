@@ -1,0 +1,21 @@
+{
+  "id": "keep-it-up",
+  "name": "Keep it up",
+  "tagline": "Get an alert when a server, website or device stops answering",
+  "description": "Keep it up watches the servers, websites and devices you look after and tells you when one stops answering. You add a task for each thing you want to watch, choose how often to check it, and the app keeps checking in the background.\n\nA task can ping a host, open a connection to a TCP port, download a web page or file over HTTP or HTTPS, or ask a device for its status over SNMP (versions 1, 2c and 3). Each check is logged with its result and how long it took. You can be told about every failure or only when something goes down or comes back, and a high-priority task can sound an alarm. Web checks can also fail when a server's security certificate is about to expire, and SNMP checks can watch single network interfaces on a router or switch. Tasks can be limited to WiFi or paused during hours you choose, and your setup can be exported as a JSON file.\n\nThe checks run from your phone, so they only show what your phone can reach. For them to run reliably you should let the app work in the background (turn off battery optimisation for it). The app is in English only. The GitHub and F-Droid builds are signed with different keys, so you cannot install one over the other.",
+  "repo": "https://github.com/ibbaa/keepitup",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "net.ibbaa.keepitup",
+  "tags": [
+    "uptime",
+    "network monitor",
+    "ping",
+    "snmp",
+    "server monitoring",
+    "website down",
+    "tcp port",
+    "alerts"
+  ],
+  "added": "2026-10-06"
+}

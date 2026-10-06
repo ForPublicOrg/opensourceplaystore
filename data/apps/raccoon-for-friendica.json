@@ -1,0 +1,23 @@
+{
+  "id": "raccoon-for-friendica",
+  "name": "Raccoon for Friendica",
+  "tagline": "Read and post on Friendica or Mastodon, with groups and a photo gallery",
+  "description": "Raccoon is an app for Friendica, a social network that is part of the fediverse, the web of independent servers that can talk to each other. It also works with Mastodon and Mastodon-like servers. You can read timelines, follow people and hashtags, write posts and replies, and favourite, re-share and bookmark what others write. It looks a lot like an ordinary Mastodon app, with the extra Friendica features added on top.\n\nOn Friendica it adds long formatted posts with titles, direct messages, a photo gallery, circles (your own lists of people, which you can also post to), a calendar of events, and a forum view that shows ActivityPub groups as threads. On either, you get local, public and followed timelines, trending posts and hashtags, polls, scheduled posts and drafts, alt text for images, translation of posts, filters for words you do not want to see, and several accounts at once. You can change the colours, text size and how posts are laid out. Notifications are checked in the background, and UnifiedPush is available as an experimental option. A tour mode lets you look around the fediverse without an account.\n\nTo post or follow anyone you need an account on a Friendica or Mastodon server. Direct messages, the gallery and the calendar are Friendica-only, and you can only vote in polls on Mastodon. The developers call it an experimental side-project made by volunteers, so expect rough edges and missing features. The app can send anonymous crash reports through Sentry, and there is a setting for it.",
+  "repo": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://livefasteattrashraccoon.github.io/RaccoonForFriendica/",
+  "fdroid": "com.livefast.eattrash.raccoonforfriendica",
+  "status": "testing",
+  "tags": [
+    "friendica",
+    "mastodon",
+    "fediverse",
+    "activitypub",
+    "microblogging",
+    "federated",
+    "groups",
+    "forum"
+  ],
+  "added": "2026-10-06"
+}

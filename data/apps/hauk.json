@@ -1,0 +1,20 @@
+{
+  "id": "hauk",
+  "name": "Hauk",
+  "tagline": "Share your live location with chosen people, using your own server",
+  "description": "Hauk lets you share where you are, live, with the people you choose. You start a share, pick how long it lasts, and the app gives you a link. Anyone you send that link to can watch you move on a map in their web browser until the share ends. They do not need the app.\n\nYou can run several links at once and stop each one on its own, so different people can see you for different lengths of time. Group shares put a few people on the same map: one person creates the group, and the others join with a PIN and a nickname. You choose how often your phone sends an update and how far you must move between updates, and you can protect a share with a password using end-to-end encryption.\n\nThe app is only one half of Hauk. You need your own server running the Hauk backend, which is a web server with PHP and Memcached or Redis. The project provides an install script and a Docker image. A demo server exists for trying the app, but it limits shares to 2 minutes. Anyone with your link can see your location, so put the server behind HTTPS. Phones from Huawei, OnePlus and Xiaomi may need battery saving turned off for Hauk to keep sending updates.",
+  "repo": "https://github.com/bilde2910/Hauk",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "fdroid": "info.varden.hauk",
+  "tags": [
+    "location sharing",
+    "live location",
+    "gps",
+    "self-hosted",
+    "share location",
+    "meet up",
+    "friends"
+  ],
+  "added": "2026-10-06"
+}

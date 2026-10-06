@@ -1,0 +1,20 @@
+{
+  "id": "blink-comparison",
+  "name": "Blink Comparison",
+  "tagline": "Spot tampering by flicker-comparing photos of your seals",
+  "description": "Blink Comparison helps you check whether something has been tampered with. You photograph a tamper-evident seal, such as a dab of glitter nail polish, and keep that as a reference. Later you take a new photo of the same seal and flip between the two with a tap, so any change jumps out at you.\n\nAdd reference photos by taking them in the app or picking them from your gallery, and give each one a name. When you take the new photo, the reference is shown see-through over the camera view, with an opacity you can change, so you can match the position, angle, lighting and distance. There are zoom and flash controls, and you can turn autofocus off. You can lock the reference photos behind a password, which encrypts them so they are harder to steal or swap, and the app blocks screenshots while encryption is on.\n\nThe method relies on your own eyes, so it is only as good as the seal and the photos you take. Photos stay on your device, and you can send a crash report by email only if you choose to. The app is in English, German, Russian, Spanish and French.",
+  "repo": "https://github.com/proninyaroslav/blink-comparison",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "org.proninyaroslav.blink_comparison",
+  "tags": [
+    "tamper evident",
+    "tamper",
+    "seal",
+    "nail polish",
+    "photo comparison",
+    "blink comparator",
+    "encrypted photos"
+  ],
+  "added": "2026-10-06"
+}

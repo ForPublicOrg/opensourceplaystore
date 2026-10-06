@@ -1,0 +1,22 @@
+{
+  "id": "electrum-bitcoin-wallet",
+  "name": "Electrum Bitcoin Wallet",
+  "tagline": "A Bitcoin wallet that keeps your keys on your phone, with Lightning",
+  "description": "Electrum is a Bitcoin wallet where you hold the keys. Your private keys are encrypted and stay on your phone, and a secret phrase (the seed) lets you restore the wallet if you lose the device. It has been around since 2011 and also supports the Lightning Network.\n\nInstead of downloading the whole blockchain, Electrum asks servers that index it, so it starts quickly, and it checks the transactions in your history itself. You can create a standard wallet, a multi-signature wallet shared with cosigners, a two-factor wallet, or one that imports existing private keys or a list of addresses (a list of addresses makes a watching-only wallet), and you can restore from Electrum or BIP39 seeds. You can raise the fee on a stuck payment or cancel it, scan QR codes to pay, unlock with your phone's biometrics, and choose your own server or connect through a proxy. The app can show your seed and the private key of each address, so you can move to another wallet.\n\nYou are your own bank here: if you lose both the phone and the seed phrase, nobody can get your coins back. You need an internet connection to see your balance and send. Lightning only works in wallets that hold their own keys, so not in watching-only ones. The two-factor wallet type relies on a third-party service, TrustedCoin, which charges a small fee on each transaction it signs and needs a separate device with Google Authenticator. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/spesmilo/electrum",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://electrum.org",
+  "fdroid": "org.electrum.electrum",
+  "tags": [
+    "bitcoin",
+    "btc",
+    "wallet",
+    "lightning",
+    "cryptocurrency",
+    "multisig",
+    "seed phrase",
+    "self-custody"
+  ],
+  "added": "2026-10-06"
+}

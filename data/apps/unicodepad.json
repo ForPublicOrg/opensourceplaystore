@@ -1,0 +1,24 @@
+{
+  "id": "unicodepad",
+  "name": "UnicodePad",
+  "tagline": "Find and type any Unicode character, symbol or emoji",
+  "description": "UnicodePad lets you type any character in Unicode, including the ones your keyboard does not have. Browse the characters, tap the ones you want, and they gather in a box at the top, ready to copy or share into another app. It is handy for symbols, arrows, maths signs, accented letters, ancient scripts and emoji.\n\nCharacters are grouped by block, such as Latin, Greek, Arrows or Braille, and the Find tab searches by character name. Other tabs hold recent characters, favourites and emoji, and there is a radical and stroke index for Chinese characters. Long-press a character to see it larger with its code point and details, including readings for Chinese, Japanese and Korean characters. In many apps you can select text, open UnicodePad from the selection menu and put the result back in place. You can also choose which Unicode version to show (up to 18) and export your favourites and settings.\n\nPhones often lack a font for rare characters, which then show as empty boxes, so the app lets you pick or add fonts. The Google Play version shows a banner ad that you can switch off in settings; the F-Droid version has no ads. It is not a keyboard: you copy or share what you build.",
+  "repo": "https://github.com/Ryosuke839/UnicodePad",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "jp.ddo.hotmist.unicodepad",
+  "antiFeatures": [
+    "ads"
+  ],
+  "tags": [
+    "unicode",
+    "special characters",
+    "symbols",
+    "emoji",
+    "character map",
+    "code point",
+    "glyphs",
+    "kanji"
+  ],
+  "added": "2026-10-06"
+}

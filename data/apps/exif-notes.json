@@ -1,0 +1,23 @@
+{
+  "id": "exif-notes",
+  "name": "Exif Notes",
+  "tagline": "Note down every frame you shoot on film, then add the details to your scans",
+  "description": "Exif Notes is a notebook for film photographers. While you shoot, you jot down what you did for each frame. Later you can attach those notes to your scanned photos, so that photo sites and apps show the camera, lens, aperture and the rest, just as they do for digital shots.\n\nFirst you add your gear: cameras, lenses, filters and film stocks. Then you start a roll, choose the gear it uses, and add a frame each time you press the shutter. A frame can hold the date and time, aperture, shutter speed, lens, focal length, location and your own notes. You can set the location on a map or let the app look up an address from coordinates. When a roll is finished, the app exports a text file of ready-made ExifTool commands, or a CSV file you can open in a spreadsheet. Your notes live in a database on your phone, which you can export and import to back it up or move to a new phone.\n\nThe app only prepares the ExifTool commands. You run them yourself on a computer that has ExifTool installed. The map and address lookup use Google Maps, a closed service, so they need an internet connection and may not work on phones without Google services. It is a hobby project made in the developer's spare time.",
+  "repo": "https://github.com/tommi1hirvonen/ExifNotes",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "film photography",
+    "analog photography",
+    "exif",
+    "exiftool",
+    "camera log",
+    "film roll",
+    "lens notes",
+    "metadata"
+  ],
+  "added": "2026-10-06"
+}

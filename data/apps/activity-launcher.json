@@ -1,0 +1,20 @@
+{
+  "id": "activity-launcher",
+  "name": "Activity Launcher",
+  "tagline": "Open hidden screens inside apps and pin shortcuts to them",
+  "description": "Activity Launcher lists every app on your phone along with the separate screens inside it, which Android calls activities. Pick one to launch it directly, or turn it into a home screen shortcut. That is how you reach screens that have no icon of their own.\n\nYou can search the list, choose a shortcut's name and icon before you place it, mark activities as favourites and find recent ones in a Recents tab. A Quick Settings tile opens your favourites straight from the notification shade, and a shortcut can be shared as a link. Light and dark themes and a language setting are built in.\n\nMany hidden screens are private to the app that owns them, and Android will not let Activity Launcher open those on its own. A separate plugin that uses Shizuku can, but you need Shizuku installed and running. Your home screen app must also support pinned shortcuts, and the app warns on first launch that some options may not work or may not be safe. The F-Droid and GitHub builds have no ads and ask for no internet access. The free Google Play version shows ads, and a paid Pro version removes them.",
+  "repo": "https://github.com/ActivityLauncher/ActivityLauncher",
+  "category": "tools",
+  "license": "ISC",
+  "fdroid": "de.szalkowski.activitylauncher",
+  "tags": [
+    "shortcut",
+    "hidden activities",
+    "home screen",
+    "app shortcuts",
+    "intent",
+    "shizuku",
+    "quick settings"
+  ],
+  "added": "2026-10-06"
+}

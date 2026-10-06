@@ -1,0 +1,21 @@
+{
+  "id": "clinometer",
+  "name": "Clinometer",
+  "tagline": "Measure slopes and tilt with your phone, or use it as a spirit level",
+  "description": "Clinometer turns your phone into a tilt meter. It reads the motion sensor inside your phone to work out how far the phone leans from the direction of gravity. Lay it flat and it works as a bubble level. Hold it upright against a surface and it works as a clinometer for measuring slopes.\n\nA camera mode shows the angle readings over the live camera view. With incremental measurement you can pin a plane as your starting point and measure from there instead of from level. Auto locking holds the reading once the phone is steady. Angles can be shown in degrees, radians, percent or as a fraction, and you can keep the screen awake while you work. The app shows several angles at once (X, Y, Z, pitch and roll), and the developer's website has a getting started guide that explains each one. It is made for measuring and does not save your readings.\n\nCalibrate it in Settings before you rely on it. The app walks you through seven steps of laying the phone flat, on its side and upright, and the readings are only as accurate as the surfaces you calibrate against. Your phone needs an accelerometer. The camera is optional and only used in camera mode. The interface is available in English, German, Spanish, French and Italian.",
+  "repo": "https://github.com/BasicAirData/Clinometer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.basicairdata.eu/projects/android/android-clinometer/",
+  "tags": [
+    "inclinometer",
+    "bubble level",
+    "spirit level",
+    "tilt",
+    "slope",
+    "angle",
+    "accelerometer",
+    "degrees"
+  ],
+  "added": "2026-10-06"
+}

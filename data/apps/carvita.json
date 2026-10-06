@@ -1,0 +1,21 @@
+{
+  "id": "carvita",
+  "name": "CarVita",
+  "tagline": "Log your car's services and get reminded when the next one is due",
+  "description": "CarVita keeps track of the servicing your car, motorbike or any other vehicle needs. You enter what the manufacturer recommends, log each service as it happens, and the app works out what is due next and roughly when.\n\nYou can add as many vehicles as you like, each with its own photo, current mileage and purchase date. Each one gets a maintenance plan whose items repeat by months, by distance or both, with a different first service if your manual asks for one. Every service you log keeps its date, mileage, items done, cost and notes. From that history and how much you tend to drive, CarVita predicts when each item falls due, shows the most urgent ones on a dashboard and sends a notification ahead of time. Mileage can be shown in kilometres or miles.\n\nEverything stays on your phone: there is no account and the app asks for no internet permission. You can export a backup file and restore it later, but restoring replaces everything currently in the app. The interface is available in English, Chinese, German, French, Spanish, Italian, Portuguese, Russian, Japanese, Korean and Arabic.",
+  "repo": "https://github.com/JeziL/carvita",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "fdroid": "com.wangjinli.carvita",
+  "tags": [
+    "car",
+    "maintenance",
+    "service log",
+    "reminders",
+    "vehicle",
+    "motorcycle",
+    "oil change",
+    "mileage"
+  ],
+  "added": "2026-10-06"
+}

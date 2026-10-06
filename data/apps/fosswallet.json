@@ -1,0 +1,21 @@
+{
+  "id": "fosswallet",
+  "name": "FossWallet",
+  "tagline": "Keep boarding passes, tickets and coupons in one wallet",
+  "description": "FossWallet is a wallet for .pkpass files, the pass format Apple Wallet uses for boarding passes, event tickets, coupons and store cards. Open one from your email or browser, or add it from a link or the clipboard, and the app keeps it ready with its barcode on screen for scanning. It is inspired by PassAndroid and does the same job.\n\nYou can search your passes, sort them by date, group them, tag them, archive old ones and pin a pass to your home screen. A pass can show over the lock screen, the barcode screen can raise the brightness, and a compatibility mode helps older scanners. With no pass file, you can make your own by scanning a barcode with the camera, picking an image that has one, or typing in the value. Passes can be shared or exported, and Gadgetbridge users can send barcodes to a supported watch.\n\nA pass only updates itself if its issuer allows it, and then the app contacts the issuer's server, either when you tap update or automatically at an interval you choose. Everything else works offline. Passes you create yourself cannot be exported yet. It needs Android 9 or newer and is translated into more than twenty languages.",
+  "repo": "https://github.com/SeineEloquenz/fosswallet",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "nz.eloque.foss_wallet",
+  "tags": [
+    "pkpass",
+    "boarding pass",
+    "tickets",
+    "wallet",
+    "passbook",
+    "apple wallet",
+    "barcode",
+    "coupons"
+  ],
+  "added": "2026-10-06"
+}

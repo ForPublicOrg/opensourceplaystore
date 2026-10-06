@@ -1,0 +1,20 @@
+{
+  "id": "stutter",
+  "name": "Stutter",
+  "tagline": "Speed-read pasted text or shared articles, one word at a time",
+  "description": "Stutter is a speed-reading app. It shows text one word at a time in the same spot on the screen, so your eyes stay still instead of travelling along each line. The idea is that you read faster, with less eye movement and a steadier pace.\n\nYou can paste text straight in, share selected text to it from another app, or share a link to a public article, in which case Stutter fetches the page and pulls out the readable part. Speed and timing are adjustable, including extra pauses for long words, punctuation, numbers and short words, so the rhythm feels more natural. Long words are split with language-aware hyphenation, which covers 18 languages. Stutter picks the language from the text itself if the text declares one, otherwise from your default language setting, otherwise from your phone. You can also change the font, size, spacing and colours, and switch on flankers, which show a hint of the next word fragment.\n\nNothing you read is saved: when you close the app, the text is gone, and only your settings are kept. The developer says there is no analytics, tracking or reading history, and the app works offline for pasted text. Fetching a link needs an internet connection, and it will usually fail for paywalled pages or pages behind a login. For those, paste the text in instead.",
+  "repo": "https://github.com/jamestomasino/stutter-android",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "fdroid": "org.tomasino.stutter",
+  "tags": [
+    "speed reading",
+    "rsvp",
+    "speed reader",
+    "spritz",
+    "one word at a time",
+    "fast reading",
+    "article reader"
+  ],
+  "added": "2026-10-06"
+}

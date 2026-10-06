@@ -1,0 +1,21 @@
+{
+  "id": "c2k",
+  "name": "C2K",
+  "tagline": "Offline Couch to 5K and 10K coach with spoken run and walk cues",
+  "description": "C2K is a running coach for beginners. It follows the Couch to 5K idea: a gentle plan that mixes walking and running and builds up over several weeks until you can run 5K without stopping. A voice tells you when to run, when to walk and how long is left, so your phone can stay in your pocket.\n\nThere are six programmes: a 3-week starter for people who find week one too hard, the 9-week Couch to 5K, a 14-week Couch to 10K, a 6-week bridge from 5K to 10K, a 13-week climb to an hour of running, and an 8-week plan for people who can already run 5K and want to get faster. The timer keeps going with the screen off, with pause and stop buttons in the notification. GPS is optional for distance and pace, and there is a treadmill mode. Your runs are saved in a history you can export as CSV. You can set the voice speed, volume and countdown warnings, or use vibration as well as voice.\n\nThe voice comes from Android's own text-to-speech, so your phone needs a speech engine and a voice installed. Distance and pace are shown in kilometres. The app asks to be exempt from battery saving so a run is not stopped halfway. It is translated into English, German, Spanish, French, Galician, Brazilian Portuguese, Russian and Turkish, and it has no internet permission.",
+  "repo": "https://github.com/AnalogGhost/c2k",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.hackerapps.c2k",
+  "tags": [
+    "couch to 5k",
+    "c25k",
+    "running",
+    "jogging",
+    "beginner",
+    "interval timer",
+    "fitness",
+    "couch to 10k"
+  ],
+  "added": "2026-10-06"
+}

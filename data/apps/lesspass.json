@@ -1,0 +1,21 @@
+{
+  "id": "lesspass",
+  "name": "LessPass",
+  "tagline": "Make unique passwords from one master password, nothing stored or synced",
+  "description": "LessPass is a password manager that stores nothing. Instead of keeping your passwords in an encrypted vault, it works each one out when you need it from three things: the site, your login and one master password. Type the same three things on another phone, computer or browser and you get the same password back, so there is no vault to sync or lose.\n\nBy default it makes a 16-character password using every kind of character, but you can set the length and choose which kinds to allow, which helps with sites that have odd password rules. A counter gives you a new password for a site without changing your master password. Small coloured icons next to the master password field show whether you typed it right. The app can copy the password for you and, if you turn it on, keep your master password on the phone behind your fingerprint.\n\nThe app keeps no list of your sites, so you type the site, login and master password each time, spelled the same way, because a small slip gives a different password. Saving per-site settings needs a LessPass server, and the hosted one is closed to new sign-ups, so you would have to run your own. Unless you sign in to a server, the app works offline.",
+  "repo": "https://github.com/lesspass/lesspass",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://www.lesspass.com",
+  "fdroid": "com.lesspass.android",
+  "tags": [
+    "password generator",
+    "password manager",
+    "stateless",
+    "master password",
+    "no sync",
+    "offline",
+    "deterministic"
+  ],
+  "added": "2026-10-06"
+}

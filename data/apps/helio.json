@@ -1,0 +1,22 @@
+{
+  "id": "helio",
+  "name": "Helio",
+  "tagline": "Compose music on your phone with a piano roll and exotic scales",
+  "description": "Helio is a music sequencer: a place to write tunes by putting notes on a grid. You draw notes in a piano roll, arrange them into clips on a pattern roll, and play the result back. It is meant as a quick sketchpad for musical ideas, with a plain interface that tries to stay out of your way.\n\nIt leans towards experimenting. Besides the usual scales it has exotic scales and microtonal temperaments, plus a chord tool, arpeggiators and other commands that rework notes you have already written. Projects have built-in version control, so you can save a state, try a variation and go back if you do not like it. You can import and export MIDI files and render a project to an audio file. It is translated into about a dozen languages besides English.\n\nOut of the box the instrument sound is a plain sine-wave voice, so for realistic instruments you need to load your own SoundFont file into the built-in player (SF2 and SF3 files work). On Android the app runs in landscape only, and some phones cannot read SoundFonts kept in the Downloads folder, so keep them in Documents or Music. Since version 3.17 the app works fully offline.",
+  "repo": "https://github.com/helio-fm/helio-sequencer",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://helio.fm",
+  "fdroid": "fm.helio",
+  "tags": [
+    "music sequencer",
+    "midi editor",
+    "piano roll",
+    "soundfont",
+    "microtonal",
+    "compose music",
+    "daw",
+    "arpeggiator"
+  ],
+  "added": "2026-10-06"
+}

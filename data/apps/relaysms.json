@@ -1,0 +1,21 @@
+{
+  "id": "relaysms",
+  "name": "RelaySMS",
+  "tagline": "Send emails and posts by SMS when you have no internet",
+  "description": "RelaySMS lets you send emails and online posts by text message, so you can still get a message out when your phone has no internet. You write it in the app, and it travels as an SMS to a gateway phone number, which passes it on to the service for you.\n\nIt works with services such as Gmail, Telegram, Bluesky and X. You connect each one once, while you are online, and after that you can compose and send from it offline. Messages are encrypted on your phone before they go out as text. You can add your own gateway numbers or switch between gateways, and pick the country your message is forwarded from. You can also make an encrypted backup of your saved accounts and restore it on a new install.\n\nYou need accounts with the services you want to send to, and a SIM that can send texts, so your carrier's SMS charges apply. The app says it no longer asks you to log in or register with RelaySMS itself. It relies on gateways and servers run by the SMSWithoutBorders project, so it only works while those stay up. Making it your default messages app is optional and only needed for attachments. The interface comes in English plus eleven other languages, including French, Spanish, Arabic, Hindi and Swahili.",
+  "repo": "https://github.com/smswithoutborders/RelaySMS-Android",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://relay.smswithoutborders.com/",
+  "tags": [
+    "sms",
+    "offline",
+    "email by sms",
+    "no internet",
+    "gateway",
+    "smswithoutborders",
+    "telegram",
+    "text message"
+  ],
+  "added": "2026-10-06"
+}

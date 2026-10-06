@@ -1,0 +1,21 @@
+{
+  "id": "notification-dictionary",
+  "name": "Notification Dictionary",
+  "tagline": "Select a word in any app and get its meaning as a notification",
+  "description": "Notification Dictionary shows you what a word means without leaving the app you are in. Select a word in a browser, an e-book or a chat, choose Meaning from the text-selection menu, and the definition appears as a notification. You can also share text to it, or type a word into the app to look it up.\n\nTap the notification to see every meaning of the word, tap a meaning to copy it, or long-press it to share. Buttons on the notification can share the meaning, read it aloud with Android's own text-to-speech, or mark the word as a favourite. The app keeps a history of the words you looked up and a list of your favourites. Meanings come from Wiktionary and include the part of speech. You can pick English, French, German or Polish, one language at a time.\n\nOn first start the app has to download a dictionary file, which is tens of megabytes (English is around 50 MB), and every extra language is a separate download from the developer's own CDN. After that, lookups work offline. It needs permission to show notifications, and it only works in apps that offer the standard text-selection menu.",
+  "repo": "https://github.com/tirkarthi/NotificationDictionary",
+  "category": "reading",
+  "license": "MIT",
+  "fdroid": "com.xtreak.notificationdictionary",
+  "tags": [
+    "dictionary",
+    "word meaning",
+    "definition",
+    "wiktionary",
+    "look up words",
+    "offline dictionary",
+    "text selection",
+    "vocabulary"
+  ],
+  "added": "2026-10-06"
+}

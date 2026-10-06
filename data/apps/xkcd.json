@@ -1,0 +1,22 @@
+{
+  "id": "xkcd",
+  "name": "xkcd",
+  "tagline": "Read every xkcd and What If, with big comics and offline downloads",
+  "description": "This is a reader for xkcd, the stick-figure webcomic, and for What If, the same author's answers to odd science questions. You can browse the whole archive, search it, mark favourites and give thumbs-up, and there is a shake-for-random setting.\n\nVery large comics that normally get squashed on a phone open in a viewer you can zoom into. Animated and interactive comics are handled too, including frame-by-frame ones like Time. Hold and tap to open the ExplainXKCD page when a joke goes over your head. There is a dark theme, and you can download every comic so they open fast or without a connection. When a fan translation exists, you can switch to the French, German, Russian, Spanish or Chinese version.\n\nThe app is in English, with German, Spanish, French, Russian and Chinese translations. The comics are loaded from xkcd.com, so you need a connection unless you downloaded them first. The comic list, search suggestions and thumbs-up counts come from a server the developer runs. The GitHub release has two builds: the default one includes Google Firebase code for push notifications, analytics and crash reports, and the FOSS one (xkcd-foss-release.apk) leaves that out. The latest release dates from 2023, and a later fix is in the source but not yet in a release.",
+  "repo": "https://github.com/zjn0505/xkcd-Android",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "xkcd",
+    "comics",
+    "webcomic",
+    "what if",
+    "explainxkcd",
+    "comic reader",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

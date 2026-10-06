@@ -1,0 +1,22 @@
+{
+  "id": "openstop",
+  "name": "OpenStop",
+  "tagline": "Answer simple questions to map how accessible public transport stops are",
+  "description": "OpenStop lets you help map how easy it is to use public transport stops, by answering short questions about the stop you are standing at. Your answers go to OpenStreetMap, the free and open map of the world. The data is meant to help with better route planning, especially for people with impairments, and to show which stops need to be improved.\n\nOpen the app near a stop and it loads the area from OpenStreetMap and shows what is mapped there: platforms, footpaths, steps, parking and toilets around the stop. Tap one and the app asks plain questions, such as whether there are seats, whether the waiting area is covered, how high the kerb is, how wide the platform is, or whether a timetable display can read its information aloud. You never type map tags yourself. The app turns your answers into tags, only ever adds information and never deletes anything, and shows you a summary to check before you upload. It works with screen readers and has light and dark themes, with high-contrast versions of both.\n\nYou need a free OpenStreetMap account to upload, and you sign in on the OpenStreetMap website, so the app never sees your password. Everything you upload becomes public on OpenStreetMap. It is meant for use on the spot: it asks for your location to show where you are, and it needs the internet to load stops and map tiles from Thunderforest. It is available in many languages. It is developed in the OPENER next project, funded by the German government, and the idea comes from Chemnitz University of Technology.",
+  "repo": "https://github.com/OPENER-next/OpenStop",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://openstop.app",
+  "fdroid": "de.tu_chemnitz.etit.sse.openstop",
+  "tags": [
+    "accessibility",
+    "wheelchair",
+    "bus stop",
+    "public transport",
+    "openstreetmap",
+    "osm",
+    "mapping",
+    "transit"
+  ],
+  "added": "2026-10-06"
+}

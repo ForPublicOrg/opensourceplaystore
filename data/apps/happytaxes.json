@@ -1,0 +1,22 @@
+{
+  "id": "happytaxes",
+  "name": "HappyTaxes",
+  "tagline": "Offline bookkeeping for freelancers, with receipt scanning",
+  "description": "HappyTaxes is a bookkeeping app for freelancers, sole traders and small businesses, and you can use it for household money too. You record what comes in and what goes out, attach a photo of the receipt to each expense, and get a profit and loss report when it is time to deal with tax.\n\nIt uses cash-basis accounting, so each entry carries the date the money actually moved. An expense needs a receipt: until you attach one, it is saved as a draft. If you switch it on, the app can read the amount, date and shop from a receipt photo using text recognition that runs on the phone. You can keep separate books for personal and business use, and set the tax year to UK (April to March), US (January to December) or your own dates. Reports export as CSV or PDF, and a ZIP export bundles your data with the receipt images, which is also how you back up and restore.\n\nEverything stays on your phone, with no account, no cloud, no ads and no analytics, so backups are your job. The app is English only, needs Android 8 or newer and currently builds only for 64-bit ARM phones. Receipt reading knows English text only, so check the figures it fills in.",
+  "repo": "https://github.com/dorumrr/happytaxes",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://dorumrr.github.io/happytaxes/",
+  "fdroid": "io.github.dorumrr.happytaxes",
+  "tags": [
+    "bookkeeping",
+    "accounting",
+    "receipts",
+    "expenses",
+    "freelancer",
+    "tax",
+    "ocr",
+    "profit and loss"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "spamblocker-call-and-sms",
+  "name": "SpamBlocker (Call & SMS)",
+  "tagline": "Block spam calls and texts with rules you control",
+  "description": "SpamBlocker stops unwanted calls and texts without replacing your phone app or your messages app. For calls it works as a caller ID app, and a blocked call can be rejected, silenced, or answered and hung up on straight away.\n\nYou build the rules yourself. It can let through your contacts, numbers you have called or answered before, and people who ring repeatedly. It can allow a call shortly after you dial an emergency number, or right after another app sends you a notification, such as a delivery driver. Other filters block numbers from a spam database you download, look a number up online while it rings, go by location or carrier name, or use your own regular expressions. It can stop floods of one-time-code texts, decline calls during video meetings, and learn from texts you sort into spam and not spam (this part is experimental).\n\nTexts work differently from calls. SpamBlocker takes over the notifications for incoming messages, so you turn them off in your messages app to avoid doubles, and blocked texts still stay in that app. RCS chats are not supported. It needs Android 10 or later and may ask to be exempt from battery optimisation so it keeps working after you swipe it away. The many translations were made with AI, so some wording may be off. Offline features collect no data. The online ones are optional, and the GitHub releases include a build without the internet permission.",
+  "repo": "https://github.com/aj3423/SpamBlocker",
+  "category": "security",
+  "license": "MIT",
+  "fdroid": "spam.blocker",
+  "tags": [
+    "spam",
+    "robocall",
+    "call blocker",
+    "sms blocker",
+    "caller id",
+    "spam filter",
+    "block calls",
+    "unwanted texts"
+  ],
+  "added": "2026-10-06"
+}

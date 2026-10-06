@@ -1,0 +1,20 @@
+{
+  "id": "learn",
+  "name": "Learn",
+  "tagline": "A simple picture-and-sound learning app for young children",
+  "description": "Learn is a picture-book style app for young children who are starting to learn English. Each topic is a set of big, bright cards with a picture, and the app can say the word out loud.\n\nThe home screen has alphabets A to Z with an example for each letter, numbers, animals, body parts, birds, colours, flowers, and fruits and vegetables. Animal and bird cards also play a recording of the sound the creature makes. An Explore tab holds more topics, such as the solar system and a quiz, along with a simple drawing board where a child can doodle in different colours. There is a favourites page for saved items and a light and dark theme.\n\nThe pictures and sounds are stored inside the app, so it works without a connection, and there are no accounts or ads. It is English only, and the spoken words come from your phone's own text-to-speech voice, set to Indian English. It is a small community project, and a shapes section is still marked as under construction.",
+  "repo": "https://github.com/EkaAI-Tech/learn",
+  "category": "education",
+  "license": "MIT",
+  "tags": [
+    "kids",
+    "children",
+    "alphabet",
+    "abc",
+    "animal sounds",
+    "numbers",
+    "colours",
+    "preschool"
+  ],
+  "added": "2026-10-06"
+}

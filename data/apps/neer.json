@@ -1,0 +1,20 @@
+{
+  "id": "neer",
+  "name": "Neer",
+  "tagline": "Set a daily water goal and get reminders to drink",
+  "description": "Neer is a water reminder. You tell it your weight, age, gender and when you wake and go to bed, and it works out a daily water goal and a reminder schedule. If you would rather choose the goal yourself, you can set it by hand. Each time you drink, you log it with a tap and watch your progress toward the day's goal.\n\nReminders are spread across your waking hours, and you can change how often they arrive or add custom reminders at times you pick. A stats screen shows a weekly chart, your current streak of days you hit the goal and a 30-day history. Two home screen widgets let you log a drink or check your streak without opening the app. It works in kilograms and millilitres or in pounds and ounces.\n\nThe reminders depend on notifications and exact alarms being allowed on your phone. The developer says everything stays on your device, with no servers run and no personal information collected.",
+  "repo": "https://github.com/criticalAY/Neer",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": [
+    "water",
+    "hydration",
+    "drink water",
+    "reminder",
+    "health",
+    "habit",
+    "water tracker",
+    "notifications"
+  ],
+  "added": "2026-10-06"
+}

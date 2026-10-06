@@ -1,0 +1,20 @@
+{
+  "id": "sos-flashlight",
+  "name": "SOS Flashlight",
+  "tagline": "Send SOS or any message in Morse code by flash, buzz, beep or screen",
+  "description": "SOS Flashlight turns your phone into a Morse code signaller. Press the SOS button and it sends the international distress signal (three short, three long, three short) by flashing the camera light, and it keeps repeating until you press the button again.\n\nYou can type your own message instead of SOS. The signal can come out through any mix of the flash, the vibration motor, a beep, and a full-screen coloured light for phones with no flash or for a bigger glow in the dark. You choose which are on, how fast the dots and dashes go (slow, medium, fast, or a dot length of your own in milliseconds) and the screen colour. It keeps going in the background with the screen locked, and a home-screen widget gives you a plain one-tap torch.\n\nThe Code Reader screen turns dots and dashes you tap in back into letters, but it does not watch for flashes through the camera. Android shows a notification while it signals, so you need to allow notifications. It only helps if someone is close enough to see or hear it, so treat it as a backup and not a replacement for calling for help. The developer's privacy policy says it collects nothing, and the app asks for no internet access.",
+  "repo": "https://github.com/WeilJimmer/SOSFlashlightApp",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.wbftw.weil.sos_flashlight",
+  "tags": [
+    "morse code",
+    "sos",
+    "flashlight",
+    "torch",
+    "emergency",
+    "signal",
+    "vibration"
+  ],
+  "added": "2026-10-06"
+}

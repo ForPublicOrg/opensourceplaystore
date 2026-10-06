@@ -1,0 +1,24 @@
+{
+  "id": "permission-pilot",
+  "name": "Permission Pilot",
+  "tagline": "See every permission your apps ask for, all in one place",
+  "description": "Permission Pilot shows you what every app on your phone is allowed to do. Android scatters permissions across the App Info page, Special Access, the Permissions Manager and more, so it is hard to see the whole picture. This app gathers them in one place and lets you look at them from two sides.\n\nOpen the Apps tab to see everything one app has asked for, and whether each permission is granted or denied. Open the Permissions tab and tap one, like Camera or Contacts, to see every app that asks for it. Permission Watcher checks your apps when they are installed, updated or removed and makes a report if their permissions changed. You can also export the data as a Markdown file.\n\nIt only shows information. Android does not let apps change permissions on a phone that is not rooted, so it opens the right page in Settings when you want to make a change. A few extras are locked in the free open-source build until you support the developer through GitHub Sponsors: the raw manifest viewer, export to CSV and JSON, theme choices, and Permission Watcher's notifications and full report list. The app does not ask for internet access.",
+  "repo": "https://github.com/d4rken-org/permission-pilot",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://myperm.darken.eu",
+  "fdroid": "eu.darken.myperm",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "permissions",
+    "privacy",
+    "app permissions",
+    "permission viewer",
+    "audit",
+    "manifest",
+    "permission watcher"
+  ],
+  "added": "2026-10-06"
+}

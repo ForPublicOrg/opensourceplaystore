@@ -1,0 +1,21 @@
+{
+  "id": "owndroid",
+  "name": "OwnDroid",
+  "tagline": "Restrict apps, camera, USB and more on your own phone",
+  "description": "OwnDroid lets you manage your own phone the way a company manages its staff phones. It uses Android's device owner feature, the same power that work-phone management apps use, to give you controls the normal Settings app does not have.\n\nYou can switch off the camera, screenshots, USB data, Bluetooth and NFC, and block SMS and outgoing calls. You can hide or suspend an app, stop it being uninstalled, clear its storage, and grant or take away its permissions. It can also edit Wi-Fi networks, show network and security logs, reset the screen lock password, and create or switch between users. Other apps and scripts can trigger some actions through an intent API protected by a key you set.\n\nThis one is for people happy with some setup. To make OwnDroid the device owner you run an ADB command from a computer, or use Shizuku, Dhizuku or root. Android refuses if accounts are signed in on the phone or extra users exist, so you may need to remove them first, and only one app can be device owner at a time. There is also a work profile mode. Wipe data is one of the controls, so read each warning before you tap. ColorOS phones need the testkey APK from the GitHub releases. It needs Android 6 or newer, it also has Simplified Chinese, Russian and Turkish translations, and it does not ask for internet access.",
+  "repo": "https://github.com/BinTianqi/OwnDroid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://bintianqi.com/OwnDroid/",
+  "tags": [
+    "device owner",
+    "device policy",
+    "dpc",
+    "restrictions",
+    "work profile",
+    "shizuku",
+    "dhizuku",
+    "block apps"
+  ],
+  "added": "2026-10-06"
+}

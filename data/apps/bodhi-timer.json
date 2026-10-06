@@ -1,0 +1,19 @@
+{
+  "id": "bodhi-timer",
+  "name": "Bodhi Timer",
+  "tagline": "A quiet full-screen countdown timer with meditation bell sounds",
+  "description": "Bodhi Timer is a simple countdown timer made mainly for meditation. It fills the screen with one picture or animation and nothing else, so there is little to look at or fiddle with while you sit. When the time is up, it rings a bell.\n\nYou set the time by scrolling and flinging on the clock, and you can save up to three presets for the lengths you use most. While it counts down you see a leaf image fading in, a circle animation such as the brush-drawn Zen circle, or a picture of your own. For the end sound you can pick a Burmese bell, a Tibetan bell, singing bowls, a Zen gong or bird song, or use any ringtone or sound file on your phone. It can restart by itself when it finishes, run several timers one after another, and take the times by voice: long-press the clock button and say the times separated by the word \"again\". The alarm goes through Android's own notification system, so it still rings when the phone is asleep.\n\nThe developer says it collects no data, and it asks for no internet permission. Besides English it has translations in German, Esperanto, French, Polish and Chinese.",
+  "repo": "https://github.com/yuttadhammo/BodhiTimer",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "org.yuttadhammo.BodhiTimer",
+  "tags": [
+    "meditation timer",
+    "countdown",
+    "bell",
+    "singing bowl",
+    "mindfulness",
+    "zen"
+  ],
+  "added": "2026-10-06"
+}

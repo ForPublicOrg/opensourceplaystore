@@ -1,0 +1,24 @@
+{
+  "id": "dharmik",
+  "name": "Dharmik",
+  "tagline": "Read the Bhagavad Gita with commentaries and audio",
+  "description": "Dharmik lets you read the Bhagavad Gita on your phone, one verse at a time. All 18 chapters are in the app. Swipe to the next verse or drag the slider to jump around, and show the text in English, Hindi or Sanskrit.\n\nEvery verse comes with translations and with commentaries by many teachers, including Shankaracharya, Ramanuja, Madhavacharya and Swami Chinmayananda. Press play to hear the verse recited in Sanskrit, or the English or Hindi translation read aloud, and turn on autoplay to have it carry on to the next verse. You can mark favourite verses, copy any verse, translation or commentary to share, and the app can remember where you stopped. Text size and a light, dark or system theme are in the settings.\n\nThe text, translations and commentaries are stored inside the app, so you can read without a connection. The audio is streamed from the Gita Supersite run by IIT Kanpur, so you need to be online to listen. The developer says there are no ads, and the app asks only for internet access.",
+  "repo": "https://github.com/shub39/Dharmik",
+  "category": "education",
+  "license": "GPL-3.0",
+  "fdroid": "com.shub39.dharmik.online",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "bhagavad gita",
+    "gita",
+    "hindu",
+    "sanskrit",
+    "hindi",
+    "scripture",
+    "verses",
+    "commentary"
+  ],
+  "added": "2026-10-06"
+}

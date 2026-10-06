@@ -1,0 +1,21 @@
+{
+  "id": "personal-stuff",
+  "name": "Personal Stuff",
+  "tagline": "Keep track of your belongings, their expiry dates and stock levels",
+  "description": "Personal Stuff is a home inventory for your own things. You add each item with a name, photos, tags and an amount, and the app keeps track of it so you stop forgetting what you have, what is about to expire and what is running low. It works for leftovers at the back of the fridge just as well as for tools, spare parts or anything you store and then lose track of.\n\nSet reminders for expiry dates or any other event. A daily notification lists items that have expired, will expire soon or are low on stock. You can log each time you use or buy more of an item, keep maintenance notes such as repairs, and make checklists over your items, like a packing list for a house move. Scan a product barcode with the camera to add or find an item. Backups are ZIP files with the photos included and can run on a schedule to a folder you pick. You can also export everything to an Excel spreadsheet on Android 8 or newer.\n\nThere is no account, and the developer says the app is fully offline with no internet permission, so your list stays on your phone. The scanner reads ordinary 1D product barcodes. The app comes in 11 languages, English among them.",
+  "repo": "https://github.com/rh-id/a-personal-stuff",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "m.co.rh.id.a_personal_stuff",
+  "tags": [
+    "inventory",
+    "expiry",
+    "reminders",
+    "belongings",
+    "barcode",
+    "pantry",
+    "household",
+    "stock"
+  ],
+  "added": "2026-10-06"
+}

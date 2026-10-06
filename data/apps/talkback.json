@@ -1,0 +1,21 @@
+{
+  "id": "talkback",
+  "name": "TalkBack",
+  "tagline": "A screen reader that tells you aloud what is on your phone's screen",
+  "description": "TalkBack is Google's screen reader for people who are blind or have low vision. Once it is switched on, your phone speaks aloud what is under your finger and what you have just selected, and adds sounds and vibration to help you find your way around. This is the open-source version of the tool that comes already installed on many Android phones.\n\nDrag a finger over the screen to hear what is under it, then double-tap to open it. Gestures can be changed, you can give buttons your own labels, and there are keyboard shortcuts for a physical keyboard. Speech rate and volume are adjustable, and it can say an example word with each letter, like 'h, hotel'. There is a braille keyboard that works on the touchscreen, and it supports braille displays over Bluetooth. A built-in tutorial covers the basics, and the interface is translated into many languages.\n\nThe F-Droid build is made from Google's source with Google's closed-source parts removed, so features that depend on them may be missing. It is built from October 2024 source and needs Android 8.0 or newer. Many phones already include TalkBack, and F-Droid warns that on those you will not be able to install this one. It stays off until you turn it on in Settings, under Accessibility, and once it is on, touch works differently across the whole phone.",
+  "repo": "https://github.com/google/talkback",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://support.google.com/accessibility/android/answer/6283677?hl=en",
+  "fdroid": "com.android.talkback",
+  "tags": [
+    "screen reader",
+    "accessibility",
+    "blind",
+    "low vision",
+    "braille",
+    "spoken feedback",
+    "visually impaired"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chooser",
+  "name": "Chooser",
+  "tagline": "Everyone touches the screen and it picks a finger at random",
+  "description": "Chooser helps a group make a fair, random pick. Everyone puts a finger on the screen at the same time, and after a short pause the app chooses one finger at random. Use it to decide who pays at the checkout, who starts a game, or which teams to play in.\n\nThere are three modes. Single mode picks one finger, or several if you raise the number. Group mode splits all the fingers into balanced teams, and you choose how many. Order mode puts every finger in a random sequence, which is handy for deciding who goes first, second and third. In settings you can switch sound and vibration on or off, change the circle size, the delays before a pick and how long the circles stay on screen, and save your settings to a file to load later.\n\nIt needs no account and no internet, and asks only for permission to vibrate. The app is available in English and German.",
+  "repo": "https://github.com/UrAvgCode/Chooser",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.uravgcode.chooser",
+  "tags": [
+    "finger chooser",
+    "random picker",
+    "who goes first",
+    "team splitter",
+    "decision maker",
+    "pick a person",
+    "party"
+  ],
+  "added": "2026-10-06"
+}

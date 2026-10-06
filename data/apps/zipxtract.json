@@ -1,0 +1,20 @@
+{
+  "id": "zipxtract",
+  "name": "ZipXtract",
+  "tagline": "Unpack ZIP, RAR, 7z and other archives, or make new ZIP, 7z and TAR files",
+  "description": "ZipXtract opens compressed files and makes new ones. Tap an archive to unpack it into a folder you choose, or select files and folders and pack them into a new archive.\n\nIt reads RAR (including RAR5 and archives split into several parts), ZIP (including password-protected and split ZIPs), 7z, TAR, GZ, BZ2, XZ, ISO, JAR and more. You can create ZIP, 7z and TAR archives, protect ZIP and 7z with a password, and cut a ZIP into split parts that are easier to send. Recent versions can pull a single file out of a ZIP or 7z and let you cancel a job part way through. Files opened from another app's Open With or Share menu go to a ZipXtract folder in your internal storage unless you change that in settings.\n\nThe app has no internet permission, so your files stay on your phone. To reach them it asks for all-files access on Android 11 and later. Its own code is GPL, but the RAR support uses the unrar library, whose licence is not fully free, and IzzyOnDroid flags the app for it. The GitHub and IzzyOnDroid builds are the full version with RAR and 7z.",
+  "repo": "https://github.com/WirelessAlien/ZipXtract",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "zip",
+    "rar",
+    "7z",
+    "unzip",
+    "extract",
+    "compress",
+    "archive",
+    "tar"
+  ],
+  "added": "2026-10-06"
+}

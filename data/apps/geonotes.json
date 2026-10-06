@@ -1,0 +1,21 @@
+{
+  "id": "geonotes",
+  "name": "GeoNotes",
+  "tagline": "Drop quick notes and photos on a map while you are out and about",
+  "description": "GeoNotes lets you pin notes to a map as fast as you can tap. Tap the map, type a few words, add photos if you like, and the note is saved right where you tapped. It is made for surveys and walks, when you want to jot down what you see (a missing bench, a shop that has moved) and sort it out later, for example when editing OpenStreetMap on a computer.\n\nYou can move or delete a note, sort notes into colour-coded categories, and browse or filter them in a list. The map can follow your position, and a setting snaps new notes to exactly where you are standing. Everything can be exported as GeoJSON or GPX, or as a full backup with photos and settings that you can restore later. You can also require a long press to place a note, so a stray touch does not create one.\n\nAll your notes stay on your phone. Nothing is uploaded, nothing is sent to OpenStreetMap, and the app collects no usage data. The map is downloaded from OpenStreetMap as you browse and there are no offline maps, so you need a connection to see areas you have not viewed before. Backups and exports are not encrypted. It needs Android 8.1 or newer.",
+  "repo": "https://github.com/hauke96/GeoNotes",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "fdroid": "de.hauke_stieler.geonotes",
+  "tags": [
+    "notes",
+    "gps",
+    "survey",
+    "openstreetmap",
+    "osm",
+    "photos",
+    "geojson",
+    "gpx"
+  ],
+  "added": "2026-10-06"
+}

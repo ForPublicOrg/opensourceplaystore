@@ -1,0 +1,22 @@
+{
+  "id": "flare",
+  "name": "FLARE",
+  "tagline": "A dark fantasy action RPG that plays like Diablo",
+  "description": "FLARE (Free Libre Action Roleplaying Engine) is a single-player 2D action RPG with gameplay like the Diablo games. You build up a character, fight enemies in fast real-time combat, use special powers, pick up loot and trade with merchants.\n\nThe game that goes with it is Flare: Empyrean Campaign, a dark fantasy adventure. You can play with on-screen touch controls, or use a gamepad, keyboard or mouse. The game saves when you exit. It is built from plain text and image files, so people can change it or make their own, and the project website lists community mods. The menus come in around 30 languages, some complete and some partial, and the app asks for no internet access.\n\nThe Android app is only the game engine. You must add the game data yourself before it will start: on a computer, download the Windows bundle (about 613 MB) linked from the project wiki, unzip it, and copy its mods folder to the folder on your phone that the app names when it first fails to launch. The app needs access to your storage to read it. It is fiddly, and the wiki has step-by-step instructions. The game plays in landscape only and contains violence, blood and mild gore.",
+  "repo": "https://github.com/flareteam/flare-engine",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://flarerpg.org/",
+  "fdroid": "org.flare.app",
+  "tags": [
+    "action rpg",
+    "rpg",
+    "diablo",
+    "hack and slash",
+    "fantasy",
+    "single player",
+    "offline",
+    "gamepad"
+  ],
+  "added": "2026-10-06"
+}

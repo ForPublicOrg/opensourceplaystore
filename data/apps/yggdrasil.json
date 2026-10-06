@@ -1,0 +1,23 @@
+{
+  "id": "yggdrasil",
+  "name": "Yggdrasil",
+  "tagline": "Connect your phone to the encrypted Yggdrasil mesh network",
+  "description": "Yggdrasil is the Android app for the Yggdrasil Network, an end-to-end encrypted IPv6 network. Switch it on and your phone joins the network with its own address, so you can reach services hosted inside it and apps that use IPv6 can talk securely to other Yggdrasil nodes. You do not need IPv6 internet at your end, because it also works over IPv4.\n\nThe app runs as a VPN service, but only Yggdrasil traffic goes through it. Your usual traffic still goes out through your normal provider. To connect, you add one or more peers by hand (the app links to a public peers list), or let it look for nearby nodes on the same Wi-Fi network or over USB, which must use the same password. It shows your connected peers, your public key and IPv6 address, lets you set custom DNS servers and reset your keys, and has a Quick Settings tile.\n\nThis is for people who already know what they want to reach on the network. Anonymity is not a goal: the peers you connect to can see your IP address, and nearby peers found over multicast may see your device's MAC address. If you add more than one peer, your phone may carry traffic for other nodes, so the app suggests using only one. The developers describe the network as early-stage and say it has not been independently audited. You must switch the app off and on again after changing peers, DNS or settings, and if you add DNS servers, all your name lookups go to them while it runs. The app is in English and Russian.",
+  "repo": "https://github.com/yggdrasil-network/yggdrasil-android",
+  "category": "internet",
+  "license": "MIT",
+  "website": "https://yggdrasil-network.github.io/",
+  "fdroid": "eu.neilalexander.yggdrasil",
+  "status": "testing",
+  "tags": [
+    "yggdrasil",
+    "mesh network",
+    "ipv6",
+    "vpn",
+    "encrypted",
+    "peer-to-peer",
+    "decentralised",
+    "overlay network"
+  ],
+  "added": "2026-10-06"
+}

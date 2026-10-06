@@ -1,0 +1,21 @@
+{
+  "id": "quits",
+  "name": "Quits",
+  "tagline": "Split group costs and settle up, with no account needed",
+  "description": "Quits helps a group of people split shared costs, such as a holiday, a flat or a night out. You add who paid for what, and it keeps track of who owes whom and suggests the payments that settle everyone up. It is a free alternative to apps like Splitwise and Tricount, and you do not need an account.\n\nA cost can be split equally, by exact amounts, by shares, by percentage, or item by item for a receipt where everyone ate something different. You can also record income and payments between members, sort entries into categories, use different currencies, look at statistics and export everything as a CSV file. Everything works offline, and the app also runs as a web app in a browser.\n\nTo share a group, other people join with a code or QR code, and the group syncs between phones through a relay server, with end-to-end encryption. A free public relay is built in, or you can run your own open source one. The public relay limits how many entries a group can hold and removes groups it has not heard from for a while. The app is in English and German, and live exchange rates come from the Frankfurter service.",
+  "repo": "https://github.com/SeineEloquenz/quits",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://app.quits.eloque.nz",
+  "fdroid": "nz.eloque.quits",
+  "tags": [
+    "splitwise",
+    "tricount",
+    "split bills",
+    "shared expenses",
+    "settle up",
+    "trip costs",
+    "roommates"
+  ],
+  "added": "2026-10-06"
+}

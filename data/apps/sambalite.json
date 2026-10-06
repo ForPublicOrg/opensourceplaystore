@@ -1,0 +1,22 @@
+{
+  "id": "sambalite",
+  "name": "SambaLite",
+  "tagline": "Browse and sync files on your Windows or NAS network share",
+  "description": "SambaLite lets you open the shared folders on your local network from your phone. If you have a Windows shared folder, a NAS or a Samba server, you can browse it, download and upload files, rename and delete them, and open a file straight from the share.\n\nYou can save several named connections and search a folder using wildcards such as * and ?. Folder sync keeps a folder on your phone matched with one on the share, in either direction or both, in the background at an interval from every 15 minutes to every 24 hours, which is handy for backing up camera photos to a NAS. You can set up to five sync folders. Transfers are queued and carry on in the background. Your passwords are kept in Android's secure storage, and the developer says the app has no telemetry and no ads.\n\nIt speaks SMB2 and SMB3 only, so very old servers that offer nothing but SMB1 will not work. You need an existing share to connect to, and your phone has to be on the same network or a VPN. Background sync and transfers need your phone to let the app run in the background and show notifications. It is a file client rather than a mounted network drive, so other apps will not see the share as a normal folder. It needs Android 9 or newer, and besides English the app is translated into German, French, Spanish, Dutch, Polish and Chinese.",
+  "repo": "https://github.com/egdels/SambaLite",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://egdels.github.io/SambaLite/",
+  "fdroid": "de.schliweb.sambalite",
+  "tags": [
+    "smb",
+    "samba",
+    "cifs",
+    "nas",
+    "network drive",
+    "windows share",
+    "file sync",
+    "file browser"
+  ],
+  "added": "2026-10-06"
+}

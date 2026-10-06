@@ -1,0 +1,22 @@
+{
+  "id": "hyperrogue",
+  "name": "HyperRogue",
+  "tagline": "A puzzle roguelike set on a strange, curved map where space bends",
+  "description": "HyperRogue is a puzzle roguelike set in a world where geometry does not work the way you expect. You play a lone Rogue who must collect as much treasure as possible before the monsters get you. The map is drawn on a hyperbolic plane, so space curves away around you, new parts are made up as you walk, and it is very unlikely you will ever come back to a place you have seen unless you retrace your steps exactly.\n\nYou kill most monsters by moving into them, but any monster left next to you at the end of your turn kills you. The game refuses moves that would get you killed on the spot, much like the check rule in chess. Treasure attracts more monsters, and killing monsters lets more treasure appear. Dozens of different lands each have their own monsters, treasure and hazards, and rare magic orbs give you one-off or time-limited powers. The deepest goal is to reach Hell and find the Orbs of Yendor. The menus also offer a guided tour of the geometry and other ways to play, such as a shoot-em-up mode and racing.\n\nThe developer sells paid versions with more up-to-date content and some social and competitive features, so expect this free build to be a little behind. It does not ask for internet access. The text is in English, with translations into several other languages including German, French, Polish, Russian and Chinese.",
+  "repo": "https://github.com/zenorogue/hyperrogue",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://roguetemple.com/z/hyper/",
+  "fdroid": "com.roguetemple.hyperroid",
+  "tags": [
+    "roguelike",
+    "hyperbolic",
+    "non-euclidean",
+    "geometry",
+    "puzzle",
+    "turn-based",
+    "maths",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bluetooth-remote",
+  "name": "Bluetooth Remote",
+  "tagline": "Use your phone as a Bluetooth keyboard, mouse and media remote",
+  "description": "Bluetooth Remote turns your Android phone into a wireless keyboard, mouse and trackpad for another device. Pair it with a computer, tablet, TV or streaming box and you can type, move the pointer and use media buttons from your phone, without installing anything on the other device.\n\nThe phone presents itself as an ordinary Bluetooth keyboard and mouse, so there is no server or companion app to set up. It is meant to work with Windows, macOS, Linux and SteamOS, ChromeOS, iPhone and iPad, Apple TV, other Android devices, Android TV, Google TV and Fire OS. A Direct Input switch on the keyboard sends each key as you press it, instead of sending the text you typed when you tap send. This build is based on BT Remote by Atharok, which was made for Android TV, with changes so it works with computers and other platforms too.\n\nYour phone needs Android 9 or newer, and the other device has to accept normal Bluetooth keyboards and mice. It uses classic Bluetooth and asks for no internet access.",
+  "repo": "https://github.com/jqssun/android-bt-remote",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.jqssun.btremote",
+  "tags": [
+    "bluetooth",
+    "keyboard",
+    "mouse",
+    "remote control",
+    "trackpad",
+    "media remote",
+    "hid",
+    "tv remote"
+  ],
+  "added": "2026-10-06"
+}

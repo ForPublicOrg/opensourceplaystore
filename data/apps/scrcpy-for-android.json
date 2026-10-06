@@ -1,0 +1,20 @@
+{
+  "id": "scrcpy-for-android",
+  "name": "Scrcpy for Android",
+  "tagline": "See and control another Android phone from your phone, by Wi-Fi or USB",
+  "description": "Scrcpy for Android shows the screen of another Android device on your phone and lets you control it by touch. It is an Android port of the desktop tool Scrcpy, so your phone does the job a computer normally would: it connects to the other device through ADB, streams its display, and sends your taps back.\n\nYou can connect over Wi-Fi by typing the other device's IP address, or over a USB cable (USB-C to USB-C, or an OTG adapter). You choose the resolution, bitrate, frame rate and video codec, and the README suggests 1280x720 at 2 Mbps as a good starting point. There is a view-only mode, a switch to forward the other device's audio, and a navbar switch that adds back, home and app-switch buttons for devices that only have hardware ones. Double tap the screen to wake the remote device. A small ADB shell and reboot and power-off commands are built in.\n\nThe device you want to mirror must have wireless debugging (ADB over network) or USB debugging switched on in its Developer options, and you need to accept a trust prompt on it the first time. For the Wi-Fi route both devices should be on the same network. The app is in English, Spanish, Japanese and Chinese.",
+  "repo": "https://github.com/zwc456baby/ScrcpyForAndroid",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "scrcpy",
+    "screen mirror",
+    "adb",
+    "remote control",
+    "wireless debugging",
+    "usb debugging",
+    "mirror phone",
+    "screen share"
+  ],
+  "added": "2026-10-06"
+}

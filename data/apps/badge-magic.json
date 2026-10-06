@@ -1,0 +1,22 @@
+{
+  "id": "badge-magic",
+  "name": "Badge Magic",
+  "tagline": "Send scrolling text and pictures to a Bluetooth LED name badge",
+  "description": "Badge Magic puts your own words and pictures on a Bluetooth LED name badge. You type a message or draw on a grid of tiny lights, and the app sends it to the badge over Bluetooth. It is made by FOSSASIA, an open technology community.\n\nText can scroll left, right, up or down, stay fixed, or play simple animations such as snowflake and laser patterns. You can add flash, invert and marquee effects, set the speed with a dial, and drop in clipart. A virtual badge on screen shows what it will look like before you send it. A drawing screen lets you paint your own pictures on the badge's 11 by 44 grid of lights, and you can save badges under a name to reuse or edit later.\n\nYou need a compatible LED name badge with Bluetooth. Badges without Bluetooth are not supported. The project says most of them come from the same maker and points to its own shop for one. On Android 11 and older the app asks for the location permission, because Android requires it for Bluetooth scanning. The app comes in English, Hindi and Italian, and its privacy policy says it collects no personal information.",
+  "repo": "https://github.com/fossasia/badgemagic-app",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://badgemagic.fossasia.org",
+  "fdroid": "org.fossasia.badgemagic",
+  "tags": [
+    "led badge",
+    "name badge",
+    "bluetooth",
+    "scrolling text",
+    "led display",
+    "pixel art",
+    "fossasia",
+    "ble"
+  ],
+  "added": "2026-10-06"
+}

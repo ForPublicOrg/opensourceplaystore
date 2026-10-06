@@ -1,0 +1,21 @@
+{
+  "id": "drinkable",
+  "name": "Drinkable",
+  "tagline": "Find cocktails you can make with what you already have at home",
+  "description": "Drinkable helps you work out which cocktails you can make tonight. Tell it which spirits, mixers and fruit you have at home and it lists every drink you can mix right now. It also shows the drinks that are only one ingredient short, so you know exactly what to pick up next.\n\nThe collection covers more than 150 cocktails and more than 150 ingredients, plus shots and alcohol-free mocktails. You can mark favourites, rate drinks from zero to five stars, filter by spirit or by how strong a drink is, and switch recipes between metric and imperial measures. You can add your own cocktails, ingredients and tags, keep several separate lists of what is in your bar, and build shopping lists. Drinks can also be tagged for Halloween and Christmas.\n\nIt works offline and has no account to make, and your own recipes and lists stay on the phone. The app comes in English and 14 other languages, among them German, French, Spanish, Italian, Dutch and Chinese, though not every language has translated recipe steps or drink names. Most of the recipes contain alcohol, so it is meant for adults, though the mocktail section is there for anyone.",
+  "repo": "https://github.com/MOIMOB/drinkable",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "com.moimob.drinkable",
+  "tags": [
+    "cocktails",
+    "drinks",
+    "recipes",
+    "mocktails",
+    "bartender",
+    "ingredients",
+    "shopping list",
+    "shots"
+  ],
+  "added": "2026-10-06"
+}

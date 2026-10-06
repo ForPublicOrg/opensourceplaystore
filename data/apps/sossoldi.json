@@ -1,0 +1,22 @@
+{
+  "id": "sossoldi",
+  "name": "Sossoldi",
+  "tagline": "Track your net worth, spending and budgets, with data kept on your phone",
+  "description": "Sossoldi is a money tracker that shows where your money goes and what you are worth. You add your accounts, such as a current account, savings or cash, then log income, spending and transfers between them. The home screen shows your balance for the month, what came in and went out, and a chart comparing this month with last month.\n\nSpending is sorted into categories and subcategories, each with its own icon and colour. You can set monthly budgets, see charts of where the money went, and search past transactions. Payments that repeat, like rent or a subscription, can be set to come round anywhere from daily to yearly. Any account can be left out of your net worth total. There are reminders to log your spending, light and dark themes, and an option to ask for your fingerprint, face or screen lock when you open the app.\n\nYou type everything in yourself. Your data stays on your phone, and the developers say there are no ads and no analytics. You can export to a CSV file, but importing one replaces everything already in the app. It is English only and shows everything in one main currency that you pick. Tracking shares and other investments is still on the developers' wish list.",
+  "repo": "https://github.com/RIP-Comm/sossoldi",
+  "category": "productivity",
+  "license": "MIT",
+  "website": "https://rip-comm.github.io/sossoldi/",
+  "fdroid": "com.ripster.sossoldi",
+  "tags": [
+    "net worth",
+    "budget",
+    "expenses",
+    "personal finance",
+    "money",
+    "income",
+    "recurring payments",
+    "spending tracker"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "family-gem",
+  "name": "Family Gem",
+  "tagline": "Build and share your family tree, with GEDCOM import and export",
+  "description": "Family Gem lets you build your family tree on your phone. Add each person with their names, dates, places, photos and life events, link them as parents, partners and children, and the tree takes shape on screen as a diagram.\n\nIt speaks GEDCOM, the standard file format of genealogy programs, so you can bring in a tree you already have and export yours to use anywhere else. You can attach sources and notes, search for duplicate people, save the diagram as a PDF or PNG, and get a notification on a relative's birthday. Backups can go to a folder you choose or to a ZIP file. To share a tree you send relatives a link: they can improve it and send their changes back, and you decide whether to accept them.\n\nNearly everything is free, but merging two trees into one needs a paid Premium subscription, bought through Google Play. Sharing uploads a copy of the tree to the developer's server at familygem.app, so that part does not stay on your phone, and place-name suggestions are fetched from the GeoNames website as you type. The developer says the app has no ads and needs no account.",
+  "repo": "https://github.com/michelesalvador/FamilyGem",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://www.familygem.app",
+  "antiFeatures": [
+    "tracking",
+    "nonfree-network"
+  ],
+  "tags": [
+    "genealogy",
+    "family tree",
+    "ancestry",
+    "gedcom",
+    "pedigree",
+    "relatives",
+    "family history",
+    "heritage"
+  ],
+  "added": "2026-10-06"
+}

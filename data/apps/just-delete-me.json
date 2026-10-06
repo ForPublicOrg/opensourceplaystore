@@ -1,0 +1,19 @@
+{
+  "id": "just-delete-me",
+  "name": "Just Delete Me",
+  "tagline": "Find out how to delete your account on thousands of websites",
+  "description": "Just Delete Me is a directory of how to close your account on web services, made to fit on your phone. Look up a site and the app tells you how hard it is to delete your account there and what steps to follow. It covers more than 2,600 services, so you can clear out old accounts without digging through help pages and privacy policies, which some companies make hard to find on purpose.\n\nEvery site has a difficulty rating: easy, medium, hard, impossible, or limited (for example, deletion may only be possible if you live somewhere with a privacy law). Tap a site's name to read the notes, then open its deletion page in your browser or, where one is given, send an email to the company. Search finds a site by name. The list is built into the app, so it works offline, and the app has no internet permission of its own. The entries come from the community-run JustDeleteMe.xyz directory, and a new version with fresh entries comes out most weeks.\n\nThe app only tells you how to delete an account. It deletes nothing for you, so you still have to log in and follow the steps on each site. Some entries have no notes at all. The menus are translated into about 30 languages, but the step-by-step notes are mostly in English.",
+  "repo": "https://github.com/AmanoTeam/JustDeleteMe",
+  "category": "security",
+  "license": "LGPL-3.0",
+  "fdroid": "com.amanoteam.kurt",
+  "tags": [
+    "delete account",
+    "close account",
+    "account deletion",
+    "privacy",
+    "data removal",
+    "how to delete"
+  ],
+  "added": "2026-10-06"
+}

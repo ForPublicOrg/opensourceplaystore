@@ -1,0 +1,21 @@
+{
+  "id": "crossword",
+  "name": "Crossword",
+  "tagline": "Find crossword answers and anagrams from the letters you know",
+  "description": "Crossword is a helper for when you are stuck on a clue. Pick how many letters the answer has, type the letters you know into the green row in their right places, and put letters you know are in the word, but not where, into the yellow row. A list of matching words appears as you type. Words can be up to 28 letters long, from a built-in list of about 110,000 words.\n\nThere is also an anagram screen: type a word or phrase and it lists anagrams, with the more interesting ones, judged by Scrabble letter values, nearest the top. Tap a word in either list to look up its meaning. By default that opens a web search inside the app, or you can hand it to a dictionary app such as QuickDic or Aard2 if you have one installed. You can also share text from another app to Crossword, using dots for unknown letters, to start a search.\n\nThe word lists are English and built in, so searching works without a connection and only meaning lookups need the internet. Long phrases can take a while to search for anagrams. It is a solver, not a puzzle game.",
+  "repo": "https://github.com/billthefarmer/crossword",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://billthefarmer.github.io/crossword/",
+  "fdroid": "org.billthefarmer.crossword",
+  "tags": [
+    "crossword solver",
+    "anagram",
+    "word finder",
+    "word puzzle",
+    "clue",
+    "dictionary",
+    "scrabble"
+  ],
+  "added": "2026-10-06"
+}

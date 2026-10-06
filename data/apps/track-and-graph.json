@@ -1,0 +1,22 @@
+{
+  "id": "track-and-graph",
+  "name": "Track & Graph",
+  "tagline": "Log anything in your daily life and turn it into graphs",
+  "description": "Track & Graph lets you record anything you want to keep an eye on and then see it as graphs. You make a tracker for each thing, such as your weight, how much you sleep or how many calories you eat, and add a data point whenever you like. Your data stays on your phone, and there are no ads and no account.\n\nEach data point has a time and a number, and can carry a label and a note. A tracker can also work as a timer, for things measured in hours and minutes. Labels are handy for sorting entries, for example calories split into breakfast, lunch and dinner. You can organise trackers into groups, log several at once, set reminders and add a home-screen widget for quick entries. Graphs can be line graphs, bar charts, pie charts, time histograms or plain statistics, and functions let you combine trackers into new data, such as a running total. For anything more custom there is a built-in Lua scripting language with a library of community scripts. You can import and export a group as a CSV file, back up the whole database to your own storage (automatically if you want), and lock the app with a password or fingerprint.\n\nIt starts empty, so expect to spend a few minutes deciding what to track and how to graph it. Backups are plain database files that are not encrypted, and the app lock only keeps casual snoopers out, so keep your backups somewhere private.",
+  "repo": "https://github.com/SamAmco/track-and-graph",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://samamco.github.io/track-and-graph/",
+  "fdroid": "com.samco.trackandgraph",
+  "tags": [
+    "tracker",
+    "data logging",
+    "graphs",
+    "charts",
+    "quantified self",
+    "habits",
+    "statistics",
+    "diary"
+  ],
+  "added": "2026-10-06"
+}

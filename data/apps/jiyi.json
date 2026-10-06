@@ -1,0 +1,20 @@
+{
+  "id": "jiyi",
+  "name": "Jiyi",
+  "tagline": "A private, encrypted voice diary that stays on your phone",
+  "description": "Jiyi is a voice diary. Instead of writing, you record a short spoken note about your day or what is on your mind, and the app saves it encrypted in a folder you choose. Your recordings stay on the phone unless you copy them somewhere yourself, and there is no account to make.\n\nEach entry can have a title and a one-character cover, and the app can note where you were when you recorded. Browse your entries by calendar, on a map or on a timeline of places, search by title or by what was said, or see them by season, week and time of day in a view called Memory Cosmos. With speech recognition set up, each recording is turned into text on the phone itself. There is also an optional 8pm reminder if you have not recorded that day, a home-screen widget showing whether you have recorded today, and WAV import and export.\n\nYour master key is set on first use and cannot be reset or recovered, so if you lose it the recordings are gone for good. Backups are up to you. Speech to text is optional and needs a model you download inside the app (about 50 MB for English, and 500 MB to 1 GB for the Chinese and bilingual ones). The map needs a map source chosen in settings, such as online OpenStreetMap, and place names need a separate data download. The app asks for all-files storage access, and is in English and Chinese.",
+  "repo": "https://github.com/xiaoshihou514/jiyi",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.github.xiaoshihou.jiyi",
+  "tags": [
+    "voice diary",
+    "voice journal",
+    "voice notes",
+    "audio diary",
+    "encrypted",
+    "speech to text",
+    "private"
+  ],
+  "added": "2026-10-06"
+}

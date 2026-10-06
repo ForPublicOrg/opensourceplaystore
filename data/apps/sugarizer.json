@@ -1,0 +1,21 @@
+{
+  "id": "sugarizer",
+  "name": "Sugarizer",
+  "tagline": "Dozens of learning activities for children, from the OLPC Sugar platform",
+  "description": "Sugarizer brings the Sugar learning platform to your phone or tablet. Sugar was built for the One Laptop per Child project and has been used by more than 2 million children. The home screen is a set of activities, and each activity is a small program for drawing, writing, maths, games or making things.\n\nThe activities are packed inside the app, so you do not need a website to use them. There are tools for drawing and writing, a calculator, chess, memory games, mazes and puzzles, a clock and a stopwatch, and block-based programming with Turtle Blocks and Scratch. Whatever a child makes is kept in a Journal, the same way it works on the original Sugar laptops. The app can be switched between several languages, including English, French, Spanish, German, Portuguese, Arabic, Japanese and Polish.\n\nIt is a big download, because all the activities are packed inside (the version on F-Droid is about 190 MB). The app runs in landscape orientation only. Working together with other children needs a Sugarizer Server, which a school or a family can run themselves.",
+  "repo": "https://github.com/llaske/sugarizer",
+  "category": "education",
+  "license": "Apache-2.0",
+  "fdroid": "org.olpc_france.sugarizer",
+  "tags": [
+    "kids",
+    "children",
+    "learning",
+    "olpc",
+    "sugar",
+    "school",
+    "educational games",
+    "programming"
+  ],
+  "added": "2026-10-06"
+}

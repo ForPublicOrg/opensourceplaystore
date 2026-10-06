@@ -1,0 +1,22 @@
+{
+  "id": "signet",
+  "name": "Signet",
+  "tagline": "Check a caller really is family with words only their phone can make",
+  "description": "Signet helps you tell a real call from a fake one. If someone who sounds like your mum rings in a panic asking for money, you can check that it really is her. Voice cloning and fake video can copy how a person sounds and looks, but they cannot copy a secret that only her phone holds.\n\nYou pair with each person once, in person, by scanning QR codes on each other's phones. After that, each phone shows four words that change every 30 seconds. When a call comes in, ask the caller to read out their four words and type what you hear. A green banner means they match and a red one means something is wrong. The two phones show different words, so a scammer cannot just read your own words back to you. It works over any channel: a phone call, a video call, a text or an email. You can also pair at a distance using an encrypted package sent over a channel you already trust, with a separate passphrase sent another way, and restore your pairings on a new phone from an encrypted backup.\n\nThe other person needs Signet too, and you must pair before the scam call comes. It needs Android 9 or newer, and the camera to scan the pairing codes. There is no account, no analytics and no internet permission, so nothing leaves your phone unless you choose to share a backup or send a crash report through your browser. It is still beta software from a single developer, and an outside security audit is still on the to-do list. It cannot help if someone holds your unlocked phone, watches your screen, or if you paired with the wrong person to begin with.",
+  "repo": "https://github.com/digital-grease/signet",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "fdroid": "dev.digitalgrease.signet",
+  "status": "testing",
+  "tags": [
+    "deepfake",
+    "scam",
+    "voice cloning",
+    "caller verification",
+    "family",
+    "vishing",
+    "fraud",
+    "safe word"
+  ],
+  "added": "2026-10-06"
+}

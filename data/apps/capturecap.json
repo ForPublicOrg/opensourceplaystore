@@ -1,0 +1,20 @@
+{
+  "id": "capturecap",
+  "name": "CaptureCap",
+  "tagline": "Record or stream your screen and phone audio, no root",
+  "description": "CaptureCap records your screen along with the sound your phone is playing, and can also stream it live. No root is needed. Control it from a quick-settings tile or a floating button panel, and pause, resume or stop from the notification. You can record audio only if you do not need the picture.\n\nYou can capture the whole screen or just a part, in H.264 or H.265 if your phone supports them, and set resolution, frame rate, bitrate and quality. Sound can come from your microphone, from your apps, or both, with volume and mute controls while you record. There is a start timer, pause and resume, a shake action to pause or stop, and a trimmer for finished recordings. You can draw text, arrows, shapes, images or a camera window over the video. Streaming goes to an RTMP address using the URL and key from your service, and can save a copy at the same time.\n\nRecording app audio needs Android 10 or newer, and some phone makers block it for certain apps. The app installs on Android 7 and newer, but many options, including the codec choice, overlays and the trimmer, only appear on Android 10 or newer, and the floating panel needs Android 8 and permission to show over other apps. Streaming needs a server or service to receive it. Recording phone calls needs Shizuku on Android 11 or newer. Some of the code was written with AI help, which the developer discloses in the app and the repo.",
+  "repo": "https://github.com/yepgoryo/CaptureCap",
+  "category": "media",
+  "license": "MIT",
+  "fdroid": "com.yepgoryo.CaptureCap",
+  "tags": [
+    "screen recorder",
+    "screen capture",
+    "rtmp",
+    "live stream",
+    "internal audio",
+    "screencast",
+    "video"
+  ],
+  "added": "2026-10-06"
+}

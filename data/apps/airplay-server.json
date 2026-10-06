@@ -1,0 +1,21 @@
+{
+  "id": "airplay-server",
+  "name": "AirPlay Server",
+  "tagline": "Receive AirPlay from iPhones and Macs on an Android phone or TV",
+  "description": "AirPlay Server lets an Android phone, tablet or Android TV act as an AirPlay receiver. Pick it from the screen mirroring or AirPlay menu on an iPhone, iPad or Mac, and what is on that screen appears on the Android device, with sound. The developer says it is the first open-source AirPlay 2 receiver for Android.\n\nIt can mirror a screen, play videos sent from other apps (including streamed HLS video, which it can also download), and play music with the track name and cover art shown. Android TV gets directional-pad navigation and seeking controls. In the settings you can name the server, start it at boot, ask for a 4-digit PIN on each new connection, and adjust video resolution, overscan, frame rate and audio delay.\n\nThe Apple device and the Android device must be on the same Wi-Fi network. Protected video, such as shows from the Apple TV app, will not play because DRM content is not supported. To keep receiving after you leave the app, turn on its run-in-background setting and let Android keep it running. The PIN option is marked beta in the app. It needs Android 7.0 or later, the app's own text is English only, and it is not made by or connected with Apple.",
+  "repo": "https://github.com/jqssun/android-airplay-server",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.jqssun.airplay",
+  "tags": [
+    "airplay",
+    "screen mirroring",
+    "cast",
+    "iphone",
+    "mac",
+    "android tv",
+    "airplay receiver",
+    "apple"
+  ],
+  "added": "2026-10-06"
+}

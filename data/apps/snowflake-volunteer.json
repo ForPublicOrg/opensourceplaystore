@@ -1,0 +1,21 @@
+{
+  "id": "snowflake-volunteer",
+  "name": "Snowflake Volunteer",
+  "tagline": "Lend your connection to people in censored countries",
+  "description": "Snowflake Volunteer lets you help people who live where the internet is censored. When someone there cannot reach Tor, a free network people use for private browsing, their connection can be passed through your phone to Tor instead. You switch it on and the app does the rest.\n\nThe app says the traffic is disguised to look like an ordinary video or voice call, which makes it less detectable to censors. It also says you need not worry about which sites people visit, because they leave the Tor network through an exit node, so the address those sites see is not yours. A statistics screen shows how many people you have helped and how much data was sent and received. You can run it only on an unmetered network such as Wi-Fi, only while charging, and limit how many people you help at once or set no limit. A quick settings tile turns it on and off. It also responds to panic button apps such as Ripple: it wipes its data and hides itself under the name Plants.\n\nThis app helps other people and does not unblock anything for you. To get around censorship yourself, use a Tor app such as Tor Browser or Orbot and pick Snowflake in its settings. Snowflake Volunteer needs Android 8 or newer, needs an internet connection, keeps running in the background with a notification, and asks you to turn off battery optimisation for it. It uses some of your data and battery, which is why the unmetered and charging options exist.",
+  "repo": "https://github.com/blocoio/snowflake",
+  "category": "security",
+  "license": "GPL-3.0",
+  "fdroid": "io.bloco.snowflake",
+  "tags": [
+    "tor",
+    "snowflake",
+    "censorship",
+    "proxy",
+    "volunteer",
+    "privacy",
+    "bridge",
+    "anti-censorship"
+  ],
+  "added": "2026-10-06"
+}

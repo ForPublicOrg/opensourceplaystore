@@ -1,0 +1,25 @@
+{
+  "id": "carburoid",
+  "name": "Carburoid",
+  "tagline": "Find the fuel stations worth the drive in Spain, France and Portugal",
+  "description": "Carburoid helps you decide how far it is worth driving for cheaper fuel. Instead of listing every petrol station around, it shows only the ones that matter: a station appears only if it is cheaper than the closer ones above it. The list starts with the nearest station, whatever its price, and as you scroll down the stations get further away and the prices get lower, so you can stop wherever the saving is no longer worth the trip.\n\nYou choose your fuel, such as diesel or petrol, and it works from your phone's location or from any place you pick on a map or search for. If you set a destination, it counts the detour from your route instead of the distance from you. Closed stations are left out, and you can open a station in your favourite map app. Prices come from the official government sources of Spain, France and Portugal. The filters can be switched off in the settings if you want the full list. The app is in English, with translations into Spanish, Catalan, Basque, Galician, Aragonese and others.\n\nIt only covers those three countries and needs an internet connection to download the latest prices. Prices are whatever stations report to their governments, so now and then one is wrong. F-Droid flags the app because it relies on those government services, which are not free software.",
+  "repo": "https://github.com/vokimon/carburoid",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "website": "https://carburoid.canvoki.net",
+  "fdroid": "net.canvoki.carburoid",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "fuel prices",
+    "petrol",
+    "gasoline",
+    "diesel",
+    "gas station",
+    "spain",
+    "france",
+    "portugal"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unipatcher",
+  "name": "UniPatcher",
+  "tagline": "Apply fan translations and fixes to old console game files",
+  "description": "UniPatcher applies patch files to old console game files. Fan translations, fixes and other changes to classic games are usually shared as a small patch instead of a whole game. You choose your own copy of the game and the patch, choose where to save the result, and tap the button. You end up with a patched game file.\n\nIt understands IPS, IPS32, UPS, BPS, APS (Game Boy Advance and Nintendo 64), PPF, DPS, EBP and XDelta patches, and can make an XDelta patch from an original file and a changed one. Two extras: it can fix the checksum of a Sega Mega Drive (Genesis) ROM, which the app says fixes the red screen of death, and add or remove the SMC header on a Super Nintendo ROM. The app is translated into over twenty languages.\n\nThe app brings no games or patches, so you need your own game file and a matching patch. By default it stops if the game does not fit the patch. A setting turns that off, with a warning that it can break your game. Archives such as ZIP, RAR and 7z must be unpacked first, and the checksum fix keeps no backup. It is for old console games, not for modding Android games, and needs Android 7 or newer.",
+  "repo": "https://github.com/btimofeev/UniPatcher",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.emunix.unipatcher",
+  "tags": [
+    "rom patcher",
+    "ips",
+    "bps",
+    "xdelta",
+    "fan translation",
+    "retro games",
+    "ppf",
+    "romhack"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "nerdsteam",
+  "name": "NerdSteam",
+  "tagline": "See what is trending on Steam and get price drop alerts",
+  "description": "NerdSteam is a small companion app for people who play games on Steam. It shows which games are trending right now, which have the most players, and which have drawn the biggest crowds of all time, so you can see what everyone else is playing. Search for a game to open a page with its details, system requirements, extra content, media and links to related sites.\n\nEach game page has a player statistics tab that shows how many people played it on average in each month, and a price tab that compares the price at other shops such as GOG and Humble Store, with the historic low and any voucher codes. You can bookmark games for quick access and set a price alert with a target price. The app checks the Steam price once a day and sends a notification when it falls to your target or lower. On a wide screen such as a tablet it shows two panes side by side.\n\nIt needs an internet connection, since everything comes from Steam, SteamCharts and IsThereAnyDeal, and it is not connected to any of them. You need to allow notifications for price alerts to reach you, and the phone must run Android 11 or newer. The developer calls it a hobby project. The interface is in English only.",
+  "repo": "https://github.com/khanshoaib3/nerd-steam",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.github.khanshoaib3.nerdsteam",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "steam",
+    "price alert",
+    "game deals",
+    "player count",
+    "trending games",
+    "steamcharts",
+    "bookmarks"
+  ],
+  "added": "2026-10-06"
+}

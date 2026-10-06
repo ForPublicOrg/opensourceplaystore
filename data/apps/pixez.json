@@ -1,0 +1,23 @@
+{
+  "id": "pixez",
+  "name": "PixEz",
+  "tagline": "An unofficial Pixiv app to browse, search and save art, manga and novels",
+  "description": "PixEz is an unofficial Android app for Pixiv, the Japanese art site. Sign in with your Pixiv account and you can browse illustrations, manga and novels, catch up on new work from the artists you follow, and read the daily, weekly and monthly rankings.\n\nYou can search by keyword, tag, title or description, or paste a Pixiv link, and narrow results by date range and number of likes. You can hide works flagged as AI-generated. Animated ugoira works play inside the app, and a reverse image search through SauceNAO helps you find where a picture came from. Long-press a picture to save it into a folder you choose, with your own file name format. You can mute artists, tags or single works, keep a watchlist, bookmark privately and switch between several accounts.\n\nYou need a Pixiv account, and the app can help you make one. It depends on Pixiv's own service, so a change on Pixiv's side can break it until it is updated, and it is not made by Pixiv. There are connection modes to try if Pixiv will not load, and the developer says it works from mainland China without a proxy. Pixiv also hosts adult art, and the rankings include R-18 lists, which stay hidden until you allow them in your Pixiv account settings. The app is in English and several other languages, but the developer's help pages are Chinese only.",
+  "repo": "https://github.com/Notsfsssf/pixez-flutter",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "pixiv",
+    "illustration",
+    "manga",
+    "novels",
+    "anime art",
+    "ugoira",
+    "downloader",
+    "saucenao"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "easyrpg-player",
+  "name": "EasyRPG Player",
+  "tagline": "Play RPG Maker 2000 and 2003 games on your phone",
+  "description": "EasyRPG Player is a free interpreter for games made with RPG Maker 2000 and 2003, two older tools for building role-playing games. Copy a game onto your phone, open it in the app, and it plays with touch controls on screen. The project aims to run games just as the original RPG Maker engine does.\n\nThe app comes with no games. You pick a folder for it, put your games in its games folder (each in its own folder, or as a ZIP or LZH archive), and choose one from the list. You can change the size of the on-screen buttons and edit the layout, adding buttons such as Shift. There is a fast-forward button, and game controllers work too. You can also add a soundfont to change how MIDI music sounds, and extra fonts.\n\nIt plays RPG Maker 2000 and 2003 games, and games made for EasyRPG itself. Newer engines such as XP, VX, VX Ace, MV and MZ are not supported, games packed as RAR, 7z or EXE files are not supported either, and this is a player, not an editor. Some games rely on the RPG Maker run-time package (RTP), which you have to add yourself, or their graphics and sound will be missing.",
+  "repo": "https://github.com/EasyRPG/Player",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://easyrpg.org/player/",
+  "download": "https://easyrpg.org/player/downloads/",
+  "tags": [
+    "rpg maker",
+    "rpg maker 2000",
+    "rpg maker 2003",
+    "rpg",
+    "interpreter",
+    "role-playing",
+    "retro"
+  ],
+  "added": "2026-10-06"
+}

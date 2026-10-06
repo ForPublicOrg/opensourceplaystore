@@ -1,0 +1,22 @@
+{
+  "id": "aaaaxy",
+  "name": "AAAAXY",
+  "tagline": "A platformer where the rooms connect in ways that cannot exist",
+  "description": "AAAAXY is a 2D platform game set in impossible spaces. Walk through a doorway and you may come out somewhere that cannot fit on the map you have been building in your head. You run and jump towards the end of the game, but it encourages you to set your own goals on the way. Exploring is rewarded, and there are secrets to find.\n\nParts of the world connect to each other in ways that flat space does not allow, and some of those connections switch on and off while you play. A new player should expect about 4 to 6 hours to reach the end. A full playthrough takes about an hour, and a quick run to the finish can be done in about 15 minutes. You can play with on-screen touch controls or a keyboard, and your progress is saved on the device. The text is in English by default, with translations including German, Japanese, Chinese, Portuguese, Arabic and Ukrainian.\n\nThe game plays in landscape orientation and needs a phone with OpenGL ES 3.1 graphics, so very old or low-end devices may not run it. The developer warns of a minor amount of trolling, and there are some memes. It asks for no permissions, and its privacy page says it collects no data off your device.",
+  "repo": "https://github.com/divVerent/aaaaxy",
+  "category": "games",
+  "license": "Apache-2.0",
+  "website": "https://divverent.github.io/aaaaxy/",
+  "fdroid": "io.github.divverent.aaaaxy",
+  "tags": [
+    "platformer",
+    "puzzle",
+    "2d",
+    "non-euclidean",
+    "impossible spaces",
+    "exploration",
+    "jump and run",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bettercounter",
+  "name": "BetterCounter",
+  "tagline": "Count habits and everyday tallies, with history and graphs",
+  "description": "BetterCounter is a plain counter for things you want to keep track of. Make a counter for a habit like exercise, for how often you water the plants, or for your life total in a card game, and tap it each time something happens.\n\nEvery tap is saved with its date and time, so the app can show how long ago you last did something and draw graphs of your counts by hour, day, week, month, year or all time, with averages. You can set a goal for a counter and see how often you reach it. Each counter has its own colour, you can drag them into your own order, and a home screen widget lets you count without opening the app. Long-press to add an entry for an earlier date. You can export your data to a file, import it again, or switch on auto-export so a fresh copy is saved whenever a counter changes.\n\nIt is simple on purpose. There is no account and no sync between phones. The developer says your data is never sent to a server, apart from Android's own app backup if you have that turned on. The app is translated into Catalan, Czech, Danish, German, Spanish, French, Russian, Turkish and Chinese.",
+  "repo": "https://github.com/albertvaka/bettercounter",
+  "category": "productivity",
+  "license": "GPL-2.0",
+  "fdroid": "org.kde.bettercounter",
+  "tags": [
+    "counter",
+    "tally",
+    "habit tracker",
+    "habits",
+    "click counter",
+    "life counter",
+    "graphs",
+    "widget"
+  ],
+  "added": "2026-10-06"
+}

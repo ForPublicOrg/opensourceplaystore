@@ -1,0 +1,21 @@
+{
+  "id": "closet-archive",
+  "name": "Closet-Archive",
+  "tagline": "Catalogue your wardrobe, log outfits and track the laundry",
+  "description": "Closet-Archive is a wardrobe diary for your phone. Add your clothes with a photo, then log what you wore to each event, so you can avoid repeating the same outfit for the same occasion. It also counts how often you have worn each piece and alerts you when something is due for the wash.\n\nEach item can have a name, type, size, fit, season, quantity, purchase date and colours, and the app can pick the colours from the photo for you. Group items into collections, and filter and sort your closet. Bulk mode lets you snap a batch of photos to fill the closet quickly. For laundry you set how many wears an item gets before it needs washing, and you can override that for single items. In settings you can export your data to a file and import it again later, or export your wardrobe in a form made for pasting into an AI chatbot if you want outfit ideas.\n\nEverything is stored on your phone, and the app has no internet access. Laundry alerts need permission to show notifications. The app does not suggest outfits itself, since that is only a maybe on the developer's roadmap. The interface is available in English, Arabic, Spanish and Italian.",
+  "repo": "https://github.com/bahaaTuffaha/Project-ClosetArchive",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "com.myclosetx",
+  "tags": [
+    "wardrobe",
+    "clothes",
+    "outfit",
+    "laundry",
+    "closet",
+    "fashion",
+    "organiser",
+    "inventory"
+  ],
+  "added": "2026-10-06"
+}

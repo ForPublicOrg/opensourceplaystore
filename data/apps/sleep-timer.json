@@ -1,0 +1,21 @@
+{
+  "id": "sleep-timer",
+  "name": "Sleep Timer",
+  "tagline": "Fade out and pause your music at bedtime from a Quick Settings tile",
+  "description": "Sleep Timer helps you fall asleep to music or podcasts. You start a timer, and when it runs out the sound is turned down bit by bit and then paused, so nothing keeps playing all night.\n\nThere is no app icon to open. Instead you add its tile to the Quick Settings panel (the one you pull down from the top of the screen), and tapping the tile starts the timer. A notification then lets you add time, take time off or cancel. On Android 16.1 or newer the timer can also show as a live notification. It works by lowering the music volume and then sending a pause button press, and it puts your volume back afterwards, so it works with players that respond to the pause key. If you use Tasker, or adb from a computer, you can also start, stop and adjust the timer from there.\n\nThe tile is the only way in, so do not look for a launcher icon. It needs Android 8 or newer and permission to show notifications. On Android 17 the system stops apps changing the volume from the background, so the app uses an exact alarm to pause playback on time.",
+  "repo": "https://github.com/SimonMarquis/SleepTimer",
+  "category": "media",
+  "license": "Apache-2.0",
+  "fdroid": "fr.smarquis.sleeptimer",
+  "tags": [
+    "sleep timer",
+    "bedtime",
+    "music timer",
+    "podcast",
+    "quick settings tile",
+    "fade out",
+    "pause music",
+    "tasker"
+  ],
+  "added": "2026-10-06"
+}

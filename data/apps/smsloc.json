@@ -1,0 +1,24 @@
+{
+  "id": "smsloc",
+  "name": "SmsLoc",
+  "tagline": "Ask a friend's phone where it is by text, no mobile data needed",
+  "description": "SmsLoc lets you ask a friend's phone where it is using ordinary text messages, with no mobile data needed on either phone. You send a short text, their phone works out its GPS position and texts it back, and SmsLoc shows the answer on a map.\n\nYou build a list of people, picking them from your contacts, and ask any of them for their position. A reply carries latitude and longitude (about 11 metres of precision), altitude, speed, the accuracy of the fix, when it was taken and the sender's battery level. Replies show on a map, and a log tab records every request and reply. With two SIM cards you choose which one sends the texts, and you can set how long a phone tries for a GPS fix, from one to five minutes. Phone numbers need a country code.\n\nThe person you ask needs SmsLoc on their phone too. It replies on its own with no prompt, and by default it replies to any number that texts it the request, so untick 'Allow requests from unlisted' to answer only the people on your list. The phone needs a SIM card, GPS and Android 10 or newer, and must be allowed to use location all the time and to run in the background, which some phone makers block. Texts cost whatever your plan charges, and the map background comes from OpenStreetMap, so it needs an internet connection. The app is in English only.",
+  "repo": "https://github.com/wandomium/SmsLoc",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.wandomium.smsloc",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "sms",
+    "text message",
+    "location",
+    "gps",
+    "find friends",
+    "family",
+    "no mobile data",
+    "share location"
+  ],
+  "added": "2026-10-06"
+}

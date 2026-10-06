@@ -1,0 +1,24 @@
+{
+  "id": "planes",
+  "name": "Planes",
+  "tagline": "A battleships-style game where you hunt for hidden planes",
+  "description": "Planes is a twist on the classic game of Battleships. Instead of ships, you hide three planes on a 10 by 10 grid. Each plane takes up ten squares (wings, body, tail and cockpit) and the planes cannot overlap. You and your opponent take turns tapping squares on each other's board, and each guess comes back as a miss, a hit or a dead plane. The aim is to find the opponent's cockpits before they find yours.\n\nYou can play against the computer or against other people online. The computer has a skill setting, and you can choose whether a whole plane is shown once you find its cockpit. In multiplayer you can message other players, even when they are offline. Short video tutorials explain how to place planes and how to guess. The app is available in English, German, Spanish, Indonesian, Italian, Polish, Romanian and Turkish.\n\nMultiplayer needs an account (a user name and password you register in the app) on a server the developer runs, so it only works while that server is up. Playing the computer needs no account. The tutorial videos play from YouTube.",
+  "repo": "https://github.com/xxxcucus/planes",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://xxxcucus.github.io/planes/",
+  "fdroid": "com.planes.android",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "battleships",
+    "battleship",
+    "board game",
+    "strategy",
+    "multiplayer",
+    "two player",
+    "guessing game"
+  ],
+  "added": "2026-10-06"
+}

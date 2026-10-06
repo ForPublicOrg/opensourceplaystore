@@ -1,0 +1,22 @@
+{
+  "id": "tessel",
+  "name": "Tessel",
+  "tagline": "A colourful tile puzzle: match colours and fill the board",
+  "description": "Tessel is a tile puzzle about matching colours. Drag tiles from a stack onto the board so that touching edges match. Close off a shape of one colour to score points, and the bigger the shape, the more points you get. The game ends when you have placed all your tiles.\n\nIt starts with a simple square board, but you can switch to eight other tiling patterns, from triangles and hexagons to Penrose and Ammann-Beenker. A custom game lets you pick between two and six colours, change the rule so touching tiles must be different colours, and choose how shapes are scored. There is undo and redo, a hint that shows where the current tile fits, auto-rotate, high scores and statistics, light and dark colour schemes, and a drawing tool for making your own tiling patterns.\n\nIt works offline and needs no account. The game is translated into many languages, including Dutch, German, French, Spanish, Italian, Ukrainian and Chinese.",
+  "repo": "https://github.com/gvtulder/tessel",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://play.tessel.at",
+  "fdroid": "net.vantulder.tessel",
+  "tags": [
+    "tile game",
+    "puzzle",
+    "colour matching",
+    "tiling",
+    "offline",
+    "penrose",
+    "tessellation",
+    "brain teaser"
+  ],
+  "added": "2026-10-06"
+}

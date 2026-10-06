@@ -1,0 +1,21 @@
+{
+  "id": "casio-g-shock-smart-sync",
+  "name": "Casio G-Shock Smart Sync",
+  "tagline": "Sync time, alarms and calendar to a Casio G-Shock without a Casio ID",
+  "description": "This is an unofficial app for Casio's Bluetooth watches in the G-Shock, Edifice and Pro Trek ranges. It does the jobs of Casio's own phone app without making you sign up for a Casio ID. It sets the watch's time, time zone and daylight saving from your phone, and lets you read and change the watch's five alarms, hourly chime and settings.\n\nIt can push events from your phone's calendar to the watch as reminders, or let you write reminders by hand. You can talk to it too, with commands like \"set timer for 5 minutes\". The watch's own buttons can be set to find your phone, take a photo, turn on the flashlight, control music or start a voice assistant, and one action sets the five alarms to Islamic prayer times.\n\nYou need a compatible Casio Bluetooth watch. The developer lists many models and says not every feature works on every one yet, so check the list before you install. The app asks for Bluetooth, nearby devices, location, calendar, camera, microphone and notification access, and it needs Android 8 or newer. It cannot read alarms from your phone's own Clock app.",
+  "repo": "https://github.com/izivkov/CasioGShockSmartSync",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "org.avmedia.gshockGoogleSync",
+  "tags": [
+    "casio",
+    "g-shock",
+    "watch",
+    "bluetooth",
+    "time sync",
+    "alarms",
+    "calendar sync",
+    "edifice"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3d-model-viewer",
+  "name": "3D Model Viewer",
+  "tagline": "Open 3D model files and spin them around on your phone",
+  "description": "3D Model Viewer opens 3D model files on your phone so you can look at them from every side. It reads OBJ, STL, Collada (DAE) and glTF files, which are common formats for 3D printing and for models shared online.\n\nDrag to move the camera, twist with two fingers to turn the scene and pinch to zoom. You can switch on a wireframe view, show the bounding box or the skeleton of an animated model, and tap an object to pick it out. Models with skeletal animation, in Collada and glTF files, play back. A file browser lets you open files from your phone, and it can pull in sample models from the Khronos repository when you are online. The developer built it to learn and share how OpenGL drawing works on Android, so the source is meant as a reference as well as an app.\n\nThe copy on F-Droid is version 4.1.1 from the end of 2024. The newer 5.x releases, which add FBX files, have not reached F-Droid yet. Collada support is limited and still marked beta. A model loads best when it and its textures are packed together in one zip file.",
+  "repo": "https://github.com/the3deer/android-3D-model-viewer",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://www.the3deer.org/android-model-viewer.html",
+  "fdroid": "org.andresoviedo.dddmodel2",
+  "tags": [
+    "3d",
+    "model viewer",
+    "obj",
+    "stl",
+    "gltf",
+    "collada",
+    "opengl",
+    "3d printing"
+  ],
+  "added": "2026-10-06"
+}

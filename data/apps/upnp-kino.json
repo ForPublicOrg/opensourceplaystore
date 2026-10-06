@@ -1,0 +1,20 @@
+{
+  "id": "upnp-kino",
+  "name": "UPnP Kino",
+  "tagline": "Share your phone's videos and music with VLC, Kodi and other players",
+  "description": "UPnP Kino turns your phone into a small media server. Pick a folder of videos and a folder of music, press Start, and any UPnP or DLNA player on the same Wi-Fi network can browse and play them, such as VLC on a laptop, Kodi, or a player app on another phone, tablet or TV.\n\nIt shares mp4, mkv, mov and webm video and mp3, m4a, aac, flac, wav and opus audio, and it can stream files over 2 GB, which some older apps of this kind could not. It keeps running with the screen off, shows a notification with a quick way to stop, and adds a quick-settings tile. It also works over your phone's own hotspot, with or without a mobile connection, so you do not need a router. Version 4 can act as a remote too: it finds DLNA players and Chromecast devices on your network and starts and stops playback on them.\n\nThis is the sharing side only, so you need a player such as VLC, Kodi or eezUPnP on the other device. The app does not convert video, so a file only plays if the player can handle its format, and the Chromecast screen hides files that device cannot play as they are. Kodi sometimes has to be started before the app. The release is built for 64-bit ARM phones and needs Android 10 or newer, although the README still says Android 8. Its privacy policy says there is no account, ads or analytics, and that nothing leaves your local network.",
+  "repo": "https://github.com/naive-HA/UpnpKino",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": [
+    "dlna",
+    "upnp",
+    "media server",
+    "vlc",
+    "kodi",
+    "chromecast",
+    "stream video",
+    "cast"
+  ],
+  "added": "2026-10-06"
+}

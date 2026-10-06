@@ -1,0 +1,23 @@
+{
+  "id": "beans",
+  "name": "Beans",
+  "tagline": "Colour in the countries you have visited on a map of the world",
+  "description": "Beans is a scratch map of the world. Tap a country to colour it in and mark that you have been there, and watch the map fill up as you travel. It asks for no permissions and has no internet access, so the places you mark stay on your phone.\n\nSwitch on regional mode to colour states and provinces as well as whole countries. You can keep it simple with a single colour, or turn on groups and make your own, each with its own name and colour, for example one for places you have lived and another for places you want to see. Pinch to zoom right in on small places. A statistics screen counts the places in each group, as numbers or percentages, and the map can be drawn in three projections: Mercator, Azimuthal Equidistant and Loximuthal. There are light and dark themes, and you can export your map to a file as a backup and import it again on another phone.\n\nThe app is in English only and needs Android 9 or newer. The developers say the statistics are still a work in progress. The country and state outlines come from the GADM dataset, which is free for non-commercial use but is not under an open licence, although the app's own code is.",
+  "repo": "https://github.com/helcel-net/beans",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "scratch map",
+    "travel",
+    "countries visited",
+    "world map",
+    "travel tracker",
+    "bucket list",
+    "visited places",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

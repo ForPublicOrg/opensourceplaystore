@@ -1,0 +1,21 @@
+{
+  "id": "timelapsecam",
+  "name": "TimeLapseCam",
+  "tagline": "Record time lapse videos in the background with the screen off",
+  "description": "TimeLapseCam records time lapse videos while the screen is off. Prop your phone up in front of something that changes slowly, such as a growing plant, press start, and it captures a frame at the interval you choose. The result is saved as an MP4 video, or as separate JPEG pictures if you prefer. There is no preview while it records, so the screen can stay dark.\n\nYou can also record normal video. You pick the camera, the frame size, how often it captures, the playback frame rate and the picture quality, and you can use the flash if your phone has one. Recordings can be scheduled to start on a date you set. There is no recording limit, although it can stop by itself if the battery or storage runs low. An optional password-protected HTTP interface lets another device on your network start and stop recording and fetch the pictures.\n\nThe app tries to mute the shutter sound and the ringtone while it records. That needs an extra permission and may not work on every phone. It also asks to be exempt from battery optimisation so recording keeps going, and it is in English, German or Turkish. The developers warn that, because they will not give Google their identity details, the app is expected to stop working on certified Android devices from 2026 or 2027.",
+  "repo": "https://github.com/woheller69/TimeLapseCamera",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.TimeLapseCam",
+  "tags": [
+    "time lapse",
+    "timelapse",
+    "camera",
+    "video recorder",
+    "background recording",
+    "jpeg",
+    "schedule recording",
+    "mp4"
+  ],
+  "added": "2026-10-06"
+}

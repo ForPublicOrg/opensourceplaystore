@@ -1,0 +1,22 @@
+{
+  "id": "floccus",
+  "name": "Floccus",
+  "tagline": "Sync bookmarks between your browsers and phone through your own storage",
+  "description": "Floccus keeps your bookmarks the same on every device without handing them to a browser company. This Android app is a bookmark manager in its own right: you can browse, search, add and edit your bookmarks on your phone and it syncs them to a place you choose. If you also install the Floccus add-on in your desktop browser, it syncs your real browser bookmarks to the same place.\n\nBookmarks can be stored in Nextcloud Bookmarks, on a Linkwarden or KaraKeep server, on any WebDAV service, on a Git server such as GitHub or Gitea, or in Google Drive or Dropbox. You can make as many sync profiles as you like, choose whether syncing goes one way or both ways, set how often it runs and pick the folder to sync. For WebDAV, Google Drive and Dropbox you can set a passphrase so the stored bookmarks file is encrypted. You can also share a link from another app into Floccus to save it, and import or export bookmarks as an HTML file. Its privacy policy says the developers receive none of your data.\n\nFloccus only syncs, so you need somewhere to sync to: your own Nextcloud (with the Bookmarks app installed), WebDAV, Git, Linkwarden or KaraKeep server, or a Google Drive or Dropbox account. Your bookmarks are only as safe as the service you pick. On Android the app cannot reach the bookmarks inside your phone's browser, so it works as a separate bookmark manager. To use them in a mobile browser you export them as an HTML file and import them there.",
+  "repo": "https://github.com/floccusaddon/floccus",
+  "category": "internet",
+  "license": "MPL-2.0",
+  "website": "https://floccus.org",
+  "fdroid": "org.handmadeideas.floccus",
+  "tags": [
+    "bookmarks",
+    "sync",
+    "nextcloud",
+    "webdav",
+    "linkwarden",
+    "karakeep",
+    "git",
+    "browser sync"
+  ],
+  "added": "2026-10-06"
+}

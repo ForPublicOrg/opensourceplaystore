@@ -1,0 +1,22 @@
+{
+  "id": "robot36",
+  "name": "Robot36",
+  "tagline": "Decode slow-scan TV pictures that are sent as radio sound",
+  "description": "Robot36 decodes slow-scan television, or SSTV, a way of sending a still picture as a series of sounds. Play the signal near your phone's microphone, or connect a radio to it, and the picture builds up line by line on screen.\n\nThe app listens, spots the start of a picture by itself and works out which mode is being sent. It knows Robot 36 and 72, PD 50 to 290, Martin 1 and 2, Scottie 1, 2 and DX, Wraase SC2-180 and HF Fax, and has a Raw mode for old black-and-white or unsupported ones. Finished pictures are saved to your Pictures folder automatically, so they show up in your gallery, and you can turn that off. You can also lock it to one mode, view the sound as a spectrogram or a frequency plot, and choose the sample rate and audio source.\n\nIt only decodes sound, so you need something playing SSTV audio, such as a radio. Version 2 cannot decode in the background, so keep the app open while you listen. Picking sound up through the air can be noisy, so the developer also explains how to build a small circuit that connects a radio's audio output straight to the headset jack for a cleaner picture.",
+  "repo": "https://github.com/xdsopl/robot36",
+  "category": "tools",
+  "license": "0BSD",
+  "website": "https://sites.google.com/view/xdsopl/robot36",
+  "fdroid": "xdsopl.robot36",
+  "tags": [
+    "sstv",
+    "slow scan tv",
+    "ham radio",
+    "amateur radio",
+    "decoder",
+    "radio",
+    "audio decoder",
+    "spectrogram"
+  ],
+  "added": "2026-10-06"
+}

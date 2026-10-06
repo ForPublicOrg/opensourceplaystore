@@ -1,0 +1,22 @@
+{
+  "id": "openorienteering-mapper",
+  "name": "OpenOrienteering Mapper",
+  "tagline": "Draw and edit orienteering maps, and track your position on them",
+  "description": "OpenOrienteering Mapper is a map-making program for orienteering, the sport where you find your way between control points using a detailed map. This is its Android version. You can use it to edit and add to orienteering maps, or to open a map on your phone and work on it out in the forest.\n\nMaps open from the program's own format or from .ocd files, which commercial mapping software uses, and can be saved back to .ocd too. Photos, scanned maps, GPX tracks and other maps can be laid underneath as templates to trace from. If the map is georeferenced, the app shows your position on it from the phone's GPS and records your track to a GPX file. There is a compass view, and rings that help you judge distances. Symbol sets are included for foot, mountain bike and ski orienteering.\n\nThe Android app is not meant for starting a map from scratch. The manual says to set up a new map on a computer first, with its base images, and then copy it to the phone for surveying. A stylus helps for serious drawing. You bring your own maps. The developers still call it beta, though they say it is stable enough for real use. It works on Android 4.1 and later and has many translations.",
+  "repo": "https://github.com/OpenOrienteering/mapper",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://www.openorienteering.org/apps/mapper/",
+  "status": "testing",
+  "tags": [
+    "orienteering",
+    "map making",
+    "o-map",
+    "ocad",
+    "gps",
+    "gpx",
+    "mtbo",
+    "cartography"
+  ],
+  "added": "2026-10-06"
+}

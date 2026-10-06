@@ -1,0 +1,23 @@
+{
+  "id": "trale",
+  "name": "trale",
+  "tagline": "A private weight diary that shows your real trend",
+  "description": "trale is a body weight diary. Each time you weigh yourself, you type the number in, and the app draws your weight over time with a trend line through it. That way one heavy or light day does not hide where you are really heading, and you can choose how smooth the line should be.\n\nYou can set a target weight to lose, gain or hold, with a target date or a rate, and the app shows how far you have to go. Weight can be shown in kilograms, pounds or stone. There is a statistics page, colour themes, a Material You option that follows your phone, and a true black dark mode. An optional reminder only goes off if you have not logged a weight that day. You can import and export your entries (it reads its own text backups and CSV files from openScale), and optionally sync with Health Connect. The interface is translated into more than twenty languages.\n\nThe developers still call it a beta, so expect the odd bug. Your entries stay on your phone with no account and no internet connection, which means no cloud backup, so export a copy now and then (the app reminds you). Turning on Health Connect lets other apps on your phone that have Health Connect access read your weight. As a deliberate limit, the app will not accept a target weight below 50 kg (110 lb) unless you enter your height, and never one below a BMI of 18.5, because the developers want to help prevent anorexia. They plan a small fee on Google Play once it leaves beta, but say it stays free with every feature on F-Droid.",
+  "repo": "https://github.com/QuantumPhysique/trale",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://quantumphysique.de/",
+  "fdroid": "de.quantumphysique.trale",
+  "status": "testing",
+  "tags": [
+    "weight",
+    "weight tracker",
+    "body weight",
+    "bmi",
+    "diary",
+    "weight loss",
+    "health connect",
+    "openscale"
+  ],
+  "added": "2026-10-06"
+}

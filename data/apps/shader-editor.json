@@ -1,0 +1,22 @@
+{
+  "id": "shader-editor",
+  "name": "Shader Editor",
+  "tagline": "Write GLSL shaders on your phone and use them as live wallpaper",
+  "description": "Shader Editor lets you write GLSL shaders on your phone or tablet and see them run as you type. A shader is a small program that works out the colour of every pixel, the trick behind many of the swirling, glowing effects in demos and games. When you like one, you can set it as your live wallpaper.\n\nThe shader draws behind your code while you type, with syntax highlighting, error highlighting and an FPS counter. Shaders can react to touch, the battery level and sensors such as the accelerometer, gyroscope and light sensor. They can read the microphone level, and use the camera and your own images as textures. A quality setting lowers the render size so slow phones keep up, and drawing pauses when the battery is low. Code pasted in from ShaderToy has its common names converted for you. Sample shaders are included, and you can export your whole collection.\n\nYou write the code by hand: this is a text editor with helpers, not a drag-and-drop tool. To use a shader as wallpaper, first pick Shader Editor under Live Wallpapers in your system settings. A wallpaper shader should hold around 30 frames per second so it does not slow the phone down. Shaders that use the camera or microphone need that permission. On some phones the graphics driver gives no error details, so error highlighting will not work there. It is also translated into Russian, Ukrainian and Chinese.",
+  "repo": "https://github.com/markusfisch/ShaderEditor",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://markusfisch.github.io/ShaderEditor/",
+  "fdroid": "de.markusfisch.android.shadereditor",
+  "tags": [
+    "glsl",
+    "shader",
+    "live wallpaper",
+    "wallpaper",
+    "opengl",
+    "graphics",
+    "code editor",
+    "creative coding"
+  ],
+  "added": "2026-10-06"
+}

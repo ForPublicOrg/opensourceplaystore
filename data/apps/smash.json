@@ -1,0 +1,22 @@
+{
+  "id": "smash",
+  "name": "SMASH",
+  "tagline": "Record notes, photos and GPS tracks on a map while you survey",
+  "description": "SMASH is a field notebook with a map. Out on site you can mark places, take photos and record where you have walked, so everything you collect is tied to a spot on the map. It was made for engineering and geology surveys and other GIS data collection, but it suits any job where you need to note what is where.\n\nYou can drop text and picture notes at your GPS position or the middle of the map, and photos can store the direction they were taken in. Form-based notes handle more structured work, with example forms included and a form builder in the app for your own. GPS tracks can be tagged, joined and viewed with an elevation profile, and a measurement tool gives distances and areas. The map can show OpenStreetMap tiles from the internet, offline maps (MBTiles files, or Mapsforge maps you download in the app), or your own GeoPackage, GPX, Shapefile and GeoJSON layers, and you can edit GeoPackage features on the map. Your survey exports as GPX, KML or a GeoPackage, and photos can be copied out to a folder.\n\nThis is a tool for people who work with GIS data, so some of the terms will mean little otherwise. Syncing with a Geopaparazzi Survey Server is optional and needs a server you run or have access to. The app asks for location access, including in the background, and for access to your files. It has translations into several languages, some only partly finished.",
+  "repo": "https://github.com/geopaparazzi/smash",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://www.geopaparazzi.org",
+  "fdroid": "eu.hydrologis.smash",
+  "tags": [
+    "gis",
+    "field survey",
+    "gps track",
+    "geopackage",
+    "geotagged photos",
+    "gpx",
+    "survey forms",
+    "geology"
+  ],
+  "added": "2026-10-06"
+}

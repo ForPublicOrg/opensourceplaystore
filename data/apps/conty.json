@@ -1,0 +1,20 @@
+{
+  "id": "conty",
+  "name": "Conty",
+  "tagline": "Audio story packs for kids, downloaded once and played offline",
+  "description": "Conty is a story player for children. It plays audio story packs of the kind made for the Lunii children's storyteller (Telmi packs work too), so a child can pick a story from a picture menu, make choices in stories that offer them, and listen on your phone at bedtime or on a long drive. There are no ads.\n\nThe app comes with no stories of its own. You add packs yourself: import zip files from your phone, or add a source in the settings and download from it. The app suggests one, a French-speaking community called Raconte moi une histoire that makes and shares stories for the Lunii. Downloaded stories play offline and in the background, with a player notification and media buttons. You can sort packs into coloured folders, pick a colour theme (there is one for e-ink screens), and let the volume buttons move through the menu.\n\nCheck the language of a story before you download it, because the suggested source's pages are in French. Some packs are hosted on Mega, which the app cannot download from itself, so it opens your browser and you import the file afterwards. This version asks for the 'all files access' permission on Android 11 and newer. The app's own menus are in English, French, Czech and Indonesian.",
+  "repo": "https://github.com/Akylas/conty",
+  "category": "media",
+  "license": "MIT",
+  "tags": [
+    "kids",
+    "children",
+    "stories",
+    "audio stories",
+    "lunii",
+    "telmi",
+    "bedtime",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "timeline-visualizer",
+  "name": "Timeline Visualizer",
+  "tagline": "Turn your Google Timeline history into an animated travel video",
+  "description": "Timeline Visualizer turns your Google Maps Timeline history into a short animated video of your travels. You export your Timeline file from your phone, pick a trip or a date range, and the app draws your route on a map with a moving marker, then saves the result as an MP4 you can watch or share.\n\nYou can choose a saved trip, a monthly or yearly recap, or exact dates, and set the video length from 10 seconds to 5 minutes. A preview shows the map animation before you create the video. You can pick a camera style and a square, portrait or landscape shape. A private Travel Journal on the device lets later exports add newer route detail. The interface comes in nine languages, including English.\n\nYou need a Timeline.json file, which on Android you export from the Timeline page in your phone's Location settings. The map background comes from CARTO's online map service, so you need an internet connection, and the places you view are visible to that provider (the app tells you first). Your Timeline file is never uploaded, and the app asks for no account and no location permission. Android 8 or newer.",
+  "repo": "https://github.com/mahlernim/google-timeline-visualizer",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://ahn-lab.org/google-timeline-visualizer/",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "google timeline",
+    "location history",
+    "travel video",
+    "trip recap",
+    "route animation",
+    "gps",
+    "timeline.json",
+    "mp4"
+  ],
+  "added": "2026-10-06"
+}

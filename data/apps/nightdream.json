@@ -1,0 +1,25 @@
+{
+  "id": "nightdream",
+  "name": "NightDream",
+  "tagline": "Turn a phone into a bedside clock that dims itself at night",
+  "description": "NightDream turns a phone or tablet into a desk or bedside clock. It shows a large digital or analogue clock with the date and battery level, and in night mode the screen goes dark (pure black on OLED screens) so it does not keep you awake.\n\nBrightness follows the light in the room, and the screen can switch off at night and wake again when it gets bright or noisy. Pinch with two fingers to resize the clock, and change the colours, fonts and analogue watch faces. You can set an alarm with a swipe, wake up to an internet radio station, put a clock widget on your home screen, or use it as your screensaver (Daydream). It can also show the weather with a five-day forecast, notifications from your other apps, and a built-in torch.\n\nWeather and radio need an internet connection. The weather comes from outside services (the developer names OpenWeatherMap, Bright Sky and Met.no), which is why F-Droid flags the app for relying on one. Showing notifications needs Notification Access, which you grant yourself, and smart home support is only for AVM devices. This F-Droid build has every feature unlocked, while the Google Play build sells some as upgrades. The developer's website says the app is ad-free.",
+  "repo": "https://github.com/firebirdberlin/nightdream",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://firebirdberlin.github.io/nightdream",
+  "fdroid": "com.firebirdberlin.nightdream.noGms",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "clock",
+    "alarm clock",
+    "bedside",
+    "night clock",
+    "screensaver",
+    "daydream",
+    "web radio",
+    "weather"
+  ],
+  "added": "2026-10-06"
+}

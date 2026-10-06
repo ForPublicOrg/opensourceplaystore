@@ -1,0 +1,21 @@
+{
+  "id": "brogue-ce-android",
+  "name": "Brogue CE Android",
+  "tagline": "A classic dungeon-crawling roguelike with touch controls",
+  "description": "Brogue CE Android is a phone version of Brogue Community Edition, a much-loved roguelike. You go down into a dungeon that is built at random for every game, picking up weapons, potions, scrolls and magic items as you go, and try to bring the Amulet of Yendor back from the 26th level. The dungeon is full of monsters and traps, one mistake can end the run, and you may make a few friends along the way.\n\nThis port is made for touch. You can swipe to move or use an on-screen D-pad that you can drag and resize, drag the map with two fingers, and swap the sidebar between left-handed and right-handed layouts. The dungeon is drawn at double size so it is easier to read on a small screen. A toolbar gives you quick buttons for the inventory, search, explore, rest and autopilot, and you choose which ones stay pinned. The game plays in landscape and works offline.\n\nThe developer calls this a personal project, says it is unsupported, and says the code was written with AI tools, with a warning to be careful if you build on it. There is an optional Enable Server switch, off by default, that connects to the developer's own community server for weekly contest seeds and fan-submitted seeds. If you turn it on, your Android device id is sent along with the seed and result of each game.",
+  "repo": "https://github.com/tyrannotorus/c-brogue-ce-android",
+  "category": "games",
+  "license": "AGPL-3.0",
+  "website": "https://sites.google.com/site/broguegame/",
+  "fdroid": "org.broguece.game",
+  "tags": [
+    "roguelike",
+    "dungeon crawler",
+    "brogue",
+    "rpg",
+    "turn-based",
+    "offline",
+    "single player"
+  ],
+  "added": "2026-10-06"
+}

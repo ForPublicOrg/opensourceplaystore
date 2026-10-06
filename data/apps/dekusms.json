@@ -1,0 +1,22 @@
+{
+  "id": "dekusms",
+  "name": "Deku SMS",
+  "tagline": "A full text-message app with optional end-to-end encryption",
+  "description": "Deku SMS is an everyday text-message app that can also keep your chats private. You make it your default SMS app, and it then sends and receives normal texts, with conversation threads, search, drafts, archive, mute and block. It can also handle photo messages.\n\nThe special part is end-to-end encryption. To secure a chat, you send the other person a request by SMS. If they also use Deku SMS and agree, the two apps swap keys and encrypt every message between you, using a scheme based on the double ratchet design that Signal uses. Encrypted chats get their own tab. Two more tools are for technical users. Message forwarding passes your incoming texts on to a web address, an FTP server or an email address that you set up. The gateway client connects the phone to your own RabbitMQ server, so the phone can send texts for your server and report back whether each one was sent, delivered or failed. It runs as a background service.\n\nEncryption only works between two people who both use Deku SMS as their default SMS app. Every encrypted message needs one extra text to carry its key information, so it can cost more on a plan that charges per text, and the message headers are not encrypted yet. Someone without the app will most likely never see your request. The developers describe the app as a proof of concept and say its technical features are not yet very friendly. It is available in English, French, German, Spanish, Polish, Russian and Arabic.",
+  "repo": "https://github.com/dekusms/DekuSMS-Android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "fdroid": "com.afkanerd.deku",
+  "status": "testing",
+  "tags": [
+    "sms",
+    "text messages",
+    "encrypted sms",
+    "e2ee",
+    "sms gateway",
+    "mms",
+    "rabbitmq",
+    "sms forwarding"
+  ],
+  "added": "2026-10-06"
+}

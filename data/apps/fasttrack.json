@@ -1,0 +1,21 @@
+{
+  "id": "fasttrack",
+  "name": "FastTrack",
+  "tagline": "Time your fasts and see what your body is doing",
+  "description": "FastTrack is a timer for intermittent fasting that also tells you what your body is likely doing along the way. Tell it when you started your fast, then check back at any time to see how long you have gone, which stage you are in and when the next one begins.\n\nThe stages run from using up your stored glucose (sugar), through fat burning and ketosis, to autophagy, and the Info section explains what is going on in fat burning, ketosis and autophagy. You can switch on an ongoing notification showing your fasting time and energy mode, plus an alert for each new stage, and there is a home screen widget. If you forgot to press start, you can set an earlier start time. Finished fasts go into a log you can export as a CSV file and import again, and a profile page works out your BMI and the calories you burn at rest from your age, height, weight and sex.\n\nThe developer says plainly that this is not a medical app and gives no medical advice. The stages follow a rule of thumb, and what happens in your body on any one fast will vary. The app has no internet permission, collects no data and shows no ads. It is translated into German, Spanish, French, Italian, Dutch, Brazilian Portuguese, Ukrainian and Simplified Chinese.",
+  "repo": "https://github.com/Darkrock-Studios/FastTrack",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "com.darkrockstudios.apps.fasttrack",
+  "tags": [
+    "fasting",
+    "intermittent fasting",
+    "fasting timer",
+    "ketosis",
+    "autophagy",
+    "diet",
+    "health",
+    "fat burning"
+  ],
+  "added": "2026-10-06"
+}

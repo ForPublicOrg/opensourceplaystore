@@ -1,0 +1,21 @@
+{
+  "id": "columba",
+  "name": "Columba",
+  "tagline": "Private messages and voice calls that work without the internet",
+  "description": "Columba is a messaging and voice-call app for Reticulum, a network where devices talk to each other directly instead of going through cell towers or company servers. You can send messages and make voice calls with no phone number, no email address and no account. The app makes a private identity for you on your phone, and you share it with others as a QR code.\n\nHow you connect is up to you. Bluetooth reaches people nearby, Wi-Fi covers a home or local network, a LoRa radio called an RNode reaches much further, and a TCP link joins a Reticulum server anywhere in the world. Messages are encrypted end to end, and if the person is out of reach, the message waits and is delivered once a route appears. You can also share your location on a map, download map files for offline use, browse NomadNet pages, relay traffic for others, and import an identity from other Reticulum apps such as Sideband.\n\nThis only works with people who also use Reticulum, so you need someone to talk to and a way to reach them. LoRa needs an RNode radio you buy or build, and a TCP link needs a Reticulum server to join. The app keeps a background service running to listen for messages. Crash reports are off unless you opt in, and there are also builds without crash reporting. The app is in English only.",
+  "repo": "https://github.com/torlando-tech/columba",
+  "category": "social",
+  "license": "MPL-2.0",
+  "website": "https://columba.network/",
+  "tags": [
+    "reticulum",
+    "mesh",
+    "off-grid",
+    "lora",
+    "rnode",
+    "lxmf",
+    "offline messaging",
+    "bluetooth"
+  ],
+  "added": "2026-10-06"
+}

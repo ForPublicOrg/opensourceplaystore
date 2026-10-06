@@ -1,0 +1,22 @@
+{
+  "id": "disky",
+  "name": "Disky",
+  "tagline": "See which folders and apps are eating your phone's storage",
+  "description": "Disky scans your phone's storage and shows you what is using it. You can open each folder to see how much space it takes, so the big ones are easy to spot. Apps are included too, so you see the whole picture and not just your files. The developer says scans take only seconds even on larger devices, and every local storage you have is covered, including an SD card.\n\nYou can sort by name or by size. From the menu on a file you can open it, open its folder or delete it, and from the menu on an app you can open it, jump to its settings or uninstall it. There is also a low storage warning: you choose how often Disky checks, from hourly to monthly, and how low your free space can get before it tells you. The app follows your device's theme colours.\n\nDisky needs Android 11 or newer. It needs the all files access permission to scan, and usage access to count how much space your apps use. Without usage access, app space gets lumped in with the Android system. The figure for the Android system itself is only an estimate and can change from one scan to the next, and removable storage may be less reliable and may leave out app data. Deleting is permanent, though it asks you first.",
+  "repo": "https://github.com/newhinton/disky",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://felixnuesse.de/disky",
+  "fdroid": "de.felixnuesse.disky",
+  "tags": [
+    "storage",
+    "disk usage",
+    "space analyzer",
+    "free up space",
+    "file size",
+    "large files",
+    "cleanup",
+    "storage manager"
+  ],
+  "added": "2026-10-06"
+}

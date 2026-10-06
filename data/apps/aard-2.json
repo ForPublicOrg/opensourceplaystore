@@ -1,0 +1,21 @@
+{
+  "id": "aard-2",
+  "name": "Aard 2",
+  "tagline": "Look up words and Wikipedia articles offline",
+  "description": "Aard 2 is an offline dictionary and encyclopedia reader. You add dictionary files to it, and then you can look up words and read whole articles with no internet connection. Files are available for Wikipedia, Wiktionary, Wikibooks, WordNet and FreeDict, among others, in the slob format the app uses.\n\nSearches ignore capital letters, accents and punctuation. Articles you read are kept in a History tab, and you can bookmark any you want to find again. You can load several dictionaries at once, put them in the order you like, switch some off, and use the random-article button to wander. Maths formulas in Wikipedia articles are shown as text, you can add your own style sheets (a dark one, for example), and the volume buttons scroll through an article and move on to the next.\n\nThe app comes with no dictionaries and does not download any. You get the files yourself from the lists the developer links to, then pick them from your phone's storage. Articles can load remote content such as images, and you can set that to always, Wi-Fi only or never. The developer states that the app collects no data. The interface is in English plus several other languages, including German, Spanish and French.",
+  "repo": "https://github.com/itkach/aard2-android",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "fdroid": "itkach.aard2",
+  "tags": [
+    "dictionary",
+    "offline",
+    "wikipedia",
+    "wiktionary",
+    "slob",
+    "encyclopedia",
+    "aard",
+    "wordnet"
+  ],
+  "added": "2026-10-06"
+}

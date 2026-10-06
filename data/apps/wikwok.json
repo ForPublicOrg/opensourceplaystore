@@ -1,0 +1,22 @@
+{
+  "id": "wikwok",
+  "name": "WikWok",
+  "tagline": "Swipe through random Wikipedia articles like a short-video feed",
+  "description": "WikWok turns Wikipedia into a feed you swipe through, a bit like a short-video app but for facts. Each screen shows one random article with its main picture, its title and the first few sentences of text. Swipe up for the next one. More articles load as you go, so there is always another.\n\nDouble-tap the picture, or tap the heart, to like an article, and your liked ones are kept in a list so you can find them again. A share button lets you pass an article on, and a button opens the full article in your browser when something catches your eye. You can choose which language edition to read from a list of about 50, including Spanish, Hindi, Arabic and Japanese. Only articles that have a picture are shown.\n\nYou need an internet connection, since articles are fetched live from Wikipedia as you swipe, and they are picked at random, so you cannot ask for a particular topic. The app's own buttons and labels are in English only, whatever language you read in. There are no ads, and the privacy policy says the app collects no information.",
+  "repo": "https://github.com/terrakok/WikWok",
+  "category": "reading",
+  "license": "Apache-2.0",
+  "website": "https://wikwok-terrakok.pages.dev",
+  "fdroid": "com.github.terrakok.wikwok.androidApp",
+  "tags": [
+    "wikipedia",
+    "random articles",
+    "swipe",
+    "encyclopedia",
+    "trivia",
+    "discover",
+    "feed",
+    "facts"
+  ],
+  "added": "2026-10-06"
+}

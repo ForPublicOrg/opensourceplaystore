@@ -1,0 +1,20 @@
+{
+  "id": "tetherfusenet",
+  "name": "TetherFuseNet",
+  "tagline": "Share your phone's internet with other devices, no root needed",
+  "description": "TetherFuseNet shares your phone's internet connection with other devices, such as a laptop, without needing root. It sets up its own Wi-Fi network on your phone, and anything that joins it can get online through your phone's Wi-Fi or mobile data. It can also share with a single device over a USB cable when USB tethering is switched on. It used to be called TetherFi.\n\nUnder the hood it runs a Wi-Fi Direct network and a proxy on your phone, so you do not need a carrier hotspot plan, though it works best with an unlimited data plan. You can pick the network name, password, proxy port and Wi-Fi band, and the app walks you through the setup on the other device. Once it is running you can see who is connected, block a device by its IP address, and set a transfer or bandwidth limit. It can also stop itself after 10 minutes with no one connected.\n\nThis is not a normal hotspot. Each device you connect has to be told to use the proxy in its Wi-Fi settings, so apps that ignore proxy settings will not get online. The developer says it is still a work in progress: ordinary web browsing should work, but online games and consoles do not, and some chat, video and email apps may fail. You need Android 8 or newer, Wi-Fi turned on, and the location or nearby devices permission that Android requires for Wi-Fi Direct. Official releases are on Google Play, where the developer also offers optional in-app purchases to support the work; none are needed to use the app.",
+  "repo": "https://github.com/pyamsoft/tetherfusenet",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "tags": [
+    "tethering",
+    "hotspot",
+    "wifi sharing",
+    "proxy",
+    "no root",
+    "internet sharing",
+    "usb tethering",
+    "tetherfi"
+  ],
+  "added": "2026-10-06"
+}

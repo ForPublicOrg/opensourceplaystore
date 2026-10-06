@@ -1,0 +1,21 @@
+{
+  "id": "fake-traveler",
+  "name": "Fake Traveler",
+  "tagline": "Pick a spot on a map and make your phone report it as its location",
+  "description": "Fake Traveler lets you tell your phone that you are somewhere else. Long press a spot on the map, or type in a latitude and longitude, then tap Apply, and apps that ask for your location are given that spot instead. It is handy for testing a location-based app, or for keeping your real whereabouts to yourself.\n\nIt needs no root, because it uses the mock location option that Android already has for developers. While it runs you can move the spot by long pressing somewhere else, and Stop ends it. In the settings you can choose how often the location is sent and how many times (or without end), move the position a small step each time to imitate travel, and send a speed along with it. Opening a geo: link, such as one shared from OpenStreetMap, sets the spot for you. You can also change the map provider, which is OpenStreetMap by default.\n\nBefore it works you must turn on Developer options and choose Fake Traveler as the mock location app. The map tiles come from an online provider, so the map needs a connection. If your location keeps jumping back, turn off Wi-Fi scanning and Bluetooth scanning in Android's location settings, because they compete with the fake GPS position.",
+  "repo": "https://github.com/mcastillof/FakeTraveler",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "cl.coders.faketraveler",
+  "tags": [
+    "mock location",
+    "fake gps",
+    "gps spoofer",
+    "fake location",
+    "location spoofing",
+    "developer",
+    "testing",
+    "no root"
+  ],
+  "added": "2026-10-06"
+}

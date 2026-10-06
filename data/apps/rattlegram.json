@@ -1,0 +1,19 @@
+{
+  "id": "rattlegram",
+  "name": "Rattlegram",
+  "tagline": "Send short text messages to a nearby phone using sound alone",
+  "description": "Rattlegram sends a short text message as a burst of sound. One phone plays the sound out loud, and a second phone running Rattlegram hears it through its microphone and turns it back into text. No mobile signal, Wi-Fi or internet is involved.\n\nType a message of up to 170 bytes, which is roughly 170 letters of plain English, and press transmit. It takes about a second to play, a little longer if you switch on the optional leading noise or fancy header. The app adds error correction to repair bits that get damaged on the way, and a live picture of the sound it hears is shown on screen. You can set a call sign (letters, numbers and spaces) that goes out with each message, send a ping that carries only that call sign, or share text into the app from another app. Parrot mode makes a phone repeat whatever it hears. Messages are kept in a list on the phone, and you can delete them all.\n\nYou need a second device running Rattlegram within earshot, so this is a short-range trick rather than a replacement for a chat app. The app asks for microphone access and has no network permission. There is an optional ultrasonic setting, and the app warns that high-pitched sound can harm your hearing.",
+  "repo": "https://github.com/aicodix/rattlegram",
+  "category": "social",
+  "license": "0BSD",
+  "tags": [
+    "offline messaging",
+    "off grid",
+    "no signal",
+    "sound",
+    "audio modem",
+    "short messages",
+    "cofdmtv"
+  ],
+  "added": "2026-10-06"
+}

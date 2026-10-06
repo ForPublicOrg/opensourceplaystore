@@ -1,0 +1,22 @@
+{
+  "id": "giggity",
+  "name": "Giggity",
+  "tagline": "Browse any conference or festival schedule and pick your talks",
+  "description": "Giggity shows you the schedule of a conference, festival or other event so you can plan your visit. It reads the schedule files that organisers publish in open formats (Pentabarf, frab, Pretalx, Wafer, OSEM, or a plain iCalendar file), so one app works for many events instead of a separate app for each.\n\nMany events are already listed, including FOSDEM, CCC and FrOSCon, and you can add any other by entering the address of its schedule. Tap the talks you like and Giggity reminds you before they start and warns you when two of them overlap. You can see the programme as a block grid, a plain timetable or a now-and-next screen, search every talk, and hide single talks, rooms, tracks or whole topics you do not care about. Some events add links, maps you can read offline and room locations. You can share your picks with friends or another device as a QR code or in a chat.\n\nGiggity only shows what the organisers publish, so it needs an event that offers its schedule as a file. It needs a connection to load and refresh a schedule, but it keeps what it has downloaded so you can still browse it offline. The app is in English, with German, French, Italian, Dutch and Czech translations.",
+  "repo": "https://github.com/Wilm0r/giggity",
+  "category": "productivity",
+  "license": "GPL-2.0",
+  "website": "https://gaa.st/giggity",
+  "fdroid": "net.gaast.giggity",
+  "tags": [
+    "conference",
+    "schedule",
+    "timetable",
+    "fosdem",
+    "festival",
+    "talks",
+    "pretalx",
+    "events"
+  ],
+  "added": "2026-10-06"
+}

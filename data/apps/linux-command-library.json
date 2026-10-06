@@ -1,0 +1,22 @@
+{
+  "id": "linux-command-library",
+  "name": "Linux Command Library",
+  "tagline": "Look up Linux commands and terminal tips offline",
+  "description": "Linux Command Library is a reference book for the Linux terminal that lives on your phone. It holds more than 9,000 manual pages for commands, sorted into topics, plus basic guides and general tips for people learning the command line. It works fully offline.\n\nYou can search for a command by name, open its page, read what it does and see examples of how to use it, and find out how to install it. Many pages also link to a command's documentation, source code and homepage. You can search inside a long manual page too, with the matches highlighted. Topics include files and folders, networking, Git, SSH, text processing, packages, backups, shell scripting, Vim, Emacs and Nano. The tips cover things like file permissions, redirection, chaining commands, aliases and scheduling jobs with cron.\n\nIt is a reading guide, not a terminal, so you read a command here and run it somewhere else. The app is in English only. It is free and has no ads, and the developer says it has no tracking software.",
+  "repo": "https://github.com/SimonSchubert/LinuxCommandLibrary",
+  "category": "education",
+  "license": "Apache-2.0",
+  "website": "https://linuxcommandlibrary.com",
+  "fdroid": "com.inspiredandroid.linuxcommandbibliotheca",
+  "tags": [
+    "linux",
+    "man pages",
+    "terminal",
+    "commands",
+    "cheat sheet",
+    "shell",
+    "bash",
+    "tldr"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "osmfocus-reborn",
+  "name": "OSMfocus Reborn",
+  "tagline": "Point at any building or road to see its OpenStreetMap tags",
+  "description": "OSMfocus Reborn lets you look inside OpenStreetMap, the free map of the world that anyone can edit. Slide the map until the crosshair in the middle sits over a building or a road. A line then joins it to a box at the edge of the screen, and the box lists every tag stored for that object. Tap a box to open a fuller page about the element.\n\nIt is useful if you map, check or just like poking at map data. You can filter objects by tag, show or hide nodes, ways, relations and notes, and let the map rotate with a gesture. Objects only appear once you zoom in close enough. The background map can be switched to other built-in styles, or to your own tile server by typing in its address. You can also jump to your current location, copy the coordinates of a spot, open an object on openstreetmap.org or in OsmAnd, and leave an OpenStreetMap note.\n\nYou need an internet connection, because the map and the data are fetched as you move around. Leaving a note means logging in to your OpenStreetMap account. The app is for looking rather than editing the map, and it is in English only. It replaces an older OSMfocus app that is no longer around.",
+  "repo": "https://github.com/ubipo/osmfocus",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "fdroid": "net.pfiers.osmfocus",
+  "tags": [
+    "openstreetmap",
+    "osm",
+    "osm tags",
+    "map data",
+    "mapping",
+    "osm notes",
+    "mapper"
+  ],
+  "added": "2026-10-06"
+}

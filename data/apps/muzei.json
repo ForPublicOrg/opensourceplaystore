@@ -1,0 +1,25 @@
+{
+  "id": "muzei",
+  "name": "Muzei",
+  "tagline": "A new famous painting on your home screen every day",
+  "description": "Muzei is a live wallpaper that puts a famous painting on your home screen and swaps it for a new one every day. It blurs and dims the picture a little so your icons and widgets stay easy to read. Double touch the wallpaper, or open the app, and the artwork comes into full focus.\n\nYou can switch between sources. Featured art brings a new painting each day. My Photos rotates through photos or whole folders from your own gallery. Single Artwork keeps one image of your choosing. Sliders set how much blur, dim and grey to apply, with separate settings for the home and lock screens. You choose how often the picture changes, from every 15 minutes to every 3 days, or never, and whether it may change only on Wi-Fi. Other developers can write extra sources that plug in, and Muzei works with Tasker.\n\nFeatured art needs an internet connection. F-Droid notes that this default source downloads its images from Google storage, and flags the app as relying on a non-free network service. The F-Droid build is patched by F-Droid contributors to remove Google Play Services, and it is not maintained by the original developers. The app points you to the Google Play Store for extra sources, so they may be harder to find if you do not use it. You switch Muzei on from your phone's live wallpaper picker.",
+  "repo": "https://github.com/muzei/muzei",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://muzei.co/",
+  "fdroid": "net.nurik.roman.muzei",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "wallpaper",
+    "live wallpaper",
+    "art",
+    "paintings",
+    "daily wallpaper",
+    "home screen",
+    "lock screen",
+    "gallery"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "econverter",
+  "name": "EbookConverter",
+  "tagline": "Convert ebooks between epub, mobi, azw3 and more on your phone",
+  "description": "EbookConverter changes an ebook from one format to another right on your phone, with no need for a computer. Pick a book, choose the format you want, and save the result wherever you like. You can select several books at once and convert them in one go.\n\nIt reads epub, mobi, azw3, azw4, docx, odt, fb2, html, htmlz, lrf, pdb, rtf, txt, djvu, chm, cbz, cbr and text-based PDFs, and it writes epub, mobi, azw3, docx, fb2, html, htmlz, lrf, oeb, txt and txtz. You can pick an output profile to suit your reader, such as Kindle, Kobo, Nook, iPad or a generic e-ink screen. Before converting you can edit the title, authors and publisher, set the base font size and the page margins, and remove text you do not want. The developer says all conversion runs locally and no internet is needed.\n\nPDF is an input format only, so you cannot save a book as a PDF. Scanned PDFs will not work either, because they need text recognition, which is not available on Android. Some options are plain text boxes where you type values or extra settings, so the screen is more functional than friendly. Under the hood the app wraps ebook-converter, a Python project derived from Calibre, rather than Calibre itself.",
+  "repo": "https://github.com/bilec/econverter",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "fdroid": "com.econverter.app",
+  "tags": [
+    "ebook",
+    "epub",
+    "mobi",
+    "azw3",
+    "converter",
+    "kindle",
+    "calibre",
+    "kobo"
+  ],
+  "added": "2026-10-06"
+}

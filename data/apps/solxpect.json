@@ -1,0 +1,21 @@
+{
+  "id": "solxpect",
+  "name": "solXpect",
+  "tagline": "Forecast how much power your solar panels will make",
+  "description": "solXpect predicts how much electricity your solar panels will make. Tell it where they are and how they are set up, and it shows the expected energy hour by hour for up to 16 days ahead, so you can plan when to use your own power. It is made with balcony solar systems in mind.\n\nIt takes sunlight forecasts from Open-Meteo, works out where the sun will be in the sky, and calculates how much light lands on your panels. Each hourly figure covers the hour before it, so 150 Wh at 11:00 means about 150 Wh between 10:00 and 11:00, and running totals since midnight are shown too. You search for a place, then enter the direction and tilt of the panels, their size, efficiency, peak power, temperature coefficient and your inverter's limit. You can describe shade from buildings or trees by saying how high the sun must climb before it clears them. If your panels point different ways, add each as its own location and turn on the sum option to see the total.\n\nYou need to know the figures for your panels and inverter, and the diffuse light and albedo settings may need tuning before the forecast matches what you really get. It needs an internet connection for the weather data, and you do not need an account. The developer says there are no ads or tracking. The app is in English, with German, Spanish, Italian, Turkish and Chinese translations.",
+  "repo": "https://github.com/woheller69/solxpect",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "org.woheller69.solxpect",
+  "tags": [
+    "solar",
+    "photovoltaic",
+    "balcony solar",
+    "solar panel",
+    "pv",
+    "forecast",
+    "energy",
+    "open-meteo"
+  ],
+  "added": "2026-10-06"
+}

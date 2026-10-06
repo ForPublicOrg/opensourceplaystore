@@ -1,0 +1,22 @@
+{
+  "id": "tic-80",
+  "name": "TIC-80",
+  "tagline": "Make and play tiny retro games with built-in code, sprite and music editors",
+  "description": "TIC-80 is a tiny pretend computer for making and playing small retro-style games. It copies the limits of an 1980s home computer, with a 240 by 136 pixel screen, 16 colours and four sound channels. Everything you need to build a game is built in, and you can also just play games other people have made.\n\nThe built-in editors cover code, sprites, maps, sound effects and music. You can write games in Lua, JavaScript, Python and several other languages. A finished game is a single cartridge file that you can share and play on other devices running TIC-80. A built-in cart browser (the surf command) lets you look through local carts and the ones on the tic80.com website, and games can use game controllers, a mouse or a keyboard.\n\nMaking a game means writing code, and the project wiki has documentation and tutorials. A paid PRO version on itch.io adds saving carts as plain text, eight memory banks instead of one, and exporting a game without the editors. The source is open, so you can build the PRO version yourself. Browsing online carts needs an internet connection.",
+  "repo": "https://github.com/nesbox/TIC-80",
+  "category": "games",
+  "license": "MIT",
+  "website": "https://tic80.com",
+  "fdroid": "com.nesbox.tic",
+  "tags": [
+    "fantasy console",
+    "retro",
+    "game maker",
+    "pixel art",
+    "lua",
+    "game development",
+    "8-bit",
+    "programming"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "de-fide",
+  "name": "De Fide",
+  "tagline": "A Catholic prayer app with Bible, rosary and breviary that works offline",
+  "description": "De Fide is a Catholic app for daily prayer and reading. Almost everything it shows ships inside the app, so it needs no account and no internet connection, and the app does not ask for internet permission.\n\nIt holds the Catholic Bible in several translations, including the Douay-Rheims and the World English Bible (Catholic edition), with search, bookmarks, highlights and reading progress. It also has a guided Rosary for the four sets of mysteries, traditional prayers, nine-day novena trackers, a list of saints with their feast days and patronage, the Baltimore Catechism and the Compendium of the Catechism, and the Divine Office (Lauds, Vespers, Matins and Compline). Reminders for the Rosary and novenas are optional, and you can lock the app with biometrics or your screen lock. You can also import a Bible translation of your own from a JSON file.\n\nThe full Catechism of the Catholic Church is the exception: it opens online in your browser. The Divine Office comes from the Divinum Officium project, so its hymns and antiphons are in Latin. The menus are translated into several languages, and there are Bibles in Latin, Spanish, French, Italian, Portuguese, Lithuanian and Chinese too, but some content, such as the saints, is not yet available in every language.",
+  "repo": "https://github.com/tristinbaker/DeFide",
+  "category": "education",
+  "license": "AGPL-3.0",
+  "fdroid": "com.tristinbaker.defide",
+  "tags": [
+    "catholic",
+    "rosary",
+    "bible",
+    "prayer",
+    "breviary",
+    "novena",
+    "divine office",
+    "catechism"
+  ],
+  "added": "2026-10-06"
+}

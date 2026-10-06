@@ -1,0 +1,23 @@
+{
+  "id": "co3",
+  "name": "CO3",
+  "tagline": "A free reader for Archive of Our Own with a library and history",
+  "description": "CO3 is a reader for Archive of Our Own, the fan fiction site known as AO3. You browse and search AO3 from the app, read works chapter by chapter, and keep the ones you like in a library on your phone. The developers made it because other AO3 apps charge for features that they think should be free.\n\nYou can sort your library into your own categories, look back through a history that filters by date, and see statistics such as your favourite tags and authors. The app checks your saved works for new chapters and notifies you. Works can be downloaded for offline reading, with options to fetch the next few chapters while you read. There is a black theme for AMOLED screens, a Word Replacer that swaps placeholders like Y/N for a name you choose, a kudos history, and backup and restore. Logging in with your AO3 account is optional and brings in your bookmarks and Read Later list.\n\nCO3 is still in testing: its releases are marked as pre-releases, and the latest is a release candidate for version 0.1.0. You need an internet connection to browse and search AO3, which hosts stories of every rating up to Explicit, and search can filter by rating. The app is in English, French and Simplified Chinese. The developers say it has no ads and no subscriptions.",
+  "repo": "https://github.com/tbvns/CO3",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://tbvns.xyz/project/co3",
+  "fdroid": "com.co3",
+  "status": "testing",
+  "tags": [
+    "ao3",
+    "archive of our own",
+    "fanfic",
+    "fan fiction",
+    "fanfiction",
+    "stories",
+    "offline reading",
+    "library"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "blitzortung-lightning-monitor",
+  "name": "Blitzortung Lightning Monitor",
+  "tagline": "Watch lightning strikes live on a map and get storm alerts",
+  "description": "Blitzortung Lightning Monitor shows where lightning is striking right now. It draws live strikes on a map, colour-coded by how recent they are, using data from Blitzortung.org, a community network of lightning detectors. It covers Europe, North and South America, Asia, Africa, and Australia and New Zealand.\n\nA time slider lets you step back through the last 24 hours to see how a storm has moved. If you allow your location, the app marks where you are and shows the distance and direction of nearby storms. It can also alert you by notification, sound or vibration when lightning comes close. You can skip location altogether and pick a spot by hand instead. With the default data source, the app only asks for lightning in a broad five-degree block around that spot, so your exact position is not sent. People who take part in Blitzortung.org can also see each strike on its own. The interface comes in eleven languages, including German, French, Spanish and Polish.\n\nYou need an internet connection. By default the strikes arrive through a server run by the developer, so the app depends on that service staying online. Alerts work through a background service, so your phone has to let the app keep running in the background.",
+  "repo": "https://github.com/wuan/bo-android",
+  "category": "maps",
+  "license": "Apache-2.0",
+  "website": "https://blitzortung.tryb.de/",
+  "fdroid": "org.blitzortung.android.app",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "lightning",
+    "thunderstorm",
+    "storm",
+    "weather",
+    "strikes",
+    "blitzortung",
+    "storm alerts",
+    "thunder"
+  ],
+  "added": "2026-10-06"
+}

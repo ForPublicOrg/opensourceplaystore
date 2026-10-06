@@ -1,0 +1,21 @@
+{
+  "id": "memetastic",
+  "name": "MemeTastic",
+  "tagline": "Make memes with your own captions, no ads or watermarks",
+  "description": "MemeTastic is a simple meme maker. Pick a picture, type a caption for the top and bottom, and save or share the result. There are no adverts, and it never stamps a watermark on your memes.\n\nYou can start from the template pictures that come with the app, a photo from the camera, any picture in your gallery, or a picture you share into MemeTastic from another app. In the editor you can change the font, the text and border colours, the text size and capital letters, and the padding around the picture, and you can rotate it. Finished memes are saved in a Pictures folder that any gallery app can open, and you can browse your saved memes inside the app. A star button on a template adds it to your favourites.\n\nThe app asks for no internet permission, so it works fully offline and cannot download anything. That means you bring your own material: the bundled pictures and fonts are only ones with free licences. Put your own template pictures in the templates folder inside the memetastic folder in Pictures and they show up in the app. It asks for storage permission so it can save memes and read your templates.",
+  "repo": "https://github.com/gsantner/memetastic",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.gsantner.memetastic",
+  "tags": [
+    "meme",
+    "meme maker",
+    "meme generator",
+    "caption",
+    "image caption",
+    "funny pictures",
+    "offline",
+    "no watermark"
+  ],
+  "added": "2026-10-06"
+}

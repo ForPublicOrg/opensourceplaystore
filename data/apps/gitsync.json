@@ -1,0 +1,22 @@
+{
+  "id": "gitsync",
+  "name": "GitSync",
+  "tagline": "Keep a folder on your phone in sync with a Git repository",
+  "description": "GitSync keeps a folder on your phone in step with a Git repository. You pick a folder and a remote once, and after that it can fetch, commit and push your changes in the background. The developer's guides show how to use it for an Obsidian notes vault, as an alternative to Obsidian Sync.\n\nA sync can start when you open or close a chosen app, on a schedule, from a Quick Settings tile or from a home screen widget. You can sign in over HTTPS, with SSH, or with OAuth for GitHub, GitLab and Gitea. If two edits clash, there is a screen for settling the merge conflict. You also get a file browser with a text editor, recent commits and diffs, and branch management, and signing in with GitHub or GitLab lets you read and comment on issues and pull requests.\n\nYou need a Git repository on GitHub, GitLab, Gitea or a server of your own. Starting a sync when an app opens or closes needs an Android accessibility service turned on, and reaching your folders needs the all files access permission. Handling several repositories at once, Git LFS, git-crypt and hooks are paid premium extras, unlocked by a one-time purchase in the store versions or by sponsoring the developer on GitHub. The optional AI chat and text helpers only work with your own API key from Anthropic, OpenAI, Google or a server you run, and a switch hides them. The app is translated into several other languages.",
+  "repo": "https://github.com/ViscousPot/GitSync",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://gitsync.viscouspotenti.al",
+  "fdroid": "com.viscouspot.gitsync",
+  "tags": [
+    "git",
+    "sync",
+    "obsidian",
+    "markdown",
+    "notes backup",
+    "github",
+    "gitlab",
+    "folder sync"
+  ],
+  "added": "2026-10-06"
+}

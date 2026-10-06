@@ -1,0 +1,24 @@
+{
+  "id": "sms-gateway-for-android",
+  "name": "SMS Gateway for Android",
+  "tagline": "Turn a spare phone into a text-message sender you can call from code",
+  "description": "SMS Gateway for Android turns a phone with a SIM card into a small text-message service. Apps, scripts or services you write send the phone a web request, and the phone sends the SMS. It can also pass incoming messages on to a web address you choose, so a program can react when a text arrives. On the phone itself the app is labelled SMSGate.\n\nIn local mode the phone runs a small server that other devices on your network can call, with no account and no internet needed. In cloud mode the phone connects to the developer's public server, so you can reach it from anywhere without opening ports on your router, or you can run that server yourself. There is also a command line tool. It handles phones with more than one SIM, can hold a message until a time you set, cap how many go out in a period, and shows the status of each one.\n\nThis is a tool for people comfortable with web requests, not a messaging app. Receiving webhooks needs a web server of your own. Messages go out as ordinary texts from your SIM, so your carrier's charges and limits apply, they also show up in your normal SMS app, and the developer advises against bulk sending because carriers may block it. Cloud mode normally uses Google's push service (with a fallback for phones without it), and received messages are uploaded to the server while you are connected, so use local mode or your own server for anything private. The phone needs SMS permissions and should be allowed to run in the background. The app is free, but the developer says new cloud features may cost money.",
+  "repo": "https://github.com/capcom6/android-sms-gateway",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://sms-gate.app",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "sms",
+    "sms gateway",
+    "api",
+    "webhook",
+    "text messages",
+    "self-hosted",
+    "notifications",
+    "2fa"
+  ],
+  "added": "2026-10-06"
+}

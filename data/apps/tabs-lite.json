@@ -1,0 +1,25 @@
+{
+  "id": "tabs-lite",
+  "name": "Tabs Lite",
+  "tagline": "Guitar chords and tabs with transposing and auto-scroll, no ads",
+  "description": "Tabs Lite is a guitar chords and tabs app. Search by song title or artist, open a version, and play along. The developer says more than a million songs are available, and the app has no ads.\n\nYou can change the key with the transpose buttons, tap any chord name to see its fingering on guitar or ukulele, and turn on auto-scroll and set its speed so the song moves while your hands are busy. Save songs to your favourites to keep them for offline use, or sort them into playlists, each song remembering its own transposition. There is also a Popular list, a dark mode, a choice of modern or monospace text, and import and export for your favourites and playlists. You can also submit a new song or tab of your own, but it only shows up in search after moderators approve it.\n\nThe songs are not stored in the app. They come over the internet from Ultimate Guitar's online database, which the app reads without being an official client, and from the developer's own online database, which runs on Google Firebase, so you need a connection to search or open a song you have not saved. Search could stop working if Ultimate Guitar changes its service. The app is in English and Italian. Since the latest release the developer has added Sentry crash and performance reporting to the source, so newer versions will send those reports, including a screenshot when the app crashes.",
+  "repo": "https://github.com/More-Than-Solitaire/Tabs-Lite",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://tabslite.com/",
+  "antiFeatures": [
+    "nonfree-network",
+    "tracking"
+  ],
+  "tags": [
+    "guitar",
+    "chords",
+    "tabs",
+    "tablature",
+    "ukulele",
+    "songs",
+    "autoscroll",
+    "transpose"
+  ],
+  "added": "2026-10-06"
+}

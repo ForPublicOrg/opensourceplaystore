@@ -1,0 +1,20 @@
+{
+  "id": "digilog-tv",
+  "name": "Digilog TV",
+  "tagline": "Watch free English news channels from around the world",
+  "description": "Digilog TV is a simple live news player. Open it, pick a channel such as BBC News, Al Jazeera English, DW English, France 24 English or Sky News, and the stream starts playing. It is inspired by Linux Mint's Hypnotix, a TV viewer for desktop Linux.\n\nThe list is short, about two dozen English news channels, taken from the Free-TV/IPTV project on GitHub, which collects channels that are free, legal and publicly available. You can mark channels as favourites to find them quickly. The list is fetched from the app's GitHub page each time you open it, so added and fixed channels arrive without an app update, and the last saved list is used if the fetch fails. It works with a remote or D-pad too, and shows up on Android TV.\n\nThe streams belong to the broadcasters, so a channel can stop working, or be blocked in your country, until the list is fixed. It is news only. The README says ads exist only in the Google Play version, and the GitHub APK has none. The app itself has had no new release since 2024, though the channel list is still being updated.",
+  "repo": "https://github.com/aldrinzigmundv/digilogtv",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "tags": [
+    "news",
+    "live tv",
+    "iptv",
+    "tv channels",
+    "streaming",
+    "android tv",
+    "hypnotix",
+    "world news"
+  ],
+  "added": "2026-10-06"
+}

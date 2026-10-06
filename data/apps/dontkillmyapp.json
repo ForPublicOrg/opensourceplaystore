@@ -1,0 +1,22 @@
+{
+  "id": "dontkillmyapp",
+  "name": "DontKillMyApp",
+  "tagline": "Test whether your phone kills apps in the background",
+  "description": "DontKillMyApp checks whether your phone is quietly shutting down apps that need to keep running. Many phone makers add their own battery savers on top of Android, and these can stop apps from running tasks and alarms once the screen is off. The app measures how badly this happens on your phone.\n\nThe test runs a background service that schedules repeating tasks and alarms, then counts how many really ran compared with how many should have. You choose how long it runs, from one hour to eight. The report gives a total score, separate scores for alarms and for the other tasks, and a chart where gaps show when your phone held it back. Scores close to 100 percent are good. After you change your phone's battery settings, run the test again to see what changed. You can send your result to the dontkillmyapp.com maintainers (the app opens a prefilled online form in your browser) or share it by email or with any sharing app.\n\nThe test takes hours, and the app asks you to keep the phone off the charger and leave it alone while it runs. It only measures: it does not fix anything. The guides for each phone maker are on the dontkillmyapp.com website, so you need an internet connection to read them, and you make the changes yourself. The F-Droid version is an older build (1.8, from 2020).",
+  "repo": "https://github.com/urbandroid-team/dontkillmy-app",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://dontkillmyapp.com/",
+  "fdroid": "com.urbandroid.dontkillmyapp",
+  "tags": [
+    "battery saver",
+    "background apps",
+    "benchmark",
+    "app killer",
+    "notifications",
+    "xiaomi",
+    "huawei",
+    "samsung"
+  ],
+  "added": "2026-10-06"
+}

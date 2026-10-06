@@ -1,0 +1,20 @@
+{
+  "id": "omni",
+  "name": "Omni",
+  "tagline": "A compass, spirit level, ruler and flashlight in one app",
+  "description": "Omni is a small toolbox with four everyday tools: a compass, a spirit level, a ruler and a flashlight. It uses Material 3 styling, and the developers describe it as lightweight, with no spyware or bloat.\n\nThe compass shows which way you are facing and, if you allow location, your latitude and longitude, as decimals or as degrees, minutes and seconds. You can switch it from magnetic to true north, and it can run from a tile in your quick settings panel. The flashlight has a slider for how bright it is, and it warns you before you push it to 90 percent or more because that can damage the light. The ruler shows centimetres and inches. Long-press the app icon for shortcuts straight to each tool.\n\nThe adjustable flashlight needs Android 13 or newer and a phone whose torch supports different brightness levels, otherwise the slider stays switched off. The compass and spirit level need your phone's rotation sensor, and the app warns you if it has none. The compass tile shows a notification while it runs, so it asks for notification permission. Location is optional: say no and you still get the plain compass. The app is in English, Japanese and Simplified Chinese.",
+  "repo": "https://github.com/FoedusProgramme/Omni",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "compass",
+    "spirit level",
+    "level",
+    "ruler",
+    "flashlight",
+    "torch",
+    "toolbox",
+    "latitude longitude"
+  ],
+  "added": "2026-10-06"
+}

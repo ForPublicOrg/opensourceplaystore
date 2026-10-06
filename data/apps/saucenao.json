@@ -1,0 +1,24 @@
+{
+  "id": "saucenao",
+  "name": "SauceNAO",
+  "tagline": "Find where an anime or art image came from",
+  "description": "SauceNAO is an unofficial app for the SauceNAO reverse image search site. Give it a picture of anime, manga or digital art and it looks for where that picture came from: the original post, the artist, the series. People call that finding the sauce.\n\nYou can pick an image from your gallery, paste an image address, or share a picture to the app from another app. Each result shows a thumbnail, a title, a similarity score and a few details. Tap a result to see its links, or hold it to copy or share the title. You can limit a search to chosen databases, such as Pixiv, MangaDex, ArtStation or Anime, instead of searching them all. The app is translated into around ten languages besides English.\n\nEvery search is sent to saucenao.com, so you need an internet connection and the site has to be up and willing to answer, since a Cloudflare check can block a request. You can enter your own SauceNAO API key in the app to raise the daily search limit. SauceNAO's database list includes adult art sites, and the GitHub build does not hide adult results, so expect some to turn up.",
+  "repo": "https://github.com/luk1337/SauceNAO",
+  "category": "internet",
+  "license": "Apache-2.0",
+  "fdroid": "com.luk.saucenao",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "reverse image search",
+    "anime",
+    "manga",
+    "artwork",
+    "source",
+    "saucenao",
+    "pixiv",
+    "image search"
+  ],
+  "added": "2026-10-06"
+}

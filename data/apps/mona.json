@@ -1,0 +1,20 @@
+{
+  "id": "mona",
+  "name": "Mona",
+  "tagline": "A private journal for hormone therapy doses, supplies and blood tests",
+  "description": "Mona is a private journal for hormone replacement therapy, billed as a trans health companion. It keeps your medication schedule, reminds you when a dose is due, records what you have taken and tracks your supplies. Everything stays on your phone, and there is no account to make.\n\nYou set up each medication with how often you take it, and Mona shows what is coming up and what you have missed. For injections you can note whether it was subcutaneous or intramuscular and where on your body it went, and patches get a placement too. Your stock goes down as you log doses, so you know before you run out. You can save blood test results for estradiol and testosterone, and for people taking estradiol on its own a graph shows simulated levels over time. There is a home screen widget, backup and restore to a file, and translations for more than twenty languages.\n\nThe levels graph is a simulation, not a measurement of your own body, and the developers say Mona is for information only and is not medical advice. Reminders need permission to show notifications and set exact alarms. The version you download from GitHub can check GitHub for new versions.",
+  "repo": "https://github.com/mona-hrt/mona",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "tags": [
+    "hrt",
+    "hormone therapy",
+    "trans health",
+    "medication reminder",
+    "estradiol",
+    "blood tests",
+    "journal",
+    "injections"
+  ],
+  "added": "2026-10-06"
+}

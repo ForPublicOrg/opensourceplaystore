@@ -1,0 +1,20 @@
+{
+  "id": "arrmatey",
+  "name": "ArrMatey",
+  "tagline": "Manage your Sonarr, Radarr and other media servers from your phone",
+  "description": "ArrMatey is a phone app for the media-management servers that many people run at home. Connect it to your Sonarr, Radarr, Lidarr, Bookshelf or Listenarr servers and you can browse your library, add new shows, films, albums and books, search for releases by hand and watch what is downloading, without opening each server's web page.\n\nA single dashboard shows all your servers, their disk space and your requests, and you can add, remove and reorder its cards. A calendar lists what is coming out soon, as a list or a month view. Prowlarr is supported for indexers, Seerr for discovering titles and making requests, Bazarr for subtitles and Tracearr for watching active streams. It can also talk to the download clients qBittorrent, SABnzbd, Deluge and Transmission. You can add several servers of the same kind, switch to a local address when you are on home Wi-Fi, send custom HTTP headers for a reverse proxy, and back up and restore your settings.\n\nThis app is only useful if you already run these servers: you add each one with its address and API key, and the app provides no media of its own. The version number is still below 1.0, and the interface is in English only.",
+  "repo": "https://github.com/owenlejeune/ArrMatey",
+  "category": "media",
+  "license": "MIT",
+  "tags": [
+    "sonarr",
+    "radarr",
+    "lidarr",
+    "prowlarr",
+    "arr stack",
+    "home server",
+    "bazarr",
+    "seerr"
+  ],
+  "added": "2026-10-06"
+}

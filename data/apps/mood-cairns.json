@@ -1,0 +1,21 @@
+{
+  "id": "mood-cairns",
+  "name": "Mood Cairns",
+  "tagline": "Log your mood on your own scales, privately and offline",
+  "description": "Mood Cairns is a private mood tracker. It nudges you a few times a day to note how you feel, then shows how that changes over the weeks. Everything stays on your phone, and there is no account.\n\nInstead of one fixed mood score, you log against scales. It comes with five (happiness, anxiety, stress, boredom and pain), each a number with its own colour, and you can add your own, including scales that run in reverse or go below zero, with default values you choose. You set time-of-day windows, such as morning and evening, and the app sends one reminder per window each day at a random time inside it. Entries can carry notes and tags for people, places, activities and moods, and you can pick the date and time of an entry. History can be searched and filtered, charts show the trend for each scale, and a home-screen widget lets you start an entry quickly.\n\nThe app asks for no internet permission at all, so nothing can be uploaded. It is locked behind a PIN, with optional biometric unlock, and the mood log is encrypted on the device. Backups are manual: you export a file, encrypted with a passphrase you choose, into Documents/MoodCairns, and copying it off the phone (for example with Syncthing) is up to you. If you lose the phone without a backup, the entries are gone. You can also turn on an unencrypted CSV export in settings. The developer says the code was written with help from an AI coding assistant and reviewed by a human.",
+  "repo": "https://github.com/lcdcode/mood-cairns",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.lcdcode.moodcairns",
+  "tags": [
+    "mood",
+    "mood tracker",
+    "diary",
+    "anxiety",
+    "stress",
+    "wellbeing",
+    "offline",
+    "charts"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "easy-watermark",
+  "name": "Easy Watermark",
+  "tagline": "Stamp a repeating watermark on photos before you share them",
+  "description": "Easy Watermark lays a repeating line of text, or a small picture such as a logo, across your photos. It is made for the pictures you have to hand over to someone else, like an ID photo or a proof of identity, and for previews of your own work, so that a copy which leaks is harder to reuse.\n\nYou type your own text, for example a note saying who the photo is for and why, and see the result live on the photo. Colour, fill or outline, typeface, size, opacity, angle and the gaps between marks can all be changed, and you can tile the mark over the whole picture or place it once. Save a line as a template to reuse later, and mark several photos in one go. Exports are JPEG or PNG, and all EXIF data, including the location, is removed.\n\nIt works entirely on your phone, with no internet permission, analytics or crash reporting. A watermark cannot stop a leak, it only lowers the value of the leaked copy, so keep the opacity low enough that the important details stay readable. The interface is fully translated into English and Simplified Chinese, and other languages are partly done.",
+  "repo": "https://github.com/rosuH/EasyWatermark",
+  "category": "media",
+  "license": "MIT",
+  "fdroid": "me.rosuh.easywatermark",
+  "tags": [
+    "watermark",
+    "photo",
+    "id photo",
+    "privacy",
+    "exif",
+    "batch",
+    "stamp text",
+    "protect photos"
+  ],
+  "added": "2026-10-06"
+}

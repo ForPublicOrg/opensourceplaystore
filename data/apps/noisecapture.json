@@ -1,0 +1,26 @@
+{
+  "id": "noisecapture",
+  "name": "NoiseCapture",
+  "tagline": "Measure the noise around you and add it to a community noise map",
+  "description": "NoiseCapture turns your phone into a noise meter. Press record and it measures the sound level around you every second, then shows numbers, graphs, a spectrum of the sound and a map of where the noise was loud or quiet as you moved about. It comes from French research laboratories that study environmental noise.\n\nEach measurement gives the usual figures, such as the average level, the loudest and quietest moments, and the levels exceeded for 10, 50 and 90 percent of the time. You can add a description, a photo and tags for what you can hear, and keep a history of past measurements. How accurate the numbers are depends on your phone's microphone, so there is calibration, either against a reference sound meter or against a second phone that is already calibrated. Measurements can be shared anonymously to build a community noise map. The developers say no audio is recorded, only noise levels.\n\nA phone is not a certified sound meter, and the developers say so, so treat the numbers as an estimate. The app needs the microphone and your location. Automatic upload to the project's server is on by default, after you agree to a privacy policy on first run; you can turn it off in the settings and upload by hand instead. Maps and community data load from the internet.",
+  "repo": "https://github.com/Universite-Gustave-Eiffel/NoiseCapture",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://noise-planet.org/noisecapture.html",
+  "fdroid": "org.noise_planet.noisecapture",
+  "antiFeatures": [
+    "tracking",
+    "nonfree-network"
+  ],
+  "tags": [
+    "noise",
+    "sound level",
+    "decibel",
+    "noise meter",
+    "sound meter",
+    "db meter",
+    "noise map",
+    "acoustics"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pysolfc",
+  "name": "PySolFC",
+  "tagline": "A huge collection of solitaire and patience card games",
+  "description": "PySolFC is a big collection of solitaire card games, including favourites like Klondike, FreeCell and Spider. The project says its full collection has more than a thousand games, from ordinary patience layouts to Mahjongg, Shisen-Sho and Memory. The Android app is built from the same project as the desktop version, but offers a smaller set of the desktop features.\n\nYou can browse games by type, skill level or popularity, keep a list of favourites, or let the app pick a random one. Undo and redo, bookmarks, hints, auto drop and a demo mode that plays a game for you are all there, and your results are kept in statistics. You can save a game and load it later. There are several card sets and table backgrounds to choose from, and sound can be switched off.\n\nThe download is large, about 70 MB. If you want to add your own card sets, you need to give the app storage access in Android settings, and the cards must be PNG images. The menus can be set to English, German, Italian, Polish or Russian.",
+  "repo": "https://github.com/shlomif/PySolFC",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://pysolfc.sourceforge.io/",
+  "fdroid": "org.lufebe16.pysolfc",
+  "tags": [
+    "solitaire",
+    "patience",
+    "card games",
+    "klondike",
+    "freecell",
+    "spider",
+    "mahjongg",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

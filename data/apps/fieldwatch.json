@@ -1,0 +1,21 @@
+{
+  "id": "fieldwatch",
+  "name": "Fieldwatch",
+  "tagline": "Listen for nearby Wi-Fi and Bluetooth devices, trackers and cameras",
+  "description": "Fieldwatch listens to the Wi-Fi access points and Bluetooth LE devices around you and shows what it hears in a live list. It is receive-only: it never joins a network or pairs with anything. A built-in list of known signatures names what it finds, including AirTag-style finder tags, cameras, drones and camera glasses.\n\nYou can view the list as a radar, a strength list, a timeline or grouped by type, and bookmark the kinds you care about to get a beep or a spoken alert. A Moving with you test flags Bluetooth devices that keep showing up as you travel, which helps if you think a tracker is following you. You can save a report with a map of your path, or export the log as CSV, GPX, KML or WiGLE files. There is no account, no ads and no Fieldwatch server, though maps and place names load online unless you switch that off.\n\nIt is not on the Play Store or F-Droid, so you install the APK yourself, and it does not update itself. It needs Android 10 or newer with Location, Wi-Fi and Bluetooth all on, and it must be allowed to run in the background. Radios that are off, asleep or using random addresses will not show up, so a quiet scan proves nothing. The developer calls it experimental hobby software.",
+  "repo": "https://github.com/OffGridPete/Fieldwatch",
+  "category": "security",
+  "license": "MIT",
+  "status": "testing",
+  "tags": [
+    "wifi scanner",
+    "bluetooth scanner",
+    "ble",
+    "airtag",
+    "tracker detector",
+    "camera detector",
+    "drone",
+    "wigle"
+  ],
+  "added": "2026-10-06"
+}

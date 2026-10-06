@@ -1,0 +1,23 @@
+{
+  "id": "opencomicvine",
+  "name": "OpenComicVine",
+  "tagline": "Browse the Comic Vine database of characters, issues and series",
+  "description": "OpenComicVine is an app for browsing Comic Vine, an online database of comics. Look up a character, a series, a single issue, a creator, a team, a story arc or a comic-based film, and read what the database holds about it.\n\nThe Wiki tab shows what was added lately, such as new issues, volumes and characters. You can search by type, and lists can be filtered and sorted, for example by name, cover date or when an entry was added. A character page shows details like the real name, powers, first appearance and which story arcs and teams they belong to. Save entries to Favorites to find them again quickly. There are light, dark and system themes, and the layout adjusts to different screen sizes.\n\nThis is a database browser, not a comic reader, so you cannot read comics in it. It needs an API key from Comic Vine, which you get after signing up on their website (comicvine.gamespot.com/api), and you add the key in the app's settings. Everything is fetched from Comic Vine, so you need an internet connection to look things up. The app is available in English and Russian.",
+  "repo": "https://github.com/proninyaroslav/OpenComicVine",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "fdroid": "org.proninyaroslav.opencomicvine",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "comics",
+    "comic vine",
+    "superheroes",
+    "characters",
+    "issues",
+    "wiki",
+    "database"
+  ],
+  "added": "2026-10-06"
+}

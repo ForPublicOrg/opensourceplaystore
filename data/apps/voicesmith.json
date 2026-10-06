@@ -1,0 +1,20 @@
+{
+  "id": "voicesmith",
+  "name": "Voicesmith",
+  "tagline": "Change your voice live through your headphones",
+  "description": "Voicesmith changes your voice as you speak. It listens through the phone's microphone, alters the sound in real time and plays it straight back to your headphones, so you hear a higher, lower or stranger version of yourself.\n\nThere are three sliders. Pitch moves the voice up or down by as much as 12 semitones, an octave either way. Timbre changes the character of the voice, also by up to 12 semitones each way. Delay holds the sound back for up to one second before you hear it. You can choose the microphone and output, and mono or stereo. The delay and pitch controls also suit delayed and frequency-shifted auditory feedback, which the developer's older notes say is used in stuttering therapy, and they suggest asking a therapist first.\n\nYou need wired earphones or a Bluetooth headset to hear the result. The developer has only tested it on a Samsung Galaxy A13 5G running Android 14 and offers no official support for other phones. It needs Android 13 or newer, and the shortest delay varies from phone to phone. It asks for the microphone and has no internet permission.",
+  "repo": "https://github.com/jurihock/voicesmith",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "de.jurihock.voicesmith",
+  "tags": [
+    "voice changer",
+    "pitch shifter",
+    "microphone",
+    "real-time",
+    "delayed feedback",
+    "stuttering",
+    "audio effects"
+  ],
+  "added": "2026-10-06"
+}

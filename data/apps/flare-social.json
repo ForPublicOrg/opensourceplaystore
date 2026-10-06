@@ -1,0 +1,25 @@
+{
+  "id": "flare-social",
+  "name": "Flare",
+  "tagline": "Read Mastodon, Bluesky, X, Misskey, Nostr and RSS in one timeline",
+  "description": "Flare is one app for reading and posting across many social networks. Sign in to Mastodon, Bluesky, X, Misskey or Nostr, add your RSS and Atom feeds, and see them together in one timeline. Pixiv and Fanbox are supported as well.\n\nYou can merge several accounts from different networks into one feed, or keep each in its own tab and build your own tab bar from any timeline, list or feed. When you write a post, you can send it to more than one network at once. Composing supports polls, content warnings, alt text on pictures and visibility settings. There are lists, bookmarks, Bluesky feeds and direct messages, Misskey antennas, local keyword filters, and an RSS reader that can import OPML files. A guest mode lets you browse without signing in, there is a layout made for tablets, and there is an optional AI helper for summaries and questions about posts.\n\nApart from guest mode and RSS, each network needs its own account. X, Pixiv and Fanbox are closed services. F-Droid also flags the app as depending on non-free network services because translation uses Google Translate by default; you can pick DeepL, LibreTranslate, Google Cloud or AI translation instead, some of which need your own key. The AI helper is optional and needs an OpenAI-compatible service or an on-device model that you set up. The Play Store build can include Firebase analytics and crash reporting, while the F-Droid build is made without them. It needs Android 8.0 or newer.",
+  "repo": "https://github.com/DimensionDev/Flare",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://flareapp.moe/",
+  "fdroid": "dev.dimension.flare",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "mastodon",
+    "bluesky",
+    "misskey",
+    "nostr",
+    "fediverse",
+    "rss",
+    "twitter",
+    "cross-posting"
+  ],
+  "added": "2026-10-06"
+}

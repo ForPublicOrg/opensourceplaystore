@@ -1,0 +1,22 @@
+{
+  "id": "privacy-friendly-tape-measure",
+  "name": "Privacy Friendly Tape Measure",
+  "tagline": "Measure small things with your screen or a photo and a coin",
+  "description": "Privacy Friendly Tape Measure is for the moment you need a measurement and have no tape to hand. It has two tools. The screen ruler turns your phone's display into a ruler, and the camera ruler measures things in a photo by comparing them with an object of known size, such as a coin.\n\nFor the camera ruler, put a coin or banknote next to the thing you want to measure and take a picture from straight above, or pick a photo from your gallery. Choose the reference object from the built-in list of coins and notes in six currencies, plus A-series and US paper sizes (or add up to ten of your own), place the green shape over it, then draw lines to read off lengths or shapes to read off areas. The screen ruler can show centimetres on one side and inches on the other, or an angle measure, and you can calibrate it by hand.\n\nResults are only as good as your photo: everything must lie flat on the same surface and the picture must be taken straight on. The developers say it is not a professionally calibrated device and rounding errors are possible. Choosing a photo from your gallery needs storage permission on older Android versions, while taking one with the camera needs none. It has no ads and no tracking, and comes from the SECUSO research group at the Karlsruhe Institute of Technology.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-tape-measure",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://secuso.aifb.kit.edu/english/Tape_Measure_and_Ruler.php",
+  "fdroid": "org.secuso.privacyfriendlytapemeasure",
+  "tags": [
+    "tape measure",
+    "ruler",
+    "measure",
+    "photo measure",
+    "screen ruler",
+    "protractor",
+    "length",
+    "area"
+  ],
+  "added": "2026-10-06"
+}

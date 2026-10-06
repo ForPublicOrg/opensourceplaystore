@@ -1,0 +1,25 @@
+{
+  "id": "xmsleep",
+  "name": "XMSLEEP",
+  "tagline": "Mix rain, fire and other calming sounds to sleep, relax or focus",
+  "description": "XMSLEEP is a white noise player to help you sleep, relax or focus. Pick sounds like rain, thunder, a campfire, wind, birdsong or a purring cat, and play several at once to make your own mix. Each sound has its own volume and loops without a break.\n\nA countdown stops playback by itself, which is handy at bedtime. You can save mixes as presets and mark favourites for quick access. The library has over a hundred sounds, most of which download the first time you use them and then stay on your phone. You can also play audio files from your own storage, follow breathing exercises such as 4-7-8 and box breathing, run a focus timer with breaks, and read a daily quote. A weather mode uses your approximate location to suggest sounds that match the weather outside.\n\nSome parts need the internet, including the weather, the daily quote, and the live radio and meditation sessions, which stream from Bilibili, a Chinese video site. The developer says the app sends anonymous usage statistics and crash reports, with no personal details. Some sounds use Pixabay's content licence rather than an open one. The interface comes in English, Simplified and Traditional Chinese, Japanese, Korean and Russian, and you can switch language in settings. The GitHub download is for 64-bit ARM phones running Android 8 or newer.",
+  "repo": "https://github.com/Tosencen/XMSLEEP",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://tosencen.github.io/XMSLEEP/",
+  "antiFeatures": [
+    "tracking",
+    "nonfree-assets"
+  ],
+  "tags": [
+    "white noise",
+    "sleep",
+    "relax",
+    "rain sounds",
+    "nature sounds",
+    "focus",
+    "sleep timer",
+    "ambient"
+  ],
+  "added": "2026-10-06"
+}

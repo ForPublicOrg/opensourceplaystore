@@ -1,0 +1,21 @@
+{
+  "id": "neodb-you",
+  "name": "NeoDB You",
+  "tagline": "Track and review books, films, games and more on NeoDB",
+  "description": "NeoDB You is an Android app for NeoDB, an open-source community site, linked to the Fediverse, where people keep track of the books, films, TV shows, music, games, podcasts and performances they have enjoyed. It shows what is trending on your server, lets you search, read other people's reviews and write your own.\n\nYou can search by name or by a link to the item on another supported site. Each item goes on a shelf: wishlist, in progress, completed or dropped. Your library page shows a heat map of your activity. When you write a review you choose who can see it (public, unlisted or followers only) and whether to cross-post it to the Fediverse. You can also choose which sections appear on the home page. The design follows Android's Material 3 style.\n\nYou need an account on a NeoDB server. The README names eggplant.place for English speakers and neodb.social for Chinese speakers, and the developer has only tested the app on those two, so some features may not work elsewhere. The most recent releases are labelled release candidates, and there is also a nightly build. The app is available in English, Chinese, Russian, Italian, Portuguese and Indonesian.",
+  "repo": "https://github.com/heddxh/NeoDB-You",
+  "category": "social",
+  "license": "GPL-3.0",
+  "fdroid": "day.vitayuzu.neodb",
+  "tags": [
+    "neodb",
+    "fediverse",
+    "reviews",
+    "book tracker",
+    "movie tracker",
+    "goodreads",
+    "letterboxd",
+    "wishlist"
+  ],
+  "added": "2026-10-06"
+}

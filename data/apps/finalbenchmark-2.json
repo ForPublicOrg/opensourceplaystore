@@ -1,0 +1,21 @@
+{
+  "id": "finalbenchmark-2",
+  "name": "Final Benchmark 2",
+  "tagline": "Test your phone's CPU, GPU, memory and storage speed",
+  "description": "Final Benchmark 2 measures how fast your phone really is. It runs timed tests on the processor, the graphics chip, the memory and the storage, then adds them up into one overall score. You can see how that score compares with a built-in list of reference phone chips.\n\nThe processor tests cover ten kinds of work, such as prime numbers, hashing, ray tracing and compression, run on one core and then on all cores. Other tests cover graphics (using Vulkan, OpenCL and OpenGL ES), memory speed, storage reads, writes and database work, and everyday jobs like image filters and video transcoding. A set of matrix-maths tests stands in for AI work, without running real AI models. Live graphs show temperature, power use and battery drain while a test runs, and results are kept in a history on your phone.\n\nHeavy tests make the phone hot, so close other apps and keep the phone cool while they run. The full run has 46 tests, and the developer's notes put it at roughly 30 to 45 minutes. The app asks for notification permission so Android does not close it halfway through. It needs Android 7 or newer. There is an optional root mode, which the app warns can push the phone much harder. The developer notes known problems on OxygenOS, RealmeUI and ColorOS.",
+  "repo": "https://github.com/zenithblue-oss/finalbenchmark-platform",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "fdroid": "com.ivarna.finalbenchmark2",
+  "tags": [
+    "benchmark",
+    "cpu",
+    "gpu",
+    "speed test",
+    "performance",
+    "ram",
+    "storage speed",
+    "device info"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pioneer",
+  "name": "Pioneer",
+  "tagline": "Keep track of books, anime and courses in one offline list",
+  "description": "Pioneer is a simple list for keeping track of how far you have got with things. A book, a PDF, an EPUB, a playlist, a season of anime, a manga series, an online course: add each one and update your progress as you go, so you do not need a different app for each kind of thing.\n\nEach item has a title, where you are now, and an optional total, with an optional unit such as episodes or chapters. Leave the total blank and it works as a plain counter; fill it in and you get a percentage and a progress bar. You can add a short description, a picture and tags, then filter your list by tag. Items sit under In Progress, Completed or Archived, and you can drag them into the order you like. You can also pick an app you installed yourself for an item, such as your reader or video player, and a button on its card opens that app. This needs Android 13 or newer. Web links in a description (written in angle brackets) can be tapped.\n\nEverything stays on your phone. There is no account, no internet connection is needed, and the developer says it collects no data. To move to a new phone, export your list to a CSV file and import it there, but pictures are not included in the CSV. The text is in English only. On Android 12 or newer the colours follow your wallpaper, and you can also pick light or dark.",
+  "repo": "https://github.com/ki-bun/Pioneer",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "com.ki_bun.pioneer",
+  "tags": [
+    "progress",
+    "tracker",
+    "books",
+    "anime",
+    "manga",
+    "watchlist",
+    "counter",
+    "reading list"
+  ],
+  "added": "2026-10-06"
+}

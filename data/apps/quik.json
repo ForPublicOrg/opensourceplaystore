@@ -1,0 +1,21 @@
+{
+  "id": "quik",
+  "name": "QUIK",
+  "tagline": "A clean replacement for your phone's text messaging app",
+  "description": "QUIK is an open-source replacement for the messaging app that came with your phone. It sends and receives SMS and MMS text messages, and it carries on the work of QKSMS, an earlier open-source texting app.\n\nIt has the extras that many people want from a texting app. You can schedule a message to go out later, use delayed sending, record voice messages, attach files of any type, and dictate with speech-to-text or have messages read aloud. Conversations can be pinned, archived, sorted and blocked, you can reply straight from a notification, and swipe actions are yours to configure. On a phone with two SIM cards you can pick which one sends a message. There is a built-in backup and restore for your messages, a choice of themes, and a pure black night mode.\n\nTo work, QUIK has to be set as your phone's default SMS app. Backup and restore covers SMS only for now, not MMS. The app does not ask for internet permission. Translations are handled on Weblate, so it is available in many languages.",
+  "repo": "https://github.com/quik-sms/quik",
+  "category": "social",
+  "license": "GPL-3.0",
+  "fdroid": "dev.octoshrimpy.quik.fdroid",
+  "tags": [
+    "sms",
+    "mms",
+    "text messages",
+    "qksms",
+    "messenger",
+    "scheduled messages",
+    "sms backup",
+    "default sms app"
+  ],
+  "added": "2026-10-06"
+}

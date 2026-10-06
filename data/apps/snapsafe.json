@@ -1,0 +1,22 @@
+{
+  "id": "snapsafe",
+  "name": "SnapSafe",
+  "tagline": "A camera that encrypts your photos and keeps them private",
+  "description": "SnapSafe is a camera app for people who do not want their photos floating around. Every picture you take is saved in the app's own encrypted storage, so it stays out of your normal gallery and away from other apps. A separate PIN guards the app's own gallery.\n\nThe app has no internet permission at all and Android backups are switched off, so nothing can leave the phone unless you share it. When you share a photo, SnapSafe strips the hidden details stored inside it (called metadata) and gives the file a random name. It can also blur faces for you, and you choose whether photos carry no location, a rough one or an exact one. There is a poison pill PIN too: type it and the app seems to unlock as normal but deletes your real photos, while a few decoy photos you picked are kept so the gallery does not look empty.\n\nYou need Android 10 or newer. Because backups are blocked on purpose, photos kept in the app will not be restored if you change or reset your phone. It takes photos only for now; encrypted video is listed on the roadmap as a maybe. The GitHub release comes in two builds: the oss one, which matches F-Droid, finds faces with Android's own face detector, while the full one uses Google's ML Kit library.",
+  "repo": "https://github.com/SecureCamera/SecureCameraAndroid",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://snapsafe.org/",
+  "fdroid": "com.darkrockstudios.app.securecamera",
+  "tags": [
+    "private camera",
+    "encrypted photos",
+    "secure camera",
+    "privacy",
+    "pin lock",
+    "exif",
+    "metadata",
+    "face blur"
+  ],
+  "added": "2026-10-06"
+}

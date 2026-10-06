@@ -1,0 +1,22 @@
+{
+  "id": "onionshare",
+  "name": "OnionShare",
+  "tagline": "Share files straight from your phone over Tor",
+  "description": "OnionShare lets you send files from your phone to someone else without a cloud service in the middle. Pick your files, tap Start Sharing, and the app gives you a long web address ending in .onion. Anyone you give that address to can download the files using Tor Browser.\n\nThe app carries its own copy of Tor, so there is nothing else to install. Your files stay on your phone and are bundled into a single zip that the other person downloads from it. Connecting to Tor can take a while, so you can leave the app and it will notify you when the address is ready. If Tor is blocked where you are, you can add your own bridges in the settings. The app was audited by Radically Open Security in 2023, and the problems found have since been fixed.\n\nThe person you share with needs Tor Browser to open the address, and it only works while your phone is online and the app is still sharing. Sharing does not stop after a download, so tap Stop Sharing when you are done. The developers still call this a beta.",
+  "repo": "https://github.com/onionshare/onionshare-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://onionshare.org/",
+  "fdroid": "org.onionshare.android.fdroid",
+  "status": "testing",
+  "tags": [
+    "tor",
+    "onion",
+    "file sharing",
+    "anonymous",
+    "send files",
+    "private",
+    "onion service"
+  ],
+  "added": "2026-10-06"
+}

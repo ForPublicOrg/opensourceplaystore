@@ -1,0 +1,21 @@
+{
+  "id": "rank-my-favs",
+  "name": "Rank-My-Favs",
+  "tagline": "Rank your favourite films, books or recipes by picking one of two at a time",
+  "description": "Rank-My-Favs helps you put a long list in order without agonising over it. Make a list of anything, such as films, books, recipes or albums, and the app shows you two items at a time. You tap the one you prefer, and after a fairly small number of these matches it can build a ranked list for you.\n\nUnder the hood it uses the Glicko rating system to work out how many matches are needed and to rank the items. Each item gets a rating, a win rate and a confidence figure, and you can raise the minimum confidence for a firmer result at the cost of more matches. You can add items by hand, skip a pairing you cannot decide on, or paste in an existing list with one item per line and an optional description after a vertical bar. The finished list can be exported as CSV or Markdown, or turned into a tier list (S, A, B and so on, with names and colours you can change) and saved as a PNG picture. You can also back up and restore your whole database from inside the app.\n\nThe app is in English only. Your lists are kept in a database on your phone, and there is no account to make.",
+  "repo": "https://github.com/dessalines/rank-my-favs",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "fdroid": "com.dessalines.rankmyfavs",
+  "tags": [
+    "ranking",
+    "pairwise",
+    "tier list",
+    "favourites",
+    "top list",
+    "elo",
+    "glicko",
+    "decide"
+  ],
+  "added": "2026-10-06"
+}

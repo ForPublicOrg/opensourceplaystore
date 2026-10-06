@@ -1,0 +1,24 @@
+{
+  "id": "open-dronelog",
+  "name": "Open DroneLog",
+  "tagline": "Analyse your DJI and Litchi drone flight logs, privately",
+  "description": "Open DroneLog is a logbook for drone pilots. Import flight logs from a DJI drone, Litchi or an Airdata export, and each flight becomes a map, a set of charts and a summary, kept together in a database on your device.\n\nA flight replays on a 3D map at speeds from half to sixteen times normal, with live readings and a view of the controller sticks. Charts cover height, speed, battery, cell voltages, signal and more. Across all your flights you get totals, an activity heatmap, a map of where you fly, battery health with charge cycles, and maintenance limits you set yourself. You can search, filter and tag flights, add flights that have no log, export to CSV, JSON, GPX or KML, and generate a flight report.\n\nYou need the log files from your own drone, for example from the DJI Fly app's FlightRecord folder. Newer DJI logs are encrypted, so the first import of each one needs an internet connection to fetch a key from DJI's servers. The app uses a shared key from the developer for this, so imports are slowed by a short wait each time unless you enter your own DJI developer key in settings. Map tiles and the weather lookup also go online. The universal APK is about 250 MB, and the arm64 one is about 64 MB. The interface comes in more than ten languages, including English. It is not affiliated with DJI.",
+  "repo": "https://github.com/arpanghosh8453/open-dronelog",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://opendronelog.com",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "drone",
+    "dji",
+    "litchi",
+    "flight log",
+    "telemetry",
+    "logbook",
+    "airdata",
+    "battery health"
+  ],
+  "added": "2026-10-06"
+}

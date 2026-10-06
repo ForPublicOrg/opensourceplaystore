@@ -1,0 +1,21 @@
+{
+  "id": "vmpk-for-android",
+  "name": "VMPK for Android",
+  "tagline": "Play a piano keyboard on screen, or send MIDI to a computer",
+  "description": "VMPK is a piano keyboard on your screen. Tap the keys and a built-in synthesiser plays them, so you need no extra hardware. It can also send what you play as MIDI over your Wi-Fi network, which lets a synthesiser or music program on a computer use your phone as a keyboard controller.\n\nThe keyboard shows 25 keys by default, and you can choose anything from 12 to 49 and pick the note it starts on. Turn on note names to see letters on the keys, or go full screen, where a second keyboard can be stacked below the first to play the lower octaves. There are controls for velocity, instrument, controllers and pitch bend, and some sliders can be moved by tilting the phone if it has motion sensors. The synthesiser has reverb and chorus presets, and you can change the colour of pressed keys, the theme and the language (English or Spanish).\n\nVMPK is a controller, not a recorder: it does not record or play back songs, so you need a separate MIDI sequencer for that. To reach a computer you need a program there that understands ipMIDI, such as ipMIDI itself on Windows and Mac or multimidicast and QmidiNet on Linux, and you may have to change your firewall settings. The app is built for landscape screens and needs Android 10 or newer.",
+  "repo": "https://github.com/pedrolcl/vmpk-android",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://pedrolcl.github.io/vmpk-android/",
+  "fdroid": "io.github.pedrolcl.vmpk",
+  "tags": [
+    "midi",
+    "piano",
+    "keyboard",
+    "synthesizer",
+    "controller",
+    "ipmidi",
+    "musician"
+  ],
+  "added": "2026-10-06"
+}

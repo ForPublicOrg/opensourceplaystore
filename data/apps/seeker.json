@@ -1,0 +1,23 @@
+{
+  "id": "seeker",
+  "name": "Seeker",
+  "tagline": "Search, download and share music on the Soulseek network",
+  "description": "Seeker is an unofficial Android client for Soulseek, a peer-to-peer network where people share files, mostly music, straight from their own devices. You search the network, pick what you want from another user's shared files and download it to your phone.\n\nSearches can be filtered, and a wishlist keeps your searches so they can be run again later. You can browse the folders a user shares, join chatrooms and send private messages. If you choose a folder to share, other people can download from you, and there is a setting to limit uploads. UPnP port forwarding is supported. It is translated into more than twenty languages.\n\nYou need a Soulseek account, which you can create when you first sign in. Seeker can run in the background if you switch that setting on, so it can answer searches, receive messages and run wishlist searches, and it shows a notification while it does. Everything on the network is shared by its users. The licence file notes that the developers do not condone sharing copyrighted works without permission and that you are responsible for following the law and the network's rules. The app itself has no ads and no paid features, but the Soulseek server relies on donations.",
+  "repo": "https://github.com/jackBonadies/SeekerAndroid",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "soulseek",
+    "slsk",
+    "music",
+    "p2p",
+    "peer to peer",
+    "file sharing",
+    "download music",
+    "chatrooms"
+  ],
+  "added": "2026-10-06"
+}

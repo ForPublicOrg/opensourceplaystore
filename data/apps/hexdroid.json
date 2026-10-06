@@ -1,0 +1,21 @@
+{
+  "id": "hexdroid",
+  "name": "HexDroid IRC",
+  "tagline": "Chat on IRC networks with encryption, bouncers and file transfers",
+  "description": "HexDroid is a chat client for IRC, the long-running text chat system built around channels and private messages. Add a server, pick a nickname, join a channel and talk. It has a Material Design look with light, dark and Matrix-style themes, adjustable fonts, and translations into 15 languages.\n\nYou can keep several network profiles, each with its own nickname, login and list of channels to join. The app stays connected in the background, reconnects on its own, and works with ZNC and soju bouncers. Mentions raise a notification you can reply to straight from the notification. Newer IRCv3 features such as typing indicators, chat history, reactions and read markers work wherever the server supports them. Logins can use SASL or a client certificate, connections use TLS, and Tor and SOCKS proxies are supported. You can switch on encrypted chat for a single channel or private conversation, send and receive files with DCC, add small .hex scripts that create your own commands, and back up your settings as a JSON file.\n\nYou need an IRC network to join, such as a public one, as the app has no chat service of its own. Encrypted chat only works if the other person uses HexDroid or a client that supports the same scheme (the developer lists plugins for some desktop and terminal clients, and FiSH-style encryption is also supported), and you share the key with them yourself. Staying connected in the background depends on your phone's battery settings. It needs Android 8.0 or newer. There are no ads, analytics or crash reporters, and the app talks only to the IRC servers you set up.",
+  "repo": "https://github.com/boxlabss/HexDroid",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://hexdroid.org",
+  "tags": [
+    "irc",
+    "chat",
+    "ircv3",
+    "bouncer",
+    "znc",
+    "soju",
+    "encrypted chat",
+    "file transfer"
+  ],
+  "added": "2026-10-06"
+}

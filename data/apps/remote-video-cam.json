@@ -1,0 +1,21 @@
+{
+  "id": "remote-video-cam",
+  "name": "Remote Video Cam",
+  "tagline": "Use two phones as a baby monitor or spare camera, no cloud",
+  "description": "Remote Video Cam turns two Android phones into a live video link. Set one up as the camera and the other as the display, and the display shows what the camera sees, with sound. The developer suggests using it as a baby monitor, a do-it-yourself security camera or a walkie-talkie.\n\nThere is nothing to set up: no account, no server, and the two phones find each other on their own. The app picks the best way to connect from your Wi-Fi network, Wi-Fi Aware and Wi-Fi Direct (the last two link the phones straight to each other, no router needed), and you can choose the connection type yourself in the settings. The video goes between your own devices, not through a company server. On the display phone you can mute the sound or flip the picture left to right, and on the camera phone you can switch between the front and back cameras.\n\nBoth phones need the app installed, and it asks for camera, microphone and location permissions. It is not a certified baby monitor or medical device. The video can freeze if the connection is poor, so do not rely on it alone, and the developer suggests keeping something that moves, like a clock with a second hand, in view to prove the picture is live. Wi-Fi Aware and Wi-Fi Direct depend on your phones supporting them. The app is in English and Russian.",
+  "repo": "https://github.com/izivkov/RemoteVideoCam",
+  "category": "tools",
+  "license": "MIT",
+  "fdroid": "org.avmedia.remotevideocam",
+  "tags": [
+    "baby monitor",
+    "security camera",
+    "spare phone",
+    "webcam",
+    "video streaming",
+    "wifi direct",
+    "walkie talkie",
+    "local network"
+  ],
+  "added": "2026-10-06"
+}

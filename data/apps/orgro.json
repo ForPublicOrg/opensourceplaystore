@@ -1,0 +1,25 @@
+{
+  "id": "orgro",
+  "name": "Orgro",
+  "tagline": "Read and edit your Org Mode notes and to-do files on your phone",
+  "description": "Orgro opens and edits Org Mode files on your phone. Org Mode is the plain-text outline format from Emacs, used for notes, to-do lists and planning. If you keep notes in .org files on a computer, Orgro lets you read them properly on Android instead of squinting at raw markup.\n\nSections, blocks and drawers fold and unfold with a tap, tables are drawn as tables, and long lines reflow to fit a narrow screen. You can search by plain text or regular expression, narrow the view to one section, or filter the document down to the headings that match a query. Checkboxes and TODO states change with a tap or a swipe, and timestamps open a date and time picker. For bigger changes you can edit the file as plain text. Agenda items can raise notifications, and text or links shared from other apps can be captured.\n\nOrgro is for reading and editing whole Org files, not for managing tasks in a set way. It does not sync: you open a file from your storage or a sync app and save it back. Links between Org files only work if the place your files are stored lets the app have access to the whole folder, which Dropbox and Google Drive do not. When it saves, it rebuilds the file from memory, so spacing elsewhere in the file can change, and the developer suggests keeping backups. It loads some fonts from online sources such as Google Fonts and shows linked web images, so those need an internet connection. The app is in English, German, Japanese, Russian and Ukrainian.",
+  "repo": "https://github.com/amake/orgro",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://orgro.org",
+  "fdroid": "com.madlonkay.orgro",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "org mode",
+    "emacs",
+    "org-roam",
+    "outliner",
+    "todo",
+    "agenda",
+    "notes",
+    "plain text"
+  ],
+  "added": "2026-10-06"
+}

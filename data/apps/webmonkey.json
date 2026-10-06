@@ -1,0 +1,21 @@
+{
+  "id": "webmonkey",
+  "name": "WebMonkey",
+  "tagline": "A plain web browser that runs Greasemonkey userscripts",
+  "description": "WebMonkey is a plain web browser that can run userscripts. A userscript is a small bit of JavaScript that changes a web page when you open it: it can hide clutter, add a missing button or fix a layout. WebMonkey spots userscript links as you browse, downloads them, and runs them on the pages they were written for.\n\nYour scripts sit in a list where you can edit, switch off or delete each one. They check for updates every so many days, and you can set that number or turn automatic updates off. WebMonkey supports the standard Greasemonkey commands, plus extras for Android such as starting another app through an intent or changing the user agent. In the settings you can choose a start page, switch to a desktop Chrome user agent, and back up or restore your scripts. Some builds include an ad blocker that uses a blocklist it downloads for you.\n\nIt is a no-frills browser, so do not expect the extras of a full one. Scripts only run in the main page, not in embedded frames, unless you set up a separate mitmproxy script as the developer describes. Scripts can change what you see, so install only ones you trust. Releases come with or without the ad blocker, and in English only or with all translations.",
+  "repo": "https://github.com/warren-bank/Android-WebMonkey",
+  "category": "internet",
+  "license": "GPL-2.0",
+  "website": "https://warren-bank.github.io/Android-WebMonkey/index.html",
+  "tags": [
+    "userscript",
+    "greasemonkey",
+    "tampermonkey",
+    "violentmonkey",
+    "browser",
+    "javascript",
+    "ad blocker",
+    "webview"
+  ],
+  "added": "2026-10-06"
+}

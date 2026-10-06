@@ -1,0 +1,21 @@
+{
+  "id": "openphotoframe",
+  "name": "OpenPhotoFrame",
+  "tagline": "Turn an old tablet into a photo frame, synced from Nextcloud",
+  "description": "OpenPhotoFrame turns an old Android tablet into a digital photo frame. Prop it on a shelf and it shows your pictures one after another, fading from one to the next. There are no ads, no subscriptions and no tracking.\n\nPhotos can come from a Nextcloud share link, a Nextcloud or other WebDAV account with a username and password, a folder on the tablet, or the tablet's own gallery. Synced photos are kept on the tablet, so the frame keeps working offline. You choose how long each photo stays up (1 to 15 minutes), how often to sync, and whether to fill spare screen space with a blurred copy of the photo. It can also show a clock, or the date and place a photo was taken, and a night schedule turns the display off and back on at set times. Tap the middle of the screen for settings, or the edges to go back and forward.\n\nTo sync you need your own Nextcloud or WebDAV server. Turning the screen fully off needs Device Admin permission and no screen lock, otherwise it only dims. Place names are looked up through OpenStreetMap's Nominatim service, which means sending it the photo's coordinates, so that is off until you switch it on. The app is in English and German.",
+  "repo": "https://github.com/micw/OpenPhotoFrame",
+  "category": "media",
+  "license": "GPL-3.0",
+  "fdroid": "io.github.micw.openphotoframe",
+  "tags": [
+    "photo frame",
+    "digital photo frame",
+    "slideshow",
+    "nextcloud",
+    "webdav",
+    "old tablet",
+    "picture frame",
+    "kiosk"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ooni-probe",
+  "name": "OONI Probe",
+  "tagline": "Test whether websites and apps are blocked on your network",
+  "description": "OONI Probe checks whether your internet connection is being interfered with. It tests whether websites and messaging apps are blocked where you are, looks for equipment on your network that could be behind censorship, and measures how fast your connection is.\n\nYou choose which tests to run. There are tests for websites (pick the categories of site to check, or enter your own addresses), for WhatsApp, Telegram, Signal and Facebook Messenger, for Tor and Psiphon, and for speed and video streaming. By default your results are also published openly on OONI Explorer, where researchers and journalists can use them as evidence of censorship. The published data includes your country, your network (including its ASN) and the time of the test, and the developers say they do their best not to publish your IP address. You can turn publishing off in the settings, and you can let the app run tests in the background about once an hour.\n\nOONI Probe is not a privacy tool. Anyone watching your connection, such as your internet provider or a government, can see that you are running it, and you may end up testing banned websites, although you choose which sites to test. Do not run it over a VPN, because the results can look as if they came from the wrong country. It needs an internet connection and relies on OONI's own servers for test lists and for publishing results. The app is available in many languages.",
+  "repo": "https://github.com/ooni/probe-multiplatform",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "website": "https://ooni.org",
+  "fdroid": "org.openobservatory.ooniprobe",
+  "tags": [
+    "censorship",
+    "blocked websites",
+    "network test",
+    "speed test",
+    "ooni",
+    "measurement",
+    "whatsapp blocked"
+  ],
+  "added": "2026-10-06"
+}

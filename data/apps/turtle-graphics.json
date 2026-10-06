@@ -1,0 +1,21 @@
+{
+  "id": "turtle-graphics",
+  "name": "Turtle",
+  "tagline": "Draw with Python-style code and watch a turtle trace your shapes",
+  "description": "Turtle is a small coding playground for your phone. You type short programs in a Python-style language, press Execute, and a little turtle draws on the screen as it follows your instructions. Tell it to go forward or backward, turn left or right, lift the pen or put it down, change the pen colour, or draw a circle. It is an easy way to see what each line of code does.\n\nThe app has four tabs: Code for writing programs, Draw for watching the turtle, Terminal for the output of your programs, and Files for the programs you have saved. It comes with plenty of examples, from squares, triangles, pentagons, hexagons and stars to plain Python ideas such as loops, f-strings and list comprehensions. If you want to go further, you can also try GPU programming: mark a function with @gpu and run it across many threads at once.\n\nThis is not the real Python. The developer wrote their own interpreter from scratch and adds language features with most releases, so some Python code from elsewhere will not run yet. The app is in English only. It has no ads, collects no data, and does not ask for internet access.",
+  "repo": "https://github.com/AmrDeveloper/Turtle",
+  "category": "education",
+  "license": "MIT",
+  "fdroid": "com.amrdeveloper.turtle",
+  "tags": [
+    "python",
+    "turtle graphics",
+    "learn to code",
+    "programming",
+    "code editor",
+    "drawing with code",
+    "interpreter",
+    "gpu programming"
+  ],
+  "added": "2026-10-06"
+}

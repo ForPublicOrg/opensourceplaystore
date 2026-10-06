@@ -1,0 +1,20 @@
+{
+  "id": "per-app-language",
+  "name": "Per-App Language",
+  "tagline": "Set a different display language for any single app",
+  "description": "Per-App Language lets one app run in a different language from the rest of your phone. Keep Android in English while one chat app shows Japanese and a shopping app shows Simplified Chinese. It works even on apps that have no language option and never appear in Android's App language settings.\n\nYou get one list of every app on the phone. Tap an app, pick a language from the presets, your own list or any language tag you type, then tap Apply & Restart so the app picks it up at once. Changed apps are marked, and System Default puts an app back how it was. Android itself remembers the choice, so it stays even when Shizuku is no longer running. The app has no internet permission.\n\nIt is not a translator: if an app has no text in the language you pick, nothing changes, and apps that store their language in your account may ignore it. You need Android 13 or newer and Shizuku, started from the phone with wireless debugging (no root needed). Unless your phone is rooted, you must start Shizuku again after every reboot before you can change a language. Some phone makers block the force-restart step, and then you close the app yourself. The screens are in English, Spanish, French, Japanese, Korean and Simplified Chinese.",
+  "repo": "https://github.com/TakeruF/android-perapp-language-selector",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://takeruf.com/projects/per-app-language",
+  "tags": [
+    "language",
+    "locale",
+    "app language",
+    "per-app language",
+    "shizuku",
+    "android 13",
+    "change language"
+  ],
+  "added": "2026-10-06"
+}

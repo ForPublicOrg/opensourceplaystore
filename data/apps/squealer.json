@@ -1,0 +1,21 @@
+{
+  "id": "squealer",
+  "name": "Squealer",
+  "tagline": "Open, browse and query SQLite database files on your phone",
+  "description": "Squealer lets you look inside SQLite database files on your phone. Many apps keep their data in files ending in .db or .sqlite, and Squealer opens them so you can see what is in there or run a query without a computer.\n\nThe app has three tabs. Structure shows the tables, views, indices and triggers and the columns in each. Data lets you browse the rows in a table or view and search for a table by name. Query lets you type your own SQL and see the results. You can save statements and give them names, and Squealer remembers recently opened databases. Results and whole tables can be exported as CSV, JSON or SQL (the developer marked SQL export as experimental when it was added). Databases locked with SQLCipher can be opened with a passphrase or a key.\n\nThis is a tool for people who know a little SQL. Write commands work as well as read ones, so a careless query can change your file for good; keep a copy of anything you care about. There is an optional direct file access setting that asks for Android's all files access permission. The app is still at version 0.1.",
+  "repo": "https://github.com/FuturisticGoo/squealer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "futuristicgoo.squealer",
+  "tags": [
+    "sqlite",
+    "database",
+    "sql",
+    "db viewer",
+    "sqlcipher",
+    "csv export",
+    "query",
+    "json export"
+  ],
+  "added": "2026-10-06"
+}

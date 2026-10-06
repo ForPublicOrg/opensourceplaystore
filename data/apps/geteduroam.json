@@ -1,0 +1,22 @@
+{
+  "id": "geteduroam",
+  "name": "geteduroam",
+  "tagline": "Set up your university or school eduroam Wi-Fi without the fiddly settings",
+  "description": "geteduroam sets up eduroam Wi-Fi on your phone. eduroam is the network that universities, colleges and research institutions offer their students and staff, and joining it by hand means getting certificates and security settings exactly right. This app does that part for you.\n\nYou search for your institution in a list the app downloads, pick a profile if there is more than one, and sign in with the username and password your institution gave you (some use their own web sign-in page instead). The app passes the settings to Android, which asks you to approve them. If your institution gave you an .eap-config file, you can open that instead. The app can also remind you before your access runs out, so you can set it up again in one tap.\n\nYou need an account at an institution that takes part in eduroam, or there is nothing to set up. It needs Android 8 or newer, and on Android 10 you accept the new network from a notification. For the reminder to arrive, Android must not put the app to sleep, so you may be asked to switch off its unused-app restrictions. It is translated into many languages, including German, French, Spanish, Dutch and Arabic.",
+  "repo": "https://github.com/geteduroam/android-app",
+  "category": "internet",
+  "license": "BSD-3-Clause",
+  "website": "https://www.geteduroam.app/",
+  "fdroid": "app.eduroam.geteduroam",
+  "tags": [
+    "eduroam",
+    "wifi",
+    "university",
+    "campus wifi",
+    "school",
+    "wpa enterprise",
+    "passpoint",
+    "network setup"
+  ],
+  "added": "2026-10-06"
+}

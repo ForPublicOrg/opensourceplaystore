@@ -1,0 +1,25 @@
+{
+  "id": "wigle-wifi-wardriving",
+  "name": "WiGLE WiFi Wardriving",
+  "tagline": "Map the Wi-Fi, Bluetooth and cell signals around you as you travel",
+  "description": "WiGLE is a wardriving app. As you walk or drive around, it listens for Wi-Fi networks, Bluetooth devices and mobile phone towers and logs each one along with where you found it. Over time you build up a map and a database of the wireless signals in your area.\n\nYou can browse and search what you have collected and export it as CSV, KML, GPX route files or a SQLite database. It can alert you, with sounds or spoken announcements, when it sees a particular device address or Bluetooth manufacturer, and it can run a Wi-Fi site survey on a single network. If you want to, you can upload your finds to wigle.net with an account there, which adds them to the WiGLE project's online map and shows your standing in its rankings. Uploading is optional, and the app has no ads.\n\nThis is a mapping tool, not a way to find free Wi-Fi or get into networks. It needs your location and Android 7 or newer. On Android 10 and up, switch off Wi-Fi scan throttling in Developer Options to get the most out of it. The F-Droid build has no Google Maps: its map starts as a basic demo map, and for street-level detail you enter the address of a map-style server (and a key, if it needs one) in the settings. Uploads go into WiGLE's own database, which is not open source. You are logging other people's networks and devices, so follow your local rules.",
+  "repo": "https://github.com/wiglenet/wigle-wifi-wardriving",
+  "category": "maps",
+  "license": "BSD-3-Clause",
+  "website": "https://wigle.net",
+  "fdroid": "net.wigle.wigleandroid",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "wardriving",
+    "wifi scanner",
+    "network mapper",
+    "bluetooth scanner",
+    "cell towers",
+    "signal mapping",
+    "gps logger",
+    "wigle"
+  ],
+  "added": "2026-10-06"
+}

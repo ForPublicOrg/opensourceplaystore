@@ -1,0 +1,24 @@
+{
+  "id": "lyricistant",
+  "name": "Lyricistant",
+  "tagline": "Write song lyrics with syllable counts, rhymes and word lookups",
+  "description": "Lyricistant is a writing app for song lyrics and poems. It is an editor first, with the things a songwriter wants close at hand, rather than a rhyming tool with a text box added on. You type your words and it stays out of the way.\n\nA number beside each line shows how many syllables it has, so you can keep a verse in rhythm. Type or select a word and a panel suggests words that rhyme with it, and you can look up its definition, synonyms and antonyms. Your lyrics save to files you can reopen later, and the app shows you the history of your file. There are light and dark themes that can follow your phone, and on Android 12 and newer it picks up your phone's colours. The same app also runs in a web browser and on Windows, Mac and Linux.\n\nRhyme suggestions come from the online Datamuse service by default and definitions come from an online dictionary, so you need an internet connection for both. Settings has an offline rhyme list that the developer still labels alpha. Syllable counts and writing work without a connection. The app also sends an anonymous visit count (which platform and version you run) to a GoatCounter statistics page.",
+  "repo": "https://github.com/wardellbagby/lyricistant",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://lyricistant.app",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "lyrics",
+    "songwriting",
+    "poetry",
+    "rhymes",
+    "syllables",
+    "writing",
+    "dictionary",
+    "songwriter"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tend",
+  "name": "Tend",
+  "tagline": "Remember to check in with the friends and family who matter",
+  "description": "Tend is a gentle reminder to stay in touch with people. You add the friends and family you care about, choose how often you want to reach out to each of them (weekly, every two weeks, monthly, or a number of days you pick), and Tend sends a notification when someone is due. The home screen shows who is due soon, and there is a home screen widget too.\n\nEach person has a page for their phone number, email, social links and notes. You can import people from your phone's contacts along with their birthdays and anniversaries, and Tend reminds you of upcoming dates ahead of time. When you get in touch, mark them as contacted and log whether it was a call, a message, a meetup or a video call, so each person builds up a history. You can archive people, back up your list to a file, and share someone with a friend by showing a QR code to scan.\n\nEverything stays on your phone and there is no account. Tend asks to read and change your contacts, to show notifications, and to use the camera when you scan a QR code. It is in English only.",
+  "repo": "https://github.com/jksalcedo/tend",
+  "category": "social",
+  "license": "GPL-3.0",
+  "tags": [
+    "keep in touch",
+    "reminders",
+    "friends",
+    "family",
+    "birthdays",
+    "contacts",
+    "relationships"
+  ],
+  "added": "2026-10-06"
+}

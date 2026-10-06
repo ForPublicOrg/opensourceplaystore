@@ -1,0 +1,20 @@
+{
+  "id": "cavesurvey",
+  "name": "CaveSurvey",
+  "tagline": "Record cave survey measurements underground and export them for mapping",
+  "description": "CaveSurvey is a digital survey sheet for cavers. You take your phone underground, add each measured leg and station as you go, and come out with data ready to turn into a cave map, instead of a paper notebook to type up later.\n\nYou can type measurements in, read them from the phone's compass and tilt sensors, or receive them over Bluetooth from a supported laser meter or cave-surveying instrument, such as the DistoX, Leica Disto or Bosch GLM. Each station can hold distances, notes, photos, sketches and an entrance GPS position. A basic plan and cross-section map helps you spot big mistakes before you leave the cave. Data exports to Excel, Therion, AutoCAD, Google Earth (KML) and more, or uploads to GrottoCenter if you have an account there.\n\nThe phone's own sensors can be imprecise, so a phone with a good compass and water protection is recommended. Some Bluetooth meters must be set to metres and degrees and paired first. The release build includes a closed-source Bosch library for Bosch meters. The latest numbered release is from March 2024. The text is in English plus eight other languages, including German, Spanish and Russian.",
+  "repo": "https://github.com/lz1asl/CaveSurvey",
+  "category": "maps",
+  "license": "MIT",
+  "tags": [
+    "cave",
+    "caving",
+    "speleology",
+    "survey",
+    "cave mapping",
+    "bluetooth laser meter",
+    "distox",
+    "therion"
+  ],
+  "added": "2026-10-06"
+}

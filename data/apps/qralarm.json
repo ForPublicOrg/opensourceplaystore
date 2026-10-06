@@ -1,0 +1,21 @@
+{
+  "id": "qralarm",
+  "name": "QRAlarm",
+  "tagline": "An alarm clock that only stops when you scan a QR code",
+  "description": "QRAlarm is an alarm clock that only goes quiet when you scan a QR code or barcode. Put the code somewhere you have to walk to, like the kitchen or bathroom, and the alarm keeps ringing until you get up and scan it, so you cannot just tap snooze and fall back asleep.\n\nAny QR code or barcode works, or you can assign a particular one to each alarm. If you do not have one, the app can save a QR code for you to print. Alarms can repeat on chosen days, snooze a set number of times, vibrate, and get louder slowly for a gentle wake-up, with built-in sounds or your own file. A temporary mute silences the alarm briefly after you press Stop, so you have time to reach the code. If you lose the code, an emergency task (sliding a control to a target number) stops the alarm instead. You can back up your alarms and codes to a file, and a widget shows your next alarm.\n\nIt needs the camera to scan codes, and it asks to ignore battery optimisation and to show full-screen alarms so they ring on time. Some phone makers still stop background apps, and the app has a guide for fixing that. A few extras, such as chaining alarms together, blocking the power-off menu and a custom colour theme, are only in QRAlarm PRO, a separate paid app on Google Play that this one advertises in its menu. The app is available in English and about 20 other languages.",
+  "repo": "https://github.com/sweakpl/qralarm-android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.sweak.qralarm",
+  "tags": [
+    "alarm",
+    "alarm clock",
+    "qr code",
+    "barcode",
+    "wake up",
+    "snooze",
+    "oversleeping",
+    "morning"
+  ],
+  "added": "2026-10-06"
+}

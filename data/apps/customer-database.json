@@ -1,0 +1,21 @@
+{
+  "id": "customer-database",
+  "name": "Customer Database",
+  "tagline": "Keep a small business's customers and vouchers apart from your contacts",
+  "description": "Customer Database is a simple address book for a small business, kept apart from your personal contacts. For each customer you can save names, phone numbers, email, address, birthday, notes and a photo, and sort people into groups. It also keeps track of vouchers you have issued, with their value, the date they are valid until and whether they have been redeemed.\n\nIt shows upcoming birthdays and can open your email app with a newsletter for everyone who agreed to get one. You can import people from VCF files, export everything as CSV or VCF, and print a customer record as a PDF. There are tools for EU privacy rules, such as sending a customer a copy of the data you hold on them. There is no tracking and no forced cloud account. Data stays on your phone unless you turn on sync, which can use a server you run yourself or the developer's cloud service, and also works with the iOS version.\n\nSome features in the GitHub version are locked until you buy an unlock code from the developer's website: custom fields, an appointment calendar, file attachments, input-only mode for handing the phone to a visitor, an app lock, design options (including dark mode) and room for more than 500 customers. The developer also asks businesses to buy a one-time commercial licence, and the app shows a reminder every so often until you do. The cloud sync service costs a monthly fee, and syncing to your own server needs Apache, PHP and MySQL. The app is in English, German, Spanish, French, Italian, Dutch, Russian and Hebrew.",
+  "repo": "https://github.com/schorschii/CustomerDB-Android",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://georg-sieber.de/app-customerdb",
+  "tags": [
+    "crm",
+    "customers",
+    "clients",
+    "small business",
+    "address book",
+    "vouchers",
+    "appointments",
+    "contacts"
+  ],
+  "added": "2026-10-06"
+}

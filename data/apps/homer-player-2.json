@@ -1,0 +1,22 @@
+{
+  "id": "homer-player-2",
+  "name": "Homer Audio Player",
+  "tagline": "A big-button audiobook and podcast player for older or low-vision listeners",
+  "description": "Homer Audio Player is an audiobook and podcast player for older people and people who cannot see well. It has big buttons, a flat list with no deep folders, and an option to read each title aloud as you browse, so anyone who finds ordinary audio apps confusing can pick something and press play.\n\nIt plays audiobooks from folders on the device (MP3, M4A, M4B and more) and remembers your place in each book. Podcasts are added by search or RSS link, and the latest few episodes are downloaded in full, so they play without breaks. There are also a sleep timer, speed control, high-contrast light and dark themes, and flip-to-stop: lay the device screen down to pause. An optional lockdown mode hides settings, notifications and other apps, turning a spare tablet into a single-purpose player. It uses a small helper app and means factory-resetting the tablet.\n\nHomer is only a player: you bring your own DRM-free audiobooks. Podcast search uses the Podcast Index service, and downloads only run on unmetered connections such as home Wi-Fi unless you change that. This is the open-source build, with no analytics or crash reporting.",
+  "repo": "https://github.com/msimonides/homerplayer2",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://homeraudioplayer.app/",
+  "fdroid": "com.studio4plus.homerplayer2",
+  "tags": [
+    "audiobooks",
+    "podcasts",
+    "seniors",
+    "elderly",
+    "accessibility",
+    "visually impaired",
+    "kiosk",
+    "talking books"
+  ],
+  "added": "2026-10-06"
+}

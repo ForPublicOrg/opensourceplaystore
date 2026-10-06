@@ -1,0 +1,24 @@
+{
+  "id": "deliveries",
+  "name": "Deliveries",
+  "tagline": "Track parcels from many carriers in one list",
+  "description": "Deliveries keeps all your parcels in one list, even when they come from different carriers. Add a tracking ID, choose the carrier (the ones that fit your number are listed first), and the app shows the current status and the full history of stops. You get a notification each time a parcel moves on.\n\nYou can name each parcel, add a postal code where a carrier wants one, and archive a parcel once it arrives so its history stays on your phone without being checked again. Updates are fetched in the background about every 15 minutes (Android may stretch that), and a setting limits this to unmetered connections such as home Wi-Fi. A demo mode fills the list with example parcels so you can try it first. There are no ads.\n\nIt only works with carriers it supports: 4PX, Cainiao, DHL, GLS, UPS, UniUni, DPD UK, Evri, eKart, SPX Thailand and a long list of European post and parcel firms such as InPost, PostNL and PostNord. GLS and PostNL also need a postal code. DHL needs a free API key from DHL's developer portal, which you paste into the settings. Each carrier is asked directly over the internet, so one can stop working when its service changes, until the app is updated.",
+  "repo": "https://github.com/itsvic-dev/deliveries",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "fdroid": "dev.itsvic.parceltracker",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "parcel tracker",
+    "package tracking",
+    "delivery",
+    "shipping",
+    "courier",
+    "dhl",
+    "ups",
+    "tracking number"
+  ],
+  "added": "2026-10-06"
+}

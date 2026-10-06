@@ -1,0 +1,25 @@
+{
+  "id": "airplanes-live",
+  "name": "airplanes.live",
+  "tagline": "Track aircraft live and get alerts when the ones you watch fly",
+  "description": "airplanes.live is the Android companion for the airplanes.live flight tracker, a community-run service fed by receivers that people set up around the world. It puts the live aircraft map on your phone, so you can see planes in the air, tap one for its details, and find a particular plane or flight by searching.\n\nYou can search by hex code, callsign, registration, airframe or squawk code, and see a flight's route with its origin and destination airports. A watchlist can notify you when a specific aircraft is airborne, when a flight with a certain callsign is active, when a squawk code is transmitted, or when aircraft appear in an area you choose. An AR view uses your camera and location to show nearby aircraft in the sky. If you run a receiver that feeds airplanes.live, the app can add it by QR code or by finding it on your network, show its stats and warn you when it goes offline. The map is the airplanes.live website shown inside the app.\n\nYou need an internet connection, and everything depends on the airplanes.live service staying online. Location is optional, but some features, such as distances to aircraft, need it, and notifications have to be allowed for alerts to reach you. The app is still on 0.x version numbers. Development builds are adding a free tier with daily limits on searches and watch checks, and squawk and location watches become Pro features there. Linking your own ADS-B feeder unlocks Pro.",
+  "repo": "https://github.com/d4rken-org/airplanes-live-app",
+  "category": "maps",
+  "license": "GPL-3.0",
+  "website": "https://airplanes.live",
+  "antiFeatures": [
+    "nonfree-assets",
+    "nonfree-network"
+  ],
+  "tags": [
+    "adsb",
+    "flight tracker",
+    "aircraft",
+    "planes",
+    "plane spotting",
+    "squawk",
+    "aviation",
+    "feeder"
+  ],
+  "added": "2026-10-06"
+}

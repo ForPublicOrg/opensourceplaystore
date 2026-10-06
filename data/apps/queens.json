@@ -1,0 +1,20 @@
+{
+  "id": "queens",
+  "name": "Queens",
+  "tagline": "A crown-placing logic puzzle with endless levels, offline and ad-free",
+  "description": "Queens is a logic puzzle on a square grid split into coloured regions. You place one queen in every row, every column and every coloured region, and no two queens may touch, not even at the corners. It is a game of working things out from what each placement rules out.\n\nThere are more than 150 levels in order, starting small and growing to a 16 by 16 grid. A Random Puzzle button makes a fresh board from 5 by 5 up to 9 by 9, so you never run out. Tap a square to cycle it from empty to a cross to a queen, or drag across squares to mark crosses quickly. There is an undo button, two hints per puzzle, a timer and a colour-blind mode. Auto-cross can fill in squares that a queen rules out, and you can switch it off. A half-finished puzzle is saved for later.\n\nThere are no ads, no tracking and no internet permission, and your progress stays on your phone. Some extra colour themes and piece styles (animals instead of crowns) are locked until you enter an unlock code. The code is in the README, and the developer asks you to give the project a star on GitHub if you enjoy it.",
+  "repo": "https://github.com/sidhant947/Queens",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.sidhant.queens",
+  "tags": [
+    "puzzle",
+    "logic puzzle",
+    "queens",
+    "crowns",
+    "brain teaser",
+    "offline",
+    "no ads"
+  ],
+  "added": "2026-10-06"
+}

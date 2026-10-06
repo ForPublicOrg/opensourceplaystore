@@ -1,0 +1,21 @@
+{
+  "id": "stendhal",
+  "name": "Stendhal",
+  "tagline": "A free fantasy adventure you play online with other people",
+  "description": "Stendhal is a fantasy role-playing game that you play online with other people. You make a character and walk around a big 2D world of towns, forests, caves and dungeons. You talk to the people you meet, take on quests for experience and money, fight monsters, and buy better armour and weapons as you level up.\n\nThe Android app is a small wrapper around the Stendhal web client, which it loads from stendhalgame.org, so the game plays just as it does in a browser. In the settings you can choose the screen orientation, turn the title music on or off and pick the song, clear the cache and change the web client address. The whole project is open source, client and server both, and it dates back to 2005.\n\nYou need an internet connection the whole time, because the game is played online. You also need a free Stendhal account, which you create or log in to from the game's own pages before you can play.",
+  "repo": "https://github.com/arianne/stendhal",
+  "category": "games",
+  "license": "GPL-2.0",
+  "website": "https://stendhalgame.org/",
+  "fdroid": "org.stendhalgame.client",
+  "tags": [
+    "mmorpg",
+    "rpg",
+    "multiplayer",
+    "online game",
+    "fantasy",
+    "quests",
+    "adventure game"
+  ],
+  "added": "2026-10-06"
+}

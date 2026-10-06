@@ -1,0 +1,22 @@
+{
+  "id": "tiefprompt",
+  "name": "TiefPrompt",
+  "tagline": "Scroll your script on screen while you film or give a talk",
+  "description": "TiefPrompt is a simple teleprompter. Paste in a script or load one from a file, press play, and the text scrolls up the screen at a steady pace, so you can read it while you record a video, give a talk or practise a speech.\n\nYou choose the speed, from 0.1x up to 20x, with an optional countdown before the scrolling starts. You can change the font, text size and alignment, pick your own text and background colours, and show a reading box so your eyes know where to rest. The text can be flipped sideways or upside down for use with a physical teleprompter. Scripts can use Markdown, you can save several of them by name or use a quick throwaway one, and the screen stays awake while it plays. Your settings can be exported and imported as a JSON file.\n\nThe interface is in English and several other languages, though the Chinese translation is incomplete. The versions on Google Play and the Apple App Store are freemium, but the F-Droid and GitHub builds are free. The same app also runs on Windows, Linux and macOS.",
+  "repo": "https://github.com/Tiefseetauchner/tiefprompt",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://tiefprompt.com/",
+  "fdroid": "io.github.tiefseetauchner.tiefprompt",
+  "tags": [
+    "teleprompter",
+    "prompter",
+    "autocue",
+    "script",
+    "speech",
+    "presentation",
+    "video",
+    "scrolling text"
+  ],
+  "added": "2026-10-06"
+}

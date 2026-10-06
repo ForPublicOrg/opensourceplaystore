@@ -1,0 +1,20 @@
+{
+  "id": "flut-renamer",
+  "name": "Flut Renamer",
+  "tagline": "Rename lots of files at once, with rules and a preview first",
+  "description": "Flut Renamer renames many files in one go. You add the files, build a short list of rules, and the app shows each old name next to its new one before anything changes. Press Rename when the list looks right.\n\nThe rules can insert, replace or remove text, number files in a sequence (you set the start number, step and zero padding), rearrange parts of a name, cut names short and change letter case. You can also put details from the file into its name: dates, sizes, photo Exif fields, and audio tags such as artist, album and track number. There are extras for turning simplified Chinese into traditional and back, Chinese into pinyin, and some Cyrillic languages into Latin letters. Rules run from top to bottom, regular expressions work, and you can save a set of rules as a YAML file to load later. It has 12 interface languages, no ads and no in-app purchases.\n\nThere is no undo button. The app checks for clashing names first and tries to roll back if a rename fails part way, but the developer suggests trying new rules on copies of important files first. On Android it uses the system file picker, so storage that does not allow renaming cannot be changed, and choosing a folder renames the folder itself, not the files inside. Its privacy policy says it collects nothing and has no internet access.",
+  "repo": "https://github.com/sun-jiao/flut-renamer",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "rename",
+    "bulk rename",
+    "batch rename",
+    "file renamer",
+    "exif",
+    "regex",
+    "numbering",
+    "metadata"
+  ],
+  "added": "2026-10-06"
+}

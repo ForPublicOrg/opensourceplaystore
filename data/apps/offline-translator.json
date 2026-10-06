@@ -1,0 +1,21 @@
+{
+  "id": "offline-translator",
+  "name": "Offline Translator",
+  "tagline": "Translate text, pictures and documents on your phone, offline",
+  "description": "Offline Translator translates text, photos and documents on your phone. The translating happens on the device, not on a server. You download a language pack once, and after that it works with no internet connection. It uses the translation models made for Firefox and covers around 60 languages.\n\nType text in, or share text or a link from any other app. Long-press text in another app and tap Translate for a small popup. Share a photo and it reads the words in the picture and puts the translation back over them. The documents tab handles PDF and ODT files. It also guesses the language for you, can show text from non-Latin scripts in Latin letters, has a built-in word dictionary, and can read translations aloud for most languages. To translate whatever is on your screen, set it as your device assistant or turn on its accessibility service.\n\nEach language needs its own download before it works, so you need an internet connection at the start (the project also explains how to copy the files over by hand). The developer described the Georgian support added in version 0.8.4 as not very good yet. The APKs on GitHub and F-Droid are for ARM phones only.",
+  "repo": "https://github.com/DavidVentura/offline-translator",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "dev.davidv.translator",
+  "tags": [
+    "translator",
+    "translate",
+    "offline",
+    "ocr",
+    "dictionary",
+    "text to speech",
+    "image translation",
+    "languages"
+  ],
+  "added": "2026-10-06"
+}

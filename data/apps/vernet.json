@@ -1,0 +1,22 @@
+{
+  "id": "vernet",
+  "name": "Vernet",
+  "tagline": "Find devices on your Wi-Fi, ping hosts, scan ports and test speed",
+  "description": "Vernet is a set of network tools for your phone. Join a Wi-Fi network and it shows the network name, your phone's address and the gateway, then looks for the other devices on the same network. It can run that scan each time you open the app, so you can see who and what is sharing your connection.\n\nYou can ping a website or a device to see whether it answers, even when there is no internet. Port scans check popular ports, a custom range or a single port to show which services a device makes reachable. DNS lookups turn website names into addresses and find device names, and there is a download and upload speed test. It also shows your public IP address and internet provider. Newer releases add Wake on LAN, so you can switch on a computer on your network from the phone. Devices and services that are reachable are listed as security findings to review. The developer says this is useful but does not replace a professional security audit.\n\nLocation access lets Vernet show the name of your Wi-Fi network, so it asks for it, and you can carry on without it. Speed test results come from Speedtest.net, so that part needs the internet.",
+  "repo": "https://github.com/osociety/vernet",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://vernet-app.web.app",
+  "fdroid": "org.fsociety.vernet",
+  "tags": [
+    "network scanner",
+    "wifi",
+    "ping",
+    "port scanner",
+    "dns lookup",
+    "speed test",
+    "wake on lan",
+    "who is on my wifi"
+  ],
+  "added": "2026-10-06"
+}

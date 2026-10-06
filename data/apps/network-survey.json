@@ -1,0 +1,22 @@
+{
+  "id": "network-survey",
+  "name": "Network Survey",
+  "tagline": "Log the mobile, Wi-Fi, Bluetooth and GPS signals around you",
+  "description": "Network Survey turns your phone into a signal logger. While it runs, it records the mobile networks, Wi-Fi networks, Bluetooth devices and GPS satellites your phone can see, along with signal strength and where you were. You can watch it all live on screen or save it to look at later.\n\nSurveys are saved as GeoPackage or CSV files you can open on a computer. Mobile coverage includes GSM, CDMA, UMTS, LTE and 5G, though it only logs the types your phone is connected to at that moment. A tower map shows nearby masts, with locations drawn from databases such as OpenCelliD, and you can upload your own readings to OpenCelliD and BeaconDB to help improve them. If you run your own MQTT broker or gRPC server, the app can stream readings to it live. There are also a Wi-Fi watchlist, an LTE and 5G band reference and some cell ID calculators.\n\nIt needs location access, because every record carries a position. Streaming and uploads are optional and stay off until you set them up, and the tower map needs an internet connection. Call and text logging asks for those permissions only when you turn it on. The developer also runs an optional web service called NS Analytics, which has paid plans. The F-Droid version and the cdr APKs on GitHub have no analytics or crash reporting, but the Google Play build does.",
+  "repo": "https://github.com/christianrowlands/android-network-survey",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://networksurvey.app/",
+  "fdroid": "com.craxiom.networksurvey",
+  "tags": [
+    "cell tower",
+    "signal strength",
+    "wifi scanner",
+    "bluetooth scanner",
+    "gps",
+    "survey",
+    "network logger",
+    "gnss"
+  ],
+  "added": "2026-10-06"
+}

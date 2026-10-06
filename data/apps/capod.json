@@ -1,0 +1,25 @@
+{
+  "id": "capod",
+  "name": "CAPod",
+  "tagline": "See your AirPods battery level and case status on Android",
+  "description": "CAPod shows what your AirPods are doing on an Android phone. It reads the battery level of each earbud and the case, tells you whether they are charging, and shows details such as the connection and microphone status. It also works with many Beats headphones.\n\nEar detection can pause your music when you take an earbud out and carry on when you put it back. CAPod can show a popup when you open the case, ask Android to connect your AirPods automatically, and put battery readings on a home screen widget. Some models also get controls such as noise modes. The supported list covers AirPods from the first to the fifth generation, AirPods Pro, AirPods Max and many Beats models.\n\nYou need AirPods or supported Beats headphones. CAPod reads the Bluetooth signals they broadcast, so it asks for Bluetooth scan permission, and for location on Android 11 and older. It has no ads, but extras such as auto play and pause, case popups, widgets, themes and advanced device controls are locked until you support the developer. In the version listed here you do that from a sponsor button that opens their GitHub Sponsors page. Some phones do not pick up the AirPods signal properly, and a built-in troubleshooter tries different settings to fix that. It needs Android 8 or newer.",
+  "repo": "https://github.com/d4rken-org/capod",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://capod.darken.eu/",
+  "fdroid": "eu.darken.capod",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "airpods",
+    "beats",
+    "earbuds",
+    "battery",
+    "bluetooth",
+    "ear detection",
+    "headphones",
+    "airpods pro"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "idle-fantasy",
+  "name": "Idle Fantasy",
+  "tagline": "An offline idle RPG: train skills, fight dungeons, come back for loot",
+  "description": "Idle Fantasy is an idle role-playing game that plays itself while your phone is in your pocket. You pick a skill to train or a dungeon to fight, start a session, and close the app. Your hero keeps working for up to an hour, and when you come back you collect the XP and loot, then send them out again. There is no stamina bar and no energy system, and nothing pushes you to stay in the app.\n\nThere are 23 skills to level, from mining, fishing and cooking to smithing, prayer, magic and slayer. Better gear lets you gather faster and survive tougher dungeons, and there are 33 dungeons, raid bosses, an endless tower and 189 quests. In town you can join guilds, upgrade buildings, build and furnish a house, hire mercenaries and visit a travelling carnival. Rare pet drops give permanent XP bonuses, and a skill that reaches level 99 can be prestiged for lasting upgrades. You can export your save to a file and restore it from one later.\n\nThe game works fully offline, with no account and no ads, and your save stays on your device. It can send a notification when a session ends, and your phone may need to let the app run in the background for that to arrive on time. It is translated into 22 languages by volunteers, and some translations are only partial. Needs Android 8.0 or newer.",
+  "repo": "https://github.com/tristinbaker/IdleFantasy",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://idlefantasy.tristinbaker.xyz/",
+  "fdroid": "com.tristinbaker.idlefantasy",
+  "tags": [
+    "idle game",
+    "rpg",
+    "incremental",
+    "offline game",
+    "dungeons",
+    "skilling",
+    "no ads"
+  ],
+  "added": "2026-10-06"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "share-2-archive-today",
+  "name": "Share 2 Archive Today",
+  "tagline": "Share a link to save a copy on Archive.today, with tracking removed",
+  "description": "Share 2 Archive Today adds an entry to your share menu. Share a web link to it from any app and it opens that page on Archive.today, a website that keeps a public saved copy of a page. It has no screen of its own: you use it only from the share menu.\n\nThe app finds the first web address in whatever text you shared, so you do not need to select just the link. It then strips tracking parts from the address, using the ClearURLs rules and a tracking-parameter list from AdGuard and uBlock Origin, both bundled in the app, plus extra rules for sites such as YouTube, Reddit, Amazon, Mailchimp and Facebook. A second entry, Copy clean URL, puts the cleaned link on your clipboard instead. You can also share a picture of a QR code and it reads the link from that.\n\nThe saving happens on Archive.today in your browser, so you need a connection, anything you archive is public, and some sites block the service. The app has no internet permission itself, and the developer says it collects no data.",
+  "repo": "https://github.com/gabefair/Share-2-Archive-Today",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "fdroid": "org.gnosco.share2archivetoday",
+  "tags": [
+    "archive.today",
+    "archive.is",
+    "web archive",
+    "share menu",
+    "clearurls",
+    "remove trackers",
+    "clean links",
+    "qr code"
+  ],
+  "added": "2026-10-06"
+}

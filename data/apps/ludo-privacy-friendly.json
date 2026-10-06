@@ -1,0 +1,19 @@
+{
+  "id": "ludo-privacy-friendly",
+  "name": "Privacy Friendly Ludo",
+  "tagline": "Roll the dice and race your pieces home, with up to six players",
+  "description": "Privacy Friendly Ludo is a board game where you race four pieces from home round the board to the goal. The aim is to get all four of yours there before the others do. You can play against friends, or let the phone play the other colours.\n\nThere are two boards, a smaller one for up to four players and a bigger one for up to six. You give each player a name and a colour, and any player can be switched to a computer opponent. Roll a six to bring a piece out, and land on an opponent's piece to send it back home. The rules are explained in the help screen. One setting lets a player with no pieces in play have three tries at rolling a six, and another keeps the screen awake during a game. If you would rather use real dice, \"play with own dice\" mode lets you tap a piece and then the field you want to move it to. There is also a statistics view.\n\nEveryone shares the one phone, so there is no online play. The app is in English and German only, and computer opponents cannot be used in own-dice mode. It asks for no permissions and has no ads or tracking, and you can back up its data with the separate Privacy Friendly Backup app.",
+  "repo": "https://github.com/SecUSo/privacy-friendly-ludo",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "org.secuso.privacyfriendlyludo",
+  "tags": [
+    "ludo",
+    "board game",
+    "dice game",
+    "local multiplayer",
+    "family",
+    "offline"
+  ],
+  "added": "2026-10-06"
+}

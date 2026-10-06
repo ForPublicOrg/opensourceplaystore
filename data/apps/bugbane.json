@@ -1,0 +1,23 @@
+{
+  "id": "bugbane",
+  "name": "Bugbane",
+  "tagline": "Check your own phone for signs of spyware and stalkerware",
+  "description": "Bugbane helps you check your own phone for signs of spyware and stalkerware, the kind of app that secretly watches what you do. It collects the same sort of evidence that forensic tools such as MVT and AndroidQF gather, but it does so on the phone itself, so you need no computer, no cable and no command line.\n\nA step-by-step wizard takes you through turning on Developer options and Wireless debugging and pairing the app with your phone. One tap then collects logs and settings, and the app scans them against a list of known spyware indicators that it keeps up to date. You can keep each saved check on the phone and scan it again later when new indicators are published, to catch an infection that was missed at the time. If something looks wrong, you can export an encrypted copy of the results and send it to a helpline or analyst you trust, for example over Signal or email. Results are stored encrypted on the phone. Apart from downloading updated indicators, nothing leaves the phone unless you choose to export it.\n\nThis is beta software with no independent security audit yet, and the project says it is not yet recommended for non-technical people. A clean scan does not prove your phone is safe, and new or sophisticated spyware will not be found. Using it is not covert: if you could be in physical danger, the team advises contacting a helpline from a safe device first instead. You need Android 11 or newer and a trusted Wi-Fi network (never public Wi-Fi), and Wireless debugging should be switched off again once the scan is done.",
+  "repo": "https://github.com/osservatorionessuno/bugbane",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://bugbane.org",
+  "fdroid": "org.osservatorionessuno.bugbane.beta",
+  "status": "testing",
+  "tags": [
+    "spyware",
+    "stalkerware",
+    "malware scan",
+    "forensics",
+    "mvt",
+    "androidqf",
+    "wireless debugging",
+    "surveillance"
+  ],
+  "added": "2026-10-06"
+}

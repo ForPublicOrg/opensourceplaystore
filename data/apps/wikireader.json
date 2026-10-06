@@ -1,0 +1,21 @@
+{
+  "id": "wikireader",
+  "name": "WikiReader",
+  "tagline": "Read Wikipedia without the clutter, in over 300 languages",
+  "description": "WikiReader is a small app for reading Wikipedia without the clutter. It shows the article and little else, loads the text first so you can start reading straight away, and lets you pick from over 300 Wikipedia languages.\n\nThe feed shows the article of the day and trending articles, with a graph of how often each one has been read. A random article button is there for when you feel curious, and you can save articles to read offline. Tap an article's picture to see it full screen. The buttons sit at the bottom of the screen so you can use it with one hand, and the bars can hide while you scroll. Formulas in maths articles are shown as readable text. If your data plan is small, data saver mode loads text only. You can set the font size and choose light, dark or Material You colours.\n\nIt needs an internet connection for any article you have not saved, and the only permission it asks for is internet access. It is an independent app, not the official Wikipedia app.",
+  "repo": "https://github.com/nsh07/WikiReader",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "fdroid": "org.nsh07.wikireader",
+  "tags": [
+    "wikipedia",
+    "encyclopedia",
+    "wiki",
+    "articles",
+    "offline",
+    "reference",
+    "lightweight",
+    "data saver"
+  ],
+  "added": "2026-10-06"
+}

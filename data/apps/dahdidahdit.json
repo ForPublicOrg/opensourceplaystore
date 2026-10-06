@@ -1,0 +1,22 @@
+{
+  "id": "dahdidahdit",
+  "name": "Dahdidahdit",
+  "tagline": "Learn Morse code by ear, with lessons that adapt as you improve",
+  "description": "Dahdidahdit teaches you to copy Morse code by listening. The app plays the dots and dashes, you write down what you hear on paper, and afterwards you compare your notes with what was sent and tap the number of mistakes. Apart from your phone, all you need is a pen and a sheet of paper.\n\nYou say where you are now and where you want to get to, for example all the letters at 20 words per minute. When you make few enough mistakes, the app teaches you a new letter or raises the speed. It uses the Koch method with Farnsworth timing, and there is a Word Koch option that teaches letters through real words. You can also practise with random characters, call signs, Q-codes, the 2000 most common ham radio words, generated QSOs, your own text, or text from RSS feeds read through the Feeder app. Background noise, fading and chirp make it sound more like the air, and head copying starts with short words and builds up to longer texts.\n\nThere is also sending practice with on-screen paddles or a real paddle or straight key on USB, Morse Tennis against another user, and Morse chat with other Dahdidahdit or Morserino users over a network. Those network features need an internet or local connection and someone to talk to, and the sending trainer is marked experimental. The app is in English, with a German translation.",
+  "repo": "https://github.com/matthiasjordan/dahdidahdit",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://paddlesandbugs.com",
+  "fdroid": "com.paddlesandbugs.dahdidahdit",
+  "tags": [
+    "morse",
+    "morse code",
+    "cw",
+    "ham radio",
+    "amateur radio",
+    "koch method",
+    "learn morse",
+    "telegraphy"
+  ],
+  "added": "2026-10-06"
+}

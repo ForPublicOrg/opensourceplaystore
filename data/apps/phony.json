@@ -1,0 +1,20 @@
+{
+  "id": "phony",
+  "name": "Phony",
+  "tagline": "Schedule a fake incoming call through your real phone app",
+  "description": "Phony makes your phone ring with a pretend incoming call, giving you a polite way out of a dull meeting or an awkward conversation. Set a timer, put the phone down, and the call arrives on time. It used to be called FakeCall.\n\nUnlike apps that only draw a pretend call screen, Phony hooks into Android's calling system, so the call shows up in your real Phone app. You can type a caller name and number or pick a contact, and the contact's photo is used. When you answer, the call can stay silent, play an audio file you chose, or work as a phone menu where keypad presses play different recordings. Fake calls can appear in your call history, and you can record the microphone during one. Start a call from a Quick Settings tile, a saved preset, the accessibility button (once you switch on Phony's accessibility service), or an automation app such as Tasker.\n\nSetup takes a few steps: allow phone, microphone and exact alarm access, then switch Phony on in your phone's Calling Accounts settings, which can be hard to find on some phones. On phones that stop background apps aggressively you may need to lift battery limits so calls still ring with the screen off. The app checks GitHub for new versions when it starts. An offline build is also in the releases.",
+  "repo": "https://github.com/DDOneApps/Phony",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "fake call",
+    "fake incoming call",
+    "prank",
+    "call simulator",
+    "excuse",
+    "escape",
+    "dialer",
+    "tasker"
+  ],
+  "added": "2026-10-06"
+}

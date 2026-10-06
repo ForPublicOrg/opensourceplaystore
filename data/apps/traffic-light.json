@@ -1,0 +1,21 @@
+{
+  "id": "traffic-light",
+  "name": "Traffic Light",
+  "tagline": "See your data use and live network speed, kept private on your phone",
+  "description": "Traffic Light keeps track of how much mobile data and Wi-Fi your phone uses. It shows your usage for today, this week and further back, and it can put your current network speed in the status bar so you can tell at a glance whether something is downloading.\n\nYou can set up data plans, either monthly (resetting on a day you pick) or over a custom number of days. The app then shows how much you have used, a daily budget, a prediction of where you will end up and a simple safety status, and it can warn you when you pass the budget. Plans can sit on your home screen as widgets. You can see which apps used the most data and mark some as zero-rated, meaning your carrier does not count them against your plan. Version 3.3 added an iPerf3 client and server for speed tests, marked beta.\n\nYou have to give the app Usage Access in Android's settings so it can read long-term data use. On an app installed from outside the Play Store, Android may grey that option out until you choose Allow restricted settings from the app's info page, and the project's wiki walks you through it. The live speed shows as an ongoing notification. Tracking more than one SIM card needs Shizuku, a separate app you set up first. It needs Android 9 or newer. A separate Google Play version carries optional supporter ads and cannot track several SIMs. The GitHub and F-Droid builds have no ads, and the developer's privacy policy says your usage data never leaves the device.",
+  "repo": "https://github.com/leekleak/traffic-light",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "fdroid": "com.leekleak.trafficlight",
+  "tags": [
+    "data usage",
+    "network speed",
+    "bandwidth",
+    "data plan",
+    "internet speed meter",
+    "mobile data",
+    "wifi",
+    "status bar"
+  ],
+  "added": "2026-10-06"
+}

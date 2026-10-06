@@ -1,0 +1,20 @@
+{
+  "id": "flowit",
+  "name": "Flowit",
+  "tagline": "Fill every box with the colour of its border in this puzzle game",
+  "description": "Flowit is a colour puzzle game. Every box on the board has a coloured border, and your goal is to fill each box with the colour of its border. You do it with the special boxes, which spread their colour to the boxes around them. Some, for example, push their colour in only one direction.\n\nThere are over 100 levels, split into level packs: Easy, Medium, Hard, and a Community pack of levels sent in by other players. The rules take a minute to learn, but the later levels need real thought. Levels can be made with a visual editor on the Flowit website, or written by hand in XML, and contributed to the project. Version 4.3 added seven new community levels.\n\nThe game asks for no permissions, not even internet access, so it works fully offline, and it has no ads. It plays in portrait orientation only.",
+  "repo": "https://github.com/Flowit-Game/Flowit",
+  "category": "games",
+  "license": "GPL-3.0",
+  "fdroid": "com.bytehamster.flowitgame",
+  "tags": [
+    "puzzle",
+    "colour puzzle",
+    "color",
+    "brain teaser",
+    "logic",
+    "offline",
+    "level editor"
+  ],
+  "added": "2026-10-06"
+}

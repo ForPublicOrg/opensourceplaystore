@@ -1,0 +1,22 @@
+{
+  "id": "pdf-converter",
+  "name": "PDF Converter",
+  "tagline": "Turn photos into PDFs, then merge, split, compress or lock them",
+  "description": "PDF Converter turns pictures into a PDF. Pick photos from your gallery or take them with the camera, put them in the order you want, give the file a name, and the PDF is ready to share or print. It can also turn a plain text file into a PDF, or scan a QR code or barcode and save what it says as a PDF.\n\nOnce you have PDFs, the app helps you look after them. You can merge several into one, split one into smaller files, remove pages, rearrange pages, rotate pages, shrink a file by compressing it, and pull the pictures out of a PDF. You can put a password on a PDF or take the password off. A history screen lists everything you have converted, and there are black, dark and white themes.\n\nThe app works without an internet connection and does not ask for the internet permission at all. It does ask for access to your files and your camera. The GitHub page ships no APK, so the build to install is the one on F-Droid (version 9.0.1, from 2023). The code on GitHub is newer, so some recent features may be missing from the F-Droid version.",
+  "repo": "https://github.com/Swati4star/Images-to-PDF",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://swati4star.github.io/Images-to-PDF/",
+  "fdroid": "swati4star.createpdf",
+  "tags": [
+    "pdf",
+    "image to pdf",
+    "jpg to pdf",
+    "photo to pdf",
+    "merge pdf",
+    "split pdf",
+    "compress pdf",
+    "pdf tools"
+  ],
+  "added": "2026-10-06"
+}

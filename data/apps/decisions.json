@@ -1,0 +1,20 @@
+{
+  "id": "decisions",
+  "name": "Decisions",
+  "tagline": "Weigh pros and cons and get a yes, maybe or no",
+  "description": "Decisions helps you make up your mind. Write down the reasons for and against something, give each reason a weight from 1 to 10, and the app tells you whether the answer leans yes, maybe or no.\n\nThe scale points to yes when the pros add up to at least twice the cons, to maybe when the pros at least match the cons, and to no otherwise. Each question you work on is saved as its own issue, so you can keep several going, duplicate one to try a variation, and come back to it later. Arguments can be sorted by weight, either automatically or when you ask. You can share a decision as text or as a CSV file, and export or import your whole list of decisions as a file.\n\nIt is a small app that does one job. There is no account and it asks for no internet permission. It has light and dark themes, and the interface is in English plus German, Spanish, French, Dutch, Portuguese, Russian, Ukrainian and Bulgarian. The result is a simple sum of your weights, so it is only as sound as the weights you give it.",
+  "repo": "https://github.com/markusfisch/Libra",
+  "category": "productivity",
+  "license": "MIT",
+  "fdroid": "de.markusfisch.android.libra",
+  "tags": [
+    "decision",
+    "pros and cons",
+    "choices",
+    "weigh options",
+    "decision maker",
+    "yes or no",
+    "compare"
+  ],
+  "added": "2026-10-06"
+}
