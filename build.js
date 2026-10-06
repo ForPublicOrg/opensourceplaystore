@@ -404,6 +404,16 @@ function starsTag(app) {
   return `<span class="tag" id="stars-pill">${ic('star', { cls: 'star' })}New here</span>`;
 }
 
+/* Downloads from this site, beside the stars. The baked-in count is up to a
+   few hours old, so /js/app.js fetches the live one and ticks it up on a tap.
+   Hidden until the first download — "0 downloads" on a fresh listing says
+   nothing kind — and revealed by the script the moment there is one. */
+function downloadsTag(app) {
+  if (!counterOn) return '';
+  const n = downloadsOf(app);
+  return `<span class="tag" id="dl-pill"${n > 0 ? '' : ' hidden'}>${ic('download')}<span id="dl-count">${n.toLocaleString('en-US')}</span>&nbsp;<span id="dl-word">${n === 1 ? 'download' : 'downloads'}</span></span>`;
+}
+
 /* `maker: true` swaps the category tag for the maker's name — without it the
    maker sort just looks like a shuffled list. `downloads: true` likewise puts
    the download count first, in the category's place; the stars stay, since
@@ -920,6 +930,7 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
     <p class="tagline">${esc(app.tagline)}</p>
     <div class="badge-row">
       ${starsTag(app)}
+      ${downloadsTag(app)}
       ${licenseTag}
       <a class="tag tag-cat" style="--cat:${cat.hue}" href="/category/${cat.id}/">${ic(cat.icon)}${esc(cat.name)}</a>
       ${testingTag}

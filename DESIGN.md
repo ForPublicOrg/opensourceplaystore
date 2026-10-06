@@ -69,7 +69,7 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 | All apps | `/apps/` | the full catalog: search box, sort tabs, 24-per-page numbered pagination — every sort × page is a pre-rendered static page with `rel=prev/next` |
 | Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
 | In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
-| App detail | `/app/<id>/` | hero (icon, name, tagline, stars, license, category, testing/archived tags), Download + Share (a sticky side column on wide screens), screenshots (tap → in-page viewer), description, the 5 repo links, More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
+| App detail | `/app/<id>/` | hero (icon, name, tagline, stars, downloads from this site — live, ticks up on a tap — license, category, testing/archived tags), Download + Share (a sticky side column on wide screens), screenshots (tap → in-page viewer), description, the 5 repo links, More like this (category + shared tags), JSON-LD `SoftwareApplication`, report + edit links |
 | Publish | `/publish/` | paste repo URL → autofill → category chips → "still in testing?" checkbox → checklist → GitHub handoff |
 | Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what In testing means) |
 | About | `/about/` | how the site works, for skeptical parents and developers |
@@ -159,7 +159,7 @@ which is also why that workflow never executes the PR's code.
   render first in a metric-matched Arial (`size-adjust`/`ascent-override`) so nothing shifts
   when it arrives.
 - JS per page, measured gzipped (what the host actually sends): home ≤4KB (search 2.6 + strips
-  0.9), detail ≤10KB (app 2.7 incl. the download counter + strips 0.9 + screenshot viewer 6.1, and the viewer is only
+  0.9), detail ≤10KB (app 3.1 incl. the download counter + strips 0.9 + screenshot viewer 6.1, and the viewer is only
   loaded on pages that have screenshots), publish ≤5KB. Plain scripts, no framework. Raw file
   sizes run ~3× larger because this codebase comments heavily on purpose.
 - Full-size screenshots are never fetched until the viewer opens, and then only the picture

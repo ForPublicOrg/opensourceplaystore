@@ -48,6 +48,22 @@
   if (db && window.fetch) {
     var appId = dl.getAttribute('data-app');
     var docs = 'projects/' + db + '/databases/(default)/documents';
+    var api = 'https://firestore.googleapis.com/v1/' + docs;
+
+    /* The "N downloads" tag in the header: hidden at build time until the
+       first download, shown as soon as there is a number. Counts only ever
+       grow, so a smaller number is a stale one and is ignored. */
+    var countEl = document.getElementById('dl-count');
+    var shown = countEl ? Number(countEl.textContent.replace(/,/g, '')) || 0 : 0;
+    function showDownloads(n) {
+      var pill = document.getElementById('dl-pill');
+      if (!pill || !(n > 0) || n < shown) return;
+      shown = n;
+      countEl.textContent = n.toLocaleString('en-US');
+      document.getElementById('dl-word').textContent = n === 1 ? 'download' : 'downloads';
+      pill.hidden = false;
+    }
+
     var counted = false;
     var countDownload = function () {
       if (counted) return;
@@ -59,7 +75,9 @@
       for (var id in seen) if (now - seen[id] >= 864e5) delete seen[id];
       seen[appId] = now;
       try { localStorage.setItem('osps-dl', JSON.stringify(seen)); } catch (e) { /* private mode */ }
-      fetch('https://firestore.googleapis.com/v1/' + docs + ':commit', {
+      /* Tick the tag up right away — the database agrees a moment later. */
+      showDownloads(shown + 1);
+      fetch(api + ':commit', {
         method: 'POST',
         keepalive: true,
         credentials: 'omit',
@@ -73,6 +91,16 @@
     dl.addEventListener('click', countDownload);
     /* Middle-click opens a new tab without firing click. */
     dl.addEventListener('auxclick', function (e) { if (e.button === 1) countDownload(); });
+
+    /* The page was built up to a few hours ago; fetch today's count. A plain
+       GET with no headers is a simple CORS request, and 404 just means none yet. */
+    fetch(api + '/downloads/' + appId + '?mask.fieldPaths=count', { credentials: 'omit' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (doc) {
+        var f = doc && doc.fields && doc.fields.count;
+        if (f) showDownloads(Number(f.integerValue));
+      })
+      .catch(function () { /* offline — the baked-in count stays */ });
   }
 
   var repo = document.body.getAttribute('data-github');
