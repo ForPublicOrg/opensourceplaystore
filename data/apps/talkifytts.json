@@ -2,7 +2,7 @@
   "id": "talkifytts",
   "name": "TalkifyTTS",
   "tagline": "Give your phone a much better reading voice",
-  "description": "TalkifyTTS installs as a system voice, so anything that reads text out loud — ebook apps, accessibility tools, your browser — can use modern, natural-sounding voices instead of the robotic default.\n\nYou pick which voice service it uses and can tune speed and pitch.",
+  "description": "TalkifyTTS installs as a system voice, so anything that reads text out loud (ebook apps, accessibility tools, your browser) can use modern, natural-sounding voices instead of the robotic default.\n\nYou pick which voice service it uses and can tune speed and pitch.",
   "repo": "https://github.com/LonePheasantWarrior/TalkifyTTS",
   "category": "tools",
   "license": "MIT",

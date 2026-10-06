@@ -1,7 +1,7 @@
 /* App detail page enhancements. Everything here is optional:
    the page fully works without JS (real links are baked into the HTML).
-   1. Share button — native share sheet on phones, copy-link + toast elsewhere.
-   2. Download counter — a tap on Download adds one to the app's count in Firestore.
+   1. Share button: native share sheet on phones, copy-link + toast elsewhere.
+   2. Download counter: a tap on Download adds one to the app's count in Firestore.
    3. Silent refresh of stars + APK link from the GitHub API (1h localStorage cache).
       Any failure is swallowed: the baked-in data stays. */
 (function () {
@@ -31,15 +31,15 @@
       } else if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(location.href).then(
           function () { toast('Link copied'); },
-          function () { toast('Could not copy — the link is in the address bar'); }
+          function () { toast('Could not copy. The link is in the address bar'); }
         );
       }
     });
   }
 
   /* Once per app per browser per day, so a double tap or a retried download
-     counts once. Only the app's id is sent — no cookies, nothing about the
-     visitor — and firestore.rules makes "+1 to one app" the only write anyone
+     counts once. Only the app's id is sent, with no cookies, nothing about the
+     visitor, and firestore.rules makes "+1 to one app" the only write anyone
      can make. Plain REST, not the ~100 KB Firebase SDK. A string body goes as
      text/plain (Google's API reads the JSON anyway): a simple CORS request, no
      preflight, and keepalive delivers it even when the tap opens another page. */
@@ -74,7 +74,7 @@
       for (var id in seen) if (now - seen[id] >= 864e5) delete seen[id];
       seen[appId] = now;
       try { localStorage.setItem('osps-dl', JSON.stringify(seen)); } catch (e) { /* private mode */ }
-      /* Tick the tag up right away — the database agrees a moment later. */
+      /* Tick the tag up right away; the database agrees a moment later. */
       showDownloads(shown + 1);
       fetch(api + ':commit', {
         method: 'POST',
@@ -85,7 +85,7 @@
           updateMask: { fieldPaths: [] },
           updateTransforms: [{ fieldPath: 'count', increment: { integerValue: '1' } }],
         }] }),
-      }).catch(function () { /* offline or over quota — the download goes on */ });
+      }).catch(function () { /* offline or over quota, the download goes on */ });
     };
     dl.addEventListener('click', countDownload);
     /* Middle-click opens a new tab without firing click. */
@@ -99,7 +99,7 @@
         var f = doc && doc.fields && doc.fields.count;
         if (f) showDownloads(Number(f.integerValue));
       })
-      .catch(function () { /* offline — the baked-in count stays */ });
+      .catch(function () { /* offline, the baked-in count stays */ });
   }
 
   var repo = document.body.getAttribute('data-github');
@@ -133,7 +133,7 @@
       if (count) {
         count.textContent = fmtStars(d.stars);
       } else if (pill) {
-        /* The page said "New here" — the app has stars now. */
+        /* The page said "New here", but the app has stars now. */
         var use = pill.querySelector('use');
         if (use) use.setAttribute('href', '#i-star-solid');
         var text = pill.lastChild;
@@ -187,5 +187,5 @@
     if (apk) d.apkUrl = apk.browser_download_url;
     try { localStorage.setItem(KEY, JSON.stringify({ t: Date.now(), d: d })); } catch (e) { /* full */ }
     update(d);
-  }).catch(function () { /* offline or rate-limited — baked-in data stays */ });
+  }).catch(function () { /* offline or rate-limited, so baked-in data stays */ });
 })();

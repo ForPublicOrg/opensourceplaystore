@@ -1,7 +1,7 @@
 /* Screenshot viewer for app detail pages.
 
    Progressive enhancement only: the markup ships as plain links to the
-   images, so with JavaScript off — or in a browser without <dialog> — a tap
+   images, so with JavaScript off (or in a browser without <dialog>) a tap
    still opens the picture and Back returns to the listing. With JS, the tap
    is intercepted and the picture grows out of the thumbnail into a viewer
    over the page.
@@ -97,8 +97,8 @@
       var slide = el('div', 'lightbox-slide');
       var img = el('img');
       /* The source is held back rather than set here. `loading="lazy"` is no
-         use inside a closed dialog — the browser may not fetch until the
-         image is on screen, which is exactly when it is needed — and setting
+         use inside a closed dialog; the browser may not fetch until the
+         image is on screen, which is exactly when it is needed, and setting
          src eagerly would pull every full-size picture down on page load.
          hydrate() fills them in around whichever picture you are viewing;
          the URLs match the thumbnails, so they come out of the cache. */
@@ -220,7 +220,7 @@
   }
 
   function draw() {
-    /* Only once the viewer is actually open — otherwise building it on page
+    /* Only once the viewer is actually open, otherwise building it on page
        load would start pulling pictures nobody has asked to see. */
     if (dialog.open) hydrate(index);
     if (!count) return;
@@ -239,7 +239,7 @@
     if (wrapped === index) return;
     var jump = wrapped !== to || Math.abs(wrapped - index) > 1;
     index = wrapped;
-    /* While we scroll on purpose, ignore what the scroll listener infers —
+    /* While we scroll on purpose, ignore what the scroll listener infers:
        mid-flight positions would otherwise clobber the index and make five
        fast taps land one picture along. */
     programmatic = true;
@@ -247,7 +247,7 @@
     settle = setTimeout(function () {
       programmatic = false;
       /* Smooth scrolling is animation-driven, and animations don't always
-         run (throttled tabs, some webviews). If we never arrived, jump —
+         run (throttled tabs, some webviews). If we never arrived, jump:
          the picture on screen must always match the counter. */
       if (Math.round(track.scrollLeft / track.clientWidth) !== index) {
         track.scrollLeft = track.clientWidth * index;
@@ -307,7 +307,7 @@
         var lift = currentImg().animate([{ transform: from }, { transform: 'none' }], {
           duration: 340, easing: EASE,
         });
-        /* A running animation paints its first keyframe — thumbnail-sized —
+        /* A running animation paints its first keyframe (thumbnail-sized)
            so if the timeline is throttled and never advances, the picture
            would sit there tiny. Cancelling after its due time drops the
            effect and leaves the real layout, animated or not. */
@@ -357,7 +357,7 @@
     /* Closing must never depend on the animation reporting back: a throttled
        or paused timeline (background tab, some embedded webviews) would
        otherwise leave the viewer stuck open over the page. Whichever comes
-       first — the flight ending or the timer — closes it, exactly once. */
+       first (the flight ending or the timer) closes it, exactly once. */
     var landed = false;
     function land() {
       if (landed) return;
@@ -371,7 +371,7 @@
   }
 
   /* Closing the page's scroll lock and handing focus back are not optional,
-     so they never wait on the `close` event — not every browser fires it.
+     so they never wait on the `close` event, since not every browser fires it.
      Safe to run twice. */
   function closeNow() {
     if (dialog.open) dialog.close();
@@ -385,7 +385,7 @@
     dialog.style.background = '';
     slides.forEach(function (s) { s.firstChild.style.transform = ''; });
     /* Focus follows the eye: it lands on the screenshot you were looking at,
-       which is the one the strip has just scrolled to — not necessarily the
+       which is the one the strip has just scrolled to, not necessarily the
        one you opened. */
     if (opener) { links[index].focus({ preventScroll: true }); opener = null; }
   }
@@ -464,7 +464,7 @@
 
   links.forEach(function (link, i) {
     link.addEventListener('click', function (e) {
-      /* Leave modified clicks alone — people open images in new tabs. */
+      /* Leave modified clicks alone; people open images in new tabs. */
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
       e.preventDefault();
       open(i);

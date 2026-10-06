@@ -2,7 +2,7 @@
   "id": "complications-suite-wear",
   "name": "Complications Suite",
   "tagline": "Better little widgets for your watch face",
-  "description": "Complications Suite adds a big set of extras to Wear OS watch faces — battery, sunrise, moon phase, timers, world clocks — that most faces don't include.\n\nIt is free and open source.",
+  "description": "Complications Suite adds a big set of extras to Wear OS watch faces (battery, sunrise, moon phase, timers, world clocks) that most faces don't include.\n\nIt is free and open source.",
   "repo": "https://github.com/amoledwatchfaces/Complications-Suite-Wear-OS",
   "category": "tools",
   "license": "Apache-2.0",

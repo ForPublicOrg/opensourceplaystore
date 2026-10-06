@@ -1,4 +1,4 @@
-/* Open Source Play Store — design system.
+/* Open Source Play Store: design system.
 
    Paper and ink, with one green. Warm off-white surfaces in the light theme,
    deep charcoal in the dark one; a single accent reserved for the one thing
@@ -560,7 +560,7 @@ kbd {
 .hero-facts a { color: inherit; }
 .hero-facts a:hover { color: var(--accent); }
 
-/* Real app icons as the picture on the home page — a shelf of the catalog. */
+/* Real app icons as the picture on the home page, a shelf of the catalog. */
 .mosaic {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1113,7 +1113,7 @@ a.tag:hover { border-color: var(--line-2); background: var(--surface-2); color: 
 
 /* Wide screens: the download card becomes a side column that stays put
    while you read, so the one thing to do on the page is always in reach.
-   The DOM order is unchanged — phones still get it right under the header. */
+   The DOM order is unchanged; phones still get it right under the header. */
 @media (min-width: 960px) {
   .app-page {
     display: grid;

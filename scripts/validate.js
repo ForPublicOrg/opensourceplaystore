@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /*
  * Validates every app manifest in data/apps/.
- * Zero dependencies — hand-coded checks mirroring schema/app.schema.json.
+ * Zero dependencies: hand-coded checks mirroring schema/app.schema.json.
  *
  * Usage:
  *   node scripts/validate.js                 # offline checks (schema, duplicates)
@@ -11,10 +11,10 @@
  *   node scripts/validate.js --check-remote --only data/apps/foo.json [more.json …]
  *                                            #   run the live checks on these manifests
  *                                            #   only (the offline checks always cover
- *                                            #   every file — duplicates need them to)
+ *                                            #   every file; duplicates need them to)
  *   node scripts/validate.js --check-remote --strict --only data/apps/foo.json
  *                                            #   also fail on "a human should look at
- *                                            #   this" warnings — used by auto-merge
+ *                                            #   this" warnings; used by auto-merge
  *
  * Exit code 0 = all good, 1 = at least one error. Warnings never fail the run
  * unless --strict says otherwise.
@@ -43,7 +43,7 @@ const KNOWN_FIELDS = [
   'status',
 ];
 
-// Warnings that mean "nobody could confirm this listing is fine" — in --strict
+// Warnings that mean "nobody could confirm this listing is fine": in --strict
 // mode they become errors, so the auto-merge workflow leaves the PR for a human.
 // "no-apk" is deliberately not here: F-Droid and download-page fallbacks are normal.
 // Nor is "big-image": a heavy screenshot is worth saying out loud, but it is a
@@ -130,7 +130,7 @@ function checkManifest(fileName, app) {
     }
   }
   if (app.status !== undefined && app.status !== 'testing') {
-    err('status can only be "testing" — leave it out once the app is stable');
+    err('status can only be "testing"; leave it out once the app is stable');
   }
   return errors;
 }
@@ -138,7 +138,7 @@ function checkManifest(fileName, app) {
 async function checkRemote(app, errors, warn) {
   const m = app.repo.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)$/);
   if (!m) {
-    warn('remote-skipped', 'remote checks currently only cover GitHub repos — skipped');
+    warn('remote-skipped', 'remote checks currently only cover GitHub repos; skipped');
     return;
   }
   const headers = {
@@ -151,7 +151,7 @@ async function checkRemote(app, errors, warn) {
   try {
     res = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}`, { headers });
   } catch (e) {
-    warn('unreachable', `could not reach the GitHub API (${e.message}) — remote checks skipped`);
+    warn('unreachable', `could not reach the GitHub API (${e.message}); remote checks skipped`);
     return;
   }
   if (res.status === 404) {
@@ -163,8 +163,8 @@ async function checkRemote(app, errors, warn) {
     return;
   }
   const repo = await res.json();
-  if (repo.private) errors.push('repo is private — only public repos can be listed');
-  if (repo.archived) warn('archived', 'repo is archived — consider whether it should be listed');
+  if (repo.private) errors.push('repo is private; only public repos can be listed');
+  if (repo.archived) warn('archived', 'repo is archived; consider whether it should be listed');
   if (!repo.license) warn('no-license', 'GitHub detects no license file in the repo');
 
   try {
@@ -181,7 +181,7 @@ async function checkRemote(app, errors, warn) {
         : app.download
           ? 'the Download button will use the listed download page'
           : 'the Download button will fall back to the releases page';
-      warn('no-apk', `no .apk asset in the latest GitHub release — ${fallback}`);
+      warn('no-apk', `no .apk asset in the latest GitHub release: ${fallback}`);
     }
   } catch (e) {
     warn('releases-unchecked', `could not check releases (${e.message})`);
@@ -191,8 +191,8 @@ async function checkRemote(app, errors, warn) {
 /* A link to a web page about a picture, and a 6 MB picture, both sail through
    every offline check: the manifest is valid and the URL is https. One shows as
    blank space, the other takes seconds to appear on a phone. Only the server can
-   tell us which we have, so ask it — against the same URL build.js will render,
-   so a pasted github.com/…/blob/… link is judged on where it actually resolves. */
+   tell us which we have, so ask it (against the same URL build.js will render,
+   so a pasted github.com/…/blob/… link is judged on where it actually resolves). */
 async function checkImages(app, warn) {
   const links = [];
   if (app.icon) links.push(['icon', app.icon]);
@@ -209,7 +209,7 @@ async function checkImages(app, warn) {
       continue;
     }
     if (res.status === 404 || res.status === 410) {
-      warn('not-an-image', `${label}: nothing there (HTTP ${res.status})${via} — the listing will show blank space`);
+      warn('not-an-image', `${label}: nothing there (HTTP ${res.status})${via}; the listing will show blank space`);
       continue;
     }
     if (!res.ok) {
@@ -219,17 +219,17 @@ async function checkImages(app, warn) {
     }
     const type = (res.headers.get('content-type') || '').split(';')[0].trim();
     if (!type.startsWith('image/')) {
-      warn('not-an-image', `${label}: serves ${type || 'no content type'}, not a picture${via} — the listing will show blank space. Link straight to the image file`);
+      warn('not-an-image', `${label}: serves ${type || 'no content type'}, not a picture${via}; the listing will show blank space. Link straight to the image file`);
       continue;
     }
     const size = Number(res.headers.get('content-length'));
     if (size > BIG_IMAGE_BYTES) {
-      warn('big-image', `${label}: ${fmtBytes(size)} — anything over ${fmtBytes(BIG_IMAGE_BYTES)} is slow on a phone. Please scale it to the phone's own screen size, or save it as JPEG or WebP`);
+      warn('big-image', `${label}: ${fmtBytes(size)}; anything over ${fmtBytes(BIG_IMAGE_BYTES)} is slow on a phone. Please scale it to the phone's own screen size, or save it as JPEG or WebP`);
     }
   }
 }
 
-// `--only a.json b.json` — every non-flag argument that follows, until the next flag.
+// `--only a.json b.json`: every non-flag argument that follows, until the next flag.
 function parseOnly(argv) {
   const at = argv.indexOf('--only');
   if (at === -1) return null;
@@ -269,7 +269,7 @@ async function main() {
     try {
       app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
     } catch (e) {
-      console.error(`✗ ${file}: not valid JSON — ${e.message}`);
+      console.error(`✗ ${file}: not valid JSON: ${e.message}`);
       failed = true;
       continue;
     }
@@ -312,7 +312,7 @@ async function main() {
   const scope = remote
     ? ` (${remoteChecked} also checked against the live repo${strict ? ', strictly' : ''})`
     : '';
-  console.log(`\n${files.length} manifest(s) checked${scope}${failed ? ' — FAILED' : ', all good'}`);
+  console.log(`\n${files.length} manifest(s) checked${scope}${failed ? '; FAILED' : ', all good'}`);
   process.exit(failed ? 1 : 0);
 }
 

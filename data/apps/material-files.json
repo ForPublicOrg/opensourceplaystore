@@ -2,7 +2,7 @@
   "id": "material-files",
   "name": "Material Files",
   "tagline": "A clean, capable file manager",
-  "description": "Material Files browses everything on your phone with a proper Material Design interface, including archives, network shares and root storage if you have it.\n\nIt has no ads, opens quickly, and does the ordinary jobs — copy, move, rename, compress — without fuss.",
+  "description": "Material Files browses everything on your phone with a proper Material Design interface, including archives, network shares and root storage if you have it.\n\nIt has no ads, opens quickly, and does the ordinary jobs (copy, move, rename, compress) without fuss.",
   "repo": "https://github.com/zhanghai/MaterialFiles",
   "category": "tools",
   "license": "GPL-3.0",

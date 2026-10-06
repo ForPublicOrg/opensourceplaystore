@@ -1,23 +1,23 @@
 # Open Source Play Store
 
-**[opensourceplaystore.com](https://opensourceplaystore.com)** — a fast, static, login-free
+**[opensourceplaystore.com](https://opensourceplaystore.com)**: a fast, static, login-free
 "play store" for open-source Android apps. Anyone can list an app by linking its git repo;
 downloads come straight from the project's own releases (GitHub or F-Droid); ratings are
 GitHub stars and comments are the repo's own Discussions. See [DESIGN.md](DESIGN.md) for
 the full product design.
 
-- **No backend, no accounts, no tracking** — 100% static files. The one piece of shared
+- **No backend, no accounts, no tracking**: 100% static files. The one piece of shared
   state is an anonymous per-app download count in Firestore (see [Download counter](#download-counter)).
-- **Fully usable with JavaScript disabled** — real download links and every sort order are
+- **Fully usable with JavaScript disabled**: real download links and every sort order are
   baked into the HTML (stars · most downloaded · just added · newest projects · updated ·
   maker · A–Z).
-- **Kid-simple UX** — plain words at a grade-3 reading level, big tap targets, icon-and-word
+- **Kid-simple UX**: plain words at a grade-3 reading level, big tap targets, icon-and-word
   navigation, and one obvious action per page. See the UX system in [DESIGN.md](DESIGN.md).
 
 ## Repo layout
 
 ```
-data/apps/<id>.json      one manifest per app — the only file publishers touch
+data/apps/<id>.json      one manifest per app; the only file publishers touch
 data/categories.json     fixed category taxonomy
 data/live.json           generated snapshot (stars, APK links, icons, screenshots)
 data/downloads.json      generated snapshot of the download counts in Firestore
@@ -37,7 +37,7 @@ firestore.rules          the download counter's only server-side logic: public r
 
 ## Develop locally
 
-Requires Node 18+ (no npm install — there are zero dependencies).
+Requires Node 18+ (no npm install; there are zero dependencies).
 
 ```bash
 node scripts/sync.js     # optional: fetch live data (set GITHUB_TOKEN for higher limits)
@@ -60,18 +60,18 @@ GITHUB_TOKEN=… node scripts/discover.js --set ai --out candidates.json
 archived, unlicensed, forked, or lacking an `.apk` in its recent releases, and prints what
 survives. Query sets: `ai` (on-device models, assistants, OCR/speech), `topics` (the everyday
 app categories), `recent` (young projects), `everyday` (the ordinary reasons people open a
-phone — todo, pdf, alarm, recipes, budgets, sudoku), `niche` (ssh, mqtt, ham radio, obd2,
+phone, todo, pdf, alarm, recipes, budgets, sudoku), `niche` (ssh, mqtt, ham radio, obd2,
 3D printing, self-hosted clients), or `all`. It deliberately does **not** write
-manifests — the tagline and description are hand-written for every listing, in plain language,
+manifests: the tagline and description are hand-written for every listing, in plain language,
 which is the part that makes this catalog worth browsing.
 
 ## Going live (one-time setup)
 
 1. Create a GitHub repository (e.g. `youruser/opensourceplaystore`) and push this project.
-2. Set `registryRepo` in [site.config.json](site.config.json) to `youruser/opensourceplaystore`
-   — this turns on one-click publishing, "Suggest an edit", and "Report listing" links.
+2. Set `registryRepo` in [site.config.json](site.config.json) to `youruser/opensourceplaystore`;
+   this turns on one-click publishing, "Suggest an edit", and "Report listing" links.
 3. **Hosting, any of:**
-   - **Vercel** (current setup): import the repo — [vercel.json](vercel.json) already sets the
+   - **Vercel** (current setup): import the repo; [vercel.json](vercel.json) already sets the
      build command, `dist` output, and cache/security headers. Optionally add a `GITHUB_TOKEN`
      env var so the build-time sync gets authenticated API limits. Add the custom domain
      `opensourceplaystore.com`.
@@ -83,7 +83,7 @@ which is the part that makes this catalog worth browsing.
 5. The [sync workflow](.github/workflows/sync.yml) refreshes stars/downloads/screenshots
    every 6 hours automatically. A catalog this size costs more API calls than one hourly
    quota allows, so a run refreshes the stalest entries first and stops cleanly when the
-   quota is spent — the next run carries on from where it left off, and a few runs cover
+   quota is spent; the next run carries on from where it left off, and a few runs cover
    everything. Newly listed apps sort first, so they get their stars and download link on
    the very next sync.
 
@@ -93,7 +93,7 @@ A tap on an app page's Download button adds one to that app's count in Cloud Fir
 (project `firestoreProject` in [site.config.json](site.config.json)). There is no server
 and no Firebase SDK: [public/js/app.js](public/js/app.js) posts a
 single `+1` straight to the Firestore REST API, signed out and without cookies, once per
-app per browser per day. [firestore.rules](firestore.rules) is the whole server side —
+app per browser per day. [firestore.rules](firestore.rules) is the whole server side:
 anyone may read the counts, and the only write anyone may make is adding exactly one to
 one app's `downloads/<app id>` document.
 
@@ -104,7 +104,7 @@ can't be reached, the previous snapshot is used and the build carries on. Leave
 `firestoreProject` empty to switch the counter off entirely.
 
 **One-time setup:** create the Firestore database (*Build → Firestore Database → Create
-database*, production mode), then publish the rules — paste [firestore.rules](firestore.rules)
+database*, production mode), then publish the rules: paste [firestore.rules](firestore.rules)
 into *Firestore → Rules → Publish*, or:
 
 ```bash
@@ -118,7 +118,7 @@ reads from it.
 ## How publishing works
 
 The **Publish** page autofills the form from a pasted repo URL, builds the manifest JSON,
-and opens GitHub's *create new file* page in this repo pre-filled — the publisher's own
+and opens GitHub's *create new file* page in this repo pre-filled; the publisher's own
 GitHub login turns it into a fork + pull request. No account on this site is ever needed.
 
 From there nobody has to do anything:
@@ -133,20 +133,20 @@ publisher opens a PR that adds data/apps/<id>.json
 [auto-merge.yml](.github/workflows/auto-merge.yml) merges a pull request only when **every
 single thing about it** is a brand-new app listing:
 
-- every changed file is `added` — nothing modified, renamed or deleted;
+- every changed file is `added`; nothing modified, renamed or deleted;
 - every path is `data/apps/<id>.json`, with `<id>` lowercase letters, numbers and dashes;
 - at most 5 listings in one pull request, each a plain file (no symlinks) under 32 KB;
 - `validate.js --check-remote --strict` passes: schema, no duplicate repo, the repo is
   public, not archived, carries a license, and the whole site still builds.
 
-Anything else — a code change, a workflow change, an edit to a listing that already exists,
-a repo that could not be verified — gets the `needs-review` label and a comment saying why,
+Anything else (a code change, a workflow change, an edit to a listing that already exists,
+a repo that could not be verified) gets the `needs-review` label and a comment saying why,
 and waits for a maintainer. `--strict` is what makes that call: warnings meaning *nobody
 could confirm this* (repo archived, no license, not on GitHub, API unreachable) become
 errors, while the ordinary "no `.apk` in the latest release" warning does not, because
 F-Droid and download-page fallbacks are normal.
 
-The workflow runs on `pull_request_target` — a fork's `pull_request` token cannot merge —
+The workflow runs on `pull_request_target` (a fork's `pull_request` token cannot merge),
 so it never checks out or runs the pull request's code. It checks out `main`, reads the
 changed-file list from the API, and copies in the manifests only after their paths pass the
 checks above. What it deliberately does *not* judge is taste: whether an app is worth
@@ -172,10 +172,10 @@ The path guard in the workflow, not branch protection, is what keeps code change
 unattended merges.
 
 Manifest fields are documented in [schema/app.schema.json](schema/app.schema.json). Notable
-optional fields: `fdroid` (package id — enables a direct APK download via F-Droid when the
+optional fields: `fdroid` (package id: enables a direct APK download via F-Droid when the
 GitHub release has none), `download` (an official download page as a last-resort fallback),
-and `status: "testing"` (marks an early version — the listing gets an "In testing" badge and appears
+and `status: "testing"` (marks an early version: the listing gets an "In testing" badge and appears
 in the `/testing/` collection; prerelease-style release tags are badged automatically).
 Icons and phone screenshots are auto-discovered from the repo's fastlane metadata
-(`fastlane/metadata/android/en-US/images/…`) — publishers who follow that standard get a
+(`fastlane/metadata/android/en-US/images/…`): publishers who follow that standard get a
 rich listing for free.

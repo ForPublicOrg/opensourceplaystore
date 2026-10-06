@@ -1,13 +1,13 @@
 name: Auto-merge app publishes
 
 # A pull request that does nothing but ADD new data/apps/<id>.json manifests is
-# validated here and merged on its own — that is the whole publish flow, with no
+# validated here and merged on its own: that is the whole publish flow, with no
 # human in the loop. Everything else (code, workflows, edits to existing
 # listings, deletions) is left alone for a maintainer to review by hand.
 #
 # Why pull_request_target: publishes arrive as forks, and a fork's pull_request
 # run gets a read-only token that cannot merge. pull_request_target runs with the
-# repo's own token — so this job NEVER checks out or executes the pull request's
+# repo's own token, so this job NEVER checks out or executes the pull request's
 # code. It checks out main, reads the changed file list from the API, and only
 # copies in the manifests once their paths have been checked, one by one.
 
@@ -37,7 +37,7 @@ jobs:
     if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
-      - name: Check out main — never the pull request's code
+      - name: Check out main, never the pull request's code
         uses: actions/checkout@v7
 
       - uses: actions/setup-node@v7
@@ -60,20 +60,20 @@ jobs:
             reason="it changes no files"
           elif [ "$count" -gt "$MAX_APPS" ]; then
             eligible=false
-            reason="it changes $count files at once — up to $MAX_APPS new listings merge unattended"
+            reason="it changes $count files at once; up to $MAX_APPS new listings merge unattended"
           else
             while IFS=$'\t' read -r status file; do
               [ -n "$file" ] || continue
               if [ "$status" != "added" ]; then
                 eligible=false
-                reason="\`$file\` is $status, not added — only brand-new listings merge on their own"
+                reason="\`$file\` is $status, not added; only brand-new listings merge on their own"
                 break
               fi
               case "$file" in
                 data/apps/*.json) ;;
                 *)
                   eligible=false
-                  reason="\`$file\` is not an app listing — only \`data/apps/<id>.json\` merges on its own"
+                  reason="\`$file\` is not an app listing; only \`data/apps/<id>.json\` merges on its own"
                   break
                   ;;
               esac
@@ -142,7 +142,7 @@ jobs:
           if gh pr merge "$PR" --squash --subject "$subject" --body "$body"; then
             echo "merged=now" >> "$GITHUB_OUTPUT"
           else
-            echo "Direct merge refused (branch protection?) — asking GitHub to merge when checks go green."
+            echo "Direct merge refused (branch protection?); asking GitHub to merge when checks go green."
             gh pr merge "$PR" --auto --squash --subject "$subject" --body "$body"
             echo "merged=queued" >> "$GITHUB_OUTPUT"
           fi
@@ -150,7 +150,7 @@ jobs:
       - name: Kick off the deploy
         # A merge made with GITHUB_TOKEN does not trigger push-triggered workflows,
         # so GitHub Pages hosting needs an explicit nudge. Vercel/Cloudflare deploy
-        # from the push webhook and need nothing here — leave PAGES_DEPLOY unset.
+        # from the push webhook and need nothing here; leave PAGES_DEPLOY unset.
         if: steps.merge.outputs.merged == 'now' && vars.PAGES_DEPLOY == 'true'
         run: gh workflow run deploy.yml --ref main
 
@@ -168,7 +168,7 @@ jobs:
           gh pr edit "$PR" --add-label needs-review || true
 
           if [ "$ELIGIBLE" = "true" ]; then
-            # The log is one line per manifest — quote the parts that went wrong.
+            # The log is one line per manifest; quote the parts that went wrong.
             detail=$(grep -E '^(✗|    error:)' check.log | head -30 || true)
             [ -n "$detail" ] || detail=$(tail -n 30 check.log)
             {
@@ -179,7 +179,7 @@ jobs:
               echo "$detail"
               echo '```'
               echo
-              echo "Push a fix to this branch and it will be checked again — if everything passes it merges on its own."
+              echo "Push a fix to this branch and it will be checked again; if everything passes it merges on its own."
             } > comment.md
           else
             {
@@ -187,7 +187,7 @@ jobs:
               echo "Thanks! 🙌 This one needs a maintainer, because $REASON."
               echo
               echo "Pull requests that only **add** new \`data/apps/<id>.json\` files are merged automatically."
-              echo "Anything else — code, workflows, or changes to a listing that already exists — is reviewed by hand."
+              echo "Anything else (code, workflows, or changes to a listing that already exists) is reviewed by hand."
             } > comment.md
           fi
 
@@ -200,7 +200,7 @@ jobs:
           cat comment.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Hand over to a human if anything else went wrong
-        # Merge conflicts, a refused merge, an API hiccup — never leave a publish
+        # Merge conflicts, a refused merge, an API hiccup; never leave a publish
         # sitting there with nothing said about it.
         if: failure()
         run: |
@@ -211,5 +211,5 @@ jobs:
           seen=$(gh api "repos/$REPO/issues/$PR/comments" \
             --jq "[.[] | select(.body | contains(\"$MARKER\"))] | length" || echo 1)
           if [ "$seen" = "0" ]; then
-            gh pr comment "$PR" --body "$MARKER Thanks! 🙌 Something got in the way of merging this automatically — a merge conflict, most likely. A maintainer will take it from here."
+            gh pr comment "$PR" --body "$MARKER Thanks! 🙌 Something got in the way of merging this automatically (a merge conflict, most likely). A maintainer will take it from here."
           fi

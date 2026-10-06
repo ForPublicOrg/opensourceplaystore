@@ -70,7 +70,7 @@ const ICONS = {
 
 /* One <symbol> per icon, hidden; place once near the top of <body>. */
 function sprite() {
-  /* Hidden by size, not display:none — some engines refuse to draw a <use>
+  /* Hidden by size, not display:none: some engines refuse to draw a <use>
      whose symbol lives in a display:none document fragment. */
   return '<svg class="sprite" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">'
     + Object.entries(ICONS).map(([name, body]) => `<symbol id="i-${name}" viewBox="0 0 24 24">${body}</symbol>`).join('')

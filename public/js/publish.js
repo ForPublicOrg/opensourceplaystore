@@ -81,7 +81,7 @@
   }
 
   /* The link in your address bar while *looking at* a picture on a forge points
-     at the page around it, not the picture — paste it into an <img> and you get
+     at the page around it, not the picture: paste it into an <img> and you get
      nothing. Swap in the raw-file link so the pictures actually show up.
      Kept in step with rawImageUrl() in build.js, which catches anything that
      slips through by hand. */
@@ -129,7 +129,7 @@
     }
     fields.repo.value = parsed.url;
     if (parsed.host !== 'github.com') {
-      toast('Auto-fill works for GitHub for now — please type the details below.');
+      toast('Auto-fill works for GitHub for now. Please type the details below.');
       return;
     }
     var btn = this;
@@ -177,7 +177,7 @@
       updatePreview();
       toast('Filled in what we could find. Check it and pick a category.');
     }).catch(function () {
-      toast('GitHub is busy right now — you can type the details yourself.');
+      toast('GitHub is busy right now. You can type the details yourself.');
     }).finally(function () {
       btn.disabled = false;
       btn.textContent = 'Fill it in from GitHub';
@@ -195,7 +195,7 @@
       if (taken) setError('f-name', 'An app from this page (or with this name) is already listed.');
       drawChecks();
     }).catch(function () {
-      /* Could not check (offline preview) — say so instead of vanishing. */
+      /* Could not check (offline preview), so say so instead of vanishing. */
       checks.free = 'warn';
       drawChecks();
     });
@@ -238,9 +238,9 @@
     if (name && !id) errors.push(['f-name', 'Please include some letters or numbers (a–z, 0–9) in the name.']);
     var tagline = fields.tagline.value.trim();
     if (!tagline) errors.push(['f-tagline', 'Please write one short line about your app.']);
-    if (tagline.length > 80) errors.push(['f-tagline', 'Keep it under 80 letters — short and sweet!']);
+    if (tagline.length > 80) errors.push(['f-tagline', 'Keep it under 80 letters. Short and sweet!']);
     var description = fields.description.value.trim();
-    if (description.length < 20) errors.push(['f-description', 'Tell people a bit more — at least a sentence or two.']);
+    if (description.length < 20) errors.push(['f-description', 'Tell people a bit more: at least a sentence or two.']);
     var catInput = form.querySelector('input[name="category"]:checked');
     if (!catInput) errors.push(['f-category', 'Pick the group that fits your app best.']);
 
@@ -300,8 +300,8 @@
       $('after-publish').hidden = false;
       $('after-publish').scrollIntoView({ block: 'center' });
     } else if (registryReady) {
-      // Very long description — the pre-filled URL would get cut off by GitHub.
-      toast('Your text is quite long — please copy it instead.');
+      // Very long description: the pre-filled URL would get cut off by GitHub.
+      toast('Your text is quite long. Please copy it instead.');
       $('copy-fallback').hidden = false;
       $('manifest-out').value = json;
       $('copy-fallback').scrollIntoView({ block: 'center' });

@@ -1,8 +1,8 @@
 /* Edge fades for horizontal scrollers (strips, chips, screenshots).
    CSS ships a right-edge fade by default (the no-JS state); here we track
    scroll position so the fade only shows where there is more to see:
-   .can-scroll-left — content hidden to the left, fade the left edge
-   .at-end          — nothing more to the right, unfade the right edge */
+   .can-scroll-left: content hidden to the left, fade the left edge
+   .at-end          : nothing more to the right, unfade the right edge */
 (function () {
   'use strict';
   var strips = Array.prototype.slice.call(
@@ -11,7 +11,7 @@
   if (!strips.length) return;
 
   function sync(el) {
-    /* A strip hidden by search (display:none) measures 0×0 — computing
+    /* A strip hidden by search (display:none) measures 0×0, so computing
        state from that would stamp a bogus permanent .at-end. Skip it;
        search.js pings us again when the strip is visible. */
     if (el.clientWidth === 0) return;
@@ -23,7 +23,7 @@
 
   /* Sort tabs and category chips arrive with one item already selected. On a
      phone the row is wider than the screen, so scroll the chosen one into
-     view — otherwise the page looks like nothing is selected at all. */
+     view, otherwise the page looks like nothing is selected at all. */
   strips.forEach(function (el) {
     var current = el.querySelector('[aria-current], .active');
     if (!current || el.scrollWidth <= el.clientWidth) return;

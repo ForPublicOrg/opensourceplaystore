@@ -2,7 +2,7 @@
   "id": "waller-gradients",
   "name": "Waller",
   "tagline": "Make your own gradient wallpapers",
-  "description": "Waller generates smooth colour-gradient wallpapers you can tweak and set straight away — no downloads, no image packs.\n\nIt is tiny, offline and free.",
+  "description": "Waller generates smooth colour-gradient wallpapers you can tweak and set straight away, with no downloads, no image packs.\n\nIt is tiny, offline and free.",
   "repo": "https://github.com/Pankaj-Meharchandani/Waller",
   "category": "tools",
   "license": "GPL-3.0",

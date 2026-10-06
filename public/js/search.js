@@ -1,5 +1,5 @@
 /* Site search. Fetches /search-index.json on first use and ranks results
-   client-side — no network per keystroke, no framework.
+   client-side, with no network per keystroke, no framework.
 
    One index and one ranker feed two front-ends:
      • the hero/catalog box (#search-input, on / and /apps/) swaps the page
@@ -119,7 +119,7 @@
     input.addEventListener('focus', load, { once: true });
 
     /* Build a result card with the same structure/classes as server cards.
-       DOM APIs + textContent only — index data never becomes HTML. */
+       DOM APIs + textContent only, so index data never becomes HTML. */
     function card(a, cats) {
       var cat = cats[a.c] || { n: '', ic: 'apps', h: 145 };
       var el = document.createElement('a');
@@ -178,7 +178,7 @@
         if (results) { results.hidden = true; results.textContent = ''; }
         if (empty) empty.hidden = true;
         if (count) count.textContent = '';
-        /* Strips were display:none while searching — recompute their fades. */
+        /* Strips were display:none while searching, so recompute their fades. */
         if (window.ospsSyncStrips) window.ospsSyncStrips();
         return;
       }
@@ -186,7 +186,7 @@
       load().then(function (d) {
         if (my !== seq) return; /* a newer keystroke won */
         if (!d) {
-          if (count) count.textContent = 'Search isn’t working right now — try the categories below.';
+          if (count) count.textContent = 'Search isn’t working right now. Try the categories below.';
           hideable.forEach(function (el) { el.hidden = false; });
           return;
         }
@@ -197,11 +197,11 @@
         results.hidden = shown.length === 0;
         if (empty) empty.hidden = shown.length !== 0;
         if (count) {
-          /* Always say something — the aria-live region must announce
+          /* Always say something, since the aria-live region must announce
              the no-results case too, not just leave silence. */
           count.textContent = matches.length === 0 ? 'No apps match'
             : matches.length === 1 ? '1 app found'
-              : matches.length > MAX ? matches.length + ' apps found — showing the top ' + MAX
+              : matches.length > MAX ? matches.length + ' apps found, showing the top ' + MAX
                 : matches.length + ' apps found';
         }
       });
@@ -232,7 +232,7 @@
     var rows = [];   /* the options currently in the panel, in visual order */
     var active = -1; /* index into rows, or -1 for "nothing highlighted" */
     var seq = 0;
-    var holding = false; /* a pointer is down inside the panel — don't close yet */
+    var holding = false; /* a pointer is down inside the panel, so don't close yet */
 
     field.addEventListener('focus', load, { once: true });
 
@@ -327,7 +327,7 @@
             panel.appendChild(el);
           }
           if (!matches.length) {
-            panel.appendChild(note('No apps match — try another word.'));
+            panel.appendChild(note('No apps match. Try another word.'));
           } else if (matches.length > shown.length) {
             var all = option('/apps/?q=' + encodeURIComponent(q), shown.length);
             all.className = 'nav-result nav-result-all';
@@ -371,7 +371,7 @@
     document.addEventListener('pointerdown', function (e) {
       if (!form.contains(e.target)) close();
     });
-    /* Tabbing or clicking away closes it — but not while a click on a result
+    /* Tabbing or clicking away closes it, but not while a click on a result
        is still in flight, which would delete the link before it navigates. */
     form.addEventListener('focusout', function () {
       setTimeout(function () {

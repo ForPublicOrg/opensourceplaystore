@@ -2,7 +2,7 @@
   "id": "paralino",
   "name": "Paralino",
   "tagline": "Share your location with people you trust, privately",
-  "description": "Paralino shares live location within a group using end-to-end encryption, with travel tracking and arrival alerts.\n\nNobody in the middle can see where you are — that is the point.",
+  "description": "Paralino shares live location within a group using end-to-end encryption, with travel tracking and arrival alerts.\n\nNobody in the middle can see where you are. That is the point.",
   "repo": "https://github.com/paralino/paralino",
   "category": "maps",
   "license": "AGPL-3.0",

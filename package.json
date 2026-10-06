@@ -1,7 +1,7 @@
 {
   "name": "opensourceplaystore",
   "private": true,
-  "description": "Static, login-free store for open-source Android apps — opensourceplaystore.com",
+  "description": "Static, login-free store for open-source Android apps: opensourceplaystore.com",
   "license": "MIT",
   "engines": { "node": ">=18" },
   "scripts": {

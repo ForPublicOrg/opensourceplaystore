@@ -26,6 +26,6 @@ NOTE ON DATA: App listings under data/apps/ are contributed by each app's
 publisher via pull request. App names, icons, and screenshots belong to their
 respective projects and are hotlinked from those projects' own repositories.
 Live figures (stars, releases) come from the GitHub and F-Droid public APIs.
-APK files are never hosted here — downloads come directly from each project's
+APK files are never hosted here: downloads come directly from each project's
 own releases. The Athena owl mark (public/athena.svg) is the trademark of
 tryathena.dev, vendored unmodified.

@@ -2,7 +2,7 @@
   "id": "msm-media-manager",
   "name": "MSM",
   "tagline": "Manage your whole media server stack",
-  "description": "MSM controls the services behind a home media server — libraries, downloads, requests — from one phone app instead of six web pages.\n\nIt connects only to your own machines.",
+  "description": "MSM controls the services behind a home media server (libraries, downloads, requests) from one phone app instead of six web pages.\n\nIt connects only to your own machines.",
   "repo": "https://github.com/prinzpiuz/MSM",
   "category": "media",
   "license": "GPL-3.0",

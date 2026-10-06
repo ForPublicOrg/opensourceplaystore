@@ -3,7 +3,7 @@
  * One-time GitHub configuration for unattended publishing.
  *
  * The rule that "only new app listings merge on their own" lives in
- * .github/workflows/auto-merge.yml — this script just turns on the repo
+ * .github/workflows/auto-merge.yml: this script just turns on the repo
  * settings that workflow relies on, so nobody has to click through Settings.
  *
  * Usage:
@@ -86,7 +86,7 @@ function main() {
   }
 
   if (!apply) {
-    console.log('\nNothing changed — re-run with --apply to make it so.');
+    console.log('\nNothing changed; re-run with --apply to make it so.');
     return;
   }
 

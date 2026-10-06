@@ -2,7 +2,7 @@
   "id": "signal",
   "name": "Signal",
   "tagline": "Private messaging for everyone",
-  "description": "Signal is a messaging app like the ones you know, but everything you send is locked with end-to-end encryption. Only you and the person you write to can read your messages — not even Signal can.\n\nSend texts, photos, voice notes, and make free video calls. Used by millions of people who care about privacy.",
+  "description": "Signal is a messaging app like the ones you know, but everything you send is locked with end-to-end encryption. Only you and the person you write to can read your messages. Not even Signal can.\n\nSend texts, photos, voice notes, and make free video calls. Used by millions of people who care about privacy.",
   "repo": "https://github.com/signalapp/Signal-Android",
   "category": "social",
   "license": "AGPL-3.0",

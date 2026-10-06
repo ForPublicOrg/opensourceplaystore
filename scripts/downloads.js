@@ -5,7 +5,7 @@
  * the snapshot to data/downloads.json. build.js bakes it into the pages: the
  * "Most downloaded" sort order, and the running total on the About page.
  *
- * Zero dependencies and no credentials — plain REST, because the counts are
+ * Zero dependencies and no credentials: plain REST, because the counts are
  * public by design (the rules let anyone read them).
  *
  * Tolerant like sync.js: if Firestore can't be reached, the previous snapshot
@@ -25,7 +25,7 @@ const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), '
 async function main() {
   const project = config.firestoreProject;
   if (!project) {
-    console.log('downloads: no firestoreProject in site.config.json — skipped');
+    console.log('downloads: no firestoreProject in site.config.json; skipped');
     return;
   }
   const host = process.env.FIRESTORE_EMULATOR_HOST
@@ -62,5 +62,5 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.log(`downloads: could not fetch counts (${err.message}) — keeping the previous snapshot`);
+  console.log(`downloads: could not fetch counts (${err.message}); keeping the previous snapshot`);
 });

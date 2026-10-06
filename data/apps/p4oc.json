@@ -2,7 +2,7 @@
   "id": "p4oc",
   "name": "P4OC",
   "tagline": "Follow an AI coding session from your phone",
-  "description": "P4OC connects to your own OpenCode server and streams the conversation, showing code changes as readable diffs you can approve or reject.\n\nNothing goes through a third-party service — you point it at your machine.",
+  "description": "P4OC connects to your own OpenCode server and streams the conversation, showing code changes as readable diffs you can approve or reject.\n\nNothing goes through a third-party service; you point it at your machine.",
   "repo": "https://github.com/theblazehen/P4OC",
   "category": "tools",
   "license": "GPL-3.0",

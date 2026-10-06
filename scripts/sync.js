@@ -8,7 +8,7 @@
  * (see .github/workflows/sync.yml) or manually before a local build.
  *
  * Zero dependencies. Authenticated when GITHUB_TOKEN is set (5000 req/h),
- * anonymous otherwise (60 req/h — fine for small catalogs).
+ * anonymous otherwise (60 req/h; fine for small catalogs).
  *
  * Tolerant by design: on any per-app failure the previous snapshot entry is
  * kept, so a rate-limited or offline run never erases good data.
@@ -54,8 +54,8 @@ async function gh(url, attempt = 0) {
   if (res.status === 404) return { notFound: true };
   if (res.status === 403 || res.status === 429) {
     /* Two different limits arrive as 403 and they want opposite responses.
-       A secondary limit — too many calls too quickly, with hourly quota still
-       on the clock — clears in seconds, so back off and retry. The hourly
+       A secondary limit (too many calls too quickly, with hourly quota still
+       on the clock) clears in seconds, so back off and retry. The hourly
        quota running out does not clear until the window turns over, and this
        catalog is big enough to spend a whole window in one run, so waiting it
        out would idle the job for the best part of an hour. Stop instead: the
@@ -112,7 +112,7 @@ const IMG_RE = /\.(png|jpe?g|webp)$/i;
 
 /* Plenty of repos keep their real pictures in an assets folder and put git
    symlinks in the fastlane tree. GitHub lists those as ordinary files, and
-   raw.githubusercontent serves a symlink's target *path as plain text* — so
+   raw.githubusercontent serves a symlink's target *path as plain text*, so
    baking that URL into a page gives a broken image (Obtainium, PodAura and
    friends all do this). Anything far too small to be a picture is treated as
    a suspect and checked properly. */
@@ -202,7 +202,7 @@ async function syncApp(app) {
     syncedAt: new Date().toISOString(),
   };
 
-  /* /releases/latest never returns prereleases — if an app only has
+  /* /releases/latest never returns prereleases; if an app only has
      prereleases (common while in testing), fall back to the release list
      so early apps still get a real APK link and a prerelease flag. */
   let release = await gh(`https://api.github.com/repos/${owner}/${name}/releases/latest`);
@@ -258,7 +258,7 @@ async function main() {
   let quotaReset = null;
 
   /* Stalest data first. At 3–5 API calls per app a full catalog can cost more
-     than one hourly quota, so a run may not reach the end — refreshing what
+     than one hourly quota, so a run may not reach the end; refreshing what
      has waited longest means successive runs cover the whole catalog instead
      of retrying the same prefix. Apps with no entry at all sort first, so a
      listing published today gets its stars and download link on the next run. */
@@ -273,7 +273,7 @@ async function main() {
      minutes while staying well inside GitHub's concurrency comfort zone. */
   async function worker() {
     for (;;) {
-      if (quotaReset) return; // another worker hit the wall — drain quietly
+      if (quotaReset) return; // another worker hit the wall; drain quietly
       const file = queue.shift();
       if (!file) return;
       const app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
@@ -307,7 +307,7 @@ async function main() {
   fs.writeFileSync(LIVE_FILE, JSON.stringify(out, null, 1) + '\n');
   const notes = [
     failed ? `${failed} failed, previous data kept` : null,
-    quotaReset ? `stopped early: GitHub quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''} — the next run continues from the stalest entries` : null,
+    quotaReset ? `stopped early: GitHub quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''}; the next run continues from the stalest entries` : null,
   ].filter(Boolean).join('; ');
   console.log(`\nSynced ${ok}/${files.length} apps${notes ? ` (${notes})` : ''} -> data/live.json`);
 }

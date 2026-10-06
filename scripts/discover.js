@@ -4,7 +4,7 @@
  *
  * Searches GitHub for app-shaped repositories, throws away everything that
  * isn't a real, installable, listable app, and prints what's left so a human
- * can write manifests for the good ones. It never writes to data/apps/ —
+ * can write manifests for the good ones. It never writes to data/apps/:
  * listings are hand-written on purpose (tagline and description are the
  * whole point of this site).
  *
@@ -74,7 +74,7 @@ const QUERY_SETS = {
     'topic:material-you stars:>40', 'topic:foss topic:android stars:>40',
     'topic:privacy topic:android stars:>40', 'topic:compose-multiplatform stars:>80',
   ],
-  /* Everyday app shapes the "topics" set doesn't name — the ordinary reasons
+  /* Everyday app shapes the "topics" set doesn't name: the ordinary reasons
      someone opens a phone. Star floors are low here because these corners are
      small; the .apk check downstream is what keeps the noise out. */
   everyday: [
@@ -104,7 +104,7 @@ const QUERY_SETS = {
     'topic:android topic:puzzle-game stars:>20', 'topic:android topic:emulator stars:>60',
     'topic:android topic:roguelike stars:>25', 'topic:android topic:strategy-game stars:>25',
   ],
-  /* Hobbyist and technical corners — small audiences, real apps, and the part
+  /* Hobbyist and technical corners: small audiences, real apps, and the part
      of the catalog a topic sweep of consumer categories never reaches. */
   niche: [
     'topic:android topic:ssh stars:>20', 'topic:android topic:vnc stars:>15',
@@ -163,7 +163,7 @@ function listedRepos() {
 }
 
 /* An app nobody can install isn't a listing. Accept the repo only if one of
-   its recent releases carries an .apk — the same thing the site's download
+   its recent releases carries an .apk; the same thing the site's download
    button needs. */
 async function apkRelease(fullName) {
   const releases = await gh(`https://api.github.com/repos/${fullName}/releases?per_page=4`);

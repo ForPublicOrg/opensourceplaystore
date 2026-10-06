@@ -2,7 +2,7 @@
   "id": "plainapp",
   "name": "PlainApp",
   "tagline": "Manage your phone from a web browser",
-  "description": "PlainApp opens a small web page on your own network so you can look after your phone from a computer: files, messages, contacts, notes and media, all over an encrypted connection.\n\nNothing goes to the internet — the phone and the browser talk directly.",
+  "description": "PlainApp opens a small web page on your own network so you can look after your phone from a computer: files, messages, contacts, notes and media, all over an encrypted connection.\n\nNothing goes to the internet; the phone and the browser talk directly.",
   "repo": "https://github.com/plainhub/plain-app",
   "category": "tools",
   "license": "AGPL-3.0",

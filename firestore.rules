@@ -4,8 +4,8 @@ rules_version = '2';
 //
 // The site has no backend: visitors' browsers write here directly over the
 // Firestore REST API, signed out (public/js/app.js). So these rules ARE
-// the server-side logic. Anyone may read the counts — they're shown on the
-// site anyway — and the only write anyone may make is "add exactly one to one
+// the server-side logic. Anyone may read the counts (they're shown on the
+// site anyway), and the only write anyone may make is "add exactly one to one
 // app's count". No deletes, no other fields, no other collections.
 //
 // Deploy: paste into Firebase console -> Firestore Database -> Rules -> Publish,
