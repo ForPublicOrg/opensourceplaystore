@@ -49,8 +49,14 @@ node scripts/serve.js    # preview at http://localhost:8080
 ```
 
 `node scripts/validate.js` checks every manifest; add `--check-remote` to also verify
-repos exist and releases carry APKs. Remote checks cost two API calls per app, so CI
-narrows them to what a pull request touched: `--only data/apps/foo.json`.
+repos exist and releases carry APKs, on GitHub, GitLab, Codeberg or Bitbucket. Remote
+checks cost two or three API calls per app, so CI narrows them to what a pull request
+touched: `--only data/apps/foo.json`.
+
+`sync.js` reads each repo from its own host. GitHub is asked with `GITHUB_TOKEN` when
+set; GitLab, Codeberg and Bitbucket are asked anonymously, which is plenty for public
+repos (Bitbucket allows 60 calls an hour, and has no stars or releases to read, so its
+listings get their download from F-Droid).
 
 ## Growing the catalog
 
@@ -145,9 +151,9 @@ single thing about it** is a brand-new app listing:
 Anything else (a code change, a workflow change, an edit to a listing that already exists,
 a repo that could not be verified) gets the `needs-review` label and a comment saying why,
 and waits for a maintainer. `--strict` is what makes that call: warnings meaning *nobody
-could confirm this* (repo archived, no license, not on GitHub, API unreachable) become
-errors, while the ordinary "no `.apk` in the latest release" warning does not, because
-F-Droid and download-page fallbacks are normal.
+could confirm this* (repo archived, no license, not on a known code host, API
+unreachable) become errors, while the ordinary "no `.apk` in the latest release" warning
+does not, because F-Droid and download-page fallbacks are normal.
 
 The workflow runs on `pull_request_target` (a fork's `pull_request` token cannot merge),
 so it never checks out or runs the pull request's code. It checks out `main`, reads the

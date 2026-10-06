@@ -16,6 +16,7 @@ const crypto = require('crypto');
 const { rawImageUrl } = require('./scripts/lib/image-url');
 const { sprite, icon: ic } = require('./scripts/lib/icons');
 const { weeklyGain } = require('./scripts/lib/stars');
+const { forgeOf } = require('./scripts/lib/forges');
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
@@ -151,6 +152,8 @@ function iconUrl(app, size) {
   if (l.icon) return rawImageUrl(l.icon);
   const gh = githubSlug(app.repo);
   if (gh) return `https://github.com/${gh.split('/')[0]}.png?size=${size}`;
+  // GitLab, Codeberg and Bitbucket have no avatar-by-name URL, so sync.js records the repo's.
+  if (l.avatar) return l.avatar;
   return '/favicon.svg';
 }
 
@@ -435,7 +438,7 @@ function starsHtml(app) {
 function starsTag(app) {
   const l = liveOf(app);
   if (typeof l.stars === 'number') {
-    return `<span class="tag" id="stars-pill">${ic('star-solid', { cls: 'star' })}<span id="stars-count">${fmtStars(l.stars)}</span>&nbsp;GitHub stars</span>`;
+    return `<span class="tag" id="stars-pill">${ic('star-solid', { cls: 'star' })}<span id="stars-count">${fmtStars(l.stars)}</span>&nbsp;${forgeOf(app.repo).label} stars</span>`;
   }
   return `<span class="tag" id="stars-pill">${ic('star', { cls: 'star' })}New here</span>`;
 }
@@ -857,8 +860,9 @@ const LD_CATEGORY = {
 function appPage(app) {
   const l = liveOf(app);
   const cat = catById[app.category];
+  const forge = forgeOf(app.repo);
   const gh = githubSlug(app.repo);
-  const releasesUrl = gh ? `${app.repo}/releases` : app.repo;
+  const releasesUrl = forge.releases ? `${app.repo}${forge.releases}` : null;
 
   /* Download chain: baked APK -> manifest download url -> releases page. */
   let dlHref;
@@ -866,7 +870,7 @@ function appPage(app) {
   let dlIcon;
   let dlKind;
   let dlMeta;
-  let dlNote = `This comes straight from ${esc(app.name)}’s own GitHub page, and it’s free.`;
+  let dlNote = `This comes straight from ${esc(app.name)}’s own ${forge.label} page, and it’s free.`;
   if (l.apk) {
     dlHref = l.apk.url;
     dlLabel = 'Download the app';
@@ -890,8 +894,8 @@ function appPage(app) {
     dlKind = 'fallback';
     dlMeta = ['Opens the app’s own download page'];
   } else {
-    dlHref = releasesUrl;
-    dlLabel = 'Get it from GitHub';
+    dlHref = releasesUrl || app.repo;
+    dlLabel = `Get it from ${forge.label}`;
     dlIcon = 'arrow-up-right';
     dlKind = 'fallback';
     dlMeta = ['Look for the file ending in <strong>.apk</strong>'];
@@ -924,16 +928,20 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
   const descHtml = app.description.split(/\n\s*\n/)
     .map((p) => `<p>${esc(p.trim()).replaceAll('\n', '<br>')}</p>`).join('\n');
 
-  const discussionsUrl = l.hasDiscussions ? `${app.repo}/discussions` : `${app.repo}/issues`;
-  const licenseUrl = gh ? `${app.repo}?tab=License-1-ov-file` : app.repo;
+  /* Each host keeps these pages at its own paths (GitLab's sit under /-/).
+     sync.js notes when a repo's issues are switched off, or kept on another
+     site, and a link with nowhere to go is left out rather than shown as a 404. */
+  const issuesUrl = l.issuesUrl || (l.hasIssues === false || !forge.issues ? null : `${app.repo}${forge.issues}`);
+  const discussionsUrl = l.hasDiscussions ? `${app.repo}/discussions` : issuesUrl;
+  const licenseUrl = gh ? `${app.repo}?tab=License-1-ov-file` : l.licenseUrl || app.repo;
 
   const links = [
     ['code', 'See the code', 'How it’s made, every line is public', app.repo],
     ['chat', 'Questions & comments', 'Talk with the people who make it', discussionsUrl],
-    ['bug', 'Report a problem', 'Tell the makers something is broken', `${app.repo}/issues`],
+    ['bug', 'Report a problem', 'Tell the makers something is broken', issuesUrl],
     ['history', 'All versions', 'Older downloads and what changed', releasesUrl],
     ['scale', 'License', 'The rules for using and sharing it', licenseUrl],
-  ];
+  ].filter((link) => link[3]);
   if (app.website) links.splice(1, 0, ['globe', 'Website', 'The app’s own home page', app.website]);
 
   const ownerName = ownerOf(app);
@@ -988,7 +996,7 @@ ${shots.map((s, i) => `  <a class="shot-link" href="${esc(s)}" aria-label="Pictu
       ${testingTag}
       ${archivedTag}
     </div>
-    <p class="maker-line">Made by <a href="${esc(gh ? `https://github.com/${ownerName}` : app.repo)}" rel="noopener">${esc(ownerName)}</a> · free and open source</p>
+    <p class="maker-line">Made by <a href="${esc(`https://${forge.host}/${ownerName}`)}" rel="noopener">${esc(ownerName)}</a> · free and open source</p>
   </div>
 </section>
 ${testingHtml}

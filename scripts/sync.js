@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 /*
- * Fetches live GitHub data (stars, latest release, APK asset, discussions flag)
- * for every app in data/apps/ and writes the snapshot to data/live.json, plus
- * the day's star counts to data/star-history.json (what Trending ranks by).
+ * Fetches live data (stars, latest release, APK asset, icon and screenshots)
+ * for every app in data/apps/ from the host its repo lives on (GitHub, GitLab,
+ * Codeberg or Bitbucket; see lib/forges.js) and writes the snapshot to
+ * data/live.json, plus the day's star counts to data/star-history.json (what
+ * Trending ranks by).
  *
  * The build bakes this snapshot into the static HTML, so visitors never need
- * to call the GitHub API just to browse or download. Run it on a schedule
+ * to call a forge's API just to browse or download. Run it on a schedule
  * (see .github/workflows/sync.yml) or manually before a local build.
  *
- * Zero dependencies. Authenticated when GITHUB_TOKEN is set (5000 req/h),
- * anonymous otherwise (60 req/h; fine for small catalogs).
+ * Zero dependencies. GitHub calls are authenticated when GITHUB_TOKEN is set
+ * (5000 req/h), anonymous otherwise (60 req/h; fine for small catalogs). The
+ * other hosts are always asked anonymously.
  *
  * Tolerant by design: on any per-app failure the previous snapshot entry is
  * kept, so a rate-limited or offline run never erases good data.
@@ -19,6 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 const { recordStars, formatHistory } = require('./lib/stars');
+const { forgeOf, hostApi } = require('./lib/forges');
 
 const ROOT = path.join(__dirname, '..');
 const APPS_DIR = path.join(ROOT, 'data', 'apps');
@@ -85,7 +89,7 @@ async function gh(url, attempt = 0) {
   return res.json();
 }
 
-/* Direct APK from F-Droid when the GitHub release has none.
+/* Direct APK from F-Droid when the repo's own release has none.
    F-Droid hosts stable APK URLs: /repo/<package>_<versionCode>.apk */
 async function fdroidApk(packageId) {
   const res = await fetch(`https://f-droid.org/api/v1/packages/${packageId}`, {
@@ -145,18 +149,22 @@ async function servesAnImage(url) {
 }
 
 /* Returns a URL that really serves a picture, or null. Ordinary files are
-   trusted on their blob size alone, so the common case costs no requests. */
+   trusted on their blob size alone, so the common case costs no requests.
+   GitLab and Codeberg say outright which entries are symlinks (GitHub does
+   not), so their ordinary files skip the guesswork whatever their size. */
 async function pictureUrl(file) {
   if (!file || !file.download_url) return null;
-  if (file.size > SYMLINK_MAX) return file.download_url;
+  if (file.symlink === false || file.size > SYMLINK_MAX) return file.download_url;
   const url = (await followSymlink(file)) || file.download_url;
   return (await servesAnImage(url)) ? url : null;
 }
 
-async function discoverImages(owner, name) {
+/* `listDir` is the host's own directory listing (see lib/forges.js): an
+   array of { name, path, type, size, download_url }, or null. */
+async function discoverImages(listDir) {
   for (const base of FASTLANE_PATHS) {
-    const listing = await gh(`https://api.github.com/repos/${owner}/${name}/contents/${base}`);
-    if (listing.notFound || !Array.isArray(listing)) continue;
+    const listing = await listDir(base);
+    if (!listing) continue;
     const out = {};
     const icon = listing.find((f) => f.type === 'file' && /^icon\.(png|webp)$/i.test(f.name));
     if (icon) {
@@ -165,8 +173,8 @@ async function discoverImages(owner, name) {
     }
     const shotsDir = listing.find((f) => f.type === 'dir' && f.name === 'phoneScreenshots');
     if (shotsDir) {
-      const shots = await gh(`https://api.github.com/repos/${owner}/${name}/contents/${shotsDir.path}`);
-      if (Array.isArray(shots)) {
+      const shots = await listDir(shotsDir.path);
+      if (shots) {
         const candidates = shots
           .filter((f) => f.type === 'file' && IMG_RE.test(f.name) && f.download_url)
           .sort((a, b) => a.name.localeCompare(b.name, 'en', { numeric: true }))
@@ -184,48 +192,84 @@ async function discoverImages(owner, name) {
   return {};
 }
 
-async function syncApp(app) {
-  const m = app.repo.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)$/);
-  if (!m) return { skipped: 'not a GitHub repo' };
-  const [, owner, name] = m;
+/* GitHub's side of the adapters in lib/forges.js: the same three questions,
+   asked through gh() so the hourly quota is watched. */
+function githubApi(forge) {
+  const api = `https://api.github.com/repos/${forge.owner}/${forge.name}`;
+  return {
+    async repo() {
+      const repo = await gh(api);
+      if (repo.notFound) return repo;
+      return {
+        stars: repo.stargazers_count,
+        owner: repo.owner ? repo.owner.login : forge.owner,
+        createdAt: repo.created_at,
+        pushedAt: repo.pushed_at,
+        archived: !!repo.archived,
+        hasDiscussions: !!repo.has_discussions,
+        license: repo.license && repo.license.spdx_id && repo.license.spdx_id !== 'NOASSERTION'
+          ? repo.license.spdx_id
+          : null,
+      };
+    },
 
-  const repo = await gh(`https://api.github.com/repos/${owner}/${name}`);
+    /* /releases/latest never returns prereleases; if an app only has
+       prereleases (common while in testing), fall back to the release list
+       so early apps still get a real APK link and a prerelease flag. */
+    async release() {
+      let release = await gh(`${api}/releases/latest`);
+      if (release.notFound) {
+        const list = await gh(`${api}/releases?per_page=5`);
+        release = (Array.isArray(list) && list.find((r) => !r.draft)) || { notFound: true };
+      }
+      if (release.notFound || !release.tag_name) return null;
+      return {
+        tag: release.tag_name,
+        date: release.published_at,
+        prerelease: !!release.prerelease,
+        apks: (release.assets || [])
+          .filter((a) => a.name.toLowerCase().endsWith('.apk'))
+          .map((a) => ({ name: a.name, url: a.browser_download_url, size: a.size })),
+      };
+    },
+
+    async listDir(dir) {
+      const listing = await gh(`${api}/contents/${dir}`);
+      return Array.isArray(listing) ? listing : null;
+    },
+  };
+}
+
+async function syncApp(app) {
+  const forge = forgeOf(app.repo);
+  if (!forge) return { skipped: 'not a repo on a known code host' };
+  const host = forge.id === 'github' ? githubApi(forge) : hostApi(forge, HEADERS['User-Agent']);
+
+  const repo = await host.repo();
   if (repo.notFound) return { missing: true, syncedAt: new Date().toISOString() };
 
   const entry = {
-    stars: repo.stargazers_count,
-    owner: repo.owner ? repo.owner.login : owner,
-    createdAt: repo.created_at,
-    pushedAt: repo.pushed_at,
-    archived: !!repo.archived,
-    hasDiscussions: !!repo.has_discussions,
-    license: repo.license && repo.license.spdx_id && repo.license.spdx_id !== 'NOASSERTION'
-      ? repo.license.spdx_id
-      : null,
+    stars: repo.stars, // Bitbucket has none, so its listings show as new
+    owner: repo.owner,
+    createdAt: repo.createdAt,
+    pushedAt: repo.pushedAt,
+    archived: repo.archived,
+    hasDiscussions: repo.hasDiscussions, // GitHub only
+    license: repo.license,
     syncedAt: new Date().toISOString(),
   };
 
-  /* /releases/latest never returns prereleases; if an app only has
-     prereleases (common while in testing), fall back to the release list
-     so early apps still get a real APK link and a prerelease flag. */
-  let release = await gh(`https://api.github.com/repos/${owner}/${name}/releases/latest`);
-  if (release.notFound) {
-    const list = await gh(`https://api.github.com/repos/${owner}/${name}/releases?per_page=5`);
-    release = (Array.isArray(list) && list.find((r) => !r.draft)) || { notFound: true };
-  }
-  if (!release.notFound && release.tag_name) {
+  const release = await host.release();
+  if (release) {
     if (release.prerelease) entry.prerelease = true;
-    entry.releaseTag = release.tag_name;
-    entry.releaseDate = release.published_at;
-    const apks = (release.assets || [])
-      .filter((a) => a.name.toLowerCase().endsWith('.apk'))
-      .map((a) => ({ name: a.name, url: a.browser_download_url, size: a.size }));
-    const best = pickApk(apks);
+    entry.releaseTag = release.tag;
+    entry.releaseDate = release.date;
+    const best = pickApk(release.apks);
     if (best) entry.apk = best;
-    if (apks.length > 1) entry.apkCount = apks.length;
+    if (release.apks.length > 1) entry.apkCount = release.apks.length;
   }
 
-  // No APK on GitHub? Try F-Droid for a real, direct download.
+  // No APK in the repo's release? Try F-Droid for a real, direct download.
   if (!entry.apk && app.fdroid) {
     try {
       const apk = await fdroidApk(app.fdroid);
@@ -238,10 +282,17 @@ async function syncApp(app) {
 
   // Real icon + screenshots from the repo's fastlane metadata, if it has any.
   try {
-    const images = await discoverImages(owner, name);
+    const images = await discoverImages(host.listDir);
     if (images.icon) entry.icon = images.icon;
     if (images.screenshots && images.screenshots.length) entry.screenshots = images.screenshots;
   } catch { /* icons/screenshots are optional */ }
+
+  /* What only the other hosts report: the repo's avatar, standing in for the
+     icon GitHub listings get from the owner's picture, and where the licence
+     and the issue tracker live when that is not the usual place. */
+  for (const key of ['avatar', 'licenseUrl', 'hasIssues', 'issuesUrl']) {
+    if (repo[key] !== undefined) entry[key] = repo[key];
+  }
 
   return entry;
 }
@@ -276,16 +327,19 @@ async function main() {
      minutes while staying well inside GitHub's concurrency comfort zone. */
   async function worker() {
     for (;;) {
-      if (quotaReset) return; // another worker hit the wall; drain quietly
       const file = queue.shift();
       if (!file) return;
       const app = JSON.parse(fs.readFileSync(path.join(APPS_DIR, file), 'utf8'));
+      const forge = forgeOf(app.repo);
+      /* Once GitHub's quota is spent its listings wait for the next run; the
+         other hosts have limits of their own, so theirs carry on. */
+      if (quotaReset && (!forge || forge.id === 'github')) continue;
       try {
         const entry = await syncApp(app);
         out.apps[app.id] = entry;
         ok++;
         const extras = [
-          entry.apk ? `apk:${entry.apk.source === 'fdroid' ? 'f-droid' : 'github'}` : 'no apk',
+          entry.apk ? `apk:${entry.apk.source === 'fdroid' ? 'f-droid' : forge.id}` : 'no apk',
           entry.icon ? 'icon' : null,
           entry.screenshots ? `${entry.screenshots.length} shots` : null,
         ].filter(Boolean).join('  ');
@@ -293,7 +347,7 @@ async function main() {
       } catch (e) {
         if (e.quotaSpent) {
           quotaReset = e.resetAt || true;
-          return;
+          continue;
         }
         failed++;
         console.error(`✗ ${app.id}: ${e.message} (keeping previous data)`);
@@ -318,7 +372,7 @@ async function main() {
   fs.writeFileSync(HISTORY_FILE, formatHistory(recordStars(history, out.apps)));
   const notes = [
     failed ? `${failed} failed, previous data kept` : null,
-    quotaReset ? `stopped early: GitHub quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''}; the next run continues from the stalest entries` : null,
+    quotaReset ? `GitHub listings stopped early: quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''}; the next run continues from the stalest entries` : null,
   ].filter(Boolean).join('; ');
   console.log(`\nSynced ${ok}/${files.length} apps${notes ? ` (${notes})` : ''} -> data/live.json`);
 }

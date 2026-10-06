@@ -6,7 +6,8 @@
  * Usage:
  *   node scripts/validate.js                 # offline checks (schema, duplicates)
  *   node scripts/validate.js --check-remote  # + live checks (repo exists, is public,
- *                                            #   has license and APK release; the icon
+ *                                            #   has license and APK release, on GitHub,
+ *                                            #   GitLab, Codeberg or Bitbucket; the icon
  *                                            #   and screenshots are real, light pictures)
  *   node scripts/validate.js --check-remote --only data/apps/foo.json [more.json …]
  *                                            #   run the live checks on these manifests
@@ -24,6 +25,7 @@
 const fs = require('fs');
 const path = require('path');
 const { rawImageUrl } = require('./lib/image-url');
+const { forgeOf, hostApi } = require('./lib/forges');
 
 const ROOT = path.join(__dirname, '..');
 const APPS_DIR = path.join(ROOT, 'data', 'apps');
@@ -135,12 +137,24 @@ function checkManifest(fileName, app) {
   return errors;
 }
 
+// The site's real fallback chain when a release has no APK: F-Droid, then the download URL, then the releases page.
+function apkFallback(app, forge) {
+  if (app.fdroid) return `the Download button will use F-Droid (${app.fdroid})`;
+  if (app.download) return 'the Download button will use the listed download page';
+  return `the Download button will fall back to the ${forge.releases ? 'releases' : 'repo'} page`;
+}
+
 async function checkRemote(app, errors, warn) {
-  const m = app.repo.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)$/);
-  if (!m) {
-    warn('remote-skipped', 'remote checks currently only cover GitHub repos; skipped');
+  const forge = forgeOf(app.repo);
+  if (!forge) {
+    warn('remote-skipped', 'remote checks only cover GitHub, GitLab, Codeberg and Bitbucket repos; skipped');
     return;
   }
+  if (forge.id !== 'github') {
+    await checkOtherForge(app, forge, errors, warn);
+    return;
+  }
+  const api = `https://api.github.com/repos/${forge.owner}/${forge.name}`;
   const headers = {
     'User-Agent': 'opensourceplaystore-validator',
     Accept: 'application/vnd.github+json',
@@ -149,7 +163,7 @@ async function checkRemote(app, errors, warn) {
 
   let res;
   try {
-    res = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}`, { headers });
+    res = await fetch(api, { headers });
   } catch (e) {
     warn('unreachable', `could not reach the GitHub API (${e.message}); remote checks skipped`);
     return;
@@ -168,20 +182,47 @@ async function checkRemote(app, errors, warn) {
   if (!repo.license) warn('no-license', 'GitHub detects no license file in the repo');
 
   try {
-    const rel = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}/releases/latest`, { headers });
+    const rel = await fetch(`${api}/releases/latest`, { headers });
     let hasApk = false;
     if (rel.ok) {
       const release = await rel.json();
       hasApk = (release.assets || []).some((a) => a.name.toLowerCase().endsWith('.apk'));
     }
     if (!hasApk) {
-      // The site's real fallback chain: F-Droid, then the download URL, then the releases page.
-      const fallback = app.fdroid
-        ? `the Download button will use F-Droid (${app.fdroid})`
-        : app.download
-          ? 'the Download button will use the listed download page'
-          : 'the Download button will fall back to the releases page';
-      warn('no-apk', `no .apk asset in the latest GitHub release: ${fallback}`);
+      warn('no-apk', `no .apk asset in the latest GitHub release: ${apkFallback(app, forge)}`);
+    }
+  } catch (e) {
+    warn('releases-unchecked', `could not check releases (${e.message})`);
+  }
+}
+
+/* GitLab, Codeberg and Bitbucket: the same questions, asked through the
+   adapters scripts/sync.js uses, so what passes here is what the site shows.
+   None of them gets a token, and none needs one for a public repo. */
+async function checkOtherForge(app, forge, errors, warn) {
+  const host = hostApi(forge, 'opensourceplaystore-validator');
+  let repo;
+  try {
+    repo = await host.repo();
+  } catch (e) {
+    // fetch() itself throws a TypeError when the host cannot be reached at all.
+    if (e instanceof TypeError) warn('unreachable', `could not reach the ${forge.label} API (${e.message}); remote checks skipped`);
+    else warn('unverified', `could not verify repo (${e.message})`);
+    return;
+  }
+  if (repo.notFound) {
+    errors.push(`repo does not exist on ${forge.label} (or is private)`);
+    return;
+  }
+  if (repo.private) errors.push('repo is private; only public repos can be listed');
+  if (repo.archived) warn('archived', 'repo is archived; consider whether it should be listed');
+  if (!repo.license && !repo.licenseUrl) warn('no-license', `no license file found in the repo on ${forge.label}`);
+
+  try {
+    const release = await host.release();
+    if (!release || !release.apks.length) {
+      const what = forge.releases ? `no .apk asset in the latest ${forge.label} release` : `${forge.label} has no releases`;
+      warn('no-apk', `${what}: ${apkFallback(app, forge)}`);
     }
   } catch (e) {
     warn('releases-unchecked', `could not check releases (${e.message})`);
