@@ -35,6 +35,8 @@ const ICONS = {
   check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
   'check-circle': '<circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/>',
   dots: '<path d="M5 12h.01M12 12h.01M19 12h.01"/>',
+  /* the site itself as an app: onto your phone */
+  install: '<rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M12 6.5v7.5"/><path d="m9 11 3 3 3-3"/><path d="M10.5 18h3"/>',
 
   /* status */
   star: '<path d="m12 3.2 2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 17.1 6.6 20l1.1-6.1L3.2 9.6l6.1-.8z"/>',
@@ -47,6 +49,7 @@ const ICONS = {
   clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/>',
   user: '<circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/>',
   'search-off': '<circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4.5 4.5"/><path d="m8.5 8.5 5 5M13.5 8.5l-5 5"/>',
+  offline: '<path d="M2.5 9.4a14 14 0 0 1 19 0"/><path d="M5.7 12.8a9.5 9.5 0 0 1 12.6 0"/><path d="M8.9 16.1a4.8 4.8 0 0 1 6.2 0"/><path d="M12 19.5h.01"/><path d="m3.5 3.5 17 17"/>',
   compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
   heart: '<path d="M12 20.5s-8-4.8-8-10.4A4.4 4.4 0 0 1 12 7.4a4.4 4.4 0 0 1 8 2.7c0 5.6-8 10.4-8 10.4z"/>',
 

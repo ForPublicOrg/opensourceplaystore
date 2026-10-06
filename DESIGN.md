@@ -36,7 +36,9 @@ scripts/downloads.js     reads the Firestore counts -> data/downloads.json (ever
 firestore.rules          the counter's whole server side: public reads, +1-only writes
 scripts/discover.js      searches GitHub for listable apps not yet in the catalog (manual)
 build.js                 zero-dependency static site generator -> dist/
-public/                  static assets copied as-is (JS, favicon, _headers, CNAME...)
+scripts/lib/app-icon.js  draws the PNG app icons (manifest, iPhone home screen) from the favicon's geometry
+public/                  static assets copied as-is (JS, favicon, manifest, _headers, CNAME...)
+public/sw.js             service worker: network-first pages, kept copies, the offline page
 ```
 
 **Key resolution (from the design panel):** nothing the browser renders by default
@@ -75,6 +77,7 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 | Help | `/help/` | install-an-APK guide (4 steps) + FAQ (incl. what In testing means) |
 | About | `/about/` | how the site works, for skeptical parents and developers |
 | 404 | `/404.html` | friendly, links back to browse |
+| Offline | `/offline/` | what the service worker shows for a page you haven't opened when there's no internet; noindex, not in the sitemap |
 
 Every page also carries a dismissible **keepandroidopen.org** notice (localStorage
 dismiss, applied pre-paint) and, on pages without their own search box, a compact
@@ -138,6 +141,38 @@ box is hidden and the paginated catalog does everything.
 - Stars are always called "GitHub stars", never "rating". Buttons are verbs.
 - Real URLs for every state (`?q=` for search); back button always works.
 
+## The site as an app
+
+The store installs like an app and opens from the home screen in its own window: in one tap
+on Chrome, Edge, Samsung Internet and Brave, from the browser's own menu on Firefox and Safari.
+
+- **Manifest** (`public/site.webmanifest`): `standalone`, with `theme_color` and
+  `background_color` set to the paper colour so launching never flashes a different one.
+  Icons are PNG, since Android's installer and iOS pass over SVG: 192 and 512 (the favicon's
+  rounded square) and a full-bleed maskable 512 whose triangle is drawn at 80% so any
+  launcher's mask leaves it whole; the iPhone gets a full-bleed 180 `apple-touch-icon`.
+  `scripts/lib/app-icon.js` draws all four from the favicon's geometry at build time, so no
+  bitmaps live in the repo to drift from the mark.
+- **Asking** (`public/js/install.js`): nothing shows unless the browser can install in one
+  tap (`beforeinstallprompt`). Then an **Install app** button appears in the header on wide
+  screens; on phones a card floats above the tab bar (*Get this store as an app*: Install /
+  Not now) from the visitor's second page, never their first. The card stays off app pages,
+  where an "Install" button would compete with, and could be mistaken for, the app's own
+  Download button, and off the publish form. "Not now", or closing the browser's dialog,
+  puts the card away for 30 days; the header button and the Help page's *Get this store as
+  an app* section (the footer's "Get the app" link) stay. Inside the installed app
+  (`display-mode: standalone`) none of it shows.
+- **Offline** (`public/sw.js`): pages always come from the network first, so the worker
+  never makes the site staler than it is without one. The last 50 pages opened are kept and
+  served only when there's no connection; any other page gets `/offline/`. Content-hashed
+  scripts and the font come from storage first, other files from this site fall back to
+  their last copy, and other origins (GitHub, F-Droid, Firestore) are never touched. The
+  worker is versioned by a hash of the offline page, so a new page shell (styles, scripts)
+  installs a fresh one and a data-only deploy leaves it alone. To retire it, ship a `sw.js`
+  that calls `self.registration.unregister()`.
+- The phone's status bar follows the site's own theme toggle: the theme scripts repaint
+  `theme-color` whenever it disagrees with the system theme.
+
 ## Validation tiers (CI on every listing PR)
 
 Hard block: invalid JSON/schema, bad category, malformed repo URL, id ≠ filename,
@@ -163,8 +198,12 @@ which is also why that workflow never executes the PR's code.
   when it arrives.
 - JS per page, measured gzipped (what the host actually sends): home ≤4KB (search 2.6 + strips
   0.9), detail ≤10KB (app 3.1 incl. the download counter + strips 0.9 + screenshot viewer 6.1, and the viewer is only
-  loaded on pages that have screenshots), publish ≤5KB. Plain scripts, no framework. Raw file
-  sizes run ~3× larger because this codebase comments heavily on purpose.
+  loaded on pages that have screenshots), publish ≤5KB. Every page also carries install.js
+  (1.6 KB: the install offer and the service worker's registration). Plain scripts, no
+  framework. Raw file sizes run ~3× larger because this codebase comments heavily on purpose.
+- The service worker costs one background fetch after the first page has loaded: sw.js
+  (1.8 KB) and the offline page it stores (15 KB). Pages still come from the network first,
+  and navigation preload starts that request while the worker boots.
 - Full-size screenshots are never fetched until the viewer opens, and then only the picture
   you're on plus its two neighbours. They reuse the thumbnails' URLs, so the cache serves them.
 - Icons: publisher icon URL or GitHub avatar CDN fallback, `loading="lazy" decoding="async"` + explicit dimensions.
@@ -192,6 +231,6 @@ patching someone else's proprietary app.
 ## Later (v2)
 
 "Choose your phone type" multi-APK picker · search-index sharding past ~700 apps ·
-PWA/offline shell · GitLab/Codeberg autofill (schema already accepts their URLs) ·
+GitLab/Codeberg autofill (schema already accepts their URLs) ·
 VirusTotal soft-signal on APKs · emergency delist workflow · provenance line
 ("via PR #N by @user") · i18n.

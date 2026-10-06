@@ -382,6 +382,29 @@ kbd {
 [data-theme="dark"] .theme-btn .i-sun { display: block; }
 [data-theme="dark"] .theme-btn .i-moon { display: none; }
 
+/* Appears only when the browser can install the site (see /js/install.js).
+   Phones get the card above the tab bar instead. */
+.install-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 40px;
+  padding: 0 14px 0 11px;
+  margin: 0 4px 0 8px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.install-btn .ic { width: 18px; height: 18px; }
+.install-btn:hover { background: var(--surface-2); }
+@media (max-width: 720px) { .install-btn { display: none; } }
+
 /* Compact search in the header (desktop; phones use the Search tab). */
 .nav-search { position: relative; display: flex; margin-right: 6px; }
 .nav-search > .ic {
@@ -1572,6 +1595,44 @@ details.extras[open] summary .ic { transform: rotate(180deg); }
 
 /* Preview of the listing, drawn with the real card styles. */
 .preview-grid { max-width: 260px; padding: 4px 0 8px; }
+
+/* ---------- The site as an app ---------- */
+
+/* The one-time offer on phones, floating above the tab bar. On wider
+   screens the header's Install button does the job instead. */
+.install-card { display: none; }
+@media (max-width: 720px) {
+  .install-card {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: calc(80px + env(safe-area-inset-bottom));
+    z-index: 50;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0 14px;
+    padding: 16px;
+    border-radius: var(--r-lg);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-2);
+    animation: install-in 0.25s ease-out;
+  }
+}
+@keyframes install-in { from { opacity: 0; transform: translateY(12px); } }
+.install-card > img { width: 48px; height: 48px; display: block; }
+.install-title { margin: 0; font: 700 1.08rem/1.2 var(--font-display); letter-spacing: -0.01em; }
+.install-text { margin: 3px 0 0; color: var(--text-2); font-size: 0.9rem; line-height: 1.4; }
+.install-actions { grid-column: 1 / -1; display: flex; gap: 8px; margin-top: 14px; }
+.install-actions .btn { flex: 1; height: 44px; }
+
+.install-help { margin: 4px 0 8px; }
+
+/* Inside the installed app, nothing offers to install it. */
+@media (display-mode: standalone) {
+  .browser-only { display: none !important; }
+}
 
 /* ---------- Toast ---------- */
 

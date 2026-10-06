@@ -17,6 +17,7 @@ const { rawImageUrl } = require('./scripts/lib/image-url');
 const { sprite, icon: ic } = require('./scripts/lib/icons');
 const { weeklyGain } = require('./scripts/lib/stars');
 const { forgeOf } = require('./scripts/lib/forges');
+const { drawIcon, APP_ICONS } = require('./scripts/lib/app-icon');
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
@@ -288,9 +289,15 @@ const sortedApps = [...apps].sort(CMP.top);
 
 /* ---------------- page shell ---------------- */
 
+/* The browser bar (and, in the installed app, the phone's status bar) takes
+   the page colour from theme-color. The meta tags follow the system theme;
+   the scripts below repaint them when the site's own toggle disagrees. */
+const BAR_COLOR = { light: '#f5f4f0', dark: '#141413' };
+const PAINT_BAR = `function(t){var m=document.querySelectorAll('meta[name="theme-color"]');for(var i=0;i<m.length;i++)m[i].content=t==='dark'?'${BAR_COLOR.dark}':'${BAR_COLOR.light}'}`;
+
 const THEME_BOOT = `<script>(function(){var t;try{t=localStorage.getItem('osps-theme')}catch(e){}
 if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
-document.documentElement.setAttribute('data-theme',t);
+document.documentElement.setAttribute('data-theme',t);(${PAINT_BAR})(t);
 try{if(localStorage.getItem('osps-banner')==='off')document.documentElement.setAttribute('data-banner','off')}catch(e){}})();</script>`;
 
 /* Every icon on the site, once per page, referenced by <use>. */
@@ -317,8 +324,23 @@ var n=document.querySelector('.site-header .logo');if(n)n.focus();});})();</scri
 const THEME_TOGGLE = `<script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;
 function cur(){return document.documentElement.getAttribute('data-theme')==='dark'?'dark':'light'}
 function draw(){b.setAttribute('aria-label',cur()==='dark'?'Switch to light colors':'Switch to dark colors')}
-b.addEventListener('click',function(){var n=cur()==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);
+b.addEventListener('click',function(){var n=cur()==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);(${PAINT_BAR})(n);
 try{localStorage.setItem('osps-theme',n)}catch(e){}draw()});draw()})();</script>`;
+
+/* The offer to install the site as an app, on phones. /js/install.js shows
+   it only when the browser can install in one tap; the picture is the icon
+   it will have on the home screen. */
+const INSTALL_CARD = `<aside class="install-card" id="install-card" aria-label="Get the app" hidden>
+  <img src="/favicon.svg" alt="" width="48" height="48" loading="lazy">
+  <div>
+    <p class="install-title">Get this store as an app</p>
+    <p class="install-text">Open it from your home screen, like your other apps.</p>
+  </div>
+  <div class="install-actions">
+    <button class="btn btn-primary" id="install-yes" type="button">Install</button>
+    <button class="btn btn-secondary" id="install-no" type="button">Not now</button>
+  </div>
+</aside>`;
 
 /* Vercel Web Analytics. Served first-party from our own origin, cookieless,
    and no-op unless Analytics is enabled for the project in Vercel. Not run
@@ -347,15 +369,16 @@ const NAV_SEARCH = `<form class="nav-search" action="/apps/" role="search">
         <div class="nav-results" id="nav-search-results" role="listbox" aria-label="Search results" hidden></div>
       </form>`;
 
-function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false, mainClass = '' }) {
+function page({ title, description, urlPath, active, content, scripts = [], bodyAttrs = '', navSearch = true, head = '', image = '', analytics = false, mainClass = '', installCard = true }) {
   const fullTitle = urlPath === '/' ? `${config.siteName} · ${config.tagline}` : `${title} · ${config.siteName}`;
   const canonical = config.baseUrl + urlPath;
   const current = (item) => (active && item.key === active ? ' aria-current="page"' : '');
   /* The header search needs the same script the hero box uses. Pages that
-     already ship it (home, /apps/) render their own box instead. */
-  const pageScripts = navSearch && scripts.indexOf('/js/search.js') === -1
+     already ship it (home, /apps/) render their own box instead. Every page
+     ends with the one that makes the site installable. */
+  const pageScripts = (navSearch && scripts.indexOf('/js/search.js') === -1
     ? ['/js/search.js'].concat(scripts)
-    : scripts;
+    : scripts).concat('/js/install.js');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -366,10 +389,11 @@ function page({ title, description, urlPath, active, content, scripts = [], body
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(canonical)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="${FONT_URL}" as="font" type="font/woff2" crossorigin>
-<meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="${BAR_COLOR.light}" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="${BAR_COLOR.dark}" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${esc(canonical)}">
@@ -389,6 +413,7 @@ ${BANNER}
       ${NAV_ITEMS.filter((n) => !n.tabOnly).map((n) =>
         `<a class="nav-link" href="${n.href}"${current(n)}>${n.label}</a>`
       ).join('\n      ')}
+      <button class="install-btn" type="button" data-install hidden>${ic('install')}Install app</button>
       <button class="icon-btn theme-btn" id="theme-toggle" type="button" aria-label="Switch colors">${ic('moon', { cls: 'i-moon' })}${ic('sun', { cls: 'i-sun' })}</button>
     </nav>
   </div>
@@ -404,6 +429,7 @@ ${content}
       <a href="/about/">How this site works</a>
       <a href="/help/">Help</a>
       <a href="/publish/">Publish an app</a>
+      <a class="browser-only" href="/help/#app">Get the app</a>
     </nav>
     <p class="footer-note">We don’t host apps; downloads come from each app’s own page.</p>
   </div>
@@ -413,7 +439,7 @@ ${content}
     `<a href="${n.href}"${current(n)}><span class="tab-ic">${ic(n.icon)}</span>${n.label}</a>`
   ).join('\n  ')}
 </nav>
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
+${installCard ? INSTALL_CARD + '\n' : ''}<div class="toast" id="toast" role="status" aria-live="polite"></div>
 ${THEME_TOGGLE}
 ${BANNER_JS}
 ${pageScripts.map((s) => `<script src="${versioned(s)}" defer></script>`).join('\n')}${analytics ? '\n' + ANALYTICS : ''}
@@ -1037,6 +1063,8 @@ ${adminLinks}`;
     head: ldScript,
     image: iconUrl(app, 192),
     mainClass: 'app-page',
+    /* An "Install" button here would read as this app's Download button. */
+    installCard: false,
   });
 }
 
@@ -1172,6 +1200,7 @@ ${registryNote}
     active: 'publish',
     content,
     scripts: ['/js/publish.js'],
+    installCard: false,
   });
 }
 
@@ -1204,6 +1233,12 @@ ${faq('Where do the stars and comments come from?', 'Straight from GitHub, the s
 ${faq('The download button showed a page full of files: which one do I pick?', 'Look for a file ending in <strong>.apk</strong>. If there are several, the one with <strong>arm64</strong> (or <strong>universal</strong>) in its name works on most phones.')}
 ${faq('I make an app, how do I put it here?', 'Wonderful! <a href="/publish/">Go to the Publish page</a>. It takes about three minutes.')}
 </div>
+<section class="browser-only" id="app">
+<h2>Get this store as an app</h2>
+<p>Put this store on your home screen and it opens in its own window, like your other apps. It’s still this website, so it’s always up to date and takes up almost no space.</p>
+<button class="btn btn-primary install-help" type="button" data-install hidden>${ic('install')}Install the app</button>
+<p>To do it from your browser’s menu, look for <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
+</section>
 <p><a href="/about/">Curious how this site works?</a></p>
 </div>`;
 
@@ -1264,6 +1299,31 @@ function notFoundPage() {
     urlPath: '/404.html',
     active: null,
     content,
+  });
+}
+
+/* ---------------- offline ---------------- */
+
+/* What the service worker (public/sw.js) shows, with no internet, for a
+   page you haven't opened before. The worker stores it when it installs and
+   is versioned by its hash, so it holds no catalog data: a deploy that only
+   refreshes the apps must leave this page, and the worker, unchanged. */
+function offlinePage() {
+  const content = `
+<div class="empty-state">
+  <div class="empty-icon">${ic('offline')}</div>
+  <h1>You’re offline</h1>
+  <p>This page needs the internet. Check your Wi-Fi or mobile data, then try again. Pages you’ve opened before still work.</p>
+  <p><button class="btn btn-primary" type="button" onclick="location.reload()">Try again</button></p>
+</div>`;
+  return page({
+    title: 'You’re offline',
+    description: 'There’s no internet connection right now.',
+    urlPath: '/offline/',
+    active: null,
+    content,
+    head: '<meta name="robots" content="noindex">',
+    installCard: false,
   });
 }
 
@@ -1329,7 +1389,9 @@ write('publish/index.html', publishPage());
 write('help/index.html', helpPage());
 write('about/index.html', aboutPage());
 write('404.html', notFoundPage());
-pageCount += 4;
+const offlineHtml = offlinePage();
+write('offline/index.html', offlineHtml);
+pageCount += 5;
 write('sitemap.xml', sitemap(catalogRoutes));
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${config.baseUrl}/sitemap.xml\n`);
 write('index.json', JSON.stringify(
@@ -1355,6 +1417,17 @@ write('search-index.json', JSON.stringify(searchIndex));
 
 /* copy public/ as-is (css is also inlined, but keep the file for reference) */
 fs.cpSync(path.join(ROOT, 'public'), DIST, { recursive: true });
+
+/* The app icons the manifest and the iPhone home screen ask for, drawn from
+   the favicon's own geometry (scripts/lib/app-icon.js). */
+for (const [file, [size, opts]] of Object.entries(APP_ICONS)) write(file, drawIcon(size, opts));
+
+/* The service worker is named after the offline page it stores, so a new
+   page shell (styles, scripts) makes browsers install a fresh worker. */
+const swVersion = crypto.createHash('sha256').update(offlineHtml).digest('hex').slice(0, 8);
+const swSource = fs.readFileSync(path.join(ROOT, 'public', 'sw.js'), 'utf8');
+if (!swSource.includes("'__VERSION__'")) throw new Error("public/sw.js: the '__VERSION__' placeholder is missing");
+write('sw.js', swSource.replace("'__VERSION__'", `'${swVersion}'`));
 
 console.log(`Built ${pageCount} pages for ${apps.length} apps -> dist/`);
 console.log(`search-index.json: ${(JSON.stringify(searchIndex).length / 1024).toFixed(1)} KB`);

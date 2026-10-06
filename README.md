@@ -26,13 +26,15 @@ schema/app.schema.json   the manifest contract
 scripts/validate.js      schema + duplicate + live-repo checks (zero-dep)
 scripts/lib/icons.js     the site's icon set, inlined into every page as an SVG sprite
 scripts/lib/stars.js     star history: records daily counts, works out the weekly gain
+scripts/lib/app-icon.js  draws the PNG app icons (manifest, iPhone home screen) from the favicon
 scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json, star-history.json
 scripts/downloads.js     fetches the download counts from Firestore -> downloads.json
 scripts/discover.js      finds listable apps GitHub has and this catalog doesn't
 scripts/setup-repo.js    one-time GitHub settings for unattended publishing
 scripts/serve.js         tiny local preview server
 build.js                 zero-dependency static site generator -> dist/
-public/                  assets copied into dist/ (JS, CSS, the display font, favicon, CNAME, _headers)
+public/                  assets copied into dist/ (JS, CSS, the display font, favicon, manifest, CNAME, _headers)
+public/sw.js             service worker: lets the installed app open pages without internet
 firestore.rules          the download counter's only server-side logic: public reads, +1 writes
 .github/workflows/       validate PRs · auto-merge publishes · deploy · daily sync
 ```
@@ -95,6 +97,24 @@ which is the part that makes this catalog worth browsing.
    cover everything. Newly listed apps sort first, so they get their stars and download
    link on the very next sync (and on any deploy before that, since the host's build runs
    the sync too).
+
+## Installing the site as an app
+
+The site is an installable web app: [public/site.webmanifest](public/site.webmanifest),
+PNG icons that `build.js` draws from the favicon into `dist/icons/`, and a service worker
+([public/sw.js](public/sw.js)) that fetches every page from the network first and keeps the
+last 50 for when there's no connection (anything else gets `/offline/`).
+[public/js/install.js](public/js/install.js) offers the install only where the browser can do
+it in one tap: an **Install app** button in the header on wide screens, and on phones a card
+above the tab bar from a visitor's second page, never on an app's own page. The Help page
+explains the browser-menu route for Firefox and Safari. The details are in
+[DESIGN.md](DESIGN.md#the-site-as-an-app).
+
+`localhost` counts as secure, so all of it works under `node scripts/serve.js`; Chrome's
+DevTools (*Application → Manifest*) shows whether the page is installable. Installs belong to
+one origin, so `opensourceplaystore.com` and `www.opensourceplaystore.com` are separate apps:
+keep the apex as the primary domain. To retire the service worker, publish a `sw.js` that
+calls `self.registration.unregister()`.
 
 ## Download counter
 
