@@ -27,10 +27,11 @@ GitHub Releases. Ratings are GitHub stars. Comments are the repo's own Discussio
 data/apps/<id>.json      one hand-written manifest per app   (the only thing publishers touch)
 data/categories.json     fixed category taxonomy (10 categories, emoji + word)
 data/live.json           GENERATED snapshot: stars, latest release, APK url, per app
+data/star-history.json   GENERATED: every app's star count per day, last two weeks (Trending)
 data/downloads.json      GENERATED snapshot: download count per app, from Firestore
 schema/app.schema.json   manifest contract (mirrored by scripts/validate.js, zero-dep)
 scripts/validate.js      offline schema checks + optional --check-remote (CI on PRs)
-scripts/sync.js          fetches GitHub data for all apps -> data/live.json (cron Action, ~6h)
+scripts/sync.js          fetches GitHub data for all apps -> data/live.json + star-history.json (cron Action, ~6h)
 scripts/downloads.js     reads the Firestore counts -> data/downloads.json (every build + cron)
 firestore.rules          the counter's whole server side: public reads, +1-only writes
 scripts/discover.js      searches GitHub for listable apps not yet in the catalog (manual)
@@ -65,7 +66,7 @@ URL. "Report this app" opens a pre-filled issue on the site repo (the moderation
 
 | Page | Path | Notes |
 |---|---|---|
-| Home | `/` | hero (headline, search, a shelf of twelve real app icons), category chips, Popular (screenshot strip), Trending, Just added, New projects (repo created in the last year, ≥20 stars), Hidden gems (20–1500 stars, active in last 6 months), Top apps preview (12) → "Browse all" |
+| Home | `/` | hero (headline, search, a shelf of twelve real app icons), category chips, Popular (screenshot strip), Trending (new GitHub stars this week ÷ √(stars a week ago + 500), ≥10 new, not archived; cards show the gain), Just added (individual listings for 2 months; a day that added 20+ at once only for 2 weeks), New projects (repo created in the last year, ≥20 stars), Hidden gems (20–1500 stars, active in last 6 months), Top apps preview (12) → "Browse all" |
 | All apps | `/apps/` | the full catalog: search box, sort tabs, 24-per-page numbered pagination; every sort × page is a pre-rendered static page with `rel=prev/next` |
 | Category | `/category/<id>/` | same catalog treatment (sort tabs + pagination) scoped to a category |
 | In testing | `/testing/` | virtual collection of apps whose makers flag them early (`status: "testing"`) or whose latest release is a prerelease (auto-detected) |
@@ -80,7 +81,7 @@ dismiss, applied pre-paint) and, on pages without their own search box, a compac
 header search that submits to `/apps/?q=…`. Phones get a Search tab instead.
 
 **Sort orders** (catalog + every category, all pre-rendered so sorting works without JS):
-`Top` GitHub stars · `Most downloaded` taps on this site's Download button (cards show the
+`Top` GitHub stars · `Trending` new stars this week weighed against size, as on the home strip (cards show the gain in place of the category tag) · `Most downloaded` taps on this site's Download button (cards show the
 count in place of the category tag; apps not yet downloaded fall back to stars) ·
 `Just added` the listing's `added` date · `New projects` the repo's
 creation date · `Updated` latest release or push · `Maker` owner A–Z (cards swap the

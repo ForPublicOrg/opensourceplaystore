@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /*
  * Fetches live GitHub data (stars, latest release, APK asset, discussions flag)
- * for every app in data/apps/ and writes the snapshot to data/live.json.
+ * for every app in data/apps/ and writes the snapshot to data/live.json, plus
+ * the day's star counts to data/star-history.json (what Trending ranks by).
  *
  * The build bakes this snapshot into the static HTML, so visitors never need
  * to call the GitHub API just to browse or download. Run it on a schedule
@@ -17,10 +18,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const { recordStars, formatHistory } = require('./lib/stars');
 
 const ROOT = path.join(__dirname, '..');
 const APPS_DIR = path.join(ROOT, 'data', 'apps');
 const LIVE_FILE = path.join(ROOT, 'data', 'live.json');
+const HISTORY_FILE = path.join(ROOT, 'data', 'star-history.json');
 
 /* How many apps are fetched at once. Authenticated runs have 5,000 req/h to
    spend; anonymous ones only 60, so they go one at a time and simply cover
@@ -305,6 +308,14 @@ async function main() {
   }
 
   fs.writeFileSync(LIVE_FILE, JSON.stringify(out, null, 1) + '\n');
+
+  let history = { days: {} };
+  try {
+    history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+  } catch {
+    /* first run: Trending fills in once a few days of counts have built up */
+  }
+  fs.writeFileSync(HISTORY_FILE, formatHistory(recordStars(history, out.apps)));
   const notes = [
     failed ? `${failed} failed, previous data kept` : null,
     quotaReset ? `stopped early: GitHub quota spent${quotaReset instanceof Date ? `, resets ${quotaReset.toISOString()}` : ''}; the next run continues from the stalest entries` : null,

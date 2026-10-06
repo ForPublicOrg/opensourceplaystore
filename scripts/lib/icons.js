@@ -39,6 +39,7 @@ const ICONS = {
   /* status */
   star: '<path d="m12 3.2 2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 17.1 6.6 20l1.1-6.1L3.2 9.6l6.1-.8z"/>',
   'star-solid': '<path fill="currentColor" stroke="none" d="m12 2.6 2.9 6 6.6.9-4.8 4.6 1.2 6.6L12 17.5l-5.9 3.2 1.2-6.6L2.5 9.5l6.6-.9z"/>',
+  'trending-up': '<path d="m3 17.5 6-6 4 4 8-8"/><path d="M15 7.5h6v6"/>',
   alert: '<path d="M12 3.5 2.8 19.5h18.4z"/><path d="M12 9.5v4.5"/><path d="M12 17h.01"/>',
   info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5.5"/><path d="M12 7.8h.01"/>',
   flask: '<path d="M9 3.5h6"/><path d="M10 3.5v6.2L4.6 19a1.4 1.4 0 0 0 1.3 2h12.2a1.4 1.4 0 0 0 1.3-2L14 9.7V3.5"/><path d="M7.5 15h9"/>',

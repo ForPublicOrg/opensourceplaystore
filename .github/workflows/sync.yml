@@ -1,8 +1,9 @@
 name: Sync app data
 
 # Refreshes stars, releases, APK links, icons and screenshots for every
-# listed app, plus the site's own download counts, then commits data/live.json
-# and data/downloads.json, which the host rebuilds from.
+# listed app, plus the site's own download counts, then commits data/live.json,
+# data/star-history.json (the daily star counts Trending ranks by) and
+# data/downloads.json, which the host rebuilds from.
 on:
   schedule:
     - cron: "17 */6 * * *" # every 6 hours
@@ -34,7 +35,7 @@ jobs:
         run: |
           git config user.name "osps-sync-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/live.json data/downloads.json
+          git add data/live.json data/star-history.json data/downloads.json
           git diff --cached --quiet || git commit -m "chore: refresh live app data"
           git push
 

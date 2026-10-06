@@ -15,6 +15,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { rawImageUrl } = require('./scripts/lib/image-url');
 const { sprite, icon: ic } = require('./scripts/lib/icons');
+const { weeklyGain } = require('./scripts/lib/stars');
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
@@ -48,6 +49,16 @@ try {
   live = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'live.json'), 'utf8'));
 } catch {
   console.log('note: no data/live.json, building with fallback links (run scripts/sync.js for live data)');
+}
+
+/* Daily star counts, from scripts/sync.js: how Trending knows what an app
+   gained this week. With no history there is no Trending strip, and the
+   Trending sort falls back to stars. */
+let starHistory = { days: {} };
+try {
+  starHistory = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'star-history.json'), 'utf8'));
+} catch {
+  console.log('note: no data/star-history.json, building without Trending (scripts/sync.js starts it)');
 }
 
 /* Download counts, from scripts/downloads.js. With no snapshot every count is
@@ -193,6 +204,29 @@ const lastActiveOf = (app) => {
   return dates.length ? dates.sort().at(-1) : null;
 };
 
+/* GitHub stars gained over the past week, { gain, before }, or null while
+   an app has too little history (see scripts/lib/stars.js). */
+const weeklyCache = new Map();
+function weeklyOf(app) {
+  if (!weeklyCache.has(app.id)) {
+    const l = liveOf(app);
+    weeklyCache.set(app.id, weeklyGain(starHistory, app.id, l.stars, l.syncedAt));
+  }
+  return weeklyCache.get(app.id);
+}
+
+/* "Trending": new GitHub stars this week, weighed against how many the app
+   already had. Raw gains crown the same giants every week, since a 100k-star
+   repo picks up hundreds a week just by being famous, so the gain is divided
+   by the square root of the app's size: a 3k-star app adding 375 outranks a
+   125k one adding 560, while a 40-star app adding 15 still counts for little.
+   The giants still make the list in a week they really take off. */
+const TREND_MIN_GAIN = 10;
+function trendScore(app) {
+  const w = weeklyOf(app);
+  return w ? w.gain / Math.sqrt(w.before + 500) : null;
+}
+
 /* "In testing": the maker says so in the manifest (status: "testing"), or the
    latest release is a GitHub prerelease / carries a prerelease-style tag. */
 const PRERELEASE_RE = /(^|[^a-z])(alpha|beta|rc|pre|preview|dev|nightly|unstable|canary|snapshot|experimental)([^a-z]|$)/i;
@@ -215,6 +249,7 @@ const TESTING_CAT = {
    sorting never needs JavaScript. ISO date strings compare lexicographically. */
 const CMP = {
   top: (a, b) => (liveOf(b).stars ?? -1) - (liveOf(a).stars ?? -1) || a.name.localeCompare(b.name),
+  trending: (a, b) => (trendScore(b) ?? -1e9) - (trendScore(a) ?? -1e9) || CMP.top(a, b),
   downloads: (a, b) => downloadsOf(b) - downloadsOf(a) || CMP.top(a, b),
   new: (a, b) => String(b.added || '').localeCompare(String(a.added || '')) || CMP.top(a, b),
   fresh: (a, b) => String(liveOf(b).createdAt || '').localeCompare(String(liveOf(a).createdAt || '')) || CMP.top(a, b),
@@ -227,6 +262,7 @@ const CMP = {
    "new" in different senses, and the label alone can't carry that. */
 const SORTS = [
   { id: 'top', label: 'Top', note: 'Most GitHub stars first' },
+  { id: 'trending', label: 'Trending', note: 'Gaining GitHub stars fastest this week, for their size' },
   { id: 'downloads', label: 'Most downloaded', note: 'Downloaded most from this site first' },
   { id: 'new', label: 'Just added', note: 'Newest listings on this site first' },
   { id: 'fresh', label: 'New projects', note: 'Youngest projects first, recently started' },
@@ -417,16 +453,20 @@ function downloadsTag(app) {
 /* `maker: true` swaps the category tag for the maker's name; without it the
    maker sort just looks like a shuffled list. `downloads: true` likewise puts
    the download count first, in the category's place; the stars stay, since
-   they order the many apps nobody has downloaded yet. */
+   they order the many apps nobody has downloaded yet. `trending: true` does
+   the same with the stars gained this week, for apps that gained any. */
 function appCard(app, opts = {}) {
   const cat = catById[app.category];
   const testing = isTesting(app) ? `<span class="badge badge-warn">${ic('flask')}Testing</span>` : '';
+  const gained = opts.trending && weeklyOf(app) && weeklyOf(app).gain > 0 ? weeklyOf(app).gain : 0;
   const tag = opts.maker
     ? `<span class="cat-tag">${ic('user')}${esc(ownerOf(app))}</span>`
-    : opts.downloads ? ''
+    : opts.downloads || gained ? ''
       : `<span class="cat-tag">${ic(cat.icon)}${esc(cat.name)}</span>`;
   const dl = opts.downloads
-    ? `<span class="stars dl-count" title="Downloads from this site">${ic('download')}<span>${fmtStars(downloadsOf(app))}</span></span>` : '';
+    ? `<span class="stars dl-count" title="Downloads from this site">${ic('download')}<span>${fmtStars(downloadsOf(app))}</span></span>`
+    : gained
+      ? `<span class="stars gain" title="New GitHub stars this week">${ic('trending-up')}<span>+${fmtStars(gained)}</span></span>` : '';
   return `<a class="card" style="--cat:${cat.hue}" href="/app/${app.id}/">
   <img class="card-icon" src="${esc(iconUrl(app, 128))}" alt="" width="56" height="56" loading="lazy" decoding="async">
   <span class="card-name">${esc(app.name)}</span>
@@ -447,12 +487,12 @@ function sectionHead(title, seeAllHref, seeAllLabel, sub) {
 }
 
 /* Horizontal strip of compact cards, hidden while searching. */
-function cardStrip(title, appsList, seeAllHref, sub) {
+function cardStrip(title, appsList, seeAllHref, sub, cardOpts) {
   if (!appsList.length) return '';
   return `<section data-hide-on-search>
   ${sectionHead(title, seeAllHref, 'See all', sub)}
   <div class="card-strip">
-${appsList.map((a) => appCard(a)).join('\n')}
+${appsList.map((a) => appCard(a, cardOpts)).join('\n')}
   </div>
 </section>`;
 }
@@ -507,9 +547,9 @@ function searchResults() {
 </div>`;
 }
 
-/* "Trending": loved apps that shipped something recently:
-   stars damped by how long ago the last release (or push) happened. */
-function trendingScore(app) {
+/* Loved apps that shipped something recently: stars damped by how long ago
+   the last release (or push) happened. Orders Hidden gems. */
+function activityScore(app) {
   const l = liveOf(app);
   if (typeof l.stars !== 'number') return -1;
   const lastActive = lastActiveOf(app);
@@ -560,23 +600,32 @@ const syncedLine = live.fetchedAt
 
 /* ---------------- home ---------------- */
 
+const addedPerDay = new Map();
+for (const a of apps) if (a.added) addedPerDay.set(a.added, (addedPerDay.get(a.added) || 0) + 1);
+
 /* The catalog's founding import: hundreds of listings share the one date the
    site launched, so calling them "just added" weeks later says nothing about
    any of them. Only the OLDEST date can be that import. A later batch, however
    big, really was added later and belongs in the strip. */
 const SEEDED_ON = (() => {
-  const perDay = new Map();
-  for (const a of apps) if (a.added) perDay.set(a.added, (perDay.get(a.added) || 0) + 1);
-  if (!perDay.size) return new Set();
-  const oldest = [...perDay.keys()].sort()[0];
-  return perDay.get(oldest) > apps.length / 4 ? new Set([oldest]) : new Set();
+  if (!addedPerDay.size) return new Set();
+  const oldest = [...addedPerDay.keys()].sort()[0];
+  return addedPerDay.get(oldest) > apps.length / 4 ? new Set([oldest]) : new Set();
 })();
+
+/* ...but only for a fortnight. The strip orders a day's listings by stars, so
+   a batch of hundreds shows its most famous apps (RustDesk, Immich) as "just
+   added" for the whole two months, crowding out the listings that really are
+   new. A day that added this many at once is a batch, not a maker's PR. */
+const BATCH_SIZE = 20;
 
 function homePage() {
   const popular = sortedApps.filter((a) => screenshotsOf(a).length > 0).slice(0, 8);
-  const trending = [...apps]
-    .filter((a) => trendingScore(a) > 0)
-    .sort((a, b) => trendingScore(b) - trendingScore(a))
+  /* An archived app can still pick up stars, but nobody should be steered
+     toward one that will never be updated again. */
+  const trending = apps
+    .filter((a) => weeklyOf(a) && weeklyOf(a).gain >= TREND_MIN_GAIN && !liveOf(a).archived)
+    .sort(CMP.trending)
     .slice(0, 8);
   const trendIds = new Set(trending.map((a) => a.id));
   /* Hidden gems: solid but not famous (20–1500 stars), released in the last
@@ -589,7 +638,7 @@ function homePage() {
       const act = lastActiveOf(a);
       return act && Date.now() - new Date(act).getTime() < HALF_YEAR && !trendIds.has(a.id);
     })
-    .sort((a, b) => trendingScore(b) - trendingScore(a))
+    .sort((a, b) => activityScore(b) - activityScore(a))
     .slice(0, 8);
   const shownIds = new Set([...trending, ...gems].map((a) => a.id));
   /* Just added: listings that went up on this site recently, however old the
@@ -597,9 +646,11 @@ function homePage() {
      so a fresh listing of a long-running app had nowhere to appear. Empty
      strips render as nothing, so this disappears in a quiet month. */
   const TWO_MONTHS = 61 * 86400000;
+  const TWO_WEEKS = 14 * 86400000;
   const justAdded = [...apps]
     .filter((a) => !shownIds.has(a.id) && a.added && !SEEDED_ON.has(a.added)
-      && Date.now() - new Date(a.added).getTime() < TWO_MONTHS)
+      && Date.now() - new Date(a.added).getTime()
+        < (addedPerDay.get(a.added) >= BATCH_SIZE ? TWO_WEEKS : TWO_MONTHS))
     .sort(CMP.new)
     .slice(0, 8);
   justAdded.forEach((a) => shownIds.add(a.id));
@@ -650,7 +701,7 @@ ${popular.length ? `<section class="popular" data-hide-on-search>
 ${popular.map(featureCard).join('\n')}
   </div>
 </section>` : ''}
-${cardStrip('Trending', trending, '/apps/updated/', 'Loved apps that shipped something recently')}
+${cardStrip('Trending', trending, catalogUrl(null, 'trending'), 'Gaining GitHub stars fastest this week', { trending: true })}
 ${cardStrip('Just added', justAdded, '/apps/new/', 'New on this site')}
 ${cardStrip('New projects', brandNew, '/apps/fresh/', 'Started in the last year and already worth a look')}
 ${cardStrip('Hidden gems', gems, null, 'Small, active projects the star count hides')}
@@ -709,7 +760,7 @@ function catalogPage({ cat, sort, pageNum, pageApps, total, totalPages }) {
     ${sortTabs(catId, sort.id)}
     <p class="catalog-count">${countText}</p>
   </div>
-  ${grid(pageApps, { maker: sort.id === 'maker', downloads: sort.id === 'downloads' })}
+  ${grid(pageApps, { maker: sort.id === 'maker', downloads: sort.id === 'downloads', trending: sort.id === 'trending' })}
   ${paginationNav(catId, sort.id, pageNum, totalPages)}
 </div>`;
 
@@ -727,6 +778,7 @@ ${syncedLine}`;
 
   const sortSuffix = {
     top: '',
+    trending: 'trending this week',
     downloads: 'most downloaded',
     new: 'newest listings',
     fresh: 'newest projects',

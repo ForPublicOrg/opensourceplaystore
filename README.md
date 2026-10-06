@@ -9,7 +9,7 @@ the full product design.
 - **No backend, no accounts, no tracking**: 100% static files. The one piece of shared
   state is an anonymous per-app download count in Firestore (see [Download counter](#download-counter)).
 - **Fully usable with JavaScript disabled**: real download links and every sort order are
-  baked into the HTML (stars · most downloaded · just added · newest projects · updated ·
+  baked into the HTML (stars · trending · most downloaded · just added · newest projects · updated ·
   maker · A–Z).
 - **Kid-simple UX**: plain words at a grade-3 reading level, big tap targets, icon-and-word
   navigation, and one obvious action per page. See the UX system in [DESIGN.md](DESIGN.md).
@@ -20,11 +20,13 @@ the full product design.
 data/apps/<id>.json      one manifest per app; the only file publishers touch
 data/categories.json     fixed category taxonomy
 data/live.json           generated snapshot (stars, APK links, icons, screenshots)
+data/star-history.json   generated daily star counts, last two weeks (what Trending ranks by)
 data/downloads.json      generated snapshot of the download counts in Firestore
 schema/app.schema.json   the manifest contract
 scripts/validate.js      schema + duplicate + live-repo checks (zero-dep)
 scripts/lib/icons.js     the site's icon set, inlined into every page as an SVG sprite
-scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json
+scripts/lib/stars.js     star history: records daily counts, works out the weekly gain
+scripts/sync.js          fetches GitHub/F-Droid data + fastlane images -> live.json, star-history.json
 scripts/downloads.js     fetches the download counts from Firestore -> downloads.json
 scripts/discover.js      finds listable apps GitHub has and this catalog doesn't
 scripts/setup-repo.js    one-time GitHub settings for unattended publishing
