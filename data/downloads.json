@@ -1,18 +1,21 @@
 {
- "fetchedAt": "2026-10-06T00:06:07.436Z",
- "total": 31,
+ "fetchedAt": "2026-10-06T06:22:32.042Z",
+ "total": 37,
  "apps": {
   "a-edev-flow": 1,
   "android-youtube-downloader": 1,
   "androidmic": 1,
   "antennapod": 1,
+  "antibrainrot": 1,
   "aradia": 1,
   "audio-recorder": 1,
   "audiofy": 1,
   "browsafe": 1,
   "comine": 1,
+  "dashbeam": 1,
   "duckduckgo": 1,
   "fadcam": 1,
+  "fairscan": 1,
   "hopline": 1,
   "jellyfin-androidtv": 1,
   "jitsi-meet": 1,
@@ -22,6 +25,8 @@
   "mpv-android": 1,
   "mytv-android": 1,
   "pdf-tools": 1,
+  "planetcon": 1,
+  "principia": 1,
   "protonvpn": 1,
   "serial-bluetooth-terminal": 1,
   "tranquil-stopwatch": 1,
@@ -31,6 +36,6 @@
   "workout-timer": 1,
   "xed-editor": 1,
   "ytdlnis": 1,
-  "zenconverter": 2
+  "zenconverter": 3
  }
 }
