@@ -97,7 +97,7 @@ Done. Publishing now runs itself:
   anything else                                      ->  labelled needs-review, left for you
 
 Leave branch protection off on main, or add it only with a bypass for GitHub
-Actions: the 6-hourly sync bot pushes data/live.json straight to main, and a
+Actions: the daily sync bot pushes data/live.json straight to main, and a
 "require a pull request" rule would block it.`);
 }
 

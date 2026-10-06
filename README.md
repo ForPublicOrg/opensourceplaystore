@@ -34,7 +34,7 @@ scripts/serve.js         tiny local preview server
 build.js                 zero-dependency static site generator -> dist/
 public/                  assets copied into dist/ (JS, CSS, the display font, favicon, CNAME, _headers)
 firestore.rules          the download counter's only server-side logic: public reads, +1 writes
-.github/workflows/       validate PRs · auto-merge publishes · deploy · 6-hourly sync
+.github/workflows/       validate PRs · auto-merge publishes · deploy · daily sync
 ```
 
 ## Develop locally
@@ -83,11 +83,12 @@ which is the part that makes this catalog worth browsing.
      [public/CNAME](public/CNAME) already points at the domain.
 4. Point the domain's DNS at your host (CNAME/A records per their docs).
 5. The [sync workflow](.github/workflows/sync.yml) refreshes stars/downloads/screenshots
-   every 6 hours automatically. A catalog this size costs more API calls than one hourly
+   once a day automatically. A catalog this size costs more API calls than one hourly
    quota allows, so a run refreshes the stalest entries first and stops cleanly when the
-   quota is spent; the next run carries on from where it left off, and a few runs cover
-   everything. Newly listed apps sort first, so they get their stars and download link on
-   the very next sync.
+   quota is spent; the next run carries on from where it left off, and a few days of runs
+   cover everything. Newly listed apps sort first, so they get their stars and download
+   link on the very next sync (and on any deploy before that, since the host's build runs
+   the sync too).
 
 ## Download counter
 
@@ -100,7 +101,7 @@ anyone may read the counts, and the only write anyone may make is adding exactly
 one app's `downloads/<app id>` document.
 
 At build time [scripts/downloads.js](scripts/downloads.js) reads the counts back into
-`data/downloads.json` (the 6-hourly sync also commits it, as a fallback snapshot), and
+`data/downloads.json` (the daily sync also commits it, as a fallback snapshot), and
 `build.js` uses it for the **Most downloaded** sort on every catalog page. If Firestore
 can't be reached, the previous snapshot is used and the build carries on. Leave
 `firestoreProject` empty to switch the counter off entirely.
@@ -168,7 +169,7 @@ trigger push-triggered workflows, so the `PAGES_DEPLOY` variable tells
 to dispatch [deploy.yml](.github/workflows/deploy.yml) explicitly. Vercel and Cloudflare
 build from the push webhook and need nothing.
 
-Leave branch protection off on `main` (or give GitHub Actions a bypass): the 6-hourly sync
+Leave branch protection off on `main` (or give GitHub Actions a bypass): the daily sync
 bot pushes `data/live.json` straight to `main`, and a "require a pull request" rule blocks it.
 The path guard in the workflow, not branch protection, is what keeps code changes out of
 unattended merges.

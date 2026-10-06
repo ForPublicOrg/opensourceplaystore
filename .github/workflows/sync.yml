@@ -6,7 +6,7 @@ name: Sync app data
 # data/downloads.json, which the host rebuilds from.
 on:
   schedule:
-    - cron: "17 */6 * * *" # every 6 hours
+    - cron: "17 0 * * *" # once a day, 00:17 UTC
   workflow_dispatch:
 
 permissions:

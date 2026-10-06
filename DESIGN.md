@@ -31,7 +31,7 @@ data/star-history.json   GENERATED: every app's star count per day, last two wee
 data/downloads.json      GENERATED snapshot: download count per app, from Firestore
 schema/app.schema.json   manifest contract (mirrored by scripts/validate.js, zero-dep)
 scripts/validate.js      offline schema checks + optional --check-remote (CI on PRs)
-scripts/sync.js          fetches GitHub data for all apps -> data/live.json + star-history.json (cron Action, ~6h)
+scripts/sync.js          fetches GitHub data for all apps -> data/live.json + star-history.json (cron Action, daily)
 scripts/downloads.js     reads the Firestore counts -> data/downloads.json (every build + cron)
 firestore.rules          the counter's whole server side: public reads, +1-only writes
 scripts/discover.js      searches GitHub for listable apps not yet in the catalog (manual)
