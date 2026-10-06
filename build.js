@@ -411,7 +411,7 @@ function starsTag(app) {
 function downloadsTag(app) {
   if (!counterOn) return '';
   const n = downloadsOf(app);
-  return `<span class="tag" id="dl-pill"${n > 0 ? '' : ' hidden'}>${ic('download')}<span id="dl-count">${n.toLocaleString('en-US')}</span>&nbsp;<span id="dl-word">${n === 1 ? 'download' : 'downloads'}</span></span>`;
+  return `<span class="tag" id="dl-pill" title="Downloads from this site"${n > 0 ? '' : ' hidden'}>${ic('download')}<span id="dl-count">${n.toLocaleString('en-US')}</span></span>`;
 }
 
 /* `maker: true` swaps the category tag for the maker's name — without it the

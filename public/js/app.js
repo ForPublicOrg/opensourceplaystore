@@ -60,7 +60,6 @@
       if (!pill || !(n > 0) || n < shown) return;
       shown = n;
       countEl.textContent = n.toLocaleString('en-US');
-      document.getElementById('dl-word').textContent = n === 1 ? 'download' : 'downloads';
       pill.hidden = false;
     }
 
