@@ -1,0 +1,20 @@
+{
+  "id": "shiguang-schedule",
+  "name": "Shiguang Schedule",
+  "tagline": "Keep your class timetable, with reminders and widgets",
+  "description": "Shiguang Schedule is a class timetable app for students and teachers. You add your courses with their days, periods, rooms, teachers and weeks, and it shows what is on today and lays the week out as a grid you can swipe through. It is made mainly for Chinese universities, but you can fill it in by hand and use it anywhere.\n\nLong-press a course block to move it or change its length, and change the look with your own background picture, course colours and spacing. There is a dark mode and a choice of home screen widgets, some of which preview tomorrow. Reminders can come before each class, and the app can switch your phone to Do Not Disturb or silent during class. It can also fetch Chinese public holiday dates so that holidays do not disturb you with class reminders. You can export and import your timetable as a JSON file, export a calendar file (ICS), sync it to your phone's calendar, or back it up to a WebDAV server (a kind of personal cloud storage). For some Chinese universities, one tap imports your classes once you have logged in to the school's own system.\n\nBefore installing: the one-tap school import only works for the Chinese university systems the project has scripts for, so elsewhere you add courses by hand or from a file. You need Android 8.0 or newer. For reminders to arrive on time, the app asks you to allow exact alarms, notifications and Do Not Disturb access, to allow auto-start and turn off battery optimisation. Calendar sync needs calendar permission, and WebDAV backup needs a WebDAV service of your own. It uses the internet to update its list of school scripts, fetch holiday dates (from a third-party online service), check for new versions and reach your WebDAV server. The project describes itself as ad-free. The interface is in English, Simplified Chinese and Traditional Chinese.",
+  "repo": "https://github.com/ShiGuangSchedule/shiguangschedule",
+  "category": "education",
+  "license": "Apache-2.0",
+  "tags": [
+    "timetable",
+    "class schedule",
+    "school",
+    "university",
+    "students",
+    "widgets",
+    "reminders",
+    "webdav"
+  ],
+  "added": "2026-10-20"
+}

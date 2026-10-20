@@ -1,0 +1,20 @@
+{
+  "id": "proxypin",
+  "name": "ProxyPin",
+  "tagline": "See and change the web requests your apps make",
+  "description": "ProxyPin is a traffic inspector. It sits between your apps and the internet, records the web requests (HTTP and HTTPS) they make, and lets you open each one to see what was sent and what came back. On Android it uses the system's VPN feature to route your phone's traffic through itself, and the capturing is done on the device. It is mainly a tool for developers testing apps. The same project also makes versions for Windows, Mac, Linux and iPhone.\n\nYou can choose which websites to capture, search the recorded requests, and keep a history that can be exported and imported in HAR format, a standard file for saved web traffic. Rules let you rewrite or redirect a request or reply, answer a request from a local file instead of the real server, block requests by address, or set breakpoints that hold a request until you let it go on. You can also write small JavaScript scripts to change traffic, simulate a weak network, and give it an AES key (a secret code some apps use to scramble messages) to read message bodies. Other devices running ProxyPin can connect by scanning a QR code.\n\nTo read HTTPS traffic you must install ProxyPin's own certificate on the phone. From Android 7 many apps refuse certificates that you install yourself, so their secure traffic can stay unreadable. Rooted phones can install the certificate as a system one instead. The certificate that comes with the app is the same for every user, so you may want to generate your own in the settings first. The app can read your list of installed apps so you can pick which ones to capture. Its privacy note says it has no server of its own and collects no personal data, though on Android it checks GitHub for newer versions when it opens. The interface is in English, Chinese, Spanish, Indonesian, Portuguese, Thai and Vietnamese.",
+  "repo": "https://github.com/wanghongenpin/proxypin",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "packet capture",
+    "http proxy",
+    "https",
+    "network debugging",
+    "traffic inspector",
+    "mitm",
+    "har",
+    "developer tools"
+  ],
+  "added": "2026-10-20"
+}

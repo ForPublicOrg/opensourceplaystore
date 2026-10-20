@@ -1,0 +1,21 @@
+{
+  "id": "equalizer314",
+  "name": "Equalizer314",
+  "tagline": "An equaliser for your whole phone, with a compressor and limiter",
+  "description": "Equalizer314 reshapes the sound of your whole phone, from music, video and other apps at once, so you can lift the bass, soften harsh treble or correct for your headphones. It uses the audio effects built into Android, so it needs no root and no helper app.\n\nDrag points on a graph to choose which pitches to raise or lower. Graphic, table and simple modes are there too, along with a live spectrum. A multiband compressor (which evens out loud and quiet parts separately in different pitch ranges) and a limiter (which stops peaks getting too loud) have their own meters. Presets can follow an output such as Bluetooth headphones, or an app. It can build a correction for your headphones from a measurement file and a target curve, import Wavelet and Poweramp EQ presets, and export in the EqualizerAPO format used on desktop computers. There is also a quick settings tile, and a TV mode that lets a second device on your home network adjust it after pairing with a PIN.\n\nThe developer calls it beta. It needs Android 9 or newer. It works on Android's shared system audio channel, which only one equaliser can hold at a time, so some apps or phones may ignore it, and you may hear brief glitches when it takes the channel back. App presets only work with apps that tell Android when they start playing, and need notification access to see which apps are playing. It asks to record audio, for the live spectrum, the meters and an experimental virtual surround feature (Android 10 or newer); the developer's privacy policy says no audio is saved or sent. There are no ads, accounts or analytics, and the network permission is for the TV remote, which the developer says stays on your home network. The interface is in English, Spanish, Portuguese, Russian, Ukrainian and Simplified Chinese; the Spanish and Portuguese are AI generated.",
+  "repo": "https://github.com/bearinmindcat/Equalizer314",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "status": "testing",
+  "tags": [
+    "equalizer",
+    "eq",
+    "parametric",
+    "audio",
+    "bass boost",
+    "headphones",
+    "compressor",
+    "autoeq"
+  ],
+  "added": "2026-10-20"
+}

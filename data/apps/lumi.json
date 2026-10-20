@@ -1,0 +1,21 @@
+{
+  "id": "lumi",
+  "name": "Lumi",
+  "tagline": "Read your own ebooks, PDFs and comics offline, with no account",
+  "description": "Lumi is an ebook and comic reader for Android. You open books you already have on your phone, in EPUB, PDF, TXT or MOBI files, and comics saved as CBZ (page pictures packed into one file). Your library, reading progress, bookmarks and notes stay on the device by default, and there is no account to make.\n\nThe reader lets you choose between four page-turn effects (slide, scroll, fade and a page curl), several colour themes, your own fonts, and fine control over text size, spacing and margins. You can select text to highlight it in six colours, add notes and bookmarks, search inside a book or across your whole shelf, and export your highlights. Shelves can be organised with tags and custom covers, and a statistics page shows your daily reading time and streaks. Lumi can read a book aloud with your phone's built-in voice, open Markdown files, turn a favourite passage into a picture card to share, and look words up in Chinese and English dictionaries that you download once and then use offline.\n\nYou need Android 8.0 or newer and your own books, as Lumi comes with none. A few extras use outside services, and only when you switch them on: syncing to your own WebDAV server (a file-storage server you run or rent), turning PDFs into text that fits your screen through the third-party MinerU service, which uploads the PDF to them, and reading aloud or translating with online voice and AI services, which need your own API key (a password-like code from that service) and may bill you. Lumi may also contact the project's pages to check for updates and notices, and its cover search uses Bing, Baidu or Google. The developer states there are no ads, analytics or crash reports. The interface comes in Simplified and Traditional Chinese, English, Japanese and Korean, though the release notes and website are mostly in Chinese.",
+  "repo": "https://github.com/huangder/Lumi_Books",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "website": "https://huangder.top",
+  "tags": [
+    "ebook",
+    "epub",
+    "pdf",
+    "comics",
+    "cbz",
+    "mobi",
+    "text to speech",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

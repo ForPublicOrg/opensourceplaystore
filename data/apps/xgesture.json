@@ -1,0 +1,20 @@
+{
+  "id": "xgesture",
+  "name": "XGesture",
+  "tagline": "Edge swipes and a floating pointer to use a big phone with one hand",
+  "description": "XGesture gives your phone extra ways to be used with one hand. You swipe in from the edges of the screen, shake the phone, tap its back, or use a floating ball or a floating pointer that lets your thumb reach the far corner of a big screen. Each gesture can run one of more than 50 actions, such as Back, Home, recent apps, screenshots, the torch, volume, or opening a chosen app. It is an open-source take on Samsung's One Hand Operation+, meant to work on phones from any maker.\n\nThe floating ball can read text off the screen, using the screen's own text first and on-device text recognition (OCR) when there is none, then let you copy, search or translate it, or run a reverse image search. There are several app launchers (a grid, rings, a honeycomb and an alphabetical index), a task switcher, a notification history, a finder that copies one-time codes from notifications, a clipboard history, and separate edge gestures for each app.\n\nYou need Android 12 or newer and must switch on its accessibility service. The notification features also need notification access. The app freezer and shell commands need Shizuku, a helper app that lets other apps use extra system permissions without root, or root itself. Optional LSPosed support (a root-based framework for system add-ons) adds deeper features. There are two APKs: the full one has the text recognition and translation engines built in (some are Google's ML Kit), while the lite one is smaller and downloads them on request. Reverse image search sends the picture, briefly, to an image host or the search site. Translation can use Google or an AI service with your own key, and text recognition can use one too. It checks online for new versions by default, which you can switch off. The developer says it collects no personal information. The interface is in English, Chinese, Japanese and Arabic.",
+  "repo": "https://github.com/qpst4/XGesture",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "tags": [
+    "gestures",
+    "one-handed",
+    "edge swipe",
+    "floating ball",
+    "ocr",
+    "back tap",
+    "shizuku",
+    "launcher"
+  ],
+  "added": "2026-10-20"
+}

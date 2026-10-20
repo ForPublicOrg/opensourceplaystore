@@ -1,0 +1,21 @@
+{
+  "id": "moodiary",
+  "name": "Moodiary",
+  "tagline": "Write a private, offline diary that stays on your phone",
+  "description": "Moodiary is a private diary app. Every entry is kept in a database on your own phone, so it works fully without an internet connection, and the project says it has no ads and collects nothing about you. You write in a rich-text editor that mixes words with pictures, voice recordings and video, and you can type Markdown if you like.\n\nYou can search your entries by their text, sort them into categories, mark each one with one of 16 moods or states, and look back through a calendar. An app lock uses a passcode with biometric unlock, such as a fingerprint. A single entry can be exported as Markdown, Word, PDF or an image. For backup and sync you can use WebDAV, S3-style storage such as MinIO (a file store you can run yourself), or another device on the same Wi-Fi, with optional end-to-end encryption. An optional assistant can chat about your diary. Two optional models, about 600 MB each and fetched from the Hugging Face model site or a mirror, suggest moods and search by meaning on the phone itself.\n\nYou need Android 9 or newer, and the download is for 64-bit ARM phones, which covers most recent ones. It does not update itself, so you install each new version over the old one by hand. Your diary lives only inside the app, so uninstalling it deletes everything unless you have backed it up. Weather can be picked by hand, but automatic weather, maps and the chat assistant each need a key from a separate service you sign up for yourself: QWeather, Tianditu (a Chinese map service), and any OpenAI or Anthropic compatible provider, or one you host yourself. Whatever the assistant reads from your diary goes to that provider. The interface is in English and Simplified Chinese. Version 2.8.1 moves older diaries to a new database on first start, so make a backup first.",
+  "repo": "https://github.com/ZhuJHua/moodiary",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://docs.moodiary.net",
+  "tags": [
+    "diary",
+    "journal",
+    "mood tracker",
+    "offline",
+    "private",
+    "rich text",
+    "markdown",
+    "backup"
+  ],
+  "added": "2026-10-20"
+}

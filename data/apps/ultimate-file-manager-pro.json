@@ -1,0 +1,21 @@
+{
+  "id": "ultimate-file-manager-pro",
+  "name": "Ultimate File Manager Pro",
+  "tagline": "A file manager with two folders side by side, for phones and TVs",
+  "description": "Ultimate File Manager Pro, often called UFM, is a file manager that shows two folders side by side, so you can copy or move things between them without losing your place. It comes as two downloads: one for phones and tablets, and one for Android TV and Fire TV that you steer with the remote's arrow buttons.\n\nBesides your own storage, it can open shared folders and servers on your network over SMB, FTP, SFTP, NFS or WebDAV (ways for computers and network drives to share files), and Amazon S3 online storage. It can also run an FTP or SFTP server on the device, or a web page you open from a browser on the same Wi-Fi. Built-in tools include scheduled folder sync, ZIP, 7z and TAR archive support, viewers for PDFs, text and office files, a media player, storage charts and a PIN-protected encrypted vault. Optional Windows and Linux companion programs move files and install apps on a phone or TV over your network.\n\nIt needs Android 8.0 or newer and no root. On first run you choose between giving it a few folders or access to all your files. To reach protected folders such as Android/data you can use root or Shizuku, a helper app that lets other apps use extra system permissions. If you lose both the vault PIN and its recovery code, the vault cannot be opened again. The download is large, about 240 MB, because one file carries code for every phone chip. This open-source edition, published on GitHub, leaves out Google Drive, OneDrive and Dropbox, which the developer says need closed software. The developer says it has no trackers or analytics. Update checks stay off until you agree, and crash reports are sent only if you say yes when asked. The interface is in English and many other languages, including German, Spanish, French, Japanese, Hindi and Arabic.",
+  "repo": "https://github.com/Kilowatch/ultimate-file-manager-pro",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://www.kilowatch.co.za/UFM/",
+  "tags": [
+    "file manager",
+    "dual pane",
+    "android tv",
+    "fire tv",
+    "smb",
+    "sftp",
+    "webdav",
+    "network storage"
+  ],
+  "added": "2026-10-20"
+}

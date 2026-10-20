@@ -1,0 +1,20 @@
+{
+  "id": "trime",
+  "name": "Trime",
+  "tagline": "A Chinese keyboard for typing by sound or by character shape",
+  "description": "Trime is a keyboard for typing Chinese on Android. It is a front end for Rime, an open-source input engine, so you can type by sound (pinyin) or by the shape of the characters (such as strokes or Wubi). It was designed to protect the many local dialects of Chinese, and the name is short for Tongwen Rime.\n\nIt comes with ready-made Rime schemes: Luna Pinyin (in Traditional, Simplified and Taiwan-standard forms) and stroke input. You choose which ones to switch between, and other schemes, for Wubi or for dialects, can be added to its user folder. You can change how the keyboard looks with themes and colour sets, including colours that follow your phone's day and night setting, and adjust key sounds, vibration, pop-ups and how the list of suggestions is laid out. There is a clipboard history and a personal dictionary you can import, export and back up. Advanced users can also sync Trime's data to a folder they choose.\n\nBefore installing: it needs Android 5.0 or newer. A short setup wizard has you switch Trime on in Language and input settings and then pick it as your keyboard. After you add or edit schemes, tap Deploy so the engine rebuilds its data. Going beyond the built-in schemes and themes means editing configuration text files, and the project's wiki guides are mostly in Chinese. The app's own screens are in English, Simplified Chinese and Traditional Chinese. The releases page offers a separate APK for each processor type (arm64-v8a, armeabi-v7a, x86 and x86_64), so pick the one that matches your phone. Like any keyboard it sees what you type. Its privacy policy says it collects and uploads none of it, and the app does not ask for internet access. A newer nightly test build is published next to the stable releases.",
+  "repo": "https://github.com/osfans/trime",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "chinese",
+    "keyboard",
+    "input method",
+    "pinyin",
+    "rime",
+    "wubi",
+    "stroke",
+    "dialects"
+  ],
+  "added": "2026-10-20"
+}

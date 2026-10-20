@@ -1,0 +1,20 @@
+{
+  "id": "filepipe",
+  "name": "FilePipe",
+  "tagline": "Sort and tidy your folders automatically with rules you set",
+  "description": "FilePipe tidies the files on your phone for you. You make a rule that says which folders to look in, which kind of files to pick out and where they should end up, and the app then moves, copies or deletes the matching files. A messy Downloads folder can sort itself into Documents, Music and Images, or all your videos can gather in one place no matter which app saved them.\n\nRules can pick files by type, by name (with wildcards or regular expressions, a way of describing text patterns), by size, by age, or by whether a picture is portrait or landscape, and they can search inside subfolders. You decide what happens when a file with the same name is already there: skip it, overwrite it or rename it. Starter templates cover screenshots, images, video, music, downloads and documents, and a preview shows which files a rule would touch before anything changes. Rules run by hand or on a schedule counted in hours, days or weeks, and scheduled runs post a notification with an Undo button. Every run is kept in a history, and moves and copies can be undone from there. Moved files keep their original date and time, and you can back up your rules to a file and restore them later.\n\nYou need Android 12 or newer and storage access: either All files access, which you need if you want to use the Download folder, or folders you pick one at a time. A delete rule removes files for good with no undo, and scheduled ones run without asking, so use the preview first. The GitHub and F-Droid builds check online for new versions, while a separate offline build has no internet permission at all. The developer says there are no accounts and no data collection, and the build files list no analytics or advertising libraries. The interface is in English only.",
+  "repo": "https://github.com/bikram-agarwal/FilePipe",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "file organiser",
+    "automation",
+    "downloads",
+    "cleanup",
+    "sort files",
+    "schedule",
+    "storage",
+    "move files"
+  ],
+  "added": "2026-10-20"
+}

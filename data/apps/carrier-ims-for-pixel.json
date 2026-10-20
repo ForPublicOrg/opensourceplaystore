@@ -1,0 +1,23 @@
+{
+  "id": "carrier-ims-for-pixel",
+  "name": "Carrier IMS for Pixel",
+  "tagline": "Switch on 4G calls, Wi-Fi calling and 5G options on Pixel phones",
+  "description": "Carrier IMS for Pixel lets you turn phone-network features on or off on a Google Pixel. These include calls over 4G (VoLTE), calls over Wi-Fi (VoWiFi), video calls and calls over 5G (VoNR). It works by changing the carrier settings stored on the phone, using Shizuku, a helper app that lets other apps use extra system permissions without root. It is a fork of an earlier project, TurboIMS.\n\nEach option is a switch that takes effect straight away, and if a change fails the app puts it back. You choose which SIM to change, and you can see whether IMS (the system that carries these calls) is registered and ask the phone to register again. It can also show 5G and 5G+ icons and adjust how 5G signal strength is judged. An Extra page adds a one-tap fix for a connected network that shows an exclamation mark in China, a check of your public IP address, a tool that can apply a suggested APN (mobile data) setting after you confirm, backup and restore of a SIM's settings, and quick-settings tiles. A switch shown only for mainland China SIMs tries to fix TikTok showing no network by changing the country code the phone reports for the SIM. The developer says this fix may stop working.\n\nIt is made for Pixel phones with Tensor chips (Pixel 6 to 10, Fold and Tablet) on Android 13 or newer, and Shizuku must be installed, running and allowed. Features also depend on your carrier. The app changes system settings, and the developer says to use it at your own risk. The home screen shows an ad popup by default, loaded from an online ad service, and a one-off donation of 100 yuan or more removes the ads. The IP check uses an online lookup service, and the app checks GitHub for updates. The interface is in English and Simplified Chinese.",
+  "repo": "https://github.com/ryfineZ/carrier-ims-for-pixel",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "ads"
+  ],
+  "tags": [
+    "volte",
+    "vowifi",
+    "wifi calling",
+    "5g",
+    "vonr",
+    "carrier settings",
+    "shizuku",
+    "google pixel"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "oriveo-community-edition",
+  "name": "Oriveo Community Edition",
+  "tagline": "One chat app for many AI services, using your own keys",
+  "description": "Oriveo Community Edition is an AI chat app for the AI services you already use. Instead of selling you a subscription, it connects with keys you create yourself on each service's website (an API key is a secret code that lets an app use your account with that company). You pay the company directly at its normal price. There is no Oriveo account to make, and your chats, notes and folders are stored on your phone.\n\nIt has built-in support for 15 services, including OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek, Grok and Mistral, and can also talk to a model server of your own, such as Ollama, LM Studio or llama.cpp on your computer or home network. You can attach images, PDFs and newer-format Word, Excel and PowerPoint files, continue an interrupted answer, save replies as notes, and sort chats into folders and search them. A second model can check an answer, and you can write reusable instructions called skills, keep a short Memory about yourself and see roughly what each message cost. Where your plan allows it, a ChatGPT or Grok subscription can replace a key. You can add remote MCP servers (extra tools the model can use, each set to run on its own, ask first or stay off).\n\nYou need Android 8.0 or newer and a way to reach a model: a key from one of the services, which bills you, or your own model server. It is the free community build of a separate commercial product of the same name, so it has no account or sync between devices. It has no analytics or crash reporting. Its only call of its own fetches a public list of models and prices from the developer's server, which the built-in services use for their model lists. Chats, attachments and Memory go straight to the service you pick. The interface has 16 languages, including English.",
+  "repo": "https://github.com/oriveo/oriveo",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://oriveoai.com",
+  "tags": [
+    "ai",
+    "chat",
+    "llm",
+    "byok",
+    "openai",
+    "claude",
+    "gemini",
+    "ollama"
+  ],
+  "added": "2026-10-20"
+}

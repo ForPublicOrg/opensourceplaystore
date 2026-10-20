@@ -1,0 +1,24 @@
+{
+  "id": "dextop",
+  "name": "Dextop",
+  "tagline": "Turn your phone into a desktop with windows, mouse and keyboard",
+  "description": "Dextop turns an Android phone into a small desktop computer. It creates a second, virtual screen where you can place several apps in separate windows and use them with a mouse, a keyboard or your fingers. It can also use an external monitor on supported phones. It works most fully on Samsung phones running DeX, Samsung's own desktop mode, with One UI 8 or later.\n\nYou choose the resolution, the size of things and the orientation. You can save a set of apps and where each one sits as a workspace, in two, three or four panes, to reuse or share as a file. Touch can act like a trackpad or press the screen directly. There is also a laptop mode for foldable phones and a KDE Plasma style desktop. On 64-bit ARM phones it can run Debian, Ubuntu or Arch Linux ARM in containers without root that stay on the phone after you uninstall Dextop. Optional companion apps show the desktop on a car's Android Auto screen, one installed through a helper called AAEnabler.\n\nThis is for people comfortable with advanced settings. Dextop needs Android 11 or newer, and most phones need 14 or newer for a usable desktop. Setup uses Android's wireless debugging: you type a six-digit pairing code into a notification, which gives a built-in helper extra permissions. While running, it changes some Android system settings and restores them afterwards. A rooted phone, or Shizuku (a helper app that lets other apps use extra system permissions without root), is used if present. Older One UI is probably incompatible, Pixel and OPPO phones are partial, most others are experimental, and Xiaomi HyperOS is not supported. If the build has Firebase set up, the code turns on Google's Firebase Analytics at start-up (the screens you open and when you start a desktop), with no setting to switch it off. The interface is in English, Japanese, Chinese, Korean and Russian.",
+  "repo": "https://github.com/NarYuki/Dextop",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://dextop.n4tsu.net",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "desktop mode",
+    "samsung dex",
+    "multi-window",
+    "virtual display",
+    "external monitor",
+    "foldable",
+    "android auto",
+    "linux"
+  ],
+  "added": "2026-10-20"
+}

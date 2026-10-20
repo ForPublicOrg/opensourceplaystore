@@ -1,0 +1,20 @@
+{
+  "id": "network-scanner",
+  "name": "Network Scanner",
+  "tagline": "See the devices on your Wi-Fi, with their addresses and open ports",
+  "description": "Network Scanner finds the devices connected to your Wi-Fi or other local network and shows what each one is. Tap Scan Network and it lists the phones, laptops, TVs, printers, routers and smart home gadgets it can see, each with its IP address (the number that identifies it on your network), its name and a guess at what kind of device it is.\n\nIt finds devices by pinging every address, listening for ones that announce themselves (Chromecasts, AirPlay speakers, printers) and asking Windows and Samba computers for their names. Tap a device to see its maker, the system it seems to run and how quickly it answers. A deep scan checks the common ports (the numbered doors a device listens on), or all 65,535 of them, and reads what each one says back. You can rename devices, pick an icon for each, choose Wi-Fi, Ethernet or VPN, set a fast or thorough scan, and long press any detail to copy it.\n\nYou need Android 8.0 or newer and a connection to a local network. On Android 16 and newer you must give the app the Nearby Wi-Fi devices permission, because Android blocks local network access without it. Location is optional and only used to read your Wi-Fi name. Since Android 10, apps cannot read other devices' MAC addresses (their hardware addresses), so these normally show only for your own phone and sometimes the router. An optional setting reads them through Shizuku, a helper app that lets other apps use extra system permissions without root, or through root. The app itself says its port and system guesses may be inaccurate. The developer says it has no ads or analytics and never contacts the internet, and what it finds stays on your phone. The interface is in English, with Arabic, German, Spanish, Italian, Russian, Ukrainian and Chinese translations.",
+  "repo": "https://github.com/usamaiqb/network-scanner",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "wifi",
+    "lan",
+    "ip scanner",
+    "port scanner",
+    "network discovery",
+    "who is on my wifi",
+    "router",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

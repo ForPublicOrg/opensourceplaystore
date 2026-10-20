@@ -1,0 +1,25 @@
+{
+  "id": "convx",
+  "name": "Convx",
+  "tagline": "Play YouTube Music in a frosted glass player with synced lyrics",
+  "description": "Convx is an Android music player for YouTube Music. It finds and streams songs, albums and playlists, and wraps them in a calm, glass-like look inspired by Apple's iOS: frosted menus, floating controls and layouts that adapt to phones and bigger screens.\n\nPlayback carries on in the background, with controls in the notification, on the lock screen and in Android Auto. You can save songs for offline listening, build queues and playlists, set a sleep timer, change the speed and use an equaliser. Crossfade and Automix blend one song into the next. Lyrics scroll in time with the music and can light up word by word. Beyond YouTube Music, it can play music stored on your phone or on your own network shares (SMB and WebDAV), bring in your Spotify playlists and public Apple Music playlists, show what you are playing on Discord, log your plays to Last.fm, recognise songs, and let friends listen together in a shared room.\n\nConvx is an independent project and is not affiliated with YouTube or Google. It relies on YouTube's closed servers and on unofficial interfaces that may change or stop working without warning. It needs Android 8.0 or newer. The latest builds are nightly test versions that the developer says may be unstable, and the last stable release predates features such as network shares and Apple Music import. A phone that can only run 32-bit apps needs the separate arm32 download. Signing in to YouTube is optional, but the Spotify, Discord and Last.fm features need your own accounts there. The Discord feature may go against Discord's rules, as the app itself warns. Listen Together runs through relay servers operated by the developer and by other community members. An optional track overview feature sends track details to an AI provider and needs your own API key. The interface is in English and many other languages.",
+  "repo": "https://github.com/cosmictaserdev-creator/Convx",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://cosmictaser.de5.net",
+  "status": "testing",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "music",
+    "youtube music",
+    "player",
+    "lyrics",
+    "streaming",
+    "offline",
+    "equalizer",
+    "listen together"
+  ],
+  "added": "2026-10-20"
+}

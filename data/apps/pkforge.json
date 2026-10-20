@@ -1,0 +1,23 @@
+{
+  "id": "pkforge",
+  "name": "PKForge",
+  "tagline": "Edit Pokémon save files and move Pokémon between games",
+  "description": "PKForge is a save editor for Pokémon games on Android. It opens the save files your emulator already writes, or a single file you pick, and lets you manage your team and boxes: change stats, moves, nature, ability, held item and more, with a live check that each Pokémon could really exist in that game. It is built on PKHeX.Core, the engine of the desktop editor PKHeX, and works by touch or gamepad, including on dual-screen handhelds such as the AYN Thor.\n\nYou can move a Pokémon from one game's save into another, from the first generation to the ninth and back, with a preview of every change before anything is written. A built-in Bank, like Pokémon Home, keeps your collection in themed boxes outside any one game. There are also a one-tap offline legalise button (it fixes a Pokémon so it follows the game's rules), a living dex tracker for collecting one of every Pokémon, a Mystery Gift database of past event Pokémon, Showdown team import and export, and the Poképark, a park where up to 24 of your Pokémon wander and play. Some fan-made ROM hacks, such as Radical Red, work too.\n\nYou need your own saves, usually from an emulator such as RetroArch, melonDS or Dolphin, and a 64-bit ARM Android device. No root is needed, the screen stays in landscape and the interface is in English. Every write is preceded by a restore point, but close the emulator first, never load an old save state afterwards, and keep your own copies of saves. Uninstalling deletes the Bank and restore points. There are no analytics, and crash logs stay on your device unless you share them. The internet is used only to fetch things from GitHub: update checks, a community collection of event Pokémon, an optional 600 MB sprite pack and some artwork. It is not affiliated with Nintendo, Game Freak or The Pokémon Company.",
+  "repo": "https://github.com/sofianeelhor/PKForge",
+  "category": "games",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "pokemon",
+    "save editor",
+    "pkhex",
+    "emulator",
+    "living dex",
+    "pokemon bank",
+    "handheld",
+    "rom hack"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "termux-x11",
+  "name": "Termux:X11",
+  "tagline": "Show Linux desktop programs from Termux on your screen",
+  "description": "Termux:X11 is a screen for Termux, the app that gives your Android phone a Linux command line. Linux programs that have windows, buttons and menus draw them through a piece of software called an X server. Termux:X11 is an X server built for Android, so a whole Linux desktop such as Xfce, or a single graphical program, can run inside Termux and show up on your phone or tablet.\n\nIt works with touch, a keyboard, a mouse or a stylus. There are three touch modes: a trackpad mode that works like a laptop touchpad, a simulated touchscreen mode, and direct touch. Taps and swipes with two or three fingers give right click, middle click and scrolling, and a bar of extra keys such as Ctrl and Alt can be shown on screen. You can also change the screen resolution and scale, share the clipboard between Android and the Linux programs, shrink the screen into a picture-in-picture window, open several displays as separate Android windows, and change settings from the command line.\n\nIt is not a standalone app. You need Termux, this app and a companion package that you install from inside Termux. You start it by typing commands, so it suits people who are happy to follow written instructions. It needs Android 8 or later. Root is only needed for the advanced chroot method. The project publishes rolling nightly debug builds (the kind made for testing) rather than numbered stable releases. A second download, the one with sharedUid in its name, stops Android slowing Termux down while the desktop is open, but it only works with Termux downloaded from GitHub, not from F-Droid or Google Play. On Android 13 and later you must allow it to show notifications. An optional setting uses Android's accessibility service to catch system keyboard shortcuts. The app is in English only, and its build files list no analytics or advertising libraries.",
+  "repo": "https://github.com/termux/termux-x11",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://termux.dev",
+  "tags": [
+    "linux desktop",
+    "xfce",
+    "x server",
+    "display server",
+    "gui",
+    "proot",
+    "touchpad",
+    "linux apps"
+  ],
+  "added": "2026-10-20"
+}

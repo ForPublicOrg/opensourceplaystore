@@ -1,0 +1,22 @@
+{
+  "id": "atrium",
+  "name": "Atrium",
+  "tagline": "Control your Sonarr, Radarr, Jellyfin and download tools from one app",
+  "description": "Atrium is a remote control for the media servers and download tools you run yourself at home. You point it at your own Sonarr, Radarr, Jellyfin, Plex, qBittorrent and other self-hosted programs (programs that run on a computer you own) and look after them all from one app. It is a controller, not a player: it browses and manages your libraries, and when you want to watch something it opens the official app for that.\n\nIt works with more than twenty services, including Sonarr, Radarr and Lidarr for TV, films and music, Bazarr for subtitles, Seerr and Ombi for requests, Emby, Navidrome, four torrent clients, SABnzbd, NZBGet, server monitors, Gluetun for VPN status, AdGuard Home and Unraid. You can add the same service more than once, each with a home-network address and an outside address, and the app uses whichever works on the network you are on. An activity tab shows what is streaming and downloading, a calendar lists upcoming releases, and the dashboard widgets can be reordered. It can also wake your machines with Wake-on-LAN, send custom headers for servers behind a reverse proxy (a gatekeeper that signs you in first), and offer a fingerprint or face lock.\n\nYou need your own running services, and the app is not made by the projects it controls. It needs Android 7.0 or newer, and the interface is in English, with translations still to come. The developer says there is no analytics, telemetry, advertising or account, and keys and passwords are kept in encrypted storage on the phone. One exception: when you search for a title your servers have never seen, its poster comes straight from an artwork site, which then sees your internet address. The developer still calls the app early in development: Deluge and rTorrent are marked beta, SABnzbd has never been tested against a live server, and saved profiles may be lost if Android force-closes the app (seen once).",
+  "repo": "https://github.com/retransmit/Atrium",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://retransmit.github.io/Atrium/",
+  "status": "testing",
+  "tags": [
+    "self-hosted",
+    "sonarr",
+    "radarr",
+    "jellyfin",
+    "plex",
+    "qbittorrent",
+    "media server",
+    "arr stack"
+  ],
+  "added": "2026-10-20"
+}

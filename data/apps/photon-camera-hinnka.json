@@ -1,0 +1,24 @@
+{
+  "id": "photon-camera-hinnka",
+  "name": "Photon Camera",
+  "tagline": "Camera app with film-style colour looks and a manual Pro mode",
+  "description": "Photon Camera is a camera app made mainly for still photos (it records video too), designed to feel and look like a modern mirrorless camera. You pick a colour look, such as a film style, before you shoot, and the preview shows what you will get.\n\nIt loads colour look files in the .cube, PNG and XMP formats (a LUT is a lookup table that changes the colours of a picture), or you can adjust exposure, contrast, highlights, shadows and saturation yourself. Other features include motion photos (a short clip saved with the still), fast burst shooting, a mode that combines several shots to reduce noise, a Pro mode with manual settings, border watermarks, and blurred-background portraits that use a depth model running on the phone. Phantom mode applies your colour look to photos taken with your phone's own camera.\n\nYou need Android 11 or newer and a 64-bit ARM phone. The depth model (about 100 MB) is downloaded the first time you use background blur. Phantom mode needs All Files Access and permission to draw over other apps, and unless you switch on Save as New Image it replaces the original photos. The AI tools, such as making a colour look from a reference photo, send the picture to an online AI service, either the developer's or one you set up with your own key; the rest of the camera works without them. The GitHub build sends crash reports, with a device ID, to Tencent's Bugly service, and its Check for updates button asks the developer's server for new versions and can install them. Some built-in colour data was taken from camera makers' own software and firmware (Hasselblad, Canon, Leica) and has no free licence. Google Play sells a paid Pro upgrade for extra filters and some AI tools; the GitHub build has them unlocked. The interface has nine languages, including English, Chinese, Japanese, Korean and German.",
+  "repo": "https://github.com/bjzhou/PhotonCamera",
+  "category": "media",
+  "license": "Apache-2.0",
+  "antiFeatures": [
+    "tracking",
+    "nonfree-assets"
+  ],
+  "tags": [
+    "camera",
+    "photography",
+    "lut",
+    "filters",
+    "film simulation",
+    "pro mode",
+    "motion photo",
+    "burst"
+  ],
+  "added": "2026-10-20"
+}

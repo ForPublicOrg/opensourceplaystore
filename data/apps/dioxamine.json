@@ -1,0 +1,21 @@
+{
+  "id": "dioxamine",
+  "name": "Dioxamine",
+  "tagline": "Use ADB, Fastboot and screen mirroring on another phone, no computer needed",
+  "description": "Dioxamine lets one Android phone or tablet control another. It runs ADB (Android Debug Bridge, the tool developers use from a computer to send commands to a phone), Fastboot (for flashing system images and unlocking the bootloader, the lock that stops unofficial software being installed) and scrcpy (screen mirroring) on the phone itself, so no computer is needed. The other device connects by a USB OTG cable (one that lets your phone act like a computer) or over Wi-Fi, and it needs no root and no helper app.\n\nYou can mirror the other screen with touch and key control, forward its audio, stream its cameras and record to video. Fastboot tools flash partition images, try a recovery or kernel without installing it, and unlock or lock the bootloader. ADB tools include a file manager, a package manager that installs split APKs and disables apps or copies them out as APK files, a process list with live CPU and memory figures, screenshots, a reboot menu, update zip sideloading and a command shell. You can also add small tools written in HTML and JavaScript, each asking your permission for what it does.\n\nThe phone running Dioxamine needs Android 7.0 or newer. The other device needs Android 5.0 or newer, with USB debugging on and the connection approved there. Audio needs Android 11 on the other device and camera streaming needs Android 12. Mirroring depends on the video decoders in both devices and may fail on some, so try another codec or resolution if it does. Unlocking or locking a bootloader can erase everything on the other device, so back it up and read the guides first. Version numbers are still 0.0.x. The interface is in English, Simplified Chinese, Hindi, Russian, German and Persian. It uses the internet to check for updates when you ask and to load the plugin list, and no analytics showed up in its dependency list.",
+  "repo": "https://github.com/rhythmcache/Dioxamine",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://rhythmcache.github.io/Dioxamine/",
+  "tags": [
+    "adb",
+    "fastboot",
+    "scrcpy",
+    "screen mirroring",
+    "wireless debugging",
+    "usb otg",
+    "bootloader",
+    "flashing"
+  ],
+  "added": "2026-10-20"
+}

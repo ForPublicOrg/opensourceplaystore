@@ -1,0 +1,20 @@
+{
+  "id": "screen-mirroring-manager",
+  "name": "Screen Mirroring Manager",
+  "tagline": "Send your screen to an AirPlay receiver, Moonlight app or USB display",
+  "description": "Screen Mirroring Manager sends what is on your phone's screen to another display. It can stream to an AirPlay receiver (the way Apple TVs and Macs receive screens, and some third-party receivers do too), to a Moonlight app on another device, or to a screen connected through a DisplayLink USB adapter. On your home screen the app is simply called Mirror.\n\nEach output is set up as a virtual display, an extra screen that exists only in software, so other apps can open windows on it instead of only copying your screen. A plain mirror-only mode is there too. A Sunshine server (the host side of Moonlight game streaming) is built in, so Moonlight apps can connect to your phone. AirPlay works with both modern AirPlay 2 and older AirPlay 1 receivers. For Moonlight you can choose between the H.265 and H.264 video formats and show a cursor on your phone for mouse input. It can be used together with a separate app from the same developer, called Extend, which manages what runs on the second screen.\n\nIt needs Android 8.0 or newer and no root, though some features, such as capturing sound, need a newer version. AirPlay and Moonlight need a receiver or client on the same network, and some ask for a PIN. DisplayLink output needs an adapter your phone can use through USB host mode, plus the maker's driver files, which the app can download or you can import from the DisplayLink Presenter app. Using your phone's touchscreen, or a Moonlight app's keyboard, mouse and controller, to control the second screen needs Shizuku, a helper app that lets other apps use extra system permissions without root. So do matching your phone's screen shape to the other display and stopping your phone from locking. The project is not affiliated with Apple or Synaptics, the DisplayLink maker. The interface is in English.",
+  "repo": "https://github.com/jqssun/android-display-mirror",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "airplay",
+    "moonlight",
+    "sunshine",
+    "displaylink",
+    "cast",
+    "second screen",
+    "virtual display",
+    "external display"
+  ],
+  "added": "2026-10-20"
+}

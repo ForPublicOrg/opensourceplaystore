@@ -1,0 +1,22 @@
+{
+  "id": "droidvm",
+  "name": "DroidVM",
+  "tagline": "Run Linux virtual machines on a rooted phone",
+  "description": "DroidVM is a virtual machine manager for rooted Android phones. A virtual machine is a pretend computer that runs inside your phone, so you can start a full Linux system such as Ubuntu, Debian or Arch, or try Windows on ARM. It uses the virtualisation support that some phones have, through Qualcomm Gunyah, MediaTek GenieZone or Linux KVM.\n\nIt includes two virtual machine engines, crosvm and QEMU, and starts Linux or Windows images through UEFI boot. You can watch the machine's screen in a built-in VNC viewer, use a text console, or cast the screen to an external display with the phone acting as a touchpad. You can create, resize, convert and clone disk images, and get an image from a list of distributions, from a web address or from LXC images. Virtual networks give the machine internet with port forwarding, folders can be shared with Android, and a machine can be exported with its disks as one file for another phone.\n\nYou need root access (full control of Android, set up with Magisk, KernelSU or APatch), Android 13 or newer, and a phone whose firmware and kernel switch virtualisation on: a Snapdragon 8 Gen 3 or newer, a Dimensity 9000 or newer, or another 64-bit ARM phone started with KVM enabled. The project says the 8 Gen 3 often fails to boot machines, and that Windows needs modified drivers it has not released publicly yet. The app asks for all-files access, and a Linux desktop image typically takes about 4 to 20 GB. It is early software (version 0.0.x), its newest builds are pre-releases, and the interface is in English and Chinese. First-time setup asks you to accept or decline a privacy policy. If you accept, the app contacts the developer's server for update checks and the image list, sending your IP address, app version, Android version, phone model and chip model. If you decline, the local features still work.",
+  "repo": "https://github.com/Droid-VM/DroidVM",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://droid-vm.github.io/en/",
+  "status": "testing",
+  "tags": [
+    "virtual machine",
+    "vm",
+    "linux",
+    "windows",
+    "qemu",
+    "kvm",
+    "hypervisor",
+    "root"
+  ],
+  "added": "2026-10-20"
+}

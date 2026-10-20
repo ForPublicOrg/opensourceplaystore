@@ -1,0 +1,23 @@
+{
+  "id": "droiddesk",
+  "name": "DroidDesk",
+  "tagline": "A full Linux desktop running on your phone",
+  "description": "DroidDesk turns an Android phone into a Linux desktop computer. It opens a proper desktop with windows, a dock and a file manager, and lets you install ordinary Linux programs such as Firefox, LibreOffice, GIMP, Blender and a code editor. If your phone can send video out over USB-C, you can plug it into a monitor and use it like a small PC, then unplug it and take your setup with you.\n\nThe app does the setup for you, so you do not need a separate Termux app (a terminal app that brings a Linux command line to Android). On a phone without root (full administrator access) it runs a private Termux-style Linux system inside the app. On a rooted phone it can run Ubuntu through chroot (a way of running a separate Linux system from a folder). It has a built-in Linux App Store for installing and updating programs, a terminal, a storage screen, and desktop snapshots, which are restorable backups of your files, settings and installed programs. Phones with Qualcomm Adreno graphics get hardware acceleration when available, and others draw in software, which is slower.\n\nIt only runs on 64-bit ARM phones with Android 9 or newer, and it needs an internet connection and plenty of free storage, because setup and every program you add are downloaded. It asks for broad permissions, including access to all files and a list of installed apps. The project's notes say some phones stop background processes, which can end your desktop, and suggest turning off the Child process limit in Developer options if that happens. The interface is in English only. Besides downloads, it checks GitHub for new versions when you open it, and its code lists no analytics or advertising libraries. The developer's own notes list some source and licence work still to finish for software bundled in the app file, and the default wallpaper's licence still needs checking.",
+  "repo": "https://github.com/orailnoor/DroidDesk",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "linux",
+    "desktop",
+    "x11",
+    "terminal",
+    "ubuntu",
+    "termux",
+    "monitor",
+    "chroot"
+  ],
+  "added": "2026-10-20"
+}

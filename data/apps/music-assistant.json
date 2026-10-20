@@ -1,0 +1,22 @@
+{
+  "id": "music-assistant",
+  "name": "Music Assistant",
+  "tagline": "Remote control and phone player for your own music server",
+  "description": "This is the official phone app for Music Assistant, a music hub that you run yourself on your own hardware, such as a Raspberry Pi, a NAS or a home server. The server gathers your streaming services and your own music files into one library and plays them on the speakers you already own. The app is the remote control for it, and it can also play the music on the phone itself.\n\nYou can browse your library and the Discover page, search all your music sources at once, and open artists, albums, playlists, radio stations, podcasts and audiobooks. You can switch between players, move playback from one speaker to another, group speakers, adjust volumes and manage playlists. The built-in local player streams from your server to the phone using Sendspin, the method Music Assistant uses for this, and keeps playing in the background. It also works with Android Auto. Voice requests to play music work in the car and with the older Google Assistant, but not with Gemini on the phone.\n\nYou need your own Music Assistant server running (a recent version) and a login for it: a Music Assistant user, or a sign-in through Home Assistant, a smart-home system. There is no offline playback, and Android 9 or newer is required. The project says it is still under heavy development and not yet finished, so expect rough edges. Connecting from outside your home works directly, or through an experimental remote option that uses the project's own connection service. In the car, Android Auto plays only on the phone, not on your speakers, and it hides apps that did not come from Google Play unless you switch on its developer mode. The privacy policy says the app has no analytics, crash reporting or ads. The interface is in English, with German, Spanish, Dutch and Slovak largely translated and French, Serbian and Chinese only partly.",
+  "repo": "https://github.com/music-assistant/mobile-app",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://www.music-assistant.io",
+  "status": "testing",
+  "tags": [
+    "music",
+    "self-hosted",
+    "music server",
+    "remote control",
+    "android auto",
+    "streaming",
+    "sendspin",
+    "home assistant"
+  ],
+  "added": "2026-10-20"
+}

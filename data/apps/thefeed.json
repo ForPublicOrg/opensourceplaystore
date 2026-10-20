@@ -1,0 +1,23 @@
+{
+  "id": "thefeed",
+  "name": "TheFeed",
+  "tagline": "Read Telegram channels and chat on a censored connection",
+  "description": "TheFeed is a feed reader and small messenger for networks where almost nothing gets through except DNS, the lookups that turn website names into addresses. It hides its traffic inside those lookups, encrypted, so you can still read posts from public Telegram channels and chat with other people.\n\nA server run by someone outside the filtered network collects the channels and answers the app's encrypted requests. In the app you get a channel feed with new-message badges and search, saved notes kept encrypted on the phone, and a read-only Mirror view where you add public channels yourself. An optional chat is end-to-end encrypted, meaning only you and the other person can read the messages. A Resolver tab has a scanner that tests DNS servers to find ones that work for you. Photos and other media can be downloaded if the server operator allows it, and you can export an encrypted backup of your saved notes, chats and server settings.\n\nIt does not work on its own. It needs a config, which is a domain name plus a passphrase for a TheFeed server. The app includes a few ready-made ones, the project links to a Telegram channel that shares public ones, or you can run your own. Anyone with the passphrase can read the channels, so share it only with people you trust. The posts come from Telegram, and the Mirror view loads through Google, so it stops when Google is blocked. The part for X (Twitter) posts is broken for now, because the service it relied on has been archived. Chat only works if the server operator turns it on. The interface is in English and Persian (Farsi, laid out right to left), and you pick one on first launch. It needs Android 7.0 or newer and asks to show notifications and to be left out of battery saving. The GitHub version checks for newer releases.",
+  "repo": "https://github.com/sartoopjj/thefeed",
+  "category": "social",
+  "license": "MIT",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "censorship",
+    "dns",
+    "telegram",
+    "feed reader",
+    "messenger",
+    "encrypted chat",
+    "iran",
+    "filtered network"
+  ],
+  "added": "2026-10-20"
+}

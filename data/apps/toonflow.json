@@ -1,0 +1,25 @@
+{
+  "id": "toonflow",
+  "name": "Toonflow",
+  "tagline": "Turn a story idea into AI images and video clips",
+  "description": "Toonflow is a tool for making short dramas, animated comics and short videos with the help of AI. You write a script, plan the shots, and have AI models draw your characters and scenes and turn them into video clips. It all sits on an infinite canvas, a big open board where scripts, characters, scenes and clips lie side by side.\n\nYou write the story and shot descriptions in text boxes, with a language model helping you draft and edit. You can bring in your own reference pictures or have an image model make characters, scenes and storyboard frames, then link text and pictures to generate each video clip. There is a 3D director's studio for trying out camera shots, an AI agent that helps while you work, and support for plugins and for MCP, a standard way for AI tools to connect to other software. The interface comes in 21 languages, English among them.\n\nThe app does not make the pictures and video itself. You connect your own AI services with API keys (secret codes that let an app use a service), or use your own ComfyUI setup (a program for running image and video models) or language model. Paid services may charge fees. Projects are saved on your device, but your prompts and pictures go to whichever AI service you choose. The app also sends anonymous usage statistics to the project by default, which you can switch off in settings. The Android version needs a 64-bit ARM phone with Android 8 or newer, is a large download (about 150 MB) and opens in landscape. It has its own engine inside, so it works on its own, or you can link it to Toonflow on a computer. The project calls Android support experimental, and features that need FFmpeg (a video tool), such as converting video or pulling out frames, are not available there yet.",
+  "repo": "https://github.com/HBAI-Ltd/Toonflow-app",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://toonflow.net",
+  "status": "testing",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "ai video",
+    "storyboard",
+    "short drama",
+    "comic",
+    "image generation",
+    "text to video",
+    "canvas",
+    "comfyui"
+  ],
+  "added": "2026-10-20"
+}

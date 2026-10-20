@@ -1,0 +1,25 @@
+{
+  "id": "pixiv-viewer-kai",
+  "name": "Pixiv Viewer Kai",
+  "tagline": "Browse Pixiv art, manga and novels, with or without an account",
+  "description": "Pixiv Viewer Kai is an unofficial Android app for browsing Pixiv, the Japanese art site, with or without an account. You can look through illustrations, manga, ugoira (Pixiv's short animated pictures) and novels, follow daily rankings by type and date, and search for works, novels and artists, or jump to a work by its number. It shows up on your phone as Pixiv Viewer.\n\nPictures can be laid out as staggered columns, a grid or rows of equal height, with a dark mode and a colour of your choice. You can download images, save ugoira as GIF, MP4 and more, and save novels as TXT, EPUB, PDF and more, with reading settings and a remembered place in the story. You can hide tags or artists, back up your settings and history, and translate manga pages and novels with the built-in tool. With an account you can bookmark works, follow artists and search by picture through SauceNAO, an image search service.\n\nSigning in is optional. You can use Pixiv's login page inside the app or a refresh token (a long code that works like a password), and the developer suggests a separate Pixiv account, because the servers that pass requests on to Pixiv may handle your login details. It is not made by Pixiv, and the artwork belongs to Pixiv and its artists. It depends on Pixiv and on API and image-proxy servers run by other people, which you can switch between in Settings, so it can stop working when those change. Adult content is hidden until you turn it on in Settings. The app can send usage and error statistics through Umami, an open-source analytics tool; this is on by default, with a Settings switch to turn it off. Translation relies on online services and may need an API key from a provider you sign up with. The interface has 14 languages, including English and Japanese. It needs Android 5.1 or newer.",
+  "repo": "https://github.com/asadahimeka/pixiv-viewer-app",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://pixiv.pictures/app",
+  "antiFeatures": [
+    "nonfree-network",
+    "tracking"
+  ],
+  "tags": [
+    "pixiv",
+    "illustration",
+    "manga",
+    "novels",
+    "artwork",
+    "ugoira",
+    "downloader",
+    "image viewer"
+  ],
+  "added": "2026-10-20"
+}

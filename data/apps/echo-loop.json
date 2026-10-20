@@ -1,0 +1,24 @@
+{
+  "id": "echo-loop",
+  "name": "Echo Loop",
+  "tagline": "Practise English listening and speaking with your own audio",
+  "description": "Echo Loop is a trainer for English listening and speaking. You bring in your own audio, with a subtitle file if you have one, and the app takes you through it in a set order: listen sentence by sentence, repeat the hard sentences after the speaker, listen to the whole recording once without subtitles, then retell it in your own words. The app decides what comes next, so you do not have to plan the practice yourself.\n\nAfter the first session, each recording is scheduled for seven spaced reviews, from 6 hours later up to 28 days later, with reminders. Hard sentences and words can be saved, and flashcards show them with the sentence they came from. There are dictionaries, and statistics on your practice time and vocabulary. Your speaking is checked by comparing what the phone hears with the text, using a speech model that the app downloads once (roughly 60 to 230 MB) and then runs offline. The same kind of model can write subtitles for audio that has none.\n\nGood to know before installing: the AI features, such as translation, splitting long sentences into chunks, sentence breakdowns and word explanations, run on the developer's own online service. They need internet and a sign-in (email or a Google account), the free plan has a monthly allowance, and more needs a paid Premium subscription. Translations and explanations come only in Simplified or Traditional Chinese. The GitHub download is for 64-bit ARM phones only and needs Android 7 or newer. It asks to use the microphone and send notifications. The interface is in English and Simplified Chinese, and the app is made mainly for Chinese speakers learning English. The developer's task list still lists a crash at the end of speaking recordings on some phones. Usage analytics (PostHog) are on by default with no way to turn them off, and the code is set up for screen recordings.",
+  "repo": "https://github.com/echo-loop/Echo-Loop",
+  "category": "education",
+  "license": "AGPL-3.0",
+  "website": "https://www.echo-loop.top",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "english",
+    "listening",
+    "speaking",
+    "shadowing",
+    "spaced repetition",
+    "language learning",
+    "flashcards",
+    "pronunciation"
+  ],
+  "added": "2026-10-20"
+}

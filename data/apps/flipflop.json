@@ -1,0 +1,20 @@
+{
+  "id": "flipflop",
+  "name": "flipflop",
+  "tagline": "Send files and text straight to your own devices",
+  "description": "flipflop sends files and text straight between your own devices, such as your phone and computer, or a family member's devices. You pair two devices once, and after that either one can send to the other whenever it likes. They find each other on the same Wi-Fi or by Bluetooth, and connect over the internet when far apart. Connections are encrypted from end to end and built on Iroh, a toolkit for linking devices directly.\n\nYou can pair by scanning a QR code, typing the other device's address, or accepting a request from a nearby device. You can send text, pictures, files and installed apps, and flipflop appears in the Android share menu. A send to an unreachable device waits and goes out when it returns, even after flipflop restarts. Received files are saved in a flipflop folder inside Downloads, one folder per device. For someone without flipflop, a temporary browser link lets them swap files and text with you from any browser on the same Wi-Fi. Desktop versions exist for Linux, macOS and Windows.\n\nBoth devices need flipflop to pair, and the app needs Android 8 or newer (Bluetooth needs Android 10 or newer). It asks for the camera (to scan QR codes) and for nearby devices and location (to find others over Bluetooth). Files from paired devices are saved automatically, without asking; on Android 10 they go to the app's private folder, not Downloads. There is no background service, so keep the app open to send or receive. Devices nearby can see yours by default; Settings can limit that to paired devices or hide it. When devices cannot connect directly, data goes through a relay server, by default a public one run by n0, the Iroh developers, that only sees encrypted data. You can set your own relay or turn relaying off. There are no accounts. The interface is English only, and the project is new, at version 0.0.x.",
+  "repo": "https://github.com/andunieee/flipflop",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "file sharing",
+    "p2p",
+    "bluetooth",
+    "lan",
+    "qr code",
+    "send files",
+    "transfer",
+    "nearby"
+  ],
+  "added": "2026-10-20"
+}

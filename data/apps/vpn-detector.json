@@ -1,0 +1,19 @@
+{
+  "id": "vpn-detector",
+  "name": "VPN Detector",
+  "tagline": "Check whether other apps can tell you are using a VPN",
+  "description": "VPN Detector shows what Android lets any other app learn about whether you use a VPN. A VPN is a service that sends your internet traffic through another server to hide where it comes from. The app checks your phone and gives you a plain report saying whether a VPN was detected, with a confidence score out of 100 and a short note on why. The developer calls it a research tool, made to show that apps can notice a VPN even when their own traffic skips it (split tunnelling).\n\nIt asks Android whether the connection you are using is marked as a VPN, and whether a VPN exists elsewhere on the phone but not on the active connection, which often matches split tunnelling or a bypass. It also looks for network connections with tunnel-like names such as tun0 or wg0, reads routes and DNS settings (the servers that turn website names into addresses), guesses whether lockdown mode is on (a setting that blocks all traffic outside the VPN), and lists any known VPN apps installed on the phone. Each clue comes with a short explanation, so you can see which are strong and which are only hints.\n\nIt is a checking tool, not a VPN: it does not connect, hide or protect anything. It needs Android 7.0 or newer. It uses two permissions, one to read network state and one to see which apps are installed (to spot VPN apps). It does not ask for internet access, so it cannot send results online. Installed VPN apps do not prove a VPN is running, and VPN apps in other profiles on the phone, such as a work profile, are not visible to it. The interface is in English only. It is a young project, still at version 0.0.2.",
+  "repo": "https://github.com/cherepavel/VPN-Detector",
+  "category": "security",
+  "license": "MIT",
+  "tags": [
+    "vpn",
+    "vpn check",
+    "vpn detection",
+    "split tunnel",
+    "privacy",
+    "network",
+    "diagnostic"
+  ],
+  "added": "2026-10-20"
+}

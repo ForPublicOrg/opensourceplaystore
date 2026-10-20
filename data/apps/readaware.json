@@ -1,0 +1,21 @@
+{
+  "id": "readaware",
+  "name": "ReadAware",
+  "tagline": "Read your ebooks, PDFs and comics, with optional AI help",
+  "description": "ReadAware is a reader for the ebooks and documents you already have. You import a file and it opens in one reader whatever the format: EPUB, MOBI, AZW3, FB2, PDF, plain text, HTML, and the comic formats CBZ and CBR. Reading, highlighting and note-taking work offline, and your books, notes and reading progress are kept on your phone.\n\nYou can underline, highlight and write notes, mark words to review later, and see reading-time statistics across your books. A sentence-by-sentence mode steps through a book one sentence at a time to help you stay focused. It suits books whose text reflows, not PDFs or comics. If you set up an AI model, you can ask about a passage, look up a word or chat about a book without leaving the page, and the app builds a memory of what you have read across books. Plugins, small add-ons from a marketplace inside the app, can add read-aloud voices, dictionaries, reading themes and feeds. Fonts, text size, spacing and colours can be changed. Optional sync carries your books, progress, notes and chats between devices, encrypted on the device before they are uploaded.\n\nBefore installing: the Android download is built for 64-bit ARM phones only and needs Android 7.0 or newer. The AI features work only after you add your own model provider, usually with your own API key, or take a paid ReadAware plan with built-in AI. Either way, the passages and questions you send go to a model provider (with the paid plan, through the developer's own server first). Sync uses the developer's own sync service (a free account includes 50 MB, paid plans give more) or your own WebDAV server through a plugin, and a forgotten encryption passphrase cannot be recovered. The privacy policy says the app has no ads or analytics. The interface is in English, Simplified and Traditional Chinese, Japanese, French, German, Russian and Spanish.",
+  "repo": "https://github.com/ahpxex/read-aware",
+  "category": "reading",
+  "license": "AGPL-3.0",
+  "website": "https://readaware.app",
+  "tags": [
+    "ebook",
+    "epub",
+    "pdf",
+    "comics",
+    "highlights",
+    "notes",
+    "ai assistant",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

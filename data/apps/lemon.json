@@ -1,0 +1,21 @@
+{
+  "id": "lemon",
+  "name": "Lemon",
+  "tagline": "Play your own Nintendo Switch games on Android",
+  "description": "Lemon plays Nintendo Switch games on an Android phone or handheld. It is an emulator, a program that imitates a game console so its games can run on other hardware. It builds on the open-source work of the yuzu and Eden projects and is made for Adreno graphics chips (found in Snapdragon phones). Mali chips are supported too since version 1.1, though that support is newer and some games may behave differently. PowerVR and Xclipse chips are not supported.\n\nLemon reads NSP and XCI game files and the compressed NSZ and XCZ ones, and the whole app works with a controller. Other features include Lemon FG, a built-in frame generator that adds computer-made pictures between the real ones for smoother motion, an experimental Quick Save and Quick Load, on-screen controls you can move and resize for each game, input macros that record and replay button presses, and Lemon Cheater, a memory editor for finding and changing numbers in a game, such as lives or health. You can also install other Adreno graphics drivers and import saves from Eden, Citron or yuzu.\n\nLemon comes with no games, keys or firmware. You need your own games, keys (a file called prod.keys) and firmware, all dumped from a Switch you own. It needs Android 12 or newer on a 64-bit ARM phone. The standard build suits recent high-end devices, and a Lemon Lite build has lighter default settings for weaker chips. Quick Save loses its state when the app closes, so keep using each game's own saves. On launch the app checks Lemon's own server (with GitHub as a backup) for updates and offers to install them; you can turn this off. Online play is optional and needs an account on Nextendo Network, a community service that is not Nintendo's. Lemon is not affiliated with Nintendo. The interface is in English and Spanish; other translations are only partly finished.",
+  "repo": "https://github.com/Ghael-V/Lemon-Project",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://lemon-emu.org",
+  "tags": [
+    "nintendo",
+    "switch",
+    "emulator",
+    "yuzu",
+    "eden",
+    "adreno",
+    "snapdragon",
+    "handheld"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "wholphin",
+  "name": "Wholphin",
+  "tagline": "Watch your Jellyfin library on your TV with a Plex-inspired look",
+  "description": "Wholphin is an app for Android TV and Fire TV that plays films, shows, music and live TV from a Jellyfin server, a free media server that people host themselves. It gives Jellyfin a different look, inspired by Plex (another media app), for people moving over from Plex. It is an independent project, not the official Jellyfin app for Android TV, and its screens and controls were written from scratch.\n\nYou can shape the home screen: choose poster or wide pictures, show or hide titles, put the rows in your own order, merge Continue Watching and Next Up into one row, and pin collections, playlists, favourites or genres. A side menu jumps to your libraries, search and settings. Videos can play with either of two players built into the app, ExoPlayer or MPV, and MPV handles styled subtitles well. On the remote, left and right seek through a video, and you can jump to chapters. It also supports live TV and recording, music, preview pictures while you seek, playing the next episode automatically, a PIN code to protect switching profiles, and colour themes. It can link to Seerr, a separate tool where people ask for new films and shows.\n\nYou need a Jellyfin server, version 10.10 or 10.11, and an account on it. It needs Android 6 or newer, or Fire TV OS 6 or newer, and it is made for a TV remote. Some extras, such as downloading subtitles, need a plugin on your server. To install from GitHub you must allow installs from unknown sources, and the app then checks GitHub for updates unless you switch that off. It has no ads and no analytics. If it crashes it asks before sending a report, and the report goes only to the Jellyfin server you last used. The interface is in English, with many translations including German, French, Spanish, Italian, Russian and Chinese.",
+  "repo": "https://github.com/damontecres/Wholphin",
+  "category": "media",
+  "license": "GPL-2.0",
+  "tags": [
+    "jellyfin",
+    "android tv",
+    "fire tv",
+    "media server",
+    "movies",
+    "tv shows",
+    "plex",
+    "live tv"
+  ],
+  "added": "2026-10-20"
+}

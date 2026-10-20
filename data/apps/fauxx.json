@@ -1,0 +1,23 @@
+{
+  "id": "fauxx",
+  "name": "Fauxx",
+  "tagline": "Blur your real interests with decoy searches and browsing",
+  "description": "Fauxx is a privacy tool that tries to hide what you are really interested in from the companies that build advertising profiles about you. It browses the web in the background as a made-up person, so your real habits get lost among a steady stream of believable fake ones, and data brokers (companies that collect and sell information about people) find it harder to tell which is you.\n\nIt runs searches on Google, Bing, DuckDuckGo, Yahoo and Yandex (you can turn engines off, but at least two stay on), visits websites on many topics, loads pages that carry ads without ever clicking them, and looks up website names so your internet provider sees decoy lookups. Every 30 to 90 days it switches to a new made-up person with a different age, job and interests. You can tell it about yourself, or give it the ad-interest file that Google or Facebook lets you download, so it steers away from your real topics. You choose how busy it is and which hours it runs, and a log lists what it has done.\n\nIt needs Android 8.0 or newer and runs in the background with a notification showing, so expect some battery and data use; mobile data is off by default. It never signs in to your accounts, so it aims at trackers and data brokers that follow you without a login. Tracker blockers, including network-wide ones such as Pi-hole, cut its effect, though the project explains workarounds. Its decoy traffic goes to closed services such as Google and Bing, and automated searches may go against some websites' rules. The developer says its location-faking option, off by default, does not currently work. Fauxx is not a complete privacy solution. It has no analytics or crash reporting, and keeps your answers, imported ad interests and activity log in an encrypted database on your phone. The interface is in English, Spanish, French and Russian.",
+  "repo": "https://github.com/digital-grease/fauxx",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "privacy",
+    "anti-tracking",
+    "data brokers",
+    "data poisoning",
+    "decoy",
+    "fake searches",
+    "ad profiles",
+    "dns"
+  ],
+  "added": "2026-10-20"
+}

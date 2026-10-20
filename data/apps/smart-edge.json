@@ -1,0 +1,20 @@
+{
+  "id": "smart-edge",
+  "name": "Smart Edge",
+  "tagline": "Swipe from the screen edge to open your apps and shortcuts",
+  "description": "Smart Edge adds a slide-out side panel to your phone. A thin handle sits on the edge of the screen, and when you swipe in from it and hold for a moment, a panel opens over whatever you are doing, holding the apps and shortcuts you chose. Its look is inspired by OriginOS.\n\nYou choose which apps live in the panel with a searchable app picker. It can also hold tools such as a one-tap screenshot, volume and brightness controls, camera, flashlight, auto-rotation and a power menu, plus a section showing which apps have notifications waiting. Drag an app icon to the top or bottom of the screen to open it in split screen, or open it in a floating window. There are four styles (OriginOS, HyperOS, Realme UI and Rich UI), and you can adjust blur, colours, corner roundness and icon size, use icon packs, and move the handle to the left or right edge. Tapping, double tapping, triple tapping or long pressing the handle can be set to actions such as Back, Home or Recents. You can also pick apps in which the handle hides itself.\n\nIt needs Android 8.0 or newer, though blur and dynamic colours need Android 12 or newer, and blur may slow cheaper phones. It needs permission to display over other apps and its Accessibility Service switched on, which it uses to spot gestures and close the panel, unless you use Root or Shizuku (a helper app that lets other apps use extra system permissions without root) for gestures instead. Notification Access is optional and only powers the notifications section. Floating windows may need Android's freeform windows option switched on in Developer options. A background service keeps the panel ready, so it shows a small notification. The interface is in English and Spanish. The source asks for no internet permission and includes no analytics, so it does not appear to send any data anywhere.",
+  "repo": "https://github.com/Imtiaz-Official/Smart-Edge",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "sidebar",
+    "edge panel",
+    "side panel",
+    "gestures",
+    "launcher",
+    "multitasking",
+    "split screen",
+    "floating window"
+  ],
+  "added": "2026-10-20"
+}

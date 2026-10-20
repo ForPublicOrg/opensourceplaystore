@@ -1,0 +1,21 @@
+{
+  "id": "altersend",
+  "name": "AlterSend",
+  "tagline": "Send files straight to another device, with no cloud and no account",
+  "description": "AlterSend sends files straight from one device to another over the internet, with no cloud storage in between. No server keeps your files, and they are encrypted from end to end, so only the two devices can read them. There is no account to make and no email address to give.\n\nTo send, you open the app on both devices. One shows a join code or a QR code, and the other scans or types it. You can also pair a device you own, and after that send to it without a code. Someone who does not have the app can receive through a share link that opens in their web browser. There are versions for Windows, Mac, Linux and iPhone too. Transfers show their speed and time left and can be paused and picked up again. The Android share menu lets you send from other apps, and received photos and videos can go straight to your gallery.\n\nBefore you install: the download is large, about 220 MB, and it needs Android 10 or newer on a 64-bit phone. Devices find each other through Hyperswarm, a public peer-to-peer network, and only a scrambled fingerprint of the join code is shared there. Most transfers go directly. When two devices cannot reach each other (for example when both are on a VPN), the app falls back to a relay server run by the developers, which only passes along encrypted data it cannot read. That is on by default, and Settings lets you turn it off or use your own relay. Someone receiving in a web browser also goes through the developers' relay servers. Relayed transfers have a size cap on the free plan, and an optional paid Pro subscription raises it. Direct transfers have no size limit. Crash reports are off unless you switch them on. The interface comes in ten languages, including English, German, French and Japanese.",
+  "repo": "https://github.com/denislupookov/altersend",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://altersend.com",
+  "tags": [
+    "file transfer",
+    "peer to peer",
+    "p2p",
+    "send files",
+    "encrypted",
+    "share files",
+    "no account",
+    "private"
+  ],
+  "added": "2026-10-20"
+}

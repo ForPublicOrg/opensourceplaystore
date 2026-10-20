@@ -1,0 +1,21 @@
+{
+  "id": "omni-browser",
+  "name": "Omni Browser",
+  "tagline": "A web browser built on Firefox's engine, with ad blocking and add-ons",
+  "description": "Omni Browser is a web browser for Android built on GeckoView, the engine from Mozilla that powers Firefox. It has tabs, an incognito mode, bookmarks, a home screen with shortcuts and an optional news feed, and a one-tap button that wipes your history, cookies and cache. You can rearrange its buttons and back up your settings to a file.\n\nBecause it uses Firefox's engine, you can install Firefox add-ons from the Mozilla add-ons site, uBlock Origin among them. It also has its own blocker for ads, trackers and pop-ups, with filter lists you can choose. A Safe Locker keeps private files encrypted behind a fingerprint check or an app PIN. The browser can spot video streams on a page and save them, plays video in its own player with background audio and picture-in-picture, scans and makes QR codes, and saves pages as PDFs. For privacy there is a built-in connection to Tor (a network that hides your address from the sites you visit), plus support for a WireGuard VPN file or your own proxy. An experimental sync feature can share bookmarks, open tabs and saved passwords with Firefox on your computer over your own Wi-Fi, using a companion extension.\n\nThe developers call this experimental software and say it is not yet recommended as your only browser, so expect bugs and back up anything important in the locker. It is an independent project, not made by Mozilla. It needs Android 8.0 or newer, and the download is over 100 MB. The VPN option needs a WireGuard file from your own server or VPN provider. The interface is in English and more than ten other languages, including Hindi, Spanish and Arabic. The privacy policy says it has no analytics, ads or crash reporting, but a few features call Google-hosted services: the home screen's site icons, the online translator, and the encrypted DNS option (off by default), which can use Google among its choices.",
+  "repo": "https://github.com/REBEL-ROOT/omni-browser",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "status": "testing",
+  "tags": [
+    "browser",
+    "geckoview",
+    "ad blocker",
+    "firefox add-ons",
+    "tor",
+    "private browsing",
+    "vault",
+    "video downloader"
+  ],
+  "added": "2026-10-20"
+}

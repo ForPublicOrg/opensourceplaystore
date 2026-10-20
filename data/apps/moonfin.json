@@ -1,0 +1,21 @@
+{
+  "id": "moonfin",
+  "name": "Moonfin",
+  "tagline": "Watch your Jellyfin or Emby library on phone and TV",
+  "description": "Moonfin is an app for watching and listening to the films, shows, music and books kept on a Jellyfin or Emby server. Jellyfin and Emby are programs that store your media on a home computer and share it with your devices, and Moonfin is the viewer for your phone, tablet or TV. It is an independent project, not made by the Jellyfin or Emby teams.\n\nIt comes as two Android files: one for phones and tablets, and one for Android TV and Fire TV with a layout made for a remote control. You can download films and shows to watch offline, read ebooks and comics, play audiobooks, watch live TV with a programme guide if your server has it, and cast to other screens. It can merge several servers into one library, skip intros and credits where the server has marked them, play in sync with friends, and switch to a Kids Mode with a PIN lock. The look is easy to change, with five styles for a film's page, colour themes and a pure black mode for OLED screens.\n\nYou need a Jellyfin (10.8 or newer) or Emby (4.8 or newer) server and an account on it, either your own or one someone shares with you, and Android 7.0 or newer. Some extras, such as retro games from a game library on your server, anime episode markers and settings sync between devices, need the Moonbase plugin on that server. Crash reports are switched on by default, but they go only to the server you sign in to, with addresses and sign-in tokens removed, and you can turn them off in settings. The privacy policy says there are no ads and no analytics. On phones, push notifications from the plugin go through Google's Firebase messaging. The files from GitHub check there for new versions, which you can switch off in settings. The interface comes in many languages, English included.",
+  "repo": "https://github.com/Moonfin-Client/Moonfin-Core",
+  "category": "media",
+  "license": "GPL-2.0",
+  "website": "https://moonfin.io",
+  "tags": [
+    "jellyfin",
+    "emby",
+    "media server",
+    "self-hosted",
+    "android tv",
+    "fire tv",
+    "offline",
+    "audiobooks"
+  ],
+  "added": "2026-10-20"
+}

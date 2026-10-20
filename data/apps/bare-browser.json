@@ -1,0 +1,21 @@
+{
+  "id": "bare-browser",
+  "name": "Bare Browser",
+  "tagline": "A phone browser with Google taken out and desktop extensions added",
+  "description": "Bare Browser (Bare for short) is an Android browser built from Chromium, the open-source engine behind Chrome, with the Google parts taken out. It removes Google's tracking, telemetry and AI features and uses DuckDuckGo as the default search engine.\n\nUnlike Chrome on a phone, it runs real desktop browser extensions, such as Bitwarden and Dark Reader. uBlock Origin, an ad blocker, comes already installed and can be removed, and you can add other extensions from a file. Long press a video or audio player to save the file, even on sites that do not normally offer one. Audio keeps playing when you lock the phone on sites that support it, downloads can be handed to a download manager such as 1DM, and by default links stay in the browser instead of jumping to other apps. It has a true black dark theme, a tab list view and a choice of where the address bar sits.\n\nYou need Android 10 or later on a phone with a 64-bit or 32-bit ARM processor, and the 64-bit download is large, about 300 MB. It is not completely free of Google: Chromium's component updater, which fetches things like certificate revocation lists, and the set-up for protected video playback still contact Google's servers, and choosing Google as your search engine switches on more Google requests. Safe Browsing warnings about phishing and malware do not work in this build, so take care with unfamiliar links, and page translation does not work either. uBlock Origin gets its filter lists from their makers and updates itself from its author's releases, and unless you choose manual updates, Bare checks GitHub for new versions at most once a day. Bare cannot judge whether an extension is safe. It is made by one person, 1.0.0 is its first stable release, and the new extension dialogs and buttons are English only. It is not affiliated with Google or the Chromium project.",
+  "repo": "https://github.com/BareBrowser/bare-browser",
+  "category": "internet",
+  "license": "BSD-3-Clause",
+  "website": "https://barebrowser.org",
+  "tags": [
+    "browser",
+    "chromium",
+    "degoogled",
+    "extensions",
+    "ublock origin",
+    "ad blocker",
+    "privacy",
+    "mobile browser"
+  ],
+  "added": "2026-10-20"
+}

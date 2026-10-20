@@ -1,0 +1,20 @@
+{
+  "id": "relay",
+  "name": "Relay",
+  "tagline": "Share your phone's internet with a Windows PC, no root needed",
+  "description": "Relay shares your Android phone's internet connection with a Windows computer, so the computer can get online through the phone. You tap Start Sharing on the phone, choose the phone from a list on the PC, and approve it on the phone. The two devices talk over WireGuard, an encrypted tunnel, and every program on the PC uses it, not only the browser, so video calls, games and installers work too.\n\nThe two devices need a way to see each other: your Wi-Fi, the phone's hotspot or a USB cable. With a cable plugged in, Relay offers to open Android's USB tethering switch, though the last tap is yours. Phones that are already sharing appear on the PC, so connecting is usually one click, or you can type a short two-digit code or scan a QR code. Each PC must be approved on the phone, and the encryption keys are made fresh for every pairing and discarded when you stop. A Quick Settings tile, a home screen widget and a launcher shortcut make it quick to start sharing.\n\nThis is one half of a pair: the phone app does nothing alone, and you also need the free Relay app for Windows 10 or 11 from the same releases page. Its installer is not code-signed yet, so Windows warns you the first time. The phone needs Android 8 or newer, with no root and no account. One PC can use the phone at a time, and there is no Linux or Mac version yet. The developer says there is no analytics or telemetry. If you download the APK yourself, the app checks GitHub for newer versions and installs one only when you tap. A VPN running on the phone can stop the PC from connecting, which the app tries to detect and explain. The interface is in English and Persian.",
+  "repo": "https://github.com/Mahdi-mortazavi/relay",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "tags": [
+    "reverse tethering",
+    "tethering",
+    "internet sharing",
+    "hotspot",
+    "wireguard",
+    "usb tethering",
+    "windows",
+    "no root"
+  ],
+  "added": "2026-10-20"
+}

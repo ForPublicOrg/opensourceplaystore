@@ -1,0 +1,21 @@
+{
+  "id": "payload-dumper",
+  "name": "Payload Dumper",
+  "tagline": "Pull boot and other images out of Android update files",
+  "description": "Payload Dumper takes Android update files apart on the phone itself. Phone makers ship system updates as a payload.bin file, or as a zip with one inside, and that file holds partition images such as boot and vendor_boot. The app opens it and saves the images you choose to your storage, so you do not need a computer.\n\nYou pick a payload.bin or an update zip from your phone, or type in a web address to fetch one. The app lists every partition with its size, and you can save them one at a time or all at once, adding more while others are still running and cancelling one or all. Each image shows its progress, and the app can check it against its hash (a fingerprint that confirms the file came out intact). Settings cover how many partitions run at once, the buffer size, whether to overwrite or rename files with the same name, deleting the output file if something fails, and a light, dark or automatic theme.\n\nThis is a niche tool for people who flash or root their phones, and most people will never need it. The app itself needs no root, but it does need Android 9 or newer. It asks for all-files access so it can read and write images anywhere on the phone, and for notification permission so extraction can carry on in the background. Its internet permission is for fetching a file from a web address, and it warns you if that address is not secure. Incremental updates (small ones that hold only the changes since an earlier version) are recognised but cannot be extracted yet, and the Analyze tab is only a placeholder. The code contains no analytics or advertising tools. The interface is in English, Simplified Chinese and Polish. The developer says the project may end if Google's rule against installing apps from unregistered developers goes ahead.",
+  "repo": "https://github.com/rajmani7584/Payload-Dumper-Android",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://rajmani7584.github.io",
+  "tags": [
+    "ota",
+    "payload bin",
+    "boot image",
+    "firmware",
+    "rom",
+    "extractor",
+    "partitions",
+    "root"
+  ],
+  "added": "2026-10-20"
+}

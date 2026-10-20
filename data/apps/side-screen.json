@@ -1,0 +1,21 @@
+{
+  "id": "side-screen",
+  "name": "Side Screen",
+  "tagline": "Use your Android tablet as a second screen for your Mac",
+  "description": "Side Screen turns an Android tablet into an extra screen for a Mac. Install the tablet app, then download and run the free Mac app from the same project, and you can drag windows from your Mac across to the tablet as if it were a second monitor. It extends your desktop rather than copying it, and tapping the tablet controls the Mac.\n\nYou can connect with a USB-C cable for the quickest response, or over Wi-Fi after pairing once by scanning a QR code shown on the Mac, after which the tablet reconnects by itself. A tablet with no camera can pair by typing an 8-digit code instead. The picture is sent as H.265 video, and you choose the resolution, refresh rate and quality from the Mac app. There is a sharper mode for high-resolution tablets, a gaming setting for higher frame rates, and options to rotate or flip the picture, which suits a teleprompter. After a first setup with a screen attached, a Mac can also run with no screen of its own, using the tablet as its only display.\n\nThe tablet app does nothing without the Mac app, which needs macOS 13 or newer, asks for Screen Recording permission, and is not notarised by Apple, so macOS may call it damaged until you follow the short Terminal fix in the project's instructions. The tablet needs Android 8 or newer and a hardware H.265 video decoder. The USB mode needs adb, a small Android developer tool, on the Mac and USB debugging switched on in the tablet. Wi-Fi mode needs both devices on the same network, and the project recommends 5 GHz. The interface is in English. According to its privacy policy, there are no accounts, analytics, ads or crash reporting, and the app only connects to your Mac.",
+  "repo": "https://github.com/tranvuongquocdat/SideScreen",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://sidescreen.dev",
+  "tags": [
+    "second screen",
+    "second display",
+    "tablet",
+    "macos",
+    "extra monitor",
+    "usb-c",
+    "wireless display",
+    "virtual display"
+  ],
+  "added": "2026-10-20"
+}

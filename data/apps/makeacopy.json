@@ -1,0 +1,20 @@
+{
+  "id": "makeacopy",
+  "name": "MakeACopy",
+  "tagline": "Scan paper documents into searchable PDFs, all offline",
+  "description": "MakeACopy is a document scanner that turns paper into digital copies using your phone's camera. You photograph a page, the app finds its edges and straightens it, and then it reads the words on it with OCR (text recognition, which turns a picture of text into real text). The PDF you save is searchable, so you can look for a word in it later. All of this happens on the phone itself.\n\nThe app finds the edges of a page automatically, and you can adjust the corners yourself and flatten curved book pages by hand. You can tidy a scan with greyscale, contrast and sharpening filters, and check the recognised text word by word, fixing mistakes before you save. Several pages can go into one document, and you can put them in order first. Save as a searchable PDF or as JPEG pictures, or share them straight to another app. Inbox Mode drops every scan into a folder you pick, which suits folder-syncing tools such as Syncthing or document archives such as paperless-ngx. An Accessibility Mode gives spoken and vibration hints and lets the volume buttons take the photo.\n\nYou need Android 10 or newer. The app asks only for permission to use the camera and to vibrate, and the project says it works fully offline with no tracking, telemetry or cloud upload. Because the text recognition models are built in rather than downloaded, the app is large: the full version is roughly 100 to 140 MB, while the Light edition on GitHub is about 60 MB but reads only English and German. The full version reads text in more than 20 languages, including Chinese, Arabic, Hindi, Thai and Russian. The app's own menus come in English and more than twenty other languages, among them German, French and Spanish.",
+  "repo": "https://github.com/egdels/makeacopy",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "document scanner",
+    "scanner",
+    "ocr",
+    "pdf",
+    "searchable pdf",
+    "offline",
+    "paperless",
+    "text recognition"
+  ],
+  "added": "2026-10-20"
+}

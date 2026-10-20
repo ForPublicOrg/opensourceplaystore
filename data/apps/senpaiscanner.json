@@ -1,0 +1,23 @@
+{
+  "id": "senpaiscanner",
+  "name": "SenPaiScanner",
+  "tagline": "Find Cloudflare addresses that work on a slow or filtered network",
+  "description": "SenPaiScanner tests Cloudflare server addresses to find the ones that connect well on your network. Cloudflare is a large company whose servers sit in front of many websites and online services, and on a slow, filtered or unreliable connection only some of those addresses work properly. The app tries many of them and ranks the results.\n\nIt picks addresses at random from Cloudflare ranges built into the app, or you can paste your own list of addresses, ranges and domain names. Results appear while the scan is still running, with delay, packet loss and speed for each address, and you can copy the healthy ones at any time. Stop once you have enough and run a speed test on just that shortlist. If you paste a proxy link (VLESS, Trojan or VMess, formats for describing a proxy server), the app checks the best addresses through it with a built-in Xray core, then exports the working ones as new links, a subscription, or Sing-box and Clash files. Anti-DPI, on by default, cuts the start of each secure connection into small pieces so traffic filters find it harder to tell which site you are reaching, and you can edit its values. Gentle mode slows scanning for providers that cut your connection when a scan looks too busy, and an interrupted scan can be resumed.\n\nThis is a helper for people who already use proxies, not a VPN or proxy itself, so it is most useful with a proxy link of your own. It needs Android 7.0 or newer and asks only for internet access. It depends on Cloudflare's network, and the default Anti-DPI values may stop working over time. Each time it opens, it looks up the provider behind your own connection, asking Cloudflare and, if needed, public lookup services such as IPinfo, which then see your public address. The app is in English. Scan only networks you are allowed to test.",
+  "repo": "https://github.com/MatinSenPai/SenPaiScanner",
+  "category": "internet",
+  "license": "MIT",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "cloudflare",
+    "ip scanner",
+    "proxy",
+    "vless",
+    "trojan",
+    "vmess",
+    "censorship",
+    "xray"
+  ],
+  "added": "2026-10-20"
+}

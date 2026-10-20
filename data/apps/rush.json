@@ -1,0 +1,23 @@
+{
+  "id": "rush",
+  "name": "Rush",
+  "tagline": "Look up song lyrics, save them and share them as cards",
+  "description": "Rush is a lyrics app for your phone. You search for a song by its title or artist, read the words in a clean, modern layout, and keep the ones you like in a saved list that stays on your phone. You can also turn lines from a song into a picture card to send to friends.\n\nLyrics can be shown as plain text or, when they exist, synced line by line as a song plays. You can change the font, size, spacing and alignment, pick your own colours or follow your wallpaper, and choose a background: a solid colour, blurred album art or animated ones, some of which move with the music. Lyrics in Japanese, Korean, Chinese, Hindi, Punjabi and Cyrillic languages can be shown in Latin letters. Share cards come in several styles with adjustable colours and corners. A Correct Lyrics option lets you pick another version if the first one is wrong, and you can export your saved lyrics to a folder and restore them later.\n\nRush needs Android 10 or newer and an internet connection to find lyrics, though saved ones can be read offline. It uses Genius, a lyrics website, to find songs and LRCLIB, an online lyrics database, to get the lyrics, so it relies on those services and is not made by either of them. What you type into search, and the title and artist of any song it detects, is sent to them. Lyrics for some songs may be missing. Synced lyrics and automatic song detection need notification access, so Rush can see what another music app is playing; everything else works without it. The record audio permission is optional and only lets the moving backgrounds react to the music. The GitHub download has every feature unlocked, no in-app purchases and no analytics. The interface is in English, with translations including German, French, Spanish, Italian, Japanese, Korean, Chinese, Russian and Arabic.",
+  "repo": "https://github.com/shub39/Rush",
+  "category": "media",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "lyrics",
+    "synced lyrics",
+    "song search",
+    "genius",
+    "lrclib",
+    "music",
+    "share card",
+    "romanization"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "app-manager",
+  "name": "App Manager",
+  "tagline": "See inside your apps, install and back them up, with or without root",
+  "description": "App Manager is a toolbox for the apps on your phone. For any app it shows what is inside: the permissions it asks for, its screens, background services and shared libraries, its signing certificates, and how much storage, mobile data and screen time it uses (the usage figures need the Usage Access permission). It can also scan an app for trackers, the bits of code that gather analytics or show ads, and list the ones it finds.\n\nYou can install and uninstall APK files, the install files for Android apps, including bundle formats such as APKS, APKM and XAPK. It can share APKs, and back up and restore apps, with encryption for the backups. There is a debloater for unwanted pre-installed apps too, along with a log viewer, a file manager, a code editor, a simple terminal, batch actions for many apps at once, and saved profiles you can run again.\n\nIt needs Android 5.0 or newer and works without root (full administrator access to the phone), but many of its stronger features need root or ADB. ADB is Android's debugging connection, which the app can reach on your own phone, for example through Wireless debugging on Android 11 or newer. With that access it can freeze apps, force-stop them, change app ops (the finer permission switches Android keeps for each app), block an app's internet access and switch off or remove pre-installed apps. Without root or ADB, backups hold only the app files, not their data. Blocking single parts of an app and editing its saved settings need root. Checking an APK file with VirusTotal, an online scanning service, is optional: it needs the internet, stays hidden until you add your own free API key, and asks before uploading a file the service has not seen. The privacy policy says nothing is collected from the app. The interface is in English and about twenty other languages.",
+  "repo": "https://github.com/MuntashirAkon/AppManager",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://muntashir.dev/AppManager/",
+  "tags": [
+    "package manager",
+    "permissions",
+    "apk",
+    "backup",
+    "trackers",
+    "debloat",
+    "adb",
+    "root"
+  ],
+  "added": "2026-10-20"
+}

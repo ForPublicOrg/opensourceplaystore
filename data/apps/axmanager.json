@@ -1,0 +1,22 @@
+{
+  "id": "axmanager",
+  "name": "AxManager",
+  "tagline": "Run shell commands and manage app permissions, with or without root",
+  "description": "AxManager, also called Axeron Manager, is a toolbox for people who want more control over their own phone. When you start it, it runs a small helper in the background with the same permissions as the Android shell, the level a computer gets when you connect it with ADB, Android's developer tool. If your phone is rooted, it can run as root instead.\n\nIn the Privilege tab you choose which apps may use it and manage each one: force stop it, clear its cache or data, change battery and background settings, and grant or revoke permissions. Apps built for Shizuku, a helper app that lets other apps use extra system permissions without root, can connect to AxManager too once you switch that on in Settings, though a few older ones still need the Shizuku app installed. QuickShell lets you type commands and save them as snippets, and a bundled tool called axsh gives a terminal app the same powers. A settings editor lets you change Android's behind-the-scenes system settings. Plugins are add-on packages laid out like the modules of Magisk, a rooting tool, but they do not need root, and some have their own web-style screens.\n\nIt suits people comfortable with Android's developer options. It needs Android 8.0 or newer and one of these to start: root, Wireless Debugging (Android 11 or newer, on Wi-Fi, no computer needed), a computer running a single ADB command, or a second phone joined by a USB cable. After a restart you normally start it again. Root, or ADB on Android 11 or newer, can do that automatically, but the ADB way is marked experimental. Over ADB it stops if you turn off Developer options or USB debugging. Commands and plugins run with extra permissions, so only use ones you trust. The project's own store text calls it early development and beta. It is independent and not affiliated with Shizuku. The interface is in English, Indonesian and Chinese.",
+  "repo": "https://github.com/fahrez182/AxManager",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://axmanager.app",
+  "status": "testing",
+  "tags": [
+    "adb",
+    "shizuku",
+    "shell",
+    "plugins",
+    "wireless debugging",
+    "root",
+    "permissions",
+    "terminal"
+  ],
+  "added": "2026-10-20"
+}

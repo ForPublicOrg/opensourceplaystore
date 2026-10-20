@@ -1,0 +1,20 @@
+{
+  "id": "framex",
+  "name": "FrameX",
+  "tagline": "A floating FPS and temperature panel for your games",
+  "description": "FrameX puts a small floating panel on top of your games and other apps, showing how your phone is coping while you use it. It can show frames per second (FPS, how smoothly the screen is drawn), processor speeds, temperatures, memory use, network speed and ping (connection delay). You can drag the panel anywhere and change its layout, text size, see-through level and colours.\n\nBeyond the live numbers, a Thermal Diagnostics screen draws charts of your phone's temperatures over a session. A Gaming Mode can clear cached memory, pause background apps and switch on Do Not Disturb while you play, then restore your settings, and a reset slider sends everything it changed back to the phone's defaults. An option to override the phone's own heat limits is off until you switch it on, as the developer notes it could add wear on phones that overheat. A quick settings tile turns the overlay on or off, and the app lists the exact commands Gaming Mode ran. Vivo and iQOO phones get extra display and touch tweaks.\n\nYou need Android 8.0 or newer and Shizuku, a helper app that lets other apps use extra system permissions without root. On Android 11 or newer you can start it with Wireless debugging, with no computer. FrameX also asks to draw over other apps and to see which app is in front, and Gaming Mode asks for more, such as changing system settings. Some phones do not expose all temperature readings, so the app marks them unsupported. The Vivo and iQOO tweaks work only on those phones, and the developer has said Gaming Mode is less tested on other phones. The interface is in English. The developer states it has no accounts, ads or analytics. The app uses the internet to ping Google's public DNS server and, unless you turn it off, to check GitHub for newer versions it can install.",
+  "repo": "https://github.com/MaheshSharan/FrameX-Android",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "fps meter",
+    "fps counter",
+    "overlay",
+    "thermal",
+    "shizuku",
+    "gaming",
+    "performance",
+    "temperature"
+  ],
+  "added": "2026-10-20"
+}

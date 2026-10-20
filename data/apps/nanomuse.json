@@ -1,0 +1,21 @@
+{
+  "id": "nanomuse",
+  "name": "nanoMuse",
+  "tagline": "An AI helper that does tasks on your phone and asks before risky steps",
+  "description": "nanoMuse is a personal AI agent for your phone. It carries out tasks instead of only answering questions: it can run commands, browse the web, work with files and connect to other services. Its tools run in a private Linux workspace on the phone, and an AI model you choose does the thinking. It is built on OpenMinis, an open-source agent app, and is inspired by Meta's Muse but not affiliated with Meta.\n\nThe agent has a name and a look of its own (a small dragon by default), checks goals on a schedule and runs routines while the app is closed. What it knows about you sits in text files you can read and edit. Before it deletes, sends or pays for anything it stops and asks, and passwords and codes are left for you to type. An optional feature called Hands lets it look at the screen and tap, type and swipe in other apps. It needs Android 11 or newer and Android's accessibility service (off until you turn it on), and it sends screen pictures to the AI model.\n\nYou need Android 8 or newer and a 64-bit ARM phone. The first screen asks you to sign in with an e-mail address (or a mainland China phone number) for a small free allowance on the developer's server, which passes messages on to Alibaba Cloud. Instead you can use your own API key (a password-like code from an AI company) or a model server you run yourself, and you need one of these once the allowance runs out. If you sign in, your main chat is stored on the developer's server, and a setting that lets it keep chat text to train the project's own model is on by default. Both can be switched off in Settings. The project says the app has no analytics or crash reporting. The interface has 17 languages, including English.",
+  "repo": "https://github.com/nano-muse/nanoMuse",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://nanomuse.cn/",
+  "tags": [
+    "ai agent",
+    "assistant",
+    "llm",
+    "automation",
+    "mcp",
+    "chatbot",
+    "bring your own key",
+    "agent skills"
+  ],
+  "added": "2026-10-20"
+}

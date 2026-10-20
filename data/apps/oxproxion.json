@@ -1,0 +1,20 @@
+{
+  "id": "oxproxion",
+  "name": "oxproxion",
+  "tagline": "Chat with OpenRouter models or AI servers on your own network",
+  "description": "oxproxion is a chat app for talking to AI language models. You type or speak a message and the model writes back, word by word or all at once, as you choose. It works with models from OpenRouter, a service that gives you many AI models through one account, and with models that Ollama, LM Studio, llama.cpp, MLX LM or Hermes Agent serve on your own network.\n\nYou can save, load, import and export chats. You can send pictures to models that can read them and ask models that can draw to make images. A library of system messages (short instructions that tell the AI how to behave) shapes its answers, and presets bundle a model, a system message and your options into one tap. Models that think before answering show it in a collapsible bubble. In conversation mode you speak and replies are read aloud, and a whole chat, or a single reply, can become a PDF made on your phone. Optional tools, which you switch on one at a time, let the AI read, make and delete files in a workspace folder, set timers and alarms, add calendar events and check your location. Web search tools need a Brave Search key that you add yourself.\n\nYou need Android 12 or newer, and either an API key (a secret code that lets the app use your account) from an OpenRouter account that has credits added, or your own model server on your network, which you must set up yourself, as the app gives no help. It is not affiliated with OpenRouter. Your messages go to whichever service or server you pick, and Brave sees your web searches, so read their pricing and privacy policies. The developer says the app has no trackers, analytics or ads, and that chats are saved on the phone only, unencrypted. It is meant for people aged 18 and over. The interface is in English.",
+  "repo": "https://github.com/stardomains3/oxproxion",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "ai chat",
+    "llm",
+    "openrouter",
+    "ollama",
+    "lm studio",
+    "llama.cpp",
+    "chatbot",
+    "local ai"
+  ],
+  "added": "2026-10-20"
+}

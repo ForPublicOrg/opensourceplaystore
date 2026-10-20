@@ -1,0 +1,21 @@
+{
+  "id": "gymmane",
+  "name": "GymMane",
+  "tagline": "Log your gym workouts offline, with no account or ads",
+  "description": "GymMane is a gym log that lives on your phone. You tap the muscles you want to train on a front and back body map, write down each set with its reps and weight, and the app shows how your numbers change over the weeks. It comes with more than 500 exercises, with animated drawings and step-by-step instructions, and you can add your own or swap any drawing for your own photo, GIF or video.\n\nDuring a workout there is a rest timer with an alarm sound you choose, and a notification with the countdown and buttons that work from the lock screen. You can mark sets as warm-up, drop set or to failure, chain exercises into supersets, and let the app work out which weight plates go on each side of the bar. Routines can be scheduled by weekday, with ready-made plans included. The progress pages show personal records, streaks, a weekly goal, estimated one-rep max (the heaviest weight you could lift once), body measurements and progress photos. There are also home screen widgets and several calculators. You can export your history as a CSV file or a full ZIP backup, and bring in logs from apps such as Hevy and Strong.\n\nYou need Android 7.0 or newer. There is no account, no advertising and no analytics, and the app does not ask for the internet permission, so it cannot send your training anywhere. Its permissions are for timers, reminders and notifications, such as exact alarms and vibration. On Android 14 or newer it can also show your steps from Health Connect, Android's built-in health data store (read only). A nutrition tracker for food, water and supplements is included but is labelled beta, starts switched on (you can turn it off in the settings), and may not be translated into every language yet. The interface comes in 17 languages, including English, Spanish, German, French, Arabic and Japanese.",
+  "repo": "https://github.com/InlitX/GymMane",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://inlitx.github.io/GymMane/",
+  "tags": [
+    "gym",
+    "workout",
+    "fitness",
+    "weightlifting",
+    "strength training",
+    "exercises",
+    "offline",
+    "workout log"
+  ],
+  "added": "2026-10-20"
+}

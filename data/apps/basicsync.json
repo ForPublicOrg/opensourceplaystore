@@ -1,0 +1,20 @@
+{
+  "id": "basicsync",
+  "name": "BasicSync",
+  "tagline": "Run Syncthing on your phone and choose when it syncs",
+  "description": "BasicSync is a small app that runs Syncthing on your Android phone or tablet. Syncthing is an open-source tool that keeps folders in sync between devices, and it comes bundled inside the app. BasicSync only controls when Syncthing runs. Everything else, such as adding devices and choosing folders, is done in Syncthing's own web page, which opens inside the app, much as you would set it up on a computer.\n\nYou decide when syncing is allowed. In auto mode the app starts and stops Syncthing for you, based on the type of network (or only certain Wi-Fi networks), battery level, Android's battery saver and auto-sync settings, or a time schedule. In manual mode you start and stop it yourself, and a quick settings tile switches between the two. Folders can live on internal storage, an SD card or a USB drive. The web page gains a folder picker and a QR code scanner for adding devices, the app reports sync conflicts, and you can import and export your Syncthing setup.\n\nYou need Android 8 or newer. To keep syncing in the background the app asks to show a notification and to be left out of battery optimisation. Location permission is only needed if you want syncing limited to named Wi-Fi networks, because Android hides the network name without it. Folders can use direct file access, which needs Android's all files access permission, or Android's folder picker, which only gives the app the folders you choose but is slower and more likely to hit sync errors. The developer recommends direct file access. The app has no ads and no telemetry of its own. Syncthing's usage reporting is opt-in and asks first, and its crash reporting is switched off. The app's own screens are in English, with many translations including German, Spanish, French, Russian and Chinese.",
+  "repo": "https://github.com/chenxiaolong/BasicSync",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "syncthing",
+    "file sync",
+    "folders",
+    "sd card",
+    "wifi only",
+    "battery saver",
+    "schedule",
+    "web ui"
+  ],
+  "added": "2026-10-20"
+}

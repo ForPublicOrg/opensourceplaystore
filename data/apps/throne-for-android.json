@@ -1,0 +1,21 @@
+{
+  "id": "throne-for-android",
+  "name": "Throne for Android",
+  "tagline": "Send some or all of your apps' internet through a proxy you add",
+  "description": "Throne for Android is a proxy and VPN app, formerly called NekoBox for Android. You give it the details of a proxy server, or a subscription link from a provider you already use, and it sends your phone's internet traffic through that server, either for every app or only for the apps you pick. It is the Android version of the Throne desktop program and runs its own versions of sing-box and Xray, two open-source programs that do the actual tunnelling.\n\nIt understands many kinds of proxy, including Shadowsocks, VMess, VLESS, Trojan, Hysteria, WireGuard, SSH and OpenVPN, and you can add servers from the clipboard, a file, a QR code or a subscription link. You can sort servers into groups, test how fast they respond, and let an automatic selector keep the best one in use. Route rules decide which apps, sites or Wi-Fi networks go through the proxy and which go direct. There is also a built-in dashboard with live traffic and connections, an editor for advanced settings files, optional Cloudflare WARP setup, backups you can keep on the phone or on a WebDAV server (a file-sharing server), home-screen widgets, and Android TV support.\n\nIt comes with no servers of its own, so you need your own proxy server or a subscription before it does anything. The project's notice says it is meant for technical research and learning, offers no proxy service, and should be used within your local laws and at your own risk. It needs Android 7.0 or newer. After you connect, it asks an IP lookup service, through the proxy, which country your connection comes out in; you can turn this off in Settings. Wi-Fi rules ask for location access, because Android hides the Wi-Fi name without it; the app says it only reads the connected network, never your location. The interface is in English and many other languages, including Chinese, Russian, Persian, Arabic, Spanish and German.",
+  "repo": "https://github.com/throneproj/ThroneForAndroid",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://throneproj.github.io",
+  "tags": [
+    "proxy",
+    "vpn",
+    "sing-box",
+    "xray",
+    "vless",
+    "shadowsocks",
+    "nekobox",
+    "wireguard"
+  ],
+  "added": "2026-10-20"
+}

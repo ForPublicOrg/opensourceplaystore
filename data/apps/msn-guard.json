@@ -1,0 +1,23 @@
+{
+  "id": "msn-guard",
+  "name": "MSN-GUARD",
+  "tagline": "A VPN that carries your whole phone's traffic past internet blocks",
+  "description": "MSN-GUARD is a VPN app for people on networks that block or filter parts of the internet. It was built for mobile networks in Iran. Many proxy apps protect only a browser, but this one uses Android's own VPN feature, so every app on the phone goes through the tunnel unless you leave it out.\n\nYou choose how it connects: Cloudflare's WARP service in three forms (MASQUE, WireGuard, and WireGuard nested inside WireGuard), the Psiphon network, the Tor network with bridges for places where Tor itself is blocked, or a mode called SHARD that uses free public servers. Unless you pick Psiphon or Tor yourself, your first connect tries the WARP forms and then SHARD until one carries traffic. You can pick a preferred exit country for Tor and Psiphon, switch on and off from the Quick Settings tile, choose which apps use the VPN, set a kill switch that cuts the network if the tunnel drops, use your own DNS servers, and keep four sets of settings as profiles. An option lets Iranian sites and apps skip the VPN.\n\nYou need Android 8.0 or newer and approve Android's VPN prompt on first connect. No root, account, key or server of your own is needed; the WARP modes sign the phone up with Cloudflare by themselves. It is an unofficial client for Cloudflare, Psiphon and Tor, so your traffic leaves through their networks and it works only while those keep working. The SHARD servers are free public ones collected from open lists, so you cannot know who runs them: think twice before sending anything private through that mode. The app fetches small lists of server addresses and routing rules from the project's GitHub page, checks GitHub for updates when you ask, and looks up your exit address on public websites to show its country. Its build includes no analytics or ad libraries. The interface is in English, Persian and Chinese.",
+  "repo": "https://github.com/mbm110/MSN-GUARD",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "vpn",
+    "censorship",
+    "circumvention",
+    "tor",
+    "psiphon",
+    "wireguard",
+    "warp",
+    "iran"
+  ],
+  "added": "2026-10-20"
+}

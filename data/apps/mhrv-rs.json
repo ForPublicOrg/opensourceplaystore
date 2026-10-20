@@ -1,0 +1,23 @@
+{
+  "id": "mhrv-rs",
+  "name": "mhrv-rs",
+  "tagline": "Open blocked websites through your own Google account",
+  "description": "mhrv-rs helps you open websites that your internet provider or country blocks. It runs as a VPN on your phone, but not through a VPN company. Your web requests pass through a small script that you create in your own Google account, using Google Apps Script, a Google service that runs short programs for you. The aim is that your provider sees only encrypted traffic to Google, not which sites you open.\n\nIn the app you paste your script's address and a secret key you chose, then tap Connect and accept Android's VPN prompt. By default every app is routed through it, or you can pick which apps use it, or use Proxy only mode and point apps at it yourself. You can add several scripts and it rotates between them. It also has a tester for which Google site names your network allows, live logs, an estimate of your use against Google's free daily allowance, and sharing of settings by QR code or clipboard.\n\nSetting it up takes effort. You need Android 7.0 or newer, a screen lock and a Google account, and you copy the script from the project into Google's editor yourself, which is easier on a computer. It is unofficial and depends on Google's service, so it may stop working if Google changes things. Google can see which sites you visit, and the app is for getting past blocks, not hiding who you are. It has you install its own security certificate, which lets it unwrap your secure traffic before passing it on; the project says the private key stays on your device. Chrome and Firefox accept it, but many other apps, such as banking apps and messengers, refuse it. YouTube video and sites with \"verify you are human\" checks often fail. On opening, it asks GitHub whether a newer version exists. The interface is in English and Persian.",
+  "repo": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST",
+  "category": "security",
+  "license": "MIT",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "censorship",
+    "unblock sites",
+    "proxy",
+    "vpn",
+    "dpi bypass",
+    "google apps script",
+    "domain fronting",
+    "socks5"
+  ],
+  "added": "2026-10-20"
+}

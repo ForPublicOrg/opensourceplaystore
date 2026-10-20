@@ -1,0 +1,20 @@
+{
+  "id": "tiny-container",
+  "name": "Tiny Container",
+  "tagline": "A ready-made Debian Linux desktop on your phone, no root",
+  "description": "Tiny Container puts a Linux computer (the app calls it a container) inside an Android app. With one of the downloads that include a desktop, you open it, wait about five minutes for first-time setup, and arrive at a Debian desktop (a long-running free Linux system) where you can use Linux PC programs on your phone or tablet. It needs no root (the deep system access some people unlock on their phones) and uses PRoot, a tool that lets Linux programs run inside a normal app.\n\nInstall commands for common programs are ready-made, so you tap one and the app does the rest, and there is a built-in terminal too. You see the desktop through a built-in VNC viewer (a remote-screen tool) or Termux:X11 display (Termux is an Android terminal app), so no extra app is needed. Sound and the microphone are passed through, the Linux files show up in Android's file manager, programs can be added to your home screen as shortcuts, and it does not clash with a separate Termux install.\n\nBefore you install: it runs only on 64-bit ARM (arm64) devices with Android 9 or newer. Some downloads include a ready-made Xfce or GXDE desktop (desktop styles), in English or Chinese, but they are large, about 0.8 to 2 GB. The plain download has no desktop, so you import a container file from the author's separate images page. On Android 12 and newer the system can kill the container, and you may need to switch off the child process limit in Developer options. The author says AI helped write much of the code, layouts and translations, so expect some bugs. Test builds are marked as pre-releases; newcomers are told to use the latest stable one. It can ask for all-files and microphone access. By default it checks GitHub for updates each time you start a container; settings can turn this off. The interface is in English and many other languages, including German, Hindi, Arabic, Japanese and Chinese.",
+  "repo": "https://github.com/Cateners/tiny_container",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "linux",
+    "debian",
+    "desktop",
+    "proot",
+    "terminal",
+    "xfce",
+    "vnc",
+    "no root"
+  ],
+  "added": "2026-10-20"
+}

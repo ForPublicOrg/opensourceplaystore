@@ -1,0 +1,23 @@
+{
+  "id": "circle-to-search",
+  "name": "Circle To Search",
+  "tagline": "Circle anything on your screen to search for it",
+  "description": "Circle To Search lets you search for anything you can see on your screen. Call it up over any app, draw a circle or scribble around a picture, an object or some words, and the app searches for just that part and shows the results in a built-in viewer. It brings something like Google's Circle to Search, which only some newer phones have, to other Android phones.\n\nTo search with a picture (reverse image search), choose Google Lens, Bing, Yandex or TinEye. Copying text off the screen works offline using Tesseract, an open-source text-reading engine; it comes with English, and you can import more language models. It also reads QR codes and picks out links, email addresses, phone numbers and UPI payment IDs (UPI is India's payment system), again without internet. You can save or share the circled area and open results in your own browser. You start a search by double-tapping the status bar, with a floating bubble, from a Quick Settings tile, or by setting the app as your default assistant and long-pressing the home button.\n\nThe status bar, bubble and tile need the app's Accessibility service, which lets it capture your screen; setting it as your default assistant lets you skip that. It asks for Android 10 or newer, but the Accessibility route only works from Android 11, so on Android 10 use the assistant. Searching uploads the circled picture to a free public image host, Litterbox, so the search engine can fetch it. Litterbox deletes it after an hour, but if that upload fails, the latest release falls back to Catbox, which keeps files for good, so do not search private pictures. These services are closed and run by other companies, not affiliated with this app. Google Lens mode needs the Google app installed; the other engines do not. The developer states the app has no server and collects no data. The interface is in English.",
+  "repo": "https://github.com/AKS-Labs/CircleToSearch",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "reverse image search",
+    "google lens",
+    "ocr",
+    "qr code",
+    "screen search",
+    "visual search",
+    "assistant",
+    "text recognition"
+  ],
+  "added": "2026-10-20"
+}

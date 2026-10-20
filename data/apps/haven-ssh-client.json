@@ -1,0 +1,21 @@
+{
+  "id": "haven-ssh-client",
+  "name": "Haven",
+  "tagline": "Log in to your servers and computers from your phone",
+  "description": "Haven is a remote access app for Android. It lets you reach computers and servers you run from your phone. You can open a terminal (a text window for typing commands) over SSH, a secure way to log in to another machine. You can also see and control another computer's screen with VNC or RDP, and browse and copy files over SFTP or SMB.\n\nThe terminal has tabs, a keyboard bar with Esc, Ctrl and arrow keys, and Mosh and Eternal Terminal support, built to keep a session going when your connection drops or changes. It can make SSH keys on the device and use hardware security keys. Connections can go through port forwards, jump hosts, proxies, and WireGuard or Tailscale tunnels that stay inside the app. The file browser reaches 60 or more cloud storage services, such as Google Drive and Dropbox, using your own accounts. Haven can run a small Linux system on the phone without root and lock behind your fingerprint, face or PIN. An optional agent endpoint (a way for AI assistants to drive the app) stays off until you switch it on.\n\nYou need Android 8.0 or newer. For most features you need your own server or computer to connect to, because Haven is only a client. Releases come in a full version and a smaller terminal one that leaves out RDP and SPICE remote desktops, the phone's own Wayland desktop and media conversion. The full one is the safe choice but about 240 MB on most phones, against under 70 MB for the terminal one. The GitHub and F-Droid builds use different signing keys, so switching means uninstalling, which clears app data, so back up first. The developer says there are no analytics, ads or accounts. The interface has 12 languages, including English. The developer also says an AI model writes most of the code, with the maintainer directing and checking it.",
+  "repo": "https://github.com/GlassHaven/Haven",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://glasshaven.github.io/Haven/",
+  "tags": [
+    "ssh",
+    "terminal",
+    "remote desktop",
+    "vnc",
+    "rdp",
+    "sftp",
+    "mosh",
+    "cloud storage"
+  ],
+  "added": "2026-10-20"
+}

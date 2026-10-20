@@ -1,0 +1,20 @@
+{
+  "id": "lune",
+  "name": "Lune",
+  "tagline": "Play the songs stored on your phone, fully offline",
+  "description": "Lune is a music player for the songs stored on your phone. It finds the audio files on your device and lets you browse them by song, album, artist, genre or folder. It plays them in Material 3 (Google's modern Android design) with colours that follow your phone's theme, handles MP3, AAC, FLAC, Ogg Vorbis, Opus and WAV, and can open a song straight from your file manager.\n\nYou can make playlists. The play queue, with shuffle and repeat, is remembered between sessions, and a history shows what you played. The lyrics screen scrolls along with the song and lets you tap a line to jump to it, and a lyrics editor lets you paste in lyrics and time each line by tapping along. An optional crossfade blends one song into the next (12 seconds by default), and a timer can stop the music after a set time, such as 15, 30 or 60 minutes. The equaliser has 10 bands and several presets, plus bass boost, spatial sound, a loudness boost, left and right balance, reverb, a speed and pitch control, and a setting that evens out loud and quiet parts for late-night listening. Moving bars follow the music, and the home screen widget can be restyled. A smart shuffle and personal mixes are worked out on the phone from your own library.\n\nLune plays only files on the device: no streaming, no downloading, no account. It needs Android 7 or newer, and some effects, such as the blurred widget background and reverb, work differently between Android versions. It asks to read your music, show notifications, connect to Bluetooth audio devices and use the microphone, which the app says is needed for the moving bars. It has no internet permission, and the project says it has no ads, analytics or crash reporting. The interface is in English, with translations including Spanish, French, German, Russian and Chinese.",
+  "repo": "https://github.com/MrDemonc/Lune",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "music player",
+    "offline",
+    "local music",
+    "equalizer",
+    "lyrics",
+    "playlist",
+    "material 3",
+    "mp3"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "byebyedpi",
+  "name": "ByeByeDPI",
+  "tagline": "Get around some website blocks without a VPN service or server",
+  "description": "ByeByeDPI is an Android app that works around website blocking done with deep packet inspection (DPI), a technique some internet providers and networks use to look at your connections and cut off certain sites. It runs a small program called ByeDPI on your phone and sends your traffic through it, changing how connections start so those filters are more likely to let them through.\n\nYou can use it in VPN mode, where Android passes all traffic (or only the apps you pick) through it, or in proxy mode, where it only offers a local proxy for other apps. Settings are saved as named lists called strategies, which you can edit, pin, switch between, import and export. A built-in test (marked beta) tries ready-made strategies on a list of websites and shows which seem to work, though a pass is no guarantee. It can also start on boot, add a quick settings tile and let you pick the DNS server. It has improved Android TV and TV box support, though some boxes need extra setup, explained in the developer's guide.\n\nIt is not a VPN service. It uses Android's VPN mode only to pass traffic to itself, and the developer says it does not send your data to a remote server, encrypt your traffic or hide your IP address, so do not rely on it for privacy. In VPN mode, site names are still looked up through a DNS server, Cloudflare's unless you choose another. It only helps against this kind of filtering, not blocks placed on a site's address or networks that allow only a short list of sites, and each network may need its own settings. It needs Android 5.0 or newer, and no root or account. The interface is in Russian, English, Turkish, Kazakh and Vietnamese, and may start in Russian if your phone uses another language. The guide has English pages.",
+  "repo": "https://github.com/romanvht/ByeByeDPI",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://byebyedpi.xyz",
+  "tags": [
+    "anti-censorship",
+    "dpi",
+    "bypass blocks",
+    "proxy",
+    "split tunneling",
+    "android tv",
+    "unblock sites",
+    "socks5"
+  ],
+  "added": "2026-10-20"
+}

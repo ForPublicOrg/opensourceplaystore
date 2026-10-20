@@ -1,0 +1,23 @@
+{
+  "id": "aabrowser",
+  "name": "AABrowser",
+  "tagline": "Browse the web on your car's Android Auto screen while parked",
+  "description": "AABrowser is a web browser made for the screen of a car that uses Android Auto, the system that shows phone apps on a car display. You install it on your phone, and it appears on the car screen so you can open websites and watch video on the dashboard. The developer made it for passengers or for when the car is parked, and asks drivers not to look at it while driving.\n\nThere is a start page with up to six quick-link tiles that you can drag into the order you like, with an optional background picture of your own. You can open several tabs, save bookmarks, switch between the mobile and desktop version of a site, and make everything bigger or smaller. Themes are light, dark or automatic, and full screen is one tap away. You can also choose the identity the browser gives to websites (Chrome, Safari, Firefox, Edge, Samsung Internet or one you type in). Websites must ask before using your microphone or location, and the settings let you clear cookies and saved permissions.\n\nYou need a phone with Android 15 or newer. To make it appear on the car screen, you first unlock the hidden developer settings in the Android Auto settings on your phone (tap the Version entry ten times) and switch on Unknown sources, which lets Android Auto show apps not installed from Google Play. It does not block ads. When it opens, it sends a small anonymous message to the developer's own statistics server, saying only that the app was opened and which version it is, with a random ID instead of your name or device. There is no setting to turn this off, and the developer says it cannot show which sites you visit. The start page has a banner for the developer's other app, which you can hide. The interface is in English.",
+  "repo": "https://github.com/kododake/AABrowser",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "android auto",
+    "car",
+    "browser",
+    "web",
+    "head unit",
+    "dashboard",
+    "parked",
+    "tabs"
+  ],
+  "added": "2026-10-20"
+}

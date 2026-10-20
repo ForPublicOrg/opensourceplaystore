@@ -1,0 +1,23 @@
+{
+  "id": "superx",
+  "name": "SuperX",
+  "tagline": "Save web videos and live streams to watch offline",
+  "description": "SuperX is a video and audio downloader with a web browser built in. You browse to a page, and when the app spots a video or audio stream it lets you save it to your phone, so you can watch or listen later with no connection. Its code repository is named Super Video Downloader, so you may see that name too.\n\nIt can save plain video files and the streamed kinds many sites use (HLS and DASH, which send a video as many small pieces), and it can record live streams and live radio as they happen. For many popular sites it uses yt-dlp, an open-source download tool. Downloads run in the background in a queue, and you can play them in the built-in player. The browser keeps history and bookmarks, and it can use your cookies to reach videos that sit behind a login you already have. An ad blocker is built in, and you can add or update its filter lists. For privacy you can send traffic through a chain of HTTP or SOCKS proxies and choose encrypted DNS (DNS-over-HTTPS or DNS-over-TLS).\n\nIt needs Android 7.0 or newer and an internet connection. It works with websites run by other companies, such as YouTube, Facebook and Instagram, and what those sites allow can change, so a download that works today may stop working later. Spotting a video is not instant: press play on the page and wait, which the app's guide says can take 5 to 50 seconds, and some sites may not work. The developer says the app was made for research and learning and takes no responsibility for illegal use, so only save things you have the right to keep. The project says it has no ads and no trackers; the ad blocker lists are downloaded from the internet. The interface is in English, with translations such as Arabic, French, Japanese, Korean, Russian and Chinese.",
+  "repo": "https://github.com/alexch33/super-video-downloader",
+  "category": "internet",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "video downloader",
+    "super video downloader",
+    "m3u8",
+    "live stream",
+    "yt-dlp",
+    "ad blocker",
+    "proxy",
+    "browser"
+  ],
+  "added": "2026-10-20"
+}

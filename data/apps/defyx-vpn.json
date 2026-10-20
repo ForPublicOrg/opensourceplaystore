@@ -1,0 +1,26 @@
+{
+  "id": "defyx-vpn",
+  "name": "Defyx VPN",
+  "tagline": "A free VPN for getting online on blocked or filtered networks",
+  "description": "Defyx VPN is a free VPN app made for people on networks that block or filter parts of the internet. You tap one button to connect, and the app tries to work out by itself how to get through, so there is nothing to set up by hand. It can also run a speed test that reports download and upload speed, ping, jitter and packet loss.\n\nUnderneath, it can try several connection methods and switch when one stops working. The project names Warp (Cloudflare's service), Psiphon, Xray and Outline, which are existing tools for getting past blocks, plus some methods of its own. In the settings you can switch methods on or off and drag them into your preferred order. It can also be used on Android TV, and a small dinosaur jumping game appears when the app finds no internet.\n\nSome things to know first. Only the app itself is open source, under the MIT licence. The connection engine inside it, called DXcore, is a closed-source file from the same developers, who say they keep it private so that censors cannot study and block it, so the full app cannot be rebuilt from the public code. The app relies on the developers' own servers: the list of connection methods, some ads and update notices come from them, and they can require you to update before it will work. It can show ads and may ask for your consent to personalise them, and by default it sends usage statistics and crash reports to Google's Firebase. An optional paid extra, called Priority access on the project's website, adds capacity for a limited time, amount of data and number of devices, and signing in is only needed for that. Results depend on how hard your network blocks traffic. You need Android 8.0 or newer. The interface is in English, Persian, Russian and Chinese.",
+  "repo": "https://github.com/UnboundTechCo/defyxVPN",
+  "category": "security",
+  "license": "MIT",
+  "website": "https://defyxvpn.com",
+  "antiFeatures": [
+    "ads",
+    "tracking",
+    "nonfree-network"
+  ],
+  "tags": [
+    "vpn",
+    "censorship",
+    "unblock",
+    "bypass blocks",
+    "privacy",
+    "warp",
+    "psiphon",
+    "android tv"
+  ],
+  "added": "2026-10-20"
+}

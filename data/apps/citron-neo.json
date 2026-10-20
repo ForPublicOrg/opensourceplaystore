@@ -1,0 +1,21 @@
+{
+  "id": "citron-neo",
+  "name": "Citron Neo",
+  "tagline": "Run your own Nintendo Switch games on an Android phone",
+  "description": "Citron Neo is a Nintendo Switch emulator for Android: a program that lets your phone run games made for a different kind of device. It carries on the code of Citron, which grew out of the yuzu emulator. The same project has Windows, Linux and macOS versions.\n\nPoint it at your games folder and it lists them, with search and filters such as recently played. It can install game updates and add-on content (DLC), turn mods and cheats on and off, and import or export your save data. Graphics settings cover the resolution for handheld and docked modes and a shader cache (saved graphics work that cuts stutter), and on phones that allow it you can load alternative graphics drivers. You can play with an on-screen overlay or map a connected gamepad, with controller types such as Pro Controller and Joy-Cons. Amiibo figures can be loaded from files or read with NFC, and a multiplayer screen lets you host a room or join one by its address.\n\nNo games, keys or firmware are included. You need your own game files, a key file called prod.keys that people copy from their own Switch, and for some games the console firmware as a zip file. It needs a 64-bit ARM phone or tablet with Vulkan 1.1 graphics and installs from Android 11, though the project's website lists Android 13 or newer and 6 GB of memory as its minimum. It asks for permission to see all files on your storage. In March 2026 the developers wrote that Android support might not continue, as nobody on the team much wants to maintain it, and that they favour improving games that already work over making every game work. The interface is in English with translations into more than twenty languages, some only partly finished, including German, Spanish, French, Japanese and Korean. Telemetry (usage reporting) is switched off in the Android build, and its code has no analytics tools.",
+  "repo": "https://github.com/citron-neo/emulator",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://citron-neo.org",
+  "tags": [
+    "nintendo switch",
+    "emulator",
+    "yuzu",
+    "vulkan",
+    "gamepad",
+    "amiibo",
+    "multiplayer",
+    "game console"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lawnchair",
+  "name": "Lawnchair",
+  "tagline": "A customisable home screen with Pixel Launcher features",
+  "description": "Lawnchair is a home screen app, also called a launcher: the app that draws the screen with your icons, widgets and search when you press the home button. It starts from Launcher3, the home screen app that Android itself ships with, adds features from the Pixel phone home screen, and gives you many settings for changing how it looks and behaves. It does not need root.\n\nYou can change icon sizes, labels, rows and columns, use icon packs (separate apps you install), pick fonts and choose colours. Theming can follow your wallpaper and system colours (Material You). An At a Glance widget shows information on the home screen and works with Smartspacer, a separate app. App drawer search can look through your apps, contacts and the web, and the drawer can be organised into folders. You can also restore a backup from Nova Launcher, which brings across your icon grid, widgets, folders and icon pack.\n\nIts recent GitHub releases are all betas or nightly test builds. The latest beta is Lawnchair 15 Beta 3. The project says to use betas at your own risk, though its guide calls the GitHub beta generally stable for daily use. Lawnchair 16 is still in development, and its nightly builds can be slower and have more bugs, so make a backup before trying one. You need Android 8 or newer. Support for the recent apps screen (QuickSwitch) works only on a rooted phone, and the optional Google feed page, a news page from Google, needs a separate helper app called Lawnfeed on beta builds. By default, web suggestions in app drawer search come from Google as you type; you can pick another provider or turn them off. Searching contacts needs the contacts permission. The Google Play version installs as a separate app and may have some features limited. Contributors have translated the interface into many languages.",
+  "repo": "https://github.com/LawnchairLauncher/lawnchair",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "website": "https://lawnchair.app",
+  "status": "testing",
+  "tags": [
+    "launcher",
+    "home screen",
+    "pixel launcher",
+    "icon packs",
+    "widgets",
+    "theme",
+    "customize",
+    "material you"
+  ],
+  "added": "2026-10-20"
+}

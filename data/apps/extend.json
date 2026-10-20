@@ -1,0 +1,20 @@
+{
+  "id": "extend",
+  "name": "Extend",
+  "tagline": "Use a TV or monitor as a second screen for your phone's apps",
+  "description": "Extend is a display manager for Android. It lets you use a monitor, a TV or another screen connected to your phone as a second display: you choose an app on the phone and open it full screen on the other display. It builds on the desktop features already inside Android, and the project says that, with a supported launcher, it can stand in for Samsung DeX and Motorola's Smart Connect desktop.\n\nYou can set the resolution, scaling, DPI (how big things look) and rotation of each display separately, and reset them to the system defaults. To control the other screen there is a built-in touchpad with multi-touch, an on-screen keyboard, and support for a touchscreen or any external input device. You can send each input device to a chosen display, get Back and Home navigation, and turn off the phone's own screen while the external one keeps running. A separate app from the same developer, Mirror, can add virtual displays for AirPlay, DisplayLink and Moonlight or Sunshine streaming.\n\nYou need Android 8.0 or newer (some options need more) and an external display, connected by USB-C DisplayPort, Miracast, Google Cast, Samsung Smart View or a screen-sharing app. Most display settings, such as resolution, DPI, rotation and turning off the built-in screen, also need Shizuku, a helper app that lets other apps use extra system permissions, started with wireless debugging, USB debugging or root. Using Extend without Shizuku is possible, but the developer says that is outside the scope of support. An accessibility service is optional and asks for your consent first. It lets the app draw the cursor and read window details so your input reaches the right screen, and the app says this stays on the device. It asks for no internet permission. The interface is in English only, and version numbers are still 0.0.x.",
+  "repo": "https://github.com/jqssun/android-display-extend",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "external display",
+    "second screen",
+    "desktop mode",
+    "touchpad",
+    "display manager",
+    "dpi",
+    "shizuku",
+    "monitor"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "offline-voice-input",
+  "name": "Offline Voice Input",
+  "tagline": "Speech to text in any app, with no internet needed",
+  "description": "Offline Voice Input turns your speech into typed text without sending your voice anywhere. The recognising is done on the phone itself, so it works in aeroplane mode, and the app asks for no internet permission at all. It registers itself as the phone's speech-to-text provider, so the microphone button on a compatible keyboard, or in a website's voice search, can use it, and your words are typed into whatever text field you are in.\n\nBesides voice typing, it has its own voice keyboard that you switch to and tap to record, live subtitles that caption any sound or video playing on the phone, and a way to turn a shared audio file into text. It has settings to stop listening by itself after a silence and to pause music or video while you speak. The built-in speech model, NVIDIA's Parakeet, understands 25 European languages, including English, French, German, Spanish and Russian. You can also import other models that you download yourself, such as Whisper models, and some of those can translate speech into English.\n\nThe standard download is nearly half a gigabyte because the speech model is packed inside it. A much smaller build without the model is also offered, but on first start it shows you how to download a model in your browser and import it, and the recommended one is about the same size. You need Android 8 or newer and a fairly recent 64-bit ARM processor (roughly 2018 or newer); older ones are not supported. Live subtitles need Android 10 or newer and permission to display over other apps, and Android asks you to approve screen sharing each time you start them. Not every keyboard works with it: Gboard only uses Google's own voice typing, so with that one use the included voice keyboard instead. The interface is in English, with German, French, Spanish, Italian, Portuguese and Russian translations.",
+  "repo": "https://github.com/notune/android_transcribe_app",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "speech to text",
+    "voice typing",
+    "offline",
+    "dictation",
+    "keyboard",
+    "subtitles",
+    "transcription",
+    "whisper"
+  ],
+  "added": "2026-10-20"
+}

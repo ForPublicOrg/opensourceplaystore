@@ -1,0 +1,21 @@
+{
+  "id": "micyou",
+  "name": "MicYou",
+  "tagline": "Turn your phone into a microphone for your computer, over Wi-Fi or USB",
+  "description": "MicYou turns your Android phone into a microphone for your computer. The phone picks up your voice and sends it to a MicYou program on the computer, which passes it on to your calls, games, streaming and recording apps as if it were an ordinary microphone.\n\nYou can connect over Wi-Fi on the same network, or with a USB cable for steadier timing. The computer side runs on Windows, Linux and macOS, as a normal window, a command-line version or a text dashboard. It can tidy up the sound before it reaches your apps, with noise suppression, echo cancellation, an equaliser, automatic volume levelling and voice detection, and it shows live figures such as delay and lost audio data. You can mute the stream or listen to it from the computer. The phone app has light and dark themes that can use your phone's accent colour, and a quick settings tile. If you would rather install nothing on the phone, a web mode lets you scan a QR code with the phone's browser instead.\n\nThe phone app does nothing without the MicYou desktop program, which you download separately from the same releases page. On Windows you also need a virtual audio driver called VB-CABLE, and on macOS one called BlackHole, so that other apps can see the microphone. Linux needs PipeWire, the sound system most current Linux versions already use, and no extra driver. USB mode needs ADB (Android's debugging tool) on the computer and USB debugging switched on in your phone's developer options. For Wi-Fi mode, both devices must be on the same network, and the computer's firewall may need to let MicYou through. The app needs Android 7.0 or newer and asks for microphone permission. It checks GitHub for new versions when it opens, which you can switch off in settings. The phone app is available in English, Simplified Chinese, Traditional Chinese and Cantonese.",
+  "repo": "https://github.com/MicYou-Dev/MicYou",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://micyou.top",
+  "tags": [
+    "microphone",
+    "wireless mic",
+    "pc microphone",
+    "virtual microphone",
+    "wi-fi",
+    "usb",
+    "voice chat",
+    "noise suppression"
+  ],
+  "added": "2026-10-20"
+}

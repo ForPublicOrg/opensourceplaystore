@@ -1,0 +1,24 @@
+{
+  "id": "shadowsocks",
+  "name": "Shadowsocks",
+  "tagline": "Send your phone's internet through a Shadowsocks proxy server",
+  "description": "Shadowsocks is the Android app from the Shadowsocks project. It connects your phone to a Shadowsocks server, a proxy that passes your internet traffic along for you. Your traffic travels to that server in encrypted form and goes out onto the internet from there. The project's website calls it a tunnel proxy that helps you bypass firewalls, the filters some networks use to block sites.\n\nYou add a server by scanning its QR code, importing a link from the clipboard or a file, or typing in its address, port, password and encryption method. You can keep several profiles. A subscription feature fetches a list of servers from a web address and refreshes it when you ask. In the default VPN mode, the app uses Android's VPN feature to carry your phone's traffic. You can instead run it as a local proxy that other apps are pointed at, choose which apps use the tunnel, and pick routes such as everything, everything except local network addresses, or everything except mainland China addresses. You can add your own rules and use plugins, add-on apps that change how the connection is carried. There is a Check Connectivity test, a Quick Settings tile, an auto connect option, support for the automation app Tasker, and a separate app for Android TV.\n\nIt is only a client with no servers of its own, so you need your own Shadowsocks server or details from someone who runs one, and the settings suit people comfortable with terms like port and encryption method. It needs Android 6.0 or newer. The interface is in English, with translations including Arabic, German, Spanish, Persian, French, Japanese, Korean, Russian, Turkish, Ukrainian and Chinese. The newest release on GitHub is labelled a nightly build. The app includes Google's Firebase analytics and crash reporting, switched on by default, and its privacy policy says error reports can include your device's IP address and the app's configuration.",
+  "repo": "https://github.com/shadowsocks/shadowsocks-android",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://shadowsocks.org",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "proxy",
+    "vpn",
+    "censorship",
+    "firewall",
+    "tunnel",
+    "socks5",
+    "qr code",
+    "android tv"
+  ],
+  "added": "2026-10-20"
+}

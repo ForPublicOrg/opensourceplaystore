@@ -1,0 +1,21 @@
+{
+  "id": "cannoli",
+  "name": "Cannoli",
+  "tagline": "Play retro console games with a simple, button-driven menu",
+  "description": "Cannoli is a retro gaming setup for Android: a simple menu for classic console and handheld games. Emulator engines (called libretro cores) are built in, so you can play many older systems, such as the NES, Super Nintendo, Game Boy Advance, Sega Genesis and the first PlayStation, without installing anything else. For other systems it can hand a game to RetroArch or a separate emulator app. Its plain look is inspired by MinUI, a minimal menu for retro handhelds.\n\nGames sit in plain lists with box art. You can mark favourites, group games into collections and search the whole library. Games run by the built-in cores get an in-game menu with save states (ten slots plus an automatic one), cheat files, screen filters such as a CRT look, and a viewer for guides and manuals. Nonna's Kitchen, a built-in file server, lets you send games, box art and saves to the device from a web browser on the same Wi-Fi, with a PIN shown on screen unless you switch that off. Optional extras are RetroAchievements (game achievements, free account needed) and RomM, a game library you host yourself.\n\nCannoli comes with no games: you bring your own game files, plus BIOS files (a console's startup software) for some systems. The Nintendo Switch and 3DS need a separate emulator app and encryption keys. It needs Android 9 or newer, about 600 MB of free space to install or update, and permission to manage all files. The app ignores screen touches, so you steer with a game controller or a handheld's built-in buttons. The interface is in English, with community translations including Chinese, French, German, Greek, Italian, Japanese, Portuguese, Spanish and Ukrainian. It checks the developer's server for updates and can install them itself. Its own code is under the GPL, but three built-in cores, such as Snes9x, are licensed for non-commercial use only, so it is not entirely open source.",
+  "repo": "https://github.com/CannoliHQ/cannoli",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://cannoli.dev",
+  "tags": [
+    "retro gaming",
+    "emulator",
+    "launcher",
+    "libretro",
+    "retroarch",
+    "handheld",
+    "android tv",
+    "frontend"
+  ],
+  "added": "2026-10-20"
+}

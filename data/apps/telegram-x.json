@@ -1,0 +1,23 @@
+{
+  "id": "telegram-x",
+  "name": "Telegram X",
+  "tagline": "Chat and call on Telegram with an alternative Android app",
+  "description": "Telegram X is an alternative Android app for the Telegram messenger. You sign in with your Telegram account and use it to chat one to one, talk in groups, follow channels, send photos, videos and files, and make calls. It is written separately from the main Telegram app, though the project calls it the official alternative client, and it is built on TDLib, Telegram's toolkit for making apps.\n\nSecret Chats are for private one to one conversations: the app describes them as end-to-end encrypted, with a self-destruct timer and no forwarding. You can schedule messages to send later, and group video chats, live streams and bots are supported. You can lock the app with a PIN, password, pattern, gesture or fingerprint, pick from several colour themes including dark ones, make and export your own, and connect through a proxy (a middle-man server) if Telegram is blocked where you live. The app can show the exact source code behind your installed version, and the project explains how to rebuild an APK and check that it matches the published one.\n\nBefore installing: you need a Telegram account, which means a phone number. The Telegram service behind the app is closed and run by Telegram, and ordinary chats are kept on its servers. Telegram Premium cannot be bought inside this app. Notifications come through Google Play Services, and the app warns they may arrive late or not at all without it. The interface is in English, with other languages downloaded from Telegram's translation platform once you are connected. The project calls it an experimental client, though it has regular releases. The project supports Android 4.1 and newer, and the releases page has several APK files for different Android versions, so pick the one for your phone: legacy is for Android 4, lollipop for Android 5 and marshmallow for Android 6. Calls are left out of the Android 4 build.",
+  "repo": "https://github.com/TGX-Android/Telegram-X",
+  "category": "social",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "telegram",
+    "messenger",
+    "chat",
+    "calls",
+    "groups",
+    "channels",
+    "secret chats",
+    "proxy"
+  ],
+  "added": "2026-10-20"
+}

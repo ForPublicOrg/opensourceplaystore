@@ -1,0 +1,20 @@
+{
+  "id": "pepomote",
+  "name": "PepoMote",
+  "tagline": "Turn your phone into a motion controller for game emulators",
+  "description": "PepoMote turns your phone into a game controller for emulators, which are programs that run games made for other consoles on a computer or another phone. You aim the phone at the screen to point, swing it for motion games, and use on-screen buttons and sticks for everything else. The emulators and the games are not included, so you bring your own.\n\nIt has a pointer mode that moves the cursor on your computer, and modes for several emulators. For Dolphin it becomes a virtual Wii Remote, with an optional Nunchuk on the same phone or on a second one. For Cemu it becomes a Wii U GamePad, showing the GamePad's second screen on the phone, touch included. For Eden, a Switch emulator, it becomes a Pro Controller, and for RetroArch it becomes the pad of whichever console is loaded, or a light gun. Up to four phones can join the same game, a universal mode makes a Windows or Linux PC see an ordinary Xbox 360 controller, and the phone can rumble along with the game. You pair once by scanning a QR code.\n\nIt needs Android 8.0 or newer, and most modes need a computer running the free PepoMote receiver app (Windows, Linux or Mac, where the Mac version is still beta). Only Dolphin, Eden and RetroArch can use a second Android phone running the emulator instead, with this same app. A gyroscope gives the best aim, but phones without one can point by tilting. The camera is used only to scan the pairing code. Control messages are not encrypted, so use it only on a network you trust. It checks GitHub for new versions and can install them when you agree, and you can switch the check off in Settings. The app is in English and Spanish, but most setup guides are in Spanish. It is an independent project, not connected to Nintendo.",
+  "repo": "https://github.com/PepoTechYT/PepoMote",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": [
+    "controller",
+    "gamepad",
+    "wii remote",
+    "motion controls",
+    "emulator",
+    "dolphin",
+    "cemu",
+    "retroarch"
+  ],
+  "added": "2026-10-20"
+}

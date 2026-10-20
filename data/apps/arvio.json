@@ -1,0 +1,24 @@
+{
+  "id": "arvio",
+  "name": "ARVIO",
+  "tagline": "Browse and play your own media sources on TV, phone and tablet",
+  "description": "ARVIO is a media hub for Android TV, Fire TV, phones and tablets. It gives you one tidy place to browse films and series, with posters, cast lists and details from TMDB (a public movie and TV information website), and to play titles from sources that you set up yourself. It ships with no films, shows or channels of its own.\n\nSources include Stremio-compatible addons (small plug-ins that tell the app where to find a title), IPTV playlists (lists of live TV channels) with a TV guide and favourite channels, and your own Jellyfin, Emby or Plex server. Each person can have a profile with an optional PIN, their own watchlist and a continue-watching row. You can connect Trakt, SIMKL or MDBList, online services for lists and watch history, and a release calendar shows upcoming films and episodes. You can pick subtitle and audio tracks while you watch.\n\nIt has nothing to play until you add your own sources, so you need addons, a playlist or a home server of your own, and you should only use content you are allowed to watch. It needs Android 6.0 or newer. A free ARVIO Cloud account is optional; it syncs your profiles, settings, source details and watch progress between devices and keeps them, with your email address, on the developer's cloud service. Crash reports go to Google's Firebase Crashlytics by default, with a switch in Settings to turn them off, and usage statistics are sent only if you turn them on. Optional subtitle translation needs your own Groq or Gemini key. ARVIO is not endorsed by TMDB or the other services it connects to. The interface is in English and many other languages, including German, Spanish, French and Japanese. The developer says it was built with a lot of help from AI tools. A separate web version has an optional paid membership, but the Android app has no paywall.",
+  "repo": "https://github.com/ProdigyV21/ARVIO",
+  "category": "media",
+  "license": "Apache-2.0",
+  "website": "https://arvio.tv",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "media hub",
+    "android tv",
+    "fire tv",
+    "iptv",
+    "live tv",
+    "stremio",
+    "jellyfin",
+    "plex"
+  ],
+  "added": "2026-10-20"
+}

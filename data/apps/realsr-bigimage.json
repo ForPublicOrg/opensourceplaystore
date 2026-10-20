@@ -1,0 +1,20 @@
+{
+  "id": "realsr-bigimage",
+  "name": "RealSR BigImage",
+  "tagline": "Make small or blurry photos bigger and sharper on your phone",
+  "description": "RealSR BigImage makes small or blurry pictures bigger and cleaner. It uses upscaling models, programs trained on many pictures to fill in the missing detail, and the work happens on your phone, so your pictures are not sent to a server. The app asks for no internet permission, and its README says it collects no private information. On GitHub the project is called RealSR-NCNN-Android.\n\nYou pick a picture in the app, or share one to it from your gallery, choose a model and press Run. The result is shown first, and you press Save if you like it. Ready-made choices include Real-ESRGAN (with anime versions), RealSR, Real-CUGAN and Anime4K, plus classic resizing such as nearest, bilinear and bicubic, and ImageMagick filters. You can save as PNG, WebP, GIF, HEIF or JPEG, process a whole folder, and add more models by copying them into a folder on your phone. A box for typing commands is there for finer control, and the app warns that anything typed there runs directly.\n\nThings to know first: the app is built for 64-bit ARM phones only and needs Android 7.0 or newer. It normally works through the phone's graphics chip using Vulkan, which not every phone supports, and upscaling can be slow, especially with large pictures or on older phones. If you get a black result, the developer suggests a smaller tile size in the settings, so the picture is handled in smaller pieces, and there is also a setting to use the processor instead. Waifu2x can be used, but the app does not come with its models, so you must add them yourself. Batch work is basic: several pictures can be chosen at once, but only one is previewed, results save straight to your album, and an animated GIF has to be done on its own. There is no account, and the menus are in English and Chinese.",
+  "repo": "https://github.com/tumuyan/RealSR-NCNN-Android",
+  "category": "media",
+  "license": "MIT",
+  "tags": [
+    "upscale",
+    "super resolution",
+    "enlarge photos",
+    "real-esrgan",
+    "waifu2x",
+    "anime",
+    "ncnn",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

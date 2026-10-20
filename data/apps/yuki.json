@@ -1,0 +1,21 @@
+{
+  "id": "yuki",
+  "name": "Yuki",
+  "tagline": "Browse and install apps that work with Shizuku",
+  "description": "Yuki is an app store for open-source Android apps that work with Shizuku, a helper app that lets other apps use extra system permissions without root. You browse a catalogue, read about each app and install it from inside Yuki, instead of hunting through GitHub yourself. A program scans public GitHub projects for signs of Shizuku support and lists the ones that publish an installable app file (an APK).\n\nThe Explore tab shows featured, new and recently updated apps, and Search can sort by newest, last updated, rating or name. Each app page has screenshots, past versions, links to the source code, author, homepage and licence, and ratings and reviews from other people. You can open an app in Obtainium, another app updater. Your Library lists what you have installed, and Yuki can check for updates in the background and send a notification, with an option to include beta versions. There are light and dark themes, and colours that can follow your wallpaper.\n\nYou need Android 8.0 or newer and an internet connection. The catalogue, ratings and reviews come from the project's own website, so if that site is down or blocked by a private DNS, ad blocker or VPN, Yuki cannot load listings. Shizuku is optional for Yuki itself: with it running and allowed, apps install without a prompt; without it, you allow Yuki to install unknown apps and Android asks you to confirm every install. An account (email and password, or GitHub) is only needed to sync your library between devices and to write reviews, which are limited to people who have installed the app. Apps download from their developers' GitHub releases. Apps with clear Shizuku support are added automatically, and Yuki does not check them for safety, so look at what an app does before installing it. Yuki is a young project, and its interface is in English only.",
+  "repo": "https://github.com/carlelieser/yuki",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://yukistore.org",
+  "tags": [
+    "shizuku",
+    "appstore",
+    "installer",
+    "updates",
+    "github",
+    "catalogue",
+    "silent install",
+    "open-source"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "minis",
+  "name": "Minis",
+  "tagline": "An AI agent with its own Linux shell on your phone",
+  "description": "Minis is an AI agent that lives on your phone. You connect it to an AI service you already use, ask for things in plain words, and it works through the job on its own. It gets a small Linux computer of its own inside the app (a sandboxed Alpine Linux shell), so it can install extra software, run scripts and handle real files, and it can browse the web for you.\n\nThe agent keeps memories between chats and picks up new tasks from skills, which are folders of written instructions (skills made for Claude and similar agents generally work as they are). You can plug in MCP servers, a standard way to give an AI extra tools, and set tasks to run later or on a repeat. If you switch on its Accessibility Service, it can read and tap other apps. With Shizuku, a helper app that lets other apps use extra system permissions without root, it can also install apps and change settings.\n\nMinis comes with no chat AI of its own. You need your own key or sign-in for a service such as Claude, OpenAI, Gemini or OpenRouter, or the address of an OpenAI-compatible server (one you run yourself is fine), and the provider may charge you. Your messages and anything you let the agent use go to that provider, and the project says it runs no servers and collects no analytics. Some sign-in options, such as GitHub Copilot, are unofficial, and the app warns they may stop working or break the provider's rules. The newest Android releases are betas, and every release is for 64-bit ARM phones only. The project's website says you need Android 10 or newer. The app asks for many permissions, such as calendar, contacts, location, camera and file access, and its agent permissions start on always allow, so check them first. The interface is in English and over a dozen other languages.",
+  "repo": "https://github.com/OpenMinis/OpenMinis",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://openminis.app",
+  "status": "testing",
+  "tags": [
+    "ai",
+    "ai agent",
+    "assistant",
+    "llm",
+    "linux shell",
+    "automation",
+    "mcp",
+    "claude"
+  ],
+  "added": "2026-10-20"
+}

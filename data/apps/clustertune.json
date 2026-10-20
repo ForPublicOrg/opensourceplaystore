@@ -1,0 +1,20 @@
+{
+  "id": "clustertune",
+  "name": "ClusterTune",
+  "tagline": "Cap CPU and GPU speeds on gaming handhelds and rooted phones",
+  "description": "ClusterTune lets you set a top speed for the processor and the graphics chip on certain Android gaming handhelds and on rooted phones. Lower limits can mean less power use, less heat, a quieter fan and longer battery life. It only caps the clock speed: it does not lower the chip's voltage or replace the system's own speed controller.\n\nYou can set a separate maximum for each cluster (a group of processor cores) and for supported graphics chips. Settings are saved as profiles that you can create, reorder, import and export, and the app includes ready-made presets plus a Stock profile that puts the normal limits back. Profiles can switch on automatically for chosen apps, after boot, or while the device sleeps, and you can pick one from a Quick Settings tile or from a swipe in from the left edge over the app you are using. A history lists the automatic switches, and you can share it as a text file. There is also an experimental Auto Tune, off by default, where you choose a frame rate for a game and the app tries to lower the limits while still keeping up with it.\n\nYou need Android 12 or newer and one of two ways for the app to change the limits: root access (full control of the phone's system), or PServer, a service built into AYN and Retroid handhelds (the Odin 2 Mini must use root). Without one of them, nothing can be applied. Wrong limits can affect stability, heat and battery life, so start with tested values and use Stock to undo changes. The app asks to display over other apps and to show notifications, and it keeps a notification showing while its background features run. By default it checks GitHub for new versions about once a week, and you can turn that off in Settings. The interface is in English.",
+  "repo": "https://github.com/AurelioB/ClusterTune",
+  "category": "tools",
+  "license": "GPL-2.0",
+  "tags": [
+    "underclock",
+    "cpu",
+    "gpu",
+    "frequency",
+    "root",
+    "handheld",
+    "battery",
+    "performance"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "markor",
+  "name": "Markor",
+  "tagline": "Write notes and to-do lists in plain text files",
+  "description": "Markor is a text editor for writing notes and keeping to-do lists. It saves everything as ordinary text files in a folder you choose, so the same files open in almost any other text program on a phone or a computer. It works with simple writing styles such as Markdown (a way of making headings, bold text and links by typing a few symbols) and todo.txt (a plain list where each line is one task).\n\nYou can switch to a preview of a Markdown note and share it or save it as a web page or a PDF. The editor colours your text to show the formatting as you type, and has buttons for adding pictures, links and tick boxes. Besides Markdown and todo.txt it can edit Zim wiki pages, AsciiDoc, Org-mode, CSV tables and plain text, and show maths formulas once you switch that on in the settings. The main screen lets you swipe between a Notebook for browsing your files, a QuickNote for fast jotting and a To-Do list. Notes save by themselves, and it has undo, redo and a dark theme. You can encrypt a note with a password set in the settings (AES-256, on Android 6 or newer), though pictures and attachments stay unencrypted.\n\nMarkor works offline and has no ads. It does not sync notes by itself: to use them on several devices, point a separate sync app such as Syncthing or Nextcloud at the same folder. It asks to read and write files on your phone, because that is where your notes live, and on Android 11 or newer that means access to all files. Its internet permission is only for loading things a note refers to, such as an image at a web address. The developer states that no personal data is shared with them or anyone else. The interface comes in many languages, and you can choose one other than your phone's.",
+  "repo": "https://github.com/gsantner/markor",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "tags": [
+    "notes",
+    "markdown",
+    "todo.txt",
+    "to-do list",
+    "text editor",
+    "plain text",
+    "offline",
+    "writing"
+  ],
+  "added": "2026-10-20"
+}

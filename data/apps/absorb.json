@@ -1,0 +1,20 @@
+{
+  "id": "absorb",
+  "name": "Absorb",
+  "tagline": "Listen to audiobooks and podcasts from your Audiobookshelf server",
+  "description": "Absorb is an audiobook and podcast player for Audiobookshelf, a server you run yourself to keep your audiobooks and podcasts in one place. You sign in to your server from the app, then stream your library or download books to hear them offline. Instead of a separate player screen, the book you are listening to fills the screen as a card. It is not the official Audiobookshelf app.\n\nThere is a sleep timer that can start on a schedule and reset when you shake the phone, a playback speed remembered for each book (up to 5 times normal), a rewind that steps back after a pause, an equaliser, bookmarks, notes and chapter navigation. You can search and filter the library, keep playlists and collections, and sign in to more than one server. It works with Android Auto, a large-button car mode, home-screen widgets and Chromecast. It can also open ebooks and highlight the words as the narration plays.\n\nYou need a server of your own to use it, normally an Audiobookshelf one (there is early support for BookOrbit too). It asks for Android 7.0 or newer. The live transcript and the word highlighting can use a speech-recognition model that runs on your phone; you download it in the settings, and both use extra battery. The developer says the app collects no data and has no analytics or crash reporting, though it fetches ratings and book details from Audnexus and Audible's public catalogue, and the GitHub build checks GitHub for new versions. Pre-releases on GitHub are early alpha builds that change often, and the developer calls full releases beta or stable, so pick a full release for a steadier app. For Android Auto, the GitHub build needs unknown sources switched on in Android Auto's developer settings. The interface is in English, with community translations including German, French, Spanish and Japanese. The developer says a person writes it with help from an AI coding tool.",
+  "repo": "https://github.com/pounat/absorb",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "audiobook",
+    "audiobookshelf",
+    "podcast",
+    "self-hosted",
+    "ebook",
+    "android auto",
+    "sleep timer",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

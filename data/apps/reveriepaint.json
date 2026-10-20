@@ -1,0 +1,21 @@
+{
+  "id": "reveriepaint",
+  "name": "ReveriePaint",
+  "tagline": "Draw and paint on a tablet with Krita's brush engine and a stylus",
+  "description": "ReveriePaint is a painting and drawing app for Android, made mainly for tablets used with a pressure-sensitive stylus. It is built on the brush engine from Krita, a free painting program for computers, so its brushes work like Krita's. It is not made by the Krita team.\n\nIt comes with more than 240 brush presets and a brush workshop for tuning how a brush reacts to pressure, and you can import brush files you already have, including Krita and Photoshop brushes. Layers can be grouped, locked to their painted area, clipped to the layer below and mixed with over 20 blend modes. Symmetry and perspective guides are included. With a stylus you get a hover preview of the brush, and with your fingers you can pinch to zoom and rotate or tap with two fingers to undo. Every stroke is recorded, so you can play back a time-lapse of how a picture was made, and work is saved automatically. An animation canvas with a timeline can export GIF, MP4 or a PNG sequence, and pictures can be saved as PNG, JPEG, WebP, a layered Photoshop (PSD) file or a Krita project.\n\nThe project says you need Android 7.0 or newer, and the releases come in 64-bit and 32-bit ARM versions. It suits tablets with an active stylus, with extra support for pens from Huawei, Honor, OPPO, vivo, Xiaomi and Samsung. The interface is in English and Simplified Chinese, chosen in the settings, though Chinese is the default text, and the website and user guide are in Chinese. The app goes online to check GitHub for new versions when it starts (you can turn this off), to back up to a WebDAV file server of your own if you set one up, and to download an AI model if you try Shading Assist, a beta feature. It has no accounts, and its build lists no ad or analytics libraries.",
+  "repo": "https://github.com/LanRhyme/ReveriePaint",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://reveriepaint.lanrhyme.top",
+  "tags": [
+    "painting",
+    "drawing",
+    "krita",
+    "stylus",
+    "digital art",
+    "tablet",
+    "brushes",
+    "animation"
+  ],
+  "added": "2026-10-20"
+}

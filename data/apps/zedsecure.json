@@ -1,0 +1,20 @@
+{
+  "id": "zedsecure",
+  "name": "ZedSecure",
+  "tagline": "One VPN app with several ways to connect on blocked networks",
+  "description": "ZedSecure is a VPN and proxy app. A VPN or proxy sends your phone's internet traffic through another server, which can help when a network blocks some sites. This app carries several connection engines, so if one way of connecting is blocked, another is already installed: Xray and sing-box for common protocols such as VLESS, VMess and Shadowsocks, Psiphon and Tor for when nothing else connects, DNS tunnels for networks that let little through but DNS lookups, and WireGuard, AmneziaWG, OpenConnect and IKEv2 for servers you already run.\n\nYou add servers by pasting a share link or a subscription (a server list from a provider), importing config files or scanning a QR code. One tap tests every server and moves you to the fastest, and auto-select can switch servers if one drops. Engines can be chained, and per-app routing picks which apps use the tunnel. A Vault, marked experimental, shares a server as a file others can use without seeing its details; the project says this keeps them out of sight rather than secret. The interface is in English, Persian, Russian and Chinese.\n\nThe app gives you no server. Most engines need your own server, a subscription, or a share link someone sent you. Psiphon and Tor need none of those, but they use their own networks, which this project does not run. The optional SNI spoofing feature needs a rooted phone, and the optional AI assistant stays off until you add your own Gemini, Claude or ChatGPT key. You need Android 7 or newer. The app uses the camera for QR codes and reads your installed apps for per-app routing. The project says it has no analytics, crash reporting or ads, though optional features such as the speed test contact outside services. If you installed it from Google Play, the GitHub APK will not install over it because the signing keys differ, so export your servers, uninstall, then install.",
+  "repo": "https://github.com/CluvexStudio/ZedSecure",
+  "category": "security",
+  "license": "AGPL-3.0",
+  "tags": [
+    "vpn",
+    "proxy",
+    "censorship",
+    "v2ray",
+    "xray",
+    "tor",
+    "psiphon",
+    "wireguard"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mmrl",
+  "name": "MMRL",
+  "tagline": "Find, install and manage modules on your rooted phone",
+  "description": "MMRL is an app for managing modules on a rooted Android phone. A module is a small add-on for Magisk, KernelSU or APatch (tools that give you root, meaning full administrator control of your phone) that changes how the system looks or behaves. MMRL lets you browse online collections of modules, install them, and look after the ones already on your phone, all in one place.\n\nThe online collections are called repositories. One run by the app's developer is added when you first open the app, an Explore screen lists more from the project's website, and you can add your own. Module pages can show screenshots, covers, categories and a list of every file inside the module, so you can see what you are about to install. You can install several modules at once, from the internet or from files on your phone, and MMRL takes care of any other modules they depend on. Modules that have their own settings page can open it inside the app. A blacklist kept by the project warns you about modules that may be closed source or dangerous, and blocks installing them unless you turn those alerts off.\n\nTo manage modules you need a rooted phone running Magisk, KernelSU (including KernelSU Next), APatch or SukiSU Ultra. If you pick the non-root mode instead, the app is limited to downloading modules. It needs Android 8.0 or newer, and loading repositories needs an internet connection. Modules are made by many different people, so read about one before you install it. The project gives no rooting instructions and takes no responsibility for damage from rooting or from using the app. Each release has two builds: the normal one, and one given a random app name and app ID. The interface is in English, with translations including German, Spanish, French, Japanese, Russian and Chinese.",
+  "repo": "https://github.com/MMRLApp/MMRL",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://mmrl.dev",
+  "tags": [
+    "magisk",
+    "kernelsu",
+    "apatch",
+    "root",
+    "modules",
+    "module manager",
+    "repositories",
+    "sukisu"
+  ],
+  "added": "2026-10-20"
+}

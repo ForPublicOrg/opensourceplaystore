@@ -1,0 +1,20 @@
+{
+  "id": "gama",
+  "name": "GAMA",
+  "tagline": "Switch your phone's graphics between Vulkan and OpenGL",
+  "description": "GAMA, short for Graphics API Manager for Android, lets you choose which graphics system your phone uses to draw apps and menus on screen: Vulkan or OpenGL. You pick one with a single tap instead of typing commands into a terminal. The developer aims for lower temperatures and better battery life with Vulkan, though results differ from phone to phone.\n\nBesides the two main buttons, a Quick Settings tile flips between Vulkan and OpenGL, and Tasker (an automation app) can switch it too with a private token you copy from the app. Android clears the setting every time the phone restarts, so GAMA can re-apply your saved Vulkan choice after a reboot, though some phones block this and you may need to switch by hand. It also saves and restores its settings as a file, keeps a crash log screen, and lets you change the theme, colours and animations.\n\nTo change anything, GAMA needs Shizuku (a helper app that lets other apps run system commands without root) to be running, or a rooted phone, where it finds root by itself. It needs Android 10 or newer. It is tuned for the Samsung Galaxy S23 and Samsung's One UI, and the developer says it should suit any modern Android phone, but Vulkan can freeze the screen or turn it black on some devices; holding Volume Down and Power together forces a restart. To apply a change it has to briefly restart System UI, the part of Android that draws the status bar, so switching many times in a row can make One UI switch off your Good Lock add-ons. An optional Aggressive mode closes background apps and resets your default browser and keyboard; the developer advises against it, and it can stop Wi-Fi calling until you switch your SIM off and on again. The interface is in English, Brazilian Portuguese, Romanian and Vietnamese. GAMA asks for no internet permission.",
+  "repo": "https://github.com/palincat/gama",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "vulkan",
+    "opengl",
+    "gpu",
+    "graphics",
+    "shizuku",
+    "battery",
+    "samsung",
+    "tasker"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "savr",
+  "name": "Savr",
+  "tagline": "Save web links on your phone, with no account or cloud",
+  "description": "Savr is a small bookmark app for keeping web links on your phone. You paste in a link, or share one to Savr from any other app, and it fetches the page's title, short description and preview picture for you. Everything is stored on the phone itself, with no sign-up and no ads.\n\nYou can group bookmarks into collections, and collections can sit inside other collections. Pin the important ones to the top, search by title, link or description, and sort by date added or alphabetically. Show your bookmarks as cards or as a compact list, and choose what a single tap does: preview the page, open it in your browser or copy the link. When you copy a link in another app, Savr offers to save it and tells you if you already have it. Bookmarks can be exported and imported as JSON (a plain text data format) or HTML files, including bookmark exports from Chrome, Firefox and other browsers, and the app makes a daily backup copy in your Downloads folder. There are light, dark and pure black themes, and on Android 12 or newer the colours follow your wallpaper (Material You).\n\nYou need Android 9 or newer, and an internet connection for Savr to fetch the details of new links. There is no sync, so bookmarks on one phone do not appear on another unless you move a backup file across yourself. The developer says the app has no analytics, no trackers and no accounts, and that crash reports stay on your phone, where you can read or share them from the settings. The copy from GitHub does not update itself, so you download newer versions by hand. The interface is in English.",
+  "repo": "https://github.com/qeiq/Savr",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "tags": [
+    "bookmarks",
+    "links",
+    "collections",
+    "bookmark manager",
+    "import export",
+    "backup",
+    "material you",
+    "no account"
+  ],
+  "added": "2026-10-20"
+}

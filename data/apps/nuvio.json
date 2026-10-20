@@ -1,0 +1,25 @@
+{
+  "id": "nuvio",
+  "name": "Nuvio",
+  "tagline": "One library for movies and shows from sources you add",
+  "description": "Nuvio gathers your movies and shows into one library, with posters, ratings, subtitles and your place saved. It comes with no films or shows of its own. You bring the sources: addons in the format Stremio uses (Stremio is another media app), or your own Jellyfin or Emby server (software that streams a video collection you keep yourself).\n\nThe home screen shows rows of titles from the addons you install, and you can build your own rows and folders. The app remembers where you stopped and can alert you when a new episode of a saved show is out. It plays video in its own player, with subtitle choices, skip-intro buttons, picture-in-picture and touch gestures. You can also download titles to watch later or hand the video to another player app. Trakt, Simkl or MDBList can be linked to sync your watchlist and progress. There is also an experimental watch party, so friends can watch together in sync.\n\nYou need Android 7 or newer. What you can watch depends entirely on the sources you add, and you are responsible for following the rules where you live. The GitHub version also turns on plugins (small scripts that find streams) and lets you point sign-in and sync at a server you run. Torrent streaming is off until you switch it on, and the app warns you first that other people can then see your internet address. Links to TorBox and Premiumize are experimental and need your own account or API key. The project labels its releases beta. Signing in is optional and is needed only for syncing between devices and watch parties; it uses the project's own server unless you choose another. Crash reports go to Sentry, a crash-reporting service, and are on by default, with a switch in Settings to turn them off. The interface is in English and more than twenty other languages, some only partly translated.",
+  "repo": "https://github.com/NuvioMedia/NuvioMobile",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://nuvio.tv",
+  "status": "testing",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "stremio",
+    "addons",
+    "streaming",
+    "movies",
+    "tv shows",
+    "jellyfin",
+    "emby",
+    "trakt"
+  ],
+  "added": "2026-10-20"
+}

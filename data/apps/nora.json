@@ -1,0 +1,24 @@
+{
+  "id": "nora",
+  "name": "Nora",
+  "tagline": "Browse Reddit, X, Bluesky and other social sites without ads",
+  "description": "Nora is a web browser made for social networks. It opens Bluesky, Facebook, Instagram, LinkedIn, Reddit, Threads, TikTok, Tumblr, VK and X (Twitter) in tabs inside one app, and blocks ads on them. Instead of being a separate app for each network, it loads each service's normal website and adds its own tools on top.\n\nYou can stay signed in to several accounts at once, because each profile keeps its own cookies (the small files a website uses to remember you). Ads and trackers are blocked using the public EasyList and EasyPrivacy lists, and you can turn blocking off for a single site. Other tools let you save images and videos, select text, zoom, remove tracking bits from links, and restyle sites with your own CSS. An optional anonymous mode hides sign-in and open-in-app prompts, and you can search public posts through DuckDuckGo without an account. Double-tap translation, which you switch on in the settings, translates a post on your device. You can also set daily time limits protected by a PIN, route the app's web traffic through a proxy server you choose, and back up your settings and bookmarks to a file.\n\nNora relies on other companies' websites, which are closed services, and it is an independent project, not made by any of them. Ad blocking works by adding code to their pages, so a change on a site can break something until the app is updated. You sign in with your own accounts. Translation uses Google's ML Kit toolkit and downloads language data when it first needs it. Syncing bookmarks and settings between devices is optional and needs an account on the developer's own service plus a paid plan; everything else works without it. The downloads on GitHub are built for ARM phones and tablets. The interface is in English and more than twenty other languages, including German, French, Spanish and Korean.",
+  "repo": "https://github.com/nonbili/Nora",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://oss.nonbili.jp/nora",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "social media",
+    "browser",
+    "ad blocker",
+    "multiple accounts",
+    "reddit",
+    "instagram",
+    "facebook",
+    "twitter"
+  ],
+  "added": "2026-10-20"
+}

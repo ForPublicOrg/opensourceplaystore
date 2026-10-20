@@ -1,0 +1,24 @@
+{
+  "id": "shizustore",
+  "name": "ShizuStore",
+  "tagline": "Find and update apps that work with Shizuku",
+  "description": "ShizuStore is an app store for apps that use Shizuku, a helper app that lets other apps use extra system permissions without rooting the phone. It offers apps from a list the developer curates and downloads each one straight from its original source, such as GitHub, GitLab, F-Droid, IzzyDroid or Codeberg, so it never hosts copies itself.\n\nYou can browse by category, search, and sort the list in several ways, such as newest or recently updated. Each app page shows a description, the changelog, the permissions it asks for and screenshots where they exist, plus a warning if the app has ads or known tracking code. ShizuStore checks for updates on a schedule, from every 6 hours to weekly, and can install them automatically, optionally on Wi-Fi only. With Shizuku or root it installs quietly in the background; without either, it uses Android's normal install screen and you confirm each install. It can also save an APK to your Downloads folder without installing it, send an app to Obtainium or export your favourites for it, and run on Android TV.\n\nYou need Android 7 or newer. Shizuku is optional for the store itself, since it only adds silent installs, but the apps listed are made for Shizuku, so many of them will need it too. The app list comes from the developer's own catalogue server, so you need internet to refresh it, though Settings lets you point it at a different server. Entries without a direct download may only link to the Play Store or a web page. By default it sends an anonymous install report to that server on each install, and you can turn this off in Settings. The short notes on how apps use Shizuku are written with AI help and may miss things. The interface is in English plus many volunteer translations, including German, French, Spanish and Japanese, though some are incomplete.",
+  "repo": "https://github.com/timschneeb/ShizuStore",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://shizustore.com",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "shizuku",
+    "app store",
+    "updates",
+    "installer",
+    "apk",
+    "silent install",
+    "no root",
+    "android tv"
+  ],
+  "added": "2026-10-20"
+}

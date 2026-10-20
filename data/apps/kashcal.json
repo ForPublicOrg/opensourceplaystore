@@ -1,0 +1,21 @@
+{
+  "id": "kashcal",
+  "name": "KashCal",
+  "tagline": "See and edit iCloud, CalDAV and phone calendars in one app",
+  "description": "KashCal is a calendar app that brings all your calendars into one place on your phone. It can sync with iCloud, and with CalDAV servers (CalDAV is a standard way for services such as Nextcloud, Fastmail and Radicale to share calendars). It can also show and edit the events in your phone's built-in calendar, so anything from Google Calendar or Outlook that already syncs there appears too. If you do not want to sync at all, it works fully offline from the start.\n\nYou get views for month, agenda, day, 3-day, week and year, plus a Planner that fits the whole week on one screen. You can pinch to zoom the timeline and drag an event to move it. Typing a sentence such as coffee tomorrow 3pm adds an event with the date and time filled in. You can invite people, reply to invitations, follow web calendar feeds for holidays or school terms, and have birthdays and anniversaries built from your contacts, which it can also sync with a CardDAV server. There are home screen widgets, search across all events, a time zone for each event, light and dark themes, an optional app lock and screen reader support.\n\nKashCal needs Android 12 or newer. Syncing needs your own iCloud or CalDAV account, and iCloud needs an app-specific password (a separate password you create in your Apple account for one app). It asks for access to your calendars, contacts and notifications so it can do these jobs. The developer says it has no analytics, no telemetry and no KashCal account, and that it runs no servers of its own. The interface comes in more than 60 languages, which you can choose in Android settings.",
+  "repo": "https://github.com/KashCal/KashCal",
+  "category": "productivity",
+  "license": "Apache-2.0",
+  "website": "https://kashcal.onekash.org",
+  "tags": [
+    "calendar",
+    "caldav",
+    "icloud",
+    "nextcloud",
+    "sync",
+    "birthdays",
+    "widgets",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

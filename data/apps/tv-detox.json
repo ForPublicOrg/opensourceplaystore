@@ -1,0 +1,20 @@
+{
+  "id": "tv-detox",
+  "name": "TV Detox",
+  "tagline": "A calm, ad-free home screen for an old Android TV",
+  "description": "TV Detox is a simple home screen for Android TV and Google TV. Instead of the TV's own front page, full of ads and sponsored rows, it shows your own apps, your HDMI inputs (the sockets for game consoles and set-top boxes) and a clock. It has no ads and no account, and it does not ask for internet access. The project also has a guide and a helper script for choosing which pre-installed junk apps to turn off, not delete.\n\nOn the remote, hold OK on an app to move it, swap it, take it off the home screen or uninstall it (apps that came with the TV show app info instead). An Add app tile puts more on the page. A small icon beside the clock shows Wi-Fi, Ethernet or offline and opens the network settings, and Bluetooth, Sound and Picture shortcuts are optional. Labels follow the TV's language, with 16 built in, including Arabic, Chinese, French, German, Hindi and Japanese; other languages show English.\n\nSetting it up needs a computer, because it is installed with adb, a tool that lets a computer on your network control the TV. You switch on Developer options and debugging on the TV, then run the install script, or let an AI assistant such as Claude Code or Codex do the cleanup (separate products that may cost money; the script works without them). It needs Android 5 or newer and a remote, not a touchscreen (tested on Android TV 9, 11 and 12 and Google TV 14). On Google TV and Chromecast with Google TV the script leaves the TV's own home screen on, so the Home button may keep opening it: turning it off left some TVs stuck restarting, and one Chromecast needed a factory reset. Roku, Samsung and LG TVs are not supported, and Fire TV keeps Amazon's home screen. The developer says to use it at your own risk.",
+  "repo": "https://github.com/Ansub/tv-detox",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "android tv",
+    "google tv",
+    "home screen",
+    "launcher",
+    "debloat",
+    "no ads",
+    "hdmi",
+    "adb"
+  ],
+  "added": "2026-10-20"
+}

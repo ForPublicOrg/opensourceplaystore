@@ -1,0 +1,20 @@
+{
+  "id": "rex-player",
+  "name": "REX Player",
+  "tagline": "Play videos from your phone, network drives or a Jellyfin server",
+  "description": "REX Player is a video player for Android. It is built on libmpv, the playback engine of mpv (a free media player for computers), so it plays a wide range of video and audio files behind a modern touch interface. It used to be called mpvRex and grew out of mpvEx and mpv-android.\n\nYou browse the videos on your phone by folder, keep playlists and see what you have already watched. Swipe gestures change the volume, brightness and position, and you can pinch to zoom, use picture-in-picture, set a sleep timer and keep audio playing in the background. It remembers where you stopped, adjusts subtitles and can cut a clip out of a video. It also plays from SMB, WebDAV and FTP network drives, web addresses and a Jellyfin server (a free media server you run yourself). A Shorts mode turns the vertical videos on your phone into a swipe-through feed, and Web Share lets other devices on your Wi-Fi watch your videos in a browser or send files to your phone.\n\nIt needs Android 8.0 or newer. On Android 11 and up it asks for all files access to find videos and subtitles, which you can skip if you only stream. Network drives and Jellyfin need your own server or shared folder. Playing from websites goes through a separate companion app, REX Ytdlp, which you install yourself and which relies on yt-dlp, a tool that fetches video from many sites. Online subtitle search needs an API key from a third-party service. Web Share is open to anyone on your Wi-Fi unless you switch on its security token. By default it checks GitHub for new versions on start and can download updates; settings turn this off. It has no advertising or analytics libraries built in. The interface is in English, with translations including German, Spanish, Russian, Turkish, Hindi, Arabic and Chinese, and you can change language inside the app.",
+  "repo": "https://github.com/mpvRex/REX-Player",
+  "category": "media",
+  "license": "Apache-2.0",
+  "tags": [
+    "video player",
+    "mpv",
+    "subtitles",
+    "jellyfin",
+    "smb",
+    "webdav",
+    "ftp",
+    "network streaming"
+  ],
+  "added": "2026-10-20"
+}

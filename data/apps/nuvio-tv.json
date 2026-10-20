@@ -1,0 +1,24 @@
+{
+  "id": "nuvio-tv",
+  "name": "Nuvio TV",
+  "tagline": "Watch films and shows on your TV from add-ons you choose",
+  "description": "Nuvio TV is a media app made for Android TV. It shows a home screen of films and series with posters, descriptions and ratings, and plays what you pick on the big screen. It comes empty, with no films, shows or sources of its own. You install Stremio-style add-ons (the kind made for the Stremio app), small online services that list titles and say where they can be played, and Nuvio TV turns them into a tidy library.\n\nIt keeps a Continue Watching row, your own lists and your place in every episode. It shows trailers, finds subtitles through your add-ons, and can skip intros and play the next episode. Ratings come from services such as IMDb and TMDB, with more if you add your own MDBList key. You can pick between two video players, ExoPlayer and mpv (marked experimental). Watched history can sync with Trakt and Simkl, and an optional Nuvio account shares your library and add-ons between devices. A QR code lets you manage add-ons from your phone, and Essential mode keeps settings simple.\n\nNothing appears until you add an add-on, and what you can watch depends on add-ons other people make. It needs Android 7.0 or newer. If you switch on peer-to-peer (torrent) streams, your internet address becomes visible to other people sharing the file. Experimental links to cloud download services such as TorBox and Real-Debrid need your own account, and the GitHub version accepts plug-ins, small programs added from repositories you choose. Artwork, details and intro timings can come from outside services such as TMDB and IntroDB. The settings say crash reports are sent by default, without passwords or screenshots, and you can turn them off. The stable release is 1.0.0, but newer GitHub builds are beta, and the app lets you pick Stable or Beta updates. The interface has many translations, including French, Italian, Russian and Arabic, though some are only partly done.",
+  "repo": "https://github.com/NuvioMedia/NuvioTV",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://nuvio.tv",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "android tv",
+    "streaming",
+    "stremio",
+    "addons",
+    "movies",
+    "tv shows",
+    "media player",
+    "trakt"
+  ],
+  "added": "2026-10-20"
+}

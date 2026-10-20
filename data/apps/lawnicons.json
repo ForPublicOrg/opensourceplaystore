@@ -1,0 +1,20 @@
+{
+  "id": "lawnicons",
+  "name": "Lawnicons",
+  "tagline": "Simple one-colour outlined icons for your home screen",
+  "description": "Lawnicons is an icon pack: a set of replacement pictures for the apps on your home screen. The icons are plain outlined drawings in a single colour, so everything on your screen looks like it belongs together. It is free and made by the Lawnchair team together with contributors worldwide, and the project says it has no ads, no payments and no subscriptions.\n\nThe app does not change your icons by itself. You install it, then choose it as the icon pack in your launcher, the app that draws your home screen. It works with Lawnchair (the project points to Home Settings, General, Icon Style) and with most other launchers that support icon packs. The project calls the icons adaptive Material You icons, so where a launcher allows it they can change colour to match your phone's theme. Inside Lawnicons you can search the whole set, see which icons are new in each version, and tap an icon to see its name. If one of your apps has no icon yet, Request icons lets you pick it, then copy its app ID (the unique name Android gives every app), save or share a request file, or send it by email.\n\nYou need a launcher that supports icon packs, and Android 8.0 or newer. The app says icon requests open for a limited time with each new release. It asks for internet access to fetch small notices and request settings from the Lawnchair website, and the list of contributors from GitHub. Its code includes no analytics or advertising tools. It asks permission to show notifications so it can tell you if it crashes, and from that notification you can copy or share the crash log, or upload it to an online paste site, which happens only if you choose. The interface is in English with many translations, including German, French, Spanish, Hindi, Japanese, Korean, Russian and Chinese.",
+  "repo": "https://github.com/LawnchairLauncher/lawnicons",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "icon pack",
+    "icons",
+    "themed icons",
+    "monochrome",
+    "launcher",
+    "lawnchair",
+    "home screen",
+    "material you"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "armsx3",
+  "name": "ARMSX3",
+  "tagline": "Play your own PlayStation 3 games on a fast phone",
+  "description": "ARMSX3 is a PlayStation 3 emulator for Android. An emulator is a program that imitates another machine, so games made for the PS3 can run on your phone or tablet. It is an Android version of RPCS3, the PS3 emulator for computers, and it follows that project's latest code.\n\nYou add your games to a library and start them from there. You can play with on-screen touch controls or a game controller, including motion controls on pads that have them, and pause and resume with save states. Each game can keep its own settings. You can install patches, game updates and PKG files (the PS3's download packages), and use PS3 theme files as the library background. Custom graphics driver packs can be added for Adreno chips, and experimentally for Mali ones. Remote play lets a friend on the same Wi-Fi or online join your game as player 2, and they only receive a video stream, so they do not need the game.\n\nIt comes with no PS3 firmware (the console's system software) and no games, so you must supply your own. You need Android 11 or newer and a 64-bit ARM phone. The developer lists a Snapdragon 865 class chip with 8 GB of RAM as the minimum, meant for lighter games, recommends 12 GB and a newer chip, and says only the newest chips handle the most demanding games. The releases offer four APK files (legacy, a11, a13 and a15): pick the one for your Android version, or legacy if the others will not run. It goes online for optional extras such as release news, driver packs and game updates, and it can link to Discord, through Discord's own closed-source library, to show what you are playing. The GitHub build can ask for access to all files and download its own updates. The interface is in English, with 19 other languages that were translated by AI.",
+  "repo": "https://github.com/ARMSX2/ARMSX3",
+  "category": "games",
+  "license": "GPL-2.0",
+  "tags": [
+    "ps3",
+    "playstation 3",
+    "emulator",
+    "rpcs3",
+    "console games",
+    "controller",
+    "handheld",
+    "vulkan"
+  ],
+  "added": "2026-10-20"
+}

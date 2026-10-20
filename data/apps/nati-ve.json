@@ -1,0 +1,22 @@
+{
+  "id": "nati-ve",
+  "name": "nati.ve",
+  "tagline": "Your Nextcloud files, photos, calendar and notes in one app",
+  "description": "nati.ve is one app for your Nextcloud account. Nextcloud is software that keeps your files, photos and calendar on a server run by you or a hosting company. nati.ve signs in to that server and shows what is on it mostly in its own Android screens rather than in a web page. It is an independent project, not made or endorsed by Nextcloud.\n\nYou can browse files in a list or a grid, preview them, keep chosen ones available offline, edit text files and share them. You can browse photos and albums, back up camera photos and videos to your server, and read your Talk chat history (calls are not supported yet). There are also Markdown notes, a calendar, contacts, tasks and Deck card boards. Other Nextcloud apps on your server get general screens such as tables and forms, some of them mostly read only, so how much works depends on your server's apps. Android's share menu can send files into a Nextcloud folder, and your cloud files show up in Android's Files app. You approve the sign-in in your browser, and the app keeps its access key in the phone's secure storage.\n\nThis is alpha software. Every published build is a nightly test, so keep another copy of anything important. Photo backup only uploads and is still early, so keep your originals. You need an existing Nextcloud server and account, and Android 8.0 or newer. The app asks for photo and video access for backup, and offers optional all-files access for syncing other folders. A server without HTTPS needs a warning and your consent first. The app checks the project's update channel for new builds on its own (you can switch this off in Settings) and never downloads or installs one silently. A problem report goes to the developers only after you review it and choose to send it. The interface is in English only.",
+  "repo": "https://github.com/Obiente/native",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://nati.ve",
+  "status": "testing",
+  "tags": [
+    "nextcloud",
+    "cloud storage",
+    "files",
+    "photos",
+    "calendar",
+    "notes",
+    "photo backup",
+    "self-hosted"
+  ],
+  "added": "2026-10-20"
+}

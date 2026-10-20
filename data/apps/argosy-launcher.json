@@ -1,0 +1,20 @@
+{
+  "id": "argosy-launcher",
+  "name": "Argosy Launcher",
+  "tagline": "Browse and play your RomM game library on retro handhelds",
+  "description": "Argosy Launcher is a home screen and game library for handheld gaming devices such as Anbernic, Retroid Pocket and Odin consoles, and for Android TV boxes. It connects to RomM, a free, open-source program you run yourself to keep a collection of game files organised, and shows that collection with cover art, descriptions and genres. You steer it with a gamepad, though touch works too.\n\nFrom the app you can download games from your RomM server and start them. It has a built-in emulator (a program that plays old console games) made of downloadable engines called cores, and it can also launch around sixty separate emulator apps such as RetroArch, PPSSPP and DuckStation. Saves are synced with your server so you can carry on from another device. It can also show your RetroAchievements, group games into collections, keep track of play time, handle multi-disc games, and change themes, backgrounds and sounds. Optional links add your films and shows from a Jellyfin media server, and your Steam games through the GameNative app (still experimental).\n\nArgosy comes with no games and no BIOS files (system files some consoles need to start), so you must supply your own game collection. You also need a RomM server you can sign in to, because first-time setup asks for one and the project's guide says there is no local-only mode on a fresh install. It needs Android 8 or newer, with 11 or newer recommended, and asks for broad permissions such as access to all files, a list of your installed apps and usage access. The interface is in English, with German, Spanish, French, Hindi, Russian and Chinese translations. The project says it collects no analytics, but some optional parts contact other services: RetroAchievements, an Argosy online service for extra game details, cheat codes and social features (you link an account for these), the libretro site for core downloads, and GitHub for update checks.",
+  "repo": "https://github.com/rommapp/argosy-launcher",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": [
+    "romm",
+    "game launcher",
+    "emulator",
+    "retro games",
+    "handheld",
+    "gamepad",
+    "retroachievements",
+    "save sync"
+  ],
+  "added": "2026-10-20"
+}

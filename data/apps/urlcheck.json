@@ -1,0 +1,20 @@
+{
+  "id": "urlcheck",
+  "name": "URLCheck",
+  "tagline": "Check and clean web links before you open them",
+  "description": "URLCheck sits between a web link and the app that opens it. When you tap a link in an email, a chat or a social app, it first shows a small window with the full address, where you can read it, edit it, clean it up and then open, copy or share it. Set it as your default web browser to catch links, or share links to it from other apps.\n\nIt is built from modules you can switch on or off and put in any order. They include a link cleaner that removes tracking and referral parts using the ClearURLs rule list, a history with undo and redo, a log of checked links, a check that shows a link's status and any redirect, and a viewer that splits an address into parts. It warns about look-alike letters in addresses, a trick used in phishing, and suggests the secure https version of plain http links. A hosts labeller can mark sites on lists of adware, malware, fake news, gambling and adult content. You can write your own patterns and automations, and back up your settings.\n\nThere are no ads and no trackers, and the privacy policy says it collects no statistics. Its only permission is internet access, for checks you ask for. The log is on by default and keeps checked links on your phone until you clear it or switch it off. The redirect check contacts the linked site itself. The scanner sends the link to VirusTotal and needs your own free VirusTotal key. The unshortener sends links to an online service with a free limit, so avoid it for links with private details. The hosts labeller downloads its lists. It needs Android 4.4 or newer. The interface is in English with many community translations, some incomplete. The GitHub, F-Droid and Play Store builds are signed differently, so switching between them means backing up your settings and uninstalling first.",
+  "repo": "https://github.com/TrianguloY/URLCheck",
+  "category": "security",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "url",
+    "link cleaner",
+    "tracking",
+    "phishing",
+    "unshorten",
+    "virustotal",
+    "clearurls",
+    "privacy"
+  ],
+  "added": "2026-10-20"
+}

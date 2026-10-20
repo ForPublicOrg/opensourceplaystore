@@ -1,0 +1,20 @@
+{
+  "id": "duo-launcher",
+  "name": "Duo Launcher",
+  "tagline": "A home screen for foldable phones with a right-hand dock",
+  "description": "Duo Launcher is a home screen app built for foldable phones. It keeps a dock down the right-hand side of the screen, and when you unfold the phone the home screen makes room: pages overlap in pairs, with an extra workspace beside Home 1, then Home 1 beside Home 2, and so on.\n\nYou can put Android widgets on any page, pick them from previews, resize them, scroll inside them and drag them from page to page. Apps can be dragged around too, and holding one at the screen edge makes a new page. There are home folders, an alphabetical list of all your apps, and separate personal and work app lists where your device allows it. Search goes to Google, with a local app search as a fallback, and on compatible phones the Google Discover feed is a swipe right from the first page. You can use your own photos as wallpaper, choose a light, dark, system or sunrise and sunset look, and save or restore your layout as a file.\n\nThis is an experimental beta, and its only release so far is marked as a pre-release. It needs Android 12 or later and has been tested mainly on one Galaxy Fold phone and on emulators, so other foldables may behave differently. Discover only works if the Google app is installed and your phone supports activity embedding (a way of showing one app inside another). Icon packs, notification dots and Private Space are not supported. Installing it does not change your home screen: you choose it in Android's Home app settings and can switch back there. It has no account, ads, analytics or automatic crash reports. Optional swipe-down gestures for notifications and Quick Settings use an accessibility service that cannot read what is on screen. The interface is in English.",
+  "repo": "https://github.com/jakesgoodapps/DuoLauncher",
+  "category": "tools",
+  "license": "MIT",
+  "status": "testing",
+  "tags": [
+    "foldable",
+    "launcher",
+    "home screen",
+    "widgets",
+    "dock",
+    "galaxy fold",
+    "folding phone"
+  ],
+  "added": "2026-10-20"
+}

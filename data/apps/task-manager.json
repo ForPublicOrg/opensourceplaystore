@@ -1,0 +1,20 @@
+{
+  "id": "task-manager",
+  "name": "Task Manager",
+  "tagline": "Watch CPU and memory use and stop apps, with root or Shizuku",
+  "description": "Task Manager shows what your phone is busy doing. Live graphs follow how hard the processor and memory are working, and the graphics chip too on phones that report it, while a list shows every app and background process running right now. The developer says it was inspired by the GNOME system monitor on Linux computers.\n\nIn the list you can show or hide your own apps, system apps and low-level Linux processes, sort by memory use, processor use or name, and search. Tap an entry for details such as its package name, owner, parent process, memory use, nice value (how willing it is to give way to other work), threads and start time, then stop it, with a confirmation step you can switch off. For some pre-installed apps it also shows a short built-in note on what they are for. A processor page lists the chip, cores and an estimated temperature. There are colour themes and light and dark modes.\n\nIt does nothing on a plain phone: you need root, or Shizuku, a helper app that lets other apps use extra system permissions without root, and you pick one inside the app. The README says ending Linux processes needs Shizuku started with root. It needs Android 8 or newer. The network and battery screens, process pinning and a live usage notification belong to a paid Pro version sold on Google Play. The open-source build shows a locked notice in their place, while CPU, RAM and GPU monitoring stay free. The interface is in English, with translations into Brazilian Portuguese, Russian and Chinese, and a partial Turkish one. The public source code has no ads or analytics libraries. The app asks for internet access, which the About page uses to load the developer's profile picture.",
+  "repo": "https://github.com/RohitKushvaha01/TaskManager",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "system monitor",
+    "processes",
+    "cpu",
+    "ram",
+    "shizuku",
+    "root",
+    "force stop",
+    "task killer"
+  ],
+  "added": "2026-10-20"
+}

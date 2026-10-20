@@ -1,0 +1,21 @@
+{
+  "id": "cake-wallet",
+  "name": "Cake Wallet",
+  "tagline": "Hold and send Monero, Bitcoin and other coins with your own keys",
+  "description": "Cake Wallet is an app for holding and sending digital money, also called cryptocurrency. It is non-custodial, which means the secret keys that control your coins stay on your phone and the company never holds your money. It handles Monero, Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Solana, Tron, Nano and several other coins.\n\nYou can send and receive by scanning QR codes, keep an address book, and choose how big a network fee to pay. Instead of the default servers you can use a node of your own (a server the wallet asks for the latest blockchain information), or connect through Tor, a network that hides where you are connecting from. There is also swapping one coin for another inside the app, a Charts tab for watching prices, Bitcoin accounts and coin control, optional Lightning for Bitcoin, and Ledger and Trezor hardware wallets for some coins (small devices that keep your keys offline). A PIN guards the app, with fingerprint unlock as an option.\n\nThis app handles real money. Whoever has your seed phrase (the list of words that restores a wallet) can take everything in it, and if you lose it, nobody can get your coins back. It needs Android 8.0 or newer. Swapping, buying with a card or bank and selling by bank transfer are done by outside companies, and some may ask you to verify who you are. Tor mode is marked experimental, so some connections may still go out the normal way. By default the app uses nodes and a price service run by Cake Labs, which can see your internet address but, according to its privacy policy, does not keep it; you can pick another node or switch the price service off. The makers say they collect no usage data, and error reports are sent only if you choose. The interface comes in many languages, including Spanish, French, German, Japanese, Chinese and Hindi.",
+  "repo": "https://github.com/cake-tech/cake_wallet",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://cakewallet.com",
+  "tags": [
+    "wallet",
+    "monero",
+    "bitcoin",
+    "cryptocurrency",
+    "ethereum",
+    "litecoin",
+    "hardware wallet",
+    "tor"
+  ],
+  "added": "2026-10-20"
+}

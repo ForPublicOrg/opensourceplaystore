@@ -1,0 +1,24 @@
+{
+  "id": "lantern",
+  "name": "Lantern",
+  "tagline": "A VPN that helps you reach sites and apps blocked where you live",
+  "description": "Lantern is a VPN, an app that sends your phone's internet traffic through another computer so the network you are on cannot easily block the sites and apps you use. It was built to get around internet censorship, for people in places where websites, apps and messaging services are blocked. The app says it is made by a nonprofit.\n\nOne tap connects you. In Smart Routing mode the app follows rules for your region, such as China, Iran or Russia, and sends only the sites that need the VPN through it, so everything else stays quick. Split tunnelling lets you choose which apps and websites skip the VPN. You can also use your own server, set up on DigitalOcean (you need an account there and pay them) or by hand, or join one that someone shares with you. Lantern does not run those, so you trust whoever does, and they do not use up the daily data limit. Where the app offers it, Action Mode lets you share your connection so people in censored countries can get online through your phone; it warns that your home internet address may show up in the logs of the sites they visit.\n\nIt needs Android 7 or newer, and the GitHub APK is for 64-bit ARM phones. The free version works without an account, but in most countries it has a daily data limit, after which your speed is slowed right down until it resets. Lantern Pro is a paid subscription that removes the limit; using it on other devices needs an email address and a password. Your traffic goes through servers run by Lantern, so you are trusting them as with any VPN provider. Anonymous usage data is shared only if you allow it, and the app says it never collects browsing history, destinations, DNS queries or connection logs. The interface comes in around twenty languages, including Persian, Chinese, Russian, Arabic and Spanish.",
+  "repo": "https://github.com/getlantern/lantern",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://lantern.io",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "vpn",
+    "censorship",
+    "circumvention",
+    "proxy",
+    "privacy",
+    "unblock websites",
+    "split tunnel",
+    "great firewall"
+  ],
+  "added": "2026-10-20"
+}

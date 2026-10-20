@@ -1,0 +1,24 @@
+{
+  "id": "skystream",
+  "name": "SkyStream",
+  "tagline": "Play films and shows through extensions you install yourself",
+  "description": "SkyStream is a video player for phones, tablets and Android TV that gets its films, shows and anime from add-ons you install yourself. It is an independent app, inspired by CloudStream but not a copy or fork of it.\n\nIt plays four kinds of extension side by side: SkyStream's own JavaScript plug-ins, CloudStream extensions, Nuvio plug-ins and Stremio add-ons, and one search bar looks through all of them. An Explore screen that uses the TMDB film database helps you browse. You can pick up where you left off, speed playback up to 4x, choose a quality when a stream offers several, and skip intros. Subtitles can be searched on OpenSubtitles, SubDL and SubSource, in your own size and colours. You can download videos to watch offline, hand one to another player app, and sync your watch list with Trakt, Simkl, MyAnimeList or AniList if you sign in. It also plays video files from your phone, links you paste and torrents.\n\nOn its own SkyStream has nothing to watch: it ships with no video sources, so you add extensions from repositories in its settings. Other people write those extensions, SkyStream hosts no media, and the project asks you not to use extensions that host copyrighted material, so what you install and watch is your own responsibility. Streaming needs an internet connection, and as the app is installed from a downloaded file you may need to allow installs from unknown sources. Discovery, subtitles and watch list sync lean on outside services such as TMDB, and SubDL only works once you enter a key from your own SubDL account. The first download on Android 11 or newer asks for access to all your files and to be left out of battery saving. The project says it has no ads, no subscriptions and no telemetry. It lists more than 40 interface languages, English among them.",
+  "repo": "https://github.com/akashdh11/skystream",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://skystream.site",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "streaming",
+    "movies",
+    "tv shows",
+    "anime",
+    "extensions",
+    "android tv",
+    "stremio",
+    "cloudstream"
+  ],
+  "added": "2026-10-20"
+}

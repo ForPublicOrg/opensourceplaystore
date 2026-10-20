@@ -1,0 +1,23 @@
+{
+  "id": "codeassist",
+  "name": "CodeAssist",
+  "tagline": "Write, preview and build Android apps on your phone",
+  "description": "CodeAssist is a code editor and app builder that runs on your phone or tablet. You write Android apps in Kotlin or Java, and it builds, signs and installs the finished app on the same device, so you need no computer and no cloud build server. It does not run Gradle, the build tool most Android projects use, because that is too heavy for a phone.\n\nThe editor suggests code as you type, even on half-written lines, adds imports, and shows errors with one-tap fixes. Jetpack Compose previews (Android's modern way of drawing screens in code) and XML layout previews appear next to your code. You can add libraries from Maven, make signed release builds and app bundles with your own key, and import existing Gradle projects. Git works on the device, with an optional GitHub sign-in for private repositories. There is a block editor that shows a Java file as puzzle-piece blocks, interactive Java and Kotlin lessons, and an optional AI assistant that edits your project and shows what changed so you can undo it.\n\nYou need Android 8.0 or newer, and the download is about 160 MB. Kotlin code completion is still marked as beta. Gradle projects you import are built without Gradle, so unusual build scripts may not work. The AI assistant needs your own key from Anthropic, Google Gemini, OpenAI or OpenRouter. The app shows ads, including occasional full-screen ones during long builds and after lessons, and you can turn them off in the app at no cost. The ads come through Google AdMob and partner ad networks, which may collect data under their own policies. Usage and crash reports are off by default and are sent only if you agree on first launch. The interface is in English, with translations into Arabic, Spanish, Indonesian, Brazilian Portuguese, Russian and Chinese, some only partly done. The C and C++ (NDK) add-on is a separate download.",
+  "repo": "https://github.com/tyron12233/CodeAssist",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "ads"
+  ],
+  "tags": [
+    "ide",
+    "android development",
+    "kotlin",
+    "java",
+    "code editor",
+    "jetpack compose",
+    "git",
+    "build apk"
+  ],
+  "added": "2026-10-20"
+}

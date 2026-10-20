@@ -1,0 +1,22 @@
+{
+  "id": "fluxer",
+  "name": "Fluxer",
+  "tagline": "Chat with friends and communities by text, voice and video",
+  "description": "Fluxer is the official mobile app for the Fluxer chat service, a free and open-source place to talk with friends, groups and communities. You join communities that are split into text channels and voice channels, message people directly and keep a friends list. The app also adapts to tablets and folding phones.\n\nYou can also start threads for side conversations, post in forum channels where posts are organised by topic and tags, record voice messages by holding down a button, bookmark messages for later and have messages read aloud. Voice and video calls support screen sharing. The app says microphone, camera and screen-share content in calls is end-to-end encrypted, but it makes no such promise for text messages. A discovery page lists public communities you can join, and you can connect to a self-hosted Fluxer server instead of the official one.\n\nThis is a beta, and the project warns some features will be missing or broken. You need a Fluxer account, either on the official service or on a server someone hosts themselves, and you type in that server's address when you sign in. Each release has two kinds of file. The one with betafcm in its name suits most phones and uses Google's push service (Firebase Cloud Messaging) for notifications. The one with betaoss in its name is for phones without Google apps and uses UnifiedPush, which sends notifications through an app such as ntfy instead of Google. For now, notifications from self-hosted servers only work with the betaoss kind. Crash and performance reports are off by default, though the app offers to switch them on after a crash. It says they go to Fluxer's own error tracker, even on another server, without message content. The official service sells an optional paid subscription, called Plutonium, for extras such as animated avatars and bigger uploads. The interface comes in English and about 30 other languages.",
+  "repo": "https://github.com/fluxerapp/flutter_client",
+  "category": "social",
+  "license": "AGPL-3.0",
+  "website": "https://fluxer.app",
+  "status": "testing",
+  "tags": [
+    "chat",
+    "communities",
+    "voice chat",
+    "video calls",
+    "messaging",
+    "self-hosted",
+    "group chat",
+    "unifiedpush"
+  ],
+  "added": "2026-10-20"
+}

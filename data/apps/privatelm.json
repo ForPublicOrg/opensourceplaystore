@@ -1,0 +1,23 @@
+{
+  "id": "privatelm",
+  "name": "PrivateLM",
+  "tagline": "Chat with AI models on your phone, offline or online",
+  "description": "PrivateLM is an AI chat app that can run its language models on your phone itself. Download a model once and you can talk to it with no internet connection, and your chats are kept on the device. When you want something bigger than your phone can handle, the same app can instead talk to an online AI service.\n\nYou browse a catalogue of models and download the ones you want from Hugging Face (a public site where people share AI models), or import model files you already have. Some models can look at photos you take or pick, and you can attach PDF, Word, text and code files to a chat. A microphone button lets you speak your question, and some models draw pictures from a written prompt, also on the phone. For online use it offers OpenRouter, OpenAI, Google Gemini, DeepSeek and NVIDIA NIM, plus custom server addresses (any service that follows the OpenAI format) that you can save. A Server screen can share the model on your phone with other apps, and optionally other devices on your network.\n\nYou need Android 9 or newer. Local models are large, from about 600 MB to several gigabytes each, and use a lot of memory, so older or low-end phones may be slow. Online providers need your own account and API key, and your messages then go to that provider. Voice input uses your phone's own speech recogniser, set to US English. The catalogue includes a few community models tagged Uncensored, and one picture model described that way, which have fewer built-in limits on what they will answer. The app checks GitHub for new versions when it opens (you can turn this off in Settings). It also includes Google's Firebase crash reporting, which is on by default when the build has Firebase set up, with no setting to turn it off. The interface is in English.",
+  "repo": "https://github.com/orailnoor/cross-platform-llm-client",
+  "category": "tools",
+  "license": "MIT",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "chatbot",
+    "offline",
+    "on-device",
+    "gguf",
+    "image generation",
+    "stable diffusion"
+  ],
+  "added": "2026-10-20"
+}

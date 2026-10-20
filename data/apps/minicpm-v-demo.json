@@ -1,0 +1,21 @@
+{
+  "id": "minicpm-v-demo",
+  "name": "MiniCPM-V Demo",
+  "tagline": "Chat with AI models that run on your phone, even offline",
+  "description": "MiniCPM-V Demo is an Android app from OpenBMB, the team behind the MiniCPM family of AI models. It lets you chat with an AI model that runs entirely on your own phone, so your messages are not sent to a server. Some models can also talk about a photo or a video, and a separate screen turns written text into speech.\n\nA Model Management screen lets you download and switch between models. MiniCPM-V 4 and MiniCPM-V 4.6 understand pictures as well as text, MiniCPM5 (in a smaller and a larger size) handles text only, and VoxCPM2 does the speech. You can add a photo and ask what is in it, and choose how many pieces the picture is cut into: more pieces give finer detail but slower answers. Video questions work with MiniCPM-V 4.6. A Think button, off by default, lets MiniCPM5 and MiniCPM-V 4.6 reason before replying. The speech screen covers about 30 languages, offers a male and a female voice, lets you describe a voice in words, or copies a voice from a short microphone recording.\n\nThe app is about 20 MB and contains no AI model. The first time you use it, it downloads the models you pick from Hugging Face or ModelScope, two websites that host AI models. They run from roughly half a gigabyte to nearly 3 GB each, so use Wi-Fi, and they have their own terms, separate from the app's MIT licence. You need a phone with a 64-bit ARM chip and Android 8 or newer (per the install guide), and the project recommends about 6 GB of memory or more for most models. The developers call it a research and preview demo. The app opens in Chinese at first. To switch to English, use the Language option on the Model Management screen. The project says it has no analytics or advertising tools and sends no personal data off the phone.",
+  "repo": "https://github.com/OpenBMB/MiniCPM-V-Apps",
+  "category": "tools",
+  "license": "MIT",
+  "status": "testing",
+  "tags": [
+    "ai",
+    "chatbot",
+    "offline",
+    "llm",
+    "image understanding",
+    "text to speech",
+    "voice cloning",
+    "on-device"
+  ],
+  "added": "2026-10-20"
+}

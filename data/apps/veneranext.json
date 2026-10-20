@@ -1,0 +1,23 @@
+{
+  "id": "veneranext",
+  "name": "VeneraNext",
+  "tagline": "Read comics and manga from your own files or sources you add",
+  "description": "VeneraNext is a comic and manga reader. It imports comics from your phone, such as folders of pictures, comic archives (CBZ, ZIP, 7Z and CB7), PDF files and EPUB books made of images. It can also read picture folders straight from a home server or network drive over WebDAV, a common way for such drives to share files. The project continues Venera, an earlier open-source reader.\n\nThe default waterfall mode loads the next chapter as you near the end of one, so a long series flows on without a break and your place is saved. Wide two-page spreads can be split into top and bottom halves for vertical reading, and there are page-turning and chapter-scrolling modes too. You also get a dimming control for night reading, a screen-flash refresh for e-ink devices, automatic reading that scrolls or turns pages for you, a Read Later list, a way to follow series with update markers, favourites, a count of your reading time, and downloads for offline reading. Settings, favourites and history can be synced between devices over WebDAV, and local comics can be backed up as CBZ files.\n\nThe app comes with no comics and no comic sources, and the developer says it does not provide or recommend any. To read online you must add source extensions yourself (small JavaScript files written by other people), and what you can find, and whether it keeps working, depends on those extensions and the sites behind them. Without extensions you can still read your own files. WebDAV features need a drive or server of your own, and edits made on two devices at the same time are not merged when syncing. PDF and EPUB imports take extra storage. It asks for internet access, notifications and wide access to your files. Checking for new app versions at start-up is off by default. The interface is in English, with Simplified and Traditional Chinese translations.",
+  "repo": "https://github.com/CyrilPeng/Venera-Next",
+  "category": "reading",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "comics",
+    "manga",
+    "comic reader",
+    "cbz",
+    "webdav",
+    "pdf",
+    "offline",
+    "e-ink"
+  ],
+  "added": "2026-10-20"
+}

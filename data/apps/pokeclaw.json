@@ -1,0 +1,21 @@
+{
+  "id": "pokeclaw",
+  "name": "PokeClaw",
+  "tagline": "An AI that can run on your phone and use your apps for you",
+  "description": "PokeClaw is an AI helper that operates your phone for you. You type a request in plain words, and it reads what is on the screen, then taps, swipes, types and opens apps to carry it out. It can run Gemma 4, an open AI model from Google, entirely on the phone, or use an online AI service when a job is harder.\n\nIn Local mode, with no account or API key, it handles quick jobs such as summarising your notifications, explaining what you copied, checking the battery and storage, and suggesting apps to clear out. It can also watch for messages from a chosen contact in WhatsApp and reply using the conversation so far, or send a message for you. Cloud mode works with OpenAI, Anthropic, Google or any OpenAI-style service, and copes better with longer jobs across several apps. You can dictate by voice and see a live cost counter.\n\nThe developer calls the current build a prototype, so expect some jobs to fail. It needs Android 9 or newer and a 64-bit ARM phone. Local mode wants 8 GB of RAM or more (12 GB is recommended) and downloads a model of about 2.6 GB from Hugging Face on first use (3.6 GB for the larger one). On the developer's Pixel 8 Pro, a high-end phone, simple local tasks took two to three minutes. You must switch on its Accessibility service so it can see and control the screen, and optionally Notification Access for message watching. It also asks for other broad permissions, including contacts and all-files access. That is a lot of control, and auto-replies go out in your name, so check what you ask it to do. Cloud mode needs your own API key and sends your requests and screen text to the provider you choose. The app checks GitHub once a day for updates. The interface is in English, Simplified Chinese and Japanese.",
+  "repo": "https://github.com/agents-io/PokeClaw",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "status": "testing",
+  "tags": [
+    "ai agent",
+    "phone automation",
+    "local llm",
+    "gemma",
+    "on-device ai",
+    "assistant",
+    "auto reply",
+    "whatsapp"
+  ],
+  "added": "2026-10-20"
+}

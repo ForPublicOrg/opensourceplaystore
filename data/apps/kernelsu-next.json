@@ -1,0 +1,20 @@
+{
+  "id": "kernelsu-next",
+  "name": "KernelSU Next",
+  "tagline": "Root your phone through its kernel and choose who gets access",
+  "description": "KernelSU Next gives you root on your Android phone, meaning the power to change parts of the system that ordinary apps cannot touch. The root support sits inside the kernel, the core of the operating system, and a manager app lets you allow or refuse root for each app. It began as a fork of KernelSU and now has its own releases and features.\n\nApp Profile lets you give an app only part of root's power. Modules add system tweaks without permanently changing system files, and the app can browse a list of modules and back them up. Modules that change system files only take effect once you install a metamodule, a special module that decides how the others are put in place. A risk check can block modules found on a list of known bad ones, the app can log root requests, and it can ask for your fingerprint or screen lock before it opens. Other settings try to hide signs of root from apps, including a loader for SUSFS, a kernel add-on made for that.\n\nThis is for advanced users. The manager only works once KernelSU Next is part of your phone's kernel, which means patching and flashing a boot image or flashing a custom kernel, so read the installation guide first, as a mistake can leave a phone that will not start. It supports 64-bit ARM and x86_64 kernels from version 4.4 to 6.18. Kernels 5.10 and newer using Google's standard GKI design can use ready-made images and loadable kernel modules, while older ones need the driver built in. It needs Android 8.0 or newer. Each release has two APKs, a normal one and a 'spoofed' one with a randomised package name. The app checks GitHub for new versions when opened, which you can switch off, and fetches its module and risk lists from there. The interface is in English and about fifteen other languages.",
+  "repo": "https://github.com/KernelSU-Next/KernelSU-Next",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://kernelsu-next.github.io/webpage/",
+  "tags": [
+    "root",
+    "superuser",
+    "kernel",
+    "su",
+    "susfs",
+    "modules",
+    "magisk alternative"
+  ],
+  "added": "2026-10-20"
+}

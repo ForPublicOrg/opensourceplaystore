@@ -1,0 +1,21 @@
+{
+  "id": "fluxdown",
+  "name": "FluxDown",
+  "tagline": "Download files, torrents and video streams in one app",
+  "description": "FluxDown is a download manager. Give it a web link, an FTP link, a magnet link, a torrent file or the link to a video stream, and it fetches the file and saves it on your phone. Besides ordinary downloads it understands BitTorrent, eMule's ed2k links, and the HLS and DASH formats that many streaming sites use to deliver video. The Android app is built natively and shares its download engine, written in Rust, with the project's desktop and server versions.\n\nBig files are split into pieces that download at the same time, and a free worker takes over any piece that runs slowly. Downloads can be paused and picked up again later, and you can sort them into queues. Links shared from your browser or other apps open a new-download window, and FluxDown can be set as the app that opens magnet links, ed2k links and .torrent files. It can also follow RSS feeds, and connect to FluxDown running on a computer or home server so you can manage downloads there from your phone.\n\nIt needs Android 8.0 or newer. By default it saves into its own app folder, which Android clears if you uninstall the app; to save into public folders such as Downloads it asks for the all files access permission. It also asks to show notifications. Local downloads need no account, and the optional FluxCloud account is for extras such as syncing settings and managing other devices. The developers say it has no ads. Its settings have a switch for anonymous usage statistics, which starts switched on; the project says these never include download details. It checks for updates itself and may download one on Wi-Fi, but only installs after you tap. If the older Flutter-based FluxDown is installed, remove it first, as the new app is signed differently. The interface is in English, Simplified Chinese and Traditional Chinese.",
+  "repo": "https://github.com/zerx-lab/FluxDown",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "website": "https://fluxdown.com",
+  "tags": [
+    "download manager",
+    "torrent",
+    "magnet links",
+    "ftp",
+    "hls",
+    "multi-thread",
+    "resume",
+    "queues"
+  ],
+  "added": "2026-10-20"
+}

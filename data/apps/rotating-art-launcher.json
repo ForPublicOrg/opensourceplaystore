@@ -1,0 +1,20 @@
+{
+  "id": "rotating-art-launcher",
+  "name": "Rotating Art Launcher",
+  "tagline": "Play your own copies of Terraria and Celeste on your phone",
+  "description": "Rotating Art Launcher lets you play certain PC games on an Android phone or tablet. It is built for games made with .NET, a Microsoft toolkit for writing programs, and with FNA or XNA, game frameworks that many independent games use. The app carries the runtime pieces those games need.\n\nThe games the project lists as working are Terraria, Celeste and FEZ, plus Terraria with the tModLoader mod loader, Celeste with Everest and Stardew Valley with SMAPI (mod loaders add fan-made changes to a game). More games are in progress. For each game you can choose the graphics renderer and the SDL version (a graphics and input library). Touch controls are on-screen joysticks and buttons that you can rearrange and share as control packs, and Xbox-style controllers work over Bluetooth or USB. There is an experimental multiplayer mode, which uses a public EasyTier server to help devices find each other, and an optional sign-in to GOG, an online game shop, to download games you have bought there.\n\nThe app contains no games. You need your own legal copy of each one, imported as a ZIP of its files or as the Linux installer from GOG, or downloaded in the app through your GOG account. Signing in means typing your GOG email and password into this app, which is not made by GOG. You need Android 9 or newer, a phone or tablet with a 64-bit ARM processor and at least 2 GB of free space, and the installer is about 110 MB. It asks for access to your files, runs in landscape, and how well a game plays depends on your phone. The app fetches update notices, announcements and a sponsor list from public project pages, and its own notice says it collects no personal information. The interface is in English, Simplified Chinese, Russian and Spanish; the Russian and Spanish are machine translated.",
+  "repo": "https://github.com/FireworkSky/RotatingartLauncher",
+  "category": "games",
+  "license": "GPL-3.0",
+  "tags": [
+    "pc games",
+    "terraria",
+    "celeste",
+    "stardew valley",
+    "tmodloader",
+    "dotnet",
+    "mods",
+    "gog"
+  ],
+  "added": "2026-10-20"
+}

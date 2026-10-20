@@ -1,0 +1,20 @@
+{
+  "id": "quick-search",
+  "name": "Quick Search",
+  "tagline": "One search bar for your apps, contacts, files and the web",
+  "description": "Quick Search is a search app for your phone that can also be your home screen. You type into one search bar and it looks through your apps, app shortcuts, contacts, files, calendar events, notes, reminders, notification history, phone settings and the web. It copes with typing mistakes and short forms, so typing yt finds YouTube.\n\nIt also works as a calculator, converts units and currencies (exchange rates come from the European Central Bank), sets an alarm when you type a time like 2:45pm, starts a timer when you type 15 min, and makes a reminder from plain words such as Laundry in 2 hrs. For the web it can send your search to around 30 engines. If you make it your launcher (the app that runs your home screen), you also get pinned apps and folders, an At a Glance area for today's events, timers and low battery warnings, swipe gestures and an optional lock for chosen apps. A side panel for other apps' widgets works either way. Themes, wallpaper backgrounds and accent colours are included.\n\nYou need Android 7.0 or newer. The developer says every permission is optional and only switches on the feature that needs it, such as contacts, calendar, files or notification access. AI answers, custom AI tools and the dictionary, weather and world clock tools only work if you add your own API key (a private code from an AI company such as Google Gemini, OpenAI, Claude or Groq), and your question then goes straight from your phone to that company. The developer says there are no ads, no analytics and no accounts, and no server of its own. In the GitHub download, web suggestions are on by default, which sends what you type to Google; you can turn this off in settings. The interface is in English plus 16 other languages, including German, Spanish, French, Hindi and Japanese.",
+  "repo": "https://github.com/teja2495/quick-search",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "launcher",
+    "search",
+    "app search",
+    "universal search",
+    "calculator",
+    "unit converter",
+    "reminders",
+    "widgets"
+  ],
+  "added": "2026-10-20"
+}

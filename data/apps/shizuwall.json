@@ -1,0 +1,20 @@
+{
+  "id": "shizuwall",
+  "name": "ShizuWall",
+  "tagline": "Cut off chosen apps from the internet without a VPN",
+  "description": "ShizuWall is a firewall that stops the apps you choose from using the internet, without a VPN. It uses a rule built into Android that switches network access on or off for each app, so it never sets up a VPN connection or looks at your traffic.\n\nYou tick the apps you want blocked and turn the firewall on. Modes let you block only the ticked apps, apply changes the moment you tick them, block everything except the ticked apps, block the ticked apps while the screen is locked, or let a ticked app online only while you use it. Each app can have its own rule, and work profile and clone copies are handled too. A Quick Settings tile, a home screen widget and a floating button switch it on and off. You can save sets of choices as profiles, lock the app with a PIN or biometrics, and control it from automation apps such as Tasker and MacroDroid. Each app's info screen points out known trackers, using a list stored on the phone.\n\nIt needs Android 11 or newer, plus one way to run system commands: Shizuku (a helper app that lets other apps use extra system permissions without root), its own pairing over Wireless Debugging with no computer needed, or root. The app warns that some Android 11 and 12 builds and some manufacturer versions of Android are not supported. Android clears the firewall rules when the phone restarts. Some modes bring them back by themselves, but the Wireless Debugging helper has to be restarted by hand each time. The developer warns that blocking the wrong apps can cause problems, and says there are no analytics, telemetry or ads and that the internet permission is used only for the Wireless Debugging pairing. The interface is in English plus several other languages, including German, Spanish, Japanese and Turkish.",
+  "repo": "https://github.com/AhmetCanArslan/ShizuWall",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": [
+    "firewall",
+    "no vpn",
+    "block internet",
+    "shizuku",
+    "privacy",
+    "root",
+    "wireless debugging",
+    "per app"
+  ],
+  "added": "2026-10-20"
+}

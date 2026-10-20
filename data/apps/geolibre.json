@@ -1,0 +1,21 @@
+{
+  "id": "geolibre",
+  "name": "GeoLibre",
+  "tagline": "Open, style and analyse map data on your phone",
+  "description": "GeoLibre is a map workspace for opening, exploring and analysing geographic data, the kind of work done in a GIS (geographic information system). It also runs on desktop and in a web browser, and the Android version has a touch-friendly layout. It needs no account, and your files stay on your device unless you choose to share them.\n\nYou can open common map file types such as GeoJSON, Shapefile, GeoPackage, GPX and KML, add online map layers, and style them with colours, labels and legends. More than a thousand analysis tools cover terrain, water flow, satellite imagery and vector shapes, and run on the phone itself with no server. There is also a spatial SQL workspace, a Python console, story maps, place search, measuring tools and GPS tracking. Basemaps include street maps, satellite imagery and the Moon and Mars.\n\nMap tiles and online data are downloaded as you go, so most of the map needs an internet connection, although the app itself opens offline. Tools that need a desktop helper program, such as format conversion, some raster tools and PostgreSQL or SQL Server connections, are hidden on Android, and the project lists opening some local files, such as MBTiles and raster images, as still to be adapted. The optional AI assistant stays off until you set up an AI service with your own key, and it then sends what you type, plus your layer and field names, to that service. Sharing a project uploads it to the developer's share site, which needs an account. The developer says the app itself collects no analytics. The interface comes in about twenty languages besides English, though the translations were machine-assisted and some parts still show English. The project says it is for people aged 16 and over. The APKs on GitHub are signed with a different key from the Google Play version, so one cannot update the other.",
+  "repo": "https://github.com/opengeos/GeoLibre",
+  "category": "maps",
+  "license": "MIT",
+  "website": "https://geolibre.app",
+  "tags": [
+    "gis",
+    "geospatial",
+    "mapping",
+    "geojson",
+    "shapefile",
+    "gpx",
+    "kml",
+    "satellite imagery"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "nextcloud-talk",
+  "name": "Nextcloud Talk",
+  "tagline": "Chat and video calls through your Nextcloud server",
+  "description": "Nextcloud Talk is the chat and calling app for Nextcloud, a system for files and communication that you can run on your own server or rent from a provider. You use it to send messages and to make voice or video calls with one person or a whole group. It works through the Nextcloud server you sign in to, so you are trusting whoever runs that server.\n\nIn chats you can share files, photos and a place on a map, send voice messages, react with emoji, and edit, delete or pin messages. In a call you can watch a screen that someone else is sharing. You can let guests in with a link, run a webinar with a waiting room called the lobby and, on servers set up for it, let people dial in by phone. The app can be locked behind your phone's screen lock or fingerprint, and has a diagnosis screen in settings for checking notifications and sharing logs. It also supports Android Auto.\n\nYou need an account on a Nextcloud server that has the Talk app switched on, either one you host yourself or one from a provider. The app needs Android 8.0 or newer, and it lists Nextcloud 17 as the oldest server it supports. The release page has two APKs, each over 150 MB. The one with gplay in its name is the Google Play build and gets notifications through Google's push service, while the project's guide says the other needs UnifiedPush, an open way of delivering notifications, with a helper app of your choice and web push allowed by your server's administrator. Calls on servers with end-to-end encryption turned on are not yet supported on mobile: chats work, but calling is blocked with a message. If the app crashes, you choose whether to share a report. The interface is translated into dozens of languages, including German, French, Spanish, Japanese and Chinese.",
+  "repo": "https://github.com/nextcloud/talk-android",
+  "category": "social",
+  "license": "GPL-3.0",
+  "website": "https://nextcloud.com/talk/",
+  "tags": [
+    "video calls",
+    "chat",
+    "self-hosted",
+    "group calls",
+    "voice calls",
+    "messenger",
+    "webinar",
+    "unifiedpush"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "modern-apps",
+  "name": "Modern Apps",
+  "tagline": "Dozens of open-source apps to mix and match, all in one style",
+  "description": "Modern Apps is a collection of open-source Android apps, mostly by one developer, that aims to give your phone the feel of the Apple and Google app ecosystems, but fully open source. Each app is a separate download, so install only the ones you want. They share one Material You look, and some of them work together.\n\nThe everyday set covers a calculator, calendar, contacts, notes, files, a PDF reader, a camera, a photo gallery with an editor, a keyboard, a launcher, weather, a web browser that blocks ads and trackers, a WireGuard VPN client and a password manager. Email puts accounts from Gmail, Outlook, Yahoo and other providers in one inbox. Find Family shares locations with family and friends using end-to-end encryption, with no email or phone number needed. There is also an offline translator, an office editor for ODF and Microsoft files, a chat app whose AI model runs on the phone, YouPipe for ad-free YouTube, and games such as Chess, Sudoku, Minesweeper and Solitaire.\n\nThe project calls every version 2 release beta, so expect rough edges. Most apps need a 64-bit phone with Android 12 or newer. Some pieces are not ordinary phone apps, such as the TV receiver for screen mirroring, which only installs on an Android TV. Some apps rely on outside companies and are unofficial: YouPipe uses YouTube and a community-run decoding service, Taxi compares Uber and Lyft fares (US and Canada only), and email needs accounts you already have. The VPN app needs your own WireGuard settings, and the AI chat app must download its model and uses about 3.5 GB of memory. The developer says the apps collect no personal data or usage statistics. The interface is in English, with partial volunteer translations, the fullest being Swedish and Estonian. Install through the developer's App Store, its F-Droid repository, Obtainium (an app that updates apps from their release pages), or the APK files.",
+  "repo": "https://github.com/vayun-mathur/Modern-Apps",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://ma.vayunmathur.com",
+  "status": "testing",
+  "tags": [
+    "app suite",
+    "ecosystem",
+    "material you",
+    "privacy",
+    "location sharing",
+    "email",
+    "calendar",
+    "games"
+  ],
+  "added": "2026-10-20"
+}

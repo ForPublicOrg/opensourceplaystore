@@ -1,0 +1,25 @@
+{
+  "id": "smarttube",
+  "name": "SmartTube",
+  "tagline": "Watch YouTube on Android TV and TV boxes, without ads",
+  "description": "SmartTube is an app for watching YouTube on Android TVs and TV boxes. It is made for the remote control, has a clean layout with no advertising in it, and does not need Google services on the device. It is an unofficial app, made by one developer as a hobby project, and its videos come from YouTube's servers.\n\nYou can watch without an account, or sign in with a short code shown on the TV to see your subscriptions and library. An optional feature called SponsorBlock skips sponsor messages, intros and other parts that volunteers have marked, and you choose which kinds to skip. You can change the playback speed and video format, and play at up to 8K, 60 frames per second and HDR if your TV supports them. It also has live chat, picture-in-picture, buttons you can customise, and sending videos to the TV from the YouTube app on your phone once you link the two with a code.\n\nIt needs an Android TV or TV box running Android 4.3 or newer, including Nvidia Shield and Fire TV devices released before October 2025. Phones are not supported, as touch input does not work, and neither are newer Fire TV models, which run Amazon's own system. You install it yourself from a downloaded file, for example with a helper app such as Downloader or a USB stick, and it then offers its own updates. Videos cannot be saved for later. There are beta and stable versions, and the developer recommends the beta. Both include Google's Firebase Crashlytics, a crash-reporting tool. YouTube sometimes asks signed-out viewers to sign in. The interface comes in many languages, including German, Spanish, French, Japanese and Russian. The developer says an infection of their build setup may have affected a few builds, and warns that copies on app stores and APK websites were uploaded by other people, so use only the developer's own downloads.",
+  "repo": "https://github.com/yuliskov/SmartTube",
+  "category": "media",
+  "license": "MIT",
+  "website": "https://smarttubeapp.github.io",
+  "antiFeatures": [
+    "nonfree-network",
+    "tracking"
+  ],
+  "tags": [
+    "youtube",
+    "android tv",
+    "tv box",
+    "fire tv",
+    "sponsorblock",
+    "video",
+    "streaming",
+    "no ads"
+  ],
+  "added": "2026-10-20"
+}

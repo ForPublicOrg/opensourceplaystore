@@ -1,0 +1,24 @@
+{
+  "id": "mimi",
+  "name": "Mimi",
+  "tagline": "Live translated subtitles for whatever your phone is playing",
+  "description": "Mimi shows live subtitles over whatever is playing on your phone, translated into the language you want to read. It listens to the sound that other apps play, such as a video, a stream or an online class, turns the speech into text with a cloud speech service, and shows the original words, the translation, or both in a small floating panel. The same project also has Mac, Windows and Linux versions.\n\nYou pick the language being spoken and the language you want to read. You can drag and resize the panel and change the text size, colour, background and how see-through it is. Immersive mode keeps only the words on screen and lets touches pass through to the app underneath. You can save several named service setups and switch between them. Mimi works with services from Alibaba Cloud, OpenAI, Google Gemini, Azure OpenAI, Volcano Engine, Tencent Cloud, Baidu and xAI, and your keys are stored in encrypted form on the phone.\n\nMimi itself is free, but it comes with no speech service. You need your own account with one of those companies and your own key or login details. Their usage may cost money, and some ask you to verify your identity when you sign up. The sound is sent to the service you choose, and the recognised text goes to a separate online translator if you pick one, so it does not work offline. It needs Android 10 or newer, and asks to draw over other apps, for the recording permission (Android requires this even though the microphone is not used), and for audio capture each time you start. It captures what other apps play, not the microphone, and some apps and copy-protected content block capture. The developer says it has not been fully tested on real phones or with every service. The interface is in English, Simplified and Traditional Chinese, Japanese, Korean, French, German and Thai.",
+  "repo": "https://github.com/yuxino/Mimi",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://mimi.yuxino.cn",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "subtitles",
+    "live captions",
+    "translation",
+    "speech to text",
+    "overlay",
+    "real-time translation",
+    "floating subtitles",
+    "system audio"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mindwtr",
+  "name": "Mindwtr",
+  "tagline": "Get tasks and ideas out of your head, then see what to do next",
+  "description": "Mindwtr is a to-do app built on Getting Things Done, usually called GTD, a method for emptying your head into a trusted list so you can stop trying to remember everything. You write down any task or idea the moment it comes to you, sort it when you have a minute, and later see only what you can do right now. You do not need to know GTD first, because the app guides you through what to do with each item.\n\nNew things land in an Inbox, whether you type them in, add them from a home screen widget or send them from another app with the share sheet. You can then file each one as a next step, something you are waiting on, or a someday idea, and group steps into projects. A Focus view shows what is ready to do, and a guided weekly review helps you catch loose ends. There are also reminders, repeating tasks, checklists, notes with simple formatting, file attachments, and calendar and kanban board views. If you use Todoist, TickTick or OmniFocus, you can import your lists.\n\nIt works offline and needs no account, and your tasks stay on your phone. Syncing is optional, using a shared folder, WebDAV or your own server. There is also an AI helper, off until you turn it on, which needs your own account or key with a provider such as OpenAI, Google Gemini or Anthropic, or a model you run yourself; your text goes to whichever you pick. By default the app sends a small anonymous usage report at most once a day (app version, Android version, language, rough country and random identifiers, never your tasks), with a switch in Settings to turn it off. It needs Android 7 or newer. The download with foss in its name leaves out Google services and is built only for 64-bit ARM phones. The interface has 23 languages, including English.",
+  "repo": "https://github.com/dongdongbh/Mindwtr",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://mindwtr.app",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "gtd",
+    "to-do",
+    "todo",
+    "tasks",
+    "getting things done",
+    "reminders",
+    "planner",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2wlan",
+  "name": "P2WLAN",
+  "tagline": "Connect far-away devices as if they shared one Wi-Fi network",
+  "description": "P2WLAN links devices in different places into one private network, so they can reach each other as if they were on the same home Wi-Fi. Each device gets a private address, so you can connect to a friend's computer, a game server or a home file server (a NAS) without setting up a public port for each one. People use it for Minecraft with friends, or to reach files at home.\n\nThe app tries to link two devices directly first, and uses a relay (a go-between server that carries the data encrypted) only when that does not work. Rooms let you invite friends with a room number, and each room is a separate network. The app shows which devices are online, whether each link is direct or relayed, and how long data takes to arrive. On a phone only one network can be active at a time. It checks GitHub for updates at start-up and only opens the download page if you agree.\n\nP2WLAN comes with no server of its own, so you need the address of a Control server, which handles accounts and introduces your devices to each other. Ask someone who runs one, or host your own with the project's server software (its setup guides are in Chinese), then create an account with an email address and sign in. Each device you want to reach needs P2WLAN too. The phone app needs Android 7.0 or newer on a 64-bit ARM phone, and Android will ask you to allow a VPN connection; only traffic for the private network goes through it. The app opens in Simplified Chinese, sign-in screen included, and English can be chosen in Settings after you sign in. It is version 0.1 and has had no independent security audit. Direct links cannot be promised on every network, and a relay can still see which devices connect and when, though not what they send.",
+  "repo": "https://github.com/yhan-sun/p2wlan",
+  "category": "internet",
+  "license": "MIT",
+  "website": "https://p2wlan.yhan.fun/",
+  "tags": [
+    "virtual lan",
+    "p2p",
+    "vpn",
+    "remote access",
+    "self-hosted",
+    "multiplayer",
+    "minecraft",
+    "nas"
+  ],
+  "added": "2026-10-20"
+}

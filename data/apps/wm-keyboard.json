@@ -1,0 +1,21 @@
+{
+  "id": "wm-keyboard",
+  "name": "WM Keyboard",
+  "tagline": "An offline, private keyboard with over 900 languages and glide typing",
+  "description": "WM Keyboard is a keyboard for Android that does its thinking on the phone. Word suggestions, autocorrect, glide typing (swiping across the letters instead of tapping), emoji search and learning your own words all run on the device, and the typing engine itself never uses the internet. It has no account, no ads, and no analytics or crash reporting of its own.\n\nIt covers more than 900 languages with over 1,700 layouts. You can type words the way they sound in Latin letters and get the native script, like Bangla, Hindi or Urdu. More than 75 tools sit behind the toolbar, including clipboard history, snippets, a calculator, unit and currency conversion, dictionary lookup and voice typing. You can restyle it with a theme editor and built-in themes, or use a one-handed, split or floating layout.\n\nYou need Android 7.0 or newer. The main download, the Full edition, adds handwriting, scanning and a local AI model, but the scanners and handwriting use Google's ML Kit, which sends its own diagnostics to Google whenever you use them and cannot be switched off. In version 0.6.2, Full starts at about 100 MB on most phones, and GitHub also offered a Lite edition, starting at about 27 MB, that leaves those parts out and has no Google libraries. Glide typing needs a word list: English and Bangla have one built in, and more than 300 other languages can download one. A few tools need the internet, such as weather, translate, Wikipedia and GIF search, and most reach out only while you use them. The exception is exchange rates, fetched when you type an amount of money, unless you switch that off. Voice typing uses Android's own recogniser, which may go online. The AI writing tools do nothing until you add your own key, your own server or a local model. The settings are in English, with 48 other machine-translated languages in some builds.",
+  "repo": "https://github.com/wasi-master/wmkeyboard",
+  "category": "tools",
+  "license": "MIT",
+  "website": "https://wmkeyboard.pages.dev",
+  "tags": [
+    "keyboard",
+    "offline",
+    "privacy",
+    "glide typing",
+    "swipe typing",
+    "multilingual",
+    "bangla",
+    "clipboard"
+  ],
+  "added": "2026-10-20"
+}

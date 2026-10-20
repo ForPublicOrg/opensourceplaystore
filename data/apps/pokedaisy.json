@@ -1,0 +1,21 @@
+{
+  "id": "pokedaisy",
+  "name": "PokeDaisy",
+  "tagline": "Game Boy and GBA player with a live Pokémon helper alongside the game",
+  "description": "PokeDaisy plays Game Boy, Game Boy Color and Game Boy Advance games on Android. It is made for Pokémon Yellow, Crystal, Ruby, Sapphire, FireRed, LeafGreen and Emerald, and for popular fan-made ROM hacks. Alongside the game it shows a live companion that reads what is happening as you play. On a handheld with two screens the companion gets the bottom screen to itself. On a single screen it slides in beside the game, or sits under it on a phone held upright.\n\nThe companion shows your party, your bag, a map with you on it, which of your moves are strong or weak in a battle, your Pokédex, and a spoiler-free guide that gives hints first and answers on a second tap. Some games, such as the Game Boy ones, have no guide yet. The player has fast-forward and rewind, save states, button remapping, touch controls, controller support, screen filters and a widescreen view for some games. It runs games with mGBA, an open-source emulator, and keeps saves in the same format as mGBA and RetroArch.\n\nNo games are included, so you need your own legally dumped ROM files. Other Game Boy and Game Boy Advance games play too, but the companion only understands the game versions listed in the project's table. It was made for the AYN Thor, a two-screen handheld, and tested on a Retroid Pocket 6. Other devices are mostly untested, and phones have only been checked in screenshots. Android 8.0 or newer should run the games. It checks for new versions when you open it. Cover art and RetroAchievements are optional and need your own key or sign-in. Crash reports stay off until you turn them on. There are no ads, and no account is needed. The interface is in English, Japanese, French, German, Italian, Spanish and Portuguese. It is a fan project, not made by Nintendo or The Pokémon Company.",
+  "repo": "https://github.com/lidor30/pokedaisy",
+  "category": "games",
+  "license": "GPL-3.0",
+  "website": "https://pokedaisy.com",
+  "tags": [
+    "game boy",
+    "gba",
+    "gbc",
+    "emulator",
+    "pokemon",
+    "rom hacks",
+    "retro handheld",
+    "mgba"
+  ],
+  "added": "2026-10-20"
+}

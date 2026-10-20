@@ -1,0 +1,21 @@
+{
+  "id": "rapidraw",
+  "name": "RapidRAW",
+  "tagline": "Edit RAW camera photos without changing the originals",
+  "description": "RapidRAW is a photo editor for the RAW files that cameras save, and for ordinary pictures such as JPEG and PNG. The same app also runs on Windows, macOS and Linux. Edits are saved in a small extra file next to each photo, so the original is never changed, and you can step back through your edit history at any time.\n\nYou can adjust brightness, contrast, highlights, shadows, white balance and colour, shape tones with curves, and sharpen or reduce noise. Masks let you change only part of a picture, such as the main subject, the sky or the foreground, and AI tools can find those areas for you. There are also tools for removing dust and small blemishes, cropping and straightening, and correcting lens distortion automatically. A library view lets you browse folders, give star ratings and colour labels, compare several shots side by side and edit a whole batch together. Finished pictures can be exported as JPEG, PNG, WebP, AVIF, TIFF and other formats.\n\nThe Android build is for 64-bit ARM devices and needs Android 7.0 or newer. Editing leans heavily on the graphics chip, and the project says very old graphics hardware may struggle. The developer also says the app is still in active development, is less polished than long-established editors, and may have bugs. The AI tools download their model files from the internet when first needed, and a setting hides every AI feature if you prefer not to use them. Two extras are optional and the core editing needs neither: generative edits through ComfyUI (a free AI image program), which need the project's own connector running on a computer or server you control, and a paid monthly cloud service for object removal, which is desktop only for now. Besides internet access, the app asks for no permissions. The interface comes in 15 languages, including English, German, French, Spanish, Japanese and Korean.",
+  "repo": "https://github.com/CyberTimon/RapidRAW",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "website": "https://getrapidraw.com",
+  "tags": [
+    "raw",
+    "photo editor",
+    "photography",
+    "camera",
+    "non-destructive",
+    "lightroom alternative",
+    "colour grading",
+    "dng"
+  ],
+  "added": "2026-10-20"
+}

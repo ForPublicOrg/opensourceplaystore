@@ -1,0 +1,20 @@
+{
+  "id": "privacy-flip",
+  "name": "Privacy Flip",
+  "tagline": "Turn off Wi-Fi, Bluetooth and more whenever your phone locks",
+  "description": "Privacy Flip turns parts of your phone off when you lock it and back on when you unlock it. A locked phone does not always need Wi-Fi, Bluetooth or location, so this closes them while you are not using it. It can switch off Wi-Fi, Bluetooth, mobile data, location, NFC (the chip behind tap to pay) and, on newer phones, the camera and microphone.\n\nYou choose which of these it handles and which come back on at unlock, and it waits until you have properly unlocked the phone, not just woken the screen. You can set a delay before it acts, from none up to five minutes, though the camera and microphone always switch straight away because of how Android works. Options include leaving Wi-Fi, Bluetooth or location alone while they are in use, keeping mobile data on while media plays, exempting chosen apps while they are on screen, turning on airplane mode or battery saver at lock, and switching things off again if something turns them back on while the phone is locked. There is also a Quick Settings tile.\n\nAndroid does not let ordinary apps flip these switches, so Privacy Flip needs extra rights, which come from root access, from Shizuku (a helper app that lets other apps use extra system permissions without root, started over USB or wireless debugging), or from Sui, a module for rooted phones that does the same job. A fourth way, Dhizuku, needs the phone set up in Android's Device Owner mode and can only handle the camera, microphone, Bluetooth, location and NFC, not Wi-Fi or mobile data, and only on newer Android versions. The app runs on Android 7 or newer, and the camera and microphone switches need Android 12 or newer. The interface is in English. The app has no internet permission, and the developer says it sends no data anywhere. An optional accessibility service is marked experimental.",
+  "repo": "https://github.com/dorumrr/privacyFlip",
+  "category": "security",
+  "license": "MIT",
+  "tags": [
+    "lock screen",
+    "wifi",
+    "bluetooth",
+    "location",
+    "nfc",
+    "shizuku",
+    "root",
+    "privacy"
+  ],
+  "added": "2026-10-20"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "flclash",
+  "name": "FlClash",
+  "tagline": "Send your phone's traffic through proxy servers you choose",
+  "description": "FlClash is a proxy app for Android and Android TV. A proxy is a middleman server that your phone's internet traffic passes through on its way to a website. FlClash runs the mihomo engine, also known as Clash.Meta, on your device and sends each connection wherever your settings say.\n\nYou set it up with a profile, a settings file from your proxy provider. Add one by pasting a subscription link (a web address from your provider), scanning a QR code or picking a file. Rules decide which sites go through the proxy and which connect directly, and you can choose which apps use it. There are delay tests that show how quickly each server responds, a built-in editor for profiles and scripts, and live lists of connections, requests, DNS lookups and logs. There are light and dark themes, a tile for Android's quick settings panel, and start and stop actions that automation apps such as Tasker can trigger. Backups can go to a WebDAV server (an online file store) or to a local file.\n\nFlClash comes with no servers, subscriptions or accounts, so you need your own subscription or configuration from a provider. It uses Android's VPN feature, so Android asks you to allow it. On first launch you must accept a disclaimer saying the app is for non-commercial learning and research, and that you alone are responsible for using it lawfully where you live. The project says it has no ads, analytics or crash reporting, and uses the network only when a feature needs it, such as fetching your subscription or asking GitHub about new versions (the update check is on by default and can be switched off). The dashboard can also test whether services such as Google, Netflix or Spotify work through your proxy and look up your public IP address, which contacts those sites and IP-lookup websites. The interface is in English, Chinese, Japanese, Korean, Russian, Spanish and French.",
+  "repo": "https://github.com/chen08209/FlClash",
+  "category": "security",
+  "license": "GPL-3.0",
+  "website": "https://chen08209.github.io/FlClash",
+  "tags": [
+    "proxy",
+    "vpn",
+    "clash",
+    "mihomo",
+    "clash meta",
+    "subscription",
+    "per-app proxy",
+    "android tv"
+  ],
+  "added": "2026-10-20"
+}

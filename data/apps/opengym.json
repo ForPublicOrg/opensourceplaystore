@@ -1,0 +1,24 @@
+{
+  "id": "opengym",
+  "name": "openGym",
+  "tagline": "Plan workouts, log every set and track your body weight",
+  "description": "openGym is a gym and body-weight tracker. You plan which workout falls on which day, follow each session set by set, and write down your weights, reps and body weight. The Android app works on its own: there is no account to make and no server to run, and everything you log stays on your phone.\n\nIt has a library of more than 5,600 exercises with short animated demos, which you can search or browse by muscle on a body map. In a guided workout the weights are filled in from last time, a rest timer runs between sets, and new personal records are spotted as you go. It handles supersets, warm-up sets, timed exercises and cardio, and works out which plates to put on the bar. Stats show your estimated one-rep max (the most you could lift once), a muscle map of what you have trained or left alone, a body-weight chart and progress photos. You can bring in history from FitNotes, Strong and Hevy, and export everything as one file.\n\nIt is not on the Play Store: you download the APK from the project's releases page and allow installs from outside the store. The file is large, about 300 MB, with the exercise animations inside, and the app can check GitHub for new versions from its settings. It needs Android 6 or newer. The code is open, but the exercise pictures and animations belong to Gym visual and may only be used inside openGym, so they are not open source. You can pair the app with your own openGym server to sync devices. There is also an optional AI coach, off until you set it up, which needs your own key from a provider such as Anthropic, OpenAI or Gemini and sends the training data it needs to that provider. The developer says there are no ads and no telemetry. The interface comes in 19 languages, including English.",
+  "repo": "https://github.com/DuarteSantos8/openGym",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "website": "https://opengym.ch",
+  "antiFeatures": [
+    "nonfree-assets"
+  ],
+  "tags": [
+    "gym",
+    "workout",
+    "fitness",
+    "strength training",
+    "bodyweight",
+    "exercise log",
+    "weightlifting",
+    "offline"
+  ],
+  "added": "2026-10-20"
+}

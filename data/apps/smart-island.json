@@ -1,0 +1,21 @@
+{
+  "id": "smart-island",
+  "name": "Smart Island",
+  "tagline": "A pill by your camera that shows notifications, music and calls",
+  "description": "Smart Island puts a small pill around your phone's camera cutout or along the top edge of the screen, in the style of the Dynamic Island on iPhones. Notifications, music, calls, charging, timers and navigation show up in it, and a tap opens each one into a larger card. With idle widgets switched on, it also takes turns showing a clock, the date, the weather, your internet speed or your next alarm.\n\nOn a notification card you can reply to a message without leaving what you are doing, and music gets album art and track controls. It picks up timers and stopwatches from several clock apps, rides and deliveries, downloads, and system events such as earbud battery and headphones. About 30 events each have their own switch, and you can hide the island for chosen apps, such as games. You can swipe the pill in four directions to skip a track or clear notifications, open a quick launcher with pinned apps, and keep a searchable history of past notifications. Size and position can differ in portrait and landscape, and colours and fonts are yours to choose.\n\nYou need Android 8.0 or newer. It asks for notification access, permission to draw over other apps, and its accessibility service, which the app says lets it sit above the status bar. Shizuku, a helper app that lets other apps use extra system permissions without root, is optional and can set these up in one tap. The project says there is no account, no analytics and no cloud, and that notification content never leaves the phone. It does go online for the weather widget (Open-Meteo by default; without location permission, a lookup site guesses your area from your internet address) and to read release details from GitHub, and one setting turns it off. The face-scan unlock animation is still being built. The interface is in English, Spanish, Japanese, Brazilian Portuguese and Simplified Chinese.",
+  "repo": "https://github.com/agupta07505/SmartIsland",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "website": "https://smartisland.vercel.app/",
+  "tags": [
+    "dynamic island",
+    "notifications",
+    "overlay",
+    "camera cutout",
+    "live activities",
+    "widgets",
+    "status bar",
+    "notch"
+  ],
+  "added": "2026-10-20"
+}

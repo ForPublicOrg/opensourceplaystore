@@ -1,0 +1,22 @@
+{
+  "id": "pixelplayeross",
+  "name": "PixelPlayerOSS",
+  "tagline": "Play music from your phone or your own server",
+  "description": "PixelPlayerOSS is a music player for Android that plays the songs stored on your phone. It scans your storage for common audio files (MP3, FLAC, AAC, OGG, WAV and M4A) and sorts them into albums, artists, genres and folders. It is the free and open-source edition of a player called PixelPlayer, and it works offline by default.\n\nPlayback is gapless, with crossfade, a queue, shuffle, repeat and a sleep timer. You can keep favourites and playlists, see listening statistics, edit song details, and show lyrics from the song file or from .lrc lyrics files. If you run your own music server, you can sign in to Navidrome, Subsonic or Jellyfin (programs that stream a collection you keep on your own computer) to stream songs and save them for offline listening. A Smart Mix tool builds a playlist from a short description such as a mood or a decade, all on the phone. Colours follow your album art, or your wallpaper on Android 12 and newer, and there are home screen widgets. Settings, playlists and favourites can be backed up and restored.\n\nYou need Android 11 or newer, and streaming needs a server of your own. Online extras are off until you switch them on: lyrics from LRCLIB and artist pictures from Deezer. Song details from MusicBrainz are fetched only when you ask for a track. Sharing your plays with ListenBrainz is off by default and needs your own account. The project says it has no analytics or ads. Chromecast and Wear OS are not supported. The GitHub downloads are alpha test builds, published often, so expect rough edges. They check GitHub once a day for updates by default, sending no library data. The stable version comes through F-Droid, and the two are signed differently, so switching means uninstalling first. The interface is in English and several other languages, including German, Spanish, French, Italian, Korean, Russian, Turkish and Chinese.",
+  "repo": "https://github.com/PixelPlayerHQ/PixelPlayerOSS",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://pixelplayer.netlify.app/oss",
+  "status": "testing",
+  "tags": [
+    "music",
+    "player",
+    "offline",
+    "navidrome",
+    "subsonic",
+    "jellyfin",
+    "lyrics",
+    "self-hosted"
+  ],
+  "added": "2026-10-20"
+}

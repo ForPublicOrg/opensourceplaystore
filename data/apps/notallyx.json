@@ -1,0 +1,21 @@
+{
+  "id": "notallyx",
+  "name": "NotallyX",
+  "tagline": "Notes and task lists with reminders, backups and an app lock",
+  "description": "NotallyX is a note-taking app for Android that keeps things simple. You write notes and make task lists on your own phone, with no account to set up. It started as an extended version of Notally, also listed here, and has grown into an app of its own with many more features.\n\nNotes can use bold, italic, monospace and struck-through text, and web addresses, email addresses and phone numbers become clickable links. Task lists can have subtasks, and ticked items can move to the end of the list by themselves. You can attach pictures, PDFs and other files, record quick audio notes, and set reminders that show up as notifications. Colours, pins and labels help you sort things, notes can be shown as a list or a grid, and widgets put important notes on your home screen. You can bring in notes from Evernote, Google Keep and Quillpad. Backups can run by themselves to a folder you choose, and you can protect them with a password.\n\nYou need Android 7.0 or newer. There is no sync between devices, so you move notes to another phone with a backup file, and uninstalling deletes them unless you have one. Since version 7.11.3, daily backups are switched on by default and saved in a folder on the phone. You can lock the app with your fingerprint, face or phone PIN. Encrypting the notes themselves is a separate setting that the developer marks as experimental, so keep regular backups if you use it. The developer says there are no ads, trackers or analytics, and that notes stay on your device unless you back them up elsewhere. The developer lists its extra permissions, such as notifications and the microphone, as optional. The interface comes in about 30 languages, including German, Spanish, French, Japanese and Chinese. The developer also publishes test versions called BETA, which install as a separate app with their own notes.",
+  "repo": "https://github.com/Crustack/NotallyX",
+  "category": "productivity",
+  "license": "GPL-3.0",
+  "website": "https://crustack.github.io/NotallyX/",
+  "tags": [
+    "notes",
+    "note taking",
+    "checklist",
+    "to-do",
+    "reminders",
+    "rich text",
+    "backup",
+    "app lock"
+  ],
+  "added": "2026-10-20"
+}

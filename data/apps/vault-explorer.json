@@ -1,0 +1,20 @@
+{
+  "id": "vault-explorer",
+  "name": "Vault Explorer",
+  "tagline": "Open VeraCrypt, LUKS and BitLocker vaults on your phone",
+  "description": "Vault Explorer opens encrypted containers on your phone, without a computer. A container is a locked file or drive that hides what is inside until you give the right password, key file or recovery key. It opens ones made by VeraCrypt, LUKS and BitLocker, VHD and VHDX disk images, and the folder vaults made by Cryptomator, gocryptfs and CryFS. Once unlocked, you browse it like any file manager.\n\nInside a vault you can view photos, video, audio, PDFs and Office-style documents, and edit text files. There are simple image, video and audio editors, an archive browser for ZIP, 7-Zip and RAR files, a vault camera and a document scanner that save straight into the container, and a built-in vault for passwords and one-time login codes. It can create new containers, sync folders automatically and read and write USB drives without root. A panic option locks every vault and can clear the app's settings and saved passwords, and Mask Mode makes the app look like an ordinary file manager.\n\nYou need Android 8.0 or newer and the download that matches your phone (arm64, armeabi or x64). You bring your own containers or make new ones, and the developer cannot recover a lost password. The app has no internet permission and the developer says it has no analytics, crash reporting or adverts. Cloud containers are reached through Google Drive or another storage app, and an app you open a file with gets the decrypted file. Decryption happens in memory where possible; a few jobs, such as video recording, use a temporary file in private storage, wiped afterwards. The panic option leaves containers in shared storage, on USB or in the cloud alone, but its strongest level erases the app's own folders, so keep containers elsewhere. All-files access is optional. Automation for Tasker and MacroDroid is beta and off by default. The interface has 11 languages, including English, French, German and Spanish.",
+  "repo": "https://github.com/R0b0To/VaultExplorer",
+  "category": "security",
+  "license": "GPL-3.0",
+  "tags": [
+    "encryption",
+    "veracrypt",
+    "luks",
+    "bitlocker",
+    "cryptomator",
+    "gocryptfs",
+    "encrypted container",
+    "file manager"
+  ],
+  "added": "2026-10-20"
+}

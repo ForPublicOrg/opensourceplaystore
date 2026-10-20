@@ -1,0 +1,24 @@
+{
+  "id": "fushi",
+  "name": "Fushi",
+  "tagline": "Look up words in books, manga and video, then make flashcards",
+  "description": "Fushi is a language-learning app built around reading and watching real material instead of working through lessons. It is aimed at people learning Japanese, though other languages work if you import dictionaries. You open a book, a manga, a video or an audiobook, tap a word you do not know, and the dictionary answer appears on the spot.\n\nIt reads EPUB books and manga, using text recognition, which reads the words in a picture, so you can tap words straight off the page. It plays videos from your phone or from media servers such as Jellyfin, Emby and Plex, with lookup on the subtitles. Audiobooks follow along sentence by sentence. Words become flashcards in one tap, sent to AnkiDroid, a flashcard app, with the sentence, a picture and audio, or kept in the app's own built-in review. It can sync through Google Drive, OneDrive, Dropbox or a server of your own.\n\nNo dictionaries come built in. A first-run guide offers a single download of Japanese dictionaries and pronunciation audio, or you can import your own. It needs Android 7.0 or newer, each APK is about 200 MB, and the interface comes in 17 languages, English among them. By default the app sends the developer an install number, its version and update channel once a day to count active users; you can switch this off in the update settings. Manga text recognition defaults to Google Lens, which sends the page image to Google; an on-device model is available. AI features use your own provider account or key. Online sources come from third-party extensions that you add yourself and that run code inside the app, so only add ones you trust. A built-in download centre can also search public torrent sites for anime, films, TV and books. Those downloads come from other users, who can see your IP address, and you must follow the copyright rules where you live.",
+  "repo": "https://github.com/hajisensai/Fushi",
+  "category": "education",
+  "license": "GPL-3.0",
+  "website": "https://fushi.moe",
+  "antiFeatures": [
+    "tracking"
+  ],
+  "tags": [
+    "japanese",
+    "language learning",
+    "anki",
+    "manga",
+    "epub",
+    "subtitles",
+    "dictionary",
+    "immersion"
+  ],
+  "added": "2026-10-20"
+}

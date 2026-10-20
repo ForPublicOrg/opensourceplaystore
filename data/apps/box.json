@@ -1,0 +1,20 @@
+{
+  "id": "box",
+  "name": "Box",
+  "tagline": "Chat, make pictures and talk to AI that runs offline on your phone",
+  "description": "Box is an app for running AI models on your own phone, with no internet needed once a model is downloaded. You can chat with a model, ask it about a photo or a document, talk to it and hear it answer, or import model files of your own. It began as a copy (a fork) of Google's AI Edge Gallery, which is also listed here, and the developer says it is not affiliated with Google.\n\nBeyond chat, it can make pictures from a text description, make music and sound effects, enlarge, sharpen and clean up photos, rub unwanted things out of a picture, recognise objects and plants, and turn speech into text and text into speech. Box Assist is a talking camera for blind and low-vision people that calls out obstacles, reads mail and labels aloud, and describes what is in front of you. You can lock the app with your fingerprint or face, chat history is stored encrypted, and a Hard Offline Mode blocks network use.\n\nIt needs Android 14 or newer and a fairly recent phone: the project suggests about 6 GB of memory, or 8 GB for image generation. The app is about 600 MB, and models are separate downloads, from a few hundred megabytes to many gigabytes, fetched from sites such as Hugging Face, so use Wi-Fi. Each model has its own licence, some under Google's Gemma terms. A second build is offered for phones without Google services, such as GrapheneOS. The interface can be switched to French, German, Portuguese or Simplified Chinese, though much of the text stays in English. The developer says the usage-tracking code (Firebase) inherited from Google's app never sent anything and was removed. Note that the source code on GitHub is much older than the downloadable app (it last changed in April and is version 1.0.12, while the app is 3.5.5), so newer features and that claim cannot be checked.",
+  "repo": "https://github.com/jegly/Box",
+  "category": "tools",
+  "license": "Apache-2.0",
+  "tags": [
+    "ai",
+    "llm",
+    "offline",
+    "chatbot",
+    "image generation",
+    "voice",
+    "gguf",
+    "on-device"
+  ],
+  "added": "2026-10-20"
+}

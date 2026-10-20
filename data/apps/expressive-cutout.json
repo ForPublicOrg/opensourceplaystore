@@ -1,0 +1,21 @@
+{
+  "id": "expressive-cutout",
+  "name": "Expressive Cutout",
+  "tagline": "Show notifications, calls and music in an island at your camera cutout",
+  "description": "Expressive Cutout turns the camera cutout at the top of your screen (the small hole or notch where the front camera sits) into a little island that comes alive. It is modelled on the dynamic island on Apple's iPhones, but styled with Google's Material Expressive look: rounded shapes, springy movement and Material You colours, which are the colours Android picks to match your wallpaper.\n\nNotifications from your apps appear in the island with their own icons. You can use their action buttons or reply to a message right there. A music tile shows the song and artist with play, pause and skip buttons. A call tile shows the caller with answer and decline buttons, then the running call time. A timer tile mirrors the countdown from your clock app. Short alerts also appear for charging, low battery, Wi-Fi, headphones and USB. You can switch individual apps off, change the size, position, corner roundness, colours, animations and swipe gestures, and save your settings to a file to move them to another phone.\n\nIt is beta software, and the author says it began as a project to learn Android app building, with help from AI. You need Android 10 or newer. On first launch it asks you to turn on notification access and an accessibility service, which is how it draws over other apps and notices which app is in front. The service can also read a voice assistant's answer so the island can show it; the app says this is never stored. Two features need Shizuku, a helper app that lets other apps use extra system permissions without root: the dots that show when the camera, microphone or location is in use, and hiding the status bar icons. Everything else works without it. The app asks for no internet permission and has no analytics, so it cannot go online by itself. The interface is in English, French and Turkish.",
+  "repo": "https://github.com/EvanKoe/expressive-cutout",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "status": "testing",
+  "tags": [
+    "dynamic island",
+    "notifications",
+    "notch",
+    "punch hole",
+    "overlay",
+    "material you",
+    "music controls",
+    "shizuku"
+  ],
+  "added": "2026-10-20"
+}

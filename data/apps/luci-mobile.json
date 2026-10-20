@@ -1,0 +1,20 @@
+{
+  "id": "luci-mobile",
+  "name": "LuCI Mobile",
+  "tagline": "Manage your OpenWrt router from your phone",
+  "description": "LuCI Mobile is a remote control for your home router, as long as that router runs OpenWrt, a free replacement system for routers. It talks to the router's LuCI web interface (the admin pages you would normally open in a browser) so you can check on your network and change common settings from your phone. It is an independent project, not affiliated with OpenWrt.\n\nA dashboard shows speed, processor load, memory use, uptime and Wi-Fi signal. You can save several routers and switch between them, and give each one a backup address for when you are on another network. You can list every connected device, search it by name or address, give it a fixed address, block it, or wake it up over the network. You can also edit Wi-Fi names, security and channels, scan for nearby Wi-Fi networks, manage port forwards and firewall rules, start and stop services, run ping and traceroute from the router, read its logs, change its password and reboot it. Where the router allows it, changes use the router's own undo protection, so a setting that cuts you off is rolled back by the router, and the app tells you when that safety net is missing. Optional background alerts on Android report changes.\n\nYou need your own router running OpenWrt with LuCI switched on, plus two extra router packages called rpcd-mod-luci and rpcd-mod-iwinfo, which the project explains how to install; without them the dashboard may stay empty. To use it away from home, the router's firewall must be set up to allow that. The app asks before trusting a self-signed certificate, and the project recommends HTTPS on the router. Passwords and router details are kept on the phone in secure storage, and the project says it has no analytics, tracking or advertising. The interface comes in English, German, French, Italian, Spanish, Dutch, Russian, Polish, Czech, Slovak, Japanese, Korean and Chinese (simplified and traditional).",
+  "repo": "https://github.com/cogwheel0/luci-mobile",
+  "category": "tools",
+  "license": "GPL-3.0",
+  "tags": [
+    "openwrt",
+    "router",
+    "wifi",
+    "network",
+    "firewall",
+    "port forward",
+    "dhcp",
+    "wake on lan"
+  ],
+  "added": "2026-10-20"
+}

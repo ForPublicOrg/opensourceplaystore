@@ -1,0 +1,24 @@
+{
+  "id": "pipepipe",
+  "name": "PipePipe",
+  "tagline": "Watch and listen to YouTube, BiliBili and NicoNico without an account",
+  "description": "PipePipe is an app for watching and listening to videos from YouTube, BiliBili and NicoNico without their official apps. You can search, follow channels, make playlists and keep a watch history on the phone itself, with no account needed. It began in 2022 as a hard fork of NewPipe, a copy of its code that has been developed separately ever since. It also supports PeerTube and SoundCloud.\n\nVideos can play in the background like a music player, with a sleep timer for bedtime. You can swipe to seek and press and hold to speed playback up. It can skip sponsored segments on YouTube and BiliBili using SponsorBlock, a community-made list of such moments. For YouTube it can also show dislike counts again (an option that starts switched off) and original video titles instead of translated ones. You can hide Shorts, videos that need payment and anything matching keywords or channels you choose. Whole playlists can be downloaded at once. Live chat can scroll across the video in the danmaku style.\n\nIt depends on YouTube, BiliBili and NicoNico, closed services run by other companies, so a change on their side can break things until the app is fixed. You need Android 6 or newer. Each release has four APK files, and the release notes say the arm64-v8a one suits most phones. Signing in is optional, and the app suggests it only for things like age-restricted videos. The developer says the login cookie is only used for the features you switch on, and that the app shows no ads and collects no data. On first launch it asks whether it may check GitHub for new versions of itself. Beta test versions are published too, and the app offers them only if you turn on pre-releases. A proxy setting for getting past YouTube network blocks needs a token from a donation. The interface comes in many languages, including German, Spanish, French, Japanese, Chinese and Arabic.",
+  "repo": "https://github.com/InfinityLoop1308/PipePipe",
+  "category": "media",
+  "license": "GPL-3.0",
+  "website": "https://pipepipe.dev",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "youtube",
+    "video player",
+    "newpipe",
+    "sponsorblock",
+    "bilibili",
+    "niconico",
+    "background playback",
+    "download videos"
+  ],
+  "added": "2026-10-20"
+}

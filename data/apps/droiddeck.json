@@ -1,0 +1,23 @@
+{
+  "id": "droiddeck",
+  "name": "DroidDeck",
+  "tagline": "Play your Steam and Windows PC games on an Android handheld",
+  "description": "DroidDeck brings an experience like SteamOS, the system on Valve's Steam Deck, to a suitable Android handheld or phone. It opens Steam in Big Picture, the full-screen mode made for controllers, and runs Windows games from your own Steam library through Proton, Valve's tool for running Windows games on Linux, in a version built for phone-style ARM processors.\n\nYou can sign in to GOG, Epic Games and Amazon Games and play the games you own there. A Store section installs Linux apps from Flathub, a catalogue of Linux software, and an optional desktop with emulators can be added in the app. Other features include touch and gamepad controls, a performance overlay, a choice of graphics drivers and a Storage page that clears out leftovers that are safe to remove. It also works with some smart glasses (VITURE, RayNeo and XREAL), SteamVR on Meta Quest 3 and Cardboard-style VR, though some of that is experimental.\n\nYou need a Qualcomm Adreno graphics chip (730 or newer, or the 8xx range), Android 9 or newer and your own Steam account. No root is needed. Adreno 6xx is only experimental, and Mali, Xclipse, PowerVR and Adreno 710 are not supported. Allow about 3 GB for the runtime and 1.1 GB more for the desktop and emulators. The app downloads Valve's closed Steam client on first launch, relies on Valve's servers and the Epic, GOG and Amazon stores, and is not affiliated with Valve. On Android 14 and newer you must switch on \"Disable child process restrictions\" in Developer options before Steam starts; on Android 12 and 13 the app can set this up over Wireless debugging. The developers say hardware testing is limited, so some games may crash. The interface is in English and 32 other languages. Logs stay on your device unless you share them. The releases page also lists renamed copies ending in pubg, antutu or ludashi; use the plain DroidDeck file.",
+  "repo": "https://github.com/Droid-Deck/DroidDeck",
+  "category": "games",
+  "license": "GPL-3.0",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "steam",
+    "steam deck",
+    "proton",
+    "pc games",
+    "windows games",
+    "handheld",
+    "epic games",
+    "gog"
+  ],
+  "added": "2026-10-20"
+}

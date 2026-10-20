@@ -1,0 +1,20 @@
+{
+  "id": "tapbar",
+  "name": "Tapbar",
+  "tagline": "Tap zones on your screen that open apps and quick actions",
+  "description": "Tapbar lets you place small invisible tap zones anywhere on your screen, for example over the status bar (the strip at the top with the clock and battery). Tap, double tap, triple tap or long press a zone and it opens an app, an app shortcut or a quick action.\n\nYou can make up to four zones, each with its own position, size and gestures. Swiping across a zone can change the volume or the brightness. There are about 100 quick actions, such as the flashlight, Do Not Disturb, a screenshot, the power menu, switching back to the previous app, scrolling to the top of a page, and copy and paste. A zone can also post a short notification that automation apps like Tasker, MacroDroid and Automate can use as a trigger. You can pause Tapbar in chosen apps, start it at boot, choose a light or dark theme, and back up and restore your settings.\n\nTapbar needs the Display over other apps permission, and it works best with its accessibility service turned on, which lets it sit on the status bar and see which app is in front. Scroll, copy and paste actions also go through that service. Accessibility is a powerful permission, though the developer says Tapbar does not read or send your screen text. A few actions ask for extra access, such as Do Not Disturb access or permission to modify system settings. It is not on the Play Store, so Android may show a Restricted setting message when you turn the permissions on, and Play Protect may flag it. It needs Android 8 or newer and has no internet permission, and the developer says there are no ads or analytics. The interface is in English plus German, Spanish, French, Hindi, Japanese, Korean, Nepali, Portuguese, Russian, Turkish and Chinese, and the developer says some of the translations were made by machine.",
+  "repo": "https://github.com/Earendel-lab/Tapbar",
+  "category": "tools",
+  "license": "MIT",
+  "tags": [
+    "status bar",
+    "tap zones",
+    "gestures",
+    "launcher",
+    "shortcuts",
+    "quick actions",
+    "automation",
+    "tasker"
+  ],
+  "added": "2026-10-20"
+}

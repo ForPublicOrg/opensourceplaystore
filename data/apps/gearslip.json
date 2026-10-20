@@ -1,0 +1,20 @@
+{
+  "id": "gearslip",
+  "name": "Gearslip",
+  "tagline": "An Android Auto alternative for your car screen, without Google software",
+  "description": "Gearslip is an app for your phone that does the job of Android Auto, which puts maps, music and calls on a car's screen. It talks to the car directly over USB or, in cars with wireless Android Auto, wirelessly, with no Google software involved. Navigation apps with a car screen, such as Organic Maps and OsmAnd, show on the car display, and other apps can be screen shared.\n\nYou can dial from a keypad or search contacts, and answer or decline calls. There is a music player with a queue and lyrics, a web browser with its own keyboard for use while parked, and a dashboard with the week's calendar and weather. Tap the microphone or the steering wheel's talk button to ask for a place, a song or a call. Speech is turned into text on the phone itself. New messages are read aloud, and you can reply by voice.\n\nThis is alpha software, and the release notes say phone calls are unstable and may drop. You need Android 12 or newer on a phone with a 64-bit ARM processor, the kind most phones use, and a car that supports Android Auto. Most cars work, but some made since around 2020 reject Gearslip's security certificate, so check the project's list of working cars. On first launch you download an Android Auto certificate from the open-source aasdk project, or import your own. It asks for contacts, calendar, microphone and location access, and you can skip any. Spotify, Waze and Google Messages will not show their car screens in it, though Spotify still plays through Gearslip's own player. Weather comes from Open-Meteo, a free online service that is sent your phone's location. Gearslip checks GitHub daily for updates, which you can turn off, and sends usage notes about which cars work only if you turn them on. The interface is in English.",
+  "repo": "https://github.com/twinksoftware/Gearslip",
+  "category": "tools",
+  "license": "AGPL-3.0",
+  "status": "testing",
+  "tags": [
+    "android auto",
+    "car",
+    "head unit",
+    "driving",
+    "navigation",
+    "infotainment",
+    "voice control"
+  ],
+  "added": "2026-10-20"
+}

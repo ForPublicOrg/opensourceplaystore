@@ -1,0 +1,23 @@
+{
+  "id": "quax",
+  "name": "QuaX",
+  "tagline": "Read, search and save X posts without the official app",
+  "description": "QuaX is an unofficial app for reading X, the social network that used to be called Twitter. You can open profiles, read posts and replies, search, and browse trending topics. It began as a fork of two older apps, Fritter and Quacker.\n\nIn QuaX the people you follow are stored on your phone only, so you can follow anybody and sort them into groups, each with its own feed, without touching your real X account. Search has filters for language, accounts, links, media, likes and dates. You can save posts into folders, download pictures, GIFs and videos, read X articles, open a deleted post through the Internet Archive, choose which buttons sit under each post, and back up your settings and saved posts.\n\nBefore installing, know that QuaX needs an X account to log in, because X only shows its content to logged-in people. It need not be your own, and the developer suggests a separate account made just for QuaX. The app is for reading only: it never posts, reposts or follows for you, and the heart is a private favourite kept on your phone. It copies the way X's website talks to X, which is neither official nor documented, so it can stop working for a while when X changes things. X is not told who you follow in QuaX, but it could work that out from the searches the app sends to build your feeds. A backup can include your login cookies if you choose to export your accounts, so keep it private. The developer says QuaX has no trackers and collects no data, and that it has never had a security audit. When it starts it asks GitHub for the latest version number, which you can turn off in settings. It is not on F-Droid, so you install the APK from the GitHub releases page. The interface comes in English and many other languages.",
+  "repo": "https://github.com/Teskann/QuaX",
+  "category": "social",
+  "license": "MIT",
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "tags": [
+    "twitter",
+    "x",
+    "tweets",
+    "timeline",
+    "social media",
+    "privacy",
+    "feeds",
+    "client"
+  ],
+  "added": "2026-10-20"
+}
