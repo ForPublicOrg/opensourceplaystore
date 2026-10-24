@@ -1,0 +1,25 @@
+{
+  "id": "honeyproxyutility",
+  "name": "HoneyProxyUtility",
+  "tagline": "Connect through VPN servers and manage your subscriptions",
+  "description": "HoneyProxyUtility is a free, open-source VPN and proxy client for Android. Add compatible server links, scan a QR code or import a subscription URL, then choose a server and connect. You can use your own server or a compatible provider subscription. The app also includes a free server option and a provider catalog; provider services may charge separately.\n\nIt tests server latency, keeps favorites, refreshes subscriptions and provides routing controls. The interface is available in English and Russian, with light and dark themes.\n\nCompatible profile families include VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC and WireGuard. AmneziaWG support covers a documented subset of parameters. Not every transport option or extension is supported; see the project documentation for compatibility limits.\n\nThe Android app requires Android 7.0 or later and uses Android's VPN permission to create a tunnel. Requests for subscriptions, geo-data and updates contact their corresponding sources. A diagnostic report is sent to Honey support only when the user chooses to send it. Your VPN provider and other network services have their own privacy policies. An official Windows edition is also available.",
+  "repo": "https://github.com/HoneyVPN/HoneyProxyUtility",
+  "category": "security",
+  "license": "GPL-3.0-or-later",
+  "icon": "https://raw.githubusercontent.com/HoneyVPN/HoneyProxyUtility/v1.2.2/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+  "website": "https://honeyvpn.ru/utility.html",
+  "download": "https://github.com/HoneyVPN/HoneyProxyUtility/releases/tag/v1.2.2",
+  "tags": [
+    "vpn",
+    "proxy",
+    "vless",
+    "hysteria2",
+    "wireguard",
+    "subscriptions",
+    "routing"
+  ],
+  "antiFeatures": [
+    "nonfree-network"
+  ],
+  "added": "2026-10-24"
+}
