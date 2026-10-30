@@ -1,0 +1,11 @@
+{
+  "id": "riplay",
+  "name": "RiPlay",
+  "tagline": "Multiplatform Music Player",
+  "description": "Multiplatform Music Player",
+  "repo": "https://github.com/fast4x/RiPlay",
+  "category": "media",
+  "license": "GPL-3.0",
+  "icon": "https://raw.githubusercontent.com/fast4x/RiPlay/main/assets%2Fdesign%2Flatest%2Fapp_icon.svg",
+  "added": "2026-10-30"
+}
