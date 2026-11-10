@@ -1,0 +1,17 @@
+{
+  "id": "openblur",
+  "name": "OpenBlur",
+  "tagline": "Blur the faces you choose in a video, on your phone",
+  "description": "OpenBlur blurs the faces you choose in a video. It finds every face, groups the faces by person, and lets you pick who stays visible. Then it saves a new copy. Your original video is not changed.\n\nEverything happens on your phone. OpenBlur has no network permission, so it cannot upload your video.\n\nYou can blur everyone or leave chosen people visible, pick blur, mosaic or a solid colour in an oval, a rectangle or a band across the eyes, and draw your own areas for a missed face, a number plate or a screen. The preview shows the same effect that goes into the saved file.\n\nThe saved copy keeps the original's resolution, rotation, frame timing and codec, and the audio track is copied unchanged. After saving, OpenBlur reads the new file back and shows it next to the original so you can check it.",
+  "repo": "https://github.com/vikas0706/openblur",
+  "category": "media",
+  "license": "GPL-3.0",
+  "tags": [
+    "blur",
+    "face blur",
+    "video",
+    "privacy",
+    "mosaic",
+    "offline"
+  ]
+}
