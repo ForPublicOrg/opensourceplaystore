@@ -1,8 +1,8 @@
 {
   "id": "trayzero",
-  "name": "TrayZero",
-  "tagline": "A private task manager that keeps your to-dos on your device",
-  "description": "TrayZero is a task manager built around the Getting Things Done (GTD) method, with everything kept on your own device. There's no account to sign up for and nothing gets sent to a server.\n\nIt's free and open source, made for people who want a serious task manager without handing their to-do list over to a company.",
+  "name": "Trayzero",
+  "tagline": "A local-first Getting Things Done task manager",
+  "description": "Trayzero is a free, open-source Getting Things Done (GTD) app. Tasks and notes are stored on your device, and no Trayzero account is required. There is no cross-device task sync.\n\nAndroid builds use RevenueCat for purchase checks and analytics; optional integrations may contact the services you choose. See https://trayzero.app/privacy for details.",
   "repo": "https://github.com/roman10/trayzero",
   "category": "productivity",
   "license": "GPL-3.0",
